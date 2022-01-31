@@ -1,6 +1,6 @@
 # D3FEND Change Log
 
-## Version - 0.10.0-BETA-1 - 2021-12-15
+## Version - 0.10.0-BETA-2 - 2022-01-31
 
 ### User Interface
 
