@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="theme-color" content="#333333" />
+  
+  <link rel="stylesheet" href="/global-d3fend.css" />
+  <link rel="icon" type="image/png" href="/favicon.ico" />
+  
+  <!-- This contains the contents of the <svelte:head> component, if
+    the current page has one -->
+    <meta http-equiv="content-security-policy" content=""><title>ATT&amp;CK Mitigations to D3FEND Mappings | MITRE D3FEND™</title>
+	<link rel="stylesheet" href="/_app/assets/pages/__layout-matrix.svelte-5f711740.css">
+	<link rel="stylesheet" href="/_app/assets/Nav-mobile-e0f80dc0.css">
+	<link rel="modulepreload" href="/_app/start-8835b515.js">
+	<link rel="modulepreload" href="/_app/chunks/index-a02da30e.js">
+	<link rel="modulepreload" href="/_app/chunks/index-98a102c4.js">
+	<link rel="modulepreload" href="/_app/chunks/singletons-d1fb5791.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-bf1d64e1.js">
+	<link rel="modulepreload" href="/_app/chunks/Nav-mobile-8b1e0bf1.js">
+	<link rel="modulepreload" href="/_app/chunks/stores-59d8ae96.js">
+	<link rel="modulepreload" href="/_app/chunks/stores-cf129ad8.js">
+	<link rel="modulepreload" href="/_app/chunks/config-6e32f34b.js">
+	<link rel="modulepreload" href="/_app/chunks/lib-cf80d2a1.js">
+	<link rel="modulepreload" href="/_app/chunks/marked.esm-8ab30116.js">
+	<link rel="modulepreload" href="/_app/pages/mappings/__layout.svelte-9c60b20b.js">
+	<link rel="modulepreload" href="/_app/pages/mappings/attack-mitigations.svelte-c3b092e4.js">
+	<link rel="modulepreload" href="/_app/chunks/Title-1d23c88f.js">
+				<script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/service-worker.js');
+		}
+	</script>
+  </head>
+  <body>
+    <!-- The application will be rendered inside this element,
+      because `src/client.js` references it -->
+      <div>
+
+
+<nav class="svelte-acckgo">
+
+
+    <nav id="desktop" class="svelte-posd1r"><ul class="text-1 svelte-posd1r"><li class="logo svelte-posd1r"><a href="/" class="svelte-posd1r"><img alt="MITRE logo" src="/img/mitre.png" class="svelte-posd1r"></a></li>
+
+    
+    
+      <li class="svelte-posd1r"><a href="/" class="svelte-posd1r">matrix</a></li>
+      <li class="svelte-posd1r"><a href="/dao" class="svelte-posd1r">artifacts</a></li>
+      <li class="svelte-posd1r"><a href="/about" class="svelte-posd1r">about</a></li>
+      <li class="svelte-posd1r"><a href="/resources" class="glow svelte-posd1r">resources</a></li>
+      <li class="svelte-posd1r"><a href="/contribute" class="glow svelte-posd1r">contribute</a></li>
+      <li class="svelte-posd1r"><a href="/faq" class="svelte-posd1r">faq</a></li>
+
+      <li class="logo logo-right svelte-posd1r"><a href="https://www.nsa.gov" class="svelte-posd1r"><img id="sponsor_logo" alt="NSA logo" src="/img/nsa.png" class="svelte-posd1r"></a></li></ul></nav>
+
+<nav id="mobile"><div><button aria-label="Close Mobile Menu" class="svelte-1ea8tj3"><svg width="32" height="24" class="svelte-1ea8tj3"><line id="top" x1="0" y1="2" x2="32" y2="2" class="svelte-1ea8tj3"></line><line id="middle" x1="0" y1="12" x2="24" y2="12" class="svelte-1ea8tj3"></line><line id="bottom" x1="0" y1="22" x2="32" y2="22" class="svelte-1ea8tj3"></line></svg>
+</button></div>
+</nav></nav>
+  <main class="svelte-acckgo"><main>
+
+<section class="content"><h1>ATT&amp;CK Mitigations to D3FEND Technique Mappings</h1>
+  <p>The D3FEND team created this mapping in order to help users navigate between
+    the two knowledgebases.
+  </p></section>
+
+<section><div class=""><div class="card stretch shrink center"><div class="results-wrap"><div class="text-right"><button class="selector">select</button>
+          <button>copy</button></div>
+        <table id="mappings" class="table-auto"><thead><th>ATT&amp;CK ID</th>
+            <th>ATT&amp;CK Mitigation</th>
+            <th>Related D3FEND Techniques</th>
+            <th>Comment</th></thead>
+          <tr><td class="text-center">M1013</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1013/">Application Developer Guidance
+                  </a></td>
+                <td></td>
+                <td style="width: 15rem;"><small>A future release of D3FEND will define a taxonomy of Source Code Hardening Techniques.</small>
+                </td>
+            </tr><tr><td class="text-center">M1015</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1015/">Active Directory Configuration
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-ANCI</span>
+                        <span><a href="/technique/d3f:AuthenticationCacheInvalidation" title="Removing tokens or credentials from an authentication cache to prevent further user associated account accesses.">Authentication Cache Invalidation
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-DTP</span>
+                        <span><a href="/technique/d3f:DomainTrustPolicy" title="Restricting inter-domain trust by modifying domain configuration.">Domain Trust Policy
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-UAP</span>
+                        <span><a href="/technique/d3f:UserAccountPermissions" title="Restricting a user account&#39;s access to resources.">User Account Permissions
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small>M1015 scope is broad, touches on an wide variety of techniques in D3FEND.</small>
+                </td>
+            </tr><tr><td class="text-center">M1016</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1016/">Vulnerability Scanning
+                  </a></td>
+                <td></td>
+                <td style="width: 15rem;"><small>Future D3FEND releases will model the scanning and inventory domains.</small>
+                </td>
+            </tr><tr><td class="text-center">M1017</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1017/">User Training
+                  </a></td>
+                <td></td>
+                <td style="width: 15rem;"><small>Modeling user training is  outside the scope of D3FEND.</small>
+                </td>
+            </tr><tr><td class="text-center">M1018</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1018/">User Account Management
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-LFP</span>
+                        <span><a href="/technique/d3f:LocalFilePermissions" title="Restricting access to a local file by configuring operating system functionality.">Local File Permissions
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-MAC</span>
+                        <span><a href="/technique/d3f:MandatoryAccessControl" title="Controlling access to local computer system resources with kernel-level capabilities.">Mandatory Access Control
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-SCP</span>
+                        <span><a href="/technique/d3f:SystemConfigurationPermissions" title="Restricting system configuration modifications to a specific user or group of users.">System Configuration Permissions
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1019</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1019/">Threat Intelligence Program
+                  </a></td>
+                <td></td>
+                <td style="width: 15rem;"><small>Establishing and running a Threat Intelligence Program is outside the scope of D3FEND.</small>
+                </td>
+            </tr><tr><td class="text-center">M1020</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1020/">SSL/TLS Inspection
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-NTA</span>
+                        <span><a href="/technique/d3f:NetworkTrafficAnalysis" title="Analyzing intercepted or summarized computer network traffic to detect unauthorized activity.">Network Traffic Analysis
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small>D3FEND models this as an infrastructure dependency to support D3-NTA.</small>
+                </td>
+            </tr><tr><td class="text-center">M1021</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1021/">Restrict Web-Based Content
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-DNSAL</span>
+                        <span><a href="/technique/d3f:DNSAllowlisting" title="Permitting only approved domains and their subdomains to be resolved.">DNS Allowlisting
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-DNSDL</span>
+                        <span><a href="/technique/d3f:DNSDenylisting" title="Blocking DNS Network Traffic based on criteria such as IP address, domain name, or DNS query type.">DNS Denylisting
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-FA</span>
+                        <span><a href="/technique/d3f:FileAnalysis" title="File Analysis is an analytic process to determine a file&#39;s status. For example: virus, trojan, benign, malicious, trusted, unauthorized, sensitive, etc.">File Analysis
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-ITF</span>
+                        <span><a href="/technique/d3f:InboundTrafficFiltering" title="Restricting network traffic originating from untrusted networks destined towards a private host or enclave.">Inbound Traffic Filtering
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-NTA</span>
+                        <span><a href="/technique/d3f:NetworkTrafficAnalysis" title="Analyzing intercepted or summarized computer network traffic to detect unauthorized activity.">Network Traffic Analysis
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-OTF</span>
+                        <span><a href="/technique/d3f:OutboundTrafficFiltering" title="Restricting network traffic originating from a private host or enclave destined towards untrusted networks.">Outbound Traffic Filtering
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-UA</span>
+                        <span><a href="/technique/d3f:URLAnalysis" title="Determining if a URL is benign or malicious by analyzing the URL or its components.">URL Analysis
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small>M1021 scope is broad, touches on an wide variety of techniques in d3fend.</small>
+                </td>
+            </tr><tr><td class="text-center">M1022</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1022/">Restrict File and Directory Permissions
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-LFP</span>
+                        <span><a href="/technique/d3f:LocalFilePermissions" title="Restricting access to a local file by configuring operating system functionality.">Local File Permissions
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1024</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1024/">Restrict Registry Permission
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-SCP</span>
+                        <span><a href="/technique/d3f:SystemConfigurationPermissions" title="Restricting system configuration modifications to a specific user or group of users.">System Configuration Permissions
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1025</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1025/">Privileged Process Integrity
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-BA</span>
+                        <span><a href="/technique/d3f:BootloaderAuthentication" title="Cryptographically authenticating the bootloader software before system boot.">Bootloader Authentication
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-DLIC</span>
+                        <span><a href="/technique/d3f:DriverLoadIntegrityChecking" title="Ensuring the integrity of drivers loaded during initialization of the operating system.">Driver Load Integrity Checking
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-MAC</span>
+                        <span><a href="/technique/d3f:MandatoryAccessControl" title="Controlling access to local computer system resources with kernel-level capabilities.">Mandatory Access Control
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-PSEP</span>
+                        <span><a href="/technique/d3f:ProcessSegmentExecutionPrevention" title="Preventing execution of any address in a memory region other than the code segment.">Process Segment Execution Prevention
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1026</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1026/">Privileged Account Management
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-DAM</span>
+                        <span><a href="/technique/d3f:DomainAccountMonitoring" title="Monitoring the existence of or changes to Domain User Accounts.">Domain Account Monitoring
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-LAM</span>
+                        <span><a href="/technique/d3f:LocalAccountMonitoring" title="Analyzing local user accounts to detect unauthorized activity.">Local Account Monitoring
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-SPP</span>
+                        <span><a href="/technique/d3f:StrongPasswordPolicy" title="Modifying system configuration to increase password strength.">Strong Password Policy
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1027</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1027/">Password Policies
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-OTP</span>
+                        <span><a href="/technique/d3f:One-timePassword" title="A one-time password is valid for only one user authentication.">One-time Password
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-SPP</span>
+                        <span><a href="/technique/d3f:StrongPasswordPolicy" title="Modifying system configuration to increase password strength.">Strong Password Policy
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1028</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1028/">Operating System Configuration
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-PH</span>
+                        <span><a href="/technique/d3f:PlatformHardening" title="Hardening components of a Platform with the intention of making them more difficult to exploit.
+
+Platforms includes components such as:
+* BIOS UEFI Subsystems
+* Hardware security devices such as Trusted Platform Modules
+* Boot process logic or code
+* Kernel software components">Platform Hardening
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1029</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1029/">Remote Data Storage
+                  </a></td>
+                <td></td>
+                <td style="width: 15rem;"><small>IT disaster recovery plans are outside the current scope of D3FEND.</small>
+                </td>
+            </tr><tr><td class="text-center">M1030</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1030/">Network Segmentation
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-BDI</span>
+                        <span><a href="/technique/d3f:BroadcastDomainIsolation" title="Broadcast isolation restricts the number of computers a host can contact on their LAN.">Broadcast Domain Isolation
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-ET</span>
+                        <span><a href="/technique/d3f:EncryptedTunnels" title="Encrypted encapsulation of routable network traffic.">Encrypted Tunnels
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-ISVA</span>
+                        <span><a href="/technique/d3f:InboundSessionVolumeAnalysis" title="Analyzing inbound network session or connection attempt volume.">Inbound Session Volume Analysis
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-ITF</span>
+                        <span><a href="/technique/d3f:InboundTrafficFiltering" title="Restricting network traffic originating from untrusted networks destined towards a private host or enclave.">Inbound Traffic Filtering
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1031</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1031/">Network Intrusion Prevention
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-ITF</span>
+                        <span><a href="/technique/d3f:InboundTrafficFiltering" title="Restricting network traffic originating from untrusted networks destined towards a private host or enclave.">Inbound Traffic Filtering
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-NTA</span>
+                        <span><a href="/technique/d3f:NetworkTrafficAnalysis" title="Analyzing intercepted or summarized computer network traffic to detect unauthorized activity.">Network Traffic Analysis
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-OTF</span>
+                        <span><a href="/technique/d3f:OutboundTrafficFiltering" title="Restricting network traffic originating from a private host or enclave destined towards untrusted networks.">Outbound Traffic Filtering
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1032</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1032/">Multi-factor Authentication
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-MFA</span>
+                        <span><a href="/technique/d3f:Multi-factorAuthentication" title="Requiring proof of two or more pieces of evidence in order to authenticate a user.">Multi-factor Authentication
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1033</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1033/">Limit Software Installation
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-EAL</span>
+                        <span><a href="/technique/d3f:ExecutableAllowlisting" title="Using a digital signature to authenticate a file before opening.">Executable Allowlisting
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-EDL</span>
+                        <span><a href="/technique/d3f:ExecutableDenylisting" title="Blocking the execution of files on a host in accordance with defined application policy rules.">Executable Denylisting
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1034</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1034/">Limit Hardware Installation
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-IOPR</span>
+                        <span><a href="/technique/d3f:IOPortRestriction" title="Limiting access to computer input/output (IO) ports to restrict unauthorized devices.">IO Port Restriction
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1035</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1035/">Limit Access to Resource Over Network
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-NI</span>
+                        <span><a href="/technique/d3f:NetworkIsolation" title="Network Isolation techniques prevent network hosts from accessing non-essential system network resources.">Network Isolation
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1036</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1036/">Account Use Policies
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-AL</span>
+                        <span><a href="/technique/d3f:AccountLocking" title="The process of temporarily disabling user accounts on a system or domain.">Account Locking
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-ANCI</span>
+                        <span><a href="/technique/d3f:AuthenticationCacheInvalidation" title="Removing tokens or credentials from an authentication cache to prevent further user associated account accesses.">Authentication Cache Invalidation
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-ANET</span>
+                        <span><a href="/technique/d3f:AuthenticationEventThresholding" title="Collecting authentication events, creating a baseline user profile, and determining whether authentication events are consistent with the baseline profile.">Authentication Event Thresholding
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small>D3-AZET may be related (is potentially related though not called out in ATT&amp;CK definition.)</small>
+                </td>
+            </tr><tr><td class="text-center">M1037</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1037/">Filter Network Traffic
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-NI</span>
+                        <span><a href="/technique/d3f:NetworkIsolation" title="Network Isolation techniques prevent network hosts from accessing non-essential system network resources.">Network Isolation
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1038</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1038/">Execution Prevention
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-DLIC</span>
+                        <span><a href="/technique/d3f:DriverLoadIntegrityChecking" title="Ensuring the integrity of drivers loaded during initialization of the operating system.">Driver Load Integrity Checking
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-EAL</span>
+                        <span><a href="/technique/d3f:ExecutableAllowlisting" title="Using a digital signature to authenticate a file before opening.">Executable Allowlisting
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-EDL</span>
+                        <span><a href="/technique/d3f:ExecutableDenylisting" title="Blocking the execution of files on a host in accordance with defined application policy rules.">Executable Denylisting
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-PSEP</span>
+                        <span><a href="/technique/d3f:ProcessSegmentExecutionPrevention" title="Preventing execution of any address in a memory region other than the code segment.">Process Segment Execution Prevention
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1039</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1039/">Environment Variable Permissions
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-ACH</span>
+                        <span><a href="/technique/d3f:ApplicationConfigurationHardening" title="Modifying an application&#39;s configuration to reduce its attack surface.">Application Configuration Hardening
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-SFA</span>
+                        <span><a href="/technique/d3f:SystemFileAnalysis" title="Monitoring system files such as authentication databases, configuration files, system logs, and system executables for modification or tampering.">System File Analysis
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1040</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1040/">Behavior Prevention on Endpoint
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-ANET</span>
+                        <span><a href="/technique/d3f:AuthenticationEventThresholding" title="Collecting authentication events, creating a baseline user profile, and determining whether authentication events are consistent with the baseline profile.">Authentication Event Thresholding
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-AZET</span>
+                        <span><a href="/technique/d3f:AuthorizationEventThresholding" title="Collecting authorization events, creating a baseline user profile, and determining whether authorization events are consistent with the baseline profile.">Authorization Event Thresholding
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-JFAPA</span>
+                        <span><a href="/technique/d3f:JobFunctionAccessPatternAnalysis" title="Detecting anomalies in user access patterns by comparing user access activity to behavioral profiles that categorize users by role such as job title, function, department.">Job Function Access Pattern Analysis
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-RAPA</span>
+                        <span><a href="/technique/d3f:ResourceAccessPatternAnalysis" title="Analyzing the resources accessed by a user to identify unauthorized activity.">Resource Access Pattern Analysis
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-SDA</span>
+                        <span><a href="/technique/d3f:SessionDurationAnalysis" title="Analyzing the duration of user sessions in order to detect unauthorized  activity.">Session Duration Analysis
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-UDTA</span>
+                        <span><a href="/technique/d3f:UserDataTransferAnalysis" title="Analyzing the amount of data transferred by a user.">User Data Transfer Analysis
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-UGLPA</span>
+                        <span><a href="/technique/d3f:UserGeolocationLogonPatternAnalysis" title="Monitoring geolocation data of user logon attempts and comparing it to a baseline user behavior profile to identify anomalies in logon location.">User Geolocation Logon Pattern Analysis
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-WSAA</span>
+                        <span><a href="/technique/d3f:WebSessionActivityAnalysis" title="Monitoring changes in user web session behavior by comparing current web session activity to a baseline behavior profile or a catalog of predetermined malicious behavior.">Web Session Activity Analysis
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1041</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1041/">Encrypt Sensitive Information
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-DENCR</span>
+                        <span><a href="/technique/d3f:DiskEncryption" title="Encrypting a hard disk partition to prevent cleartext access to a file system.">Disk Encryption
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-ET</span>
+                        <span><a href="/technique/d3f:EncryptedTunnels" title="Encrypted encapsulation of routable network traffic.">Encrypted Tunnels
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-FE</span>
+                        <span><a href="/technique/d3f:FileEncryption" title="Encrypting a file using a cryptographic key.">File Encryption
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-MENCR</span>
+                        <span><a href="/technique/d3f:MessageEncryption" title="Encrypting a message body using a cryptographic key.">Message Encryption
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1042</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1042/">Disable or Remove Feature or Program
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-ACH</span>
+                        <span><a href="/technique/d3f:ApplicationConfigurationHardening" title="Modifying an application&#39;s configuration to reduce its attack surface.">Application Configuration Hardening
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-EDL</span>
+                        <span><a href="/technique/d3f:ExecutableDenylisting" title="Blocking the execution of files on a host in accordance with defined application policy rules.">Executable Denylisting
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-MAC</span>
+                        <span><a href="/technique/d3f:MandatoryAccessControl" title="Controlling access to local computer system resources with kernel-level capabilities.">Mandatory Access Control
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1043</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1043/">Credential Access Protection
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-HBPI</span>
+                        <span><a href="/technique/d3f:Hardware-basedProcessIsolation" title="Preventing one process from writing to the memory space of another process through hardware based address manager implementations.">Hardware-based Process Isolation
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1044</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1044/">Restrict Library Loading
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-SCF</span>
+                        <span><a href="/technique/d3f:SystemCallFiltering" title="Configuring a kernel to use an allow or deny list to filter kernel api calls.">System Call Filtering
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small>D3-SCF is one possible way to filter library loading.</small>
+                </td>
+            </tr><tr><td class="text-center">M1045</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1045/">Code Signing
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-DLIC</span>
+                        <span><a href="/technique/d3f:DriverLoadIntegrityChecking" title="Ensuring the integrity of drivers loaded during initialization of the operating system.">Driver Load Integrity Checking
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-EAL</span>
+                        <span><a href="/technique/d3f:ExecutableAllowlisting" title="Using a digital signature to authenticate a file before opening.">Executable Allowlisting
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-SBV</span>
+                        <span><a href="/technique/d3f:ServiceBinaryVerification" title="Analyzing changes in service binary files by comparing to a source of truth.">Service Binary Verification
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1046</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1046/">Boot Integrity
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-BA</span>
+                        <span><a href="/technique/d3f:BootloaderAuthentication" title="Cryptographically authenticating the bootloader software before system boot.">Bootloader Authentication
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-TBI</span>
+                        <span><a href="/technique/d3f:TPMBootIntegrity" title="Assuring the integrity of a platform by demonstrating that the boot process starts from a trusted combination of hardware and software and continues until the operating system has fully booted and applications are running.  Sometimes called Static Root of Trust Measurement (STRM).">TPM Boot Integrity
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1047</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1047/">Audit
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-DAM</span>
+                        <span><a href="/technique/d3f:DomainAccountMonitoring" title="Monitoring the existence of or changes to Domain User Accounts.">Domain Account Monitoring
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-LAM</span>
+                        <span><a href="/technique/d3f:LocalAccountMonitoring" title="Analyzing local user accounts to detect unauthorized activity.">Local Account Monitoring
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-SFA</span>
+                        <span><a href="/technique/d3f:SystemFileAnalysis" title="Monitoring system files such as authentication databases, configuration files, system logs, and system executables for modification or tampering.">System File Analysis
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small>M1047 scope is broad, touches on an wide variety of techniques in d3fend.</small>
+                </td>
+            </tr><tr><td class="text-center">M1048</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1048/">Application Isolation and Sandboxing
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-DA</span>
+                        <span><a href="/technique/d3f:DynamicAnalysis" title="Executing or opening a file in a synthetic &quot;sandbox&quot; environment to determine if the file is a malicious program or if the file exploits another program such as a document reader.">Dynamic Analysis
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-HBPI</span>
+                        <span><a href="/technique/d3f:Hardware-basedProcessIsolation" title="Preventing one process from writing to the memory space of another process through hardware based address manager implementations.">Hardware-based Process Isolation
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-MAC</span>
+                        <span><a href="/technique/d3f:MandatoryAccessControl" title="Controlling access to local computer system resources with kernel-level capabilities.">Mandatory Access Control
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-SCF</span>
+                        <span><a href="/technique/d3f:SystemCallFiltering" title="Configuring a kernel to use an allow or deny list to filter kernel api calls.">System Call Filtering
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small>&quot;Sandboxing&quot; is often used to describe a detection environment which includes some forms of analysis (see D3-DA.)&quot;  Many forms of isolation (e.g., quarantining) are more static in nature and simply limit software&#39;s access to system resources.</small>
+                </td>
+            </tr><tr><td class="text-center">M1049</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1049/">Antivirus/Antimalware
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-FCR</span>
+                        <span><a href="/technique/d3f:FileContentRules" title="Employing a pattern matching rule language to analyze files.">File Content Rules
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-FH</span>
+                        <span><a href="/technique/d3f:FileHashing" title="Employing file hash comparisons to detect known malware.">File Hashing
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-PA</span>
+                        <span><a href="/technique/d3f:ProcessAnalysis" title="Process Analysis consists of observing a running application process and analyzing it to watch for certain behaviors or conditions which may indicate adversary activity. Analysis can occur inside of the process or through a third-party monitoring application. Examples include monitoring system and privileged calls, monitoring process initiation chains, and memory boundary allocations.">Process Analysis
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small>Process Analysis and subclasses.</small>
+                </td>
+            </tr><tr><td class="text-center">M1050</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1050/">Exploit Protection
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-AH</span>
+                        <span><a href="/technique/d3f:ApplicationHardening" title="Application Hardening makes an executable application more resilient to a class of exploits which either introduce new code or execute unwanted existing code. These techniques may be applied at compile-time or on an application binary.">Application Hardening
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-EHPV</span>
+                        <span><a href="/technique/d3f:ExceptionHandlerPointerValidation" title="Validates that a referenced exception handler pointer is a valid exception handler.">Exception Handler Pointer Validation
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-ITF</span>
+                        <span><a href="/technique/d3f:InboundTrafficFiltering" title="Restricting network traffic originating from untrusted networks destined towards a private host or enclave.">Inbound Traffic Filtering
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-SSC</span>
+                        <span><a href="/technique/d3f:ShadowStackComparisons" title="Comparing a call stack in system memory with a shadow call stack maintained by the processor to determine unauthorized shellcode activity.">Shadow Stack Comparisons
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1051</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1051/">Update Software
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-SU</span>
+                        <span><a href="/technique/d3f:SoftwareUpdate" title="Replacing old software on a computer system component.">Software Update
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1052</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1052/">User Account Control
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-MAC</span>
+                        <span><a href="/technique/d3f:MandatoryAccessControl" title="Controlling access to local computer system resources with kernel-level capabilities.">Mandatory Access Control
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1053</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1053/">Data Backup
+                  </a></td>
+                <td></td>
+                <td style="width: 15rem;"><small>Comprehensive IT disaster recovery plans are outside the current scope of D3FEND.</small>
+                </td>
+            </tr><tr><td class="text-center">M1054</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1054/">Software Configuration
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-ACH</span>
+                        <span><a href="/technique/d3f:ApplicationConfigurationHardening" title="Modifying an application&#39;s configuration to reduce its attack surface.">Application Configuration Hardening
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-CP</span>
+                        <span><a href="/technique/d3f:CertificatePinning" title="Persisting either a server&#39;s X509 certificate or their public key and comparing that to server&#39;s presented identity to allow for greater client confidence in the remote server&#39;s identity for SSL connections.">Certificate Pinning
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1055</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1055/">Do Not Mitigate
+                  </a></td>
+                <td></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr><tr><td class="text-center">M1056</td>
+                <td class=""><a href="https://attack.mitre.org/mitigations/M1056/">Pre-compromise
+                  </a></td>
+                <td><div class="center"><span style="width:5rem; display: inline-block;">D3-DE</span>
+                        <span><a href="/technique/d3f:DecoyEnvironment" title="A Decoy Environment comprises hosts and networks for the purposes of deceiving an attacker.">Decoy Environment
+                          </a></span>
+                      </div><div class="center"><span style="width:5rem; display: inline-block;">D3-DO</span>
+                        <span><a href="/technique/d3f:DecoyObject" title="A Decoy Object is created and deployed for the purposes of deceiving attackers.">Decoy Object
+                          </a></span>
+                      </div></td>
+                <td style="width: 15rem;"><small></small>
+                </td>
+            </tr></table></div></div></div>
+</section>
+</main></main>
+
+  
+  <footer class="svelte-acckgo"><div class="svelte-fefdvk"><p class="text-small">Use of the MITRE D3FEND™ Knowledge Graph and website is subject to the <a href="/tou">Terms of Use</a>. Use of the MITRE D3FEND website is subject to the
+    <a href="/privacy">MITRE D3FEND Privacy Policy</a>. MITRE D3FEND is funded
+    by the
+    <a target="_blank" rel="" href="https://www.nsa.gov/">National Security Agency</a>
+    (NSA)
+    <a target="_blank" href="https://www.nsa.gov/what-we-do/cybersecurity/">Cybersecurity Directorate</a>
+    and managed by the
+    <a href="https://www.mitre.org/centers/national-security-and-engineering-center/who-we-are" target="_blank" rel="noopener noreferrer">National Security Engineering Center</a>
+    (NSEC) which is operated by
+    <a target="_blank" rel="noopener noreferrer" href="http://www.mitre.org/">The MITRE Corporation</a>. MITRE D3FEND; and the MITRE D3FEND logo are trademarks of The MITRE
+    Corporation. MITRE ATT&amp;CK® and ATT&amp;CK® are registered trademarks of
+    The MITRE Corporation. MITRE ATT&amp;CK content is subject to the MITRE ATT&amp;CK
+    <a href="https://attack.mitre.org/resources/terms-of-use/">terms of use</a>.
+    This software was produced for the U. S. Government under Basic Contract No.
+    W56KGU-18-D-0004, and is subject to the Rights in Noncommercial Computer
+    Software and Noncommercial Computer Software Documentation Clause
+    252.227-7014 (FEB 2012)
+    <br>© 2021 The MITRE Corporation.
+    <br> Approved for Public Release; Distribution Unlimited #20-2338.
+  </p>
+</div>
+  </footer>
+
+
+		<script type="module" data-hydrate="khxe8v">
+		import { start } from "/_app/start-8835b515.js";
+		start({
+			target: document.querySelector('[data-hydrate="khxe8v"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "always",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-bf1d64e1.js"),
+						import("/_app/pages/mappings/__layout.svelte-9c60b20b.js"),
+						import("/_app/pages/mappings/attack-mitigations.svelte-c3b092e4.js")
+				],
+				params: {},
+				routeId: "mappings/attack-mitigations"
+			}
+		});
+	</script><script type="application/json" sveltekit:data-type="data" sveltekit:data-url="/api/mappings/attack-mitigations.json">{"status":200,"statusText":"","headers":{"content-type":"text/plain;charset=UTF-8"},"body":"{\"@context\":{\"d3f\":\"http://d3fend.mitre.org/ontologies/d3fend.owl#\",\"rdfs\":\"http://www.w3.org/2000/01/rdf-schema#\",\"skos\":\"http://www.w3.org/2004/02/skos/core#\",\"owl\":\"http://www.w3.org/2002/07/owl#\"},\"@graph\":[{\"@id\":\"d3f:ATTACKMitigation\",\"@type\":\"owl:Class\",\"rdfs:label\":[\"ATTACK Mitigation\"]},{\"@id\":\"d3f:AccountLocking\",\"@type\":[\"d3f:CredentialEviction\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-AL\"],\"d3f:definition\":[\"The process of temporarily disabling user accounts on a system or domain.\"],\"rdfs:label\":[\"Account Locking\"]},{\"@id\":\"d3f:ApplicationConfigurationHardening\",\"@type\":[\"d3f:ApplicationHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-ACH\"],\"d3f:definition\":[\"Modifying an application's configuration to reduce its attack surface.\"],\"rdfs:label\":[\"Application Configuration Hardening\"]},{\"@id\":\"d3f:ApplicationHardening\",\"@type\":[\"d3f:DefensiveTechnique\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-AH\"],\"d3f:definition\":[\"Application Hardening makes an executable application more resilient to a class of exploits which either introduce new code or execute unwanted existing code. These techniques may be applied at compile-time or on an application binary.\"],\"rdfs:label\":[\"Application Hardening\"]},{\"@id\":\"d3f:AuthenticationCacheInvalidation\",\"@type\":[\"d3f:CredentialEviction\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-ANCI\"],\"d3f:definition\":[\"Removing tokens or credentials from an authentication cache to prevent further user associated account accesses.\"],\"rdfs:label\":[\"Authentication Cache Invalidation\"]},{\"@id\":\"d3f:AuthenticationEventThresholding\",\"@type\":[\"d3f:UserBehaviorAnalysis\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-ANET\"],\"d3f:definition\":[\"Collecting authentication events, creating a baseline user profile, and determining whether authentication events are consistent with the baseline profile.\"],\"rdfs:label\":[\"Authentication Event Thresholding\"]},{\"@id\":\"d3f:AuthorizationEventThresholding\",\"@type\":[\"d3f:UserBehaviorAnalysis\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-AZET\"],\"d3f:definition\":[\"Collecting authorization events, creating a baseline user profile, and determining whether authorization events are consistent with the baseline profile.\"],\"rdfs:label\":[\"Authorization Event Thresholding\"]},{\"@id\":\"d3f:BootloaderAuthentication\",\"@type\":[\"d3f:PlatformHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-BA\"],\"d3f:definition\":[\"Cryptographically authenticating the bootloader software before system boot.\"],\"rdfs:label\":[\"Bootloader Authentication\"]},{\"@id\":\"d3f:BroadcastDomainIsolation\",\"@type\":[\"d3f:NetworkIsolation\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-BDI\"],\"d3f:definition\":[\"Broadcast isolation restricts the number of computers a host can contact on their LAN.\"],\"rdfs:label\":[\"Broadcast Domain Isolation\"]},{\"@id\":\"d3f:CertificatePinning\",\"@type\":[\"d3f:CredentialHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-CP\"],\"d3f:definition\":[\"Persisting either a server's X509 certificate or their public key and comparing that to server's presented identity to allow for greater client confidence in the remote server's identity for SSL connections.\"],\"rdfs:label\":[\"Certificate Pinning\"]},{\"@id\":\"d3f:DNSAllowlisting\",\"@type\":[\"d3f:NetworkIsolation\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-DNSAL\"],\"d3f:definition\":[\"Permitting only approved domains and their subdomains to be resolved.\"],\"rdfs:label\":[\"DNS Allowlisting\"]},{\"@id\":\"d3f:DNSDenylisting\",\"@type\":[\"d3f:NetworkIsolation\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-DNSDL\"],\"d3f:definition\":[\"Blocking DNS Network Traffic based on criteria such as IP address, domain name, or DNS query type.\"],\"rdfs:label\":[\"DNS Denylisting\"]},{\"@id\":\"d3f:DecoyEnvironment\",\"@type\":[\"d3f:DefensiveTechnique\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-DE\"],\"d3f:definition\":[\"A Decoy Environment comprises hosts and networks for the purposes of deceiving an attacker.\"],\"rdfs:label\":[\"Decoy Environment\"]},{\"@id\":\"d3f:DecoyObject\",\"@type\":[\"d3f:DefensiveTechnique\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-DO\"],\"d3f:definition\":[\"A Decoy Object is created and deployed for the purposes of deceiving attackers.\"],\"rdfs:label\":[\"Decoy Object\"]},{\"@id\":\"d3f:DiskEncryption\",\"@type\":[\"d3f:PlatformHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-DENCR\"],\"d3f:definition\":[\"Encrypting a hard disk partition to prevent cleartext access to a file system.\"],\"rdfs:label\":[\"Disk Encryption\"]},{\"@id\":\"d3f:DomainAccountMonitoring\",\"@type\":[\"d3f:UserBehaviorAnalysis\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-DAM\"],\"d3f:definition\":[\"Monitoring the existence of or changes to Domain User Accounts.\"],\"rdfs:label\":[\"Domain Account Monitoring\"]},{\"@id\":\"d3f:DomainTrustPolicy\",\"@type\":[\"d3f:CredentialHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-DTP\"],\"d3f:definition\":[\"Restricting inter-domain trust by modifying domain configuration.\"],\"rdfs:label\":[\"Domain Trust Policy\"]},{\"@id\":\"d3f:DriverLoadIntegrityChecking\",\"@type\":[\"d3f:PlatformHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-DLIC\"],\"d3f:definition\":[\"Ensuring the integrity of drivers loaded during initialization of the operating system.\"],\"rdfs:label\":[\"Driver Load Integrity Checking\"]},{\"@id\":\"d3f:DynamicAnalysis\",\"@type\":[\"d3f:FileAnalysis\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-DA\"],\"d3f:definition\":[\"Executing or opening a file in a synthetic \\\"sandbox\\\" environment to determine if the file is a malicious program or if the file exploits another program such as a document reader.\"],\"rdfs:label\":[\"Dynamic Analysis\"]},{\"@id\":\"d3f:EncryptedTunnels\",\"@type\":[\"d3f:NetworkIsolation\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-ET\"],\"d3f:definition\":[\"Encrypted encapsulation of routable network traffic.\"],\"rdfs:label\":[\"Encrypted Tunnels\"]},{\"@id\":\"d3f:ExceptionHandlerPointerValidation\",\"@type\":[\"d3f:ApplicationHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-EHPV\"],\"d3f:definition\":[\"Validates that a referenced exception handler pointer is a valid exception handler.\"],\"rdfs:label\":[\"Exception Handler Pointer Validation\"]},{\"@id\":\"d3f:ExecutableAllowlisting\",\"@type\":[\"d3f:PlatformHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-EAL\"],\"d3f:definition\":[\"Using a digital signature to authenticate a file before opening.\"],\"rdfs:label\":[\"Executable Allowlisting\"]},{\"@id\":\"d3f:ExecutableDenylisting\",\"@type\":[\"d3f:ExecutionIsolation\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-EDL\"],\"d3f:definition\":[\"Blocking the execution of files on a host in accordance with defined application policy rules.\"],\"rdfs:label\":[\"Executable Denylisting\"]},{\"@id\":\"d3f:FileAnalysis\",\"@type\":[\"d3f:DefensiveTechnique\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-FA\"],\"d3f:definition\":[\"File Analysis is an analytic process to determine a file's status. For example: virus, trojan, benign, malicious, trusted, unauthorized, sensitive, etc.\"],\"rdfs:label\":[\"File Analysis\"]},{\"@id\":\"d3f:FileContentRules\",\"@type\":[\"d3f:FileAnalysis\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-FCR\"],\"d3f:definition\":[\"Employing a pattern matching rule language to analyze files.\"],\"rdfs:label\":[\"File Content Rules\"]},{\"@id\":\"d3f:FileEncryption\",\"@type\":[\"d3f:PlatformHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-FE\"],\"d3f:definition\":[\"Encrypting a file using a cryptographic key.\"],\"rdfs:label\":[\"File Encryption\"]},{\"@id\":\"d3f:FileHashing\",\"@type\":[\"d3f:FileAnalysis\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-FH\"],\"d3f:definition\":[\"Employing file hash comparisons to detect known malware.\"],\"rdfs:label\":[\"File Hashing\"]},{\"@id\":\"d3f:Hardware-basedProcessIsolation\",\"@type\":[\"d3f:ExecutionIsolation\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-HBPI\"],\"d3f:definition\":[\"Preventing one process from writing to the memory space of another process through hardware based address manager implementations.\"],\"rdfs:label\":[\"Hardware-based Process Isolation\"]},{\"@id\":\"d3f:IOPortRestriction\",\"@type\":[\"d3f:ExecutionIsolation\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-IOPR\"],\"d3f:definition\":[\"Limiting access to computer input/output (IO) ports to restrict unauthorized devices.\"],\"rdfs:label\":[\"IO Port Restriction\"]},{\"@id\":\"d3f:InboundSessionVolumeAnalysis\",\"@type\":[\"d3f:NetworkTrafficAnalysis\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-ISVA\"],\"d3f:definition\":[\"Analyzing inbound network session or connection attempt volume.\"],\"rdfs:label\":[\"Inbound Session Volume Analysis\"]},{\"@id\":\"d3f:InboundTrafficFiltering\",\"@type\":[\"d3f:NetworkTrafficFiltering\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-ITF\"],\"d3f:definition\":[\"Restricting network traffic originating from untrusted networks destined towards a private host or enclave.\"],\"rdfs:label\":[\"Inbound Traffic Filtering\"]},{\"@id\":\"d3f:JobFunctionAccessPatternAnalysis\",\"@type\":[\"d3f:UserBehaviorAnalysis\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-JFAPA\"],\"d3f:definition\":[\"Detecting anomalies in user access patterns by comparing user access activity to behavioral profiles that categorize users by role such as job title, function, department.\"],\"rdfs:label\":[\"Job Function Access Pattern Analysis\"]},{\"@id\":\"d3f:LocalAccountMonitoring\",\"@type\":[\"d3f:UserBehaviorAnalysis\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-LAM\"],\"d3f:definition\":[\"Analyzing local user accounts to detect unauthorized activity.\"],\"rdfs:label\":[\"Local Account Monitoring\"]},{\"@id\":\"d3f:LocalFilePermissions\",\"@type\":[\"d3f:PlatformHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-LFP\"],\"d3f:definition\":[\"Restricting access to a local file by configuring operating system functionality.\"],\"rdfs:label\":[\"Local File Permissions\"]},{\"@id\":\"d3f:M1013\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:d3fend-comment\":[\"A future release of D3FEND will define a taxonomy of Source Code Hardening Techniques.\"],\"rdfs:label\":[\"Application Developer Guidance\"]},{\"@id\":\"d3f:M1015\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:d3fend-comment\":[\"M1015 scope is broad, touches on an wide variety of techniques in D3FEND.\"],\"d3f:related\":[{\"@id\":\"d3f:AuthenticationCacheInvalidation\"},{\"@id\":\"d3f:DomainTrustPolicy\"},{\"@id\":\"d3f:UserAccountPermissions\"}],\"rdfs:label\":[\"Active Directory Configuration\"]},{\"@id\":\"d3f:M1016\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:d3fend-comment\":[\"Future D3FEND releases will model the scanning and inventory domains.\"],\"rdfs:label\":[\"Vulnerability Scanning\"]},{\"@id\":\"d3f:M1017\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:d3fend-comment\":[\"Modeling user training is  outside the scope of D3FEND.\"],\"rdfs:label\":[\"User Training\"]},{\"@id\":\"d3f:M1018\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:LocalFilePermissions\"},{\"@id\":\"d3f:MandatoryAccessControl\"},{\"@id\":\"d3f:SystemConfigurationPermissions\"}],\"rdfs:label\":[\"User Account Management\"]},{\"@id\":\"d3f:M1019\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:d3fend-comment\":[\"Establishing and running a Threat Intelligence Program is outside the scope of D3FEND.\"],\"rdfs:label\":[\"Threat Intelligence Program\"]},{\"@id\":\"d3f:M1020\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:d3fend-comment\":[\"D3FEND models this as an infrastructure dependency to support D3-NTA.\"],\"d3f:related\":[{\"@id\":\"d3f:NetworkTrafficAnalysis\"}],\"rdfs:label\":[\"SSL/TLS Inspection\"]},{\"@id\":\"d3f:M1021\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:d3fend-comment\":[\"M1021 scope is broad, touches on an wide variety of techniques in d3fend.\"],\"d3f:related\":[{\"@id\":\"d3f:DNSAllowlisting\"},{\"@id\":\"d3f:DNSDenylisting\"},{\"@id\":\"d3f:FileAnalysis\"},{\"@id\":\"d3f:InboundTrafficFiltering\"},{\"@id\":\"d3f:NetworkTrafficAnalysis\"},{\"@id\":\"d3f:OutboundTrafficFiltering\"},{\"@id\":\"d3f:URLAnalysis\"}],\"rdfs:label\":[\"Restrict Web-Based Content\"]},{\"@id\":\"d3f:M1022\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:LocalFilePermissions\"}],\"rdfs:label\":[\"Restrict File and Directory Permissions\"]},{\"@id\":\"d3f:M1024\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:SystemConfigurationPermissions\"}],\"rdfs:label\":[\"Restrict Registry Permission\"]},{\"@id\":\"d3f:M1025\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:BootloaderAuthentication\"},{\"@id\":\"d3f:DriverLoadIntegrityChecking\"},{\"@id\":\"d3f:MandatoryAccessControl\"},{\"@id\":\"d3f:ProcessSegmentExecutionPrevention\"}],\"rdfs:label\":[\"Privileged Process Integrity\"]},{\"@id\":\"d3f:M1026\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:DomainAccountMonitoring\"},{\"@id\":\"d3f:LocalAccountMonitoring\"},{\"@id\":\"d3f:StrongPasswordPolicy\"}],\"rdfs:label\":[\"Privileged Account Management\"]},{\"@id\":\"d3f:M1027\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:One-timePassword\"},{\"@id\":\"d3f:StrongPasswordPolicy\"}],\"rdfs:label\":[\"Password Policies\"]},{\"@id\":\"d3f:M1028\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:PlatformHardening\"}],\"rdfs:label\":[\"Operating System Configuration\"]},{\"@id\":\"d3f:M1029\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:d3fend-comment\":[\"IT disaster recovery plans are outside the current scope of D3FEND.\"],\"rdfs:label\":[\"Remote Data Storage\"]},{\"@id\":\"d3f:M1030\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:BroadcastDomainIsolation\"},{\"@id\":\"d3f:EncryptedTunnels\"},{\"@id\":\"d3f:InboundSessionVolumeAnalysis\"},{\"@id\":\"d3f:InboundTrafficFiltering\"}],\"rdfs:label\":[\"Network Segmentation\"]},{\"@id\":\"d3f:M1031\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:InboundTrafficFiltering\"},{\"@id\":\"d3f:NetworkTrafficAnalysis\"},{\"@id\":\"d3f:OutboundTrafficFiltering\"}],\"rdfs:label\":[\"Network Intrusion Prevention\"]},{\"@id\":\"d3f:M1032\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:Multi-factorAuthentication\"}],\"rdfs:label\":[\"Multi-factor Authentication\"]},{\"@id\":\"d3f:M1033\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:ExecutableAllowlisting\"},{\"@id\":\"d3f:ExecutableDenylisting\"}],\"rdfs:label\":[\"Limit Software Installation\"]},{\"@id\":\"d3f:M1034\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:IOPortRestriction\"}],\"rdfs:label\":[\"Limit Hardware Installation\"]},{\"@id\":\"d3f:M1035\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:NetworkIsolation\"}],\"rdfs:label\":[\"Limit Access to Resource Over Network\"]},{\"@id\":\"d3f:M1036\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:d3fend-comment\":[\"D3-AZET may be related (is potentially related though not called out in ATT&CK definition.)\"],\"d3f:related\":[{\"@id\":\"d3f:AccountLocking\"},{\"@id\":\"d3f:AuthenticationCacheInvalidation\"},{\"@id\":\"d3f:AuthenticationEventThresholding\"}],\"rdfs:label\":[\"Account Use Policies\"]},{\"@id\":\"d3f:M1037\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:NetworkIsolation\"}],\"rdfs:label\":[\"Filter Network Traffic\"]},{\"@id\":\"d3f:M1038\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:DriverLoadIntegrityChecking\"},{\"@id\":\"d3f:ExecutableAllowlisting\"},{\"@id\":\"d3f:ExecutableDenylisting\"},{\"@id\":\"d3f:ProcessSegmentExecutionPrevention\"}],\"rdfs:label\":[\"Execution Prevention\"]},{\"@id\":\"d3f:M1039\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:ApplicationConfigurationHardening\"},{\"@id\":\"d3f:SystemFileAnalysis\"}],\"rdfs:label\":[\"Environment Variable Permissions\"]},{\"@id\":\"d3f:M1040\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:AuthenticationEventThresholding\"},{\"@id\":\"d3f:AuthorizationEventThresholding\"},{\"@id\":\"d3f:JobFunctionAccessPatternAnalysis\"},{\"@id\":\"d3f:ResourceAccessPatternAnalysis\"},{\"@id\":\"d3f:SessionDurationAnalysis\"},{\"@id\":\"d3f:UserDataTransferAnalysis\"},{\"@id\":\"d3f:UserGeolocationLogonPatternAnalysis\"},{\"@id\":\"d3f:WebSessionActivityAnalysis\"}],\"rdfs:label\":[\"Behavior Prevention on Endpoint\"]},{\"@id\":\"d3f:M1041\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:DiskEncryption\"},{\"@id\":\"d3f:EncryptedTunnels\"},{\"@id\":\"d3f:FileEncryption\"},{\"@id\":\"d3f:MessageEncryption\"}],\"rdfs:label\":[\"Encrypt Sensitive Information\"]},{\"@id\":\"d3f:M1042\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:ApplicationConfigurationHardening\"},{\"@id\":\"d3f:ExecutableDenylisting\"},{\"@id\":\"d3f:MandatoryAccessControl\"}],\"rdfs:label\":[\"Disable or Remove Feature or Program\"]},{\"@id\":\"d3f:M1043\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:Hardware-basedProcessIsolation\"}],\"rdfs:label\":[\"Credential Access Protection\"]},{\"@id\":\"d3f:M1044\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:d3fend-comment\":[\"D3-SCF is one possible way to filter library loading.\"],\"d3f:related\":[{\"@id\":\"d3f:SystemCallFiltering\"}],\"rdfs:label\":[\"Restrict Library Loading\"]},{\"@id\":\"d3f:M1045\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:DriverLoadIntegrityChecking\"},{\"@id\":\"d3f:ExecutableAllowlisting\"},{\"@id\":\"d3f:ServiceBinaryVerification\"}],\"rdfs:label\":[\"Code Signing\"]},{\"@id\":\"d3f:M1046\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:BootloaderAuthentication\"},{\"@id\":\"d3f:TPMBootIntegrity\"}],\"rdfs:label\":[\"Boot Integrity\"]},{\"@id\":\"d3f:M1047\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:d3fend-comment\":[\"M1047 scope is broad, touches on an wide variety of techniques in d3fend.\"],\"d3f:related\":[{\"@id\":\"d3f:DomainAccountMonitoring\"},{\"@id\":\"d3f:LocalAccountMonitoring\"},{\"@id\":\"d3f:SystemFileAnalysis\"}],\"rdfs:label\":[\"Audit\"]},{\"@id\":\"d3f:M1048\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:d3fend-comment\":[\"\\\"Sandboxing\\\" is often used to describe a detection environment which includes some forms of analysis (see D3-DA.)\\\"  Many forms of isolation (e.g., quarantining) are more static in nature and simply limit software's access to system resources.\"],\"d3f:related\":[{\"@id\":\"d3f:DynamicAnalysis\"},{\"@id\":\"d3f:Hardware-basedProcessIsolation\"},{\"@id\":\"d3f:MandatoryAccessControl\"},{\"@id\":\"d3f:SystemCallFiltering\"}],\"rdfs:label\":[\"Application Isolation and Sandboxing\"]},{\"@id\":\"d3f:M1049\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:d3fend-comment\":[\"Process Analysis and subclasses.\"],\"d3f:related\":[{\"@id\":\"d3f:FileContentRules\"},{\"@id\":\"d3f:FileHashing\"},{\"@id\":\"d3f:ProcessAnalysis\"}],\"rdfs:label\":[\"Antivirus/Antimalware\"]},{\"@id\":\"d3f:M1050\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:ApplicationHardening\"},{\"@id\":\"d3f:ExceptionHandlerPointerValidation\"},{\"@id\":\"d3f:InboundTrafficFiltering\"},{\"@id\":\"d3f:ShadowStackComparisons\"}],\"rdfs:label\":[\"Exploit Protection\"]},{\"@id\":\"d3f:M1051\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:SoftwareUpdate\"}],\"rdfs:label\":[\"Update Software\"]},{\"@id\":\"d3f:M1052\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:MandatoryAccessControl\"}],\"rdfs:label\":[\"User Account Control\"]},{\"@id\":\"d3f:M1053\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:d3fend-comment\":[\"Comprehensive IT disaster recovery plans are outside the current scope of D3FEND.\"],\"rdfs:label\":[\"Data Backup\"]},{\"@id\":\"d3f:M1054\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:ApplicationConfigurationHardening\"},{\"@id\":\"d3f:CertificatePinning\"}],\"rdfs:label\":[\"Software Configuration\"]},{\"@id\":\"d3f:M1055\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"rdfs:label\":[\"Do Not Mitigate\"]},{\"@id\":\"d3f:M1056\",\"@type\":[\"d3f:ATTACKMitigation\",\"owl:NamedIndividual\"],\"d3f:related\":[{\"@id\":\"d3f:DecoyEnvironment\"},{\"@id\":\"d3f:DecoyObject\"}],\"rdfs:label\":[\"Pre-compromise\"]},{\"@id\":\"d3f:MandatoryAccessControl\",\"@type\":[\"d3f:Kernel-basedProcessIsolation\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-MAC\"],\"d3f:definition\":[\"Controlling access to local computer system resources with kernel-level capabilities.\"],\"rdfs:label\":[\"Mandatory Access Control\"]},{\"@id\":\"d3f:MessageEncryption\",\"@type\":[\"d3f:MessageHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-MENCR\"],\"d3f:definition\":[\"Encrypting a message body using a cryptographic key.\"],\"rdfs:label\":[\"Message Encryption\"]},{\"@id\":\"d3f:Multi-factorAuthentication\",\"@type\":[\"d3f:CredentialHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-MFA\"],\"d3f:definition\":[\"Requiring proof of two or more pieces of evidence in order to authenticate a user.\"],\"rdfs:label\":[\"Multi-factor Authentication\"]},{\"@id\":\"d3f:NetworkIsolation\",\"@type\":[\"d3f:DefensiveTechnique\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-NI\"],\"d3f:definition\":[\"Network Isolation techniques prevent network hosts from accessing non-essential system network resources.\"],\"rdfs:label\":[\"Network Isolation\"]},{\"@id\":\"d3f:NetworkTrafficAnalysis\",\"@type\":[\"d3f:NetworkTrafficAnalysis\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-NTA\"],\"d3f:definition\":[\"Analyzing intercepted or summarized computer network traffic to detect unauthorized activity.\"],\"rdfs:label\":[\"Network Traffic Analysis\"]},{\"@id\":\"d3f:One-timePassword\",\"@type\":[\"d3f:CredentialHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-OTP\"],\"d3f:definition\":[\"A one-time password is valid for only one user authentication.\"],\"rdfs:label\":[\"One-time Password\"]},{\"@id\":\"d3f:OutboundTrafficFiltering\",\"@type\":[\"d3f:NetworkTrafficFiltering\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-OTF\"],\"d3f:definition\":[\"Restricting network traffic originating from a private host or enclave destined towards untrusted networks.\"],\"rdfs:label\":[\"Outbound Traffic Filtering\"]},{\"@id\":\"d3f:PlatformHardening\",\"@type\":[\"d3f:DefensiveTechnique\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-PH\"],\"d3f:definition\":[\"Hardening components of a Platform with the intention of making them more difficult to exploit.\\n\\nPlatforms includes components such as:\\n* BIOS UEFI Subsystems\\n* Hardware security devices such as Trusted Platform Modules\\n* Boot process logic or code\\n* Kernel software components\"],\"rdfs:label\":[\"Platform Hardening\"]},{\"@id\":\"d3f:ProcessAnalysis\",\"@type\":[\"d3f:DefensiveTechnique\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-PA\"],\"d3f:definition\":[\"Process Analysis consists of observing a running application process and analyzing it to watch for certain behaviors or conditions which may indicate adversary activity. Analysis can occur inside of the process or through a third-party monitoring application. Examples include monitoring system and privileged calls, monitoring process initiation chains, and memory boundary allocations.\"],\"rdfs:label\":[\"Process Analysis\"]},{\"@id\":\"d3f:ProcessSegmentExecutionPrevention\",\"@type\":[\"d3f:ApplicationHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-PSEP\"],\"d3f:definition\":[\"Preventing execution of any address in a memory region other than the code segment.\"],\"rdfs:label\":[\"Process Segment Execution Prevention\"]},{\"@id\":\"d3f:ResourceAccessPatternAnalysis\",\"@type\":[\"d3f:UserBehaviorAnalysis\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-RAPA\"],\"d3f:definition\":[\"Analyzing the resources accessed by a user to identify unauthorized activity.\"],\"rdfs:label\":[\"Resource Access Pattern Analysis\"]},{\"@id\":\"d3f:ServiceBinaryVerification\",\"@type\":[\"d3f:SystemFileAnalysis\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-SBV\"],\"d3f:definition\":[\"Analyzing changes in service binary files by comparing to a source of truth.\"],\"rdfs:label\":[\"Service Binary Verification\"]},{\"@id\":\"d3f:SessionDurationAnalysis\",\"@type\":[\"d3f:UserBehaviorAnalysis\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-SDA\"],\"d3f:definition\":[\"Analyzing the duration of user sessions in order to detect unauthorized  activity.\"],\"rdfs:label\":[\"Session Duration Analysis\"]},{\"@id\":\"d3f:ShadowStackComparisons\",\"@type\":[\"d3f:ProcessAnalysis\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-SSC\"],\"d3f:definition\":[\"Comparing a call stack in system memory with a shadow call stack maintained by the processor to determine unauthorized shellcode activity.\"],\"rdfs:label\":[\"Shadow Stack Comparisons\"]},{\"@id\":\"d3f:SoftwareUpdate\",\"@type\":[\"d3f:PlatformHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-SU\"],\"d3f:definition\":[\"Replacing old software on a computer system component.\"],\"rdfs:label\":[\"Software Update\"]},{\"@id\":\"d3f:StrongPasswordPolicy\",\"@type\":[\"d3f:CredentialHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-SPP\"],\"d3f:definition\":[\"Modifying system configuration to increase password strength.\"],\"rdfs:label\":[\"Strong Password Policy\"]},{\"@id\":\"d3f:SystemCallFiltering\",\"@type\":[\"d3f:Kernel-basedProcessIsolation\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-SCF\"],\"d3f:definition\":[\"Configuring a kernel to use an allow or deny list to filter kernel api calls.\"],\"rdfs:label\":[\"System Call Filtering\"]},{\"@id\":\"d3f:SystemConfigurationPermissions\",\"@type\":[\"d3f:PlatformHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-SCP\"],\"d3f:definition\":[\"Restricting system configuration modifications to a specific user or group of users.\"],\"rdfs:label\":[\"System Configuration Permissions\"]},{\"@id\":\"d3f:SystemFileAnalysis\",\"@type\":[\"d3f:OperatingSystemMonitoring\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-SFA\"],\"d3f:definition\":[\"Monitoring system files such as authentication databases, configuration files, system logs, and system executables for modification or tampering.\"],\"rdfs:label\":[\"System File Analysis\"]},{\"@id\":\"d3f:TPMBootIntegrity\",\"@type\":[\"d3f:PlatformHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-TBI\"],\"d3f:definition\":[\"Assuring the integrity of a platform by demonstrating that the boot process starts from a trusted combination of hardware and software and continues until the operating system has fully booted and applications are running.  Sometimes called Static Root of Trust Measurement (STRM).\"],\"rdfs:label\":[\"TPM Boot Integrity\"]},{\"@id\":\"d3f:URLAnalysis\",\"@type\":[\"d3f:IdentifierAnalysis\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-UA\"],\"d3f:definition\":[\"Determining if a URL is benign or malicious by analyzing the URL or its components.\"],\"rdfs:label\":[\"URL Analysis\"]},{\"@id\":\"d3f:UserAccountPermissions\",\"@type\":[\"d3f:CredentialHardening\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-UAP\"],\"d3f:definition\":[\"Restricting a user account's access to resources.\"],\"rdfs:label\":[\"User Account Permissions\"]},{\"@id\":\"d3f:UserDataTransferAnalysis\",\"@type\":[\"d3f:UserBehaviorAnalysis\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-UDTA\"],\"d3f:definition\":[\"Analyzing the amount of data transferred by a user.\"],\"rdfs:label\":[\"User Data Transfer Analysis\"]},{\"@id\":\"d3f:UserGeolocationLogonPatternAnalysis\",\"@type\":[\"d3f:UserBehaviorAnalysis\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-UGLPA\"],\"d3f:definition\":[\"Monitoring geolocation data of user logon attempts and comparing it to a baseline user behavior profile to identify anomalies in logon location.\"],\"rdfs:label\":[\"User Geolocation Logon Pattern Analysis\"]},{\"@id\":\"d3f:WebSessionActivityAnalysis\",\"@type\":[\"d3f:UserBehaviorAnalysis\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:d3fend-id\":[\"D3-WSAA\"],\"d3f:definition\":[\"Monitoring changes in user web session behavior by comparing current web session activity to a baseline behavior profile or a catalog of predetermined malicious behavior.\"],\"rdfs:label\":[\"Web Session Activity Analysis\"]}]}"}</script></div>
+      
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script id="atarget" async      >
+      </script>
+      <script>
+        if (window.location.hostname != "localhost" && 
+              window.location.hostname !=  "127.0.0.1") {
+          
+          // target = document.getElementById("atarget");
+          // target.onload = function(){};
+          // target.src="https://www.googletagmanager.com/gtag/js?id=UA-200005342-1"
+
+          // window.dataLayer = window.dataLayer || [];
+          // function gtag() {
+          //   dataLayer.push(arguments);
+          // }
+          // gtag("js", new Date());
+          // gtag("config", "UA-200005342-1");
+
+          let gaID = "UA-200005342-1";
+          window.dataLayer = window.dataLayer || []
+          function gtag() { dataLayer.push(arguments) }
+          gtag('js', new Date())
+          gtag('config', gaID)
+
+          const script = document.createElement('script')
+          script.src = `https://www.googletagmanager.com/gtag/js?id=${gaID}`
+          document.body.appendChild(script)
+
+        } else {
+          console.info("Analytics disabled in development mode")
+        }
+      </script>
+    </body>
+    </html>
+    

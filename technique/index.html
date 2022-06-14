@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="theme-color" content="#333333" />
+  
+  <link rel="stylesheet" href="/global-d3fend.css" />
+  <link rel="icon" type="image/png" href="/favicon.ico" />
+  
+  <!-- This contains the contents of the <svelte:head> component, if
+    the current page has one -->
+    <meta http-equiv="content-security-policy" content="">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout-matrix.svelte-5f711740.css">
+	<link rel="stylesheet" href="/_app/assets/Nav-mobile-e0f80dc0.css">
+	<link rel="modulepreload" href="/_app/start-8835b515.js">
+	<link rel="modulepreload" href="/_app/chunks/index-a02da30e.js">
+	<link rel="modulepreload" href="/_app/chunks/index-98a102c4.js">
+	<link rel="modulepreload" href="/_app/chunks/singletons-d1fb5791.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-bf1d64e1.js">
+	<link rel="modulepreload" href="/_app/chunks/Nav-mobile-8b1e0bf1.js">
+	<link rel="modulepreload" href="/_app/chunks/stores-59d8ae96.js">
+	<link rel="modulepreload" href="/_app/chunks/stores-cf129ad8.js">
+	<link rel="modulepreload" href="/_app/chunks/config-6e32f34b.js">
+	<link rel="modulepreload" href="/_app/chunks/lib-cf80d2a1.js">
+	<link rel="modulepreload" href="/_app/chunks/marked.esm-8ab30116.js">
+	<link rel="modulepreload" href="/_app/pages/technique/index.svelte-757e29e9.js">
+				<script>
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/service-worker.js');
+		}
+	</script>
+  </head>
+  <body>
+    <!-- The application will be rendered inside this element,
+      because `src/client.js` references it -->
+      <div>
+
+
+<nav class="svelte-acckgo">
+
+
+    <nav id="desktop" class="svelte-posd1r"><ul class="text-1 svelte-posd1r"><li class="logo svelte-posd1r"><a href="/" class="svelte-posd1r"><img alt="MITRE logo" src="/img/mitre.png" class="svelte-posd1r"></a></li>
+
+    
+    
+      <li class="svelte-posd1r"><a href="/" class="svelte-posd1r">matrix</a></li>
+      <li class="svelte-posd1r"><a href="/dao" class="svelte-posd1r">artifacts</a></li>
+      <li class="svelte-posd1r"><a href="/about" class="svelte-posd1r">about</a></li>
+      <li class="svelte-posd1r"><a href="/resources" class="glow svelte-posd1r">resources</a></li>
+      <li class="svelte-posd1r"><a href="/contribute" class="glow svelte-posd1r">contribute</a></li>
+      <li class="svelte-posd1r"><a href="/faq" class="svelte-posd1r">faq</a></li>
+
+      <li class="logo logo-right svelte-posd1r"><a href="https://www.nsa.gov" class="svelte-posd1r"><img id="sponsor_logo" alt="NSA logo" src="/img/nsa.png" class="svelte-posd1r"></a></li></ul></nav>
+
+<nav id="mobile"><div><button aria-label="Close Mobile Menu" class="svelte-1ea8tj3"><svg width="32" height="24" class="svelte-1ea8tj3"><line id="top" x1="0" y1="2" x2="32" y2="2" class="svelte-1ea8tj3"></line><line id="middle" x1="0" y1="12" x2="24" y2="12" class="svelte-1ea8tj3"></line><line id="bottom" x1="0" y1="22" x2="32" y2="22" class="svelte-1ea8tj3"></line></svg>
+</button></div>
+</nav></nav>
+  <main class="svelte-acckgo"><table id="mappings" class="table-auto"><thead><th class="stretch">D3FEND ID</th>
+      <th>D3FEND Technique Name</th></thead>
+    <tbody><tr><td>D3-AL</td>
+        <td><a href="/technique/d3f:AccountLocking">Account Locking</a></td>
+      </tr><tr><td>D3-ACA</td>
+        <td><a href="/technique/d3f:ActiveCertificateAnalysis">Active Certificate Analysis</a></td>
+      </tr><tr><td>D3-ANAA</td>
+        <td><a href="/technique/d3f:AdministrativeNetworkActivityAnalysis">Administrative Network Activity Analysis</a></td>
+      </tr><tr><td>D3-ACH</td>
+        <td><a href="/technique/d3f:ApplicationConfigurationHardening">Application Configuration Hardening</a></td>
+      </tr><tr><td>D3-AH</td>
+        <td><a href="/technique/d3f:ApplicationHardening">Application Hardening</a></td>
+      </tr><tr><td>D3-ANCI</td>
+        <td><a href="/technique/d3f:AuthenticationCacheInvalidation">Authentication Cache Invalidation</a></td>
+      </tr><tr><td>D3-ANET</td>
+        <td><a href="/technique/d3f:AuthenticationEventThresholding">Authentication Event Thresholding</a></td>
+      </tr><tr><td>D3-AZET</td>
+        <td><a href="/technique/d3f:AuthorizationEventThresholding">Authorization Event Thresholding</a></td>
+      </tr><tr><td>D3-BAN</td>
+        <td><a href="/technique/d3f:BiometricAuthentication">Biometric Authentication</a></td>
+      </tr><tr><td>D3-BA</td>
+        <td><a href="/technique/d3f:BootloaderAuthentication">Bootloader Authentication</a></td>
+      </tr><tr><td>D3-BDI</td>
+        <td><a href="/technique/d3f:BroadcastDomainIsolation">Broadcast Domain Isolation</a></td>
+      </tr><tr><td>D3-BSE</td>
+        <td><a href="/technique/d3f:ByteSequenceEmulation">Byte Sequence Emulation</a></td>
+      </tr><tr><td>D3-CBAN</td>
+        <td><a href="/technique/d3f:Certificate-basedAuthentication">Certificate-based Authentication</a></td>
+      </tr><tr><td>D3-CA</td>
+        <td><a href="/technique/d3f:CertificateAnalysis">Certificate Analysis</a></td>
+      </tr><tr><td>D3-CP</td>
+        <td><a href="/technique/d3f:CertificatePinning">Certificate Pinning</a></td>
+      </tr><tr><td>D3-CSPP</td>
+        <td><a href="/technique/d3f:Client-serverPayloadProfiling">Client-server Payload Profiling</a></td>
+      </tr><tr><td>D3-CHN</td>
+        <td><a href="/technique/d3f:ConnectedHoneynet">Connected Honeynet</a></td>
+      </tr><tr><td>D3-CAA</td>
+        <td><a href="/technique/d3f:ConnectionAttemptAnalysis">Connection Attempt Analysis</a></td>
+      </tr><tr><td>D3-CCSA</td>
+        <td><a href="/technique/d3f:CredentialCompromiseScopeAnalysis">Credential Compromise Scope Analysis</a></td>
+      </tr><tr><td>D3-CE</td>
+        <td><a href="/technique/d3f:CredentialEviction">Credential Eviction</a></td>
+      </tr><tr><td>D3-CH</td>
+        <td><a href="/technique/d3f:CredentialHardening">Credential Hardening</a></td>
+      </tr><tr><td>D3-CTS</td>
+        <td><a href="/technique/d3f:CredentialTransmissionScoping">Credential Transmission Scoping</a></td>
+      </tr><tr><td>D3-DNSAL</td>
+        <td><a href="/technique/d3f:DNSAllowlisting">DNS Allowlisting</a></td>
+      </tr><tr><td>D3-DNSDL</td>
+        <td><a href="/technique/d3f:DNSDenylisting">DNS Denylisting</a></td>
+      </tr><tr><td>D3-DNSTA</td>
+        <td><a href="/technique/d3f:DNSTrafficAnalysis">DNS Traffic Analysis</a></td>
+      </tr><tr><td>D3-DQSA</td>
+        <td><a href="/technique/d3f:DatabaseQueryStringAnalysis">Database Query String Analysis</a></td>
+      </tr><tr><td>D3-DCE</td>
+        <td><a href="/technique/d3f:DeadCodeElimination">Dead Code Elimination</a></td>
+      </tr><tr><td>D3-DE</td>
+        <td><a href="/technique/d3f:DecoyEnvironment">Decoy Environment</a></td>
+      </tr><tr><td>D3-DF</td>
+        <td><a href="/technique/d3f:DecoyFile">Decoy File</a></td>
+      </tr><tr><td>D3-DNR</td>
+        <td><a href="/technique/d3f:DecoyNetworkResource">Decoy Network Resource</a></td>
+      </tr><tr><td>D3-DO</td>
+        <td><a href="/technique/d3f:DecoyObject">Decoy Object</a></td>
+      </tr><tr><td>D3-DP</td>
+        <td><a href="/technique/d3f:DecoyPersona">Decoy Persona</a></td>
+      </tr><tr><td>D3-DPR</td>
+        <td><a href="/technique/d3f:DecoyPublicRelease">Decoy Public Release</a></td>
+      </tr><tr><td>D3-DST</td>
+        <td><a href="/technique/d3f:DecoySessionToken">Decoy Session Token</a></td>
+      </tr><tr><td>D3-DUC</td>
+        <td><a href="/technique/d3f:DecoyUserCredential">Decoy User Credential</a></td>
+      </tr><tr><td>D3-DENCR</td>
+        <td><a href="/technique/d3f:DiskEncryption">Disk Encryption</a></td>
+      </tr><tr><td>D3-DAM</td>
+        <td><a href="/technique/d3f:DomainAccountMonitoring">Domain Account Monitoring</a></td>
+      </tr><tr><td>D3-DTP</td>
+        <td><a href="/technique/d3f:DomainTrustPolicy">Domain Trust Policy</a></td>
+      </tr><tr><td>D3-DLIC</td>
+        <td><a href="/technique/d3f:DriverLoadIntegrityChecking">Driver Load Integrity Checking</a></td>
+      </tr><tr><td>D3-DA</td>
+        <td><a href="/technique/d3f:DynamicAnalysis">Dynamic Analysis</a></td>
+      </tr><tr><td>D3-EFA</td>
+        <td><a href="/technique/d3f:EmulatedFileAnalysis">Emulated File Analysis</a></td>
+      </tr><tr><td>D3-ET</td>
+        <td><a href="/technique/d3f:EncryptedTunnels">Encrypted Tunnels</a></td>
+      </tr><tr><td>D3-EHB</td>
+        <td><a href="/technique/d3f:EndpointHealthBeacon">Endpoint Health Beacon</a></td>
+      </tr><tr><td>D3-EHPV</td>
+        <td><a href="/technique/d3f:ExceptionHandlerPointerValidation">Exception Handler Pointer Validation</a></td>
+      </tr><tr><td>D3-EAL</td>
+        <td><a href="/technique/d3f:ExecutableAllowlisting">Executable Allowlisting</a></td>
+      </tr><tr><td>D3-EDL</td>
+        <td><a href="/technique/d3f:ExecutableDenylisting">Executable Denylisting</a></td>
+      </tr><tr><td>D3-EI</td>
+        <td><a href="/technique/d3f:ExecutionIsolation">Execution Isolation</a></td>
+      </tr><tr><td>D3-FAPA</td>
+        <td><a href="/technique/d3f:FileAccessPatternAnalysis">File Access Pattern Analysis</a></td>
+      </tr><tr><td>D3-FA</td>
+        <td><a href="/technique/d3f:FileAnalysis">File Analysis</a></td>
+      </tr><tr><td>D3-FC</td>
+        <td><a href="/technique/d3f:FileCarving">File Carving</a></td>
+      </tr><tr><td>D3-FCR</td>
+        <td><a href="/technique/d3f:FileContentRules">File Content Rules</a></td>
+      </tr><tr><td>D3-FCA</td>
+        <td><a href="/technique/d3f:FileCreationAnalysis">File Creation Analysis</a></td>
+      </tr><tr><td>D3-FE</td>
+        <td><a href="/technique/d3f:FileEncryption">File Encryption</a></td>
+      </tr><tr><td>D3-FH</td>
+        <td><a href="/technique/d3f:FileHashing">File Hashing</a></td>
+      </tr><tr><td>D3-FBA</td>
+        <td><a href="/technique/d3f:FirmwareBehaviorAnalysis">Firmware Behavior Analysis</a></td>
+      </tr><tr><td>D3-FEMC</td>
+        <td><a href="/technique/d3f:FirmwareEmbeddedMonitoringCode">Firmware Embedded Monitoring Code</a></td>
+      </tr><tr><td>D3-FV</td>
+        <td><a href="/technique/d3f:FirmwareVerification">Firmware Verification</a></td>
+      </tr><tr><td>D3-FRDDL</td>
+        <td><a href="/technique/d3f:ForwardResolutionDomainDenylisting">Forward Resolution Domain Denylisting</a></td>
+      </tr><tr><td>D3-FRIDL</td>
+        <td><a href="/technique/d3f:ForwardResolutionIPDenylisting">Forward Resolution IP Denylisting</a></td>
+      </tr><tr><td>D3-HBPI</td>
+        <td><a href="/technique/d3f:Hardware-basedProcessIsolation">Hardware-based Process Isolation</a></td>
+      </tr><tr><td>D3-HDDL</td>
+        <td><a href="/technique/d3f:HierarchicalDomainDenylisting">Hierarchical Domain Denylisting</a></td>
+      </tr><tr><td>D3-HDL</td>
+        <td><a href="/technique/d3f:HomoglyphDenylisting">Homoglyph Denylisting</a></td>
+      </tr><tr><td>D3-HD</td>
+        <td><a href="/technique/d3f:HomoglyphDetection">Homoglyph Detection</a></td>
+      </tr><tr><td>D3-IOPR</td>
+        <td><a href="/technique/d3f:IOPortRestriction">IO Port Restriction</a></td>
+      </tr><tr><td>D3-IPCTA</td>
+        <td><a href="/technique/d3f:IPCTrafficAnalysis">IPC Traffic Analysis</a></td>
+      </tr><tr><td>D3-ID</td>
+        <td><a href="/technique/d3f:IdentifierAnalysis">Identifier Analysis</a></td>
+      </tr><tr><td>D3-ISVA</td>
+        <td><a href="/technique/d3f:InboundSessionVolumeAnalysis">Inbound Session Volume Analysis</a></td>
+      </tr><tr><td>D3-ITF</td>
+        <td><a href="/technique/d3f:InboundTrafficFiltering">Inbound Traffic Filtering</a></td>
+      </tr><tr><td>D3-IBCA</td>
+        <td><a href="/technique/d3f:IndirectBranchCallAnalysis">Indirect Branch Call Analysis</a></td>
+      </tr><tr><td>D3-IDA</td>
+        <td><a href="/technique/d3f:InputDeviceAnalysis">Input Device Analysis</a></td>
+      </tr><tr><td>D3-IHN</td>
+        <td><a href="/technique/d3f:IntegratedHoneynet">Integrated Honeynet</a></td>
+      </tr><tr><td>D3-JFAPA</td>
+        <td><a href="/technique/d3f:JobFunctionAccessPatternAnalysis">Job Function Access Pattern Analysis</a></td>
+      </tr><tr><td>D3-KBPI</td>
+        <td><a href="/technique/d3f:Kernel-basedProcessIsolation">Kernel-based Process Isolation</a></td>
+      </tr><tr><td>D3-LAM</td>
+        <td><a href="/technique/d3f:LocalAccountMonitoring">Local Account Monitoring</a></td>
+      </tr><tr><td>D3-LFP</td>
+        <td><a href="/technique/d3f:LocalFilePermissions">Local File Permissions</a></td>
+      </tr><tr><td>D3-MAC</td>
+        <td><a href="/technique/d3f:MandatoryAccessControl">Mandatory Access Control</a></td>
+      </tr><tr><td>D3-MBT</td>
+        <td><a href="/technique/d3f:MemoryBoundaryTracking">Memory Boundary Tracking</a></td>
+      </tr><tr><td>D3-MA</td>
+        <td><a href="/technique/d3f:MessageAnalysis">Message Analysis</a></td>
+      </tr><tr><td>D3-MAN</td>
+        <td><a href="/technique/d3f:MessageAuthentication">Message Authentication</a></td>
+      </tr><tr><td>D3-MENCR</td>
+        <td><a href="/technique/d3f:MessageEncryption">Message Encryption</a></td>
+      </tr><tr><td>D3-MH</td>
+        <td><a href="/technique/d3f:MessageHardening">Message Hardening</a></td>
+      </tr><tr><td>D3-MFA</td>
+        <td><a href="/technique/d3f:Multi-factorAuthentication">Multi-factor Authentication</a></td>
+      </tr><tr><td>D3-NI</td>
+        <td><a href="/technique/d3f:NetworkIsolation">Network Isolation</a></td>
+      </tr><tr><td>D3-NTA</td>
+        <td><a href="/technique/d3f:NetworkTrafficAnalysis">Network Traffic Analysis</a></td>
+      </tr><tr><td>D3-NTCD</td>
+        <td><a href="/technique/d3f:NetworkTrafficCommunityDeviation">Network Traffic Community Deviation</a></td>
+      </tr><tr><td>D3-NTF</td>
+        <td><a href="/technique/d3f:NetworkTrafficFiltering">Network Traffic Filtering</a></td>
+      </tr><tr><td>D3-OTP</td>
+        <td><a href="/technique/d3f:One-timePassword">One-time Password</a></td>
+      </tr><tr><td>D3-OSM</td>
+        <td><a href="/technique/d3f:OperatingSystemMonitoring">Operating System Monitoring</a></td>
+      </tr><tr><td>D3-OTF</td>
+        <td><a href="/technique/d3f:OutboundTrafficFiltering">Outbound Traffic Filtering</a></td>
+      </tr><tr><td>D3-PCA</td>
+        <td><a href="/technique/d3f:PassiveCertificateAnalysis">Passive Certificate Analysis</a></td>
+      </tr><tr><td>D3-PHDURA</td>
+        <td><a href="/technique/d3f:PerHostDownload-UploadRatioAnalysis">Per Host Download-Upload Ratio Analysis</a></td>
+      </tr><tr><td>D3-PFV</td>
+        <td><a href="/technique/d3f:PeripheralFirmwareVerification">Peripheral Firmware Verification</a></td>
+      </tr><tr><td>D3-PH</td>
+        <td><a href="/technique/d3f:PlatformHardening">Platform Hardening</a></td>
+      </tr><tr><td>D3-PM</td>
+        <td><a href="/technique/d3f:PlatformMonitoring">Platform Monitoring</a></td>
+      </tr><tr><td>D3-PAN</td>
+        <td><a href="/technique/d3f:PointerAuthentication">Pointer Authentication</a></td>
+      </tr><tr><td>D3-PA</td>
+        <td><a href="/technique/d3f:ProcessAnalysis">Process Analysis</a></td>
+      </tr><tr><td>D3-PCSV</td>
+        <td><a href="/technique/d3f:ProcessCodeSegmentVerification">Process Code Segment Verification</a></td>
+      </tr><tr><td>D3-PE</td>
+        <td><a href="/technique/d3f:ProcessEviction">Process Eviction</a></td>
+      </tr><tr><td>D3-PLA</td>
+        <td><a href="/technique/d3f:ProcessLineageAnalysis">Process Lineage Analysis</a></td>
+      </tr><tr><td>D3-PSEP</td>
+        <td><a href="/technique/d3f:ProcessSegmentExecutionPrevention">Process Segment Execution Prevention</a></td>
+      </tr><tr><td>D3-PSMD</td>
+        <td><a href="/technique/d3f:ProcessSelf-ModificationDetection">Process Self-Modification Detection</a></td>
+      </tr><tr><td>D3-PSA</td>
+        <td><a href="/technique/d3f:ProcessSpawnAnalysis">Process Spawn Analysis</a></td>
+      </tr><tr><td>D3-PT</td>
+        <td><a href="/technique/d3f:ProcessTermination">Process Termination</a></td>
+      </tr><tr><td>D3-PMAD</td>
+        <td><a href="/technique/d3f:ProtocolMetadataAnomalyDetection">Protocol Metadata Anomaly Detection</a></td>
+      </tr><tr><td>D3-RFS</td>
+        <td><a href="/technique/d3f:RFShielding">RF Shielding</a></td>
+      </tr><tr><td>D3-RTA</td>
+        <td><a href="/technique/d3f:RPCTrafficAnalysis">RPC Traffic Analysis</a></td>
+      </tr><tr><td>D3-RPA</td>
+        <td><a href="/technique/d3f:RelayPatternAnalysis">Relay Pattern Analysis</a></td>
+      </tr><tr><td>D3-RTSD</td>
+        <td><a href="/technique/d3f:RemoteTerminalSessionDetection">Remote Terminal Session Detection</a></td>
+      </tr><tr><td>D3-RAPA</td>
+        <td><a href="/technique/d3f:ResourceAccessPatternAnalysis">Resource Access Pattern Analysis</a></td>
+      </tr><tr><td>D3-RRDD</td>
+        <td><a href="/technique/d3f:ReverseResolutionDomainDenylisting">Reverse Resolution Domain Denylisting</a></td>
+      </tr><tr><td>D3-RRID</td>
+        <td><a href="/technique/d3f:ReverseResolutionIPDenylisting">Reverse Resolution IP Denylisting</a></td>
+      </tr><tr><td>D3-SJA</td>
+        <td><a href="/technique/d3f:ScheduledJobAnalysis">Scheduled Job Analysis</a></td>
+      </tr><tr><td>D3-SEA</td>
+        <td><a href="/technique/d3f:ScriptExecutionAnalysis">Script Execution Analysis</a></td>
+      </tr><tr><td>D3-SAOR</td>
+        <td><a href="/technique/d3f:SegmentAddressOffsetRandomization">Segment Address Offset Randomization</a></td>
+      </tr><tr><td>D3-SMRA</td>
+        <td><a href="/technique/d3f:SenderMTAReputationAnalysis">Sender MTA Reputation Analysis</a></td>
+      </tr><tr><td>D3-SRA</td>
+        <td><a href="/technique/d3f:SenderReputationAnalysis">Sender Reputation Analysis</a></td>
+      </tr><tr><td>D3-SBV</td>
+        <td><a href="/technique/d3f:ServiceBinaryVerification">Service Binary Verification</a></td>
+      </tr><tr><td>D3-SDA</td>
+        <td><a href="/technique/d3f:SessionDurationAnalysis">Session Duration Analysis</a></td>
+      </tr><tr><td>D3-SSC</td>
+        <td><a href="/technique/d3f:ShadowStackComparisons">Shadow Stack Comparisons</a></td>
+      </tr><tr><td>D3-SU</td>
+        <td><a href="/technique/d3f:SoftwareUpdate">Software Update</a></td>
+      </tr><tr><td>D3-SFCV</td>
+        <td><a href="/technique/d3f:StackFrameCanaryValidation">Stack Frame Canary Validation</a></td>
+      </tr><tr><td>D3-SHN</td>
+        <td><a href="/technique/d3f:StandaloneHoneynet">Standalone Honeynet</a></td>
+      </tr><tr><td>D3-SPP</td>
+        <td><a href="/technique/d3f:StrongPasswordPolicy">Strong Password Policy</a></td>
+      </tr><tr><td>D3-SCA</td>
+        <td><a href="/technique/d3f:SystemCallAnalysis">System Call Analysis</a></td>
+      </tr><tr><td>D3-SCF</td>
+        <td><a href="/technique/d3f:SystemCallFiltering">System Call Filtering</a></td>
+      </tr><tr><td>D3-SCP</td>
+        <td><a href="/technique/d3f:SystemConfigurationPermissions">System Configuration Permissions</a></td>
+      </tr><tr><td>D3-SDM</td>
+        <td><a href="/technique/d3f:SystemDaemonMonitoring">System Daemon Monitoring</a></td>
+      </tr><tr><td>D3-SFA</td>
+        <td><a href="/technique/d3f:SystemFileAnalysis">System File Analysis</a></td>
+      </tr><tr><td>D3-SFV</td>
+        <td><a href="/technique/d3f:SystemFirmwareVerification">System Firmware Verification</a></td>
+      </tr><tr><td>D3-SICA</td>
+        <td><a href="/technique/d3f:SystemInitConfigAnalysis">System Init Config Analysis</a></td>
+      </tr><tr><td>D3-TBI</td>
+        <td><a href="/technique/d3f:TPMBootIntegrity">TPM Boot Integrity</a></td>
+      </tr><tr><td>D3-TAAN</td>
+        <td><a href="/technique/d3f:TransferAgentAuthentication">Transfer Agent Authentication</a></td>
+      </tr><tr><td>D3-UA</td>
+        <td><a href="/technique/d3f:URLAnalysis">URL Analysis</a></td>
+      </tr><tr><td>D3-UAP</td>
+        <td><a href="/technique/d3f:UserAccountPermissions">User Account Permissions</a></td>
+      </tr><tr><td>D3-UBA</td>
+        <td><a href="/technique/d3f:UserBehaviorAnalysis">User Behavior Analysis</a></td>
+      </tr><tr><td>D3-UDTA</td>
+        <td><a href="/technique/d3f:UserDataTransferAnalysis">User Data Transfer Analysis</a></td>
+      </tr><tr><td>D3-UGLPA</td>
+        <td><a href="/technique/d3f:UserGeolocationLogonPatternAnalysis">User Geolocation Logon Pattern Analysis</a></td>
+      </tr><tr><td>D3-USICA</td>
+        <td><a href="/technique/d3f:UserSessionInitConfigAnalysis">User Session Init Config Analysis</a></td>
+      </tr><tr><td>D3-WSAA</td>
+        <td><a href="/technique/d3f:WebSessionActivityAnalysis">Web Session Activity Analysis</a></td>
+      </tr></tbody></table>
+  <p>total count: 139</p></main>
+
+  
+  <footer class="svelte-acckgo"><div class="svelte-fefdvk"><p class="text-small">Use of the MITRE D3FEND™ Knowledge Graph and website is subject to the <a href="/tou">Terms of Use</a>. Use of the MITRE D3FEND website is subject to the
+    <a href="/privacy">MITRE D3FEND Privacy Policy</a>. MITRE D3FEND is funded
+    by the
+    <a target="_blank" rel="" href="https://www.nsa.gov/">National Security Agency</a>
+    (NSA)
+    <a target="_blank" href="https://www.nsa.gov/what-we-do/cybersecurity/">Cybersecurity Directorate</a>
+    and managed by the
+    <a href="https://www.mitre.org/centers/national-security-and-engineering-center/who-we-are" target="_blank" rel="noopener noreferrer">National Security Engineering Center</a>
+    (NSEC) which is operated by
+    <a target="_blank" rel="noopener noreferrer" href="http://www.mitre.org/">The MITRE Corporation</a>. MITRE D3FEND; and the MITRE D3FEND logo are trademarks of The MITRE
+    Corporation. MITRE ATT&amp;CK® and ATT&amp;CK® are registered trademarks of
+    The MITRE Corporation. MITRE ATT&amp;CK content is subject to the MITRE ATT&amp;CK
+    <a href="https://attack.mitre.org/resources/terms-of-use/">terms of use</a>.
+    This software was produced for the U. S. Government under Basic Contract No.
+    W56KGU-18-D-0004, and is subject to the Rights in Noncommercial Computer
+    Software and Noncommercial Computer Software Documentation Clause
+    252.227-7014 (FEB 2012)
+    <br>© 2021 The MITRE Corporation.
+    <br> Approved for Public Release; Distribution Unlimited #20-2338.
+  </p>
+</div>
+  </footer>
+
+
+		<script type="module" data-hydrate="1xa1jip">
+		import { start } from "/_app/start-8835b515.js";
+		start({
+			target: document.querySelector('[data-hydrate="1xa1jip"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "always",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-bf1d64e1.js"),
+						import("/_app/pages/technique/index.svelte-757e29e9.js")
+				],
+				params: {},
+				routeId: "technique"
+			}
+		});
+	</script><script type="application/json" sveltekit:data-type="data" sveltekit:data-url="/api/technique/all.json">{"status":200,"statusText":"","headers":{"content-type":"text/plain;charset=UTF-8"},"body":"{\"@context\":{\"d3f\":\"http://d3fend.mitre.org/ontologies/d3fend.owl#\",\"rdfs\":\"http://www.w3.org/2000/01/rdf-schema#\",\"skos\":\"http://www.w3.org/2004/02/skos/core#\",\"owl\":\"http://www.w3.org/2002/07/owl#\",\"children\":{\"@id\":\"d3f:child\",\"@type\":\"@id\",\"@container\":\"@set\"}},\"@graph\":[{\"@id\":\"d3f:AccountLocking\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-AL\",\"rdfs:label\":\"Account Locking\"},{\"@id\":\"d3f:ActiveCertificateAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-ACA\",\"rdfs:label\":\"Active Certificate Analysis\"},{\"@id\":\"d3f:AdministrativeNetworkActivityAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-ANAA\",\"rdfs:label\":\"Administrative Network Activity Analysis\"},{\"@id\":\"d3f:ApplicationConfigurationHardening\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-ACH\",\"rdfs:label\":\"Application Configuration Hardening\"},{\"@id\":\"d3f:ApplicationHardening\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-AH\",\"d3f:synonym\":\"Process Hardening\",\"rdfs:label\":\"Application Hardening\"},{\"@id\":\"d3f:AuthenticationCacheInvalidation\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-ANCI\",\"rdfs:label\":\"Authentication Cache Invalidation\"},{\"@id\":\"d3f:AuthenticationEventThresholding\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-ANET\",\"rdfs:label\":\"Authentication Event Thresholding\"},{\"@id\":\"d3f:AuthorizationEventThresholding\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-AZET\",\"rdfs:label\":\"Authorization Event Thresholding\"},{\"@id\":\"d3f:BiometricAuthentication\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-BAN\",\"rdfs:label\":\"Biometric Authentication\"},{\"@id\":\"d3f:BootloaderAuthentication\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-BA\",\"d3f:synonym\":\"Secure Boot\",\"rdfs:label\":\"Bootloader Authentication\"},{\"@id\":\"d3f:BroadcastDomainIsolation\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-BDI\",\"d3f:synonym\":\"Network Segmentation\",\"rdfs:label\":\"Broadcast Domain Isolation\"},{\"@id\":\"d3f:ByteSequenceEmulation\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-BSE\",\"d3f:synonym\":\"Shellcode Transmission Detection\",\"rdfs:label\":\"Byte Sequence Emulation\"},{\"@id\":\"d3f:Certificate-basedAuthentication\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-CBAN\",\"rdfs:label\":\"Certificate-based Authentication\"},{\"@id\":\"d3f:CertificateAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-CA\",\"rdfs:label\":\"Certificate Analysis\"},{\"@id\":\"d3f:CertificatePinning\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-CP\",\"rdfs:label\":\"Certificate Pinning\"},{\"@id\":\"d3f:Client-serverPayloadProfiling\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-CSPP\",\"rdfs:label\":\"Client-server Payload Profiling\"},{\"@id\":\"d3f:ConnectedHoneynet\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-CHN\",\"rdfs:label\":\"Connected Honeynet\"},{\"@id\":\"d3f:ConnectionAttemptAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-CAA\",\"d3f:synonym\":\"Network Scan Detection\",\"rdfs:label\":\"Connection Attempt Analysis\"},{\"@id\":\"d3f:CredentialCompromiseScopeAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-CCSA\",\"rdfs:label\":\"Credential Compromise Scope Analysis\"},{\"@id\":\"d3f:CredentialEviction\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-CE\",\"rdfs:label\":\"Credential Eviction\"},{\"@id\":\"d3f:CredentialHardening\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-CH\",\"rdfs:label\":\"Credential Hardening\"},{\"@id\":\"d3f:CredentialTransmissionScoping\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-CTS\",\"d3f:synonym\":\"Phishing Resistant Authentication\",\"rdfs:label\":\"Credential Transmission Scoping\"},{\"@id\":\"d3f:DNSAllowlisting\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-DNSAL\",\"d3f:synonym\":\"DNS Whitelisting\",\"rdfs:label\":\"DNS Allowlisting\"},{\"@id\":\"d3f:DNSDenylisting\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-DNSDL\",\"d3f:synonym\":\"DNS Blacklisting\",\"rdfs:label\":\"DNS Denylisting\"},{\"@id\":\"d3f:DNSTrafficAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-DNSTA\",\"d3f:synonym\":\"Domain Name Analysis\",\"rdfs:label\":\"DNS Traffic Analysis\"},{\"@id\":\"d3f:DatabaseQueryStringAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-DQSA\",\"rdfs:label\":\"Database Query String Analysis\"},{\"@id\":\"d3f:DeadCodeElimination\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-DCE\",\"rdfs:label\":\"Dead Code Elimination\"},{\"@id\":\"d3f:DecoyEnvironment\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-DE\",\"d3f:synonym\":\"Honeypot\",\"rdfs:label\":\"Decoy Environment\"},{\"@id\":\"d3f:DecoyFile\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-DF\",\"rdfs:label\":\"Decoy File\"},{\"@id\":\"d3f:DecoyNetworkResource\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-DNR\",\"rdfs:label\":\"Decoy Network Resource\"},{\"@id\":\"d3f:DecoyObject\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-DO\",\"d3f:synonym\":\"Lure\",\"rdfs:label\":\"Decoy Object\"},{\"@id\":\"d3f:DecoyPersona\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-DP\",\"rdfs:label\":\"Decoy Persona\"},{\"@id\":\"d3f:DecoyPublicRelease\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-DPR\",\"rdfs:label\":\"Decoy Public Release\"},{\"@id\":\"d3f:DecoySessionToken\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-DST\",\"rdfs:label\":\"Decoy Session Token\"},{\"@id\":\"d3f:DecoyUserCredential\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-DUC\",\"rdfs:label\":\"Decoy User Credential\"},{\"@id\":\"d3f:DiskEncryption\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-DENCR\",\"rdfs:label\":\"Disk Encryption\"},{\"@id\":\"d3f:DomainAccountMonitoring\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-DAM\",\"rdfs:label\":\"Domain Account Monitoring\"},{\"@id\":\"d3f:DomainTrustPolicy\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-DTP\",\"rdfs:label\":\"Domain Trust Policy\"},{\"@id\":\"d3f:DriverLoadIntegrityChecking\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-DLIC\",\"rdfs:label\":\"Driver Load Integrity Checking\"},{\"@id\":\"d3f:DynamicAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-DA\",\"d3f:synonym\":[\"Malware Detonation\",\"Malware Sandbox\"],\"rdfs:label\":\"Dynamic Analysis\"},{\"@id\":\"d3f:EmulatedFileAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-EFA\",\"rdfs:label\":\"Emulated File Analysis\"},{\"@id\":\"d3f:EncryptedTunnels\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-ET\",\"rdfs:label\":\"Encrypted Tunnels\"},{\"@id\":\"d3f:EndpointHealthBeacon\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-EHB\",\"d3f:synonym\":\"Endpoint Health Telemetry\",\"rdfs:label\":\"Endpoint Health Beacon\"},{\"@id\":\"d3f:ExceptionHandlerPointerValidation\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-EHPV\",\"d3f:synonym\":\"Exception Handler Validation\",\"rdfs:label\":\"Exception Handler Pointer Validation\"},{\"@id\":\"d3f:ExecutableAllowlisting\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-EAL\",\"d3f:synonym\":\"File Signature Authentication\",\"rdfs:label\":\"Executable Allowlisting\"},{\"@id\":\"d3f:ExecutableDenylisting\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-EDL\",\"d3f:synonym\":\"Executable Blacklisting\",\"rdfs:label\":\"Executable Denylisting\"},{\"@id\":\"d3f:ExecutionIsolation\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-EI\",\"rdfs:label\":\"Execution Isolation\"},{\"@id\":\"d3f:FileAccessPatternAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-FAPA\",\"rdfs:label\":\"File Access Pattern Analysis\"},{\"@id\":\"d3f:FileAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-FA\",\"rdfs:label\":\"File Analysis\"},{\"@id\":\"d3f:FileCarving\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-FC\",\"rdfs:label\":\"File Carving\"},{\"@id\":\"d3f:FileContentRules\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-FCR\",\"d3f:synonym\":[\"File Content Signatures\",\"File Signatures\"],\"rdfs:label\":\"File Content Rules\"},{\"@id\":\"d3f:FileCreationAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-FCA\",\"rdfs:label\":\"File Creation Analysis\"},{\"@id\":\"d3f:FileEncryption\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-FE\",\"rdfs:label\":\"File Encryption\"},{\"@id\":\"d3f:FileHashing\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-FH\",\"rdfs:label\":\"File Hashing\"},{\"@id\":\"d3f:FirmwareBehaviorAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-FBA\",\"d3f:synonym\":\"Firmware Timing Analysis\",\"rdfs:label\":\"Firmware Behavior Analysis\"},{\"@id\":\"d3f:FirmwareEmbeddedMonitoringCode\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-FEMC\",\"rdfs:label\":\"Firmware Embedded Monitoring Code\"},{\"@id\":\"d3f:FirmwareVerification\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-FV\",\"rdfs:label\":\"Firmware Verification\"},{\"@id\":\"d3f:ForwardResolutionDomainDenylisting\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-FRDDL\",\"d3f:synonym\":\"Forward Resolution Domain Blacklisting\",\"rdfs:label\":\"Forward Resolution Domain Denylisting\"},{\"@id\":\"d3f:ForwardResolutionIPDenylisting\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-FRIDL\",\"d3f:synonym\":\"Forward Resolution IP Blacklisting\",\"rdfs:label\":\"Forward Resolution IP Denylisting\"},{\"@id\":\"d3f:Hardware-basedProcessIsolation\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-HBPI\",\"d3f:synonym\":\"Virtualization\",\"rdfs:label\":\"Hardware-based Process Isolation\"},{\"@id\":\"d3f:HierarchicalDomainDenylisting\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-HDDL\",\"d3f:synonym\":\"Hierarchical Domain Blacklisting\",\"rdfs:label\":\"Hierarchical Domain Denylisting\"},{\"@id\":\"d3f:HomoglyphDenylisting\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-HDL\",\"d3f:synonym\":\"Homoglyph Blacklisting\",\"rdfs:label\":\"Homoglyph Denylisting\"},{\"@id\":\"d3f:HomoglyphDetection\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-HD\",\"rdfs:label\":\"Homoglyph Detection\"},{\"@id\":\"d3f:IOPortRestriction\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-IOPR\",\"rdfs:label\":\"IO Port Restriction\"},{\"@id\":\"d3f:IPCTrafficAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-IPCTA\",\"d3f:synonym\":\"IPC Analysis\",\"rdfs:label\":\"IPC Traffic Analysis\"},{\"@id\":\"d3f:IdentifierAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-ID\",\"rdfs:label\":\"Identifier Analysis\"},{\"@id\":\"d3f:InboundSessionVolumeAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-ISVA\",\"rdfs:label\":\"Inbound Session Volume Analysis\"},{\"@id\":\"d3f:InboundTrafficFiltering\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-ITF\",\"rdfs:label\":\"Inbound Traffic Filtering\"},{\"@id\":\"d3f:IndirectBranchCallAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-IBCA\",\"rdfs:label\":\"Indirect Branch Call Analysis\"},{\"@id\":\"d3f:InputDeviceAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-IDA\",\"rdfs:label\":\"Input Device Analysis\"},{\"@id\":\"d3f:IntegratedHoneynet\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-IHN\",\"rdfs:label\":\"Integrated Honeynet\"},{\"@id\":\"d3f:JobFunctionAccessPatternAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-JFAPA\",\"rdfs:label\":\"Job Function Access Pattern Analysis\"},{\"@id\":\"d3f:Kernel-basedProcessIsolation\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-KBPI\",\"rdfs:label\":\"Kernel-based Process Isolation\"},{\"@id\":\"d3f:LocalAccountMonitoring\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-LAM\",\"rdfs:label\":\"Local Account Monitoring\"},{\"@id\":\"d3f:LocalFilePermissions\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-LFP\",\"rdfs:label\":\"Local File Permissions\"},{\"@id\":\"d3f:MandatoryAccessControl\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-MAC\",\"rdfs:label\":\"Mandatory Access Control\"},{\"@id\":\"d3f:MemoryBoundaryTracking\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-MBT\",\"rdfs:label\":\"Memory Boundary Tracking\"},{\"@id\":\"d3f:MessageAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-MA\",\"d3f:synonym\":[\"Electronic Message Analysis\",\"Email Or Messaging Analysis\"],\"rdfs:label\":\"Message Analysis\"},{\"@id\":\"d3f:MessageAuthentication\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-MAN\",\"rdfs:label\":\"Message Authentication\"},{\"@id\":\"d3f:MessageEncryption\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-MENCR\",\"rdfs:label\":\"Message Encryption\"},{\"@id\":\"d3f:MessageHardening\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-MH\",\"d3f:synonym\":\"Email Or Messaging Hardening\",\"rdfs:label\":\"Message Hardening\"},{\"@id\":\"d3f:Multi-factorAuthentication\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-MFA\",\"rdfs:label\":\"Multi-factor Authentication\"},{\"@id\":\"d3f:NetworkIsolation\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-NI\",\"rdfs:label\":\"Network Isolation\"},{\"@id\":\"d3f:NetworkTrafficAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-NTA\",\"rdfs:label\":\"Network Traffic Analysis\"},{\"@id\":\"d3f:NetworkTrafficCommunityDeviation\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-NTCD\",\"rdfs:label\":\"Network Traffic Community Deviation\"},{\"@id\":\"d3f:NetworkTrafficFiltering\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-NTF\",\"rdfs:label\":\"Network Traffic Filtering\"},{\"@id\":\"d3f:One-timePassword\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-OTP\",\"d3f:synonym\":\"OTP\",\"rdfs:label\":\"One-time Password\"},{\"@id\":\"d3f:OperatingSystemMonitoring\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-OSM\",\"rdfs:label\":\"Operating System Monitoring\"},{\"@id\":\"d3f:OutboundTrafficFiltering\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-OTF\",\"rdfs:label\":\"Outbound Traffic Filtering\"},{\"@id\":\"d3f:PassiveCertificateAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-PCA\",\"rdfs:label\":\"Passive Certificate Analysis\"},{\"@id\":\"d3f:PerHostDownload-UploadRatioAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-PHDURA\",\"rdfs:label\":\"Per Host Download-Upload Ratio Analysis\"},{\"@id\":\"d3f:PeripheralFirmwareVerification\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-PFV\",\"rdfs:label\":\"Peripheral Firmware Verification\"},{\"@id\":\"d3f:PlatformHardening\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-PH\",\"d3f:synonym\":[\"Endpoint Hardening\",\"System Hardening\"],\"rdfs:label\":\"Platform Hardening\"},{\"@id\":\"d3f:PlatformMonitoring\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-PM\",\"rdfs:label\":\"Platform Monitoring\"},{\"@id\":\"d3f:PointerAuthentication\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-PAN\",\"rdfs:label\":\"Pointer Authentication\"},{\"@id\":\"d3f:ProcessAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-PA\",\"rdfs:label\":\"Process Analysis\"},{\"@id\":\"d3f:ProcessCodeSegmentVerification\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-PCSV\",\"rdfs:label\":\"Process Code Segment Verification\"},{\"@id\":\"d3f:ProcessEviction\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-PE\",\"rdfs:label\":\"Process Eviction\"},{\"@id\":\"d3f:ProcessLineageAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-PLA\",\"d3f:synonym\":\"Process Tree Analysis\",\"rdfs:label\":\"Process Lineage Analysis\"},{\"@id\":\"d3f:ProcessSegmentExecutionPrevention\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-PSEP\",\"d3f:synonym\":[\"Execute Disable\",\"No Execute\"],\"rdfs:label\":\"Process Segment Execution Prevention\"},{\"@id\":\"d3f:ProcessSelf-ModificationDetection\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-PSMD\",\"rdfs:label\":\"Process Self-Modification Detection\"},{\"@id\":\"d3f:ProcessSpawnAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-PSA\",\"rdfs:label\":\"Process Spawn Analysis\"},{\"@id\":\"d3f:ProcessTermination\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-PT\",\"rdfs:label\":\"Process Termination\"},{\"@id\":\"d3f:ProtocolMetadataAnomalyDetection\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-PMAD\",\"rdfs:label\":\"Protocol Metadata Anomaly Detection\"},{\"@id\":\"d3f:RFShielding\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-RFS\",\"rdfs:label\":\"RF Shielding\"},{\"@id\":\"d3f:RPCTrafficAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-RTA\",\"d3f:synonym\":\"RPC Protocol Analysis\",\"rdfs:label\":\"RPC Traffic Analysis\"},{\"@id\":\"d3f:RelayPatternAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-RPA\",\"d3f:synonym\":\"Relay Network Detection\",\"rdfs:label\":\"Relay Pattern Analysis\"},{\"@id\":\"d3f:RemoteTerminalSessionDetection\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-RTSD\",\"rdfs:label\":\"Remote Terminal Session Detection\"},{\"@id\":\"d3f:ResourceAccessPatternAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-RAPA\",\"rdfs:label\":\"Resource Access Pattern Analysis\"},{\"@id\":\"d3f:ReverseResolutionDomainDenylisting\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-RRDD\",\"d3f:synonym\":\"Reverse Resolution Domain Blacklisting\",\"rdfs:label\":\"Reverse Resolution Domain Denylisting\"},{\"@id\":\"d3f:ReverseResolutionIPDenylisting\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-RRID\",\"d3f:synonym\":\"Reverse Resolution IP Blacklisting\",\"rdfs:label\":\"Reverse Resolution IP Denylisting\"},{\"@id\":\"d3f:ScheduledJobAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SJA\",\"d3f:synonym\":\"Scheduled Job Execution\",\"rdfs:label\":\"Scheduled Job Analysis\"},{\"@id\":\"d3f:ScriptExecutionAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SEA\",\"rdfs:label\":\"Script Execution Analysis\"},{\"@id\":\"d3f:SegmentAddressOffsetRandomization\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SAOR\",\"d3f:synonym\":[\"Address Space Layout Randomization\",\"ASLR\"],\"rdfs:label\":\"Segment Address Offset Randomization\"},{\"@id\":\"d3f:SenderMTAReputationAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SMRA\",\"rdfs:label\":\"Sender MTA Reputation Analysis\"},{\"@id\":\"d3f:SenderReputationAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SRA\",\"rdfs:label\":\"Sender Reputation Analysis\"},{\"@id\":\"d3f:ServiceBinaryVerification\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SBV\",\"rdfs:label\":\"Service Binary Verification\"},{\"@id\":\"d3f:SessionDurationAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SDA\",\"rdfs:label\":\"Session Duration Analysis\"},{\"@id\":\"d3f:ShadowStackComparisons\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SSC\",\"rdfs:label\":\"Shadow Stack Comparisons\"},{\"@id\":\"d3f:SoftwareUpdate\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SU\",\"rdfs:label\":\"Software Update\"},{\"@id\":\"d3f:StackFrameCanaryValidation\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SFCV\",\"rdfs:label\":\"Stack Frame Canary Validation\"},{\"@id\":\"d3f:StandaloneHoneynet\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SHN\",\"rdfs:label\":\"Standalone Honeynet\"},{\"@id\":\"d3f:StrongPasswordPolicy\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SPP\",\"rdfs:label\":\"Strong Password Policy\"},{\"@id\":\"d3f:SystemCallAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SCA\",\"rdfs:label\":\"System Call Analysis\"},{\"@id\":\"d3f:SystemCallFiltering\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SCF\",\"rdfs:label\":\"System Call Filtering\"},{\"@id\":\"d3f:SystemConfigurationPermissions\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SCP\",\"rdfs:label\":\"System Configuration Permissions\"},{\"@id\":\"d3f:SystemDaemonMonitoring\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SDM\",\"rdfs:label\":\"System Daemon Monitoring\"},{\"@id\":\"d3f:SystemFileAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SFA\",\"rdfs:label\":\"System File Analysis\"},{\"@id\":\"d3f:SystemFirmwareVerification\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SFV\",\"rdfs:label\":\"System Firmware Verification\"},{\"@id\":\"d3f:SystemInitConfigAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-SICA\",\"d3f:synonym\":[\"Autorun Analysis\",\"Startup Analysis\"],\"rdfs:label\":\"System Init Config Analysis\"},{\"@id\":\"d3f:TPMBootIntegrity\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-TBI\",\"d3f:synonym\":[\"Static Root of Trust Measurement\",\"STRM\"],\"rdfs:label\":\"TPM Boot Integrity\"},{\"@id\":\"d3f:TransferAgentAuthentication\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-TAAN\",\"rdfs:label\":\"Transfer Agent Authentication\"},{\"@id\":\"d3f:URLAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-UA\",\"rdfs:label\":\"URL Analysis\"},{\"@id\":\"d3f:UserAccountPermissions\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-UAP\",\"rdfs:label\":\"User Account Permissions\"},{\"@id\":\"d3f:UserBehaviorAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-UBA\",\"d3f:synonym\":[\"Credential Monitoring\",\"UBA\"],\"rdfs:label\":\"User Behavior Analysis\"},{\"@id\":\"d3f:UserDataTransferAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-UDTA\",\"rdfs:label\":\"User Data Transfer Analysis\"},{\"@id\":\"d3f:UserGeolocationLogonPatternAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-UGLPA\",\"rdfs:label\":\"User Geolocation Logon Pattern Analysis\"},{\"@id\":\"d3f:UserSessionInitConfigAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-USICA\",\"d3f:synonym\":\"User Startup Config Analysis\",\"rdfs:label\":\"User Session Init Config Analysis\"},{\"@id\":\"d3f:WebSessionActivityAnalysis\",\"@type\":\"owl:Class\",\"d3f:d3fend-id\":\"D3-WSAA\",\"rdfs:label\":\"Web Session Activity Analysis\"}]}"}</script></div>
+      
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script id="atarget" async      >
+      </script>
+      <script>
+        if (window.location.hostname != "localhost" && 
+              window.location.hostname !=  "127.0.0.1") {
+          
+          // target = document.getElementById("atarget");
+          // target.onload = function(){};
+          // target.src="https://www.googletagmanager.com/gtag/js?id=UA-200005342-1"
+
+          // window.dataLayer = window.dataLayer || [];
+          // function gtag() {
+          //   dataLayer.push(arguments);
+          // }
+          // gtag("js", new Date());
+          // gtag("config", "UA-200005342-1");
+
+          let gaID = "UA-200005342-1";
+          window.dataLayer = window.dataLayer || []
+          function gtag() { dataLayer.push(arguments) }
+          gtag('js', new Date())
+          gtag('config', gaID)
+
+          const script = document.createElement('script')
+          script.src = `https://www.googletagmanager.com/gtag/js?id=${gaID}`
+          document.body.appendChild(script)
+
+        } else {
+          console.info("Analytics disabled in development mode")
+        }
+      </script>
+    </body>
+    </html>
+    
