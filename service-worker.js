@@ -1,9 +1,9 @@
 const build = [
-  "/_app/start-8835b515.js",
-  "/_app/pages/__layout.svelte-bf1d64e1.js",
-  "/_app/assets/pages/__layout-matrix.svelte-5f711740.css",
+  "/_app/start-047b8b34.js",
+  "/_app/pages/__layout.svelte-dd97aeab.js",
+  "/_app/assets/pages/__layout.svelte-a0ff9840.css",
   "/_app/pages/__error.svelte-1d825c42.js",
-  "/_app/pages/__layout-matrix.svelte-f8dd1841.js",
+  "/_app/pages/__layout-matrix.svelte-e1086294.js",
   "/_app/pages/mappings/__layout.svelte-9c60b20b.js",
   "/_app/pages/offensive-technique/attack/__layout@matrix.svelte-7861c5d0.js",
   "/_app/pages/progress/__layout.svelte-5e5c52fc.js",
@@ -14,7 +14,7 @@ const build = [
   "/_app/assets/pages/about.svelte-b0b5b64a.css",
   "/_app/pages/contact.svelte-27af9ef7.js",
   "/_app/assets/Button.svelte_svelte_type_style_lang-7ef90c91.css",
-  "/_app/pages/contribute/index.svelte-f08e2d32.js",
+  "/_app/pages/contribute/index.svelte-cd2b3edc.js",
   "/_app/pages/dao/artifact/_artifact_.svelte-70a7bda1.js",
   "/_app/assets/pages/dao/artifact/_artifact_.svelte-76d0c295.css",
   "/_app/assets/Alert.svelte_svelte_type_style_lang-6b570326.css",
@@ -34,9 +34,9 @@ const build = [
   "/_app/assets/pages/ontology/describe/_slug_.svelte-55af8b4a.css",
   "/_app/pages/poster@matrix.svelte-3d238cce.js",
   "/_app/assets/pages/poster@matrix.svelte-ad010473.css",
-  "/_app/pages/privacy.svelte-c80c93be.js",
+  "/_app/pages/privacy.svelte-ffcf299b.js",
   "/_app/pages/progress/index.svelte-e7c335fc.js",
-  "/_app/pages/resources/index.svelte-d653d34d.js",
+  "/_app/pages/resources/index.svelte-bdf70823.js",
   "/_app/pages/resources/ontology.svelte-1b4a57b2.js",
   "/_app/pages/search.svelte-487768bc.js",
   "/_app/assets/pages/search.svelte-6a857f2b.css",
@@ -57,7 +57,7 @@ const build = [
   "/_app/chunks/index-a02da30e.js",
   "/_app/chunks/index-98a102c4.js",
   "/_app/chunks/singletons-d1fb5791.js",
-  "/_app/chunks/Nav-mobile-8b1e0bf1.js",
+  "/_app/chunks/Nav-mobile-18bee053.js",
   "/_app/assets/Nav-mobile-e0f80dc0.css",
   "/_app/chunks/stores-59d8ae96.js",
   "/_app/chunks/stores-cf129ad8.js",
@@ -124,7 +124,7 @@ const files = [
   "/resources/extra-dist/CNAME",
   "/resources/extra-dist/README.md"
 ];
-const version = "1655221853752";
+const version = "1655229049936";
 const ASSETS = `cache${version}`;
 const to_cache = build.concat(files);
 const staticAssets = new Set(to_cache);
