@@ -51,7 +51,7 @@ D3-RTSD,Detect,,Remote Terminal Session Detection,,Detection of an unauthorized 
 D3-RTA,Detect,,RPC Traffic Analysis,,Monitoring the activity of remote procedure calls in communication traffic to establish standard protocol operations and potential attacker activities.
 D3-PA,Detect,Process Analysis,,,
 D3-DQSA,Detect,,Database Query String Analysis,,Analyzing database queries to detect [SQL Injection](https://capec.mitre.org/data/definitions/66.html).
-D3-FAPA,Detect,,File Access Pattern Analysis,,Analyzing the files accessed by a process to identify unauthorized activity.
+D3-FAPA,Detect,,File Access Pattern Analysis,,Analyzing the way a process accesses local files to identify unauthorized activity.
 D3-IBCA,Detect,,Indirect Branch Call Analysis,,Analyzing vendor specific branch call recording in order to detect ROP style attacks.
 D3-PCSV,Detect,,Process Code Segment Verification,,"Comparing the ""text"" or ""code"" memory segments to a source of truth."
 D3-PSMD,Detect,,Process Self-Modification Detection,,"Detects processes that modify, change, or replace their own code at runtime."

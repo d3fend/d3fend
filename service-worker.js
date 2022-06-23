@@ -1,5 +1,5 @@
 const build = [
-  "/_app/start-047b8b34.js",
+  "/_app/start-8e428c50.js",
   "/_app/pages/__layout.svelte-dd97aeab.js",
   "/_app/assets/pages/__layout.svelte-a0ff9840.css",
   "/_app/pages/__error.svelte-1d825c42.js",
@@ -36,8 +36,8 @@ const build = [
   "/_app/assets/pages/poster@matrix.svelte-ad010473.css",
   "/_app/pages/privacy.svelte-ffcf299b.js",
   "/_app/pages/progress/index.svelte-e7c335fc.js",
-  "/_app/pages/resources/index.svelte-bdf70823.js",
-  "/_app/pages/resources/ontology.svelte-1b4a57b2.js",
+  "/_app/pages/resources/index.svelte-9e85e6ab.js",
+  "/_app/pages/resources/ontology.svelte-54817cb5.js",
   "/_app/pages/search.svelte-487768bc.js",
   "/_app/assets/pages/search.svelte-6a857f2b.css",
   "/_app/pages/tactic/_tactic_@tactic.svelte-2f826e76.js",
@@ -124,7 +124,7 @@ const files = [
   "/resources/extra-dist/CNAME",
   "/resources/extra-dist/README.md"
 ];
-const version = "1655229049936";
+const version = "1655998493623";
 const ASSETS = `cache${version}`;
 const to_cache = build.concat(files);
 const staticAssets = new Set(to_cache);
