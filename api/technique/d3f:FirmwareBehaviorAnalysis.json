@@ -1,1 +1,1289 @@
-{"def_to_off":{"head":{"vars":["query_def_tech_label","top_def_tech_label","def_tactic_label","def_tactic_rel_label","def_tech_label","def_artifact_rel_label","def_artifact_label","off_artifact_label","off_artifact_rel_label","off_tech_label","off_tech_id","off_tech_parent_label","off_tech_parent_is_toplevel","off_tactic_rel_label","off_tactic_label","def_tactic","def_tactic_rel","tactic_def_tech","def_tech","def_artifact_rel","def_artifact","off_artifact","off_artifact_rel","off_tech","off_tech_parent","off_tactic_rel","off_tactic"]},"results":{"bindings":[{"query_def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"top_def_tech_label":{"type":"literal","value":"Platform Monitoring"},"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Firmware"},"off_artifact_label":{"type":"literal","value":"Firmware"},"off_artifact_rel_label":{"type":"literal","value":"may-modify"},"off_tech_label":{"type":"literal","value":"Rootkit"},"off_tech_id":{"type":"literal","value":"T1014"},"off_tech_parent_label":{"type":"literal","value":"Defense Evasion Technique"},"off_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"true"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Defense Evasion"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#may-modify"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1014"},"off_tech_parent":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasionTechnique"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"}},{"query_def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"top_def_tech_label":{"type":"literal","value":"Platform Monitoring"},"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Firmware"},"off_artifact_label":{"type":"literal","value":"System Firmware"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"System Firmware"},"off_tech_id":{"type":"literal","value":"T1542.001"},"off_tech_parent_label":{"type":"literal","value":"Pre-OS Boot"},"off_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"false"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Defense Evasion"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemFirmware"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1542.001"},"off_tech_parent":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1542"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"}},{"query_def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"top_def_tech_label":{"type":"literal","value":"Platform Monitoring"},"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Firmware"},"off_artifact_label":{"type":"literal","value":"Firmware"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"Component Firmware"},"off_tech_id":{"type":"literal","value":"T1542.002"},"off_tech_parent_label":{"type":"literal","value":"Pre-OS Boot"},"off_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"false"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Defense Evasion"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1542.002"},"off_tech_parent":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1542"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"}},{"query_def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"top_def_tech_label":{"type":"literal","value":"Platform Monitoring"},"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Firmware"},"off_artifact_label":{"type":"literal","value":"System Firmware"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"System Firmware"},"off_tech_id":{"type":"literal","value":"T1542.001"},"off_tech_parent_label":{"type":"literal","value":"Pre-OS Boot"},"off_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"false"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Persistence"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemFirmware"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1542.001"},"off_tech_parent":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1542"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"}},{"query_def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"top_def_tech_label":{"type":"literal","value":"Platform Monitoring"},"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Firmware"},"off_artifact_label":{"type":"literal","value":"Firmware"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"Component Firmware"},"off_tech_id":{"type":"literal","value":"T1542.002"},"off_tech_parent_label":{"type":"literal","value":"Pre-OS Boot"},"off_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"false"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Persistence"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1542.002"},"off_tech_parent":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1542"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"}}]}},"description":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:FirmwareBehaviorAnalysis","@type":["d3f:PlatformMonitoring","owl:NamedIndividual","owl:Class"],"d3f:analyzes":{"@id":"d3f:Firmware"},"d3f:d3fend-id":"D3-FBA","d3f:definition":"Analyzing the behavior of embedded code in firmware and looking for anomalous behavior and suspicious activity.","d3f:kb-article":"## How it works\nFirmware behavior analysis provides protections by ensuring that installed firmware has not been tampered with or modified. Firmware analysis applies to mutable firmware and immutable read-only memory (ROMs).\n\nFirmware in deployed network devices is typically not analyzed and monitored for vulnerabilities and thus is subject to potential attacks. This technique makes use of known and measured behavioral attributes, including timing attributes, of analyzed firmware on deployed devices.\n\nA behavioral method that employs known timing measurements may use the timing results from a challenge and response protocol to detect the presence of malware in embedded firmware. Firmware device timing measurements are made, specific to the installed device, and are used in the verifying function.\n\nThe original firmware image is modified by injecting a monitoring software component into the embedded firmware code. The injected software components will allow for a software root of trust, the challenge and response protocol, to be implement in the firmware.\n\nA challenge-response is issued and includes a nonce so that replays are not allowed. The firmware will calculate a checksum over all of memory, including the nonce, and return the result. The verification system will compare the computed checksum and the time it took for the computation of the checksum to determine if the firmware has been modified.\n\n## Considerations\n* The firmware code will need to be modified to include the behavioral monitoring functionality.\n* This technique is sensitive to the device the embedded firmware is hosted on and it is expected that the devices and firmware will need to be profiled and analyzed to determine timing estimation.\n* This technique is not expected to be one hundred percent correct as you would expect in a hardware root of trust solution and may require some tuning.","d3f:kb-reference":[{"@id":"d3f:Reference-FirmwareBehaviorAnalysisConFirm"},{"@id":"d3f:Reference-FirmwareBehaviorAnalysisVIPER"}],"d3f:synonym":"Firmware Timing Analysis","rdfs:label":"Firmware Behavior Analysis","rdfs:subClassOf":{"@id":"d3f:PlatformMonitoring"}}]},"digital_artifacts":{"head":{"vars":["query_def_tech_label","top_def_tech_label","def_tech_label","def_artifact_rel_label","def_artifact_label","def_tactic","def_tactic_rel","def_tech","def_artifact_rel","def_artifact"]},"results":{"bindings":[{"query_def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"top_def_tech_label":{"type":"literal","value":"Platform Monitoring"},"def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Firmware"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"}}]}},"references":{"@context":{"rdfs":"http://www.w3.org/2000/01/rdf-schema#","d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#"},"@graph":[{"@id":"d3f:Reference-FirmwareBehaviorAnalysisConFirm","@type":["d3f:AcademicPaperReference","http://www.w3.org/2002/07/owl#NamedIndividual"],"d3f:has-link":{"@type":"http://www.w3.org/2001/XMLSchema#anyURI","@value":"http://sites.nyuad.nyu.edu/moma/pdfs/pubs/C22.pdf"},"d3f:kb-abstract":"The modernization of various critical infrastructure components has dictated the use of microprocessor-based\nembedded control systems in critical applications. It is often\ninfeasible, however, to employ the same level of security measures used in general purpose computing systems, due to the stringent\nperformance and resource constraints of embedded devices. Furthermore, as software relies on the firmware for proper operation,\nno software-level technique can detect malicious behavior of\nthe firmware. In this work, we propose ConFirm, a low-cost\ntechnique to detect malicious modifications in the firmware\nof embedded systems by measuring the number of low-level hardware events that occur during the execution of the firmware.","d3f:kb-author":"Xueyang Wang, Charalambos Konstantinou, Michail Maniatakos, Ramesh Karri","d3f:kb-organization":"Department of Electrical and Computer Engineering, Polytechnic School of Engineering, New York University and Department of Electrical and Computer Engineering, New York University Abu Dhabi","d3f:kb-reference-of":{"@id":"d3f:FirmwareBehaviorAnalysis"},"d3f:kb-reference-title":"ConFirm: Detecting Firmware Modifications in Embedded Systems\nusing Hardware Performance Counters","d3f:reference-type-label":"Academic Paper","rdfs:label":"Reference - Firmware Behavior Analysis ConFirm"},{"@id":"d3f:Reference-FirmwareBehaviorAnalysisVIPER","@type":["d3f:AcademicPaperReference","http://www.w3.org/2002/07/owl#NamedIndividual"],"d3f:has-link":{"@type":"http://www.w3.org/2001/XMLSchema#anyURI","@value":"https://dl.acm.org/doi/pdf/10.1145/2046707.2046711"},"d3f:kb-abstract":"Recent research demonstrates that malware can infect peripherals' firmware in a typical x86 computer system, e.g., by exploiting vulnerabilities in the firmware itself or in the firmware update tools. Verifying the integrity of peripherals' firmware is thus an important challenge. We propose software-only attestation protocols to verify the integrity of peripherals' firmware, and show that they can detect all known software-based attacks.","d3f:kb-author":"Yanlin Li, Jonathan M. McCune, Adrian Perrig","d3f:kb-organization":"CyLab, Carnegie Mellon University","d3f:kb-reference-of":{"@id":"d3f:FirmwareBehaviorAnalysis"},"d3f:kb-reference-title":"VIPER: Verifying the Integrity of PERipherals' Firmware","d3f:reference-type-label":"Academic Paper","rdfs:label":"Reference - Firmware Behavior Analysis VIPER"}]},"references_meta":{"Academic Paper":2},"subtechniques":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[]},"related_offensive_matrix":{"Defense Evasion":[["Rootkit",[{"query_def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"top_def_tech_label":{"type":"literal","value":"Platform Monitoring"},"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Firmware"},"off_artifact_label":{"type":"literal","value":"Firmware"},"off_artifact_rel_label":{"type":"literal","value":"may-modify"},"off_tech_label":{"type":"literal","value":"Rootkit"},"off_tech_id":{"type":"literal","value":"T1014"},"off_tech_parent_label":{"type":"literal","value":"Defense Evasion Technique"},"off_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"true"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Defense Evasion"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#may-modify"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1014"},"off_tech_parent":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasionTechnique"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"}}]],["Pre-OS Boot",[{"query_def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"top_def_tech_label":{"type":"literal","value":"Platform Monitoring"},"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Firmware"},"off_artifact_label":{"type":"literal","value":"System Firmware"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"System Firmware"},"off_tech_id":{"type":"literal","value":"T1542.001"},"off_tech_parent_label":{"type":"literal","value":"Pre-OS Boot"},"off_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"false"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Defense Evasion"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemFirmware"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1542.001"},"off_tech_parent":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1542"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"}},{"query_def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"top_def_tech_label":{"type":"literal","value":"Platform Monitoring"},"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Firmware"},"off_artifact_label":{"type":"literal","value":"Firmware"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"Component Firmware"},"off_tech_id":{"type":"literal","value":"T1542.002"},"off_tech_parent_label":{"type":"literal","value":"Pre-OS Boot"},"off_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"false"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Defense Evasion"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1542.002"},"off_tech_parent":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1542"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"}}]]],"Persistence":[["Pre-OS Boot",[{"query_def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"top_def_tech_label":{"type":"literal","value":"Platform Monitoring"},"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Firmware"},"off_artifact_label":{"type":"literal","value":"System Firmware"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"System Firmware"},"off_tech_id":{"type":"literal","value":"T1542.001"},"off_tech_parent_label":{"type":"literal","value":"Pre-OS Boot"},"off_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"false"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Persistence"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemFirmware"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1542.001"},"off_tech_parent":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1542"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"}},{"query_def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"top_def_tech_label":{"type":"literal","value":"Platform Monitoring"},"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_label":{"type":"literal","value":"Firmware Behavior Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Firmware"},"off_artifact_label":{"type":"literal","value":"Firmware"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"Component Firmware"},"off_tech_id":{"type":"literal","value":"T1542.002"},"off_tech_parent_label":{"type":"literal","value":"Pre-OS Boot"},"off_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"false"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Persistence"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1542.002"},"off_tech_parent":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1542"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"}}]]]}}
+{
+  "def_to_off": {
+    "head": {
+      "vars": [
+        "query_def_tech_label",
+        "top_def_tech_label",
+        "def_tactic_label",
+        "def_tactic_rel_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "off_artifact_label",
+        "off_artifact_rel_label",
+        "off_tech_label",
+        "off_tech_id",
+        "off_tech_parent_label",
+        "off_tech_parent_is_toplevel",
+        "off_tactic_rel_label",
+        "off_tactic_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "tactic_def_tech",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact",
+        "off_artifact",
+        "off_artifact_rel",
+        "off_tech",
+        "off_tech_parent",
+        "off_tactic_rel",
+        "off_tactic"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "query_def_tech_label": {
+            "type": "literal",
+            "value": "Firmware Behavior Analysis"
+          },
+          "top_def_tech_label": {
+            "type": "literal",
+            "value": "Platform Monitoring"
+          },
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Detect"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Firmware Behavior Analysis"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "analyzes"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Firmware"
+          },
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Firmware"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "may-modify"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Rootkit"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1014"
+          },
+          "off_tech_parent_label": {
+            "type": "literal",
+            "value": "Defense Evasion Technique"
+          },
+          "off_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Defense Evasion"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#may-modify"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1014"
+          },
+          "off_tech_parent": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasionTechnique"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"
+          }
+        },
+        {
+          "query_def_tech_label": {
+            "type": "literal",
+            "value": "Firmware Behavior Analysis"
+          },
+          "top_def_tech_label": {
+            "type": "literal",
+            "value": "Platform Monitoring"
+          },
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Detect"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Firmware Behavior Analysis"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "analyzes"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Firmware"
+          },
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Firmware"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "modifies"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "System Firmware"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1542.001"
+          },
+          "off_tech_parent_label": {
+            "type": "literal",
+            "value": "Pre-OS Boot"
+          },
+          "off_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Defense Evasion"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemFirmware"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1542.001"
+          },
+          "off_tech_parent": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1542"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"
+          }
+        },
+        {
+          "query_def_tech_label": {
+            "type": "literal",
+            "value": "Firmware Behavior Analysis"
+          },
+          "top_def_tech_label": {
+            "type": "literal",
+            "value": "Platform Monitoring"
+          },
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Detect"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Firmware Behavior Analysis"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "analyzes"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Firmware"
+          },
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Firmware"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "modifies"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Component Firmware"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1542.002"
+          },
+          "off_tech_parent_label": {
+            "type": "literal",
+            "value": "Pre-OS Boot"
+          },
+          "off_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Defense Evasion"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1542.002"
+          },
+          "off_tech_parent": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1542"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"
+          }
+        },
+        {
+          "query_def_tech_label": {
+            "type": "literal",
+            "value": "Firmware Behavior Analysis"
+          },
+          "top_def_tech_label": {
+            "type": "literal",
+            "value": "Platform Monitoring"
+          },
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Detect"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Firmware Behavior Analysis"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "analyzes"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Firmware"
+          },
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Firmware"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "modifies"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "System Firmware"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1542.001"
+          },
+          "off_tech_parent_label": {
+            "type": "literal",
+            "value": "Pre-OS Boot"
+          },
+          "off_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Persistence"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemFirmware"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1542.001"
+          },
+          "off_tech_parent": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1542"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"
+          }
+        },
+        {
+          "query_def_tech_label": {
+            "type": "literal",
+            "value": "Firmware Behavior Analysis"
+          },
+          "top_def_tech_label": {
+            "type": "literal",
+            "value": "Platform Monitoring"
+          },
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Detect"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Firmware Behavior Analysis"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "analyzes"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Firmware"
+          },
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Firmware"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "modifies"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Component Firmware"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1542.002"
+          },
+          "off_tech_parent_label": {
+            "type": "literal",
+            "value": "Pre-OS Boot"
+          },
+          "off_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Persistence"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1542.002"
+          },
+          "off_tech_parent": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1542"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"
+          }
+        }
+      ]
+    }
+  },
+  "description": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:FirmwareBehaviorAnalysis",
+        "@type": [
+          "d3f:PlatformMonitoring",
+          "owl:NamedIndividual",
+          "owl:Class"
+        ],
+        "d3f:analyzes": {
+          "@id": "d3f:Firmware"
+        },
+        "d3f:d3fend-id": "D3-FBA",
+        "d3f:definition": "Analyzing the behavior of embedded code in firmware and looking for anomalous behavior and suspicious activity.",
+        "d3f:kb-article": "## How it works\nFirmware behavior analysis provides protections by ensuring that installed firmware has not been tampered with or modified. Firmware analysis applies to mutable firmware and immutable read-only memory (ROMs).\n\nFirmware in deployed network devices is typically not analyzed and monitored for vulnerabilities and thus is subject to potential attacks. This technique makes use of known and measured behavioral attributes, including timing attributes, of analyzed firmware on deployed devices.\n\nA behavioral method that employs known timing measurements may use the timing results from a challenge and response protocol to detect the presence of malware in embedded firmware. Firmware device timing measurements are made, specific to the installed device, and are used in the verifying function.\n\nThe original firmware image is modified by injecting a monitoring software component into the embedded firmware code. The injected software components will allow for a software root of trust, the challenge and response protocol, to be implement in the firmware.\n\nA challenge-response is issued and includes a nonce so that replays are not allowed. The firmware will calculate a checksum over all of memory, including the nonce, and return the result. The verification system will compare the computed checksum and the time it took for the computation of the checksum to determine if the firmware has been modified.\n\n## Considerations\n* The firmware code will need to be modified to include the behavioral monitoring functionality.\n* This technique is sensitive to the device the embedded firmware is hosted on and it is expected that the devices and firmware will need to be profiled and analyzed to determine timing estimation.\n* This technique is not expected to be one hundred percent correct as you would expect in a hardware root of trust solution and may require some tuning.",
+        "d3f:kb-reference": [
+          {
+            "@id": "d3f:Reference-FirmwareBehaviorAnalysisConFirm"
+          },
+          {
+            "@id": "d3f:Reference-FirmwareBehaviorAnalysisVIPER"
+          }
+        ],
+        "d3f:synonym": "Firmware Timing Analysis",
+        "rdfs:label": "Firmware Behavior Analysis",
+        "rdfs:subClassOf": {
+          "@id": "d3f:PlatformMonitoring"
+        }
+      }
+    ]
+  },
+  "digital_artifacts": {
+    "head": {
+      "vars": [
+        "query_def_tech_label",
+        "top_def_tech_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "query_def_tech_label": {
+            "type": "literal",
+            "value": "Firmware Behavior Analysis"
+          },
+          "top_def_tech_label": {
+            "type": "literal",
+            "value": "Platform Monitoring"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Firmware Behavior Analysis"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "analyzes"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Firmware"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"
+          }
+        }
+      ]
+    }
+  },
+  "references": {
+    "@context": {
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:Reference-FirmwareBehaviorAnalysisConFirm",
+        "@type": [
+          "d3f:AcademicPaperReference",
+          "http://www.w3.org/2002/07/owl#NamedIndividual"
+        ],
+        "d3f:has-link": {
+          "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "@value": "http://sites.nyuad.nyu.edu/moma/pdfs/pubs/C22.pdf"
+        },
+        "d3f:kb-abstract": "The modernization of various critical infrastructure components has dictated the use of microprocessor-based\nembedded control systems in critical applications. It is often\ninfeasible, however, to employ the same level of security measures used in general purpose computing systems, due to the stringent\nperformance and resource constraints of embedded devices. Furthermore, as software relies on the firmware for proper operation,\nno software-level technique can detect malicious behavior of\nthe firmware. In this work, we propose ConFirm, a low-cost\ntechnique to detect malicious modifications in the firmware\nof embedded systems by measuring the number of low-level hardware events that occur during the execution of the firmware.",
+        "d3f:kb-author": "Xueyang Wang, Charalambos Konstantinou, Michail Maniatakos, Ramesh Karri",
+        "d3f:kb-organization": "Department of Electrical and Computer Engineering, Polytechnic School of Engineering, New York University and Department of Electrical and Computer Engineering, New York University Abu Dhabi",
+        "d3f:kb-reference-of": {
+          "@id": "d3f:FirmwareBehaviorAnalysis"
+        },
+        "d3f:kb-reference-title": "ConFirm: Detecting Firmware Modifications in Embedded Systems\nusing Hardware Performance Counters",
+        "d3f:reference-type-label": "Academic Paper",
+        "rdfs:label": "Reference - Firmware Behavior Analysis ConFirm"
+      },
+      {
+        "@id": "d3f:Reference-FirmwareBehaviorAnalysisVIPER",
+        "@type": [
+          "d3f:AcademicPaperReference",
+          "http://www.w3.org/2002/07/owl#NamedIndividual"
+        ],
+        "d3f:has-link": {
+          "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "@value": "https://dl.acm.org/doi/pdf/10.1145/2046707.2046711"
+        },
+        "d3f:kb-abstract": "Recent research demonstrates that malware can infect peripherals' firmware in a typical x86 computer system, e.g., by exploiting vulnerabilities in the firmware itself or in the firmware update tools. Verifying the integrity of peripherals' firmware is thus an important challenge. We propose software-only attestation protocols to verify the integrity of peripherals' firmware, and show that they can detect all known software-based attacks.",
+        "d3f:kb-author": "Yanlin Li, Jonathan M. McCune, Adrian Perrig",
+        "d3f:kb-organization": "CyLab, Carnegie Mellon University",
+        "d3f:kb-reference-of": {
+          "@id": "d3f:FirmwareBehaviorAnalysis"
+        },
+        "d3f:kb-reference-title": "VIPER: Verifying the Integrity of PERipherals' Firmware",
+        "d3f:reference-type-label": "Academic Paper",
+        "rdfs:label": "Reference - Firmware Behavior Analysis VIPER"
+      }
+    ]
+  },
+  "references_meta": {
+    "Academic Paper": 2
+  },
+  "subtechniques": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": []
+  },
+  "related_offensive_matrix": {
+    "Defense Evasion": [
+      [
+        "Rootkit",
+        [
+          {
+            "query_def_tech_label": {
+              "type": "literal",
+              "value": "Firmware Behavior Analysis"
+            },
+            "top_def_tech_label": {
+              "type": "literal",
+              "value": "Platform Monitoring"
+            },
+            "def_tactic_label": {
+              "type": "literal",
+              "value": "Detect"
+            },
+            "def_tactic_rel_label": {
+              "type": "literal",
+              "value": "enables"
+            },
+            "def_tech_label": {
+              "type": "literal",
+              "value": "Firmware Behavior Analysis"
+            },
+            "def_artifact_rel_label": {
+              "type": "literal",
+              "value": "analyzes"
+            },
+            "def_artifact_label": {
+              "type": "literal",
+              "value": "Firmware"
+            },
+            "off_artifact_label": {
+              "type": "literal",
+              "value": "Firmware"
+            },
+            "off_artifact_rel_label": {
+              "type": "literal",
+              "value": "may-modify"
+            },
+            "off_tech_label": {
+              "type": "literal",
+              "value": "Rootkit"
+            },
+            "off_tech_id": {
+              "type": "literal",
+              "value": "T1014"
+            },
+            "off_tech_parent_label": {
+              "type": "literal",
+              "value": "Defense Evasion Technique"
+            },
+            "off_tech_parent_is_toplevel": {
+              "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+              "type": "literal",
+              "value": "true"
+            },
+            "off_tactic_rel_label": {
+              "type": "literal",
+              "value": "enables"
+            },
+            "off_tactic_label": {
+              "type": "literal",
+              "value": "Defense Evasion"
+            },
+            "def_tactic": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+            },
+            "def_tactic_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+            },
+            "def_tech": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"
+            },
+            "def_artifact_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+            },
+            "def_artifact": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"
+            },
+            "off_artifact": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"
+            },
+            "off_artifact_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#may-modify"
+            },
+            "off_tech": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1014"
+            },
+            "off_tech_parent": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasionTechnique"
+            },
+            "off_tactic_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+            },
+            "off_tactic": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"
+            }
+          }
+        ]
+      ],
+      [
+        "Pre-OS Boot",
+        [
+          {
+            "query_def_tech_label": {
+              "type": "literal",
+              "value": "Firmware Behavior Analysis"
+            },
+            "top_def_tech_label": {
+              "type": "literal",
+              "value": "Platform Monitoring"
+            },
+            "def_tactic_label": {
+              "type": "literal",
+              "value": "Detect"
+            },
+            "def_tactic_rel_label": {
+              "type": "literal",
+              "value": "enables"
+            },
+            "def_tech_label": {
+              "type": "literal",
+              "value": "Firmware Behavior Analysis"
+            },
+            "def_artifact_rel_label": {
+              "type": "literal",
+              "value": "analyzes"
+            },
+            "def_artifact_label": {
+              "type": "literal",
+              "value": "Firmware"
+            },
+            "off_artifact_label": {
+              "type": "literal",
+              "value": "System Firmware"
+            },
+            "off_artifact_rel_label": {
+              "type": "literal",
+              "value": "modifies"
+            },
+            "off_tech_label": {
+              "type": "literal",
+              "value": "System Firmware"
+            },
+            "off_tech_id": {
+              "type": "literal",
+              "value": "T1542.001"
+            },
+            "off_tech_parent_label": {
+              "type": "literal",
+              "value": "Pre-OS Boot"
+            },
+            "off_tech_parent_is_toplevel": {
+              "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+              "type": "literal",
+              "value": "false"
+            },
+            "off_tactic_rel_label": {
+              "type": "literal",
+              "value": "enables"
+            },
+            "off_tactic_label": {
+              "type": "literal",
+              "value": "Defense Evasion"
+            },
+            "def_tactic": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+            },
+            "def_tactic_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+            },
+            "def_tech": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"
+            },
+            "def_artifact_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+            },
+            "def_artifact": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"
+            },
+            "off_artifact": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemFirmware"
+            },
+            "off_artifact_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"
+            },
+            "off_tech": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1542.001"
+            },
+            "off_tech_parent": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1542"
+            },
+            "off_tactic_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+            },
+            "off_tactic": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"
+            }
+          },
+          {
+            "query_def_tech_label": {
+              "type": "literal",
+              "value": "Firmware Behavior Analysis"
+            },
+            "top_def_tech_label": {
+              "type": "literal",
+              "value": "Platform Monitoring"
+            },
+            "def_tactic_label": {
+              "type": "literal",
+              "value": "Detect"
+            },
+            "def_tactic_rel_label": {
+              "type": "literal",
+              "value": "enables"
+            },
+            "def_tech_label": {
+              "type": "literal",
+              "value": "Firmware Behavior Analysis"
+            },
+            "def_artifact_rel_label": {
+              "type": "literal",
+              "value": "analyzes"
+            },
+            "def_artifact_label": {
+              "type": "literal",
+              "value": "Firmware"
+            },
+            "off_artifact_label": {
+              "type": "literal",
+              "value": "Firmware"
+            },
+            "off_artifact_rel_label": {
+              "type": "literal",
+              "value": "modifies"
+            },
+            "off_tech_label": {
+              "type": "literal",
+              "value": "Component Firmware"
+            },
+            "off_tech_id": {
+              "type": "literal",
+              "value": "T1542.002"
+            },
+            "off_tech_parent_label": {
+              "type": "literal",
+              "value": "Pre-OS Boot"
+            },
+            "off_tech_parent_is_toplevel": {
+              "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+              "type": "literal",
+              "value": "false"
+            },
+            "off_tactic_rel_label": {
+              "type": "literal",
+              "value": "enables"
+            },
+            "off_tactic_label": {
+              "type": "literal",
+              "value": "Defense Evasion"
+            },
+            "def_tactic": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+            },
+            "def_tactic_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+            },
+            "def_tech": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"
+            },
+            "def_artifact_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+            },
+            "def_artifact": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"
+            },
+            "off_artifact": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"
+            },
+            "off_artifact_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"
+            },
+            "off_tech": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1542.002"
+            },
+            "off_tech_parent": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1542"
+            },
+            "off_tactic_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+            },
+            "off_tactic": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"
+            }
+          }
+        ]
+      ]
+    ],
+    "Persistence": [
+      [
+        "Pre-OS Boot",
+        [
+          {
+            "query_def_tech_label": {
+              "type": "literal",
+              "value": "Firmware Behavior Analysis"
+            },
+            "top_def_tech_label": {
+              "type": "literal",
+              "value": "Platform Monitoring"
+            },
+            "def_tactic_label": {
+              "type": "literal",
+              "value": "Detect"
+            },
+            "def_tactic_rel_label": {
+              "type": "literal",
+              "value": "enables"
+            },
+            "def_tech_label": {
+              "type": "literal",
+              "value": "Firmware Behavior Analysis"
+            },
+            "def_artifact_rel_label": {
+              "type": "literal",
+              "value": "analyzes"
+            },
+            "def_artifact_label": {
+              "type": "literal",
+              "value": "Firmware"
+            },
+            "off_artifact_label": {
+              "type": "literal",
+              "value": "System Firmware"
+            },
+            "off_artifact_rel_label": {
+              "type": "literal",
+              "value": "modifies"
+            },
+            "off_tech_label": {
+              "type": "literal",
+              "value": "System Firmware"
+            },
+            "off_tech_id": {
+              "type": "literal",
+              "value": "T1542.001"
+            },
+            "off_tech_parent_label": {
+              "type": "literal",
+              "value": "Pre-OS Boot"
+            },
+            "off_tech_parent_is_toplevel": {
+              "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+              "type": "literal",
+              "value": "false"
+            },
+            "off_tactic_rel_label": {
+              "type": "literal",
+              "value": "enables"
+            },
+            "off_tactic_label": {
+              "type": "literal",
+              "value": "Persistence"
+            },
+            "def_tactic": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+            },
+            "def_tactic_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+            },
+            "def_tech": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"
+            },
+            "def_artifact_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+            },
+            "def_artifact": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"
+            },
+            "off_artifact": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemFirmware"
+            },
+            "off_artifact_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"
+            },
+            "off_tech": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1542.001"
+            },
+            "off_tech_parent": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1542"
+            },
+            "off_tactic_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+            },
+            "off_tactic": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"
+            }
+          },
+          {
+            "query_def_tech_label": {
+              "type": "literal",
+              "value": "Firmware Behavior Analysis"
+            },
+            "top_def_tech_label": {
+              "type": "literal",
+              "value": "Platform Monitoring"
+            },
+            "def_tactic_label": {
+              "type": "literal",
+              "value": "Detect"
+            },
+            "def_tactic_rel_label": {
+              "type": "literal",
+              "value": "enables"
+            },
+            "def_tech_label": {
+              "type": "literal",
+              "value": "Firmware Behavior Analysis"
+            },
+            "def_artifact_rel_label": {
+              "type": "literal",
+              "value": "analyzes"
+            },
+            "def_artifact_label": {
+              "type": "literal",
+              "value": "Firmware"
+            },
+            "off_artifact_label": {
+              "type": "literal",
+              "value": "Firmware"
+            },
+            "off_artifact_rel_label": {
+              "type": "literal",
+              "value": "modifies"
+            },
+            "off_tech_label": {
+              "type": "literal",
+              "value": "Component Firmware"
+            },
+            "off_tech_id": {
+              "type": "literal",
+              "value": "T1542.002"
+            },
+            "off_tech_parent_label": {
+              "type": "literal",
+              "value": "Pre-OS Boot"
+            },
+            "off_tech_parent_is_toplevel": {
+              "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+              "type": "literal",
+              "value": "false"
+            },
+            "off_tactic_rel_label": {
+              "type": "literal",
+              "value": "enables"
+            },
+            "off_tactic_label": {
+              "type": "literal",
+              "value": "Persistence"
+            },
+            "def_tactic": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+            },
+            "def_tactic_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+            },
+            "def_tech": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#FirmwareBehaviorAnalysis"
+            },
+            "def_artifact_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+            },
+            "def_artifact": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"
+            },
+            "off_artifact": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Firmware"
+            },
+            "off_artifact_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"
+            },
+            "off_tech": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1542.002"
+            },
+            "off_tech_parent": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1542"
+            },
+            "off_tactic_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+            },
+            "off_tactic": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"
+            }
+          }
+        ]
+      ]
+    ]
+  }
+}

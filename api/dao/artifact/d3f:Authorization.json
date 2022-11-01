@@ -1,1 +1,673 @@
-{"da_to_off":{"head":{"vars":["off_artifact_label","off_artifact_rel_label","off_tech_label","off_tech_id","off_tactic_rel_label","off_tactic_label","off_artifact","off_artifact_rel","off_tech","off_tactic_rel","off_tactic"]},"results":{"bindings":[{"off_artifact_label":{"type":"literal","value":"Authorization"},"off_artifact_rel_label":{"type":"literal","value":"produces"},"off_tech_label":{"type":"literal","value":"Valid Accounts"},"off_tech_id":{"type":"literal","value":"T1078"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Defense Evasion"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#produces"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1078"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"}},{"off_artifact_label":{"type":"literal","value":"Authorization"},"off_artifact_rel_label":{"type":"literal","value":"produces"},"off_tech_label":{"type":"literal","value":"Valid Accounts"},"off_tech_id":{"type":"literal","value":"T1078"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Initial Access"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#produces"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1078"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#InitialAccess"}},{"off_artifact_label":{"type":"literal","value":"Authorization"},"off_artifact_rel_label":{"type":"literal","value":"produces"},"off_tech_label":{"type":"literal","value":"External Remote Services"},"off_tech_id":{"type":"literal","value":"T1133"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Initial Access"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#produces"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1133"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#InitialAccess"}},{"off_artifact_label":{"type":"literal","value":"Authorization"},"off_artifact_rel_label":{"type":"literal","value":"produces"},"off_tech_label":{"type":"literal","value":"Valid Accounts"},"off_tech_id":{"type":"literal","value":"T1078"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Persistence"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#produces"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1078"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"}},{"off_artifact_label":{"type":"literal","value":"Authorization"},"off_artifact_rel_label":{"type":"literal","value":"produces"},"off_tech_label":{"type":"literal","value":"External Remote Services"},"off_tech_id":{"type":"literal","value":"T1133"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Persistence"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#produces"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1133"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"}},{"off_artifact_label":{"type":"literal","value":"Authorization"},"off_artifact_rel_label":{"type":"literal","value":"produces"},"off_tech_label":{"type":"literal","value":"Valid Accounts"},"off_tech_id":{"type":"literal","value":"T1078"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Privilege Escalation"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#produces"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1078"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#PrivilegeEscalation"}}]}},"da_to_def":{"head":{"vars":["def_tactic_label","def_tactic_rel_label","def_tech_parent_is_toplevel","def_tech_parent_label","def_tech_label","def_artifact_rel_label","def_artifact_label","def_tactic","def_tactic_rel","def_tech","def_artifact_rel","def_artifact"]},"results":{"bindings":[{"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"true"},"def_tech_parent_label":{"type":"literal","value":"User Behavior Analysis"},"def_tech_label":{"type":"literal","value":"Authorization Event Thresholding"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Authorization"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#AuthorizationEventThresholding"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"}},{"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"true"},"def_tech_parent_label":{"type":"literal","value":"User Behavior Analysis"},"def_tech_label":{"type":"literal","value":"Job Function Access Pattern Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Authorization"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#JobFunctionAccessPatternAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"}},{"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"true"},"def_tech_parent_label":{"type":"literal","value":"User Behavior Analysis"},"def_tech_label":{"type":"literal","value":"Resource Access Pattern Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Authorization"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#ResourceAccessPatternAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"}},{"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"true"},"def_tech_parent_label":{"type":"literal","value":"User Behavior Analysis"},"def_tech_label":{"type":"literal","value":"Session Duration Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Authorization"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SessionDurationAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"}}]}},"da_graph":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:Authorization","rdfs:label":"Authorization"},{"@id":"d3f:DigitalArtifact","rdfs:hasSubClass":{"@id":"d3f:UserAction"},"rdfs:label":"Digital Artifact"},{"@id":"d3f:UserAction","rdfs:hasSubClass":{"@id":"d3f:Authorization"},"rdfs:label":"User Action"}]},"description":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:Authorization","@type":["owl:NamedIndividual","owl:Class"],"d3f:authorizes":{"@id":"d3f:NetworkResourceAccess"},"rdfs:comment":"Authorization is the function of specifying access rights to resources related to information security and computer security in general and to access control in particular. More formally, \"to authorize\" is to define an access policy. For example, human resources staff is normally authorized to access employee records and this policy is usually formalized as access control rules in a computer system. During operation, the system uses the access control rules to decide whether access requests from (authenticated) consumers shall be approved (granted) or disapproved (rejected). Resources include individual files or an item's data, computer programs, computer devices and functionality provided by computer applications. Examples of consumers are computer users, computer program","rdfs:isDefinedBy":{"@id":"http://dbpedia.org/resource/Authorization"},"rdfs:label":"Authorization","rdfs:subClassOf":{"@id":"d3f:UserAction"}},{"@id":"d3f:NetworkResourceAccess"},{"@id":"d3f:UserAction"},{"@id":"http://dbpedia.org/resource/Authorization"}]},"neighbors":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:Authorization","d3f:authorizes":[{"@id":"d3f:NetworkResourceAccess"}],"d3f:outbound":[{"@id":"d3f:authorizes"}],"rdfs:label":["Authorization"]},{"@id":"d3f:NetworkResourceAccess","rdfs:label":["Network Resource Access"]}]}}
+{
+  "da_to_off": {
+    "head": {
+      "vars": [
+        "off_artifact_label",
+        "off_artifact_rel_label",
+        "off_tech_label",
+        "off_tech_id",
+        "off_tactic_rel_label",
+        "off_tactic_label",
+        "off_artifact",
+        "off_artifact_rel",
+        "off_tech",
+        "off_tactic_rel",
+        "off_tactic"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Authorization"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "produces"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Valid Accounts"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1078"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Defense Evasion"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#produces"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1078"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Authorization"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "produces"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Valid Accounts"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1078"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Initial Access"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#produces"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1078"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#InitialAccess"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Authorization"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "produces"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "External Remote Services"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1133"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Initial Access"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#produces"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1133"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#InitialAccess"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Authorization"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "produces"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Valid Accounts"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1078"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Persistence"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#produces"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1078"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Authorization"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "produces"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "External Remote Services"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1133"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Persistence"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#produces"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1133"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Authorization"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "produces"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Valid Accounts"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1078"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Privilege Escalation"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#produces"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1078"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#PrivilegeEscalation"
+          }
+        }
+      ]
+    }
+  },
+  "da_to_def": {
+    "head": {
+      "vars": [
+        "def_tactic_label",
+        "def_tactic_rel_label",
+        "def_tech_parent_is_toplevel",
+        "def_tech_parent_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Detect"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "User Behavior Analysis"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Authorization Event Thresholding"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "analyzes"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Authorization"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#AuthorizationEventThresholding"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Detect"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "User Behavior Analysis"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Job Function Access Pattern Analysis"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "analyzes"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Authorization"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#JobFunctionAccessPatternAnalysis"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Detect"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "User Behavior Analysis"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Resource Access Pattern Analysis"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "analyzes"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Authorization"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#ResourceAccessPatternAnalysis"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Detect"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "User Behavior Analysis"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Session Duration Analysis"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "analyzes"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Authorization"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SessionDurationAnalysis"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Authorization"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Model"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Asset Inventory"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Asset Vulnerability Enumeration"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "evaluates"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Digital Artifact"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Model"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#AssetVulnerabilityEnumeration"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#evaluates"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DigitalArtifact"
+          }
+        }
+      ]
+    }
+  },
+  "da_graph": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:Authorization",
+        "rdfs:label": "Authorization"
+      },
+      {
+        "@id": "d3f:DigitalArtifact",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:UserAction"
+        },
+        "rdfs:label": "Digital Artifact"
+      },
+      {
+        "@id": "d3f:UserAction",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:Authorization"
+        },
+        "rdfs:label": "User Action"
+      }
+    ]
+  },
+  "description": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:Authorization",
+        "@type": [
+          "owl:NamedIndividual",
+          "owl:Class"
+        ],
+        "d3f:authorizes": {
+          "@id": "d3f:NetworkResourceAccess"
+        },
+        "rdfs:comment": "Authorization is the function of specifying access rights to resources related to information security and computer security in general and to access control in particular. More formally, \"to authorize\" is to define an access policy. For example, human resources staff is normally authorized to access employee records and this policy is usually formalized as access control rules in a computer system. During operation, the system uses the access control rules to decide whether access requests from (authenticated) consumers shall be approved (granted) or disapproved (rejected). Resources include individual files or an item's data, computer programs, computer devices and functionality provided by computer applications. Examples of consumers are computer users, computer program",
+        "rdfs:isDefinedBy": {
+          "@id": "http://dbpedia.org/resource/Authorization"
+        },
+        "rdfs:label": "Authorization",
+        "rdfs:subClassOf": {
+          "@id": "d3f:UserAction"
+        }
+      },
+      {
+        "@id": "d3f:NetworkResourceAccess"
+      },
+      {
+        "@id": "d3f:UserAction"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Authorization"
+      }
+    ]
+  },
+  "neighbors": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:Authorization",
+        "d3f:authorizes": [
+          {
+            "@id": "d3f:NetworkResourceAccess"
+          }
+        ],
+        "d3f:outbound": [
+          {
+            "@id": "d3f:authorizes"
+          }
+        ],
+        "rdfs:label": [
+          "Authorization"
+        ]
+      },
+      {
+        "@id": "d3f:NetworkResourceAccess",
+        "rdfs:label": [
+          "Network Resource Access"
+        ]
+      }
+    ]
+  }
+}

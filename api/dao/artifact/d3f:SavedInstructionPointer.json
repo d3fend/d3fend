@@ -1,1 +1,282 @@
-{"da_to_off":{"head":{"vars":["off_artifact_label","off_artifact_rel_label","off_tech_label","off_tech_id","off_tactic_rel_label","off_tactic_label","off_artifact","off_artifact_rel","off_tech","off_tactic_rel","off_tactic"]},"results":{"bindings":[]}},"da_to_def":{"head":{"vars":["def_tactic_label","def_tactic_rel_label","def_tech_parent_is_toplevel","def_tech_parent_label","def_tech_label","def_artifact_rel_label","def_artifact_label","def_tactic","def_tactic_rel","def_tech","def_artifact_rel","def_artifact"]},"results":{"bindings":[{"def_tactic_label":{"type":"literal","value":"Harden"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"true"},"def_tech_parent_label":{"type":"literal","value":"Application Hardening"},"def_tech_label":{"type":"literal","value":"Exception Handler Pointer Validation"},"def_artifact_rel_label":{"type":"literal","value":"validates"},"def_artifact_label":{"type":"literal","value":"Pointer"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Harden"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#ExceptionHandlerPointerValidation"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#validates"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Pointer"}},{"def_tactic_label":{"type":"literal","value":"Harden"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"true"},"def_tech_parent_label":{"type":"literal","value":"Application Hardening"},"def_tech_label":{"type":"literal","value":"Pointer Authentication"},"def_artifact_rel_label":{"type":"literal","value":"authenticates"},"def_artifact_label":{"type":"literal","value":"Pointer"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Harden"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#PointerAuthentication"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#authenticates"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Pointer"}}]}},"da_graph":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:DigitalArtifact","rdfs:hasSubClass":[{"@id":"d3f:Pointer"},{"@id":"d3f:StackComponent"}],"rdfs:label":"Digital Artifact"},{"@id":"d3f:Pointer","rdfs:hasSubClass":{"@id":"d3f:SavedInstructionPointer"},"rdfs:label":"Pointer"},{"@id":"d3f:SavedInstructionPointer","rdfs:label":"Saved Instruction Pointer"},{"@id":"d3f:StackComponent","rdfs:hasSubClass":{"@id":"d3f:SavedInstructionPointer"},"rdfs:label":"Stack Component"}]},"description":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:Pointer"},{"@id":"d3f:SavedInstructionPointer","@type":"owl:Class","rdfs:comment":"A saved instruction pointer points to the instruction that generated an exception (trap or fault).","rdfs:label":"Saved Instruction Pointer","rdfs:seeAlso":{"@id":"http://dbpedia.org/resource/Exception_handling"},"rdfs:subClassOf":[{"@id":"d3f:Pointer"},{"@id":"d3f:StackComponent"}]},{"@id":"d3f:StackComponent"},{"@id":"http://dbpedia.org/resource/Exception_handling"}]},"neighbors":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[]}}
+{
+  "da_to_off": {
+    "head": {
+      "vars": [
+        "off_artifact_label",
+        "off_artifact_rel_label",
+        "off_tech_label",
+        "off_tech_id",
+        "off_tactic_rel_label",
+        "off_tactic_label",
+        "off_artifact",
+        "off_artifact_rel",
+        "off_tech",
+        "off_tactic_rel",
+        "off_tactic"
+      ]
+    },
+    "results": {
+      "bindings": []
+    }
+  },
+  "da_to_def": {
+    "head": {
+      "vars": [
+        "def_tactic_label",
+        "def_tactic_rel_label",
+        "def_tech_parent_is_toplevel",
+        "def_tech_parent_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Model"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Asset Inventory"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Asset Vulnerability Enumeration"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "evaluates"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Digital Artifact"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Model"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#AssetVulnerabilityEnumeration"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#evaluates"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DigitalArtifact"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Harden"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Application Hardening"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Exception Handler Pointer Validation"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "validates"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Pointer"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Harden"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#ExceptionHandlerPointerValidation"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#validates"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Pointer"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Harden"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Application Hardening"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Pointer Authentication"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "authenticates"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Pointer"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Harden"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#PointerAuthentication"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#authenticates"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Pointer"
+          }
+        }
+      ]
+    }
+  },
+  "da_graph": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:DigitalArtifact",
+        "rdfs:hasSubClass": [
+          {
+            "@id": "d3f:Pointer"
+          },
+          {
+            "@id": "d3f:StackComponent"
+          }
+        ],
+        "rdfs:label": "Digital Artifact"
+      },
+      {
+        "@id": "d3f:Pointer",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:SavedInstructionPointer"
+        },
+        "rdfs:label": "Pointer"
+      },
+      {
+        "@id": "d3f:SavedInstructionPointer",
+        "rdfs:label": "Saved Instruction Pointer"
+      },
+      {
+        "@id": "d3f:StackComponent",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:SavedInstructionPointer"
+        },
+        "rdfs:label": "Stack Component"
+      }
+    ]
+  },
+  "description": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:Pointer"
+      },
+      {
+        "@id": "d3f:SavedInstructionPointer",
+        "@type": "owl:Class",
+        "rdfs:comment": "A saved instruction pointer points to the instruction that generated an exception (trap or fault).",
+        "rdfs:label": "Saved Instruction Pointer",
+        "rdfs:seeAlso": {
+          "@id": "http://dbpedia.org/resource/Exception_handling"
+        },
+        "rdfs:subClassOf": [
+          {
+            "@id": "d3f:Pointer"
+          },
+          {
+            "@id": "d3f:StackComponent"
+          }
+        ]
+      },
+      {
+        "@id": "d3f:StackComponent"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Exception_handling"
+      }
+    ]
+  },
+  "neighbors": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": []
+  }
+}

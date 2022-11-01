@@ -1,1 +1,294 @@
-{"da_to_off":{"head":{"vars":["off_artifact_label","off_artifact_rel_label","off_tech_label","off_tech_id","off_tactic_rel_label","off_tactic_label","off_artifact","off_artifact_rel","off_tech","off_tactic_rel","off_tactic"]},"results":{"bindings":[{"off_artifact_label":{"type":"literal","value":"Partition Table"},"off_artifact_rel_label":{"type":"literal","value":"may-modify"},"off_tech_label":{"type":"literal","value":"Disk Content Wipe"},"off_tech_id":{"type":"literal","value":"T1561.001"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Impact"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#PartitionTable"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#may-modify"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1561.001"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Impact"}},{"off_artifact_label":{"type":"literal","value":"Partition Table"},"off_artifact_rel_label":{"type":"literal","value":"may-modify"},"off_tech_label":{"type":"literal","value":"Disk Structure Wipe"},"off_tech_id":{"type":"literal","value":"T1561.002"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Impact"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#PartitionTable"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#may-modify"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1561.002"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Impact"}}]}},"da_to_def":{"head":{"vars":["def_tactic_label","def_tactic_rel_label","def_tech_parent_is_toplevel","def_tech_parent_label","def_tech_label","def_artifact_rel_label","def_artifact_label","def_tactic","def_tactic_rel","def_tech","def_artifact_rel","def_artifact"]},"results":{"bindings":[]}},"da_graph":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:DigitalArtifact","rdfs:hasSubClass":{"@id":"d3f:PartitionTable"},"rdfs:label":"Digital Artifact"},{"@id":"d3f:PartitionTable","rdfs:label":"Partition Table"}]},"description":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:DigitalArtifact"},{"@id":"d3f:Partition"},{"@id":"d3f:PartitionTable","@type":["owl:NamedIndividual","owl:Class"],"d3f:addresses":{"@id":"d3f:Partition"},"rdfs:comment":"A partition is a fixed-size subset of a storage device which is treated as a unit by the operating system. A partition table is a table maintained on the storage device by the operating system describing the partitions on that device. The terms partition table and partition map are most commonly associated with the MBR partition table of a Master Boot Record (MBR) in IBM PC compatibles, but it may be used generically to refer to other \"formats\" that divide a disk drive into partitions, such as: GUID Partition Table (GPT), Apple partition map (APM), or BSD disklabel.","rdfs:isDefinedBy":{"@id":"http://dbpedia.org/resource/Partition_table"},"rdfs:label":"Partition Table","rdfs:subClassOf":{"@id":"d3f:DigitalArtifact"}},{"@id":"http://dbpedia.org/resource/Partition_table"}]},"neighbors":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:BlockDevice","d3f:contains":[{"@id":"d3f:PartitionTable"}],"d3f:outbound":[{"@id":"d3f:contains"}],"rdfs:label":["Block Device"]},{"@id":"d3f:Partition","rdfs:label":["Partition"]},{"@id":"d3f:PartitionTable","d3f:addresses":[{"@id":"d3f:Partition"}],"d3f:outbound":[{"@id":"d3f:addresses"}],"rdfs:label":["Partition Table"]}]}}
+{
+  "da_to_off": {
+    "head": {
+      "vars": [
+        "off_artifact_label",
+        "off_artifact_rel_label",
+        "off_tech_label",
+        "off_tech_id",
+        "off_tactic_rel_label",
+        "off_tactic_label",
+        "off_artifact",
+        "off_artifact_rel",
+        "off_tech",
+        "off_tactic_rel",
+        "off_tactic"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Partition Table"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "may-modify"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Disk Content Wipe"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1561.001"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Impact"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#PartitionTable"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#may-modify"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1561.001"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Impact"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Partition Table"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "may-modify"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Disk Structure Wipe"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1561.002"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Impact"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#PartitionTable"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#may-modify"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1561.002"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Impact"
+          }
+        }
+      ]
+    }
+  },
+  "da_to_def": {
+    "head": {
+      "vars": [
+        "def_tactic_label",
+        "def_tactic_rel_label",
+        "def_tech_parent_is_toplevel",
+        "def_tech_parent_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Model"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Asset Inventory"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Asset Vulnerability Enumeration"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "evaluates"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Digital Artifact"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Model"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#AssetVulnerabilityEnumeration"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#evaluates"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DigitalArtifact"
+          }
+        }
+      ]
+    }
+  },
+  "da_graph": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:DigitalArtifact",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:PartitionTable"
+        },
+        "rdfs:label": "Digital Artifact"
+      },
+      {
+        "@id": "d3f:PartitionTable",
+        "rdfs:label": "Partition Table"
+      }
+    ]
+  },
+  "description": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:DigitalArtifact"
+      },
+      {
+        "@id": "d3f:Partition"
+      },
+      {
+        "@id": "d3f:PartitionTable",
+        "@type": [
+          "owl:NamedIndividual",
+          "owl:Class"
+        ],
+        "d3f:addresses": {
+          "@id": "d3f:Partition"
+        },
+        "rdfs:comment": "A partition is a fixed-size subset of a storage device which is treated as a unit by the operating system. A partition table is a table maintained on the storage device by the operating system describing the partitions on that device. The terms partition table and partition map are most commonly associated with the MBR partition table of a Master Boot Record (MBR) in IBM PC compatibles, but it may be used generically to refer to other \"formats\" that divide a disk drive into partitions, such as: GUID Partition Table (GPT), Apple partition map (APM), or BSD disklabel.",
+        "rdfs:isDefinedBy": {
+          "@id": "http://dbpedia.org/resource/Partition_table"
+        },
+        "rdfs:label": "Partition Table",
+        "rdfs:subClassOf": {
+          "@id": "d3f:DigitalArtifact"
+        }
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Partition_table"
+      }
+    ]
+  },
+  "neighbors": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:BlockDevice",
+        "d3f:contains": [
+          {
+            "@id": "d3f:PartitionTable"
+          }
+        ],
+        "d3f:outbound": [
+          {
+            "@id": "d3f:contains"
+          }
+        ],
+        "rdfs:label": [
+          "Block Device"
+        ]
+      },
+      {
+        "@id": "d3f:Partition",
+        "rdfs:label": [
+          "Partition"
+        ]
+      },
+      {
+        "@id": "d3f:PartitionTable",
+        "d3f:addresses": [
+          {
+            "@id": "d3f:Partition"
+          }
+        ],
+        "d3f:outbound": [
+          {
+            "@id": "d3f:addresses"
+          }
+        ],
+        "rdfs:label": [
+          "Partition Table"
+        ]
+      }
+    ]
+  }
+}

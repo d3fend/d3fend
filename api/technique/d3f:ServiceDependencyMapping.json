@@ -1,0 +1,261 @@
+{
+  "def_to_off": {
+    "head": {
+      "vars": [
+        "query_def_tech_label",
+        "top_def_tech_label",
+        "def_tactic_label",
+        "def_tactic_rel_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "off_artifact_label",
+        "off_artifact_rel_label",
+        "off_tech_label",
+        "off_tech_id",
+        "off_tech_parent_label",
+        "off_tech_parent_is_toplevel",
+        "off_tactic_rel_label",
+        "off_tactic_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "tactic_def_tech",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact",
+        "off_artifact",
+        "off_artifact_rel",
+        "off_tech",
+        "off_tech_parent",
+        "off_tactic_rel",
+        "off_tactic"
+      ]
+    },
+    "results": {
+      "bindings": []
+    }
+  },
+  "description": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:ServiceDependencyMapping",
+        "@type": [
+          "owl:NamedIndividual",
+          "d3f:SystemMapping",
+          "owl:Class"
+        ],
+        "d3f:d3fend-id": "D3-SVCDM",
+        "d3f:definition": "Service dependency mapping determines the services on which each given service relies.",
+        "d3f:kb-article": "## How it works\nThe organization collects and models architectural information about the services and consumers of services and maps the dependencies between the services.\n\n## Considerations\n* Architectural design artifacts and SMEs may need to be consulted to determine if dependencies are intended or otherwise essential.\n* Service dependencies for critical systems--those supporting critical organizational activities--should be prioritized for supply chain risk analysis.\n* Service dependencies in cloud or microservice architectures may be discovered using distributed tracing capabilities",
+        "d3f:kb-reference": [
+          {
+            "@id": "d3f:Reference-CatiaUAFPlugin"
+          },
+          {
+            "@id": "d3f:Reference-TivoliApplicationDependencyDiscoverManager7_3_0DependenciesBetweenResources"
+          },
+          {
+            "@id": "d3f:Reference-UnifiedArchitectureFrameworkUAF"
+          }
+        ],
+        "d3f:maps": {
+          "@id": "d3f:ServiceDependency"
+        },
+        "d3f:synonym": "Distributed Tracing",
+        "rdfs:label": "Service Dependency Mapping",
+        "rdfs:subClassOf": {
+          "@id": "d3f:SystemMapping"
+        }
+      }
+    ]
+  },
+  "digital_artifacts": {
+    "head": {
+      "vars": [
+        "query_def_tech_label",
+        "top_def_tech_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "query_def_tech_label": {
+            "type": "literal",
+            "value": "Service Dependency Mapping"
+          },
+          "top_def_tech_label": {
+            "type": "literal",
+            "value": "System Mapping"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Service Dependency Mapping"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "maps"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Service Dependency"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Model"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#ServiceDependencyMapping"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#maps"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#ServiceDependency"
+          }
+        }
+      ]
+    }
+  },
+  "references": {
+    "@context": {
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:Reference-CatiaUAFPlugin",
+        "@type": [
+          "d3f:InternetArticleReference",
+          "http://www.w3.org/2002/07/owl#NamedIndividual"
+        ],
+        "d3f:has-link": {
+          "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "@value": "https://www.3ds.com/products-services/catia/products/no-magic/addons/uaf-plugin/"
+        },
+        "d3f:kb-abstract": "MagicDraw offers the most robust standards compliant [Unified Architecture Framework (UAF)], DoDAF 2.0, MODAF 1.2, NAF 3, and NAF 4 via a UAF standardized solution. And what's more, No Magic fully supports all architectural framework products ensuring you achieve project results. No Magic also leads the industry in usability and interoprability, ensuring that you avoid unnecessary cost, schedule and performance risk.",
+        "d3f:kb-organization": "Dassault Systemes",
+        "d3f:kb-reference-of": [
+          {
+            "@id": "d3f:DataExchangeMapping"
+          },
+          {
+            "@id": "d3f:OperationalActivityMapping"
+          },
+          {
+            "@id": "d3f:OperationalDependencyMapping"
+          },
+          {
+            "@id": "d3f:OrganizationMapping"
+          },
+          {
+            "@id": "d3f:ServiceDependencyMapping"
+          },
+          {
+            "@id": "d3f:SystemDependencyMapping"
+          }
+        ],
+        "d3f:kb-reference-title": "Catia UAF Plugin",
+        "d3f:reference-type-label": "Internet Article",
+        "rdfs:label": "Reference - Catia UAF Plugin"
+      },
+      {
+        "@id": "d3f:Reference-TivoliApplicationDependencyDiscoverManager7_3_0DependenciesBetweenResources",
+        "@type": [
+          "d3f:UserManualReference",
+          "http://www.w3.org/2002/07/owl#NamedIndividual"
+        ],
+        "d3f:has-link": {
+          "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "@value": "https://www.ibm.com/docs/en/taddm/7.3.0?topic=model-dependencies-between-resources"
+        },
+        "d3f:kb-organization": "IBM",
+        "d3f:kb-reference-of": [
+          {
+            "@id": "d3f:DataExchangeMapping"
+          },
+          {
+            "@id": "d3f:ServiceDependencyMapping"
+          },
+          {
+            "@id": "d3f:SystemDependencyMapping"
+          }
+        ],
+        "d3f:kb-reference-title": "Tivoli Application Dependency Discovery Manager 7.3.0 - Dependencies between resources",
+        "d3f:reference-type-label": "User Manual",
+        "rdfs:label": "Reference - Tivoli Application Dependency Discovery Manager 7.3.0 - Dependencies between resources"
+      },
+      {
+        "@id": "d3f:Reference-UnifiedArchitectureFrameworkUAF",
+        "@type": [
+          "d3f:SpecificationReference",
+          "http://www.w3.org/2002/07/owl#NamedIndividual"
+        ],
+        "d3f:has-link": {
+          "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "@value": "https://www.omg.org/spec/UAF/"
+        },
+        "d3f:kb-abstract": "UAF is an OMG standard that assists in development of architectural descriptions in commercial industry firms, federal government agencies and defense organizations. UAF has a variety of use cases from Enterprise and Mission architecting, to System of Systems (SoS) and Cyber-physical Systems engineering, as well as being an enabler for Digital Transformation efforts and for Department of Defense Architecture Framework (DoDAF) and NATO Architecture Framework (NAF) modeling. Architectural Descriptions in UAF are aligned with ISO/IEC/IEEE 42010:2011, Systems and software engineering -- Architecture description.",
+        "d3f:kb-organization": "OMG",
+        "d3f:kb-reference-of": [
+          {
+            "@id": "d3f:DataExchangeMapping"
+          },
+          {
+            "@id": "d3f:OperationalActivityMapping"
+          },
+          {
+            "@id": "d3f:OperationalDependencyMapping"
+          },
+          {
+            "@id": "d3f:OrganizationMapping"
+          },
+          {
+            "@id": "d3f:ServiceDependencyMapping"
+          },
+          {
+            "@id": "d3f:SystemDependencyMapping"
+          }
+        ],
+        "d3f:kb-reference-title": "Unified Architecture Framework (UAF)",
+        "d3f:reference-type-label": "Specification",
+        "rdfs:label": "Reference - Unified Architecture Framework (UAF)"
+      }
+    ]
+  },
+  "references_meta": {
+    "Internet Article": 1,
+    "User Manual": 1,
+    "Specification": 1
+  },
+  "subtechniques": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": []
+  },
+  "related_offensive_matrix": {}
+}

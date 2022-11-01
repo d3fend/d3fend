@@ -21,6 +21,17 @@ section.content {
     text-align: justify;
 }
 
+section.content-wider {
+    margin: auto;
+    max-width: 1024px;
+}
+
+section.content-wider-justify {
+    margin: auto;
+    max-width: 1024px;
+    text-align: justify;
+}
+
 h1 {
     font-size: 1.6rem;
 }
@@ -274,6 +285,10 @@ dt {
 
 .flex-basis-125 {
     flex-basis: 125%;
+}
+
+.flex-left {
+    flex: 0%;
 }
 
 .w-100 {

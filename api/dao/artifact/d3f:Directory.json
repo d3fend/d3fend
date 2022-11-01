@@ -1,1 +1,519 @@
-{"da_to_off":{"head":{"vars":["off_artifact_label","off_artifact_rel_label","off_tech_label","off_tech_id","off_tactic_rel_label","off_tactic_label","off_artifact","off_artifact_rel","off_tech","off_tactic_rel","off_tactic"]},"results":{"bindings":[{"off_artifact_label":{"type":"literal","value":"Directory"},"off_artifact_rel_label":{"type":"literal","value":"may-create"},"off_tech_label":{"type":"literal","value":"Run Virtual Instance"},"off_tech_id":{"type":"literal","value":"T1564.006"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Defense Evasion"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Directory"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#may-create"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1564.006"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"}},{"off_artifact_label":{"type":"literal","value":"System Startup Directory"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"Startup Items"},"off_tech_id":{"type":"literal","value":"T1037.005"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Persistence"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemStartupDirectory"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1037.005"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"}},{"off_artifact_label":{"type":"literal","value":"System Startup Directory"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"Startup Items"},"off_tech_id":{"type":"literal","value":"T1037.005"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Privilege Escalation"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemStartupDirectory"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1037.005"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#PrivilegeEscalation"}}]}},"da_to_def":{"head":{"vars":["def_tactic_label","def_tactic_rel_label","def_tech_parent_is_toplevel","def_tech_parent_label","def_tech_label","def_artifact_rel_label","def_artifact_label","def_tactic","def_tactic_rel","def_tech","def_artifact_rel","def_artifact"]},"results":{"bindings":[{"def_tactic_label":{"type":"literal","value":"Harden"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"true"},"def_tech_parent_label":{"type":"literal","value":"Platform Hardening"},"def_tech_label":{"type":"literal","value":"Local File Permissions"},"def_artifact_rel_label":{"type":"literal","value":"restricts"},"def_artifact_label":{"type":"literal","value":"Directory"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Harden"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#LocalFilePermissions"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#restricts"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Directory"}}]}},"da_graph":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:ConfigurationBearingEntity","rdfs:hasSubClass":{"@id":"d3f:OperatingSystemConfiguration"},"rdfs:label":"Configuration Bearing Entity"},{"@id":"d3f:DigitalArtifact","rdfs:hasSubClass":[{"@id":"d3f:Directory"},{"@id":"d3f:Resource"}],"rdfs:label":"Digital Artifact"},{"@id":"d3f:Directory","rdfs:hasSubClass":{"@id":"d3f:SystemStartupDirectory"},"rdfs:label":"Directory"},{"@id":"d3f:LocalResource","rdfs:hasSubClass":{"@id":"d3f:SystemConfigurationInitResource"},"rdfs:label":"Local Resource"},{"@id":"d3f:OperatingSystemConfiguration","rdfs:hasSubClass":{"@id":"d3f:OperatingSystemConfigurationComponent"},"rdfs:label":"Operating System Configuration"},{"@id":"d3f:OperatingSystemConfigurationComponent","rdfs:hasSubClass":{"@id":"d3f:SystemInitConfiguration"},"rdfs:label":"Operating System Configuration Component"},{"@id":"d3f:Resource","rdfs:hasSubClass":[{"@id":"d3f:LocalResource"},{"@id":"d3f:ConfigurationBearingEntity"}],"rdfs:label":"Resource"},{"@id":"d3f:SystemConfigurationInitResource","rdfs:hasSubClass":{"@id":"d3f:SystemStartupDirectory"},"rdfs:label":"System Configuration Init Resource"},{"@id":"d3f:SystemInitConfiguration","rdfs:hasSubClass":{"@id":"d3f:SystemStartupDirectory"},"rdfs:label":"System Init Configuration"},{"@id":"d3f:SystemStartupDirectory","rdfs:label":"System Startup Directory"}]},"description":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:DigitalArtifact"},{"@id":"d3f:Directory","@type":["owl:NamedIndividual","owl:Class"],"d3f:may-contain":{"@id":"d3f:File"},"rdfs:comment":"In computing, a directory is a file system cataloging structure which contains references to other computer files, and possibly other directories. On many computers, directories are known as folders, or drawers to provide some relevancy to a workbench or the traditional office file cabinet.","rdfs:isDefinedBy":{"@id":"http://dbpedia.org/resource/Directory_(computing)"},"rdfs:label":"Directory","rdfs:subClassOf":{"@id":"d3f:DigitalArtifact"}},{"@id":"d3f:File"},{"@id":"http://dbpedia.org/resource/Directory_(computing)"}]},"neighbors":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:Directory","d3f:may-contain":[{"@id":"d3f:File"}],"d3f:outbound":[{"@id":"d3f:may-contain"}],"rdfs:label":["Directory"]},{"@id":"d3f:File","rdfs:label":["File"]},{"@id":"d3f:FileSystem","d3f:contains":[{"@id":"d3f:Directory"}],"d3f:outbound":[{"@id":"d3f:contains"}],"rdfs:label":["File System"]},{"@id":"d3f:NetworkDirectoryResource","d3f:contains":[{"@id":"d3f:Directory"}],"d3f:outbound":[{"@id":"d3f:contains"}],"rdfs:label":["Network Directory Resource"]}]}}
+{
+  "da_to_off": {
+    "head": {
+      "vars": [
+        "off_artifact_label",
+        "off_artifact_rel_label",
+        "off_tech_label",
+        "off_tech_id",
+        "off_tactic_rel_label",
+        "off_tactic_label",
+        "off_artifact",
+        "off_artifact_rel",
+        "off_tech",
+        "off_tactic_rel",
+        "off_tactic"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Directory"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "may-create"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Run Virtual Instance"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1564.006"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Defense Evasion"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Directory"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#may-create"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1564.006"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Directory"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "accesses"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "File and Directory Discovery"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1083"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Discovery"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Directory"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#accesses"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1083"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Discovery"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Startup Directory"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "modifies"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Startup Items"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1037.005"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Persistence"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemStartupDirectory"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1037.005"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Startup Directory"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "modifies"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Startup Items"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1037.005"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Privilege Escalation"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemStartupDirectory"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1037.005"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#PrivilegeEscalation"
+          }
+        }
+      ]
+    }
+  },
+  "da_to_def": {
+    "head": {
+      "vars": [
+        "def_tactic_label",
+        "def_tactic_rel_label",
+        "def_tech_parent_is_toplevel",
+        "def_tech_parent_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Model"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Asset Inventory"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Asset Vulnerability Enumeration"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "evaluates"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Digital Artifact"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Model"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#AssetVulnerabilityEnumeration"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#evaluates"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DigitalArtifact"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Harden"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Platform Hardening"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Local File Permissions"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "restricts"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Directory"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Harden"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#LocalFilePermissions"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#restricts"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Directory"
+          }
+        }
+      ]
+    }
+  },
+  "da_graph": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:ConfigurationResource",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:OperatingSystemConfiguration"
+        },
+        "rdfs:label": "Configuration Resource"
+      },
+      {
+        "@id": "d3f:DigitalArtifact",
+        "rdfs:hasSubClass": [
+          {
+            "@id": "d3f:Directory"
+          },
+          {
+            "@id": "d3f:Resource"
+          }
+        ],
+        "rdfs:label": "Digital Artifact"
+      },
+      {
+        "@id": "d3f:Directory",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:SystemStartupDirectory"
+        },
+        "rdfs:label": "Directory"
+      },
+      {
+        "@id": "d3f:LocalResource",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:SystemConfigurationInitResource"
+        },
+        "rdfs:label": "Local Resource"
+      },
+      {
+        "@id": "d3f:OperatingSystemConfiguration",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:OperatingSystemConfigurationComponent"
+        },
+        "rdfs:label": "Operating System Configuration"
+      },
+      {
+        "@id": "d3f:OperatingSystemConfigurationComponent",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:SystemInitConfiguration"
+        },
+        "rdfs:label": "Operating System Configuration Component"
+      },
+      {
+        "@id": "d3f:Resource",
+        "rdfs:hasSubClass": [
+          {
+            "@id": "d3f:LocalResource"
+          },
+          {
+            "@id": "d3f:ConfigurationResource"
+          }
+        ],
+        "rdfs:label": "Resource"
+      },
+      {
+        "@id": "d3f:SystemConfigurationInitResource",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:SystemStartupDirectory"
+        },
+        "rdfs:label": "System Configuration Init Resource"
+      },
+      {
+        "@id": "d3f:SystemInitConfiguration",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:SystemStartupDirectory"
+        },
+        "rdfs:label": "System Init Configuration"
+      },
+      {
+        "@id": "d3f:SystemStartupDirectory",
+        "rdfs:label": "System Startup Directory"
+      }
+    ]
+  },
+  "description": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:DigitalArtifact"
+      },
+      {
+        "@id": "d3f:Directory",
+        "@type": [
+          "owl:NamedIndividual",
+          "owl:Class"
+        ],
+        "d3f:may-contain": {
+          "@id": "d3f:File"
+        },
+        "rdfs:comment": "In computing, a directory is a file system cataloging structure which contains references to other computer files, and possibly other directories. On many computers, directories are known as folders, or drawers to provide some relevancy to a workbench or the traditional office file cabinet.",
+        "rdfs:isDefinedBy": {
+          "@id": "http://dbpedia.org/resource/Directory_(computing)"
+        },
+        "rdfs:label": "Directory",
+        "rdfs:subClassOf": {
+          "@id": "d3f:DigitalArtifact"
+        }
+      },
+      {
+        "@id": "d3f:File"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Directory_(computing)"
+      }
+    ]
+  },
+  "neighbors": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:Directory",
+        "d3f:may-contain": [
+          {
+            "@id": "d3f:File"
+          }
+        ],
+        "d3f:outbound": [
+          {
+            "@id": "d3f:may-contain"
+          }
+        ],
+        "rdfs:label": [
+          "Directory"
+        ]
+      },
+      {
+        "@id": "d3f:File",
+        "rdfs:label": [
+          "File"
+        ]
+      },
+      {
+        "@id": "d3f:FileSystem",
+        "d3f:contains": [
+          {
+            "@id": "d3f:Directory"
+          }
+        ],
+        "d3f:outbound": [
+          {
+            "@id": "d3f:contains"
+          }
+        ],
+        "rdfs:label": [
+          "File System"
+        ]
+      },
+      {
+        "@id": "d3f:NetworkDirectoryResource",
+        "d3f:contains": [
+          {
+            "@id": "d3f:Directory"
+          }
+        ],
+        "d3f:outbound": [
+          {
+            "@id": "d3f:contains"
+          }
+        ],
+        "rdfs:label": [
+          "Network Directory Resource"
+        ]
+      }
+    ]
+  }
+}

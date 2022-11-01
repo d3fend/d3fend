@@ -1,1 +1,263 @@
-{"def_to_off":{"head":{"vars":["query_def_tech_label","top_def_tech_label","def_tactic_label","def_tactic_rel_label","def_tech_label","def_artifact_rel_label","def_artifact_label","off_artifact_label","off_artifact_rel_label","off_tech_label","off_tech_id","off_tech_parent_label","off_tech_parent_is_toplevel","off_tactic_rel_label","off_tactic_label","def_tactic","def_tactic_rel","tactic_def_tech","def_tech","def_artifact_rel","def_artifact","off_artifact","off_artifact_rel","off_tech","off_tech_parent","off_tactic_rel","off_tactic"]},"results":{"bindings":[]}},"description":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:WebSessionActivityAnalysis","@type":["d3f:UserBehaviorAnalysis","owl:NamedIndividual","owl:Class"],"d3f:analyzes":{"@id":"d3f:WebResourceAccess"},"d3f:d3fend-id":"D3-WSAA","d3f:definition":"Monitoring changes in user web session behavior by comparing current web session activity to a baseline behavior profile or a catalog of predetermined malicious behavior.","d3f:kb-article":"## How it works\nUser web session data is collected over a period of time to create a user behavior profile. Data collected includes clicks made on a website, average time between clicks, filling out web forms, order in which pages are viewed, and downloading files. Current user web session behavior is then compared against the use behavior profile to identify anomalies and a likelihood that the current user web session is malicious. Current user web session behavior can also be compared to predetermined known malicious behavior profiles that are developed through analysis of malware in run time at a threat research facility.\n\n## Considerations\n* Potential for false positives from anomalies that are not associated with malicious activity.\n* Attackers may not differentiate their web session activity enough to trigger an alert.","d3f:kb-reference":[{"@id":"d3f:Reference_HostIntrusionPreventionSystemUsingSoftwareAndUserBehaviorAnalysis_SophosLtd"},{"@id":"d3f:Reference_SystemAndMethodForDetectionOfAChangeInBehaviorInTheUseOfAWebsiteThroughVectorVelocityAnalysis_SilverTailSystems"},{"@id":"d3f:Reference_SystemAndMethodForNetworkSecurityIncludingDetectionOfAttacksThroughPartnerWebsites_EMCIPHoldingCoLLC"},{"@id":"d3f:Reference_SystemAndMethodThereofForIdentifyingAndRespondingToSecurityIncidentsBasedOnPreemptiveForensics_PaloAltoNetworksInc"}],"rdfs:label":"Web Session Activity Analysis","rdfs:subClassOf":{"@id":"d3f:UserBehaviorAnalysis"}}]},"digital_artifacts":{"head":{"vars":["query_def_tech_label","top_def_tech_label","def_tech_label","def_artifact_rel_label","def_artifact_label","def_tactic","def_tactic_rel","def_tech","def_artifact_rel","def_artifact"]},"results":{"bindings":[{"query_def_tech_label":{"type":"literal","value":"Web Session Activity Analysis"},"top_def_tech_label":{"type":"literal","value":"User Behavior Analysis"},"def_tech_label":{"type":"literal","value":"Web Session Activity Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Web Resource Access"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#WebSessionActivityAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#WebResourceAccess"}}]}},"references":{"@context":{"rdfs":"http://www.w3.org/2000/01/rdf-schema#","d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#"},"@graph":[{"@id":"d3f:Reference_HostIntrusionPreventionSystemUsingSoftwareAndUserBehaviorAnalysis_SophosLtd","@type":["d3f:PatentReference","http://www.w3.org/2002/07/owl#NamedIndividual"],"d3f:has-link":{"@type":"http://www.w3.org/2001/XMLSchema#anyURI","@value":"https://patents.google.com/patent/US20110023115A1"},"d3f:kb-abstract":"In embodiments of the present invention improved capabilities are described for threat detection using a behavioral-based host-intrusion prevention method and system for monitoring a user interaction with a computer, software application, operating system, graphic user interface, or some other component or client of a computer network, and performing an action to protect the computer network based at least in part on the user interaction and a computer code process executing during or in association with a computer usage session.","d3f:kb-author":"Clifford C. Wright","d3f:kb-mitre-analysis":"The patent describes a technique for performing behavior based threat detection. User and code behavior data is collected and stored to create baseline user and code behavior profiles. User behavior data collected over a user session or over multiple sessions can include a user:\n\n* clicking on a link\n* scrolling down a page\n* opening or closing a window\n* downloading a file\n* saving a file\n* running a file\n* typing a keyword\n\nCode behavior monitored includes code:\n\n* copying itself to a system folder\n* setting a run key to itself in the registry\n* setting a second runkey to itself in the registry in\na different location\n* disabling OS tools in the registry\n* opening a hidden file\n\nThe user interaction and the code process executed during the user session are monitored and compared with predetermined malicious behavior profiles that are typically present in a malicious user session.  The predetermined collection of malicious behaviors are created based on analysis of families of malware in run time in a threat research facility. If a match is made an action is taken that can include isolating the computer on which the user interaction occurs and limiting network access to or from the computer.","d3f:kb-organization":"Sophos Ltd","d3f:kb-reference-of":[{"@id":"d3f:ResourceAccessPatternAnalysis"},{"@id":"d3f:SystemDaemonMonitoring"},{"@id":"d3f:WebSessionActivityAnalysis"}],"d3f:kb-reference-title":"Host intrusion prevention system using software and user behavior analysis","d3f:reference-type-label":"Patent","rdfs:label":"Reference - Host intrusion prevention system using software and user behavior analysis - Sophos Ltd"},{"@id":"d3f:Reference_SystemAndMethodForDetectionOfAChangeInBehaviorInTheUseOfAWebsiteThroughVectorVelocityAnalysis_SilverTailSystems","@type":["d3f:PatentReference","http://www.w3.org/2002/07/owl#NamedIndividual"],"d3f:has-link":{"@type":"http://www.w3.org/2001/XMLSchema#anyURI","@value":"https://patents.google.com/patent/US20100235909A1/en?oq=US+20100235909+A1"},"d3f:kb-abstract":"A system and software for identifying the change of user behavior on a website includes analyzing the actions of users on a website comprising a plurality of fields or input parameters that identify the actions performed on a website including fields related to previous actions by that user or other users of the website. The fields or input parameters are represented in a vector format where vectors represent different sessions of activity on the website, pages of the website, users of the website, or other attributes of the use of a website. Analysis is performed to determine if new sessions are similar or dissimilar to previously known sessions and if a session is converging or diverging from known sessions based on the velocity and direction of the velocity of the vectors in the vector space.","d3f:kb-author":"Mike Eynon; Laura Mather; Erik Westland; Jim Lloyd","d3f:kb-mitre-analysis":"This patent describes a technique for detecting fraudulent behavior on a website. Website behavior is mapped to build a multidimensional representation of user actions on a website that is updated as additional actions are recorded. Example actions on a website that are recorded include clicks by a user on the website and entering data into forms. Current behavior is compared against baseline recorded behavior and if current behavior deviates above a threshold, an alert is issued.","d3f:kb-organization":"Silver Tail Systems","d3f:kb-reference-of":{"@id":"d3f:WebSessionActivityAnalysis"},"d3f:kb-reference-title":"System and Method for Detection of a Change in Behavior in the Use of a Website Through Vector Velocity Analysis","d3f:reference-type-label":"Patent","rdfs:label":"Reference - System and Method for Detection of a Change in Behavior in the Use of a Website Through Vector Velocity Analysis - Silver Tail Systems"},{"@id":"d3f:Reference_SystemAndMethodForNetworkSecurityIncludingDetectionOfAttacksThroughPartnerWebsites_EMCIPHoldingCoLLC","@type":["d3f:PatentReference","http://www.w3.org/2002/07/owl#NamedIndividual"],"d3f:has-link":{"@type":"http://www.w3.org/2001/XMLSchema#anyURI","@value":"https://patents.google.com/patent/US20110302653A1/en?oq=US+20110302653+A1"},"d3f:kb-abstract":"A computer readable storage medium has instructions for execution on a computer. The instructions monitor transactions between a server and a set of clients. An evaluation of session indicators associated with the transactions is performed. Individual sessions between the server and individual clients of the plurality of clients are isolated in response to the evaluation.","d3f:kb-author":"Matt Frantz; Andreas Wittenstein; Mike Eynon; Laura Mather; Jim Lloyd; James Schumacher; Duane Murphy","d3f:kb-mitre-analysis":"This patent describes a technique for detecting man-in-the-browser attacks. Current user session data is compared with the average user session that is based on collected data representing average values across all user sessions over a data-collection period. User session data includes average time between clicks and the order in which website pages are viewed. The comparisons are combined to generate a score that indicates the likelihood that the current session is a man-in-the-browser attack.","d3f:kb-organization":"EMC IP Holding Co LLC","d3f:kb-reference-of":{"@id":"d3f:WebSessionActivityAnalysis"},"d3f:kb-reference-title":"System and Method for Network Security Including Detection of Attacks Through Partner Websites","d3f:reference-type-label":"Patent","rdfs:label":"Reference - System and Method for Network Security Including Detection of Attacks Through Partner Websites - EMC IP Holding Co LLC"},{"@id":"d3f:Reference_SystemAndMethodThereofForIdentifyingAndRespondingToSecurityIncidentsBasedOnPreemptiveForensics_PaloAltoNetworksInc","@type":["d3f:PatentReference","http://www.w3.org/2002/07/owl#NamedIndividual"],"d3f:has-link":{"@type":"http://www.w3.org/2001/XMLSchema#anyURI","@value":"https://patents.google.com/patent/US20160142424A1"},"d3f:kb-abstract":"A system is connected to a plurality of user devices coupled to an enterprise's network. The system continuously collects, stores, and analyzes forensic data related to the enterprise's network. Based on the analysis, the system is able to determine normal behavior of the network and portions thereof and thereby identify abnormal behaviors within the network. Upon identification of an abnormal behavior, the system determines whether the abnormal behavior relates to a security incident. Upon determining a security incident in any portion of the enterprise's network, the system extracts forensic data respective of the security incident and enables further assessment of the security incident as well as identification of the source of the security incident. The system provides real-time damage assessment respective of the security incident as well as the security incident's attributions.","d3f:kb-author":"Gil BARAK; Shai MORAG","d3f:kb-mitre-analysis":"This patent describes detecting abnormal behavior related to a security incident by collecting and analyzing forensic data in real time. Forensic data may include:\n\n* URLs visited\n* data downloaded or streamed\n* messages received and sent\n* amount of memory used for processing\n\nThe data is then analyzed according to a set of dynamically created rules to determine normal behavior patterns associated with the network or user devices. Anomalies between current behavior and normal behavior patterns trigger an alert.","d3f:kb-organization":"Palo Alto Networks Inc","d3f:kb-reference-of":[{"@id":"d3f:ResourceAccessPatternAnalysis"},{"@id":"d3f:UserDataTransferAnalysis"},{"@id":"d3f:WebSessionActivityAnalysis"}],"d3f:kb-reference-title":"System and method thereof for identifying and responding to security incidents based on preemptive forensics","d3f:reference-type-label":"Patent","rdfs:label":"Reference - System and method thereof for identifying and responding to security incidents based on preemptive forensics - Palo Alto Networks Inc"}]},"references_meta":{"Patent":4},"subtechniques":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[]},"related_offensive_matrix":{}}
+{
+  "def_to_off": {
+    "head": {
+      "vars": [
+        "query_def_tech_label",
+        "top_def_tech_label",
+        "def_tactic_label",
+        "def_tactic_rel_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "off_artifact_label",
+        "off_artifact_rel_label",
+        "off_tech_label",
+        "off_tech_id",
+        "off_tech_parent_label",
+        "off_tech_parent_is_toplevel",
+        "off_tactic_rel_label",
+        "off_tactic_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "tactic_def_tech",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact",
+        "off_artifact",
+        "off_artifact_rel",
+        "off_tech",
+        "off_tech_parent",
+        "off_tactic_rel",
+        "off_tactic"
+      ]
+    },
+    "results": {
+      "bindings": []
+    }
+  },
+  "description": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:WebSessionActivityAnalysis",
+        "@type": [
+          "d3f:UserBehaviorAnalysis",
+          "owl:NamedIndividual",
+          "owl:Class"
+        ],
+        "d3f:analyzes": {
+          "@id": "d3f:WebResourceAccess"
+        },
+        "d3f:d3fend-id": "D3-WSAA",
+        "d3f:definition": "Monitoring changes in user web session behavior by comparing current web session activity to a baseline behavior profile or a catalog of predetermined malicious behavior.",
+        "d3f:kb-article": "## How it works\nUser web session data is collected over a period of time to create a user behavior profile. Data collected includes clicks made on a website, average time between clicks, filling out web forms, order in which pages are viewed, and downloading files. Current user web session behavior is then compared against the use behavior profile to identify anomalies and a likelihood that the current user web session is malicious. Current user web session behavior can also be compared to predetermined known malicious behavior profiles that are developed through analysis of malware in run time at a threat research facility.\n\n## Considerations\n* Potential for false positives from anomalies that are not associated with malicious activity.\n* Attackers may not differentiate their web session activity enough to trigger an alert.",
+        "d3f:kb-reference": [
+          {
+            "@id": "d3f:Reference-HostIntrusionPreventionSystemUsingSoftwareAndUserBehaviorAnalysis_SophosLtd"
+          },
+          {
+            "@id": "d3f:Reference-SystemAndMethodThereofForIdentifyingAndRespondingToSecurityIncidentsBasedOnPreemptiveForensics_PaloAltoNetworksInc"
+          },
+          {
+            "@id": "d3f:Reference-SystemAndMethodForDetectionOfAChangeInBehaviorInTheUseOfAWebsiteThroughVectorVelocityAnalysis_SilverTailSystems"
+          },
+          {
+            "@id": "d3f:Reference-SystemAndMethodForNetworkSecurityIncludingDetectionOfAttacksThroughPartnerWebsites_EMCIPHoldingCoLLC"
+          }
+        ],
+        "rdfs:label": "Web Session Activity Analysis",
+        "rdfs:subClassOf": {
+          "@id": "d3f:UserBehaviorAnalysis"
+        }
+      }
+    ]
+  },
+  "digital_artifacts": {
+    "head": {
+      "vars": [
+        "query_def_tech_label",
+        "top_def_tech_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "query_def_tech_label": {
+            "type": "literal",
+            "value": "Web Session Activity Analysis"
+          },
+          "top_def_tech_label": {
+            "type": "literal",
+            "value": "User Behavior Analysis"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Web Session Activity Analysis"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "analyzes"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Web Resource Access"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#WebSessionActivityAnalysis"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#WebResourceAccess"
+          }
+        }
+      ]
+    }
+  },
+  "references": {
+    "@context": {
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:Reference-HostIntrusionPreventionSystemUsingSoftwareAndUserBehaviorAnalysis_SophosLtd",
+        "@type": [
+          "d3f:PatentReference",
+          "http://www.w3.org/2002/07/owl#NamedIndividual"
+        ],
+        "d3f:has-link": {
+          "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "@value": "https://patents.google.com/patent/US20110023115A1"
+        },
+        "d3f:kb-abstract": "In embodiments of the present invention improved capabilities are described for threat detection using a behavioral-based host-intrusion prevention method and system for monitoring a user interaction with a computer, software application, operating system, graphic user interface, or some other component or client of a computer network, and performing an action to protect the computer network based at least in part on the user interaction and a computer code process executing during or in association with a computer usage session.",
+        "d3f:kb-author": "Clifford C. Wright",
+        "d3f:kb-mitre-analysis": "The patent describes a technique for performing behavior based threat detection. User and code behavior data is collected and stored to create baseline user and code behavior profiles. User behavior data collected over a user session or over multiple sessions can include a user:\n\n* clicking on a link\n* scrolling down a page\n* opening or closing a window\n* downloading a file\n* saving a file\n* running a file\n* typing a keyword\n\nCode behavior monitored includes code:\n\n* copying itself to a system folder\n* setting a run key to itself in the registry\n* setting a second runkey to itself in the registry in\na different location\n* disabling OS tools in the registry\n* opening a hidden file\n\nThe user interaction and the code process executed during the user session are monitored and compared with predetermined malicious behavior profiles that are typically present in a malicious user session.  The predetermined collection of malicious behaviors are created based on analysis of families of malware in run time in a threat research facility. If a match is made an action is taken that can include isolating the computer on which the user interaction occurs and limiting network access to or from the computer.",
+        "d3f:kb-organization": "Sophos Ltd",
+        "d3f:kb-reference-of": [
+          {
+            "@id": "d3f:ResourceAccessPatternAnalysis"
+          },
+          {
+            "@id": "d3f:SystemDaemonMonitoring"
+          },
+          {
+            "@id": "d3f:WebSessionActivityAnalysis"
+          }
+        ],
+        "d3f:kb-reference-title": "Host intrusion prevention system using software and user behavior analysis",
+        "d3f:reference-type-label": "Patent",
+        "rdfs:label": "Reference - Host intrusion prevention system using software and user behavior analysis - Sophos Ltd"
+      },
+      {
+        "@id": "d3f:Reference-SystemAndMethodForDetectionOfAChangeInBehaviorInTheUseOfAWebsiteThroughVectorVelocityAnalysis_SilverTailSystems",
+        "@type": [
+          "d3f:PatentReference",
+          "http://www.w3.org/2002/07/owl#NamedIndividual"
+        ],
+        "d3f:has-link": {
+          "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "@value": "https://patents.google.com/patent/US20100235909A1/en?oq=US+20100235909+A1"
+        },
+        "d3f:kb-abstract": "A system and software for identifying the change of user behavior on a website includes analyzing the actions of users on a website comprising a plurality of fields or input parameters that identify the actions performed on a website including fields related to previous actions by that user or other users of the website. The fields or input parameters are represented in a vector format where vectors represent different sessions of activity on the website, pages of the website, users of the website, or other attributes of the use of a website. Analysis is performed to determine if new sessions are similar or dissimilar to previously known sessions and if a session is converging or diverging from known sessions based on the velocity and direction of the velocity of the vectors in the vector space.",
+        "d3f:kb-author": "Mike Eynon; Laura Mather; Erik Westland; Jim Lloyd",
+        "d3f:kb-mitre-analysis": "This patent describes a technique for detecting fraudulent behavior on a website. Website behavior is mapped to build a multidimensional representation of user actions on a website that is updated as additional actions are recorded. Example actions on a website that are recorded include clicks by a user on the website and entering data into forms. Current behavior is compared against baseline recorded behavior and if current behavior deviates above a threshold, an alert is issued.",
+        "d3f:kb-organization": "Silver Tail Systems",
+        "d3f:kb-reference-of": {
+          "@id": "d3f:WebSessionActivityAnalysis"
+        },
+        "d3f:kb-reference-title": "System and Method for Detection of a Change in Behavior in the Use of a Website Through Vector Velocity Analysis",
+        "d3f:reference-type-label": "Patent",
+        "rdfs:label": "Reference - System and Method for Detection of a Change in Behavior in the Use of a Website Through Vector Velocity Analysis - Silver Tail Systems"
+      },
+      {
+        "@id": "d3f:Reference-SystemAndMethodForNetworkSecurityIncludingDetectionOfAttacksThroughPartnerWebsites_EMCIPHoldingCoLLC",
+        "@type": [
+          "d3f:PatentReference",
+          "http://www.w3.org/2002/07/owl#NamedIndividual"
+        ],
+        "d3f:has-link": {
+          "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "@value": "https://patents.google.com/patent/US20110302653A1/en?oq=US+20110302653+A1"
+        },
+        "d3f:kb-abstract": "A computer readable storage medium has instructions for execution on a computer. The instructions monitor transactions between a server and a set of clients. An evaluation of session indicators associated with the transactions is performed. Individual sessions between the server and individual clients of the plurality of clients are isolated in response to the evaluation.",
+        "d3f:kb-author": "Matt Frantz; Andreas Wittenstein; Mike Eynon; Laura Mather; Jim Lloyd; James Schumacher; Duane Murphy",
+        "d3f:kb-mitre-analysis": "This patent describes a technique for detecting man-in-the-browser attacks. Current user session data is compared with the average user session that is based on collected data representing average values across all user sessions over a data-collection period. User session data includes average time between clicks and the order in which website pages are viewed. The comparisons are combined to generate a score that indicates the likelihood that the current session is a man-in-the-browser attack.",
+        "d3f:kb-organization": "EMC IP Holding Co LLC",
+        "d3f:kb-reference-of": {
+          "@id": "d3f:WebSessionActivityAnalysis"
+        },
+        "d3f:kb-reference-title": "System and Method for Network Security Including Detection of Attacks Through Partner Websites",
+        "d3f:reference-type-label": "Patent",
+        "rdfs:label": "Reference - System and Method for Network Security Including Detection of Attacks Through Partner Websites - EMC IP Holding Co LLC"
+      },
+      {
+        "@id": "d3f:Reference-SystemAndMethodThereofForIdentifyingAndRespondingToSecurityIncidentsBasedOnPreemptiveForensics_PaloAltoNetworksInc",
+        "@type": [
+          "d3f:PatentReference",
+          "http://www.w3.org/2002/07/owl#NamedIndividual"
+        ],
+        "d3f:has-link": {
+          "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "@value": "https://patents.google.com/patent/US20160142424A1"
+        },
+        "d3f:kb-abstract": "A system is connected to a plurality of user devices coupled to an enterprise's network. The system continuously collects, stores, and analyzes forensic data related to the enterprise's network. Based on the analysis, the system is able to determine normal behavior of the network and portions thereof and thereby identify abnormal behaviors within the network. Upon identification of an abnormal behavior, the system determines whether the abnormal behavior relates to a security incident. Upon determining a security incident in any portion of the enterprise's network, the system extracts forensic data respective of the security incident and enables further assessment of the security incident as well as identification of the source of the security incident. The system provides real-time damage assessment respective of the security incident as well as the security incident's attributions.",
+        "d3f:kb-author": "Gil BARAK; Shai MORAG",
+        "d3f:kb-mitre-analysis": "This patent describes detecting abnormal behavior related to a security incident by collecting and analyzing forensic data in real time. Forensic data may include:\n\n* URLs visited\n* data downloaded or streamed\n* messages received and sent\n* amount of memory used for processing\n\nThe data is then analyzed according to a set of dynamically created rules to determine normal behavior patterns associated with the network or user devices. Anomalies between current behavior and normal behavior patterns trigger an alert.",
+        "d3f:kb-organization": "Palo Alto Networks Inc",
+        "d3f:kb-reference-of": [
+          {
+            "@id": "d3f:ResourceAccessPatternAnalysis"
+          },
+          {
+            "@id": "d3f:UserDataTransferAnalysis"
+          },
+          {
+            "@id": "d3f:WebSessionActivityAnalysis"
+          }
+        ],
+        "d3f:kb-reference-title": "System and method thereof for identifying and responding to security incidents based on preemptive forensics",
+        "d3f:reference-type-label": "Patent",
+        "rdfs:label": "Reference - System and method thereof for identifying and responding to security incidents based on preemptive forensics - Palo Alto Networks Inc"
+      }
+    ]
+  },
+  "references_meta": {
+    "Patent": 4
+  },
+  "subtechniques": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": []
+  },
+  "related_offensive_matrix": {}
+}

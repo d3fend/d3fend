@@ -10,22 +10,23 @@
   
   <!-- This contains the contents of the <svelte:head> component, if
     the current page has one -->
-    <meta http-equiv="content-security-policy" content=""><title>ATT&amp;CK to D3FEND Mapper | Tools |  | MITRE D3FEND™</title>
+    <meta http-equiv="content-security-policy" content=""><title>D3FEND Tools | MITRE D3FEND™</title>
 	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-a0ff9840.css">
 	<link rel="stylesheet" href="/_app/assets/Nav-mobile-e0f80dc0.css">
-	<link rel="modulepreload" href="/_app/start-8e428c50.js">
+	<link rel="modulepreload" href="/_app/start-07c43ec8.js">
 	<link rel="modulepreload" href="/_app/chunks/index-a02da30e.js">
 	<link rel="modulepreload" href="/_app/chunks/index-98a102c4.js">
 	<link rel="modulepreload" href="/_app/chunks/singletons-d1fb5791.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-dd97aeab.js">
-	<link rel="modulepreload" href="/_app/chunks/Nav-mobile-18bee053.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-2c685df2.js">
+	<link rel="modulepreload" href="/_app/chunks/Nav-mobile-1b03ef49.js">
 	<link rel="modulepreload" href="/_app/chunks/stores-59d8ae96.js">
 	<link rel="modulepreload" href="/_app/chunks/stores-cf129ad8.js">
-	<link rel="modulepreload" href="/_app/chunks/config-6e32f34b.js">
-	<link rel="modulepreload" href="/_app/chunks/lib-cf80d2a1.js">
+	<link rel="modulepreload" href="/_app/chunks/config-91979045.js">
+	<link rel="modulepreload" href="/_app/chunks/lib-88dd6a45.js">
 	<link rel="modulepreload" href="/_app/chunks/marked.esm-8ab30116.js">
-	<link rel="modulepreload" href="/_app/pages/tools/index.svelte-75caa666.js">
+	<link rel="modulepreload" href="/_app/pages/tools/index.svelte-ede4aa42.js">
 	<link rel="modulepreload" href="/_app/chunks/Title-1d23c88f.js">
+	<link rel="modulepreload" href="/_app/chunks/Table-79382ad4.js">
 				<script>
 		if ('serviceWorker' in navigator) {
 			navigator.serviceWorker.register('/service-worker.js');
@@ -58,7 +59,13 @@
 </button></div>
 </nav></nav>
   <main class="svelte-acckgo">
-<section></section></main>
+<section class="content"><div class="center"><h2>Tools</h2>
+  <table class="table-auto"><thead><th><!-- HTML_TAG_START -->Tool<!-- HTML_TAG_END --></th><th><!-- HTML_TAG_START -->Description<!-- HTML_TAG_END --></th></thead>
+  <tbody><tr><td><!-- HTML_TAG_START --><a href='/ontologies/d3fend.csv'>D3FEND Spreadsheet</a><!-- HTML_TAG_END --></td><td><!-- HTML_TAG_START -->This spreadsheet contains all D3FEND techniques and their definitions. CSV format.<!-- HTML_TAG_END --></td>
+    </tr><tr><td><!-- HTML_TAG_START --><a href='/tools/attack-extractor'>ATT&CK Extractor</a><!-- HTML_TAG_END --></td><td><!-- HTML_TAG_START -->Extracts ATT&CK techniques from blobs of text and recommends <i>potential</i> D3FEND countermeasures.<!-- HTML_TAG_END --></td>
+    </tr><tr><td><!-- HTML_TAG_START --><a class='glow' href='/tools/d3fend-extractor'>D3FEND Extractor</a><!-- HTML_TAG_END --></td><td><!-- HTML_TAG_START -->Extracts D3FEND techniques from blobs of text and shows related ATT&CK techniques.<!-- HTML_TAG_END --></td>
+    </tr><tr><td><!-- HTML_TAG_START --><a class='glow' href='/tools/artifact-extractor'>D3FEND Artifact Extractor</a><!-- HTML_TAG_END --></td><td><!-- HTML_TAG_START -->Extracts D3FEND Artifacts from blobs of text and links to their definitions.<!-- HTML_TAG_END --></td>
+    </tr></tbody></table></div></section></main>
 
   
   <footer class="svelte-acckgo"><div class="svelte-fefdvk"><p class="text-small">Use of the MITRE D3FEND™ Knowledge Graph and website is subject to the <a href="/tou">Terms of Use</a>. Use of the MITRE D3FEND website is subject to the
@@ -85,10 +92,10 @@
   </footer>
 
 
-		<script type="module" data-hydrate="1kks3fo">
-		import { start } from "/_app/start-8e428c50.js";
+		<script type="module" data-hydrate="132f40r">
+		import { start } from "/_app/start-07c43ec8.js";
 		start({
-			target: document.querySelector('[data-hydrate="1kks3fo"]').parentNode,
+			target: document.querySelector('[data-hydrate="132f40r"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -98,8 +105,8 @@
 				status: 200,
 				error: null,
 				nodes: [
-					import("/_app/pages/__layout.svelte-dd97aeab.js"),
-						import("/_app/pages/tools/index.svelte-75caa666.js")
+					import("/_app/pages/__layout.svelte-2c685df2.js"),
+						import("/_app/pages/tools/index.svelte-ede4aa42.js")
 				],
 				params: {},
 				routeId: "tools"

@@ -1,1 +1,124 @@
-{"def_to_off":{"head":{"vars":["query_def_tech_label","top_def_tech_label","def_tactic_label","def_tactic_rel_label","def_tech_label","def_artifact_rel_label","def_artifact_label","off_artifact_label","off_artifact_rel_label","off_tech_label","off_tech_id","off_tech_parent_label","off_tech_parent_is_toplevel","off_tactic_rel_label","off_tactic_label","def_tactic","def_tactic_rel","tactic_def_tech","def_tech","def_artifact_rel","def_artifact","off_artifact","off_artifact_rel","off_tech","off_tech_parent","off_tactic_rel","off_tactic"]},"results":{"bindings":[]}},"description":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:Certificate-basedAuthentication","@type":["d3f:CredentialHardening","owl:NamedIndividual","owl:Class"],"d3f:d3fend-id":"D3-CBAN","d3f:definition":"Requiring a digital certificate in order to authenticate a user.","d3f:kb-reference":{"@id":"d3f:Reference-TokenlessBiometricTransactionAuthorizationMethodAndSystem"},"rdfs:label":"Certificate-based Authentication","rdfs:subClassOf":{"@id":"d3f:CredentialHardening"}}]},"digital_artifacts":{"head":{"vars":["query_def_tech_label","top_def_tech_label","def_tech_label","def_artifact_rel_label","def_artifact_label","def_tactic","def_tactic_rel","def_tech","def_artifact_rel","def_artifact"]},"results":{"bindings":[]}},"references":{"@context":{"rdfs":"http://www.w3.org/2000/01/rdf-schema#","d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#"},"@graph":[]},"references_meta":{},"subtechniques":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[]},"related_offensive_matrix":{}}
+{
+  "def_to_off": {
+    "head": {
+      "vars": [
+        "query_def_tech_label",
+        "top_def_tech_label",
+        "def_tactic_label",
+        "def_tactic_rel_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "off_artifact_label",
+        "off_artifact_rel_label",
+        "off_tech_label",
+        "off_tech_id",
+        "off_tech_parent_label",
+        "off_tech_parent_is_toplevel",
+        "off_tactic_rel_label",
+        "off_tactic_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "tactic_def_tech",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact",
+        "off_artifact",
+        "off_artifact_rel",
+        "off_tech",
+        "off_tech_parent",
+        "off_tactic_rel",
+        "off_tactic"
+      ]
+    },
+    "results": {
+      "bindings": []
+    }
+  },
+  "description": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:Certificate-basedAuthentication",
+        "@type": [
+          "d3f:CredentialHardening",
+          "owl:NamedIndividual",
+          "owl:Class"
+        ],
+        "d3f:d3fend-id": "D3-CBAN",
+        "d3f:definition": "Requiring a digital certificate in order to authenticate a user.",
+        "d3f:kb-reference": {
+          "@id": "d3f:Reference-TokenlessBiometricTransactionAuthorizationMethodAndSystem"
+        },
+        "rdfs:label": "Certificate-based Authentication",
+        "rdfs:subClassOf": {
+          "@id": "d3f:CredentialHardening"
+        }
+      }
+    ]
+  },
+  "digital_artifacts": {
+    "head": {
+      "vars": [
+        "query_def_tech_label",
+        "top_def_tech_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact"
+      ]
+    },
+    "results": {
+      "bindings": []
+    }
+  },
+  "references": {
+    "@context": {
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:Reference-TokenlessBiometricTransactionAuthorizationMethodAndSystem",
+        "@type": [
+          "d3f:PatentReference",
+          "http://www.w3.org/2002/07/owl#NamedIndividual"
+        ],
+        "d3f:has-link": {
+          "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "@value": "https://patents.google.com/patent/US5870723A/"
+        },
+        "d3f:kb-abstract": "A method and system for tokenless authorization of commercial transactions between a buyer and a seller using a computer system. A transaction is proposed by a seller, and the buyer signals his acceptance by entering his personal authentication information comprising a PIN and at least one biometric sample, forming a commercial transaction message. The commercial transaction message is forwarded to the computer system, where the computer system compares the personal authentication information in the commercial transaction message with previously registered buyer biometric samples. If the computer system successfully identifies the buyer, a financial account of the buyer is debited and a financial account of the seller is credited, and the results of the transaction are presented to both buyer and seller. As a result of the invention, a buyer can conduct commercial transactions without having to use any tokens such as portable man-made memory devices such as smartcards or swipe cards. The invention allows buyers to quickly select one of a group of different financial accounts from which to transfer funds. The invention further indicates to the user that the authentic computer system was accessed by the use of a private code that is returned to the buyer after the identification is complete. The invention additionally permits an authorized buyer to alert authorities in the event of an emergency, such as when a transaction is coerced.",
+        "d3f:kb-organization": "SmartTouch Inc",
+        "d3f:kb-reference-of": {
+          "@id": "d3f:BiometricAuthentication"
+        },
+        "d3f:kb-reference-title": "Tokenless biometric transaction authorization method and system",
+        "d3f:reference-type-label": "Patent",
+        "rdfs:label": "Reference - Tokenless biometric transaction authorization method and system"
+      }
+    ]
+  },
+  "references_meta": {
+    "Patent": 1
+  },
+  "subtechniques": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": []
+  },
+  "related_offensive_matrix": {}
+}

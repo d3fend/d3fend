@@ -1,5 +1,21 @@
 # D3FEND Change Log
 
+
+## Version - 0.11.0-BETA-1 - 2022-10-31
+
+### User Interface
+- New ability to optionally render portions of Defensive Technique taxonomy to accomodate supporting techniques.
+- Now rendering mappings to NIST 800 53 and DISA CCI on their own pages.
+
+### Ontology Updates
+- Added new large section of 'supporting' defensive techniques under Model tactic. (#12)
+- Added semantic mappings to NIST 800-53 Rev 5 and DISA CCI (Common Common Control Index). (#68)
+- Added large number of new artifact definitions for offensive and defensive techniques. (#67)
+- Added a script to automatically create ontology additions for STIX2 based ATT&CK updates and update to ATT&CK V11. (#60)
+- Update robot.jar URL. (#57)
+- Fix label kerberos ticket. (#53)
+
+
 ## Version - 0.10.1-BETA-1 - 2022-06-13
 
 ### User Interface
@@ -9,6 +25,10 @@
 - New D3FEND Extractor tool extracts D3FEND techniques from raw text and automatically maps them to ATT&CK. Ability to download results as an ATT&CK navigator layer or a properly formatted table to paste into a spreadsheet, or share the results via URL.
 - Redesigned and simplier resources page.
 - Link to slack channel on contribute page.
+- Now pretty printing in /api JSON serializations.
+- Fixed matrix sorting issues in Chrome and Safari.
+- Added committing contributors section to contribute page for those who send pull requests.
+
 
 ### Ontology Updates
 

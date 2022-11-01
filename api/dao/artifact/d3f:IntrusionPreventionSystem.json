@@ -1,1 +1,331 @@
-{"da_to_off":{"head":{"vars":["off_artifact_label","off_artifact_rel_label","off_tech_label","off_tech_id","off_tactic_rel_label","off_tactic_label","off_artifact","off_artifact_rel","off_tech","off_tactic_rel","off_tactic"]},"results":{"bindings":[]}},"da_to_def":{"head":{"vars":["def_tactic_label","def_tactic_rel_label","def_tech_parent_is_toplevel","def_tech_parent_label","def_tech_label","def_artifact_rel_label","def_artifact_label","def_tactic","def_tactic_rel","def_tech","def_artifact_rel","def_artifact"]},"results":{"bindings":[]}},"da_graph":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:DigitalArtifact","rdfs:hasSubClass":{"@id":"d3f:NetworkNode"},"rdfs:label":"Digital Artifact"},{"@id":"d3f:IntrusionDetectionSystem","rdfs:hasSubClass":{"@id":"d3f:IntrusionPreventionSystem"},"rdfs:label":"Intrusion Detection System"},{"@id":"d3f:IntrusionPreventionSystem","rdfs:label":"Intrusion Prevention System"},{"@id":"d3f:NetworkNode","rdfs:hasSubClass":{"@id":"d3f:IntrusionDetectionSystem"},"rdfs:label":"Network Node"}]},"description":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:IntrusionDetectionSystem"},{"@id":"d3f:IntrusionPreventionSystem","@type":"owl:Class","rdfs:comment":"Intrusion prevention systems (IPS), also known as intrusion detection and prevention systems (IDPS), are network security appliances that monitor network or system activities for malicious activity. The main functions of intrusion prevention systems are to identify malicious activity, log information about this activity, report it and attempt to block or stop it.\n\nIntrusion prevention systems are considered extensions of intrusion detection systems because they both monitor network traffic and/or system activities for malicious activity. The main differences are, unlike intrusion detection systems, intrusion prevention systems are placed in-line and are able to actively prevent or block intrusions that are detected. IPS can take such actions as sending an alarm, dropping detected malicious packets, resetting a connection or blocking traffic from the offending IP address. An IPS also can correct cyclic redundancy check (CRC) errors, defragment packet streams, mitigate TCP sequencing issues, and clean up unwanted transport and network layer options.","rdfs:isDefinedBy":{"@id":"http://dbpedia.org/resource/Intrusion_detection_system#Intrusion_prevention"},"rdfs:label":"Intrusion Prevention System","rdfs:seeAlso":{"@id":"http://dbpedia.org/resource/Intrusion_detection_system"},"rdfs:subClassOf":{"@id":"d3f:IntrusionDetectionSystem"},"skos:altLabel":["IDPS","Intrusion Detection and Prevention System","IPS"]},{"@id":"http://dbpedia.org/resource/Intrusion_detection_system"},{"@id":"http://dbpedia.org/resource/Intrusion_detection_system#Intrusion_prevention"}]},"neighbors":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[]}}
+{
+  "da_to_off": {
+    "head": {
+      "vars": [
+        "off_artifact_label",
+        "off_artifact_rel_label",
+        "off_tech_label",
+        "off_tech_id",
+        "off_tactic_rel_label",
+        "off_tactic_label",
+        "off_artifact",
+        "off_artifact_rel",
+        "off_tech",
+        "off_tactic_rel",
+        "off_tactic"
+      ]
+    },
+    "results": {
+      "bindings": []
+    }
+  },
+  "da_to_def": {
+    "head": {
+      "vars": [
+        "def_tactic_label",
+        "def_tactic_rel_label",
+        "def_tech_parent_is_toplevel",
+        "def_tech_parent_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Model"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Asset Inventory"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Asset Vulnerability Enumeration"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "evaluates"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Digital Artifact"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Model"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#AssetVulnerabilityEnumeration"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#evaluates"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DigitalArtifact"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Model"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Asset Inventory"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Network Node Inventory"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "inventories"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Network Node"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Model"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#NetworkNodeInventory"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#inventories"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#NetworkNode"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Model"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Network Mapping"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Logical Link Mapping"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "maps"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Network Node"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Model"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#LogicalLinkMapping"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#maps"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#NetworkNode"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Model"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Network Mapping"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Physical Link Mapping"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "maps"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Network Node"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Model"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#PhysicalLinkMapping"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#maps"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#NetworkNode"
+          }
+        }
+      ]
+    }
+  },
+  "da_graph": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:DigitalArtifact",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:NetworkNode"
+        },
+        "rdfs:label": "Digital Artifact"
+      },
+      {
+        "@id": "d3f:IntrusionDetectionSystem",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:IntrusionPreventionSystem"
+        },
+        "rdfs:label": "Intrusion Detection System"
+      },
+      {
+        "@id": "d3f:IntrusionPreventionSystem",
+        "rdfs:label": "Intrusion Prevention System"
+      },
+      {
+        "@id": "d3f:NetworkNode",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:IntrusionDetectionSystem"
+        },
+        "rdfs:label": "Network Node"
+      }
+    ]
+  },
+  "description": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:IntrusionDetectionSystem"
+      },
+      {
+        "@id": "d3f:IntrusionPreventionSystem",
+        "@type": "owl:Class",
+        "rdfs:comment": "Intrusion prevention systems (IPS), also known as intrusion detection and prevention systems (IDPS), are network security appliances that monitor network or system activities for malicious activity. The main functions of intrusion prevention systems are to identify malicious activity, log information about this activity, report it and attempt to block or stop it.\n\nIntrusion prevention systems are considered extensions of intrusion detection systems because they both monitor network traffic and/or system activities for malicious activity. The main differences are, unlike intrusion detection systems, intrusion prevention systems are placed in-line and are able to actively prevent or block intrusions that are detected. IPS can take such actions as sending an alarm, dropping detected malicious packets, resetting a connection or blocking traffic from the offending IP address. An IPS also can correct cyclic redundancy check (CRC) errors, defragment packet streams, mitigate TCP sequencing issues, and clean up unwanted transport and network layer options.",
+        "rdfs:isDefinedBy": {
+          "@id": "http://dbpedia.org/resource/Intrusion_detection_system#Intrusion_prevention"
+        },
+        "rdfs:label": "Intrusion Prevention System",
+        "rdfs:seeAlso": {
+          "@id": "http://dbpedia.org/resource/Intrusion_detection_system"
+        },
+        "rdfs:subClassOf": {
+          "@id": "d3f:IntrusionDetectionSystem"
+        },
+        "skos:altLabel": [
+          "IDPS",
+          "Intrusion Detection and Prevention System",
+          "IPS"
+        ]
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Intrusion_detection_system"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Intrusion_detection_system#Intrusion_prevention"
+      }
+    ]
+  },
+  "neighbors": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": []
+  }
+}

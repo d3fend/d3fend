@@ -1,1 +1,591 @@
-{"da_to_off":{"head":{"vars":["off_artifact_label","off_artifact_rel_label","off_tech_label","off_tech_id","off_tactic_rel_label","off_tactic_label","off_artifact","off_artifact_rel","off_tech","off_tactic_rel","off_tactic"]},"results":{"bindings":[{"off_artifact_label":{"type":"literal","value":"Operating System Process"},"off_artifact_rel_label":{"type":"literal","value":"disables"},"off_tech_label":{"type":"literal","value":"Disable or Modify Tools"},"off_tech_id":{"type":"literal","value":"T1562.001"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Defense Evasion"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#OperatingSystemProcess"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#disables"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1562.001"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"}}]}},"da_to_def":{"head":{"vars":["def_tactic_label","def_tactic_rel_label","def_tech_parent_is_toplevel","def_tech_parent_label","def_tech_label","def_artifact_rel_label","def_artifact_label","def_tactic","def_tactic_rel","def_tech","def_artifact_rel","def_artifact"]},"results":{"bindings":[{"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"false"},"def_tech_parent_label":{"type":"literal","value":"Operating System Monitoring"},"def_tech_label":{"type":"literal","value":"System Daemon Monitoring"},"def_artifact_rel_label":{"type":"literal","value":"monitors"},"def_artifact_label":{"type":"literal","value":"Operating System Process"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemDaemonMonitoring"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#monitors"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#OperatingSystemProcess"}},{"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"true"},"def_tech_parent_label":{"type":"literal","value":"Process Analysis"},"def_tech_label":{"type":"literal","value":"Process Self-Modification Detection"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Process"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#ProcessSelf-ModificationDetection"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Process"}},{"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"true"},"def_tech_parent_label":{"type":"literal","value":"Process Analysis"},"def_tech_label":{"type":"literal","value":"Process Spawn Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Process"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#ProcessSpawnAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Process"}},{"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"false"},"def_tech_parent_label":{"type":"literal","value":"Process Spawn Analysis"},"def_tech_label":{"type":"literal","value":"Process Lineage Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Process"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#ProcessLineageAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Process"}},{"def_tactic_label":{"type":"literal","value":"Evict"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"true"},"def_tech_parent_label":{"type":"literal","value":"Process Eviction"},"def_tech_label":{"type":"literal","value":"Process Termination"},"def_artifact_rel_label":{"type":"literal","value":"terminates"},"def_artifact_label":{"type":"literal","value":"Process"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Evict"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#ProcessTermination"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#terminates"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Process"}},{"def_tactic_label":{"type":"literal","value":"Isolate"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"true"},"def_tech_parent_label":{"type":"literal","value":"Execution Isolation"},"def_tech_label":{"type":"literal","value":"Hardware-based Process Isolation"},"def_artifact_rel_label":{"type":"literal","value":"isolates"},"def_artifact_label":{"type":"literal","value":"Process"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Isolate"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Hardware-basedProcessIsolation"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#isolates"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Process"}},{"def_tactic_label":{"type":"literal","value":"Isolate"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"false"},"def_tech_parent_label":{"type":"literal","value":"Kernel-based Process Isolation"},"def_tech_label":{"type":"literal","value":"Mandatory Access Control"},"def_artifact_rel_label":{"type":"literal","value":"isolates"},"def_artifact_label":{"type":"literal","value":"Process"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Isolate"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#MandatoryAccessControl"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#isolates"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Process"}}]}},"da_graph":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:DigitalArtifact","rdfs:hasSubClass":{"@id":"d3f:Process"},"rdfs:label":"Digital Artifact"},{"@id":"d3f:OperatingSystemProcess","rdfs:label":"Operating System Process"},{"@id":"d3f:Process","rdfs:hasSubClass":{"@id":"d3f:OperatingSystemProcess"},"rdfs:label":"Process"}]},"description":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:OperatingSystemProcess","@type":["owl:NamedIndividual","owl:Class"],"rdfs:comment":"An operating system process, or system process, is a process running to perform operating system functions.","rdfs:label":"Operating System Process","rdfs:seeAlso":{"@id":"http://people.scs.carleton.ca/~maheshwa/courses/300/l4/node7.html"},"rdfs:subClassOf":{"@id":"d3f:Process"},"skos:altLabel":"System Process"},{"@id":"d3f:Process"},{"@id":"http://people.scs.carleton.ca/~maheshwa/courses/300/l4/node7.html"}]},"neighbors":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:Kernel","d3f:manages":[{"@id":"d3f:OperatingSystemProcess"}],"d3f:outbound":[{"@id":"d3f:manages"}],"rdfs:label":["Kernel"]},{"@id":"d3f:OperatingSystemProcess","rdfs:label":["Operating System Process"]}]}}
+{
+  "da_to_off": {
+    "head": {
+      "vars": [
+        "off_artifact_label",
+        "off_artifact_rel_label",
+        "off_tech_label",
+        "off_tech_id",
+        "off_tactic_rel_label",
+        "off_tactic_label",
+        "off_artifact",
+        "off_artifact_rel",
+        "off_tech",
+        "off_tactic_rel",
+        "off_tactic"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Operating System Process"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "disables"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Disable or Modify Tools"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1562.001"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Defense Evasion"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#OperatingSystemProcess"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#disables"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1562.001"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"
+          }
+        }
+      ]
+    }
+  },
+  "da_to_def": {
+    "head": {
+      "vars": [
+        "def_tactic_label",
+        "def_tactic_rel_label",
+        "def_tech_parent_is_toplevel",
+        "def_tech_parent_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Model"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Asset Inventory"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Asset Vulnerability Enumeration"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "evaluates"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Digital Artifact"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Model"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#AssetVulnerabilityEnumeration"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#evaluates"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DigitalArtifact"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Detect"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Operating System Monitoring"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "System Daemon Monitoring"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "monitors"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Operating System Process"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemDaemonMonitoring"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#monitors"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#OperatingSystemProcess"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Detect"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Process Analysis"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Process Self-Modification Detection"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "analyzes"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Process"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#ProcessSelf-ModificationDetection"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Process"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Detect"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Process Analysis"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Process Spawn Analysis"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "analyzes"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Process"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#ProcessSpawnAnalysis"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Process"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Detect"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Process Spawn Analysis"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Process Lineage Analysis"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "analyzes"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Process"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#ProcessLineageAnalysis"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Process"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Evict"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Process Eviction"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Process Termination"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "terminates"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Process"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Evict"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#ProcessTermination"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#terminates"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Process"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Isolate"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Execution Isolation"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Hardware-based Process Isolation"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "isolates"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Process"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Isolate"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Hardware-basedProcessIsolation"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#isolates"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Process"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Isolate"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "false"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Kernel-based Process Isolation"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Mandatory Access Control"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "isolates"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Process"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Isolate"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#MandatoryAccessControl"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#isolates"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Process"
+          }
+        }
+      ]
+    }
+  },
+  "da_graph": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:DigitalArtifact",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:Process"
+        },
+        "rdfs:label": "Digital Artifact"
+      },
+      {
+        "@id": "d3f:OperatingSystemProcess",
+        "rdfs:label": "Operating System Process"
+      },
+      {
+        "@id": "d3f:Process",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:OperatingSystemProcess"
+        },
+        "rdfs:label": "Process"
+      }
+    ]
+  },
+  "description": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:OperatingSystemProcess",
+        "@type": [
+          "owl:NamedIndividual",
+          "owl:Class"
+        ],
+        "rdfs:comment": "An operating system process, or system process, is a process running to perform operating system functions.",
+        "rdfs:label": "Operating System Process",
+        "rdfs:seeAlso": {
+          "@id": "http://people.scs.carleton.ca/~maheshwa/courses/300/l4/node7.html"
+        },
+        "rdfs:subClassOf": {
+          "@id": "d3f:Process"
+        },
+        "skos:altLabel": "System Process"
+      },
+      {
+        "@id": "d3f:Process"
+      },
+      {
+        "@id": "http://people.scs.carleton.ca/~maheshwa/courses/300/l4/node7.html"
+      }
+    ]
+  },
+  "neighbors": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:Kernel",
+        "d3f:manages": [
+          {
+            "@id": "d3f:OperatingSystemProcess"
+          }
+        ],
+        "d3f:outbound": [
+          {
+            "@id": "d3f:manages"
+          }
+        ],
+        "rdfs:label": [
+          "Kernel"
+        ]
+      },
+      {
+        "@id": "d3f:OperatingSystemProcess",
+        "rdfs:label": [
+          "Operating System Process"
+        ]
+      }
+    ]
+  }
+}

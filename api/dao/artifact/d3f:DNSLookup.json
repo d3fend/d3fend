@@ -1,1 +1,339 @@
-{"da_to_off":{"head":{"vars":["off_artifact_label","off_artifact_rel_label","off_tech_label","off_tech_id","off_tactic_rel_label","off_tactic_label","off_artifact","off_artifact_rel","off_tech","off_tactic_rel","off_tactic"]},"results":{"bindings":[{"off_artifact_label":{"type":"literal","value":"DNS Lookup"},"off_artifact_rel_label":{"type":"literal","value":"may-produce"},"off_tech_label":{"type":"literal","value":"Network Sniffing"},"off_tech_id":{"type":"literal","value":"T1040"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Credential Access"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DNSLookup"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#may-produce"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1040"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#CredentialAccess"}},{"off_artifact_label":{"type":"literal","value":"DNS Lookup"},"off_artifact_rel_label":{"type":"literal","value":"may-produce"},"off_tech_label":{"type":"literal","value":"Network Sniffing"},"off_tech_id":{"type":"literal","value":"T1040"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Discovery"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DNSLookup"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#may-produce"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1040"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Discovery"}}]}},"da_to_def":{"head":{"vars":["def_tactic_label","def_tactic_rel_label","def_tech_parent_is_toplevel","def_tech_parent_label","def_tech_label","def_artifact_rel_label","def_artifact_label","def_tactic","def_tactic_rel","def_tech","def_artifact_rel","def_artifact"]},"results":{"bindings":[{"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"true"},"def_tech_parent_label":{"type":"literal","value":"Network Traffic Analysis"},"def_tech_label":{"type":"literal","value":"DNS Traffic Analysis"},"def_artifact_rel_label":{"type":"literal","value":"may-contain"},"def_artifact_label":{"type":"literal","value":"DNS Lookup"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DNSTrafficAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#may-contain"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DNSLookup"}}]}},"da_graph":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:DNSLookup","rdfs:label":"DNS Lookup"},{"@id":"d3f:DigitalArtifact","rdfs:hasSubClass":{"@id":"d3f:DNSLookup"},"rdfs:label":"Digital Artifact"}]},"description":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:DNSLookup","@type":["owl:NamedIndividual","owl:Class"],"rdfs:comment":"A Domain Name System (DNS) lookup is a record returned from a DNS resolver after querying a DNS name server.  Typically considered an A or AAAA record, where a domain name is resolved to an IPv4 or IPv6 address, respectively.","rdfs:label":"DNS Lookup","rdfs:seeAlso":[{"@id":"http://dbpedia.org/resource/Domain_Name_System"},{"@id":"http://dbpedia.org/resource/List_of_DNS_record_types"}],"rdfs:subClassOf":[{"@id":"d3f:DigitalArtifact"},{"@id":"d3f:DigitalEvent"}]},{"@id":"d3f:DigitalArtifact"},{"@id":"d3f:DigitalEvent"},{"@id":"http://dbpedia.org/resource/Domain_Name_System"},{"@id":"http://dbpedia.org/resource/List_of_DNS_record_types"}]},"neighbors":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:DNSLookup","rdfs:label":["DNS Lookup"]},{"@id":"d3f:OutboundInternetDNSLookupTraffic","d3f:may-contain":[{"@id":"d3f:DNSLookup"}],"d3f:outbound":[{"@id":"d3f:may-contain"}],"rdfs:label":["Outbound Internet DNS Lookup Traffic"]}]}}
+{
+  "da_to_off": {
+    "head": {
+      "vars": [
+        "off_artifact_label",
+        "off_artifact_rel_label",
+        "off_tech_label",
+        "off_tech_id",
+        "off_tactic_rel_label",
+        "off_tactic_label",
+        "off_artifact",
+        "off_artifact_rel",
+        "off_tech",
+        "off_tactic_rel",
+        "off_tactic"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "DNS Lookup"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "may-produce"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Network Sniffing"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1040"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Credential Access"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DNSLookup"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#may-produce"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1040"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#CredentialAccess"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "DNS Lookup"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "may-produce"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Network Sniffing"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1040"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Discovery"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DNSLookup"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#may-produce"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1040"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Discovery"
+          }
+        }
+      ]
+    }
+  },
+  "da_to_def": {
+    "head": {
+      "vars": [
+        "def_tactic_label",
+        "def_tactic_rel_label",
+        "def_tech_parent_is_toplevel",
+        "def_tech_parent_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Detect"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Network Traffic Analysis"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "DNS Traffic Analysis"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "may-contain"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "DNS Lookup"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DNSTrafficAnalysis"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#may-contain"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DNSLookup"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Model"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Asset Inventory"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Asset Vulnerability Enumeration"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "evaluates"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Digital Artifact"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Model"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#AssetVulnerabilityEnumeration"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#evaluates"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DigitalArtifact"
+          }
+        }
+      ]
+    }
+  },
+  "da_graph": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:DNSLookup",
+        "rdfs:label": "DNS Lookup"
+      },
+      {
+        "@id": "d3f:DigitalArtifact",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:DNSLookup"
+        },
+        "rdfs:label": "Digital Artifact"
+      }
+    ]
+  },
+  "description": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:DNSLookup",
+        "@type": [
+          "owl:NamedIndividual",
+          "owl:Class"
+        ],
+        "rdfs:comment": "A Domain Name System (DNS) lookup is a record returned from a DNS resolver after querying a DNS name server.  Typically considered an A or AAAA record, where a domain name is resolved to an IPv4 or IPv6 address, respectively.",
+        "rdfs:label": "DNS Lookup",
+        "rdfs:seeAlso": [
+          {
+            "@id": "http://dbpedia.org/resource/Domain_Name_System"
+          },
+          {
+            "@id": "http://dbpedia.org/resource/List_of_DNS_record_types"
+          }
+        ],
+        "rdfs:subClassOf": [
+          {
+            "@id": "d3f:DigitalArtifact"
+          },
+          {
+            "@id": "d3f:DigitalEvent"
+          }
+        ]
+      },
+      {
+        "@id": "d3f:DigitalArtifact"
+      },
+      {
+        "@id": "d3f:DigitalEvent"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Domain_Name_System"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/List_of_DNS_record_types"
+      }
+    ]
+  },
+  "neighbors": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:DNSLookup",
+        "rdfs:label": [
+          "DNS Lookup"
+        ]
+      },
+      {
+        "@id": "d3f:OutboundInternetDNSLookupTraffic",
+        "d3f:may-contain": [
+          {
+            "@id": "d3f:DNSLookup"
+          }
+        ],
+        "d3f:outbound": [
+          {
+            "@id": "d3f:may-contain"
+          }
+        ],
+        "rdfs:label": [
+          "Outbound Internet DNS Lookup Traffic"
+        ]
+      }
+    ]
+  }
+}

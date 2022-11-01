@@ -1,1 +1,167 @@
-{"def_to_off":{"head":{"vars":["query_def_tech_label","top_def_tech_label","def_tactic_label","def_tactic_rel_label","def_tech_label","def_artifact_rel_label","def_artifact_label","off_artifact_label","off_artifact_rel_label","off_tech_label","off_tech_id","off_tech_parent_label","off_tech_parent_is_toplevel","off_tactic_rel_label","off_tactic_label","def_tactic","def_tactic_rel","tactic_def_tech","def_tech","def_artifact_rel","def_artifact","off_artifact","off_artifact_rel","off_tech","off_tech_parent","off_tactic_rel","off_tactic"]},"results":{"bindings":[]}},"description":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:MessageEncryption","@type":["d3f:MessageHardening","owl:NamedIndividual","owl:Class"],"d3f:d3fend-id":"D3-MENCR","d3f:definition":"Encrypting a message body using a cryptographic key.","d3f:encrypts":{"@id":"d3f:UserToUserMessage"},"d3f:kb-article":"## How it works\n\n### Asymmetric Cryptography\nAsymmetric encryption is typically accomplished using public and private key certificates based on the X.509 standard. The sender encrypts messages using the recipient's public key and the receipt decrypts the message using their private key. Standards that can be used to implement message encryption include S/MIME (Secure/Multipurpose Internet Mail Extensions) and PGP.\n### Symmetric Cryptography\nSymmetric encryption uses the same cryptographic key by both the sender and receiver to encrypt and decrypt a message. Asymmetric key exchange protocols such as Diffie-Hellman can be used to share the cryptographic key with the recipient.\n\n## Considerations\n- Separate configuration settings to enable message encryption are often needed for each messenger client (e.g. webmail, desktop client, mobile).\n- Continuous monitoring to ensure private keys are not compromised and the certificate authority (CA) is trusted.\n- Secure transfer of private keys between multiple devices.","d3f:kb-reference":{"@id":"d3f:Reference-SecureMultipurposeInternetMailExtensionsMIME-Version3.1"},"rdfs:label":"Message Encryption","rdfs:subClassOf":{"@id":"d3f:MessageHardening"}}]},"digital_artifacts":{"head":{"vars":["query_def_tech_label","top_def_tech_label","def_tech_label","def_artifact_rel_label","def_artifact_label","def_tactic","def_tactic_rel","def_tech","def_artifact_rel","def_artifact"]},"results":{"bindings":[{"query_def_tech_label":{"type":"literal","value":"Message Encryption"},"top_def_tech_label":{"type":"literal","value":"Message Hardening"},"def_tech_label":{"type":"literal","value":"Message Encryption"},"def_artifact_rel_label":{"type":"literal","value":"encrypts"},"def_artifact_label":{"type":"literal","value":"User to User Message"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Harden"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#MessageEncryption"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#encrypts"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#UserToUserMessage"}}]}},"references":{"@context":{"rdfs":"http://www.w3.org/2000/01/rdf-schema#","d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#"},"@graph":[{"@id":"d3f:Reference-SecureMultipurposeInternetMailExtensionsMIME-Version3.1","@type":["d3f:SpecificationReference","http://www.w3.org/2002/07/owl#NamedIndividual"],"d3f:has-link":{"@type":"http://www.w3.org/2001/XMLSchema#anyURI","@value":"https://tools.ietf.org/html/rfc3851"},"d3f:kb-organization":"Internet Engineering Task Force (IETF)","d3f:kb-reference-title":"Secure/Multipurpose Internet Mail Extensions (S/MIME) Version 3.1 Message Specification","d3f:reference-type-label":"Specification","rdfs:label":"Reference - Secure/Multipurpose Internet Mail Extensions (S/MIME) Version 3.1"}]},"references_meta":{"Specification":1},"subtechniques":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[]},"related_offensive_matrix":{}}
+{
+  "def_to_off": {
+    "head": {
+      "vars": [
+        "query_def_tech_label",
+        "top_def_tech_label",
+        "def_tactic_label",
+        "def_tactic_rel_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "off_artifact_label",
+        "off_artifact_rel_label",
+        "off_tech_label",
+        "off_tech_id",
+        "off_tech_parent_label",
+        "off_tech_parent_is_toplevel",
+        "off_tactic_rel_label",
+        "off_tactic_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "tactic_def_tech",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact",
+        "off_artifact",
+        "off_artifact_rel",
+        "off_tech",
+        "off_tech_parent",
+        "off_tactic_rel",
+        "off_tactic"
+      ]
+    },
+    "results": {
+      "bindings": []
+    }
+  },
+  "description": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:MessageEncryption",
+        "@type": [
+          "d3f:MessageHardening",
+          "owl:NamedIndividual",
+          "owl:Class"
+        ],
+        "d3f:d3fend-id": "D3-MENCR",
+        "d3f:definition": "Encrypting a message body using a cryptographic key.",
+        "d3f:encrypts": {
+          "@id": "d3f:UserToUserMessage"
+        },
+        "d3f:kb-article": "## How it works\n\n### Asymmetric Cryptography\nAsymmetric encryption is typically accomplished using public and private key certificates based on the X.509 standard. The sender encrypts messages using the recipient's public key and the receipt decrypts the message using their private key. Standards that can be used to implement message encryption include S/MIME (Secure/Multipurpose Internet Mail Extensions) and PGP.\n### Symmetric Cryptography\nSymmetric encryption uses the same cryptographic key by both the sender and receiver to encrypt and decrypt a message. Asymmetric key exchange protocols such as Diffie-Hellman can be used to share the cryptographic key with the recipient.\n\n## Considerations\n- Separate configuration settings to enable message encryption are often needed for each messenger client (e.g. webmail, desktop client, mobile).\n- Continuous monitoring to ensure private keys are not compromised and the certificate authority (CA) is trusted.\n- Secure transfer of private keys between multiple devices.",
+        "d3f:kb-reference": {
+          "@id": "d3f:Reference-SecureMultipurposeInternetMailExtensionsMIME-Version3.1"
+        },
+        "rdfs:label": "Message Encryption",
+        "rdfs:subClassOf": {
+          "@id": "d3f:MessageHardening"
+        }
+      }
+    ]
+  },
+  "digital_artifacts": {
+    "head": {
+      "vars": [
+        "query_def_tech_label",
+        "top_def_tech_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "query_def_tech_label": {
+            "type": "literal",
+            "value": "Message Encryption"
+          },
+          "top_def_tech_label": {
+            "type": "literal",
+            "value": "Message Hardening"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Message Encryption"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "encrypts"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "User to User Message"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Harden"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#MessageEncryption"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#encrypts"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#UserToUserMessage"
+          }
+        }
+      ]
+    }
+  },
+  "references": {
+    "@context": {
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:Reference-SecureMultipurposeInternetMailExtensionsMIME-Version3.1",
+        "@type": [
+          "d3f:SpecificationReference",
+          "http://www.w3.org/2002/07/owl#NamedIndividual"
+        ],
+        "d3f:has-link": {
+          "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "@value": "https://tools.ietf.org/html/rfc3851"
+        },
+        "d3f:kb-organization": "Internet Engineering Task Force (IETF)",
+        "d3f:kb-reference-title": "Secure/Multipurpose Internet Mail Extensions (S/MIME) Version 3.1 Message Specification",
+        "d3f:reference-type-label": "Specification",
+        "rdfs:label": "Reference - Secure/Multipurpose Internet Mail Extensions (S/MIME) Version 3.1"
+      }
+    ]
+  },
+  "references_meta": {
+    "Specification": 1
+  },
+  "subtechniques": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": []
+  },
+  "related_offensive_matrix": {}
+}

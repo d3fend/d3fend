@@ -13,18 +13,18 @@
     <meta http-equiv="content-security-policy" content="">
 	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-a0ff9840.css">
 	<link rel="stylesheet" href="/_app/assets/Nav-mobile-e0f80dc0.css">
-	<link rel="modulepreload" href="/_app/start-8e428c50.js">
+	<link rel="modulepreload" href="/_app/start-07c43ec8.js">
 	<link rel="modulepreload" href="/_app/chunks/index-a02da30e.js">
 	<link rel="modulepreload" href="/_app/chunks/index-98a102c4.js">
 	<link rel="modulepreload" href="/_app/chunks/singletons-d1fb5791.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-dd97aeab.js">
-	<link rel="modulepreload" href="/_app/chunks/Nav-mobile-18bee053.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-2c685df2.js">
+	<link rel="modulepreload" href="/_app/chunks/Nav-mobile-1b03ef49.js">
 	<link rel="modulepreload" href="/_app/chunks/stores-59d8ae96.js">
 	<link rel="modulepreload" href="/_app/chunks/stores-cf129ad8.js">
-	<link rel="modulepreload" href="/_app/chunks/config-6e32f34b.js">
-	<link rel="modulepreload" href="/_app/chunks/lib-cf80d2a1.js">
+	<link rel="modulepreload" href="/_app/chunks/config-91979045.js">
+	<link rel="modulepreload" href="/_app/chunks/lib-88dd6a45.js">
 	<link rel="modulepreload" href="/_app/chunks/marked.esm-8ab30116.js">
-	<link rel="modulepreload" href="/_app/pages/tactic/index.svelte-c888c3ba.js">
+	<link rel="modulepreload" href="/_app/pages/tactic/index.svelte-6cdfa124.js">
 				<script>
 		if ('serviceWorker' in navigator) {
 			navigator.serviceWorker.register('/service-worker.js');
@@ -62,7 +62,7 @@
       </tr><tr><td><a href="/tactic/d3f:Evict">Evict</a></td>
       </tr><tr><td><a href="/tactic/d3f:Harden">Harden</a></td>
       </tr><tr><td><a href="/tactic/d3f:Isolate">Isolate</a></td>
-      </tr><tr><td><a href="/tactic/d3f:Scan">Scan</a></td>
+      </tr><tr><td><a href="/tactic/d3f:Model">Model</a></td>
       </tr></tbody></table>
   <p>total count: 6</p></main>
 
@@ -91,10 +91,10 @@
   </footer>
 
 
-		<script type="module" data-hydrate="e0o3ea">
-		import { start } from "/_app/start-8e428c50.js";
+		<script type="module" data-hydrate="lftavm">
+		import { start } from "/_app/start-07c43ec8.js";
 		start({
-			target: document.querySelector('[data-hydrate="e0o3ea"]').parentNode,
+			target: document.querySelector('[data-hydrate="lftavm"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -104,14 +104,14 @@
 				status: 200,
 				error: null,
 				nodes: [
-					import("/_app/pages/__layout.svelte-dd97aeab.js"),
-						import("/_app/pages/tactic/index.svelte-c888c3ba.js")
+					import("/_app/pages/__layout.svelte-2c685df2.js"),
+						import("/_app/pages/tactic/index.svelte-6cdfa124.js")
 				],
 				params: {},
 				routeId: "tactic"
 			}
 		});
-	</script><script type="application/json" sveltekit:data-type="data" sveltekit:data-url="/api/tactic/all.json">{"status":200,"statusText":"","headers":{"content-type":"text/plain;charset=UTF-8"},"body":"{\"@context\":{\"d3f\":\"http://d3fend.mitre.org/ontologies/d3fend.owl#\",\"rdfs\":\"http://www.w3.org/2000/01/rdf-schema#\",\"skos\":\"http://www.w3.org/2004/02/skos/core#\",\"owl\":\"http://www.w3.org/2002/07/owl#\"},\"@graph\":[{\"@id\":\"d3f:Deceive\",\"@type\":[\"d3f:DefensiveTactic\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:definition\":\"The deceive tactic is used to advertise, entice, and allow potential attackers access to an observed or controlled environment.\",\"d3f:display-order\":{\"@type\":\"http://www.w3.org/2001/XMLSchema#integer\",\"@value\":\"3\"},\"rdfs:label\":\"Deceive\",\"rdfs:subClassOf\":{\"@id\":\"d3f:DefensiveTactic\"}},{\"@id\":\"d3f:Detect\",\"@type\":[\"d3f:DefensiveTactic\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:definition\":\"The detect tactic is used to identify adversary access to or unauthorized activity on computer networks.\",\"d3f:display-order\":{\"@type\":\"http://www.w3.org/2001/XMLSchema#integer\",\"@value\":\"1\"},\"rdfs:label\":\"Detect\",\"rdfs:subClassOf\":{\"@id\":\"d3f:DefensiveTactic\"}},{\"@id\":\"d3f:Evict\",\"@type\":[\"d3f:DefensiveTactic\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:definition\":\"The eviction tactic is used to remove an adversary from a computer network.\",\"d3f:display-order\":{\"@type\":\"http://www.w3.org/2001/XMLSchema#integer\",\"@value\":\"4\"},\"rdfs:label\":\"Evict\",\"rdfs:subClassOf\":{\"@id\":\"d3f:DefensiveTactic\"}},{\"@id\":\"d3f:Harden\",\"@type\":[\"d3f:DefensiveTactic\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:definition\":\"The harden tactic is used to increase the opportunity cost of computer network exploitation. Hardening differs from Detection in that it generally is conducted before a system is online and operational.\",\"d3f:display-order\":{\"@type\":\"http://www.w3.org/2001/XMLSchema#integer\",\"@value\":\"0\"},\"rdfs:label\":\"Harden\",\"rdfs:subClassOf\":{\"@id\":\"d3f:DefensiveTactic\"}},{\"@id\":\"d3f:Isolate\",\"@type\":[\"d3f:DefensiveTactic\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:definition\":\"The isolate tactic creates logical or physical barriers in a system which reduces opportunities for adversaries to create further accesses.\",\"d3f:display-order\":{\"@type\":\"http://www.w3.org/2001/XMLSchema#integer\",\"@value\":\"2\"},\"rdfs:label\":\"Isolate\",\"rdfs:subClassOf\":{\"@id\":\"d3f:DefensiveTactic\"}},{\"@id\":\"d3f:Scan\",\"@type\":[\"d3f:DefensiveTactic\",\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:display-order\":{\"@type\":\"http://www.w3.org/2001/XMLSchema#integer\",\"@value\":\"0\"},\"rdfs:label\":\"Scan\",\"rdfs:subClassOf\":{\"@id\":\"d3f:DefensiveTactic\"}}]}"}</script></div>
+	</script><script type="application/json" sveltekit:data-type="data" sveltekit:data-url="/api/tactic/all.json">{"status":200,"statusText":"","headers":{"content-type":"text/plain;charset=UTF-8"},"body":"{\n  \"@context\": {\n    \"d3f\": \"http://d3fend.mitre.org/ontologies/d3fend.owl#\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"skos\": \"http://www.w3.org/2004/02/skos/core#\",\n    \"owl\": \"http://www.w3.org/2002/07/owl#\"\n  },\n  \"@graph\": [\n    {\n      \"@id\": \"d3f:Deceive\",\n      \"@type\": [\n        \"d3f:DefensiveTactic\",\n        \"owl:NamedIndividual\",\n        \"owl:Class\"\n      ],\n      \"d3f:definition\": \"The deceive tactic is used to advertise, entice, and allow potential attackers access to an observed or controlled environment.\",\n      \"d3f:display-order\": {\n        \"@type\": \"http://www.w3.org/2001/XMLSchema#integer\",\n        \"@value\": \"3\"\n      },\n      \"d3f:display-priority\": {\n        \"@type\": \"http://www.w3.org/2001/XMLSchema#integer\",\n        \"@value\": \"0\"\n      },\n      \"rdfs:label\": \"Deceive\",\n      \"rdfs:subClassOf\": {\n        \"@id\": \"d3f:DefensiveTactic\"\n      }\n    },\n    {\n      \"@id\": \"d3f:Detect\",\n      \"@type\": [\n        \"d3f:DefensiveTactic\",\n        \"owl:NamedIndividual\",\n        \"owl:Class\"\n      ],\n      \"d3f:definition\": \"The detect tactic is used to identify adversary access to or unauthorized activity on computer networks.\",\n      \"d3f:display-order\": {\n        \"@type\": \"http://www.w3.org/2001/XMLSchema#integer\",\n        \"@value\": \"1\"\n      },\n      \"d3f:display-priority\": {\n        \"@type\": \"http://www.w3.org/2001/XMLSchema#integer\",\n        \"@value\": \"0\"\n      },\n      \"rdfs:label\": \"Detect\",\n      \"rdfs:subClassOf\": {\n        \"@id\": \"d3f:DefensiveTactic\"\n      }\n    },\n    {\n      \"@id\": \"d3f:Evict\",\n      \"@type\": [\n        \"d3f:DefensiveTactic\",\n        \"owl:NamedIndividual\",\n        \"owl:Class\"\n      ],\n      \"d3f:definition\": \"The eviction tactic is used to remove an adversary from a computer network.\",\n      \"d3f:display-order\": {\n        \"@type\": \"http://www.w3.org/2001/XMLSchema#integer\",\n        \"@value\": \"4\"\n      },\n      \"d3f:display-priority\": {\n        \"@type\": \"http://www.w3.org/2001/XMLSchema#integer\",\n        \"@value\": \"0\"\n      },\n      \"rdfs:label\": \"Evict\",\n      \"rdfs:subClassOf\": {\n        \"@id\": \"d3f:DefensiveTactic\"\n      }\n    },\n    {\n      \"@id\": \"d3f:Harden\",\n      \"@type\": [\n        \"d3f:DefensiveTactic\",\n        \"owl:NamedIndividual\",\n        \"owl:Class\"\n      ],\n      \"d3f:definition\": \"The harden tactic is used to increase the opportunity cost of computer network exploitation. Hardening differs from Detection in that it generally is conducted before a system is online and operational.\",\n      \"d3f:display-order\": {\n        \"@type\": \"http://www.w3.org/2001/XMLSchema#integer\",\n        \"@value\": \"0\"\n      },\n      \"d3f:display-priority\": {\n        \"@type\": \"http://www.w3.org/2001/XMLSchema#integer\",\n        \"@value\": \"0\"\n      },\n      \"rdfs:label\": \"Harden\",\n      \"rdfs:subClassOf\": {\n        \"@id\": \"d3f:DefensiveTactic\"\n      }\n    },\n    {\n      \"@id\": \"d3f:Isolate\",\n      \"@type\": [\n        \"d3f:DefensiveTactic\",\n        \"owl:NamedIndividual\",\n        \"owl:Class\"\n      ],\n      \"d3f:definition\": \"The isolate tactic creates logical or physical barriers in a system which reduces opportunities for adversaries to create further accesses.\",\n      \"d3f:display-order\": {\n        \"@type\": \"http://www.w3.org/2001/XMLSchema#integer\",\n        \"@value\": \"2\"\n      },\n      \"d3f:display-priority\": {\n        \"@type\": \"http://www.w3.org/2001/XMLSchema#integer\",\n        \"@value\": \"0\"\n      },\n      \"rdfs:label\": \"Isolate\",\n      \"rdfs:subClassOf\": {\n        \"@id\": \"d3f:DefensiveTactic\"\n      }\n    },\n    {\n      \"@id\": \"d3f:Model\",\n      \"@type\": [\n        \"d3f:DefensiveTactic\",\n        \"owl:NamedIndividual\",\n        \"owl:Class\"\n      ],\n      \"d3f:definition\": \"The model tactic is used to apply security engineering, vulnerability, threat, and risk analyses to digital systems. This is accomplished by creating and maintaining a common understanding of the systems being defended, the operations on those systems, actors using the systems, and the relationships and interactions between these elements.\",\n      \"d3f:display-order\": {\n        \"@type\": \"http://www.w3.org/2001/XMLSchema#integer\",\n        \"@value\": \"-1\"\n      },\n      \"d3f:display-priority\": {\n        \"@type\": \"http://www.w3.org/2001/XMLSchema#integer\",\n        \"@value\": \"1\"\n      },\n      \"rdfs:label\": \"Model\",\n      \"rdfs:subClassOf\": {\n        \"@id\": \"d3f:DefensiveTactic\"\n      }\n    }\n  ]\n}"}</script></div>
       
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script id="atarget" async      >

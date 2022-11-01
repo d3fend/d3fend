@@ -1,1 +1,406 @@
-{"def_to_off":{"head":{"vars":["query_def_tech_label","top_def_tech_label","def_tactic_label","def_tactic_rel_label","def_tech_label","def_artifact_rel_label","def_artifact_label","off_artifact_label","off_artifact_rel_label","off_tech_label","off_tech_id","off_tech_parent_label","off_tech_parent_is_toplevel","off_tactic_rel_label","off_tactic_label","def_tactic","def_tactic_rel","tactic_def_tech","def_tech","def_artifact_rel","def_artifact","off_artifact","off_artifact_rel","off_tech","off_tech_parent","off_tactic_rel","off_tactic"]},"results":{"bindings":[{"query_def_tech_label":{"type":"literal","value":"Database Query String Analysis"},"top_def_tech_label":{"type":"literal","value":"Process Analysis"},"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_label":{"type":"literal","value":"Database Query String Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Database Query"},"off_artifact_label":{"type":"literal","value":"Database Query"},"off_artifact_rel_label":{"type":"literal","value":"injects"},"off_tech_label":{"type":"literal","value":"Exploit Public-Facing Application"},"off_tech_id":{"type":"literal","value":"T1190"},"off_tech_parent_label":{"type":"literal","value":"Initial Access Technique"},"off_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"true"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Initial Access"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DatabaseQueryStringAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DatabaseQuery"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DatabaseQuery"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#injects"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1190"},"off_tech_parent":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#InitialAccessTechnique"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#InitialAccess"}}]}},"description":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#","children":{"@id":"d3f:child","@type":"@id","@container":"@set"}},"@graph":[{"@id":"d3f:DatabaseQueryStringAnalysis","@type":["d3f:ProcessAnalysis","owl:NamedIndividual","owl:Class"],"d3f:analyzes":{"@id":"d3f:DatabaseQuery"},"d3f:d3fend-id":"D3-DQSA","d3f:definition":"Analyzing database queries to detect [SQL Injection](https://capec.mitre.org/data/definitions/66.html).","d3f:kb-article":"## How it works\n\nSome implementations use software hooks to intercept function calls related to database query operations. Other implementations might intercept or collect network traffic. The database query string is then extracted and analyzed with various methods, for example:\n* Detecting specific administrative SQL commands\n* Anomalous sequences of commands when compared to a statistical baseline.\n* Anomalous commands for a given user role.\n\n## Considerations\n\nSome capabilities sanitize queries before permitting them to be transmitted to the database. This incurs risks such altering data in an undesired way or breaking application functionality.","d3f:kb-reference":{"@id":"d3f:Reference_SystemAndMethodForInternetSecurity_CylanceInc"},"rdfs:label":"Database Query String Analysis","rdfs:subClassOf":{"@id":"d3f:ProcessAnalysis"}}]},"digital_artifacts":{"head":{"vars":["query_def_tech_label","top_def_tech_label","def_tech_label","def_artifact_rel_label","def_artifact_label","def_tactic","def_tactic_rel","def_tech","def_artifact_rel","def_artifact"]},"results":{"bindings":[{"query_def_tech_label":{"type":"literal","value":"Database Query String Analysis"},"top_def_tech_label":{"type":"literal","value":"Process Analysis"},"def_tech_label":{"type":"literal","value":"Database Query String Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Database Query"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DatabaseQueryStringAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DatabaseQuery"}}]}},"references":{"@context":{"rdfs":"http://www.w3.org/2000/01/rdf-schema#","d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#"},"@graph":[{"@id":"d3f:Reference_SystemAndMethodForInternetSecurity_CylanceInc","@type":["d3f:PatentReference","http://www.w3.org/2002/07/owl#NamedIndividual"],"d3f:has-link":{"@type":"http://www.w3.org/2001/XMLSchema#anyURI","@value":"https://patents.google.com/patent/US20120117644A1"},"d3f:kb-abstract":"A computer implemented method for preventing SQL injection attacks comprises intercepting a web request associated with a web service at a first software hook in a first web service execution context, persisting at least a portion of the intercepted web request in a storage location associated with the first software hook and accessible to at least one additional execution context, intercepting a database query generated by at least one web service processing operation at a second software hook associated with the execution of the query, wherein the query is generated in response to the intercepted web request and the second hook retrieves the persisted portion of the intercepted web request, comparing a portion of the persisted portion of the intercepted web request with at least a portion of the intercepted database query, and determining, prior to the query being executed, whether the query corresponds to a potential SQL injection attack.","d3f:kb-author":"Derek A. Soeder","d3f:kb-mitre-analysis":"This patent describes a technique for detecting SQL injection attacks. Software hooks are installed in a web service or application to intercept function calls, events, or messages that are passed between software components. Intercepted database queries associated with a web request are analyzed character by character and if it contains a character that would modify the syntax the query is rejected or sanitized. Security rules and policies may also determine rejection. For example, an administrator or developer may implement a rule that rejects any database query that is excessively long or that contains a particular string, such as \"Xp cmdshell\".","d3f:kb-organization":"Cylance Inc","d3f:kb-reference-of":{"@id":"d3f:DatabaseQueryStringAnalysis"},"d3f:kb-reference-title":"System and method for internet security","d3f:reference-type-label":"Patent","rdfs:label":"Reference - System and method for internet security - Cylance Inc"}]},"references_meta":{"Patent":1},"subtechniques":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#","children":{"@id":"d3f:child","@type":"@id","@container":"@set"}},"@graph":[]},"related_offensive_matrix":{"Initial Access":[["Exploit Public-Facing Application",[{"query_def_tech_label":{"type":"literal","value":"Database Query String Analysis"},"top_def_tech_label":{"type":"literal","value":"Process Analysis"},"def_tactic_label":{"type":"literal","value":"Detect"},"def_tactic_rel_label":{"type":"literal","value":"enables"},"def_tech_label":{"type":"literal","value":"Database Query String Analysis"},"def_artifact_rel_label":{"type":"literal","value":"analyzes"},"def_artifact_label":{"type":"literal","value":"Database Query"},"off_artifact_label":{"type":"literal","value":"Database Query"},"off_artifact_rel_label":{"type":"literal","value":"injects"},"off_tech_label":{"type":"literal","value":"Exploit Public-Facing Application"},"off_tech_id":{"type":"literal","value":"T1190"},"off_tech_parent_label":{"type":"literal","value":"Initial Access Technique"},"off_tech_parent_is_toplevel":{"datatype":"http://www.w3.org/2001/XMLSchema#boolean","type":"literal","value":"true"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Initial Access"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DatabaseQueryStringAnalysis"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DatabaseQuery"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DatabaseQuery"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#injects"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1190"},"off_tech_parent":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#InitialAccessTechnique"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#InitialAccess"}}]]]}}
+{
+  "def_to_off": {
+    "head": {
+      "vars": [
+        "query_def_tech_label",
+        "top_def_tech_label",
+        "def_tactic_label",
+        "def_tactic_rel_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "off_artifact_label",
+        "off_artifact_rel_label",
+        "off_tech_label",
+        "off_tech_id",
+        "off_tech_parent_label",
+        "off_tech_parent_is_toplevel",
+        "off_tactic_rel_label",
+        "off_tactic_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "tactic_def_tech",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact",
+        "off_artifact",
+        "off_artifact_rel",
+        "off_tech",
+        "off_tech_parent",
+        "off_tactic_rel",
+        "off_tactic"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "query_def_tech_label": {
+            "type": "literal",
+            "value": "Database Query String Analysis"
+          },
+          "top_def_tech_label": {
+            "type": "literal",
+            "value": "Process Analysis"
+          },
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Detect"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Database Query String Analysis"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "analyzes"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Database Query"
+          },
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Database Query"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "injects"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Exploit Public-Facing Application"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1190"
+          },
+          "off_tech_parent_label": {
+            "type": "literal",
+            "value": "Initial Access Technique"
+          },
+          "off_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Initial Access"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DatabaseQueryStringAnalysis"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DatabaseQuery"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DatabaseQuery"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#injects"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1190"
+          },
+          "off_tech_parent": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#InitialAccessTechnique"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#InitialAccess"
+          }
+        }
+      ]
+    }
+  },
+  "description": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "children": {
+        "@id": "d3f:child",
+        "@type": "@id",
+        "@container": "@set"
+      }
+    },
+    "@graph": [
+      {
+        "@id": "d3f:DatabaseQueryStringAnalysis",
+        "@type": [
+          "d3f:ProcessAnalysis",
+          "owl:NamedIndividual",
+          "owl:Class"
+        ],
+        "d3f:analyzes": {
+          "@id": "d3f:DatabaseQuery"
+        },
+        "d3f:d3fend-id": "D3-DQSA",
+        "d3f:definition": "Analyzing database queries to detect [SQL Injection](https://capec.mitre.org/data/definitions/66.html).",
+        "d3f:kb-article": "## How it works\n\nSome implementations use software hooks to intercept function calls related to database query operations. Other implementations might intercept or collect network traffic. The database query string is then extracted and analyzed with various methods, for example:\n* Detecting specific administrative SQL commands\n* Anomalous sequences of commands when compared to a statistical baseline.\n* Anomalous commands for a given user role.\n\n## Considerations\n\nSome capabilities sanitize queries before permitting them to be transmitted to the database. This incurs risks such altering data in an undesired way or breaking application functionality.",
+        "d3f:kb-reference": {
+          "@id": "d3f:Reference-SystemAndMethodForInternetSecurity_CylanceInc"
+        },
+        "rdfs:label": "Database Query String Analysis",
+        "rdfs:subClassOf": {
+          "@id": "d3f:ProcessAnalysis"
+        }
+      }
+    ]
+  },
+  "digital_artifacts": {
+    "head": {
+      "vars": [
+        "query_def_tech_label",
+        "top_def_tech_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "query_def_tech_label": {
+            "type": "literal",
+            "value": "Database Query String Analysis"
+          },
+          "top_def_tech_label": {
+            "type": "literal",
+            "value": "Process Analysis"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Database Query String Analysis"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "analyzes"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Database Query"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DatabaseQueryStringAnalysis"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DatabaseQuery"
+          }
+        }
+      ]
+    }
+  },
+  "references": {
+    "@context": {
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:Reference-SystemAndMethodForInternetSecurity_CylanceInc",
+        "@type": [
+          "d3f:PatentReference",
+          "http://www.w3.org/2002/07/owl#NamedIndividual"
+        ],
+        "d3f:has-link": {
+          "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "@value": "https://patents.google.com/patent/US20120117644A1"
+        },
+        "d3f:kb-abstract": "A computer implemented method for preventing SQL injection attacks comprises intercepting a web request associated with a web service at a first software hook in a first web service execution context, persisting at least a portion of the intercepted web request in a storage location associated with the first software hook and accessible to at least one additional execution context, intercepting a database query generated by at least one web service processing operation at a second software hook associated with the execution of the query, wherein the query is generated in response to the intercepted web request and the second hook retrieves the persisted portion of the intercepted web request, comparing a portion of the persisted portion of the intercepted web request with at least a portion of the intercepted database query, and determining, prior to the query being executed, whether the query corresponds to a potential SQL injection attack.",
+        "d3f:kb-author": "Derek A. Soeder",
+        "d3f:kb-mitre-analysis": "This patent describes a technique for detecting SQL injection attacks. Software hooks are installed in a web service or application to intercept function calls, events, or messages that are passed between software components. Intercepted database queries associated with a web request are analyzed character by character and if it contains a character that would modify the syntax the query is rejected or sanitized. Security rules and policies may also determine rejection. For example, an administrator or developer may implement a rule that rejects any database query that is excessively long or that contains a particular string, such as \"Xp cmdshell\".",
+        "d3f:kb-organization": "Cylance Inc",
+        "d3f:kb-reference-of": {
+          "@id": "d3f:DatabaseQueryStringAnalysis"
+        },
+        "d3f:kb-reference-title": "System and method for internet security",
+        "d3f:reference-type-label": "Patent",
+        "rdfs:label": "Reference - System and method for internet security - Cylance Inc"
+      }
+    ]
+  },
+  "references_meta": {
+    "Patent": 1
+  },
+  "subtechniques": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "children": {
+        "@id": "d3f:child",
+        "@type": "@id",
+        "@container": "@set"
+      }
+    },
+    "@graph": []
+  },
+  "related_offensive_matrix": {
+    "Initial Access": [
+      [
+        "Exploit Public-Facing Application",
+        [
+          {
+            "query_def_tech_label": {
+              "type": "literal",
+              "value": "Database Query String Analysis"
+            },
+            "top_def_tech_label": {
+              "type": "literal",
+              "value": "Process Analysis"
+            },
+            "def_tactic_label": {
+              "type": "literal",
+              "value": "Detect"
+            },
+            "def_tactic_rel_label": {
+              "type": "literal",
+              "value": "enables"
+            },
+            "def_tech_label": {
+              "type": "literal",
+              "value": "Database Query String Analysis"
+            },
+            "def_artifact_rel_label": {
+              "type": "literal",
+              "value": "analyzes"
+            },
+            "def_artifact_label": {
+              "type": "literal",
+              "value": "Database Query"
+            },
+            "off_artifact_label": {
+              "type": "literal",
+              "value": "Database Query"
+            },
+            "off_artifact_rel_label": {
+              "type": "literal",
+              "value": "injects"
+            },
+            "off_tech_label": {
+              "type": "literal",
+              "value": "Exploit Public-Facing Application"
+            },
+            "off_tech_id": {
+              "type": "literal",
+              "value": "T1190"
+            },
+            "off_tech_parent_label": {
+              "type": "literal",
+              "value": "Initial Access Technique"
+            },
+            "off_tech_parent_is_toplevel": {
+              "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+              "type": "literal",
+              "value": "true"
+            },
+            "off_tactic_rel_label": {
+              "type": "literal",
+              "value": "enables"
+            },
+            "off_tactic_label": {
+              "type": "literal",
+              "value": "Initial Access"
+            },
+            "def_tactic": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Detect"
+            },
+            "def_tactic_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+            },
+            "def_tech": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DatabaseQueryStringAnalysis"
+            },
+            "def_artifact_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#analyzes"
+            },
+            "def_artifact": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DatabaseQuery"
+            },
+            "off_artifact": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DatabaseQuery"
+            },
+            "off_artifact_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#injects"
+            },
+            "off_tech": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1190"
+            },
+            "off_tech_parent": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#InitialAccessTechnique"
+            },
+            "off_tactic_rel": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+            },
+            "off_tactic": {
+              "type": "uri",
+              "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#InitialAccess"
+            }
+          }
+        ]
+      ]
+    ]
+  }
+}

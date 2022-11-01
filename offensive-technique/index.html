@@ -13,18 +13,18 @@
     <meta http-equiv="content-security-policy" content="">
 	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-a0ff9840.css">
 	<link rel="stylesheet" href="/_app/assets/Nav-mobile-e0f80dc0.css">
-	<link rel="modulepreload" href="/_app/start-8e428c50.js">
+	<link rel="modulepreload" href="/_app/start-07c43ec8.js">
 	<link rel="modulepreload" href="/_app/chunks/index-a02da30e.js">
 	<link rel="modulepreload" href="/_app/chunks/index-98a102c4.js">
 	<link rel="modulepreload" href="/_app/chunks/singletons-d1fb5791.js">
-	<link rel="modulepreload" href="/_app/pages/__layout.svelte-dd97aeab.js">
-	<link rel="modulepreload" href="/_app/chunks/Nav-mobile-18bee053.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-2c685df2.js">
+	<link rel="modulepreload" href="/_app/chunks/Nav-mobile-1b03ef49.js">
 	<link rel="modulepreload" href="/_app/chunks/stores-59d8ae96.js">
 	<link rel="modulepreload" href="/_app/chunks/stores-cf129ad8.js">
-	<link rel="modulepreload" href="/_app/chunks/config-6e32f34b.js">
-	<link rel="modulepreload" href="/_app/chunks/lib-cf80d2a1.js">
+	<link rel="modulepreload" href="/_app/chunks/config-91979045.js">
+	<link rel="modulepreload" href="/_app/chunks/lib-88dd6a45.js">
 	<link rel="modulepreload" href="/_app/chunks/marked.esm-8ab30116.js">
-	<link rel="modulepreload" href="/_app/pages/offensive-technique/index.svelte-cd83ad1b.js">
+	<link rel="modulepreload" href="/_app/pages/offensive-technique/index.svelte-afda10b9.js">
 				<script>
 		if ('serviceWorker' in navigator) {
 			navigator.serviceWorker.register('/service-worker.js');
@@ -66,6 +66,8 @@
       <td><a href="/offensive-technique/attack/T1001.002">Steganography</a></td>
     </tr><tr><td>T1001.003</td>
       <td><a href="/offensive-technique/attack/T1001.003">Protocol Impersonation</a></td>
+    </tr><tr><td>T1002</td>
+      <td><a href="/offensive-technique/attack/T1002">Data Compressed</a></td>
     </tr><tr><td>T1003</td>
       <td><a href="/offensive-technique/attack/T1003">OS Credential Dumping</a></td>
     </tr><tr><td>T1003.001</td>
@@ -84,6 +86,8 @@
       <td><a href="/offensive-technique/attack/T1003.007">Proc Filesystem</a></td>
     </tr><tr><td>T1003.008</td>
       <td><a href="/offensive-technique/attack/T1003.008">/etc/passwd and /etc/shadow</a></td>
+    </tr><tr><td>T1004</td>
+      <td><a href="/offensive-technique/attack/T1004">Winlogon Helper DLL</a></td>
     </tr><tr><td>T1005</td>
       <td><a href="/offensive-technique/attack/T1005">Data from Local System</a></td>
     </tr><tr><td>T1006</td>
@@ -92,20 +96,36 @@
       <td><a href="/offensive-technique/attack/T1007">System Service Discovery</a></td>
     </tr><tr><td>T1008</td>
       <td><a href="/offensive-technique/attack/T1008">Fallback Channels</a></td>
+    </tr><tr><td>T1009</td>
+      <td><a href="/offensive-technique/attack/T1009">Binary Padding</a></td>
     </tr><tr><td>T1010</td>
       <td><a href="/offensive-technique/attack/T1010">Application Window Discovery</a></td>
     </tr><tr><td>T1011</td>
       <td><a href="/offensive-technique/attack/T1011">Exfiltration Over Other Network Medium</a></td>
+    </tr><tr><td>T1011.001</td>
+      <td><a href="/offensive-technique/attack/T1011.001">Exfiltration Over Bluetooth</a></td>
     </tr><tr><td>T1012</td>
       <td><a href="/offensive-technique/attack/T1012">Query Registry</a></td>
+    </tr><tr><td>T1013</td>
+      <td><a href="/offensive-technique/attack/T1013">Port Monitors</a></td>
     </tr><tr><td>T1014</td>
       <td><a href="/offensive-technique/attack/T1014">Rootkit</a></td>
+    </tr><tr><td>T1015</td>
+      <td><a href="/offensive-technique/attack/T1015">Accessibility Features</a></td>
     </tr><tr><td>T1016</td>
       <td><a href="/offensive-technique/attack/T1016">System Network Configuration Discovery</a></td>
+    </tr><tr><td>T1016.001</td>
+      <td><a href="/offensive-technique/attack/T1016.001">Internet Connection Discovery</a></td>
+    </tr><tr><td>T1017</td>
+      <td><a href="/offensive-technique/attack/T1017">Application Deployment Software</a></td>
     </tr><tr><td>T1018</td>
       <td><a href="/offensive-technique/attack/T1018">Remote System Discovery</a></td>
+    </tr><tr><td>T1019</td>
+      <td><a href="/offensive-technique/attack/T1019">System Firmware</a></td>
     </tr><tr><td>T1020</td>
       <td><a href="/offensive-technique/attack/T1020">Automated Exfiltration</a></td>
+    </tr><tr><td>T1020.001</td>
+      <td><a href="/offensive-technique/attack/T1020.001">Traffic Duplication</a></td>
     </tr><tr><td>T1021</td>
       <td><a href="/offensive-technique/attack/T1021">Remote Services</a></td>
     </tr><tr><td>T1021.001</td>
@@ -120,6 +140,12 @@
       <td><a href="/offensive-technique/attack/T1021.005">VNC</a></td>
     </tr><tr><td>T1021.006</td>
       <td><a href="/offensive-technique/attack/T1021.006">Windows Remote Management</a></td>
+    </tr><tr><td>T1022</td>
+      <td><a href="/offensive-technique/attack/T1022">Data Encrypted</a></td>
+    </tr><tr><td>T1023</td>
+      <td><a href="/offensive-technique/attack/T1023">Shortcut Modification</a></td>
+    </tr><tr><td>T1024</td>
+      <td><a href="/offensive-technique/attack/T1024">Custom Cryptographic Protocol</a></td>
     </tr><tr><td>T1025</td>
       <td><a href="/offensive-technique/attack/T1025">Data from Removable Media</a></td>
     </tr><tr><td>T1027</td>
@@ -136,12 +162,20 @@
       <td><a href="/offensive-technique/attack/T1027.005">Indicator Removal from Tools</a></td>
     </tr><tr><td>T1027.006</td>
       <td><a href="/offensive-technique/attack/T1027.006">HTML Smuggling</a></td>
+    </tr><tr><td>T1028</td>
+      <td><a href="/offensive-technique/attack/T1028">Windows Remote Management</a></td>
     </tr><tr><td>T1029</td>
       <td><a href="/offensive-technique/attack/T1029">Scheduled Transfer</a></td>
     </tr><tr><td>T1030</td>
       <td><a href="/offensive-technique/attack/T1030">Data Transfer Size Limits</a></td>
+    </tr><tr><td>T1031</td>
+      <td><a href="/offensive-technique/attack/T1031">Modify Existing Service</a></td>
+    </tr><tr><td>T1032</td>
+      <td><a href="/offensive-technique/attack/T1032">Standard Cryptographic Protocol</a></td>
     </tr><tr><td>T1033</td>
       <td><a href="/offensive-technique/attack/T1033">System Owner/User Discovery</a></td>
+    </tr><tr><td>T1035</td>
+      <td><a href="/offensive-technique/attack/T1035">Service Execution</a></td>
     </tr><tr><td>T1036</td>
       <td><a href="/offensive-technique/attack/T1036">Masquerading</a></td>
     </tr><tr><td>T1036.001</td>
@@ -170,12 +204,20 @@
       <td><a href="/offensive-technique/attack/T1037.004">Rc.common</a></td>
     </tr><tr><td>T1037.005</td>
       <td><a href="/offensive-technique/attack/T1037.005">Startup Items</a></td>
+    </tr><tr><td>T1038</td>
+      <td><a href="/offensive-technique/attack/T1038">DLL Search Order Hijacking</a></td>
     </tr><tr><td>T1039</td>
       <td><a href="/offensive-technique/attack/T1039">Data from Network Shared Drive</a></td>
     </tr><tr><td>T1040</td>
       <td><a href="/offensive-technique/attack/T1040">Network Sniffing</a></td>
     </tr><tr><td>T1041</td>
       <td><a href="/offensive-technique/attack/T1041">Exfiltration Over C2 Channel</a></td>
+    </tr><tr><td>T1042</td>
+      <td><a href="/offensive-technique/attack/T1042">Change Default File Association</a></td>
+    </tr><tr><td>T1044</td>
+      <td><a href="/offensive-technique/attack/T1044">File System Permissions Weakness</a></td>
+    </tr><tr><td>T1045</td>
+      <td><a href="/offensive-technique/attack/T1045">Software Packing</a></td>
     </tr><tr><td>T1046</td>
       <td><a href="/offensive-technique/attack/T1046">Network Service Scanning</a></td>
     </tr><tr><td>T1047</td>
@@ -190,6 +232,8 @@
       <td><a href="/offensive-technique/attack/T1048.003">Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol</a></td>
     </tr><tr><td>T1049</td>
       <td><a href="/offensive-technique/attack/T1049">System Network Connections Discovery</a></td>
+    </tr><tr><td>T1050</td>
+      <td><a href="/offensive-technique/attack/T1050">New Service</a></td>
     </tr><tr><td>T1052</td>
       <td><a href="/offensive-technique/attack/T1052">Exfiltration Over Physical Medium</a></td>
     </tr><tr><td>T1052.001</td>
@@ -206,6 +250,12 @@
       <td><a href="/offensive-technique/attack/T1053.004">Launchd</a></td>
     </tr><tr><td>T1053.005</td>
       <td><a href="/offensive-technique/attack/T1053.005">Schtasks Execution</a></td>
+    </tr><tr><td>T1053.006</td>
+      <td><a href="/offensive-technique/attack/T1053.006">Systemd Timers</a></td>
+    </tr><tr><td>T1053.007</td>
+      <td><a href="/offensive-technique/attack/T1053.007">Container Orchestration Job</a></td>
+    </tr><tr><td>T1054</td>
+      <td><a href="/offensive-technique/attack/T1054">Indicator Blocking</a></td>
     </tr><tr><td>T1055</td>
       <td><a href="/offensive-technique/attack/T1055">Process Injection</a></td>
     </tr><tr><td>T1055.001</td>
@@ -230,6 +280,8 @@
       <td><a href="/offensive-technique/attack/T1055.013">Process Doppelgänging</a></td>
     </tr><tr><td>T1055.014</td>
       <td><a href="/offensive-technique/attack/T1055.014">VDSO Hijacking</a></td>
+    </tr><tr><td>T1055.015</td>
+      <td><a href="/offensive-technique/attack/T1055.015">ListPlanting</a></td>
     </tr><tr><td>T1056</td>
       <td><a href="/offensive-technique/attack/T1056">Input Capture</a></td>
     </tr><tr><td>T1056.001</td>
@@ -242,6 +294,8 @@
       <td><a href="/offensive-technique/attack/T1056.004">Credential API Hooking</a></td>
     </tr><tr><td>T1057</td>
       <td><a href="/offensive-technique/attack/T1057">Process Discovery</a></td>
+    </tr><tr><td>T1058</td>
+      <td><a href="/offensive-technique/attack/T1058">Service Registry Permissions Weakness</a></td>
     </tr><tr><td>T1059</td>
       <td><a href="/offensive-technique/attack/T1059">Command and Scripting Interpreter Execution</a></td>
     </tr><tr><td>T1059.001</td>
@@ -260,10 +314,26 @@
       <td><a href="/offensive-technique/attack/T1059.007">JavaScript/JScript</a></td>
     </tr><tr><td>T1059.008</td>
       <td><a href="/offensive-technique/attack/T1059.008">Network Device CLI</a></td>
+    </tr><tr><td>T1060</td>
+      <td><a href="/offensive-technique/attack/T1060">Registry Run Keys / Startup Folder</a></td>
+    </tr><tr><td>T1063</td>
+      <td><a href="/offensive-technique/attack/T1063">Security Software Discovery</a></td>
+    </tr><tr><td>T1065</td>
+      <td><a href="/offensive-technique/attack/T1065">Uncommonly Used Port</a></td>
+    </tr><tr><td>T1066</td>
+      <td><a href="/offensive-technique/attack/T1066">Indicator Removal from Tools</a></td>
+    </tr><tr><td>T1067</td>
+      <td><a href="/offensive-technique/attack/T1067">Bootkit</a></td>
     </tr><tr><td>T1068</td>
       <td><a href="/offensive-technique/attack/T1068">Exploitation for Privilege Escalation</a></td>
     </tr><tr><td>T1069</td>
       <td><a href="/offensive-technique/attack/T1069">Permission Groups Discovery</a></td>
+    </tr><tr><td>T1069.001</td>
+      <td><a href="/offensive-technique/attack/T1069.001">Local Groups</a></td>
+    </tr><tr><td>T1069.002</td>
+      <td><a href="/offensive-technique/attack/T1069.002">Domain Groups</a></td>
+    </tr><tr><td>T1069.003</td>
+      <td><a href="/offensive-technique/attack/T1069.003">Cloud Groups</a></td>
     </tr><tr><td>T1070</td>
       <td><a href="/offensive-technique/attack/T1070">Indicator Removal on Host</a></td>
     </tr><tr><td>T1070.001</td>
@@ -290,12 +360,20 @@
       <td><a href="/offensive-technique/attack/T1071.004">DNS</a></td>
     </tr><tr><td>T1072</td>
       <td><a href="/offensive-technique/attack/T1072">Software Deployment Tools Execution</a></td>
+    </tr><tr><td>T1073</td>
+      <td><a href="/offensive-technique/attack/T1073">DLL Side-Loading</a></td>
     </tr><tr><td>T1074</td>
       <td><a href="/offensive-technique/attack/T1074">Data Staged</a></td>
     </tr><tr><td>T1074.001</td>
       <td><a href="/offensive-technique/attack/T1074.001">Local Data Staging</a></td>
     </tr><tr><td>T1074.002</td>
       <td><a href="/offensive-technique/attack/T1074.002">Remote Data Staging</a></td>
+    </tr><tr><td>T1075</td>
+      <td><a href="/offensive-technique/attack/T1075">Pass the Hash</a></td>
+    </tr><tr><td>T1076</td>
+      <td><a href="/offensive-technique/attack/T1076">Remote Desktop Protocol</a></td>
+    </tr><tr><td>T1077</td>
+      <td><a href="/offensive-technique/attack/T1077">Windows Admin Shares</a></td>
     </tr><tr><td>T1078</td>
       <td><a href="/offensive-technique/attack/T1078">Valid Accounts</a></td>
     </tr><tr><td>T1078.001</td>
@@ -306,20 +384,36 @@
       <td><a href="/offensive-technique/attack/T1078.003">Local Accounts</a></td>
     </tr><tr><td>T1078.004</td>
       <td><a href="/offensive-technique/attack/T1078.004">Cloud Accounts</a></td>
+    </tr><tr><td>T1079</td>
+      <td><a href="/offensive-technique/attack/T1079">Multilayer Encryption</a></td>
     </tr><tr><td>T1080</td>
       <td><a href="/offensive-technique/attack/T1080">Taint Shared Content</a></td>
+    </tr><tr><td>T1081</td>
+      <td><a href="/offensive-technique/attack/T1081">Credentials in Files</a></td>
     </tr><tr><td>T1082</td>
       <td><a href="/offensive-technique/attack/T1082">System Information Discovery</a></td>
     </tr><tr><td>T1083</td>
       <td><a href="/offensive-technique/attack/T1083">File and Directory Discovery</a></td>
+    </tr><tr><td>T1084</td>
+      <td><a href="/offensive-technique/attack/T1084">Windows Management Instrumentation Event Subscription</a></td>
+    </tr><tr><td>T1085</td>
+      <td><a href="/offensive-technique/attack/T1085">Rundll32</a></td>
+    </tr><tr><td>T1086</td>
+      <td><a href="/offensive-technique/attack/T1086">PowerShell</a></td>
     </tr><tr><td>T1087</td>
       <td><a href="/offensive-technique/attack/T1087">Account Discovery</a></td>
     </tr><tr><td>T1087.001</td>
       <td><a href="/offensive-technique/attack/T1087.001">Local Account</a></td>
     </tr><tr><td>T1087.002</td>
       <td><a href="/offensive-technique/attack/T1087.002">Domain Account</a></td>
+    </tr><tr><td>T1087.003</td>
+      <td><a href="/offensive-technique/attack/T1087.003">Email Account</a></td>
     </tr><tr><td>T1087.004</td>
       <td><a href="/offensive-technique/attack/T1087.004">Cloud Account</a></td>
+    </tr><tr><td>T1088</td>
+      <td><a href="/offensive-technique/attack/T1088">Bypass User Account Control</a></td>
+    </tr><tr><td>T1089</td>
+      <td><a href="/offensive-technique/attack/T1089">Disabling Security Tools</a></td>
     </tr><tr><td>T1090</td>
       <td><a href="/offensive-technique/attack/T1090">Proxy</a></td>
     </tr><tr><td>T1090.001</td>
@@ -334,8 +428,16 @@
       <td><a href="/offensive-technique/attack/T1091">Replication Through Removable Media</a></td>
     </tr><tr><td>T1092</td>
       <td><a href="/offensive-technique/attack/T1092">Communication Through Removable Media</a></td>
+    </tr><tr><td>T1093</td>
+      <td><a href="/offensive-technique/attack/T1093">Process Hollowing</a></td>
+    </tr><tr><td>T1094</td>
+      <td><a href="/offensive-technique/attack/T1094">Custom Command and Control Protocol</a></td>
     </tr><tr><td>T1095</td>
       <td><a href="/offensive-technique/attack/T1095">Non-Application Layer Protocol</a></td>
+    </tr><tr><td>T1096</td>
+      <td><a href="/offensive-technique/attack/T1096">NTFS File Attributes</a></td>
+    </tr><tr><td>T1097</td>
+      <td><a href="/offensive-technique/attack/T1097">Pass the Ticket</a></td>
     </tr><tr><td>T1098</td>
       <td><a href="/offensive-technique/attack/T1098">Account Manipulation</a></td>
     </tr><tr><td>T1098.001</td>
@@ -346,6 +448,14 @@
       <td><a href="/offensive-technique/attack/T1098.003">Add Office 365 Global Administrator Role</a></td>
     </tr><tr><td>T1098.004</td>
       <td><a href="/offensive-technique/attack/T1098.004">SSH Authorized Keys</a></td>
+    </tr><tr><td>T1098.005</td>
+      <td><a href="/offensive-technique/attack/T1098.005">Device Registration</a></td>
+    </tr><tr><td>T1099</td>
+      <td><a href="/offensive-technique/attack/T1099">Timestomp</a></td>
+    </tr><tr><td>T1100</td>
+      <td><a href="/offensive-technique/attack/T1100">Web Shell</a></td>
+    </tr><tr><td>T1101</td>
+      <td><a href="/offensive-technique/attack/T1101">Security Support Provider</a></td>
     </tr><tr><td>T1102</td>
       <td><a href="/offensive-technique/attack/T1102">Web Service</a></td>
     </tr><tr><td>T1102.001</td>
@@ -354,12 +464,18 @@
       <td><a href="/offensive-technique/attack/T1102.002">Bidirectional Communication</a></td>
     </tr><tr><td>T1102.003</td>
       <td><a href="/offensive-technique/attack/T1102.003">One-Way Communication</a></td>
+    </tr><tr><td>T1103</td>
+      <td><a href="/offensive-technique/attack/T1103">AppInit DLLs</a></td>
     </tr><tr><td>T1104</td>
       <td><a href="/offensive-technique/attack/T1104">Multi-Stage Channels</a></td>
     </tr><tr><td>T1105</td>
       <td><a href="/offensive-technique/attack/T1105">Ingress Tool Transfer</a></td>
     </tr><tr><td>T1106</td>
       <td><a href="/offensive-technique/attack/T1106">Native API Execution</a></td>
+    </tr><tr><td>T1107</td>
+      <td><a href="/offensive-technique/attack/T1107">File Deletion</a></td>
+    </tr><tr><td>T1109</td>
+      <td><a href="/offensive-technique/attack/T1109">Component Firmware</a></td>
     </tr><tr><td>T1110</td>
       <td><a href="/offensive-technique/attack/T1110">Brute Force</a></td>
     </tr><tr><td>T1110.001</td>
@@ -386,22 +502,40 @@
       <td><a href="/offensive-technique/attack/T1114.003">Email Forwarding Rule</a></td>
     </tr><tr><td>T1115</td>
       <td><a href="/offensive-technique/attack/T1115">Clipboard Data</a></td>
+    </tr><tr><td>T1116</td>
+      <td><a href="/offensive-technique/attack/T1116">Code Signing</a></td>
+    </tr><tr><td>T1117</td>
+      <td><a href="/offensive-technique/attack/T1117">Regsvr32</a></td>
+    </tr><tr><td>T1118</td>
+      <td><a href="/offensive-technique/attack/T1118">InstallUtil</a></td>
     </tr><tr><td>T1119</td>
       <td><a href="/offensive-technique/attack/T1119">Automated Collection</a></td>
     </tr><tr><td>T1120</td>
       <td><a href="/offensive-technique/attack/T1120">Peripheral Device Discovery</a></td>
+    </tr><tr><td>T1121</td>
+      <td><a href="/offensive-technique/attack/T1121">Regsvcs/Regasm</a></td>
+    </tr><tr><td>T1122</td>
+      <td><a href="/offensive-technique/attack/T1122">Component Object Model Hijacking</a></td>
     </tr><tr><td>T1123</td>
       <td><a href="/offensive-technique/attack/T1123">Audio Capture</a></td>
     </tr><tr><td>T1124</td>
       <td><a href="/offensive-technique/attack/T1124">System Time Discovery</a></td>
     </tr><tr><td>T1125</td>
       <td><a href="/offensive-technique/attack/T1125">Video Capture</a></td>
+    </tr><tr><td>T1126</td>
+      <td><a href="/offensive-technique/attack/T1126">Network Share Connection Removal</a></td>
     </tr><tr><td>T1127</td>
       <td><a href="/offensive-technique/attack/T1127">Trusted Developer Utilities Proxy Execution</a></td>
     </tr><tr><td>T1127.001</td>
       <td><a href="/offensive-technique/attack/T1127.001">MSBuild</a></td>
+    </tr><tr><td>T1128</td>
+      <td><a href="/offensive-technique/attack/T1128">Netsh Helper DLL</a></td>
     </tr><tr><td>T1129</td>
       <td><a href="/offensive-technique/attack/T1129">Shared Modules Execution</a></td>
+    </tr><tr><td>T1130</td>
+      <td><a href="/offensive-technique/attack/T1130">Install Root Certificate</a></td>
+    </tr><tr><td>T1131</td>
+      <td><a href="/offensive-technique/attack/T1131">Authentication Package</a></td>
     </tr><tr><td>T1132</td>
       <td><a href="/offensive-technique/attack/T1132">Data Encoding</a></td>
     </tr><tr><td>T1132.001</td>
@@ -426,6 +560,12 @@
       <td><a href="/offensive-technique/attack/T1135">Network Share Discovery</a></td>
     </tr><tr><td>T1136</td>
       <td><a href="/offensive-technique/attack/T1136">Create Account</a></td>
+    </tr><tr><td>T1136.001</td>
+      <td><a href="/offensive-technique/attack/T1136.001">Local Account</a></td>
+    </tr><tr><td>T1136.002</td>
+      <td><a href="/offensive-technique/attack/T1136.002">Domain Account</a></td>
+    </tr><tr><td>T1136.003</td>
+      <td><a href="/offensive-technique/attack/T1136.003">Cloud Account</a></td>
     </tr><tr><td>T1137</td>
       <td><a href="/offensive-technique/attack/T1137">Office Application Startup</a></td>
     </tr><tr><td>T1137.001</td>
@@ -440,18 +580,114 @@
       <td><a href="/offensive-technique/attack/T1137.005">Outlook Rules</a></td>
     </tr><tr><td>T1137.006</td>
       <td><a href="/offensive-technique/attack/T1137.006">Add-ins</a></td>
+    </tr><tr><td>T1138</td>
+      <td><a href="/offensive-technique/attack/T1138">Application Shimming</a></td>
+    </tr><tr><td>T1139</td>
+      <td><a href="/offensive-technique/attack/T1139">Bash History</a></td>
     </tr><tr><td>T1140</td>
       <td><a href="/offensive-technique/attack/T1140">Deobfuscate/Decode Files or Information</a></td>
+    </tr><tr><td>T1141</td>
+      <td><a href="/offensive-technique/attack/T1141">Input Prompt</a></td>
+    </tr><tr><td>T1142</td>
+      <td><a href="/offensive-technique/attack/T1142">Keychain</a></td>
+    </tr><tr><td>T1143</td>
+      <td><a href="/offensive-technique/attack/T1143">Hidden Window</a></td>
+    </tr><tr><td>T1144</td>
+      <td><a href="/offensive-technique/attack/T1144">Gatekeeper Bypass</a></td>
+    </tr><tr><td>T1145</td>
+      <td><a href="/offensive-technique/attack/T1145">Private Keys</a></td>
+    </tr><tr><td>T1146</td>
+      <td><a href="/offensive-technique/attack/T1146">Clear Command History</a></td>
+    </tr><tr><td>T1147</td>
+      <td><a href="/offensive-technique/attack/T1147">Hidden Users</a></td>
+    </tr><tr><td>T1148</td>
+      <td><a href="/offensive-technique/attack/T1148">HISTCONTROL</a></td>
+    </tr><tr><td>T1150</td>
+      <td><a href="/offensive-technique/attack/T1150">Plist Modification</a></td>
+    </tr><tr><td>T1151</td>
+      <td><a href="/offensive-technique/attack/T1151">Space after Filename</a></td>
+    </tr><tr><td>T1152</td>
+      <td><a href="/offensive-technique/attack/T1152">Launchctl</a></td>
+    </tr><tr><td>T1154</td>
+      <td><a href="/offensive-technique/attack/T1154">Trap</a></td>
+    </tr><tr><td>T1155</td>
+      <td><a href="/offensive-technique/attack/T1155">AppleScript</a></td>
+    </tr><tr><td>T1156</td>
+      <td><a href="/offensive-technique/attack/T1156">Malicious Shell Modification</a></td>
+    </tr><tr><td>T1157</td>
+      <td><a href="/offensive-technique/attack/T1157">Dylib Hijacking</a></td>
+    </tr><tr><td>T1158</td>
+      <td><a href="/offensive-technique/attack/T1158">Hidden Files and Directories</a></td>
+    </tr><tr><td>T1159</td>
+      <td><a href="/offensive-technique/attack/T1159">Launch Agent</a></td>
+    </tr><tr><td>T1160</td>
+      <td><a href="/offensive-technique/attack/T1160">Launch Daemon</a></td>
+    </tr><tr><td>T1161</td>
+      <td><a href="/offensive-technique/attack/T1161">LC_LOAD_DYLIB Addition</a></td>
+    </tr><tr><td>T1162</td>
+      <td><a href="/offensive-technique/attack/T1162">Login Item</a></td>
+    </tr><tr><td>T1163</td>
+      <td><a href="/offensive-technique/attack/T1163">Rc.common</a></td>
+    </tr><tr><td>T1164</td>
+      <td><a href="/offensive-technique/attack/T1164">Re-opened Applications</a></td>
+    </tr><tr><td>T1165</td>
+      <td><a href="/offensive-technique/attack/T1165">Startup Items</a></td>
+    </tr><tr><td>T1166</td>
+      <td><a href="/offensive-technique/attack/T1166">Setuid and Setgid</a></td>
+    </tr><tr><td>T1167</td>
+      <td><a href="/offensive-technique/attack/T1167">Securityd Memory</a></td>
+    </tr><tr><td>T1168</td>
+      <td><a href="/offensive-technique/attack/T1168">Local Job Scheduling</a></td>
+    </tr><tr><td>T1169</td>
+      <td><a href="/offensive-technique/attack/T1169">Sudo</a></td>
+    </tr><tr><td>T1170</td>
+      <td><a href="/offensive-technique/attack/T1170">Mshta</a></td>
+    </tr><tr><td>T1171</td>
+      <td><a href="/offensive-technique/attack/T1171">LLMNR/NBT-NS Poisoning and Relay</a></td>
+    </tr><tr><td>T1172</td>
+      <td><a href="/offensive-technique/attack/T1172">Domain Fronting</a></td>
+    </tr><tr><td>T1173</td>
+      <td><a href="/offensive-technique/attack/T1173">Dynamic Data Exchange</a></td>
+    </tr><tr><td>T1174</td>
+      <td><a href="/offensive-technique/attack/T1174">Password Filter DLL</a></td>
     </tr><tr><td>T1176</td>
       <td><a href="/offensive-technique/attack/T1176">Browser Extensions</a></td>
+    </tr><tr><td>T1177</td>
+      <td><a href="/offensive-technique/attack/T1177">LSASS Driver</a></td>
+    </tr><tr><td>T1178</td>
+      <td><a href="/offensive-technique/attack/T1178">SID-History Injection</a></td>
+    </tr><tr><td>T1179</td>
+      <td><a href="/offensive-technique/attack/T1179">Hooking</a></td>
+    </tr><tr><td>T1180</td>
+      <td><a href="/offensive-technique/attack/T1180">Screensaver</a></td>
+    </tr><tr><td>T1181</td>
+      <td><a href="/offensive-technique/attack/T1181">Extra Window Memory Injection</a></td>
+    </tr><tr><td>T1182</td>
+      <td><a href="/offensive-technique/attack/T1182">AppCert DLLs</a></td>
+    </tr><tr><td>T1183</td>
+      <td><a href="/offensive-technique/attack/T1183">Image File Execution Options Injection</a></td>
+    </tr><tr><td>T1184</td>
+      <td><a href="/offensive-technique/attack/T1184">SSH Hijacking</a></td>
     </tr><tr><td>T1185</td>
       <td><a href="/offensive-technique/attack/T1185">Man in the Browser</a></td>
+    </tr><tr><td>T1186</td>
+      <td><a href="/offensive-technique/attack/T1186">Process Doppelgänging</a></td>
     </tr><tr><td>T1187</td>
       <td><a href="/offensive-technique/attack/T1187">Forced Authentication</a></td>
+    </tr><tr><td>T1188</td>
+      <td><a href="/offensive-technique/attack/T1188">Multi-hop Proxy</a></td>
     </tr><tr><td>T1189</td>
       <td><a href="/offensive-technique/attack/T1189">Drive-by Compromise</a></td>
     </tr><tr><td>T1190</td>
       <td><a href="/offensive-technique/attack/T1190">Exploit Public-Facing Application</a></td>
+    </tr><tr><td>T1191</td>
+      <td><a href="/offensive-technique/attack/T1191">CMSTP</a></td>
+    </tr><tr><td>T1192</td>
+      <td><a href="/offensive-technique/attack/T1192">Spearphishing Link</a></td>
+    </tr><tr><td>T1193</td>
+      <td><a href="/offensive-technique/attack/T1193">Spearphishing Attachment</a></td>
+    </tr><tr><td>T1194</td>
+      <td><a href="/offensive-technique/attack/T1194">Spearphishing via Service</a></td>
     </tr><tr><td>T1195</td>
       <td><a href="/offensive-technique/attack/T1195">Supply Chain Compromise</a></td>
     </tr><tr><td>T1195.001</td>
@@ -460,8 +696,12 @@
       <td><a href="/offensive-technique/attack/T1195.002">Compromise Software Supply Chain</a></td>
     </tr><tr><td>T1195.003</td>
       <td><a href="/offensive-technique/attack/T1195.003">Compromise Hardware Supply Chain</a></td>
+    </tr><tr><td>T1196</td>
+      <td><a href="/offensive-technique/attack/T1196">Control Panel Items</a></td>
     </tr><tr><td>T1197</td>
       <td><a href="/offensive-technique/attack/T1197">BITS Jobs</a></td>
+    </tr><tr><td>T1198</td>
+      <td><a href="/offensive-technique/attack/T1198">SIP and Trust Provider Hijacking</a></td>
     </tr><tr><td>T1199</td>
       <td><a href="/offensive-technique/attack/T1199">Trusted Relationship</a></td>
     </tr><tr><td>T1200</td>
@@ -478,12 +718,20 @@
       <td><a href="/offensive-technique/attack/T1204.001">Malicious Link Execution</a></td>
     </tr><tr><td>T1204.002</td>
       <td><a href="/offensive-technique/attack/T1204.002">Malicious File Execution</a></td>
+    </tr><tr><td>T1204.003</td>
+      <td><a href="/offensive-technique/attack/T1204.003">Malicious Image</a></td>
     </tr><tr><td>T1205</td>
       <td><a href="/offensive-technique/attack/T1205">Traffic Signaling</a></td>
     </tr><tr><td>T1205.001</td>
       <td><a href="/offensive-technique/attack/T1205.001">Port Knocking</a></td>
+    </tr><tr><td>T1206</td>
+      <td><a href="/offensive-technique/attack/T1206">Sudo Caching</a></td>
     </tr><tr><td>T1207</td>
       <td><a href="/offensive-technique/attack/T1207">Rogue Domain Controller</a></td>
+    </tr><tr><td>T1208</td>
+      <td><a href="/offensive-technique/attack/T1208">Kerberoasting</a></td>
+    </tr><tr><td>T1209</td>
+      <td><a href="/offensive-technique/attack/T1209">Time Providers</a></td>
     </tr><tr><td>T1210</td>
       <td><a href="/offensive-technique/attack/T1210">Exploitation of Remote Services</a></td>
     </tr><tr><td>T1211</td>
@@ -498,6 +746,10 @@
       <td><a href="/offensive-technique/attack/T1213.002">Sharepoint</a></td>
     </tr><tr><td>T1213.003</td>
       <td><a href="/offensive-technique/attack/T1213.003">Code Repositories</a></td>
+    </tr><tr><td>T1214</td>
+      <td><a href="/offensive-technique/attack/T1214">Credentials in Registry</a></td>
+    </tr><tr><td>T1215</td>
+      <td><a href="/offensive-technique/attack/T1215">Kernel Modules and Extensions</a></td>
     </tr><tr><td>T1216</td>
       <td><a href="/offensive-technique/attack/T1216">Signed Script Proxy Execution</a></td>
     </tr><tr><td>T1216.001</td>
@@ -526,6 +778,8 @@
       <td><a href="/offensive-technique/attack/T1218.010">Regsvr32 Execution</a></td>
     </tr><tr><td>T1218.011</td>
       <td><a href="/offensive-technique/attack/T1218.011">Rundll32 Execution</a></td>
+    </tr><tr><td>T1218.012</td>
+      <td><a href="/offensive-technique/attack/T1218.012">Verclsid</a></td>
     </tr><tr><td>T1218.013</td>
       <td><a href="/offensive-technique/attack/T1218.013">Mavinject</a></td>
     </tr><tr><td>T1218.014</td>
@@ -542,18 +796,30 @@
       <td><a href="/offensive-technique/attack/T1222.001">Windows File and Directory Permissions Modification</a></td>
     </tr><tr><td>T1222.002</td>
       <td><a href="/offensive-technique/attack/T1222.002">Linux and Mac File and Directory Permissions Modification</a></td>
+    </tr><tr><td>T1223</td>
+      <td><a href="/offensive-technique/attack/T1223">Compiled HTML File</a></td>
     </tr><tr><td>T1480</td>
       <td><a href="/offensive-technique/attack/T1480">Execution Guardrails</a></td>
     </tr><tr><td>T1480.001</td>
       <td><a href="/offensive-technique/attack/T1480.001">Environmental Keying</a></td>
     </tr><tr><td>T1482</td>
       <td><a href="/offensive-technique/attack/T1482">Domain Trust Discovery</a></td>
+    </tr><tr><td>T1483</td>
+      <td><a href="/offensive-technique/attack/T1483">Domain Generation Algorithms</a></td>
     </tr><tr><td>T1484</td>
       <td><a href="/offensive-technique/attack/T1484">Group Policy Modification</a></td>
+    </tr><tr><td>T1484.001</td>
+      <td><a href="/offensive-technique/attack/T1484.001">Group Policy Modification</a></td>
+    </tr><tr><td>T1484.002</td>
+      <td><a href="/offensive-technique/attack/T1484.002">Domain Trust Modification</a></td>
     </tr><tr><td>T1485</td>
       <td><a href="/offensive-technique/attack/T1485">Data Destruction</a></td>
     </tr><tr><td>T1486</td>
       <td><a href="/offensive-technique/attack/T1486">Data Encrypted for Impact</a></td>
+    </tr><tr><td>T1487</td>
+      <td><a href="/offensive-technique/attack/T1487">Disk Structure Wipe</a></td>
+    </tr><tr><td>T1488</td>
+      <td><a href="/offensive-technique/attack/T1488">Disk Content Wipe</a></td>
     </tr><tr><td>T1489</td>
       <td><a href="/offensive-technique/attack/T1489">Service Stop</a></td>
     </tr><tr><td>T1490</td>
@@ -564,6 +830,12 @@
       <td><a href="/offensive-technique/attack/T1491.001">Internal Defacement</a></td>
     </tr><tr><td>T1491.002</td>
       <td><a href="/offensive-technique/attack/T1491.002">External Defacement</a></td>
+    </tr><tr><td>T1492</td>
+      <td><a href="/offensive-technique/attack/T1492">Stored Data Manipulation</a></td>
+    </tr><tr><td>T1493</td>
+      <td><a href="/offensive-technique/attack/T1493">Transmitted Data Manipulation</a></td>
+    </tr><tr><td>T1494</td>
+      <td><a href="/offensive-technique/attack/T1494">Runtime Data Manipulation</a></td>
     </tr><tr><td>T1495</td>
       <td><a href="/offensive-technique/attack/T1495">Firmware Corruption</a></td>
     </tr><tr><td>T1496</td>
@@ -584,8 +856,24 @@
       <td><a href="/offensive-technique/attack/T1498.002">Reflection Amplification</a></td>
     </tr><tr><td>T1499</td>
       <td><a href="/offensive-technique/attack/T1499">Endpoint Denial of Service</a></td>
+    </tr><tr><td>T1499.001</td>
+      <td><a href="/offensive-technique/attack/T1499.001">OS Exhaustion Flood</a></td>
     </tr><tr><td>T1499.002</td>
       <td><a href="/offensive-technique/attack/T1499.002">Service Exhaustion Flood</a></td>
+    </tr><tr><td>T1499.003</td>
+      <td><a href="/offensive-technique/attack/T1499.003">Application Exhaustion Flood</a></td>
+    </tr><tr><td>T1499.004</td>
+      <td><a href="/offensive-technique/attack/T1499.004">Application or System Exploitation</a></td>
+    </tr><tr><td>T1500</td>
+      <td><a href="/offensive-technique/attack/T1500">Compile After Delivery</a></td>
+    </tr><tr><td>T1501</td>
+      <td><a href="/offensive-technique/attack/T1501">Systemd Service</a></td>
+    </tr><tr><td>T1502</td>
+      <td><a href="/offensive-technique/attack/T1502">Parent PID Spoofing</a></td>
+    </tr><tr><td>T1503</td>
+      <td><a href="/offensive-technique/attack/T1503">Credentials from Web Browsers</a></td>
+    </tr><tr><td>T1504</td>
+      <td><a href="/offensive-technique/attack/T1504">PowerShell Profile</a></td>
     </tr><tr><td>T1505</td>
       <td><a href="/offensive-technique/attack/T1505">Server Software Component</a></td>
     </tr><tr><td>T1505.001</td>
@@ -596,14 +884,26 @@
       <td><a href="/offensive-technique/attack/T1505.003">Web Shell</a></td>
     </tr><tr><td>T1505.004</td>
       <td><a href="/offensive-technique/attack/T1505.004">IIS Components</a></td>
+    </tr><tr><td>T1505.005</td>
+      <td><a href="/offensive-technique/attack/T1505.005">Terminal Services DLL</a></td>
+    </tr><tr><td>T1506</td>
+      <td><a href="/offensive-technique/attack/T1506">Web Session Cookie</a></td>
+    </tr><tr><td>T1514</td>
+      <td><a href="/offensive-technique/attack/T1514">Elevated Execution with Prompt</a></td>
     </tr><tr><td>T1518</td>
       <td><a href="/offensive-technique/attack/T1518">Software Discovery</a></td>
     </tr><tr><td>T1518.001</td>
       <td><a href="/offensive-technique/attack/T1518.001">Security Software Discovery</a></td>
+    </tr><tr><td>T1519</td>
+      <td><a href="/offensive-technique/attack/T1519">Emond</a></td>
+    </tr><tr><td>T1522</td>
+      <td><a href="/offensive-technique/attack/T1522">Cloud Instance Metadata API</a></td>
     </tr><tr><td>T1525</td>
       <td><a href="/offensive-technique/attack/T1525">Implant Container Image</a></td>
     </tr><tr><td>T1526</td>
       <td><a href="/offensive-technique/attack/T1526">Cloud Service Discovery</a></td>
+    </tr><tr><td>T1527</td>
+      <td><a href="/offensive-technique/attack/T1527">Application Access Token</a></td>
     </tr><tr><td>T1528</td>
       <td><a href="/offensive-technique/attack/T1528">Steal Application Access Token</a></td>
     </tr><tr><td>T1529</td>
@@ -616,6 +916,10 @@
       <td><a href="/offensive-technique/attack/T1534">Internal Spearphishing</a></td>
     </tr><tr><td>T1535</td>
       <td><a href="/offensive-technique/attack/T1535">Unused/Unsupported Cloud Regions</a></td>
+    </tr><tr><td>T1536</td>
+      <td><a href="/offensive-technique/attack/T1536">Revert Cloud Instance</a></td>
+    </tr><tr><td>T1537</td>
+      <td><a href="/offensive-technique/attack/T1537">Transfer Data to Cloud Account</a></td>
     </tr><tr><td>T1538</td>
       <td><a href="/offensive-technique/attack/T1538">Cloud Service Dashboard</a></td>
     </tr><tr><td>T1539</td>
@@ -628,6 +932,10 @@
       <td><a href="/offensive-technique/attack/T1542.002">Component Firmware</a></td>
     </tr><tr><td>T1542.003</td>
       <td><a href="/offensive-technique/attack/T1542.003">Bootkit</a></td>
+    </tr><tr><td>T1542.004</td>
+      <td><a href="/offensive-technique/attack/T1542.004">ROMMONkit</a></td>
+    </tr><tr><td>T1542.005</td>
+      <td><a href="/offensive-technique/attack/T1542.005">TFTP Boot</a></td>
     </tr><tr><td>T1543</td>
       <td><a href="/offensive-technique/attack/T1543">Create or Modify System Process</a></td>
     </tr><tr><td>T1543.001</td>
@@ -694,6 +1002,12 @@
       <td><a href="/offensive-technique/attack/T1547.010">Port Monitors</a></td>
     </tr><tr><td>T1547.011</td>
       <td><a href="/offensive-technique/attack/T1547.011">Plist Modification</a></td>
+    </tr><tr><td>T1547.012</td>
+      <td><a href="/offensive-technique/attack/T1547.012">Print Processors</a></td>
+    </tr><tr><td>T1547.013</td>
+      <td><a href="/offensive-technique/attack/T1547.013">XDG Autostart Entries</a></td>
+    </tr><tr><td>T1547.014</td>
+      <td><a href="/offensive-technique/attack/T1547.014">Active Setup</a></td>
     </tr><tr><td>T1547.015</td>
       <td><a href="/offensive-technique/attack/T1547.015">Login Items</a></td>
     </tr><tr><td>T1548</td>
@@ -730,6 +1044,8 @@
       <td><a href="/offensive-technique/attack/T1552.005">Cloud Instance Metadata  API</a></td>
     </tr><tr><td>T1552.006</td>
       <td><a href="/offensive-technique/attack/T1552.006">Group Policy Preferences</a></td>
+    </tr><tr><td>T1552.007</td>
+      <td><a href="/offensive-technique/attack/T1552.007">Container API</a></td>
     </tr><tr><td>T1553</td>
       <td><a href="/offensive-technique/attack/T1553">Subvert Trust Controls</a></td>
     </tr><tr><td>T1553.001</td>
@@ -740,6 +1056,10 @@
       <td><a href="/offensive-technique/attack/T1553.003">SIP and Trust Provider Hijacking</a></td>
     </tr><tr><td>T1553.004</td>
       <td><a href="/offensive-technique/attack/T1553.004">Install Root Certificate</a></td>
+    </tr><tr><td>T1553.005</td>
+      <td><a href="/offensive-technique/attack/T1553.005">Mark-of-the-Web Bypass</a></td>
+    </tr><tr><td>T1553.006</td>
+      <td><a href="/offensive-technique/attack/T1553.006">Code Signing Policy Modification</a></td>
     </tr><tr><td>T1554</td>
       <td><a href="/offensive-technique/attack/T1554">Compromise Client Software Binary</a></td>
     </tr><tr><td>T1555</td>
@@ -750,6 +1070,10 @@
       <td><a href="/offensive-technique/attack/T1555.002">Securityd Memory</a></td>
     </tr><tr><td>T1555.003</td>
       <td><a href="/offensive-technique/attack/T1555.003">Credentials from Web Browsers</a></td>
+    </tr><tr><td>T1555.004</td>
+      <td><a href="/offensive-technique/attack/T1555.004">Windows Credential Manager</a></td>
+    </tr><tr><td>T1555.005</td>
+      <td><a href="/offensive-technique/attack/T1555.005">Password Managers</a></td>
     </tr><tr><td>T1556</td>
       <td><a href="/offensive-technique/attack/T1556">Modify Authentication Process</a></td>
     </tr><tr><td>T1556.001</td>
@@ -760,10 +1084,16 @@
       <td><a href="/offensive-technique/attack/T1556.003">Pluggable Authentication Modules</a></td>
     </tr><tr><td>T1556.004</td>
       <td><a href="/offensive-technique/attack/T1556.004">Network Device Authentication</a></td>
+    </tr><tr><td>T1556.005</td>
+      <td><a href="/offensive-technique/attack/T1556.005">Reversible Encryption</a></td>
     </tr><tr><td>T1557</td>
       <td><a href="/offensive-technique/attack/T1557">Man-in-the-Middle</a></td>
     </tr><tr><td>T1557.001</td>
       <td><a href="/offensive-technique/attack/T1557.001">LLMNR/NBT-NS Poisoning and SMB Relay</a></td>
+    </tr><tr><td>T1557.002</td>
+      <td><a href="/offensive-technique/attack/T1557.002">ARP Cache Poisoning</a></td>
+    </tr><tr><td>T1557.003</td>
+      <td><a href="/offensive-technique/attack/T1557.003">DHCP Spoofing</a></td>
     </tr><tr><td>T1558</td>
       <td><a href="/offensive-technique/attack/T1558">Steal or Forge Kerberos Tickets</a></td>
     </tr><tr><td>T1558.001</td>
@@ -772,12 +1102,16 @@
       <td><a href="/offensive-technique/attack/T1558.002">Silver Ticket</a></td>
     </tr><tr><td>T1558.003</td>
       <td><a href="/offensive-technique/attack/T1558.003">Kerberoasting</a></td>
+    </tr><tr><td>T1558.004</td>
+      <td><a href="/offensive-technique/attack/T1558.004">AS-REP Roasting</a></td>
     </tr><tr><td>T1559</td>
       <td><a href="/offensive-technique/attack/T1559">Inter-Process Communication Execution</a></td>
     </tr><tr><td>T1559.001</td>
       <td><a href="/offensive-technique/attack/T1559.001">Component Object Model Execution</a></td>
     </tr><tr><td>T1559.002</td>
       <td><a href="/offensive-technique/attack/T1559.002">Dynamic Data Exchange Execution</a></td>
+    </tr><tr><td>T1559.003</td>
+      <td><a href="/offensive-technique/attack/T1559.003">XPC Services</a></td>
     </tr><tr><td>T1560</td>
       <td><a href="/offensive-technique/attack/T1560">Archive Collected Data</a></td>
     </tr><tr><td>T1560.001</td>
@@ -804,6 +1138,10 @@
       <td><a href="/offensive-technique/attack/T1562.004">Disable or Modify System Firewall</a></td>
     </tr><tr><td>T1562.006</td>
       <td><a href="/offensive-technique/attack/T1562.006">Indicator Blocking</a></td>
+    </tr><tr><td>T1562.007</td>
+      <td><a href="/offensive-technique/attack/T1562.007">Disable or Modify Cloud Firewall</a></td>
+    </tr><tr><td>T1562.008</td>
+      <td><a href="/offensive-technique/attack/T1562.008">Disable Cloud Logs</a></td>
     </tr><tr><td>T1562.009</td>
       <td><a href="/offensive-technique/attack/T1562.009">Safe Mode Boot</a></td>
     </tr><tr><td>T1562.010</td>
@@ -834,6 +1172,8 @@
       <td><a href="/offensive-technique/attack/T1564.008">Email Hiding Rules</a></td>
     </tr><tr><td>T1564.009</td>
       <td><a href="/offensive-technique/attack/T1564.009">Resource Forking</a></td>
+    </tr><tr><td>T1564.010</td>
+      <td><a href="/offensive-technique/attack/T1564.010">Process Argument Spoofing</a></td>
     </tr><tr><td>T1565</td>
       <td><a href="/offensive-technique/attack/T1565">Data Manipulation</a></td>
     </tr><tr><td>T1565.001</td>
@@ -906,6 +1246,218 @@
       <td><a href="/offensive-technique/attack/T1574.011">Services Registry Permissions Weakness</a></td>
     </tr><tr><td>T1574.012</td>
       <td><a href="/offensive-technique/attack/T1574.012">COR_PROFILER</a></td>
+    </tr><tr><td>T1574.013</td>
+      <td><a href="/offensive-technique/attack/T1574.013">KernelCallbackTable</a></td>
+    </tr><tr><td>T1578</td>
+      <td><a href="/offensive-technique/attack/T1578">Modify Cloud Compute Infrastructure</a></td>
+    </tr><tr><td>T1578.001</td>
+      <td><a href="/offensive-technique/attack/T1578.001">Create Snapshot</a></td>
+    </tr><tr><td>T1578.002</td>
+      <td><a href="/offensive-technique/attack/T1578.002">Create Cloud Instance</a></td>
+    </tr><tr><td>T1578.003</td>
+      <td><a href="/offensive-technique/attack/T1578.003">Delete Cloud Instance</a></td>
+    </tr><tr><td>T1578.004</td>
+      <td><a href="/offensive-technique/attack/T1578.004">Revert Cloud Instance</a></td>
+    </tr><tr><td>T1580</td>
+      <td><a href="/offensive-technique/attack/T1580">Cloud Infrastructure Discovery</a></td>
+    </tr><tr><td>T1583</td>
+      <td><a href="/offensive-technique/attack/T1583">Acquire Infrastructure</a></td>
+    </tr><tr><td>T1583.001</td>
+      <td><a href="/offensive-technique/attack/T1583.001">Domains</a></td>
+    </tr><tr><td>T1583.002</td>
+      <td><a href="/offensive-technique/attack/T1583.002">DNS Server</a></td>
+    </tr><tr><td>T1583.003</td>
+      <td><a href="/offensive-technique/attack/T1583.003">Virtual Private Server</a></td>
+    </tr><tr><td>T1583.004</td>
+      <td><a href="/offensive-technique/attack/T1583.004">Server</a></td>
+    </tr><tr><td>T1583.005</td>
+      <td><a href="/offensive-technique/attack/T1583.005">Botnet</a></td>
+    </tr><tr><td>T1583.006</td>
+      <td><a href="/offensive-technique/attack/T1583.006">Web Services</a></td>
+    </tr><tr><td>T1584</td>
+      <td><a href="/offensive-technique/attack/T1584">Compromise Infrastructure</a></td>
+    </tr><tr><td>T1584.001</td>
+      <td><a href="/offensive-technique/attack/T1584.001">Domains</a></td>
+    </tr><tr><td>T1584.002</td>
+      <td><a href="/offensive-technique/attack/T1584.002">DNS Server</a></td>
+    </tr><tr><td>T1584.003</td>
+      <td><a href="/offensive-technique/attack/T1584.003">Virtual Private Server</a></td>
+    </tr><tr><td>T1584.004</td>
+      <td><a href="/offensive-technique/attack/T1584.004">Server</a></td>
+    </tr><tr><td>T1584.005</td>
+      <td><a href="/offensive-technique/attack/T1584.005">Botnet</a></td>
+    </tr><tr><td>T1584.006</td>
+      <td><a href="/offensive-technique/attack/T1584.006">Web Services</a></td>
+    </tr><tr><td>T1585</td>
+      <td><a href="/offensive-technique/attack/T1585">Establish Accounts</a></td>
+    </tr><tr><td>T1585.001</td>
+      <td><a href="/offensive-technique/attack/T1585.001">Social Media Accounts</a></td>
+    </tr><tr><td>T1585.002</td>
+      <td><a href="/offensive-technique/attack/T1585.002">Email Accounts</a></td>
+    </tr><tr><td>T1586</td>
+      <td><a href="/offensive-technique/attack/T1586">Compromise Accounts</a></td>
+    </tr><tr><td>T1586.001</td>
+      <td><a href="/offensive-technique/attack/T1586.001">Social Media Accounts</a></td>
+    </tr><tr><td>T1586.002</td>
+      <td><a href="/offensive-technique/attack/T1586.002">Email Accounts</a></td>
+    </tr><tr><td>T1587</td>
+      <td><a href="/offensive-technique/attack/T1587">Develop Capabilities</a></td>
+    </tr><tr><td>T1587.001</td>
+      <td><a href="/offensive-technique/attack/T1587.001">Malware</a></td>
+    </tr><tr><td>T1587.002</td>
+      <td><a href="/offensive-technique/attack/T1587.002">Code Signing Certificates</a></td>
+    </tr><tr><td>T1587.003</td>
+      <td><a href="/offensive-technique/attack/T1587.003">Digital Certificates</a></td>
+    </tr><tr><td>T1587.004</td>
+      <td><a href="/offensive-technique/attack/T1587.004">Exploits</a></td>
+    </tr><tr><td>T1588</td>
+      <td><a href="/offensive-technique/attack/T1588">Obtain Capabilities</a></td>
+    </tr><tr><td>T1588.001</td>
+      <td><a href="/offensive-technique/attack/T1588.001">Malware</a></td>
+    </tr><tr><td>T1588.002</td>
+      <td><a href="/offensive-technique/attack/T1588.002">Tool</a></td>
+    </tr><tr><td>T1588.003</td>
+      <td><a href="/offensive-technique/attack/T1588.003">Code Signing Certificates</a></td>
+    </tr><tr><td>T1588.004</td>
+      <td><a href="/offensive-technique/attack/T1588.004">Digital Certificates</a></td>
+    </tr><tr><td>T1588.005</td>
+      <td><a href="/offensive-technique/attack/T1588.005">Exploits</a></td>
+    </tr><tr><td>T1588.006</td>
+      <td><a href="/offensive-technique/attack/T1588.006">Vulnerabilities</a></td>
+    </tr><tr><td>T1589</td>
+      <td><a href="/offensive-technique/attack/T1589">Gather Victim Identity Information</a></td>
+    </tr><tr><td>T1589.001</td>
+      <td><a href="/offensive-technique/attack/T1589.001">Credentials</a></td>
+    </tr><tr><td>T1589.002</td>
+      <td><a href="/offensive-technique/attack/T1589.002">Email Addresses</a></td>
+    </tr><tr><td>T1589.003</td>
+      <td><a href="/offensive-technique/attack/T1589.003">Employee Names</a></td>
+    </tr><tr><td>T1590</td>
+      <td><a href="/offensive-technique/attack/T1590">Gather Victim Network Information</a></td>
+    </tr><tr><td>T1590.001</td>
+      <td><a href="/offensive-technique/attack/T1590.001">Domain Properties</a></td>
+    </tr><tr><td>T1590.002</td>
+      <td><a href="/offensive-technique/attack/T1590.002">DNS</a></td>
+    </tr><tr><td>T1590.003</td>
+      <td><a href="/offensive-technique/attack/T1590.003">Network Trust Dependencies</a></td>
+    </tr><tr><td>T1590.004</td>
+      <td><a href="/offensive-technique/attack/T1590.004">Network Topology</a></td>
+    </tr><tr><td>T1590.005</td>
+      <td><a href="/offensive-technique/attack/T1590.005">IP Addresses</a></td>
+    </tr><tr><td>T1590.006</td>
+      <td><a href="/offensive-technique/attack/T1590.006">Network Security Appliances</a></td>
+    </tr><tr><td>T1591</td>
+      <td><a href="/offensive-technique/attack/T1591">Gather Victim Org Information</a></td>
+    </tr><tr><td>T1591.001</td>
+      <td><a href="/offensive-technique/attack/T1591.001">Determine Physical Locations</a></td>
+    </tr><tr><td>T1591.002</td>
+      <td><a href="/offensive-technique/attack/T1591.002">Business Relationships</a></td>
+    </tr><tr><td>T1591.003</td>
+      <td><a href="/offensive-technique/attack/T1591.003">Identify Business Tempo</a></td>
+    </tr><tr><td>T1591.004</td>
+      <td><a href="/offensive-technique/attack/T1591.004">Identify Roles</a></td>
+    </tr><tr><td>T1592</td>
+      <td><a href="/offensive-technique/attack/T1592">Gather Victim Host Information</a></td>
+    </tr><tr><td>T1592.001</td>
+      <td><a href="/offensive-technique/attack/T1592.001">Hardware</a></td>
+    </tr><tr><td>T1592.002</td>
+      <td><a href="/offensive-technique/attack/T1592.002">Software</a></td>
+    </tr><tr><td>T1592.003</td>
+      <td><a href="/offensive-technique/attack/T1592.003">Firmware</a></td>
+    </tr><tr><td>T1592.004</td>
+      <td><a href="/offensive-technique/attack/T1592.004">Client Configurations</a></td>
+    </tr><tr><td>T1593</td>
+      <td><a href="/offensive-technique/attack/T1593">Search Open Websites/Domains</a></td>
+    </tr><tr><td>T1593.001</td>
+      <td><a href="/offensive-technique/attack/T1593.001">Social Media</a></td>
+    </tr><tr><td>T1593.002</td>
+      <td><a href="/offensive-technique/attack/T1593.002">Search Engines</a></td>
+    </tr><tr><td>T1594</td>
+      <td><a href="/offensive-technique/attack/T1594">Search Victim-Owned Websites</a></td>
+    </tr><tr><td>T1595</td>
+      <td><a href="/offensive-technique/attack/T1595">Active Scanning</a></td>
+    </tr><tr><td>T1595.001</td>
+      <td><a href="/offensive-technique/attack/T1595.001">Scanning IP Blocks</a></td>
+    </tr><tr><td>T1595.002</td>
+      <td><a href="/offensive-technique/attack/T1595.002">Vulnerability Scanning</a></td>
+    </tr><tr><td>T1595.003</td>
+      <td><a href="/offensive-technique/attack/T1595.003">Wordlist Scanning</a></td>
+    </tr><tr><td>T1596</td>
+      <td><a href="/offensive-technique/attack/T1596">Search Open Technical Databases</a></td>
+    </tr><tr><td>T1596.001</td>
+      <td><a href="/offensive-technique/attack/T1596.001">DNS/Passive DNS</a></td>
+    </tr><tr><td>T1596.002</td>
+      <td><a href="/offensive-technique/attack/T1596.002">WHOIS</a></td>
+    </tr><tr><td>T1596.003</td>
+      <td><a href="/offensive-technique/attack/T1596.003">Digital Certificates</a></td>
+    </tr><tr><td>T1596.004</td>
+      <td><a href="/offensive-technique/attack/T1596.004">CDNs</a></td>
+    </tr><tr><td>T1596.005</td>
+      <td><a href="/offensive-technique/attack/T1596.005">Scan Databases</a></td>
+    </tr><tr><td>T1597</td>
+      <td><a href="/offensive-technique/attack/T1597">Search Closed Sources</a></td>
+    </tr><tr><td>T1597.001</td>
+      <td><a href="/offensive-technique/attack/T1597.001">Threat Intel Vendors</a></td>
+    </tr><tr><td>T1597.002</td>
+      <td><a href="/offensive-technique/attack/T1597.002">Purchase Technical Data</a></td>
+    </tr><tr><td>T1598</td>
+      <td><a href="/offensive-technique/attack/T1598">Phishing for Information</a></td>
+    </tr><tr><td>T1598.001</td>
+      <td><a href="/offensive-technique/attack/T1598.001">Spearphishing Service</a></td>
+    </tr><tr><td>T1598.002</td>
+      <td><a href="/offensive-technique/attack/T1598.002">Spearphishing Attachment</a></td>
+    </tr><tr><td>T1598.003</td>
+      <td><a href="/offensive-technique/attack/T1598.003">Spearphishing Link</a></td>
+    </tr><tr><td>T1599</td>
+      <td><a href="/offensive-technique/attack/T1599">Network Boundary Bridging</a></td>
+    </tr><tr><td>T1599.001</td>
+      <td><a href="/offensive-technique/attack/T1599.001">Network Address Translation Traversal</a></td>
+    </tr><tr><td>T1600</td>
+      <td><a href="/offensive-technique/attack/T1600">Weaken Encryption</a></td>
+    </tr><tr><td>T1600.001</td>
+      <td><a href="/offensive-technique/attack/T1600.001">Reduce Key Space</a></td>
+    </tr><tr><td>T1600.002</td>
+      <td><a href="/offensive-technique/attack/T1600.002">Disable Crypto Hardware</a></td>
+    </tr><tr><td>T1601</td>
+      <td><a href="/offensive-technique/attack/T1601">Modify System Image</a></td>
+    </tr><tr><td>T1601.001</td>
+      <td><a href="/offensive-technique/attack/T1601.001">Patch System Image</a></td>
+    </tr><tr><td>T1601.002</td>
+      <td><a href="/offensive-technique/attack/T1601.002">Downgrade System Image</a></td>
+    </tr><tr><td>T1602</td>
+      <td><a href="/offensive-technique/attack/T1602">Data from Configuration Repository</a></td>
+    </tr><tr><td>T1602.001</td>
+      <td><a href="/offensive-technique/attack/T1602.001">SNMP (MIB Dump)</a></td>
+    </tr><tr><td>T1602.002</td>
+      <td><a href="/offensive-technique/attack/T1602.002">Network Device Configuration Dump</a></td>
+    </tr><tr><td>T1606</td>
+      <td><a href="/offensive-technique/attack/T1606">Forge Web Credentials</a></td>
+    </tr><tr><td>T1606.001</td>
+      <td><a href="/offensive-technique/attack/T1606.001">Web Cookies</a></td>
+    </tr><tr><td>T1606.002</td>
+      <td><a href="/offensive-technique/attack/T1606.002">SAML Tokens</a></td>
+    </tr><tr><td>T1608</td>
+      <td><a href="/offensive-technique/attack/T1608">Stage Capabilities</a></td>
+    </tr><tr><td>T1608.001</td>
+      <td><a href="/offensive-technique/attack/T1608.001">Upload Malware</a></td>
+    </tr><tr><td>T1608.002</td>
+      <td><a href="/offensive-technique/attack/T1608.002">Upload Tool</a></td>
+    </tr><tr><td>T1608.003</td>
+      <td><a href="/offensive-technique/attack/T1608.003">Install Digital Certificate</a></td>
+    </tr><tr><td>T1608.004</td>
+      <td><a href="/offensive-technique/attack/T1608.004">Drive-by Target</a></td>
+    </tr><tr><td>T1608.005</td>
+      <td><a href="/offensive-technique/attack/T1608.005">Link Target</a></td>
+    </tr><tr><td>T1609</td>
+      <td><a href="/offensive-technique/attack/T1609">Container Administration Command</a></td>
+    </tr><tr><td>T1610</td>
+      <td><a href="/offensive-technique/attack/T1610">Deploy Container</a></td>
+    </tr><tr><td>T1611</td>
+      <td><a href="/offensive-technique/attack/T1611">Escape to Host</a></td>
+    </tr><tr><td>T1612</td>
+      <td><a href="/offensive-technique/attack/T1612">Build Image on Host</a></td>
+    </tr><tr><td>T1613</td>
+      <td><a href="/offensive-technique/attack/T1613">Container and Resource Discovery</a></td>
     </tr><tr><td>T1614</td>
       <td><a href="/offensive-technique/attack/T1614">System Location Discovery</a></td>
     </tr><tr><td>T1614.001</td>
@@ -916,8 +1468,14 @@
       <td><a href="/offensive-technique/attack/T1619">Cloud Storage Object Discovery</a></td>
     </tr><tr><td>T1620</td>
       <td><a href="/offensive-technique/attack/T1620">Reflective Code Loading</a></td>
+    </tr><tr><td>T1621</td>
+      <td><a href="/offensive-technique/attack/T1621">Multi-Factor Authentication Request Generation</a></td>
+    </tr><tr><td>T1622</td>
+      <td><a href="/offensive-technique/attack/T1622">Debugger Evasion</a></td>
+    </tr><tr><td>T1647</td>
+      <td><a href="/offensive-technique/attack/T1647">Plist File Modification</a></td>
     </tr></tbody></table>
-<p>total count: 429</p></main>
+<p>total count: 708</p></main>
 
   
   <footer class="svelte-acckgo"><div class="svelte-fefdvk"><p class="text-small">Use of the MITRE D3FEND™ Knowledge Graph and website is subject to the <a href="/tou">Terms of Use</a>. Use of the MITRE D3FEND website is subject to the
@@ -944,10 +1502,10 @@
   </footer>
 
 
-		<script type="module" data-hydrate="b8bv8l">
-		import { start } from "/_app/start-8e428c50.js";
+		<script type="module" data-hydrate="1sw0lii">
+		import { start } from "/_app/start-07c43ec8.js";
 		start({
-			target: document.querySelector('[data-hydrate="b8bv8l"]').parentNode,
+			target: document.querySelector('[data-hydrate="1sw0lii"]').parentNode,
 			paths: {"base":"","assets":""},
 			session: {},
 			route: true,
@@ -957,14 +1515,14 @@
 				status: 200,
 				error: null,
 				nodes: [
-					import("/_app/pages/__layout.svelte-dd97aeab.js"),
-						import("/_app/pages/offensive-technique/index.svelte-cd83ad1b.js")
+					import("/_app/pages/__layout.svelte-2c685df2.js"),
+						import("/_app/pages/offensive-technique/index.svelte-afda10b9.js")
 				],
 				params: {},
 				routeId: "offensive-technique"
 			}
 		});
-	</script><script type="application/json" sveltekit:data-type="data" sveltekit:data-url="/api/offensive-technique/all.json">{"status":200,"statusText":"","headers":{"content-type":"text/plain;charset=UTF-8"},"body":"{\"@context\":{\"d3f\":\"http://d3fend.mitre.org/ontologies/d3fend.owl#\",\"rdfs\":\"http://www.w3.org/2000/01/rdf-schema#\",\"skos\":\"http://www.w3.org/2004/02/skos/core#\",\"owl\":\"http://www.w3.org/2002/07/owl#\"},\"@graph\":[{\"@id\":\"d3f:T1001\",\"d3f:attack-id\":\"T1001\",\"rdfs:label\":\"Data Obfuscation\"},{\"@id\":\"d3f:T1001.001\",\"d3f:attack-id\":\"T1001.001\",\"rdfs:label\":\"Junk Data\"},{\"@id\":\"d3f:T1001.002\",\"d3f:attack-id\":\"T1001.002\",\"rdfs:label\":\"Steganography\"},{\"@id\":\"d3f:T1001.003\",\"d3f:attack-id\":\"T1001.003\",\"rdfs:label\":\"Protocol Impersonation\"},{\"@id\":\"d3f:T1003\",\"d3f:attack-id\":\"T1003\",\"rdfs:label\":\"OS Credential Dumping\"},{\"@id\":\"d3f:T1003.001\",\"d3f:attack-id\":\"T1003.001\",\"rdfs:label\":\"LSASS Memory\"},{\"@id\":\"d3f:T1003.002\",\"d3f:attack-id\":\"T1003.002\",\"rdfs:label\":\"Security Account Manager\"},{\"@id\":\"d3f:T1003.003\",\"d3f:attack-id\":\"T1003.003\",\"rdfs:label\":\"NTDS\"},{\"@id\":\"d3f:T1003.004\",\"d3f:attack-id\":\"T1003.004\",\"rdfs:label\":\"LSA Secrets\"},{\"@id\":\"d3f:T1003.005\",\"d3f:attack-id\":\"T1003.005\",\"rdfs:label\":\"Cached Domain Credentials\"},{\"@id\":\"d3f:T1003.006\",\"d3f:attack-id\":\"T1003.006\",\"rdfs:label\":\"DCSync\"},{\"@id\":\"d3f:T1003.007\",\"d3f:attack-id\":\"T1003.007\",\"rdfs:label\":\"Proc Filesystem\"},{\"@id\":\"d3f:T1003.008\",\"d3f:attack-id\":\"T1003.008\",\"rdfs:label\":\"/etc/passwd and /etc/shadow\"},{\"@id\":\"d3f:T1005\",\"d3f:attack-id\":\"T1005\",\"rdfs:label\":\"Data from Local System\"},{\"@id\":\"d3f:T1006\",\"d3f:attack-id\":\"T1006\",\"rdfs:label\":\"Direct Volume Access\"},{\"@id\":\"d3f:T1007\",\"d3f:attack-id\":\"T1007\",\"rdfs:label\":\"System Service Discovery\"},{\"@id\":\"d3f:T1008\",\"d3f:attack-id\":\"T1008\",\"rdfs:label\":\"Fallback Channels\"},{\"@id\":\"d3f:T1010\",\"d3f:attack-id\":\"T1010\",\"rdfs:label\":\"Application Window Discovery\"},{\"@id\":\"d3f:T1011\",\"d3f:attack-id\":\"T1011\",\"rdfs:label\":\"Exfiltration Over Other Network Medium\"},{\"@id\":\"d3f:T1012\",\"d3f:attack-id\":\"T1012\",\"rdfs:label\":\"Query Registry\"},{\"@id\":\"d3f:T1014\",\"d3f:attack-id\":\"T1014\",\"rdfs:label\":\"Rootkit\"},{\"@id\":\"d3f:T1016\",\"d3f:attack-id\":\"T1016\",\"rdfs:label\":\"System Network Configuration Discovery\"},{\"@id\":\"d3f:T1018\",\"d3f:attack-id\":\"T1018\",\"rdfs:label\":\"Remote System Discovery\"},{\"@id\":\"d3f:T1020\",\"d3f:attack-id\":\"T1020\",\"rdfs:label\":\"Automated Exfiltration\"},{\"@id\":\"d3f:T1021\",\"d3f:attack-id\":\"T1021\",\"rdfs:label\":\"Remote Services\"},{\"@id\":\"d3f:T1021.001\",\"d3f:attack-id\":\"T1021.001\",\"rdfs:label\":\"Remote Desktop Protocol\"},{\"@id\":\"d3f:T1021.002\",\"d3f:attack-id\":\"T1021.002\",\"rdfs:label\":\"SMB/Windows Admin Shares\"},{\"@id\":\"d3f:T1021.003\",\"d3f:attack-id\":\"T1021.003\",\"rdfs:label\":\"Distributed Component Object Model\"},{\"@id\":\"d3f:T1021.004\",\"d3f:attack-id\":\"T1021.004\",\"rdfs:label\":\"SSH\"},{\"@id\":\"d3f:T1021.005\",\"d3f:attack-id\":\"T1021.005\",\"rdfs:label\":\"VNC\"},{\"@id\":\"d3f:T1021.006\",\"d3f:attack-id\":\"T1021.006\",\"rdfs:label\":\"Windows Remote Management\"},{\"@id\":\"d3f:T1025\",\"d3f:attack-id\":\"T1025\",\"rdfs:label\":\"Data from Removable Media\"},{\"@id\":\"d3f:T1027\",\"d3f:attack-id\":\"T1027\",\"rdfs:label\":\"Obfuscated Files or Information\"},{\"@id\":\"d3f:T1027.001\",\"d3f:attack-id\":\"T1027.001\",\"rdfs:label\":\"Binary Padding\"},{\"@id\":\"d3f:T1027.002\",\"d3f:attack-id\":\"T1027.002\",\"rdfs:label\":\"Software Packing\"},{\"@id\":\"d3f:T1027.003\",\"d3f:attack-id\":\"T1027.003\",\"rdfs:label\":\"Steganography\"},{\"@id\":\"d3f:T1027.004\",\"d3f:attack-id\":\"T1027.004\",\"rdfs:label\":\"Compile After Delivery\"},{\"@id\":\"d3f:T1027.005\",\"d3f:attack-id\":\"T1027.005\",\"rdfs:label\":\"Indicator Removal from Tools\"},{\"@id\":\"d3f:T1027.006\",\"d3f:attack-id\":\"T1027.006\",\"rdfs:label\":\"HTML Smuggling\"},{\"@id\":\"d3f:T1029\",\"d3f:attack-id\":\"T1029\",\"rdfs:label\":\"Scheduled Transfer\"},{\"@id\":\"d3f:T1030\",\"d3f:attack-id\":\"T1030\",\"rdfs:label\":\"Data Transfer Size Limits\"},{\"@id\":\"d3f:T1033\",\"d3f:attack-id\":\"T1033\",\"rdfs:label\":\"System Owner/User Discovery\"},{\"@id\":\"d3f:T1036\",\"d3f:attack-id\":\"T1036\",\"rdfs:label\":\"Masquerading\"},{\"@id\":\"d3f:T1036.001\",\"d3f:attack-id\":\"T1036.001\",\"rdfs:label\":\"Invalid Code Signature\"},{\"@id\":\"d3f:T1036.002\",\"d3f:attack-id\":\"T1036.002\",\"rdfs:label\":\"Right-to-Left Override\"},{\"@id\":\"d3f:T1036.003\",\"d3f:attack-id\":\"T1036.003\",\"rdfs:label\":\"Rename System Utilities\"},{\"@id\":\"d3f:T1036.004\",\"d3f:attack-id\":\"T1036.004\",\"rdfs:label\":\"Masquerade Task or Service\"},{\"@id\":\"d3f:T1036.005\",\"d3f:attack-id\":\"T1036.005\",\"rdfs:label\":\"Match Legitimate Name or Location\"},{\"@id\":\"d3f:T1036.006\",\"d3f:attack-id\":\"T1036.006\",\"rdfs:label\":\"Space after Filename\"},{\"@id\":\"d3f:T1036.007\",\"d3f:attack-id\":\"T1036.007\",\"rdfs:label\":\"Double File Extension\"},{\"@id\":\"d3f:T1037\",\"d3f:attack-id\":\"T1037\",\"rdfs:label\":\"Boot or Logon Initialization Scripts\"},{\"@id\":\"d3f:T1037.001\",\"d3f:attack-id\":\"T1037.001\",\"rdfs:label\":\"Logon Script (Windows)\"},{\"@id\":\"d3f:T1037.002\",\"d3f:attack-id\":\"T1037.002\",\"rdfs:label\":\"Logon Script (Mac)\"},{\"@id\":\"d3f:T1037.003\",\"d3f:attack-id\":\"T1037.003\",\"rdfs:label\":\"Network Logon Script\"},{\"@id\":\"d3f:T1037.004\",\"d3f:attack-id\":\"T1037.004\",\"rdfs:label\":\"Rc.common\"},{\"@id\":\"d3f:T1037.005\",\"d3f:attack-id\":\"T1037.005\",\"rdfs:label\":\"Startup Items\"},{\"@id\":\"d3f:T1039\",\"d3f:attack-id\":\"T1039\",\"rdfs:label\":\"Data from Network Shared Drive\"},{\"@id\":\"d3f:T1040\",\"d3f:attack-id\":\"T1040\",\"rdfs:label\":\"Network Sniffing\"},{\"@id\":\"d3f:T1041\",\"d3f:attack-id\":\"T1041\",\"rdfs:label\":\"Exfiltration Over C2 Channel\"},{\"@id\":\"d3f:T1046\",\"d3f:attack-id\":\"T1046\",\"rdfs:label\":\"Network Service Scanning\"},{\"@id\":\"d3f:T1047\",\"d3f:attack-id\":\"T1047\",\"rdfs:label\":\"Windows Management Instrumentation Execution\"},{\"@id\":\"d3f:T1048\",\"d3f:attack-id\":\"T1048\",\"rdfs:label\":\"Exfiltration Over Alternative Protocol\"},{\"@id\":\"d3f:T1048.001\",\"d3f:attack-id\":\"T1048.001\",\"rdfs:label\":\"Exfiltration Over Symmetric Encrypted Non-C2 Protocol\"},{\"@id\":\"d3f:T1048.002\",\"d3f:attack-id\":\"T1048.002\",\"rdfs:label\":\"Exfiltration Over Asymmetric Encrypted Non-C2 Protocol\"},{\"@id\":\"d3f:T1048.003\",\"d3f:attack-id\":\"T1048.003\",\"rdfs:label\":\"Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol\"},{\"@id\":\"d3f:T1049\",\"d3f:attack-id\":\"T1049\",\"rdfs:label\":\"System Network Connections Discovery\"},{\"@id\":\"d3f:T1052\",\"d3f:attack-id\":\"T1052\",\"rdfs:label\":\"Exfiltration Over Physical Medium\"},{\"@id\":\"d3f:T1052.001\",\"d3f:attack-id\":\"T1052.001\",\"rdfs:label\":\"Exfiltration over USB\"},{\"@id\":\"d3f:T1053\",\"d3f:attack-id\":\"T1053\",\"rdfs:label\":\"Scheduled Task/Job Execution\"},{\"@id\":\"d3f:T1053.001\",\"d3f:attack-id\":\"T1053.001\",\"rdfs:label\":\"At (Linux) Execution\"},{\"@id\":\"d3f:T1053.002\",\"d3f:attack-id\":\"T1053.002\",\"rdfs:label\":\"At (Windows) Execution\"},{\"@id\":\"d3f:T1053.003\",\"d3f:attack-id\":\"T1053.003\",\"rdfs:label\":\"Cron Execution\"},{\"@id\":\"d3f:T1053.004\",\"d3f:attack-id\":\"T1053.004\",\"rdfs:label\":\"Launchd\"},{\"@id\":\"d3f:T1053.005\",\"d3f:attack-id\":\"T1053.005\",\"rdfs:label\":\"Schtasks Execution\"},{\"@id\":\"d3f:T1055\",\"d3f:attack-id\":\"T1055\",\"rdfs:label\":\"Process Injection\"},{\"@id\":\"d3f:T1055.001\",\"d3f:attack-id\":\"T1055.001\",\"rdfs:label\":\"Dynamic-link Library Injection\"},{\"@id\":\"d3f:T1055.002\",\"d3f:attack-id\":\"T1055.002\",\"rdfs:label\":\"Portable Executable Injection\"},{\"@id\":\"d3f:T1055.003\",\"d3f:attack-id\":\"T1055.003\",\"rdfs:label\":\"Thread Execution Hijacking\"},{\"@id\":\"d3f:T1055.004\",\"d3f:attack-id\":\"T1055.004\",\"rdfs:label\":\"Asynchronous Procedure Call\"},{\"@id\":\"d3f:T1055.005\",\"d3f:attack-id\":\"T1055.005\",\"rdfs:label\":\"Thread Local Storage\"},{\"@id\":\"d3f:T1055.008\",\"d3f:attack-id\":\"T1055.008\",\"rdfs:label\":\"Ptrace System Calls\"},{\"@id\":\"d3f:T1055.009\",\"d3f:attack-id\":\"T1055.009\",\"rdfs:label\":\"Proc Memory\"},{\"@id\":\"d3f:T1055.011\",\"d3f:attack-id\":\"T1055.011\",\"rdfs:label\":\"Extra Window Memory Injection\"},{\"@id\":\"d3f:T1055.012\",\"d3f:attack-id\":\"T1055.012\",\"rdfs:label\":\"Process Hollowing\"},{\"@id\":\"d3f:T1055.013\",\"d3f:attack-id\":\"T1055.013\",\"rdfs:label\":\"Process Doppelgänging\"},{\"@id\":\"d3f:T1055.014\",\"d3f:attack-id\":\"T1055.014\",\"rdfs:label\":\"VDSO Hijacking\"},{\"@id\":\"d3f:T1056\",\"d3f:attack-id\":\"T1056\",\"rdfs:label\":\"Input Capture\"},{\"@id\":\"d3f:T1056.001\",\"d3f:attack-id\":\"T1056.001\",\"rdfs:label\":\"Keylogging\"},{\"@id\":\"d3f:T1056.002\",\"d3f:attack-id\":\"T1056.002\",\"rdfs:label\":\"GUI Input Capture\"},{\"@id\":\"d3f:T1056.003\",\"d3f:attack-id\":\"T1056.003\",\"rdfs:label\":\"Web Portal Capture\"},{\"@id\":\"d3f:T1056.004\",\"d3f:attack-id\":\"T1056.004\",\"rdfs:label\":\"Credential API Hooking\"},{\"@id\":\"d3f:T1057\",\"d3f:attack-id\":\"T1057\",\"rdfs:label\":\"Process Discovery\"},{\"@id\":\"d3f:T1059\",\"d3f:attack-id\":\"T1059\",\"rdfs:label\":\"Command and Scripting Interpreter Execution\"},{\"@id\":\"d3f:T1059.001\",\"d3f:attack-id\":\"T1059.001\",\"rdfs:label\":\"PowerShell Execution\"},{\"@id\":\"d3f:T1059.002\",\"d3f:attack-id\":\"T1059.002\",\"rdfs:label\":\"AppleScript Execution\"},{\"@id\":\"d3f:T1059.003\",\"d3f:attack-id\":\"T1059.003\",\"rdfs:label\":\"Windows Command Shell Execution\"},{\"@id\":\"d3f:T1059.004\",\"d3f:attack-id\":\"T1059.004\",\"rdfs:label\":\"Unix Shell Execution\"},{\"@id\":\"d3f:T1059.005\",\"d3f:attack-id\":\"T1059.005\",\"rdfs:label\":\"VBScript Execution\"},{\"@id\":\"d3f:T1059.006\",\"d3f:attack-id\":\"T1059.006\",\"rdfs:label\":\"Python Execution\"},{\"@id\":\"d3f:T1059.007\",\"d3f:attack-id\":\"T1059.007\",\"rdfs:label\":\"JavaScript/JScript\"},{\"@id\":\"d3f:T1059.008\",\"d3f:attack-id\":\"T1059.008\",\"rdfs:label\":\"Network Device CLI\"},{\"@id\":\"d3f:T1068\",\"d3f:attack-id\":\"T1068\",\"rdfs:label\":\"Exploitation for Privilege Escalation\"},{\"@id\":\"d3f:T1069\",\"d3f:attack-id\":\"T1069\",\"rdfs:label\":\"Permission Groups Discovery\"},{\"@id\":\"d3f:T1070\",\"d3f:attack-id\":\"T1070\",\"rdfs:label\":\"Indicator Removal on Host\"},{\"@id\":\"d3f:T1070.001\",\"d3f:attack-id\":\"T1070.001\",\"rdfs:label\":\"Clear Windows Event Logs\"},{\"@id\":\"d3f:T1070.002\",\"d3f:attack-id\":\"T1070.002\",\"rdfs:label\":\"Clear Linux or Mac System Logs\"},{\"@id\":\"d3f:T1070.003\",\"d3f:attack-id\":\"T1070.003\",\"rdfs:label\":\"Clear Command History\"},{\"@id\":\"d3f:T1070.004\",\"d3f:attack-id\":\"T1070.004\",\"rdfs:label\":\"File Deletion\"},{\"@id\":\"d3f:T1070.005\",\"d3f:attack-id\":\"T1070.005\",\"rdfs:label\":\"Network Share Connection Removal\"},{\"@id\":\"d3f:T1070.006\",\"d3f:attack-id\":\"T1070.006\",\"rdfs:label\":\"Timestomp\"},{\"@id\":\"d3f:T1071\",\"d3f:attack-id\":\"T1071\",\"rdfs:label\":\"Application Layer Protocol\"},{\"@id\":\"d3f:T1071.001\",\"d3f:attack-id\":\"T1071.001\",\"rdfs:label\":\"Web Protocols\"},{\"@id\":\"d3f:T1071.002\",\"d3f:attack-id\":\"T1071.002\",\"rdfs:label\":\"File Transfer Protocols\"},{\"@id\":\"d3f:T1071.003\",\"d3f:attack-id\":\"T1071.003\",\"rdfs:label\":\"Mail Protocols\"},{\"@id\":\"d3f:T1071.004\",\"d3f:attack-id\":\"T1071.004\",\"rdfs:label\":\"DNS\"},{\"@id\":\"d3f:T1072\",\"d3f:attack-id\":\"T1072\",\"rdfs:label\":\"Software Deployment Tools Execution\"},{\"@id\":\"d3f:T1074\",\"d3f:attack-id\":\"T1074\",\"rdfs:label\":\"Data Staged\"},{\"@id\":\"d3f:T1074.001\",\"d3f:attack-id\":\"T1074.001\",\"rdfs:label\":\"Local Data Staging\"},{\"@id\":\"d3f:T1074.002\",\"d3f:attack-id\":\"T1074.002\",\"rdfs:label\":\"Remote Data Staging\"},{\"@id\":\"d3f:T1078\",\"d3f:attack-id\":\"T1078\",\"rdfs:label\":\"Valid Accounts\"},{\"@id\":\"d3f:T1078.001\",\"d3f:attack-id\":\"T1078.001\",\"rdfs:label\":\"Default Accounts\"},{\"@id\":\"d3f:T1078.002\",\"d3f:attack-id\":\"T1078.002\",\"rdfs:label\":\"Domain Accounts\"},{\"@id\":\"d3f:T1078.003\",\"d3f:attack-id\":\"T1078.003\",\"rdfs:label\":\"Local Accounts\"},{\"@id\":\"d3f:T1078.004\",\"d3f:attack-id\":\"T1078.004\",\"rdfs:label\":\"Cloud Accounts\"},{\"@id\":\"d3f:T1080\",\"d3f:attack-id\":\"T1080\",\"rdfs:label\":\"Taint Shared Content\"},{\"@id\":\"d3f:T1082\",\"d3f:attack-id\":\"T1082\",\"rdfs:label\":\"System Information Discovery\"},{\"@id\":\"d3f:T1083\",\"d3f:attack-id\":\"T1083\",\"rdfs:label\":\"File and Directory Discovery\"},{\"@id\":\"d3f:T1087\",\"d3f:attack-id\":\"T1087\",\"rdfs:label\":\"Account Discovery\"},{\"@id\":\"d3f:T1087.001\",\"d3f:attack-id\":\"T1087.001\",\"rdfs:label\":\"Local Account\"},{\"@id\":\"d3f:T1087.002\",\"d3f:attack-id\":\"T1087.002\",\"rdfs:label\":\"Domain Account\"},{\"@id\":\"d3f:T1087.004\",\"d3f:attack-id\":\"T1087.004\",\"rdfs:label\":\"Cloud Account\"},{\"@id\":\"d3f:T1090\",\"d3f:attack-id\":\"T1090\",\"rdfs:label\":\"Proxy\"},{\"@id\":\"d3f:T1090.001\",\"d3f:attack-id\":\"T1090.001\",\"rdfs:label\":\"Internal Proxy\"},{\"@id\":\"d3f:T1090.002\",\"d3f:attack-id\":\"T1090.002\",\"rdfs:label\":\"External Proxy\"},{\"@id\":\"d3f:T1090.003\",\"d3f:attack-id\":\"T1090.003\",\"rdfs:label\":\"Multi-hop Proxy\"},{\"@id\":\"d3f:T1090.004\",\"d3f:attack-id\":\"T1090.004\",\"rdfs:label\":\"Domain Fronting\"},{\"@id\":\"d3f:T1091\",\"d3f:attack-id\":\"T1091\",\"rdfs:label\":\"Replication Through Removable Media\"},{\"@id\":\"d3f:T1092\",\"d3f:attack-id\":\"T1092\",\"rdfs:label\":\"Communication Through Removable Media\"},{\"@id\":\"d3f:T1095\",\"d3f:attack-id\":\"T1095\",\"rdfs:label\":\"Non-Application Layer Protocol\"},{\"@id\":\"d3f:T1098\",\"d3f:attack-id\":\"T1098\",\"rdfs:label\":\"Account Manipulation\"},{\"@id\":\"d3f:T1098.001\",\"d3f:attack-id\":\"T1098.001\",\"rdfs:label\":\"Additional Azure Service Principal Credentials\"},{\"@id\":\"d3f:T1098.002\",\"d3f:attack-id\":\"T1098.002\",\"rdfs:label\":\"Exchange Email Delegate Permissions\"},{\"@id\":\"d3f:T1098.003\",\"d3f:attack-id\":\"T1098.003\",\"rdfs:label\":\"Add Office 365 Global Administrator Role\"},{\"@id\":\"d3f:T1098.004\",\"d3f:attack-id\":\"T1098.004\",\"rdfs:label\":\"SSH Authorized Keys\"},{\"@id\":\"d3f:T1102\",\"d3f:attack-id\":\"T1102\",\"rdfs:label\":\"Web Service\"},{\"@id\":\"d3f:T1102.001\",\"d3f:attack-id\":\"T1102.001\",\"rdfs:label\":\"Dead Drop Resolver\"},{\"@id\":\"d3f:T1102.002\",\"d3f:attack-id\":\"T1102.002\",\"rdfs:label\":\"Bidirectional Communication\"},{\"@id\":\"d3f:T1102.003\",\"d3f:attack-id\":\"T1102.003\",\"rdfs:label\":\"One-Way Communication\"},{\"@id\":\"d3f:T1104\",\"d3f:attack-id\":\"T1104\",\"rdfs:label\":\"Multi-Stage Channels\"},{\"@id\":\"d3f:T1105\",\"d3f:attack-id\":\"T1105\",\"rdfs:label\":\"Ingress Tool Transfer\"},{\"@id\":\"d3f:T1106\",\"d3f:attack-id\":\"T1106\",\"rdfs:label\":\"Native API Execution\"},{\"@id\":\"d3f:T1110\",\"d3f:attack-id\":\"T1110\",\"rdfs:label\":\"Brute Force\"},{\"@id\":\"d3f:T1110.001\",\"d3f:attack-id\":\"T1110.001\",\"rdfs:label\":\"Password Guessing\"},{\"@id\":\"d3f:T1110.002\",\"d3f:attack-id\":\"T1110.002\",\"rdfs:label\":\"Password Cracking\"},{\"@id\":\"d3f:T1110.003\",\"d3f:attack-id\":\"T1110.003\",\"rdfs:label\":\"Password Spraying\"},{\"@id\":\"d3f:T1110.004\",\"d3f:attack-id\":\"T1110.004\",\"rdfs:label\":\"Credential Stuffing\"},{\"@id\":\"d3f:T1111\",\"d3f:attack-id\":\"T1111\",\"rdfs:label\":\"Two-Factor Authentication Interception\"},{\"@id\":\"d3f:T1112\",\"d3f:attack-id\":\"T1112\",\"rdfs:label\":\"Modify Registry\"},{\"@id\":\"d3f:T1113\",\"d3f:attack-id\":\"T1113\",\"rdfs:label\":\"Screen Capture\"},{\"@id\":\"d3f:T1114\",\"d3f:attack-id\":\"T1114\",\"rdfs:label\":\"Email Collection\"},{\"@id\":\"d3f:T1114.001\",\"d3f:attack-id\":\"T1114.001\",\"rdfs:label\":\"Local Email Collection\"},{\"@id\":\"d3f:T1114.002\",\"d3f:attack-id\":\"T1114.002\",\"rdfs:label\":\"Remote Email Collection\"},{\"@id\":\"d3f:T1114.003\",\"d3f:attack-id\":\"T1114.003\",\"rdfs:label\":\"Email Forwarding Rule\"},{\"@id\":\"d3f:T1115\",\"d3f:attack-id\":\"T1115\",\"rdfs:label\":\"Clipboard Data\"},{\"@id\":\"d3f:T1119\",\"d3f:attack-id\":\"T1119\",\"rdfs:label\":\"Automated Collection\"},{\"@id\":\"d3f:T1120\",\"d3f:attack-id\":\"T1120\",\"rdfs:label\":\"Peripheral Device Discovery\"},{\"@id\":\"d3f:T1123\",\"d3f:attack-id\":\"T1123\",\"rdfs:label\":\"Audio Capture\"},{\"@id\":\"d3f:T1124\",\"d3f:attack-id\":\"T1124\",\"rdfs:label\":\"System Time Discovery\"},{\"@id\":\"d3f:T1125\",\"d3f:attack-id\":\"T1125\",\"rdfs:label\":\"Video Capture\"},{\"@id\":\"d3f:T1127\",\"d3f:attack-id\":\"T1127\",\"rdfs:label\":\"Trusted Developer Utilities Proxy Execution\"},{\"@id\":\"d3f:T1127.001\",\"d3f:attack-id\":\"T1127.001\",\"rdfs:label\":\"MSBuild\"},{\"@id\":\"d3f:T1129\",\"d3f:attack-id\":\"T1129\",\"rdfs:label\":\"Shared Modules Execution\"},{\"@id\":\"d3f:T1132\",\"d3f:attack-id\":\"T1132\",\"rdfs:label\":\"Data Encoding\"},{\"@id\":\"d3f:T1132.001\",\"d3f:attack-id\":\"T1132.001\",\"rdfs:label\":\"Standard Encoding\"},{\"@id\":\"d3f:T1132.002\",\"d3f:attack-id\":\"T1132.002\",\"rdfs:label\":\"Non-Standard Encoding\"},{\"@id\":\"d3f:T1133\",\"d3f:attack-id\":\"T1133\",\"rdfs:label\":\"External Remote Services\"},{\"@id\":\"d3f:T1134\",\"d3f:attack-id\":\"T1134\",\"rdfs:label\":\"Access Token Manipulation\"},{\"@id\":\"d3f:T1134.001\",\"d3f:attack-id\":\"T1134.001\",\"rdfs:label\":\"Token Impersonation/Theft\"},{\"@id\":\"d3f:T1134.002\",\"d3f:attack-id\":\"T1134.002\",\"rdfs:label\":\"Create Process with Token\"},{\"@id\":\"d3f:T1134.003\",\"d3f:attack-id\":\"T1134.003\",\"rdfs:label\":\"Make and Impersonate Token\"},{\"@id\":\"d3f:T1134.004\",\"d3f:attack-id\":\"T1134.004\",\"rdfs:label\":\"Parent PID Spoofing\"},{\"@id\":\"d3f:T1134.005\",\"d3f:attack-id\":\"T1134.005\",\"rdfs:label\":\"SID-History Injection\"},{\"@id\":\"d3f:T1135\",\"d3f:attack-id\":\"T1135\",\"rdfs:label\":\"Network Share Discovery\"},{\"@id\":\"d3f:T1136\",\"d3f:attack-id\":\"T1136\",\"rdfs:label\":\"Create Account\"},{\"@id\":\"d3f:T1137\",\"d3f:attack-id\":\"T1137\",\"rdfs:label\":\"Office Application Startup\"},{\"@id\":\"d3f:T1137.001\",\"d3f:attack-id\":\"T1137.001\",\"rdfs:label\":\"Office Template Macros\"},{\"@id\":\"d3f:T1137.002\",\"d3f:attack-id\":\"T1137.002\",\"rdfs:label\":\"Office Test\"},{\"@id\":\"d3f:T1137.003\",\"d3f:attack-id\":\"T1137.003\",\"rdfs:label\":\"Outlook Forms\"},{\"@id\":\"d3f:T1137.004\",\"d3f:attack-id\":\"T1137.004\",\"rdfs:label\":\"Outlook Home Page\"},{\"@id\":\"d3f:T1137.005\",\"d3f:attack-id\":\"T1137.005\",\"rdfs:label\":\"Outlook Rules\"},{\"@id\":\"d3f:T1137.006\",\"d3f:attack-id\":\"T1137.006\",\"rdfs:label\":\"Add-ins\"},{\"@id\":\"d3f:T1140\",\"d3f:attack-id\":\"T1140\",\"rdfs:label\":\"Deobfuscate/Decode Files or Information\"},{\"@id\":\"d3f:T1176\",\"d3f:attack-id\":\"T1176\",\"rdfs:label\":\"Browser Extensions\"},{\"@id\":\"d3f:T1185\",\"d3f:attack-id\":\"T1185\",\"rdfs:label\":\"Man in the Browser\"},{\"@id\":\"d3f:T1187\",\"d3f:attack-id\":\"T1187\",\"rdfs:label\":\"Forced Authentication\"},{\"@id\":\"d3f:T1189\",\"d3f:attack-id\":\"T1189\",\"rdfs:label\":\"Drive-by Compromise\"},{\"@id\":\"d3f:T1190\",\"d3f:attack-id\":\"T1190\",\"rdfs:label\":\"Exploit Public-Facing Application\"},{\"@id\":\"d3f:T1195\",\"d3f:attack-id\":\"T1195\",\"rdfs:label\":\"Supply Chain Compromise\"},{\"@id\":\"d3f:T1195.001\",\"d3f:attack-id\":\"T1195.001\",\"rdfs:label\":\"Compromise Software Dependencies and Development Tools\"},{\"@id\":\"d3f:T1195.002\",\"d3f:attack-id\":\"T1195.002\",\"rdfs:label\":\"Compromise Software Supply Chain\"},{\"@id\":\"d3f:T1195.003\",\"d3f:attack-id\":\"T1195.003\",\"rdfs:label\":\"Compromise Hardware Supply Chain\"},{\"@id\":\"d3f:T1197\",\"d3f:attack-id\":\"T1197\",\"rdfs:label\":\"BITS Jobs\"},{\"@id\":\"d3f:T1199\",\"d3f:attack-id\":\"T1199\",\"rdfs:label\":\"Trusted Relationship\"},{\"@id\":\"d3f:T1200\",\"d3f:attack-id\":\"T1200\",\"rdfs:label\":\"Hardware Additions\"},{\"@id\":\"d3f:T1201\",\"d3f:attack-id\":\"T1201\",\"rdfs:label\":\"Password Policy Discovery\"},{\"@id\":\"d3f:T1202\",\"d3f:attack-id\":\"T1202\",\"rdfs:label\":\"Indirect Command Execution\"},{\"@id\":\"d3f:T1203\",\"d3f:attack-id\":\"T1203\",\"rdfs:label\":\"Exploitation for Client Execution\"},{\"@id\":\"d3f:T1204\",\"d3f:attack-id\":\"T1204\",\"rdfs:label\":\"User Execution\"},{\"@id\":\"d3f:T1204.001\",\"d3f:attack-id\":\"T1204.001\",\"rdfs:label\":\"Malicious Link Execution\"},{\"@id\":\"d3f:T1204.002\",\"d3f:attack-id\":\"T1204.002\",\"rdfs:label\":\"Malicious File Execution\"},{\"@id\":\"d3f:T1205\",\"d3f:attack-id\":\"T1205\",\"rdfs:label\":\"Traffic Signaling\"},{\"@id\":\"d3f:T1205.001\",\"d3f:attack-id\":\"T1205.001\",\"rdfs:label\":\"Port Knocking\"},{\"@id\":\"d3f:T1207\",\"d3f:attack-id\":\"T1207\",\"rdfs:label\":\"Rogue Domain Controller\"},{\"@id\":\"d3f:T1210\",\"d3f:attack-id\":\"T1210\",\"rdfs:label\":\"Exploitation of Remote Services\"},{\"@id\":\"d3f:T1211\",\"d3f:attack-id\":\"T1211\",\"rdfs:label\":\"Exploitation for Defense Evasion\"},{\"@id\":\"d3f:T1212\",\"d3f:attack-id\":\"T1212\",\"rdfs:label\":\"Exploitation for Credential Access\"},{\"@id\":\"d3f:T1213\",\"d3f:attack-id\":\"T1213\",\"rdfs:label\":\"Data from Information Repositories\"},{\"@id\":\"d3f:T1213.001\",\"d3f:attack-id\":\"T1213.001\",\"rdfs:label\":\"Confluence\"},{\"@id\":\"d3f:T1213.002\",\"d3f:attack-id\":\"T1213.002\",\"rdfs:label\":\"Sharepoint\"},{\"@id\":\"d3f:T1213.003\",\"d3f:attack-id\":\"T1213.003\",\"rdfs:label\":\"Code Repositories\"},{\"@id\":\"d3f:T1216\",\"d3f:attack-id\":\"T1216\",\"rdfs:label\":\"Signed Script Proxy Execution\"},{\"@id\":\"d3f:T1216.001\",\"d3f:attack-id\":\"T1216.001\",\"rdfs:label\":\"PubPrn Execution\"},{\"@id\":\"d3f:T1217\",\"d3f:attack-id\":\"T1217\",\"rdfs:label\":\"Browser Bookmark Discovery\"},{\"@id\":\"d3f:T1218\",\"d3f:attack-id\":\"T1218\",\"rdfs:label\":\"Signed Binary Proxy Execution\"},{\"@id\":\"d3f:T1218.001\",\"d3f:attack-id\":\"T1218.001\",\"rdfs:label\":\"Compiled HTML File\"},{\"@id\":\"d3f:T1218.002\",\"d3f:attack-id\":\"T1218.002\",\"rdfs:label\":\"Control Panel Execution\"},{\"@id\":\"d3f:T1218.003\",\"d3f:attack-id\":\"T1218.003\",\"rdfs:label\":\"CMSTP\"},{\"@id\":\"d3f:T1218.004\",\"d3f:attack-id\":\"T1218.004\",\"rdfs:label\":\"InstallUtil Execution\"},{\"@id\":\"d3f:T1218.005\",\"d3f:attack-id\":\"T1218.005\",\"rdfs:label\":\"Mshta Execution\"},{\"@id\":\"d3f:T1218.007\",\"d3f:attack-id\":\"T1218.007\",\"rdfs:label\":\"Msiexec Execution\"},{\"@id\":\"d3f:T1218.008\",\"d3f:attack-id\":\"T1218.008\",\"rdfs:label\":\"Odbcconf Execution\"},{\"@id\":\"d3f:T1218.009\",\"d3f:attack-id\":\"T1218.009\",\"rdfs:label\":\"Regsvcs/Regasm Execution\"},{\"@id\":\"d3f:T1218.010\",\"d3f:attack-id\":\"T1218.010\",\"rdfs:label\":\"Regsvr32 Execution\"},{\"@id\":\"d3f:T1218.011\",\"d3f:attack-id\":\"T1218.011\",\"rdfs:label\":\"Rundll32 Execution\"},{\"@id\":\"d3f:T1218.013\",\"d3f:attack-id\":\"T1218.013\",\"rdfs:label\":\"Mavinject\"},{\"@id\":\"d3f:T1218.014\",\"d3f:attack-id\":\"T1218.014\",\"rdfs:label\":\"MMC\"},{\"@id\":\"d3f:T1219\",\"d3f:attack-id\":\"T1219\",\"rdfs:label\":\"Remote Access Software\"},{\"@id\":\"d3f:T1220\",\"d3f:attack-id\":\"T1220\",\"rdfs:label\":\"XSL Script Processing\"},{\"@id\":\"d3f:T1221\",\"d3f:attack-id\":\"T1221\",\"rdfs:label\":\"Template Injection\"},{\"@id\":\"d3f:T1222\",\"d3f:attack-id\":\"T1222\",\"rdfs:label\":\"File and Directory Permissions Modification\"},{\"@id\":\"d3f:T1222.001\",\"d3f:attack-id\":\"T1222.001\",\"rdfs:label\":\"Windows File and Directory Permissions Modification\"},{\"@id\":\"d3f:T1222.002\",\"d3f:attack-id\":\"T1222.002\",\"rdfs:label\":\"Linux and Mac File and Directory Permissions Modification\"},{\"@id\":\"d3f:T1480\",\"d3f:attack-id\":\"T1480\",\"rdfs:label\":\"Execution Guardrails\"},{\"@id\":\"d3f:T1480.001\",\"d3f:attack-id\":\"T1480.001\",\"rdfs:label\":\"Environmental Keying\"},{\"@id\":\"d3f:T1482\",\"d3f:attack-id\":\"T1482\",\"rdfs:label\":\"Domain Trust Discovery\"},{\"@id\":\"d3f:T1484\",\"d3f:attack-id\":\"T1484\",\"rdfs:label\":\"Group Policy Modification\"},{\"@id\":\"d3f:T1485\",\"d3f:attack-id\":\"T1485\",\"rdfs:label\":\"Data Destruction\"},{\"@id\":\"d3f:T1486\",\"d3f:attack-id\":\"T1486\",\"rdfs:label\":\"Data Encrypted for Impact\"},{\"@id\":\"d3f:T1489\",\"d3f:attack-id\":\"T1489\",\"rdfs:label\":\"Service Stop\"},{\"@id\":\"d3f:T1490\",\"d3f:attack-id\":\"T1490\",\"rdfs:label\":\"Inhibit System Recovery\"},{\"@id\":\"d3f:T1491\",\"d3f:attack-id\":\"T1491\",\"rdfs:label\":\"Defacement\"},{\"@id\":\"d3f:T1491.001\",\"d3f:attack-id\":\"T1491.001\",\"rdfs:label\":\"Internal Defacement\"},{\"@id\":\"d3f:T1491.002\",\"d3f:attack-id\":\"T1491.002\",\"rdfs:label\":\"External Defacement\"},{\"@id\":\"d3f:T1495\",\"d3f:attack-id\":\"T1495\",\"rdfs:label\":\"Firmware Corruption\"},{\"@id\":\"d3f:T1496\",\"d3f:attack-id\":\"T1496\",\"rdfs:label\":\"Resource Hijacking\"},{\"@id\":\"d3f:T1497\",\"d3f:attack-id\":\"T1497\",\"rdfs:label\":\"Virtualization/Sandbox Evasion\"},{\"@id\":\"d3f:T1497.001\",\"d3f:attack-id\":\"T1497.001\",\"rdfs:label\":\"System Checks\"},{\"@id\":\"d3f:T1497.002\",\"d3f:attack-id\":\"T1497.002\",\"rdfs:label\":\"User Activity Based Checks\"},{\"@id\":\"d3f:T1497.003\",\"d3f:attack-id\":\"T1497.003\",\"rdfs:label\":\"Time Based Evasion\"},{\"@id\":\"d3f:T1498\",\"d3f:attack-id\":\"T1498\",\"rdfs:label\":\"Network Denial of Service\"},{\"@id\":\"d3f:T1498.001\",\"d3f:attack-id\":\"T1498.001\",\"rdfs:label\":\"Direct Network Flood\"},{\"@id\":\"d3f:T1498.002\",\"d3f:attack-id\":\"T1498.002\",\"rdfs:label\":\"Reflection Amplification\"},{\"@id\":\"d3f:T1499\",\"d3f:attack-id\":\"T1499\",\"rdfs:label\":\"Endpoint Denial of Service\"},{\"@id\":\"d3f:T1499.002\",\"d3f:attack-id\":\"T1499.002\",\"rdfs:label\":\"Service Exhaustion Flood\"},{\"@id\":\"d3f:T1505\",\"d3f:attack-id\":\"T1505\",\"rdfs:label\":\"Server Software Component\"},{\"@id\":\"d3f:T1505.001\",\"d3f:attack-id\":\"T1505.001\",\"rdfs:label\":\"SQL Stored Procedures\"},{\"@id\":\"d3f:T1505.002\",\"d3f:attack-id\":\"T1505.002\",\"rdfs:label\":\"Transport Agent\"},{\"@id\":\"d3f:T1505.003\",\"d3f:attack-id\":\"T1505.003\",\"rdfs:label\":\"Web Shell\"},{\"@id\":\"d3f:T1505.004\",\"d3f:attack-id\":\"T1505.004\",\"rdfs:label\":\"IIS Components\"},{\"@id\":\"d3f:T1518\",\"d3f:attack-id\":\"T1518\",\"rdfs:label\":\"Software Discovery\"},{\"@id\":\"d3f:T1518.001\",\"d3f:attack-id\":\"T1518.001\",\"rdfs:label\":\"Security Software Discovery\"},{\"@id\":\"d3f:T1525\",\"d3f:attack-id\":\"T1525\",\"rdfs:label\":\"Implant Container Image\"},{\"@id\":\"d3f:T1526\",\"d3f:attack-id\":\"T1526\",\"rdfs:label\":\"Cloud Service Discovery\"},{\"@id\":\"d3f:T1528\",\"d3f:attack-id\":\"T1528\",\"rdfs:label\":\"Steal Application Access Token\"},{\"@id\":\"d3f:T1529\",\"d3f:attack-id\":\"T1529\",\"rdfs:label\":\"System Shutdown/Reboot\"},{\"@id\":\"d3f:T1530\",\"d3f:attack-id\":\"T1530\",\"rdfs:label\":\"Data from Cloud Storage Object\"},{\"@id\":\"d3f:T1531\",\"d3f:attack-id\":\"T1531\",\"rdfs:label\":\"Account Access Removal\"},{\"@id\":\"d3f:T1534\",\"d3f:attack-id\":\"T1534\",\"rdfs:label\":\"Internal Spearphishing\"},{\"@id\":\"d3f:T1535\",\"d3f:attack-id\":\"T1535\",\"rdfs:label\":\"Unused/Unsupported Cloud Regions\"},{\"@id\":\"d3f:T1538\",\"d3f:attack-id\":\"T1538\",\"rdfs:label\":\"Cloud Service Dashboard\"},{\"@id\":\"d3f:T1539\",\"d3f:attack-id\":\"T1539\",\"rdfs:label\":\"Steal Web Session Cookie\"},{\"@id\":\"d3f:T1542\",\"d3f:attack-id\":\"T1542\",\"rdfs:label\":\"Pre-OS Boot\"},{\"@id\":\"d3f:T1542.001\",\"d3f:attack-id\":\"T1542.001\",\"rdfs:label\":\"System Firmware\"},{\"@id\":\"d3f:T1542.002\",\"d3f:attack-id\":\"T1542.002\",\"rdfs:label\":\"Component Firmware\"},{\"@id\":\"d3f:T1542.003\",\"d3f:attack-id\":\"T1542.003\",\"rdfs:label\":\"Bootkit\"},{\"@id\":\"d3f:T1543\",\"d3f:attack-id\":\"T1543\",\"rdfs:label\":\"Create or Modify System Process\"},{\"@id\":\"d3f:T1543.001\",\"d3f:attack-id\":\"T1543.001\",\"rdfs:label\":\"Launch Agent\"},{\"@id\":\"d3f:T1543.002\",\"d3f:attack-id\":\"T1543.002\",\"rdfs:label\":\"Systemd Service\"},{\"@id\":\"d3f:T1543.003\",\"d3f:attack-id\":\"T1543.003\",\"rdfs:label\":\"Windows Service\"},{\"@id\":\"d3f:T1543.004\",\"d3f:attack-id\":\"T1543.004\",\"rdfs:label\":\"Launch Daemon\"},{\"@id\":\"d3f:T1546\",\"d3f:attack-id\":\"T1546\",\"rdfs:label\":\"Event Triggered Execution\"},{\"@id\":\"d3f:T1546.001\",\"d3f:attack-id\":\"T1546.001\",\"rdfs:label\":\"Change Default File Association\"},{\"@id\":\"d3f:T1546.002\",\"d3f:attack-id\":\"T1546.002\",\"rdfs:label\":\"Screensaver\"},{\"@id\":\"d3f:T1546.003\",\"d3f:attack-id\":\"T1546.003\",\"rdfs:label\":\"Windows Management Instrumentation Event Subscription\"},{\"@id\":\"d3f:T1546.004\",\"d3f:attack-id\":\"T1546.004\",\"rdfs:label\":\".bash_profile and .bashrc\"},{\"@id\":\"d3f:T1546.005\",\"d3f:attack-id\":\"T1546.005\",\"rdfs:label\":\"Trap\"},{\"@id\":\"d3f:T1546.006\",\"d3f:attack-id\":\"T1546.006\",\"rdfs:label\":\"LC_LOAD_DYLIB Addition\"},{\"@id\":\"d3f:T1546.007\",\"d3f:attack-id\":\"T1546.007\",\"rdfs:label\":\"Netsh Helper DLL\"},{\"@id\":\"d3f:T1546.008\",\"d3f:attack-id\":\"T1546.008\",\"rdfs:label\":\"Accessibility Features\"},{\"@id\":\"d3f:T1546.009\",\"d3f:attack-id\":\"T1546.009\",\"rdfs:label\":\"AppCert DLLs\"},{\"@id\":\"d3f:T1546.010\",\"d3f:attack-id\":\"T1546.010\",\"rdfs:label\":\"AppInit DLLs\"},{\"@id\":\"d3f:T1546.011\",\"d3f:attack-id\":\"T1546.011\",\"rdfs:label\":\"Application Shimming\"},{\"@id\":\"d3f:T1546.012\",\"d3f:attack-id\":\"T1546.012\",\"rdfs:label\":\"Image File Execution Options Injection\"},{\"@id\":\"d3f:T1546.013\",\"d3f:attack-id\":\"T1546.013\",\"rdfs:label\":\"PowerShell Profile\"},{\"@id\":\"d3f:T1546.014\",\"d3f:attack-id\":\"T1546.014\",\"rdfs:label\":\"Emond\"},{\"@id\":\"d3f:T1546.015\",\"d3f:attack-id\":\"T1546.015\",\"rdfs:label\":\"Component Object Model Hijacking\"},{\"@id\":\"d3f:T1547\",\"d3f:attack-id\":\"T1547\",\"rdfs:label\":\"Boot or Logon Autostart Execution\"},{\"@id\":\"d3f:T1547.001\",\"d3f:attack-id\":\"T1547.001\",\"rdfs:label\":\"Registry Run Keys / Startup Folder\"},{\"@id\":\"d3f:T1547.002\",\"d3f:attack-id\":\"T1547.002\",\"rdfs:label\":\"Authentication Package\"},{\"@id\":\"d3f:T1547.003\",\"d3f:attack-id\":\"T1547.003\",\"rdfs:label\":\"Time Providers\"},{\"@id\":\"d3f:T1547.004\",\"d3f:attack-id\":\"T1547.004\",\"rdfs:label\":\"Winlogon Helper DLL\"},{\"@id\":\"d3f:T1547.005\",\"d3f:attack-id\":\"T1547.005\",\"rdfs:label\":\"Security Support Provider\"},{\"@id\":\"d3f:T1547.006\",\"d3f:attack-id\":\"T1547.006\",\"rdfs:label\":\"Kernel Modules and Extensions\"},{\"@id\":\"d3f:T1547.007\",\"d3f:attack-id\":\"T1547.007\",\"rdfs:label\":\"Re-opened Applications\"},{\"@id\":\"d3f:T1547.008\",\"d3f:attack-id\":\"T1547.008\",\"rdfs:label\":\"LSASS Driver\"},{\"@id\":\"d3f:T1547.009\",\"d3f:attack-id\":\"T1547.009\",\"rdfs:label\":\"Shortcut Modification\"},{\"@id\":\"d3f:T1547.010\",\"d3f:attack-id\":\"T1547.010\",\"rdfs:label\":\"Port Monitors\"},{\"@id\":\"d3f:T1547.011\",\"d3f:attack-id\":\"T1547.011\",\"rdfs:label\":\"Plist Modification\"},{\"@id\":\"d3f:T1547.015\",\"d3f:attack-id\":\"T1547.015\",\"rdfs:label\":\"Login Items\"},{\"@id\":\"d3f:T1548\",\"d3f:attack-id\":\"T1548\",\"rdfs:label\":\"Abuse Elevation Control Mechanism\"},{\"@id\":\"d3f:T1548.001\",\"d3f:attack-id\":\"T1548.001\",\"rdfs:label\":\"Setuid and Setgid\"},{\"@id\":\"d3f:T1548.002\",\"d3f:attack-id\":\"T1548.002\",\"rdfs:label\":\"Bypass User Access Control\"},{\"@id\":\"d3f:T1548.003\",\"d3f:attack-id\":\"T1548.003\",\"rdfs:label\":\"Sudo and Sudo Caching\"},{\"@id\":\"d3f:T1548.004\",\"d3f:attack-id\":\"T1548.004\",\"rdfs:label\":\"Elevated Execution with Prompt\"},{\"@id\":\"d3f:T1550\",\"d3f:attack-id\":\"T1550\",\"rdfs:label\":\"Use Alternate Authentication Material\"},{\"@id\":\"d3f:T1550.001\",\"d3f:attack-id\":\"T1550.001\",\"rdfs:label\":\"Application Access Token\"},{\"@id\":\"d3f:T1550.002\",\"d3f:attack-id\":\"T1550.002\",\"rdfs:label\":\"Pass The Hash\"},{\"@id\":\"d3f:T1550.003\",\"d3f:attack-id\":\"T1550.003\",\"rdfs:label\":\"Pass The Ticket\"},{\"@id\":\"d3f:T1550.004\",\"d3f:attack-id\":\"T1550.004\",\"rdfs:label\":\"Web Session Cookie\"},{\"@id\":\"d3f:T1552\",\"d3f:attack-id\":\"T1552\",\"rdfs:label\":\"Unsecured Credentials\"},{\"@id\":\"d3f:T1552.001\",\"d3f:attack-id\":\"T1552.001\",\"rdfs:label\":\"Credentials in Files\"},{\"@id\":\"d3f:T1552.002\",\"d3f:attack-id\":\"T1552.002\",\"rdfs:label\":\"Credentials in Registry\"},{\"@id\":\"d3f:T1552.003\",\"d3f:attack-id\":\"T1552.003\",\"rdfs:label\":\"Bash History\"},{\"@id\":\"d3f:T1552.004\",\"d3f:attack-id\":\"T1552.004\",\"rdfs:label\":\"Private Keys\"},{\"@id\":\"d3f:T1552.005\",\"d3f:attack-id\":\"T1552.005\",\"rdfs:label\":\"Cloud Instance Metadata  API\"},{\"@id\":\"d3f:T1552.006\",\"d3f:attack-id\":\"T1552.006\",\"rdfs:label\":\"Group Policy Preferences\"},{\"@id\":\"d3f:T1553\",\"d3f:attack-id\":\"T1553\",\"rdfs:label\":\"Subvert Trust Controls\"},{\"@id\":\"d3f:T1553.001\",\"d3f:attack-id\":\"T1553.001\",\"rdfs:label\":\"Gatekeeper Bypass\"},{\"@id\":\"d3f:T1553.002\",\"d3f:attack-id\":\"T1553.002\",\"rdfs:label\":\"Code Signing\"},{\"@id\":\"d3f:T1553.003\",\"d3f:attack-id\":\"T1553.003\",\"rdfs:label\":\"SIP and Trust Provider Hijacking\"},{\"@id\":\"d3f:T1553.004\",\"d3f:attack-id\":\"T1553.004\",\"rdfs:label\":\"Install Root Certificate\"},{\"@id\":\"d3f:T1554\",\"d3f:attack-id\":\"T1554\",\"rdfs:label\":\"Compromise Client Software Binary\"},{\"@id\":\"d3f:T1555\",\"d3f:attack-id\":\"T1555\",\"rdfs:label\":\"Credentials from Password Stores\"},{\"@id\":\"d3f:T1555.001\",\"d3f:attack-id\":\"T1555.001\",\"rdfs:label\":\"Keychain\"},{\"@id\":\"d3f:T1555.002\",\"d3f:attack-id\":\"T1555.002\",\"rdfs:label\":\"Securityd Memory\"},{\"@id\":\"d3f:T1555.003\",\"d3f:attack-id\":\"T1555.003\",\"rdfs:label\":\"Credentials from Web Browsers\"},{\"@id\":\"d3f:T1556\",\"d3f:attack-id\":\"T1556\",\"rdfs:label\":\"Modify Authentication Process\"},{\"@id\":\"d3f:T1556.001\",\"d3f:attack-id\":\"T1556.001\",\"rdfs:label\":\"Domain Controller Authentication\"},{\"@id\":\"d3f:T1556.002\",\"d3f:attack-id\":\"T1556.002\",\"rdfs:label\":\"Password Filter DLL\"},{\"@id\":\"d3f:T1556.003\",\"d3f:attack-id\":\"T1556.003\",\"rdfs:label\":\"Pluggable Authentication Modules\"},{\"@id\":\"d3f:T1556.004\",\"d3f:attack-id\":\"T1556.004\",\"rdfs:label\":\"Network Device Authentication\"},{\"@id\":\"d3f:T1557\",\"d3f:attack-id\":\"T1557\",\"rdfs:label\":\"Man-in-the-Middle\"},{\"@id\":\"d3f:T1557.001\",\"d3f:attack-id\":\"T1557.001\",\"rdfs:label\":\"LLMNR/NBT-NS Poisoning and SMB Relay\"},{\"@id\":\"d3f:T1558\",\"d3f:attack-id\":\"T1558\",\"rdfs:label\":\"Steal or Forge Kerberos Tickets\"},{\"@id\":\"d3f:T1558.001\",\"d3f:attack-id\":\"T1558.001\",\"rdfs:label\":\"Golden Ticket\"},{\"@id\":\"d3f:T1558.002\",\"d3f:attack-id\":\"T1558.002\",\"rdfs:label\":\"Silver Ticket\"},{\"@id\":\"d3f:T1558.003\",\"d3f:attack-id\":\"T1558.003\",\"rdfs:label\":\"Kerberoasting\"},{\"@id\":\"d3f:T1559\",\"d3f:attack-id\":\"T1559\",\"rdfs:label\":\"Inter-Process Communication Execution\"},{\"@id\":\"d3f:T1559.001\",\"d3f:attack-id\":\"T1559.001\",\"rdfs:label\":\"Component Object Model Execution\"},{\"@id\":\"d3f:T1559.002\",\"d3f:attack-id\":\"T1559.002\",\"rdfs:label\":\"Dynamic Data Exchange Execution\"},{\"@id\":\"d3f:T1560\",\"d3f:attack-id\":\"T1560\",\"rdfs:label\":\"Archive Collected Data\"},{\"@id\":\"d3f:T1560.001\",\"d3f:attack-id\":\"T1560.001\",\"rdfs:label\":\"Archive via Utility\"},{\"@id\":\"d3f:T1560.002\",\"d3f:attack-id\":\"T1560.002\",\"rdfs:label\":\"Archive via Library\"},{\"@id\":\"d3f:T1560.003\",\"d3f:attack-id\":\"T1560.003\",\"rdfs:label\":\"Archive via Custom Method\"},{\"@id\":\"d3f:T1561\",\"d3f:attack-id\":\"T1561\",\"rdfs:label\":\"Disk Wipe\"},{\"@id\":\"d3f:T1561.001\",\"d3f:attack-id\":\"T1561.001\",\"rdfs:label\":\"Disk Content Wipe\"},{\"@id\":\"d3f:T1561.002\",\"d3f:attack-id\":\"T1561.002\",\"rdfs:label\":\"Disk Structure Wipe\"},{\"@id\":\"d3f:T1562\",\"d3f:attack-id\":\"T1562\",\"rdfs:label\":\"Impair Defenses\"},{\"@id\":\"d3f:T1562.001\",\"d3f:attack-id\":\"T1562.001\",\"rdfs:label\":\"Disable or Modify Tools\"},{\"@id\":\"d3f:T1562.002\",\"d3f:attack-id\":\"T1562.002\",\"rdfs:label\":\"Disable Windows Event Logging\"},{\"@id\":\"d3f:T1562.003\",\"d3f:attack-id\":\"T1562.003\",\"rdfs:label\":\"Impair Command History Logging\"},{\"@id\":\"d3f:T1562.004\",\"d3f:attack-id\":\"T1562.004\",\"rdfs:label\":\"Disable or Modify System Firewall\"},{\"@id\":\"d3f:T1562.006\",\"d3f:attack-id\":\"T1562.006\",\"rdfs:label\":\"Indicator Blocking\"},{\"@id\":\"d3f:T1562.009\",\"d3f:attack-id\":\"T1562.009\",\"rdfs:label\":\"Safe Mode Boot\"},{\"@id\":\"d3f:T1562.010\",\"d3f:attack-id\":\"T1562.010\",\"rdfs:label\":\"Downgrade Attack\"},{\"@id\":\"d3f:T1563\",\"d3f:attack-id\":\"T1563\",\"rdfs:label\":\"Remote Service Session Hijacking\"},{\"@id\":\"d3f:T1563.001\",\"d3f:attack-id\":\"T1563.001\",\"rdfs:label\":\"SSH Hijacking\"},{\"@id\":\"d3f:T1563.002\",\"d3f:attack-id\":\"T1563.002\",\"rdfs:label\":\"RDP Hijacking\"},{\"@id\":\"d3f:T1564\",\"d3f:attack-id\":\"T1564\",\"rdfs:label\":\"Hide Artifacts\"},{\"@id\":\"d3f:T1564.001\",\"d3f:attack-id\":\"T1564.001\",\"rdfs:label\":\"Hidden Files and Directories\"},{\"@id\":\"d3f:T1564.002\",\"d3f:attack-id\":\"T1564.002\",\"rdfs:label\":\"Hidden Users\"},{\"@id\":\"d3f:T1564.003\",\"d3f:attack-id\":\"T1564.003\",\"rdfs:label\":\"Hidden Window\"},{\"@id\":\"d3f:T1564.004\",\"d3f:attack-id\":\"T1564.004\",\"rdfs:label\":\"NTFS File Attributes\"},{\"@id\":\"d3f:T1564.005\",\"d3f:attack-id\":\"T1564.005\",\"rdfs:label\":\"Hidden File System\"},{\"@id\":\"d3f:T1564.006\",\"d3f:attack-id\":\"T1564.006\",\"rdfs:label\":\"Run Virtual Instance\"},{\"@id\":\"d3f:T1564.007\",\"d3f:attack-id\":\"T1564.007\",\"rdfs:label\":\"VBA Stomping\"},{\"@id\":\"d3f:T1564.008\",\"d3f:attack-id\":\"T1564.008\",\"rdfs:label\":\"Email Hiding Rules\"},{\"@id\":\"d3f:T1564.009\",\"d3f:attack-id\":\"T1564.009\",\"rdfs:label\":\"Resource Forking\"},{\"@id\":\"d3f:T1565\",\"d3f:attack-id\":\"T1565\",\"rdfs:label\":\"Data Manipulation\"},{\"@id\":\"d3f:T1565.001\",\"d3f:attack-id\":\"T1565.001\",\"rdfs:label\":\"Stored Data Manipulation\"},{\"@id\":\"d3f:T1565.002\",\"d3f:attack-id\":\"T1565.002\",\"rdfs:label\":\"Transmitted Data Manipulation\"},{\"@id\":\"d3f:T1565.003\",\"d3f:attack-id\":\"T1565.003\",\"rdfs:label\":\"Runtime Data Manipulation\"},{\"@id\":\"d3f:T1566\",\"d3f:attack-id\":\"T1566\",\"rdfs:label\":\"Phishing\"},{\"@id\":\"d3f:T1566.001\",\"d3f:attack-id\":\"T1566.001\",\"rdfs:label\":\"Spearphishing Attachment\"},{\"@id\":\"d3f:T1566.002\",\"d3f:attack-id\":\"T1566.002\",\"rdfs:label\":\"Spearphishing Link\"},{\"@id\":\"d3f:T1566.003\",\"d3f:attack-id\":\"T1566.003\",\"rdfs:label\":\"Spearphishing Via Service\"},{\"@id\":\"d3f:T1567\",\"d3f:attack-id\":\"T1567\",\"rdfs:label\":\"Exfiltration Over Web Service\"},{\"@id\":\"d3f:T1567.001\",\"d3f:attack-id\":\"T1567.001\",\"rdfs:label\":\"Exfiltration to Code Repository\"},{\"@id\":\"d3f:T1567.002\",\"d3f:attack-id\":\"T1567.002\",\"rdfs:label\":\"Exfiltration to Cloud Storage\"},{\"@id\":\"d3f:T1568\",\"d3f:attack-id\":\"T1568\",\"rdfs:label\":\"Dynamic Resolution\"},{\"@id\":\"d3f:T1568.001\",\"d3f:attack-id\":\"T1568.001\",\"rdfs:label\":\"Fast Flux DNS\"},{\"@id\":\"d3f:T1568.002\",\"d3f:attack-id\":\"T1568.002\",\"rdfs:label\":\"Domain Generation Algorithms\"},{\"@id\":\"d3f:T1568.003\",\"d3f:attack-id\":\"T1568.003\",\"rdfs:label\":\"DNS Calculation\"},{\"@id\":\"d3f:T1569\",\"d3f:attack-id\":\"T1569\",\"rdfs:label\":\"System Services\"},{\"@id\":\"d3f:T1569.001\",\"d3f:attack-id\":\"T1569.001\",\"rdfs:label\":\"Launchctl\"},{\"@id\":\"d3f:T1569.002\",\"d3f:attack-id\":\"T1569.002\",\"rdfs:label\":\"Service Execution\"},{\"@id\":\"d3f:T1570\",\"d3f:attack-id\":\"T1570\",\"rdfs:label\":\"Lateral Tool Transfer\"},{\"@id\":\"d3f:T1571\",\"d3f:attack-id\":\"T1571\",\"rdfs:label\":\"Non-Standard Port\"},{\"@id\":\"d3f:T1572\",\"d3f:attack-id\":\"T1572\",\"rdfs:label\":\"Protocol Tunneling\"},{\"@id\":\"d3f:T1573\",\"d3f:attack-id\":\"T1573\",\"rdfs:label\":\"Encrypted Channel\"},{\"@id\":\"d3f:T1573.001\",\"d3f:attack-id\":\"T1573.001\",\"rdfs:label\":\"Symmetric Cryptography\"},{\"@id\":\"d3f:T1573.002\",\"d3f:attack-id\":\"T1573.002\",\"rdfs:label\":\"Asymmetric Cryptography\"},{\"@id\":\"d3f:T1574\",\"d3f:attack-id\":\"T1574\",\"rdfs:label\":\"Hijack Execution Flow\"},{\"@id\":\"d3f:T1574.001\",\"d3f:attack-id\":\"T1574.001\",\"rdfs:label\":\"DLL Search Order Hijacking\"},{\"@id\":\"d3f:T1574.002\",\"d3f:attack-id\":\"T1574.002\",\"rdfs:label\":\"DLL Side-Loading\"},{\"@id\":\"d3f:T1574.004\",\"d3f:attack-id\":\"T1574.004\",\"rdfs:label\":\"Dylib Hijacking\"},{\"@id\":\"d3f:T1574.005\",\"d3f:attack-id\":\"T1574.005\",\"rdfs:label\":\"Executable Installer File Permissions Weakness\"},{\"@id\":\"d3f:T1574.006\",\"d3f:attack-id\":\"T1574.006\",\"rdfs:label\":\"LD_PRELOAD\"},{\"@id\":\"d3f:T1574.007\",\"d3f:attack-id\":\"T1574.007\",\"rdfs:label\":\"Path Interception by PATH Environment Variable\"},{\"@id\":\"d3f:T1574.008\",\"d3f:attack-id\":\"T1574.008\",\"rdfs:label\":\"Path Interception by Search Order Hijacking\"},{\"@id\":\"d3f:T1574.009\",\"d3f:attack-id\":\"T1574.009\",\"rdfs:label\":\"Path Interception by Unquoted Path\"},{\"@id\":\"d3f:T1574.010\",\"d3f:attack-id\":\"T1574.010\",\"rdfs:label\":\"Services File Permissions Weakness\"},{\"@id\":\"d3f:T1574.011\",\"d3f:attack-id\":\"T1574.011\",\"rdfs:label\":\"Services Registry Permissions Weakness\"},{\"@id\":\"d3f:T1574.012\",\"d3f:attack-id\":\"T1574.012\",\"rdfs:label\":\"COR_PROFILER\"},{\"@id\":\"d3f:T1614\",\"d3f:attack-id\":\"T1614\",\"rdfs:label\":\"System Location Discovery\"},{\"@id\":\"d3f:T1614.001\",\"d3f:attack-id\":\"T1614.001\",\"rdfs:label\":\"System Language Discovery\"},{\"@id\":\"d3f:T1615\",\"d3f:attack-id\":\"T1615\",\"rdfs:label\":\"Group Policy Discovery\"},{\"@id\":\"d3f:T1619\",\"d3f:attack-id\":\"T1619\",\"rdfs:label\":\"Cloud Storage Object Discovery\"},{\"@id\":\"d3f:T1620\",\"d3f:attack-id\":\"T1620\",\"rdfs:label\":\"Reflective Code Loading\"}]}"}</script></div>
+	</script><script type="application/json" sveltekit:data-type="data" sveltekit:data-url="/api/offensive-technique/all.json">{"status":200,"statusText":"","headers":{"content-type":"text/plain;charset=UTF-8"},"body":"{\"@context\":{\"d3f\":\"http://d3fend.mitre.org/ontologies/d3fend.owl#\",\"rdfs\":\"http://www.w3.org/2000/01/rdf-schema#\",\"skos\":\"http://www.w3.org/2004/02/skos/core#\",\"owl\":\"http://www.w3.org/2002/07/owl#\"},\"@graph\":[{\"@id\":\"d3f:T1001\",\"d3f:attack-id\":\"T1001\",\"rdfs:label\":\"Data Obfuscation\"},{\"@id\":\"d3f:T1001.001\",\"d3f:attack-id\":\"T1001.001\",\"rdfs:label\":\"Junk Data\"},{\"@id\":\"d3f:T1001.002\",\"d3f:attack-id\":\"T1001.002\",\"rdfs:label\":\"Steganography\"},{\"@id\":\"d3f:T1001.003\",\"d3f:attack-id\":\"T1001.003\",\"rdfs:label\":\"Protocol Impersonation\"},{\"@id\":\"d3f:T1002\",\"d3f:attack-id\":\"T1002\",\"rdfs:label\":\"Data Compressed\"},{\"@id\":\"d3f:T1003\",\"d3f:attack-id\":\"T1003\",\"rdfs:label\":\"OS Credential Dumping\"},{\"@id\":\"d3f:T1003.001\",\"d3f:attack-id\":\"T1003.001\",\"rdfs:label\":\"LSASS Memory\"},{\"@id\":\"d3f:T1003.002\",\"d3f:attack-id\":\"T1003.002\",\"rdfs:label\":\"Security Account Manager\"},{\"@id\":\"d3f:T1003.003\",\"d3f:attack-id\":\"T1003.003\",\"rdfs:label\":\"NTDS\"},{\"@id\":\"d3f:T1003.004\",\"d3f:attack-id\":\"T1003.004\",\"rdfs:label\":\"LSA Secrets\"},{\"@id\":\"d3f:T1003.005\",\"d3f:attack-id\":\"T1003.005\",\"rdfs:label\":\"Cached Domain Credentials\"},{\"@id\":\"d3f:T1003.006\",\"d3f:attack-id\":\"T1003.006\",\"rdfs:label\":\"DCSync\"},{\"@id\":\"d3f:T1003.007\",\"d3f:attack-id\":\"T1003.007\",\"rdfs:label\":\"Proc Filesystem\"},{\"@id\":\"d3f:T1003.008\",\"d3f:attack-id\":\"T1003.008\",\"rdfs:label\":\"/etc/passwd and /etc/shadow\"},{\"@id\":\"d3f:T1004\",\"d3f:attack-id\":\"T1004\",\"rdfs:label\":\"Winlogon Helper DLL\"},{\"@id\":\"d3f:T1005\",\"d3f:attack-id\":\"T1005\",\"rdfs:label\":\"Data from Local System\"},{\"@id\":\"d3f:T1006\",\"d3f:attack-id\":\"T1006\",\"rdfs:label\":\"Direct Volume Access\"},{\"@id\":\"d3f:T1007\",\"d3f:attack-id\":\"T1007\",\"rdfs:label\":\"System Service Discovery\"},{\"@id\":\"d3f:T1008\",\"d3f:attack-id\":\"T1008\",\"rdfs:label\":\"Fallback Channels\"},{\"@id\":\"d3f:T1009\",\"d3f:attack-id\":\"T1009\",\"rdfs:label\":\"Binary Padding\"},{\"@id\":\"d3f:T1010\",\"d3f:attack-id\":\"T1010\",\"rdfs:label\":\"Application Window Discovery\"},{\"@id\":\"d3f:T1011\",\"d3f:attack-id\":\"T1011\",\"rdfs:label\":\"Exfiltration Over Other Network Medium\"},{\"@id\":\"d3f:T1011.001\",\"d3f:attack-id\":\"T1011.001\",\"rdfs:label\":\"Exfiltration Over Bluetooth\"},{\"@id\":\"d3f:T1012\",\"d3f:attack-id\":\"T1012\",\"rdfs:label\":\"Query Registry\"},{\"@id\":\"d3f:T1013\",\"d3f:attack-id\":\"T1013\",\"rdfs:label\":\"Port Monitors\"},{\"@id\":\"d3f:T1014\",\"d3f:attack-id\":\"T1014\",\"rdfs:label\":\"Rootkit\"},{\"@id\":\"d3f:T1015\",\"d3f:attack-id\":\"T1015\",\"rdfs:label\":\"Accessibility Features\"},{\"@id\":\"d3f:T1016\",\"d3f:attack-id\":\"T1016\",\"rdfs:label\":\"System Network Configuration Discovery\"},{\"@id\":\"d3f:T1016.001\",\"d3f:attack-id\":\"T1016.001\",\"rdfs:label\":\"Internet Connection Discovery\"},{\"@id\":\"d3f:T1017\",\"d3f:attack-id\":\"T1017\",\"rdfs:label\":\"Application Deployment Software\"},{\"@id\":\"d3f:T1018\",\"d3f:attack-id\":\"T1018\",\"rdfs:label\":\"Remote System Discovery\"},{\"@id\":\"d3f:T1019\",\"d3f:attack-id\":\"T1019\",\"rdfs:label\":\"System Firmware\"},{\"@id\":\"d3f:T1020\",\"d3f:attack-id\":\"T1020\",\"rdfs:label\":\"Automated Exfiltration\"},{\"@id\":\"d3f:T1020.001\",\"d3f:attack-id\":\"T1020.001\",\"rdfs:label\":\"Traffic Duplication\"},{\"@id\":\"d3f:T1021\",\"d3f:attack-id\":\"T1021\",\"rdfs:label\":\"Remote Services\"},{\"@id\":\"d3f:T1021.001\",\"d3f:attack-id\":\"T1021.001\",\"rdfs:label\":\"Remote Desktop Protocol\"},{\"@id\":\"d3f:T1021.002\",\"d3f:attack-id\":\"T1021.002\",\"rdfs:label\":\"SMB/Windows Admin Shares\"},{\"@id\":\"d3f:T1021.003\",\"d3f:attack-id\":\"T1021.003\",\"rdfs:label\":\"Distributed Component Object Model\"},{\"@id\":\"d3f:T1021.004\",\"d3f:attack-id\":\"T1021.004\",\"rdfs:label\":\"SSH\"},{\"@id\":\"d3f:T1021.005\",\"d3f:attack-id\":\"T1021.005\",\"rdfs:label\":\"VNC\"},{\"@id\":\"d3f:T1021.006\",\"d3f:attack-id\":\"T1021.006\",\"rdfs:label\":\"Windows Remote Management\"},{\"@id\":\"d3f:T1022\",\"d3f:attack-id\":\"T1022\",\"rdfs:label\":\"Data Encrypted\"},{\"@id\":\"d3f:T1023\",\"d3f:attack-id\":\"T1023\",\"rdfs:label\":\"Shortcut Modification\"},{\"@id\":\"d3f:T1024\",\"d3f:attack-id\":\"T1024\",\"rdfs:label\":\"Custom Cryptographic Protocol\"},{\"@id\":\"d3f:T1025\",\"d3f:attack-id\":\"T1025\",\"rdfs:label\":\"Data from Removable Media\"},{\"@id\":\"d3f:T1027\",\"d3f:attack-id\":\"T1027\",\"rdfs:label\":\"Obfuscated Files or Information\"},{\"@id\":\"d3f:T1027.001\",\"d3f:attack-id\":\"T1027.001\",\"rdfs:label\":\"Binary Padding\"},{\"@id\":\"d3f:T1027.002\",\"d3f:attack-id\":\"T1027.002\",\"rdfs:label\":\"Software Packing\"},{\"@id\":\"d3f:T1027.003\",\"d3f:attack-id\":\"T1027.003\",\"rdfs:label\":\"Steganography\"},{\"@id\":\"d3f:T1027.004\",\"d3f:attack-id\":\"T1027.004\",\"rdfs:label\":\"Compile After Delivery\"},{\"@id\":\"d3f:T1027.005\",\"d3f:attack-id\":\"T1027.005\",\"rdfs:label\":\"Indicator Removal from Tools\"},{\"@id\":\"d3f:T1027.006\",\"d3f:attack-id\":\"T1027.006\",\"rdfs:label\":\"HTML Smuggling\"},{\"@id\":\"d3f:T1028\",\"d3f:attack-id\":\"T1028\",\"rdfs:label\":\"Windows Remote Management\"},{\"@id\":\"d3f:T1029\",\"d3f:attack-id\":\"T1029\",\"rdfs:label\":\"Scheduled Transfer\"},{\"@id\":\"d3f:T1030\",\"d3f:attack-id\":\"T1030\",\"rdfs:label\":\"Data Transfer Size Limits\"},{\"@id\":\"d3f:T1031\",\"d3f:attack-id\":\"T1031\",\"rdfs:label\":\"Modify Existing Service\"},{\"@id\":\"d3f:T1032\",\"d3f:attack-id\":\"T1032\",\"rdfs:label\":\"Standard Cryptographic Protocol\"},{\"@id\":\"d3f:T1033\",\"d3f:attack-id\":\"T1033\",\"rdfs:label\":\"System Owner/User Discovery\"},{\"@id\":\"d3f:T1035\",\"d3f:attack-id\":\"T1035\",\"rdfs:label\":\"Service Execution\"},{\"@id\":\"d3f:T1036\",\"d3f:attack-id\":\"T1036\",\"rdfs:label\":\"Masquerading\"},{\"@id\":\"d3f:T1036.001\",\"d3f:attack-id\":\"T1036.001\",\"rdfs:label\":\"Invalid Code Signature\"},{\"@id\":\"d3f:T1036.002\",\"d3f:attack-id\":\"T1036.002\",\"rdfs:label\":\"Right-to-Left Override\"},{\"@id\":\"d3f:T1036.003\",\"d3f:attack-id\":\"T1036.003\",\"rdfs:label\":\"Rename System Utilities\"},{\"@id\":\"d3f:T1036.004\",\"d3f:attack-id\":\"T1036.004\",\"rdfs:label\":\"Masquerade Task or Service\"},{\"@id\":\"d3f:T1036.005\",\"d3f:attack-id\":\"T1036.005\",\"rdfs:label\":\"Match Legitimate Name or Location\"},{\"@id\":\"d3f:T1036.006\",\"d3f:attack-id\":\"T1036.006\",\"rdfs:label\":\"Space after Filename\"},{\"@id\":\"d3f:T1036.007\",\"d3f:attack-id\":\"T1036.007\",\"rdfs:label\":\"Double File Extension\"},{\"@id\":\"d3f:T1037\",\"d3f:attack-id\":\"T1037\",\"rdfs:label\":\"Boot or Logon Initialization Scripts\"},{\"@id\":\"d3f:T1037.001\",\"d3f:attack-id\":\"T1037.001\",\"rdfs:label\":\"Logon Script (Windows)\"},{\"@id\":\"d3f:T1037.002\",\"d3f:attack-id\":\"T1037.002\",\"rdfs:label\":\"Logon Script (Mac)\"},{\"@id\":\"d3f:T1037.003\",\"d3f:attack-id\":\"T1037.003\",\"rdfs:label\":\"Network Logon Script\"},{\"@id\":\"d3f:T1037.004\",\"d3f:attack-id\":\"T1037.004\",\"rdfs:label\":\"Rc.common\"},{\"@id\":\"d3f:T1037.005\",\"d3f:attack-id\":\"T1037.005\",\"rdfs:label\":\"Startup Items\"},{\"@id\":\"d3f:T1038\",\"d3f:attack-id\":\"T1038\",\"rdfs:label\":\"DLL Search Order Hijacking\"},{\"@id\":\"d3f:T1039\",\"d3f:attack-id\":\"T1039\",\"rdfs:label\":\"Data from Network Shared Drive\"},{\"@id\":\"d3f:T1040\",\"d3f:attack-id\":\"T1040\",\"rdfs:label\":\"Network Sniffing\"},{\"@id\":\"d3f:T1041\",\"d3f:attack-id\":\"T1041\",\"rdfs:label\":\"Exfiltration Over C2 Channel\"},{\"@id\":\"d3f:T1042\",\"d3f:attack-id\":\"T1042\",\"rdfs:label\":\"Change Default File Association\"},{\"@id\":\"d3f:T1044\",\"d3f:attack-id\":\"T1044\",\"rdfs:label\":\"File System Permissions Weakness\"},{\"@id\":\"d3f:T1045\",\"d3f:attack-id\":\"T1045\",\"rdfs:label\":\"Software Packing\"},{\"@id\":\"d3f:T1046\",\"d3f:attack-id\":\"T1046\",\"rdfs:label\":\"Network Service Scanning\"},{\"@id\":\"d3f:T1047\",\"d3f:attack-id\":\"T1047\",\"rdfs:label\":\"Windows Management Instrumentation Execution\"},{\"@id\":\"d3f:T1048\",\"d3f:attack-id\":\"T1048\",\"rdfs:label\":\"Exfiltration Over Alternative Protocol\"},{\"@id\":\"d3f:T1048.001\",\"d3f:attack-id\":\"T1048.001\",\"rdfs:label\":\"Exfiltration Over Symmetric Encrypted Non-C2 Protocol\"},{\"@id\":\"d3f:T1048.002\",\"d3f:attack-id\":\"T1048.002\",\"rdfs:label\":\"Exfiltration Over Asymmetric Encrypted Non-C2 Protocol\"},{\"@id\":\"d3f:T1048.003\",\"d3f:attack-id\":\"T1048.003\",\"rdfs:label\":\"Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol\"},{\"@id\":\"d3f:T1049\",\"d3f:attack-id\":\"T1049\",\"rdfs:label\":\"System Network Connections Discovery\"},{\"@id\":\"d3f:T1050\",\"d3f:attack-id\":\"T1050\",\"rdfs:label\":\"New Service\"},{\"@id\":\"d3f:T1052\",\"d3f:attack-id\":\"T1052\",\"rdfs:label\":\"Exfiltration Over Physical Medium\"},{\"@id\":\"d3f:T1052.001\",\"d3f:attack-id\":\"T1052.001\",\"rdfs:label\":\"Exfiltration over USB\"},{\"@id\":\"d3f:T1053\",\"d3f:attack-id\":\"T1053\",\"rdfs:label\":\"Scheduled Task/Job Execution\"},{\"@id\":\"d3f:T1053.001\",\"d3f:attack-id\":\"T1053.001\",\"rdfs:label\":\"At (Linux) Execution\"},{\"@id\":\"d3f:T1053.002\",\"d3f:attack-id\":\"T1053.002\",\"rdfs:label\":\"At (Windows) Execution\"},{\"@id\":\"d3f:T1053.003\",\"d3f:attack-id\":\"T1053.003\",\"rdfs:label\":\"Cron Execution\"},{\"@id\":\"d3f:T1053.004\",\"d3f:attack-id\":\"T1053.004\",\"rdfs:label\":\"Launchd\"},{\"@id\":\"d3f:T1053.005\",\"d3f:attack-id\":\"T1053.005\",\"rdfs:label\":\"Schtasks Execution\"},{\"@id\":\"d3f:T1053.006\",\"d3f:attack-id\":\"T1053.006\",\"rdfs:label\":\"Systemd Timers\"},{\"@id\":\"d3f:T1053.007\",\"d3f:attack-id\":\"T1053.007\",\"rdfs:label\":\"Container Orchestration Job\"},{\"@id\":\"d3f:T1054\",\"d3f:attack-id\":\"T1054\",\"rdfs:label\":\"Indicator Blocking\"},{\"@id\":\"d3f:T1055\",\"d3f:attack-id\":\"T1055\",\"rdfs:label\":\"Process Injection\"},{\"@id\":\"d3f:T1055.001\",\"d3f:attack-id\":\"T1055.001\",\"rdfs:label\":\"Dynamic-link Library Injection\"},{\"@id\":\"d3f:T1055.002\",\"d3f:attack-id\":\"T1055.002\",\"rdfs:label\":\"Portable Executable Injection\"},{\"@id\":\"d3f:T1055.003\",\"d3f:attack-id\":\"T1055.003\",\"rdfs:label\":\"Thread Execution Hijacking\"},{\"@id\":\"d3f:T1055.004\",\"d3f:attack-id\":\"T1055.004\",\"rdfs:label\":\"Asynchronous Procedure Call\"},{\"@id\":\"d3f:T1055.005\",\"d3f:attack-id\":\"T1055.005\",\"rdfs:label\":\"Thread Local Storage\"},{\"@id\":\"d3f:T1055.008\",\"d3f:attack-id\":\"T1055.008\",\"rdfs:label\":\"Ptrace System Calls\"},{\"@id\":\"d3f:T1055.009\",\"d3f:attack-id\":\"T1055.009\",\"rdfs:label\":\"Proc Memory\"},{\"@id\":\"d3f:T1055.011\",\"d3f:attack-id\":\"T1055.011\",\"rdfs:label\":\"Extra Window Memory Injection\"},{\"@id\":\"d3f:T1055.012\",\"d3f:attack-id\":\"T1055.012\",\"rdfs:label\":\"Process Hollowing\"},{\"@id\":\"d3f:T1055.013\",\"d3f:attack-id\":\"T1055.013\",\"rdfs:label\":\"Process Doppelgänging\"},{\"@id\":\"d3f:T1055.014\",\"d3f:attack-id\":\"T1055.014\",\"rdfs:label\":\"VDSO Hijacking\"},{\"@id\":\"d3f:T1055.015\",\"d3f:attack-id\":\"T1055.015\",\"rdfs:label\":\"ListPlanting\"},{\"@id\":\"d3f:T1056\",\"d3f:attack-id\":\"T1056\",\"rdfs:label\":\"Input Capture\"},{\"@id\":\"d3f:T1056.001\",\"d3f:attack-id\":\"T1056.001\",\"rdfs:label\":\"Keylogging\"},{\"@id\":\"d3f:T1056.002\",\"d3f:attack-id\":\"T1056.002\",\"rdfs:label\":\"GUI Input Capture\"},{\"@id\":\"d3f:T1056.003\",\"d3f:attack-id\":\"T1056.003\",\"rdfs:label\":\"Web Portal Capture\"},{\"@id\":\"d3f:T1056.004\",\"d3f:attack-id\":\"T1056.004\",\"rdfs:label\":\"Credential API Hooking\"},{\"@id\":\"d3f:T1057\",\"d3f:attack-id\":\"T1057\",\"rdfs:label\":\"Process Discovery\"},{\"@id\":\"d3f:T1058\",\"d3f:attack-id\":\"T1058\",\"rdfs:label\":\"Service Registry Permissions Weakness\"},{\"@id\":\"d3f:T1059\",\"d3f:attack-id\":\"T1059\",\"rdfs:label\":\"Command and Scripting Interpreter Execution\"},{\"@id\":\"d3f:T1059.001\",\"d3f:attack-id\":\"T1059.001\",\"rdfs:label\":\"PowerShell Execution\"},{\"@id\":\"d3f:T1059.002\",\"d3f:attack-id\":\"T1059.002\",\"rdfs:label\":\"AppleScript Execution\"},{\"@id\":\"d3f:T1059.003\",\"d3f:attack-id\":\"T1059.003\",\"rdfs:label\":\"Windows Command Shell Execution\"},{\"@id\":\"d3f:T1059.004\",\"d3f:attack-id\":\"T1059.004\",\"rdfs:label\":\"Unix Shell Execution\"},{\"@id\":\"d3f:T1059.005\",\"d3f:attack-id\":\"T1059.005\",\"rdfs:label\":\"VBScript Execution\"},{\"@id\":\"d3f:T1059.006\",\"d3f:attack-id\":\"T1059.006\",\"rdfs:label\":\"Python Execution\"},{\"@id\":\"d3f:T1059.007\",\"d3f:attack-id\":\"T1059.007\",\"rdfs:label\":\"JavaScript/JScript\"},{\"@id\":\"d3f:T1059.008\",\"d3f:attack-id\":\"T1059.008\",\"rdfs:label\":\"Network Device CLI\"},{\"@id\":\"d3f:T1060\",\"d3f:attack-id\":\"T1060\",\"rdfs:label\":\"Registry Run Keys / Startup Folder\"},{\"@id\":\"d3f:T1063\",\"d3f:attack-id\":\"T1063\",\"rdfs:label\":\"Security Software Discovery\"},{\"@id\":\"d3f:T1065\",\"d3f:attack-id\":\"T1065\",\"rdfs:label\":\"Uncommonly Used Port\"},{\"@id\":\"d3f:T1066\",\"d3f:attack-id\":\"T1066\",\"rdfs:label\":\"Indicator Removal from Tools\"},{\"@id\":\"d3f:T1067\",\"d3f:attack-id\":\"T1067\",\"rdfs:label\":\"Bootkit\"},{\"@id\":\"d3f:T1068\",\"d3f:attack-id\":\"T1068\",\"rdfs:label\":\"Exploitation for Privilege Escalation\"},{\"@id\":\"d3f:T1069\",\"d3f:attack-id\":\"T1069\",\"rdfs:label\":\"Permission Groups Discovery\"},{\"@id\":\"d3f:T1069.001\",\"d3f:attack-id\":\"T1069.001\",\"rdfs:label\":\"Local Groups\"},{\"@id\":\"d3f:T1069.002\",\"d3f:attack-id\":\"T1069.002\",\"rdfs:label\":\"Domain Groups\"},{\"@id\":\"d3f:T1069.003\",\"d3f:attack-id\":\"T1069.003\",\"rdfs:label\":\"Cloud Groups\"},{\"@id\":\"d3f:T1070\",\"d3f:attack-id\":\"T1070\",\"rdfs:label\":\"Indicator Removal on Host\"},{\"@id\":\"d3f:T1070.001\",\"d3f:attack-id\":\"T1070.001\",\"rdfs:label\":\"Clear Windows Event Logs\"},{\"@id\":\"d3f:T1070.002\",\"d3f:attack-id\":\"T1070.002\",\"rdfs:label\":\"Clear Linux or Mac System Logs\"},{\"@id\":\"d3f:T1070.003\",\"d3f:attack-id\":\"T1070.003\",\"rdfs:label\":\"Clear Command History\"},{\"@id\":\"d3f:T1070.004\",\"d3f:attack-id\":\"T1070.004\",\"rdfs:label\":\"File Deletion\"},{\"@id\":\"d3f:T1070.005\",\"d3f:attack-id\":\"T1070.005\",\"rdfs:label\":\"Network Share Connection Removal\"},{\"@id\":\"d3f:T1070.006\",\"d3f:attack-id\":\"T1070.006\",\"rdfs:label\":\"Timestomp\"},{\"@id\":\"d3f:T1071\",\"d3f:attack-id\":\"T1071\",\"rdfs:label\":\"Application Layer Protocol\"},{\"@id\":\"d3f:T1071.001\",\"d3f:attack-id\":\"T1071.001\",\"rdfs:label\":\"Web Protocols\"},{\"@id\":\"d3f:T1071.002\",\"d3f:attack-id\":\"T1071.002\",\"rdfs:label\":\"File Transfer Protocols\"},{\"@id\":\"d3f:T1071.003\",\"d3f:attack-id\":\"T1071.003\",\"rdfs:label\":\"Mail Protocols\"},{\"@id\":\"d3f:T1071.004\",\"d3f:attack-id\":\"T1071.004\",\"rdfs:label\":\"DNS\"},{\"@id\":\"d3f:T1072\",\"d3f:attack-id\":\"T1072\",\"rdfs:label\":\"Software Deployment Tools Execution\"},{\"@id\":\"d3f:T1073\",\"d3f:attack-id\":\"T1073\",\"rdfs:label\":\"DLL Side-Loading\"},{\"@id\":\"d3f:T1074\",\"d3f:attack-id\":\"T1074\",\"rdfs:label\":\"Data Staged\"},{\"@id\":\"d3f:T1074.001\",\"d3f:attack-id\":\"T1074.001\",\"rdfs:label\":\"Local Data Staging\"},{\"@id\":\"d3f:T1074.002\",\"d3f:attack-id\":\"T1074.002\",\"rdfs:label\":\"Remote Data Staging\"},{\"@id\":\"d3f:T1075\",\"d3f:attack-id\":\"T1075\",\"rdfs:label\":\"Pass the Hash\"},{\"@id\":\"d3f:T1076\",\"d3f:attack-id\":\"T1076\",\"rdfs:label\":\"Remote Desktop Protocol\"},{\"@id\":\"d3f:T1077\",\"d3f:attack-id\":\"T1077\",\"rdfs:label\":\"Windows Admin Shares\"},{\"@id\":\"d3f:T1078\",\"d3f:attack-id\":\"T1078\",\"rdfs:label\":\"Valid Accounts\"},{\"@id\":\"d3f:T1078.001\",\"d3f:attack-id\":\"T1078.001\",\"rdfs:label\":\"Default Accounts\"},{\"@id\":\"d3f:T1078.002\",\"d3f:attack-id\":\"T1078.002\",\"rdfs:label\":\"Domain Accounts\"},{\"@id\":\"d3f:T1078.003\",\"d3f:attack-id\":\"T1078.003\",\"rdfs:label\":\"Local Accounts\"},{\"@id\":\"d3f:T1078.004\",\"d3f:attack-id\":\"T1078.004\",\"rdfs:label\":\"Cloud Accounts\"},{\"@id\":\"d3f:T1079\",\"d3f:attack-id\":\"T1079\",\"rdfs:label\":\"Multilayer Encryption\"},{\"@id\":\"d3f:T1080\",\"d3f:attack-id\":\"T1080\",\"rdfs:label\":\"Taint Shared Content\"},{\"@id\":\"d3f:T1081\",\"d3f:attack-id\":\"T1081\",\"rdfs:label\":\"Credentials in Files\"},{\"@id\":\"d3f:T1082\",\"d3f:attack-id\":\"T1082\",\"rdfs:label\":\"System Information Discovery\"},{\"@id\":\"d3f:T1083\",\"d3f:attack-id\":\"T1083\",\"rdfs:label\":\"File and Directory Discovery\"},{\"@id\":\"d3f:T1084\",\"d3f:attack-id\":\"T1084\",\"rdfs:label\":\"Windows Management Instrumentation Event Subscription\"},{\"@id\":\"d3f:T1085\",\"d3f:attack-id\":\"T1085\",\"rdfs:label\":\"Rundll32\"},{\"@id\":\"d3f:T1086\",\"d3f:attack-id\":\"T1086\",\"rdfs:label\":\"PowerShell\"},{\"@id\":\"d3f:T1087\",\"d3f:attack-id\":\"T1087\",\"rdfs:label\":\"Account Discovery\"},{\"@id\":\"d3f:T1087.001\",\"d3f:attack-id\":\"T1087.001\",\"rdfs:label\":\"Local Account\"},{\"@id\":\"d3f:T1087.002\",\"d3f:attack-id\":\"T1087.002\",\"rdfs:label\":\"Domain Account\"},{\"@id\":\"d3f:T1087.003\",\"d3f:attack-id\":\"T1087.003\",\"rdfs:label\":\"Email Account\"},{\"@id\":\"d3f:T1087.004\",\"d3f:attack-id\":\"T1087.004\",\"rdfs:label\":\"Cloud Account\"},{\"@id\":\"d3f:T1088\",\"d3f:attack-id\":\"T1088\",\"rdfs:label\":\"Bypass User Account Control\"},{\"@id\":\"d3f:T1089\",\"d3f:attack-id\":\"T1089\",\"rdfs:label\":\"Disabling Security Tools\"},{\"@id\":\"d3f:T1090\",\"d3f:attack-id\":\"T1090\",\"rdfs:label\":\"Proxy\"},{\"@id\":\"d3f:T1090.001\",\"d3f:attack-id\":\"T1090.001\",\"rdfs:label\":\"Internal Proxy\"},{\"@id\":\"d3f:T1090.002\",\"d3f:attack-id\":\"T1090.002\",\"rdfs:label\":\"External Proxy\"},{\"@id\":\"d3f:T1090.003\",\"d3f:attack-id\":\"T1090.003\",\"rdfs:label\":\"Multi-hop Proxy\"},{\"@id\":\"d3f:T1090.004\",\"d3f:attack-id\":\"T1090.004\",\"rdfs:label\":\"Domain Fronting\"},{\"@id\":\"d3f:T1091\",\"d3f:attack-id\":\"T1091\",\"rdfs:label\":\"Replication Through Removable Media\"},{\"@id\":\"d3f:T1092\",\"d3f:attack-id\":\"T1092\",\"rdfs:label\":\"Communication Through Removable Media\"},{\"@id\":\"d3f:T1093\",\"d3f:attack-id\":\"T1093\",\"rdfs:label\":\"Process Hollowing\"},{\"@id\":\"d3f:T1094\",\"d3f:attack-id\":\"T1094\",\"rdfs:label\":\"Custom Command and Control Protocol\"},{\"@id\":\"d3f:T1095\",\"d3f:attack-id\":\"T1095\",\"rdfs:label\":\"Non-Application Layer Protocol\"},{\"@id\":\"d3f:T1096\",\"d3f:attack-id\":\"T1096\",\"rdfs:label\":\"NTFS File Attributes\"},{\"@id\":\"d3f:T1097\",\"d3f:attack-id\":\"T1097\",\"rdfs:label\":\"Pass the Ticket\"},{\"@id\":\"d3f:T1098\",\"d3f:attack-id\":\"T1098\",\"rdfs:label\":\"Account Manipulation\"},{\"@id\":\"d3f:T1098.001\",\"d3f:attack-id\":\"T1098.001\",\"rdfs:label\":\"Additional Azure Service Principal Credentials\"},{\"@id\":\"d3f:T1098.002\",\"d3f:attack-id\":\"T1098.002\",\"rdfs:label\":\"Exchange Email Delegate Permissions\"},{\"@id\":\"d3f:T1098.003\",\"d3f:attack-id\":\"T1098.003\",\"rdfs:label\":\"Add Office 365 Global Administrator Role\"},{\"@id\":\"d3f:T1098.004\",\"d3f:attack-id\":\"T1098.004\",\"rdfs:label\":\"SSH Authorized Keys\"},{\"@id\":\"d3f:T1098.005\",\"d3f:attack-id\":\"T1098.005\",\"rdfs:label\":\"Device Registration\"},{\"@id\":\"d3f:T1099\",\"d3f:attack-id\":\"T1099\",\"rdfs:label\":\"Timestomp\"},{\"@id\":\"d3f:T1100\",\"d3f:attack-id\":\"T1100\",\"rdfs:label\":\"Web Shell\"},{\"@id\":\"d3f:T1101\",\"d3f:attack-id\":\"T1101\",\"rdfs:label\":\"Security Support Provider\"},{\"@id\":\"d3f:T1102\",\"d3f:attack-id\":\"T1102\",\"rdfs:label\":\"Web Service\"},{\"@id\":\"d3f:T1102.001\",\"d3f:attack-id\":\"T1102.001\",\"rdfs:label\":\"Dead Drop Resolver\"},{\"@id\":\"d3f:T1102.002\",\"d3f:attack-id\":\"T1102.002\",\"rdfs:label\":\"Bidirectional Communication\"},{\"@id\":\"d3f:T1102.003\",\"d3f:attack-id\":\"T1102.003\",\"rdfs:label\":\"One-Way Communication\"},{\"@id\":\"d3f:T1103\",\"d3f:attack-id\":\"T1103\",\"rdfs:label\":\"AppInit DLLs\"},{\"@id\":\"d3f:T1104\",\"d3f:attack-id\":\"T1104\",\"rdfs:label\":\"Multi-Stage Channels\"},{\"@id\":\"d3f:T1105\",\"d3f:attack-id\":\"T1105\",\"rdfs:label\":\"Ingress Tool Transfer\"},{\"@id\":\"d3f:T1106\",\"d3f:attack-id\":\"T1106\",\"rdfs:label\":\"Native API Execution\"},{\"@id\":\"d3f:T1107\",\"d3f:attack-id\":\"T1107\",\"rdfs:label\":\"File Deletion\"},{\"@id\":\"d3f:T1109\",\"d3f:attack-id\":\"T1109\",\"rdfs:label\":\"Component Firmware\"},{\"@id\":\"d3f:T1110\",\"d3f:attack-id\":\"T1110\",\"rdfs:label\":\"Brute Force\"},{\"@id\":\"d3f:T1110.001\",\"d3f:attack-id\":\"T1110.001\",\"rdfs:label\":\"Password Guessing\"},{\"@id\":\"d3f:T1110.002\",\"d3f:attack-id\":\"T1110.002\",\"rdfs:label\":\"Password Cracking\"},{\"@id\":\"d3f:T1110.003\",\"d3f:attack-id\":\"T1110.003\",\"rdfs:label\":\"Password Spraying\"},{\"@id\":\"d3f:T1110.004\",\"d3f:attack-id\":\"T1110.004\",\"rdfs:label\":\"Credential Stuffing\"},{\"@id\":\"d3f:T1111\",\"d3f:attack-id\":\"T1111\",\"rdfs:label\":\"Two-Factor Authentication Interception\"},{\"@id\":\"d3f:T1112\",\"d3f:attack-id\":\"T1112\",\"rdfs:label\":\"Modify Registry\"},{\"@id\":\"d3f:T1113\",\"d3f:attack-id\":\"T1113\",\"rdfs:label\":\"Screen Capture\"},{\"@id\":\"d3f:T1114\",\"d3f:attack-id\":\"T1114\",\"rdfs:label\":\"Email Collection\"},{\"@id\":\"d3f:T1114.001\",\"d3f:attack-id\":\"T1114.001\",\"rdfs:label\":\"Local Email Collection\"},{\"@id\":\"d3f:T1114.002\",\"d3f:attack-id\":\"T1114.002\",\"rdfs:label\":\"Remote Email Collection\"},{\"@id\":\"d3f:T1114.003\",\"d3f:attack-id\":\"T1114.003\",\"rdfs:label\":\"Email Forwarding Rule\"},{\"@id\":\"d3f:T1115\",\"d3f:attack-id\":\"T1115\",\"rdfs:label\":\"Clipboard Data\"},{\"@id\":\"d3f:T1116\",\"d3f:attack-id\":\"T1116\",\"rdfs:label\":\"Code Signing\"},{\"@id\":\"d3f:T1117\",\"d3f:attack-id\":\"T1117\",\"rdfs:label\":\"Regsvr32\"},{\"@id\":\"d3f:T1118\",\"d3f:attack-id\":\"T1118\",\"rdfs:label\":\"InstallUtil\"},{\"@id\":\"d3f:T1119\",\"d3f:attack-id\":\"T1119\",\"rdfs:label\":\"Automated Collection\"},{\"@id\":\"d3f:T1120\",\"d3f:attack-id\":\"T1120\",\"rdfs:label\":\"Peripheral Device Discovery\"},{\"@id\":\"d3f:T1121\",\"d3f:attack-id\":\"T1121\",\"rdfs:label\":\"Regsvcs/Regasm\"},{\"@id\":\"d3f:T1122\",\"d3f:attack-id\":\"T1122\",\"rdfs:label\":\"Component Object Model Hijacking\"},{\"@id\":\"d3f:T1123\",\"d3f:attack-id\":\"T1123\",\"rdfs:label\":\"Audio Capture\"},{\"@id\":\"d3f:T1124\",\"d3f:attack-id\":\"T1124\",\"rdfs:label\":\"System Time Discovery\"},{\"@id\":\"d3f:T1125\",\"d3f:attack-id\":\"T1125\",\"rdfs:label\":\"Video Capture\"},{\"@id\":\"d3f:T1126\",\"d3f:attack-id\":\"T1126\",\"rdfs:label\":\"Network Share Connection Removal\"},{\"@id\":\"d3f:T1127\",\"d3f:attack-id\":\"T1127\",\"rdfs:label\":\"Trusted Developer Utilities Proxy Execution\"},{\"@id\":\"d3f:T1127.001\",\"d3f:attack-id\":\"T1127.001\",\"rdfs:label\":\"MSBuild\"},{\"@id\":\"d3f:T1128\",\"d3f:attack-id\":\"T1128\",\"rdfs:label\":\"Netsh Helper DLL\"},{\"@id\":\"d3f:T1129\",\"d3f:attack-id\":\"T1129\",\"rdfs:label\":\"Shared Modules Execution\"},{\"@id\":\"d3f:T1130\",\"d3f:attack-id\":\"T1130\",\"rdfs:label\":\"Install Root Certificate\"},{\"@id\":\"d3f:T1131\",\"d3f:attack-id\":\"T1131\",\"rdfs:label\":\"Authentication Package\"},{\"@id\":\"d3f:T1132\",\"d3f:attack-id\":\"T1132\",\"rdfs:label\":\"Data Encoding\"},{\"@id\":\"d3f:T1132.001\",\"d3f:attack-id\":\"T1132.001\",\"rdfs:label\":\"Standard Encoding\"},{\"@id\":\"d3f:T1132.002\",\"d3f:attack-id\":\"T1132.002\",\"rdfs:label\":\"Non-Standard Encoding\"},{\"@id\":\"d3f:T1133\",\"d3f:attack-id\":\"T1133\",\"rdfs:label\":\"External Remote Services\"},{\"@id\":\"d3f:T1134\",\"d3f:attack-id\":\"T1134\",\"rdfs:label\":\"Access Token Manipulation\"},{\"@id\":\"d3f:T1134.001\",\"d3f:attack-id\":\"T1134.001\",\"rdfs:label\":\"Token Impersonation/Theft\"},{\"@id\":\"d3f:T1134.002\",\"d3f:attack-id\":\"T1134.002\",\"rdfs:label\":\"Create Process with Token\"},{\"@id\":\"d3f:T1134.003\",\"d3f:attack-id\":\"T1134.003\",\"rdfs:label\":\"Make and Impersonate Token\"},{\"@id\":\"d3f:T1134.004\",\"d3f:attack-id\":\"T1134.004\",\"rdfs:label\":\"Parent PID Spoofing\"},{\"@id\":\"d3f:T1134.005\",\"d3f:attack-id\":\"T1134.005\",\"rdfs:label\":\"SID-History Injection\"},{\"@id\":\"d3f:T1135\",\"d3f:attack-id\":\"T1135\",\"rdfs:label\":\"Network Share Discovery\"},{\"@id\":\"d3f:T1136\",\"d3f:attack-id\":\"T1136\",\"rdfs:label\":\"Create Account\"},{\"@id\":\"d3f:T1136.001\",\"d3f:attack-id\":\"T1136.001\",\"rdfs:label\":\"Local Account\"},{\"@id\":\"d3f:T1136.002\",\"d3f:attack-id\":\"T1136.002\",\"rdfs:label\":\"Domain Account\"},{\"@id\":\"d3f:T1136.003\",\"d3f:attack-id\":\"T1136.003\",\"rdfs:label\":\"Cloud Account\"},{\"@id\":\"d3f:T1137\",\"d3f:attack-id\":\"T1137\",\"rdfs:label\":\"Office Application Startup\"},{\"@id\":\"d3f:T1137.001\",\"d3f:attack-id\":\"T1137.001\",\"rdfs:label\":\"Office Template Macros\"},{\"@id\":\"d3f:T1137.002\",\"d3f:attack-id\":\"T1137.002\",\"rdfs:label\":\"Office Test\"},{\"@id\":\"d3f:T1137.003\",\"d3f:attack-id\":\"T1137.003\",\"rdfs:label\":\"Outlook Forms\"},{\"@id\":\"d3f:T1137.004\",\"d3f:attack-id\":\"T1137.004\",\"rdfs:label\":\"Outlook Home Page\"},{\"@id\":\"d3f:T1137.005\",\"d3f:attack-id\":\"T1137.005\",\"rdfs:label\":\"Outlook Rules\"},{\"@id\":\"d3f:T1137.006\",\"d3f:attack-id\":\"T1137.006\",\"rdfs:label\":\"Add-ins\"},{\"@id\":\"d3f:T1138\",\"d3f:attack-id\":\"T1138\",\"rdfs:label\":\"Application Shimming\"},{\"@id\":\"d3f:T1139\",\"d3f:attack-id\":\"T1139\",\"rdfs:label\":\"Bash History\"},{\"@id\":\"d3f:T1140\",\"d3f:attack-id\":\"T1140\",\"rdfs:label\":\"Deobfuscate/Decode Files or Information\"},{\"@id\":\"d3f:T1141\",\"d3f:attack-id\":\"T1141\",\"rdfs:label\":\"Input Prompt\"},{\"@id\":\"d3f:T1142\",\"d3f:attack-id\":\"T1142\",\"rdfs:label\":\"Keychain\"},{\"@id\":\"d3f:T1143\",\"d3f:attack-id\":\"T1143\",\"rdfs:label\":\"Hidden Window\"},{\"@id\":\"d3f:T1144\",\"d3f:attack-id\":\"T1144\",\"rdfs:label\":\"Gatekeeper Bypass\"},{\"@id\":\"d3f:T1145\",\"d3f:attack-id\":\"T1145\",\"rdfs:label\":\"Private Keys\"},{\"@id\":\"d3f:T1146\",\"d3f:attack-id\":\"T1146\",\"rdfs:label\":\"Clear Command History\"},{\"@id\":\"d3f:T1147\",\"d3f:attack-id\":\"T1147\",\"rdfs:label\":\"Hidden Users\"},{\"@id\":\"d3f:T1148\",\"d3f:attack-id\":\"T1148\",\"rdfs:label\":\"HISTCONTROL\"},{\"@id\":\"d3f:T1150\",\"d3f:attack-id\":\"T1150\",\"rdfs:label\":\"Plist Modification\"},{\"@id\":\"d3f:T1151\",\"d3f:attack-id\":\"T1151\",\"rdfs:label\":\"Space after Filename\"},{\"@id\":\"d3f:T1152\",\"d3f:attack-id\":\"T1152\",\"rdfs:label\":\"Launchctl\"},{\"@id\":\"d3f:T1154\",\"d3f:attack-id\":\"T1154\",\"rdfs:label\":\"Trap\"},{\"@id\":\"d3f:T1155\",\"d3f:attack-id\":\"T1155\",\"rdfs:label\":\"AppleScript\"},{\"@id\":\"d3f:T1156\",\"d3f:attack-id\":\"T1156\",\"rdfs:label\":\"Malicious Shell Modification\"},{\"@id\":\"d3f:T1157\",\"d3f:attack-id\":\"T1157\",\"rdfs:label\":\"Dylib Hijacking\"},{\"@id\":\"d3f:T1158\",\"d3f:attack-id\":\"T1158\",\"rdfs:label\":\"Hidden Files and Directories\"},{\"@id\":\"d3f:T1159\",\"d3f:attack-id\":\"T1159\",\"rdfs:label\":\"Launch Agent\"},{\"@id\":\"d3f:T1160\",\"d3f:attack-id\":\"T1160\",\"rdfs:label\":\"Launch Daemon\"},{\"@id\":\"d3f:T1161\",\"d3f:attack-id\":\"T1161\",\"rdfs:label\":\"LC_LOAD_DYLIB Addition\"},{\"@id\":\"d3f:T1162\",\"d3f:attack-id\":\"T1162\",\"rdfs:label\":\"Login Item\"},{\"@id\":\"d3f:T1163\",\"d3f:attack-id\":\"T1163\",\"rdfs:label\":\"Rc.common\"},{\"@id\":\"d3f:T1164\",\"d3f:attack-id\":\"T1164\",\"rdfs:label\":\"Re-opened Applications\"},{\"@id\":\"d3f:T1165\",\"d3f:attack-id\":\"T1165\",\"rdfs:label\":\"Startup Items\"},{\"@id\":\"d3f:T1166\",\"d3f:attack-id\":\"T1166\",\"rdfs:label\":\"Setuid and Setgid\"},{\"@id\":\"d3f:T1167\",\"d3f:attack-id\":\"T1167\",\"rdfs:label\":\"Securityd Memory\"},{\"@id\":\"d3f:T1168\",\"d3f:attack-id\":\"T1168\",\"rdfs:label\":\"Local Job Scheduling\"},{\"@id\":\"d3f:T1169\",\"d3f:attack-id\":\"T1169\",\"rdfs:label\":\"Sudo\"},{\"@id\":\"d3f:T1170\",\"d3f:attack-id\":\"T1170\",\"rdfs:label\":\"Mshta\"},{\"@id\":\"d3f:T1171\",\"d3f:attack-id\":\"T1171\",\"rdfs:label\":\"LLMNR/NBT-NS Poisoning and Relay\"},{\"@id\":\"d3f:T1172\",\"d3f:attack-id\":\"T1172\",\"rdfs:label\":\"Domain Fronting\"},{\"@id\":\"d3f:T1173\",\"d3f:attack-id\":\"T1173\",\"rdfs:label\":\"Dynamic Data Exchange\"},{\"@id\":\"d3f:T1174\",\"d3f:attack-id\":\"T1174\",\"rdfs:label\":\"Password Filter DLL\"},{\"@id\":\"d3f:T1176\",\"d3f:attack-id\":\"T1176\",\"rdfs:label\":\"Browser Extensions\"},{\"@id\":\"d3f:T1177\",\"d3f:attack-id\":\"T1177\",\"rdfs:label\":\"LSASS Driver\"},{\"@id\":\"d3f:T1178\",\"d3f:attack-id\":\"T1178\",\"rdfs:label\":\"SID-History Injection\"},{\"@id\":\"d3f:T1179\",\"d3f:attack-id\":\"T1179\",\"rdfs:label\":\"Hooking\"},{\"@id\":\"d3f:T1180\",\"d3f:attack-id\":\"T1180\",\"rdfs:label\":\"Screensaver\"},{\"@id\":\"d3f:T1181\",\"d3f:attack-id\":\"T1181\",\"rdfs:label\":\"Extra Window Memory Injection\"},{\"@id\":\"d3f:T1182\",\"d3f:attack-id\":\"T1182\",\"rdfs:label\":\"AppCert DLLs\"},{\"@id\":\"d3f:T1183\",\"d3f:attack-id\":\"T1183\",\"rdfs:label\":\"Image File Execution Options Injection\"},{\"@id\":\"d3f:T1184\",\"d3f:attack-id\":\"T1184\",\"rdfs:label\":\"SSH Hijacking\"},{\"@id\":\"d3f:T1185\",\"d3f:attack-id\":\"T1185\",\"rdfs:label\":\"Man in the Browser\"},{\"@id\":\"d3f:T1186\",\"d3f:attack-id\":\"T1186\",\"rdfs:label\":\"Process Doppelgänging\"},{\"@id\":\"d3f:T1187\",\"d3f:attack-id\":\"T1187\",\"rdfs:label\":\"Forced Authentication\"},{\"@id\":\"d3f:T1188\",\"d3f:attack-id\":\"T1188\",\"rdfs:label\":\"Multi-hop Proxy\"},{\"@id\":\"d3f:T1189\",\"d3f:attack-id\":\"T1189\",\"rdfs:label\":\"Drive-by Compromise\"},{\"@id\":\"d3f:T1190\",\"d3f:attack-id\":\"T1190\",\"rdfs:label\":\"Exploit Public-Facing Application\"},{\"@id\":\"d3f:T1191\",\"d3f:attack-id\":\"T1191\",\"rdfs:label\":\"CMSTP\"},{\"@id\":\"d3f:T1192\",\"d3f:attack-id\":\"T1192\",\"rdfs:label\":\"Spearphishing Link\"},{\"@id\":\"d3f:T1193\",\"d3f:attack-id\":\"T1193\",\"rdfs:label\":\"Spearphishing Attachment\"},{\"@id\":\"d3f:T1194\",\"d3f:attack-id\":\"T1194\",\"rdfs:label\":\"Spearphishing via Service\"},{\"@id\":\"d3f:T1195\",\"d3f:attack-id\":\"T1195\",\"rdfs:label\":\"Supply Chain Compromise\"},{\"@id\":\"d3f:T1195.001\",\"d3f:attack-id\":\"T1195.001\",\"rdfs:label\":\"Compromise Software Dependencies and Development Tools\"},{\"@id\":\"d3f:T1195.002\",\"d3f:attack-id\":\"T1195.002\",\"rdfs:label\":\"Compromise Software Supply Chain\"},{\"@id\":\"d3f:T1195.003\",\"d3f:attack-id\":\"T1195.003\",\"rdfs:label\":\"Compromise Hardware Supply Chain\"},{\"@id\":\"d3f:T1196\",\"d3f:attack-id\":\"T1196\",\"rdfs:label\":\"Control Panel Items\"},{\"@id\":\"d3f:T1197\",\"d3f:attack-id\":\"T1197\",\"rdfs:label\":\"BITS Jobs\"},{\"@id\":\"d3f:T1198\",\"d3f:attack-id\":\"T1198\",\"rdfs:label\":\"SIP and Trust Provider Hijacking\"},{\"@id\":\"d3f:T1199\",\"d3f:attack-id\":\"T1199\",\"rdfs:label\":\"Trusted Relationship\"},{\"@id\":\"d3f:T1200\",\"d3f:attack-id\":\"T1200\",\"rdfs:label\":\"Hardware Additions\"},{\"@id\":\"d3f:T1201\",\"d3f:attack-id\":\"T1201\",\"rdfs:label\":\"Password Policy Discovery\"},{\"@id\":\"d3f:T1202\",\"d3f:attack-id\":\"T1202\",\"rdfs:label\":\"Indirect Command Execution\"},{\"@id\":\"d3f:T1203\",\"d3f:attack-id\":\"T1203\",\"rdfs:label\":\"Exploitation for Client Execution\"},{\"@id\":\"d3f:T1204\",\"d3f:attack-id\":\"T1204\",\"rdfs:label\":\"User Execution\"},{\"@id\":\"d3f:T1204.001\",\"d3f:attack-id\":\"T1204.001\",\"rdfs:label\":\"Malicious Link Execution\"},{\"@id\":\"d3f:T1204.002\",\"d3f:attack-id\":\"T1204.002\",\"rdfs:label\":\"Malicious File Execution\"},{\"@id\":\"d3f:T1204.003\",\"d3f:attack-id\":\"T1204.003\",\"rdfs:label\":\"Malicious Image\"},{\"@id\":\"d3f:T1205\",\"d3f:attack-id\":\"T1205\",\"rdfs:label\":\"Traffic Signaling\"},{\"@id\":\"d3f:T1205.001\",\"d3f:attack-id\":\"T1205.001\",\"rdfs:label\":\"Port Knocking\"},{\"@id\":\"d3f:T1206\",\"d3f:attack-id\":\"T1206\",\"rdfs:label\":\"Sudo Caching\"},{\"@id\":\"d3f:T1207\",\"d3f:attack-id\":\"T1207\",\"rdfs:label\":\"Rogue Domain Controller\"},{\"@id\":\"d3f:T1208\",\"d3f:attack-id\":\"T1208\",\"rdfs:label\":\"Kerberoasting\"},{\"@id\":\"d3f:T1209\",\"d3f:attack-id\":\"T1209\",\"rdfs:label\":\"Time Providers\"},{\"@id\":\"d3f:T1210\",\"d3f:attack-id\":\"T1210\",\"rdfs:label\":\"Exploitation of Remote Services\"},{\"@id\":\"d3f:T1211\",\"d3f:attack-id\":\"T1211\",\"rdfs:label\":\"Exploitation for Defense Evasion\"},{\"@id\":\"d3f:T1212\",\"d3f:attack-id\":\"T1212\",\"rdfs:label\":\"Exploitation for Credential Access\"},{\"@id\":\"d3f:T1213\",\"d3f:attack-id\":\"T1213\",\"rdfs:label\":\"Data from Information Repositories\"},{\"@id\":\"d3f:T1213.001\",\"d3f:attack-id\":\"T1213.001\",\"rdfs:label\":\"Confluence\"},{\"@id\":\"d3f:T1213.002\",\"d3f:attack-id\":\"T1213.002\",\"rdfs:label\":\"Sharepoint\"},{\"@id\":\"d3f:T1213.003\",\"d3f:attack-id\":\"T1213.003\",\"rdfs:label\":\"Code Repositories\"},{\"@id\":\"d3f:T1214\",\"d3f:attack-id\":\"T1214\",\"rdfs:label\":\"Credentials in Registry\"},{\"@id\":\"d3f:T1215\",\"d3f:attack-id\":\"T1215\",\"rdfs:label\":\"Kernel Modules and Extensions\"},{\"@id\":\"d3f:T1216\",\"d3f:attack-id\":\"T1216\",\"rdfs:label\":\"Signed Script Proxy Execution\"},{\"@id\":\"d3f:T1216.001\",\"d3f:attack-id\":\"T1216.001\",\"rdfs:label\":\"PubPrn Execution\"},{\"@id\":\"d3f:T1217\",\"d3f:attack-id\":\"T1217\",\"rdfs:label\":\"Browser Bookmark Discovery\"},{\"@id\":\"d3f:T1218\",\"d3f:attack-id\":\"T1218\",\"rdfs:label\":\"Signed Binary Proxy Execution\"},{\"@id\":\"d3f:T1218.001\",\"d3f:attack-id\":\"T1218.001\",\"rdfs:label\":\"Compiled HTML File\"},{\"@id\":\"d3f:T1218.002\",\"d3f:attack-id\":\"T1218.002\",\"rdfs:label\":\"Control Panel Execution\"},{\"@id\":\"d3f:T1218.003\",\"d3f:attack-id\":\"T1218.003\",\"rdfs:label\":\"CMSTP\"},{\"@id\":\"d3f:T1218.004\",\"d3f:attack-id\":\"T1218.004\",\"rdfs:label\":\"InstallUtil Execution\"},{\"@id\":\"d3f:T1218.005\",\"d3f:attack-id\":\"T1218.005\",\"rdfs:label\":\"Mshta Execution\"},{\"@id\":\"d3f:T1218.007\",\"d3f:attack-id\":\"T1218.007\",\"rdfs:label\":\"Msiexec Execution\"},{\"@id\":\"d3f:T1218.008\",\"d3f:attack-id\":\"T1218.008\",\"rdfs:label\":\"Odbcconf Execution\"},{\"@id\":\"d3f:T1218.009\",\"d3f:attack-id\":\"T1218.009\",\"rdfs:label\":\"Regsvcs/Regasm Execution\"},{\"@id\":\"d3f:T1218.010\",\"d3f:attack-id\":\"T1218.010\",\"rdfs:label\":\"Regsvr32 Execution\"},{\"@id\":\"d3f:T1218.011\",\"d3f:attack-id\":\"T1218.011\",\"rdfs:label\":\"Rundll32 Execution\"},{\"@id\":\"d3f:T1218.012\",\"d3f:attack-id\":\"T1218.012\",\"rdfs:label\":\"Verclsid\"},{\"@id\":\"d3f:T1218.013\",\"d3f:attack-id\":\"T1218.013\",\"rdfs:label\":\"Mavinject\"},{\"@id\":\"d3f:T1218.014\",\"d3f:attack-id\":\"T1218.014\",\"rdfs:label\":\"MMC\"},{\"@id\":\"d3f:T1219\",\"d3f:attack-id\":\"T1219\",\"rdfs:label\":\"Remote Access Software\"},{\"@id\":\"d3f:T1220\",\"d3f:attack-id\":\"T1220\",\"rdfs:label\":\"XSL Script Processing\"},{\"@id\":\"d3f:T1221\",\"d3f:attack-id\":\"T1221\",\"rdfs:label\":\"Template Injection\"},{\"@id\":\"d3f:T1222\",\"d3f:attack-id\":\"T1222\",\"rdfs:label\":\"File and Directory Permissions Modification\"},{\"@id\":\"d3f:T1222.001\",\"d3f:attack-id\":\"T1222.001\",\"rdfs:label\":\"Windows File and Directory Permissions Modification\"},{\"@id\":\"d3f:T1222.002\",\"d3f:attack-id\":\"T1222.002\",\"rdfs:label\":\"Linux and Mac File and Directory Permissions Modification\"},{\"@id\":\"d3f:T1223\",\"d3f:attack-id\":\"T1223\",\"rdfs:label\":\"Compiled HTML File\"},{\"@id\":\"d3f:T1480\",\"d3f:attack-id\":\"T1480\",\"rdfs:label\":\"Execution Guardrails\"},{\"@id\":\"d3f:T1480.001\",\"d3f:attack-id\":\"T1480.001\",\"rdfs:label\":\"Environmental Keying\"},{\"@id\":\"d3f:T1482\",\"d3f:attack-id\":\"T1482\",\"rdfs:label\":\"Domain Trust Discovery\"},{\"@id\":\"d3f:T1483\",\"d3f:attack-id\":\"T1483\",\"rdfs:label\":\"Domain Generation Algorithms\"},{\"@id\":\"d3f:T1484\",\"d3f:attack-id\":\"T1484\",\"rdfs:label\":\"Group Policy Modification\"},{\"@id\":\"d3f:T1484.001\",\"d3f:attack-id\":\"T1484.001\",\"rdfs:label\":\"Group Policy Modification\"},{\"@id\":\"d3f:T1484.002\",\"d3f:attack-id\":\"T1484.002\",\"rdfs:label\":\"Domain Trust Modification\"},{\"@id\":\"d3f:T1485\",\"d3f:attack-id\":\"T1485\",\"rdfs:label\":\"Data Destruction\"},{\"@id\":\"d3f:T1486\",\"d3f:attack-id\":\"T1486\",\"rdfs:label\":\"Data Encrypted for Impact\"},{\"@id\":\"d3f:T1487\",\"d3f:attack-id\":\"T1487\",\"rdfs:label\":\"Disk Structure Wipe\"},{\"@id\":\"d3f:T1488\",\"d3f:attack-id\":\"T1488\",\"rdfs:label\":\"Disk Content Wipe\"},{\"@id\":\"d3f:T1489\",\"d3f:attack-id\":\"T1489\",\"rdfs:label\":\"Service Stop\"},{\"@id\":\"d3f:T1490\",\"d3f:attack-id\":\"T1490\",\"rdfs:label\":\"Inhibit System Recovery\"},{\"@id\":\"d3f:T1491\",\"d3f:attack-id\":\"T1491\",\"rdfs:label\":\"Defacement\"},{\"@id\":\"d3f:T1491.001\",\"d3f:attack-id\":\"T1491.001\",\"rdfs:label\":\"Internal Defacement\"},{\"@id\":\"d3f:T1491.002\",\"d3f:attack-id\":\"T1491.002\",\"rdfs:label\":\"External Defacement\"},{\"@id\":\"d3f:T1492\",\"d3f:attack-id\":\"T1492\",\"rdfs:label\":\"Stored Data Manipulation\"},{\"@id\":\"d3f:T1493\",\"d3f:attack-id\":\"T1493\",\"rdfs:label\":\"Transmitted Data Manipulation\"},{\"@id\":\"d3f:T1494\",\"d3f:attack-id\":\"T1494\",\"rdfs:label\":\"Runtime Data Manipulation\"},{\"@id\":\"d3f:T1495\",\"d3f:attack-id\":\"T1495\",\"rdfs:label\":\"Firmware Corruption\"},{\"@id\":\"d3f:T1496\",\"d3f:attack-id\":\"T1496\",\"rdfs:label\":\"Resource Hijacking\"},{\"@id\":\"d3f:T1497\",\"d3f:attack-id\":\"T1497\",\"rdfs:label\":\"Virtualization/Sandbox Evasion\"},{\"@id\":\"d3f:T1497.001\",\"d3f:attack-id\":\"T1497.001\",\"rdfs:label\":\"System Checks\"},{\"@id\":\"d3f:T1497.002\",\"d3f:attack-id\":\"T1497.002\",\"rdfs:label\":\"User Activity Based Checks\"},{\"@id\":\"d3f:T1497.003\",\"d3f:attack-id\":\"T1497.003\",\"rdfs:label\":\"Time Based Evasion\"},{\"@id\":\"d3f:T1498\",\"d3f:attack-id\":\"T1498\",\"rdfs:label\":\"Network Denial of Service\"},{\"@id\":\"d3f:T1498.001\",\"d3f:attack-id\":\"T1498.001\",\"rdfs:label\":\"Direct Network Flood\"},{\"@id\":\"d3f:T1498.002\",\"d3f:attack-id\":\"T1498.002\",\"rdfs:label\":\"Reflection Amplification\"},{\"@id\":\"d3f:T1499\",\"d3f:attack-id\":\"T1499\",\"rdfs:label\":\"Endpoint Denial of Service\"},{\"@id\":\"d3f:T1499.001\",\"d3f:attack-id\":\"T1499.001\",\"rdfs:label\":\"OS Exhaustion Flood\"},{\"@id\":\"d3f:T1499.002\",\"d3f:attack-id\":\"T1499.002\",\"rdfs:label\":\"Service Exhaustion Flood\"},{\"@id\":\"d3f:T1499.003\",\"d3f:attack-id\":\"T1499.003\",\"rdfs:label\":\"Application Exhaustion Flood\"},{\"@id\":\"d3f:T1499.004\",\"d3f:attack-id\":\"T1499.004\",\"rdfs:label\":\"Application or System Exploitation\"},{\"@id\":\"d3f:T1500\",\"d3f:attack-id\":\"T1500\",\"rdfs:label\":\"Compile After Delivery\"},{\"@id\":\"d3f:T1501\",\"d3f:attack-id\":\"T1501\",\"rdfs:label\":\"Systemd Service\"},{\"@id\":\"d3f:T1502\",\"d3f:attack-id\":\"T1502\",\"rdfs:label\":\"Parent PID Spoofing\"},{\"@id\":\"d3f:T1503\",\"d3f:attack-id\":\"T1503\",\"rdfs:label\":\"Credentials from Web Browsers\"},{\"@id\":\"d3f:T1504\",\"d3f:attack-id\":\"T1504\",\"rdfs:label\":\"PowerShell Profile\"},{\"@id\":\"d3f:T1505\",\"d3f:attack-id\":\"T1505\",\"rdfs:label\":\"Server Software Component\"},{\"@id\":\"d3f:T1505.001\",\"d3f:attack-id\":\"T1505.001\",\"rdfs:label\":\"SQL Stored Procedures\"},{\"@id\":\"d3f:T1505.002\",\"d3f:attack-id\":\"T1505.002\",\"rdfs:label\":\"Transport Agent\"},{\"@id\":\"d3f:T1505.003\",\"d3f:attack-id\":\"T1505.003\",\"rdfs:label\":\"Web Shell\"},{\"@id\":\"d3f:T1505.004\",\"d3f:attack-id\":\"T1505.004\",\"rdfs:label\":\"IIS Components\"},{\"@id\":\"d3f:T1505.005\",\"d3f:attack-id\":\"T1505.005\",\"rdfs:label\":\"Terminal Services DLL\"},{\"@id\":\"d3f:T1506\",\"d3f:attack-id\":\"T1506\",\"rdfs:label\":\"Web Session Cookie\"},{\"@id\":\"d3f:T1514\",\"d3f:attack-id\":\"T1514\",\"rdfs:label\":\"Elevated Execution with Prompt\"},{\"@id\":\"d3f:T1518\",\"d3f:attack-id\":\"T1518\",\"rdfs:label\":\"Software Discovery\"},{\"@id\":\"d3f:T1518.001\",\"d3f:attack-id\":\"T1518.001\",\"rdfs:label\":\"Security Software Discovery\"},{\"@id\":\"d3f:T1519\",\"d3f:attack-id\":\"T1519\",\"rdfs:label\":\"Emond\"},{\"@id\":\"d3f:T1522\",\"d3f:attack-id\":\"T1522\",\"rdfs:label\":\"Cloud Instance Metadata API\"},{\"@id\":\"d3f:T1525\",\"d3f:attack-id\":\"T1525\",\"rdfs:label\":\"Implant Container Image\"},{\"@id\":\"d3f:T1526\",\"d3f:attack-id\":\"T1526\",\"rdfs:label\":\"Cloud Service Discovery\"},{\"@id\":\"d3f:T1527\",\"d3f:attack-id\":\"T1527\",\"rdfs:label\":\"Application Access Token\"},{\"@id\":\"d3f:T1528\",\"d3f:attack-id\":\"T1528\",\"rdfs:label\":\"Steal Application Access Token\"},{\"@id\":\"d3f:T1529\",\"d3f:attack-id\":\"T1529\",\"rdfs:label\":\"System Shutdown/Reboot\"},{\"@id\":\"d3f:T1530\",\"d3f:attack-id\":\"T1530\",\"rdfs:label\":\"Data from Cloud Storage Object\"},{\"@id\":\"d3f:T1531\",\"d3f:attack-id\":\"T1531\",\"rdfs:label\":\"Account Access Removal\"},{\"@id\":\"d3f:T1534\",\"d3f:attack-id\":\"T1534\",\"rdfs:label\":\"Internal Spearphishing\"},{\"@id\":\"d3f:T1535\",\"d3f:attack-id\":\"T1535\",\"rdfs:label\":\"Unused/Unsupported Cloud Regions\"},{\"@id\":\"d3f:T1536\",\"d3f:attack-id\":\"T1536\",\"rdfs:label\":\"Revert Cloud Instance\"},{\"@id\":\"d3f:T1537\",\"d3f:attack-id\":\"T1537\",\"rdfs:label\":\"Transfer Data to Cloud Account\"},{\"@id\":\"d3f:T1538\",\"d3f:attack-id\":\"T1538\",\"rdfs:label\":\"Cloud Service Dashboard\"},{\"@id\":\"d3f:T1539\",\"d3f:attack-id\":\"T1539\",\"rdfs:label\":\"Steal Web Session Cookie\"},{\"@id\":\"d3f:T1542\",\"d3f:attack-id\":\"T1542\",\"rdfs:label\":\"Pre-OS Boot\"},{\"@id\":\"d3f:T1542.001\",\"d3f:attack-id\":\"T1542.001\",\"rdfs:label\":\"System Firmware\"},{\"@id\":\"d3f:T1542.002\",\"d3f:attack-id\":\"T1542.002\",\"rdfs:label\":\"Component Firmware\"},{\"@id\":\"d3f:T1542.003\",\"d3f:attack-id\":\"T1542.003\",\"rdfs:label\":\"Bootkit\"},{\"@id\":\"d3f:T1542.004\",\"d3f:attack-id\":\"T1542.004\",\"rdfs:label\":\"ROMMONkit\"},{\"@id\":\"d3f:T1542.005\",\"d3f:attack-id\":\"T1542.005\",\"rdfs:label\":\"TFTP Boot\"},{\"@id\":\"d3f:T1543\",\"d3f:attack-id\":\"T1543\",\"rdfs:label\":\"Create or Modify System Process\"},{\"@id\":\"d3f:T1543.001\",\"d3f:attack-id\":\"T1543.001\",\"rdfs:label\":\"Launch Agent\"},{\"@id\":\"d3f:T1543.002\",\"d3f:attack-id\":\"T1543.002\",\"rdfs:label\":\"Systemd Service\"},{\"@id\":\"d3f:T1543.003\",\"d3f:attack-id\":\"T1543.003\",\"rdfs:label\":\"Windows Service\"},{\"@id\":\"d3f:T1543.004\",\"d3f:attack-id\":\"T1543.004\",\"rdfs:label\":\"Launch Daemon\"},{\"@id\":\"d3f:T1546\",\"d3f:attack-id\":\"T1546\",\"rdfs:label\":\"Event Triggered Execution\"},{\"@id\":\"d3f:T1546.001\",\"d3f:attack-id\":\"T1546.001\",\"rdfs:label\":\"Change Default File Association\"},{\"@id\":\"d3f:T1546.002\",\"d3f:attack-id\":\"T1546.002\",\"rdfs:label\":\"Screensaver\"},{\"@id\":\"d3f:T1546.003\",\"d3f:attack-id\":\"T1546.003\",\"rdfs:label\":\"Windows Management Instrumentation Event Subscription\"},{\"@id\":\"d3f:T1546.004\",\"d3f:attack-id\":\"T1546.004\",\"rdfs:label\":\".bash_profile and .bashrc\"},{\"@id\":\"d3f:T1546.005\",\"d3f:attack-id\":\"T1546.005\",\"rdfs:label\":\"Trap\"},{\"@id\":\"d3f:T1546.006\",\"d3f:attack-id\":\"T1546.006\",\"rdfs:label\":\"LC_LOAD_DYLIB Addition\"},{\"@id\":\"d3f:T1546.007\",\"d3f:attack-id\":\"T1546.007\",\"rdfs:label\":\"Netsh Helper DLL\"},{\"@id\":\"d3f:T1546.008\",\"d3f:attack-id\":\"T1546.008\",\"rdfs:label\":\"Accessibility Features\"},{\"@id\":\"d3f:T1546.009\",\"d3f:attack-id\":\"T1546.009\",\"rdfs:label\":\"AppCert DLLs\"},{\"@id\":\"d3f:T1546.010\",\"d3f:attack-id\":\"T1546.010\",\"rdfs:label\":\"AppInit DLLs\"},{\"@id\":\"d3f:T1546.011\",\"d3f:attack-id\":\"T1546.011\",\"rdfs:label\":\"Application Shimming\"},{\"@id\":\"d3f:T1546.012\",\"d3f:attack-id\":\"T1546.012\",\"rdfs:label\":\"Image File Execution Options Injection\"},{\"@id\":\"d3f:T1546.013\",\"d3f:attack-id\":\"T1546.013\",\"rdfs:label\":\"PowerShell Profile\"},{\"@id\":\"d3f:T1546.014\",\"d3f:attack-id\":\"T1546.014\",\"rdfs:label\":\"Emond\"},{\"@id\":\"d3f:T1546.015\",\"d3f:attack-id\":\"T1546.015\",\"rdfs:label\":\"Component Object Model Hijacking\"},{\"@id\":\"d3f:T1547\",\"d3f:attack-id\":\"T1547\",\"rdfs:label\":\"Boot or Logon Autostart Execution\"},{\"@id\":\"d3f:T1547.001\",\"d3f:attack-id\":\"T1547.001\",\"rdfs:label\":\"Registry Run Keys / Startup Folder\"},{\"@id\":\"d3f:T1547.002\",\"d3f:attack-id\":\"T1547.002\",\"rdfs:label\":\"Authentication Package\"},{\"@id\":\"d3f:T1547.003\",\"d3f:attack-id\":\"T1547.003\",\"rdfs:label\":\"Time Providers\"},{\"@id\":\"d3f:T1547.004\",\"d3f:attack-id\":\"T1547.004\",\"rdfs:label\":\"Winlogon Helper DLL\"},{\"@id\":\"d3f:T1547.005\",\"d3f:attack-id\":\"T1547.005\",\"rdfs:label\":\"Security Support Provider\"},{\"@id\":\"d3f:T1547.006\",\"d3f:attack-id\":\"T1547.006\",\"rdfs:label\":\"Kernel Modules and Extensions\"},{\"@id\":\"d3f:T1547.007\",\"d3f:attack-id\":\"T1547.007\",\"rdfs:label\":\"Re-opened Applications\"},{\"@id\":\"d3f:T1547.008\",\"d3f:attack-id\":\"T1547.008\",\"rdfs:label\":\"LSASS Driver\"},{\"@id\":\"d3f:T1547.009\",\"d3f:attack-id\":\"T1547.009\",\"rdfs:label\":\"Shortcut Modification\"},{\"@id\":\"d3f:T1547.010\",\"d3f:attack-id\":\"T1547.010\",\"rdfs:label\":\"Port Monitors\"},{\"@id\":\"d3f:T1547.011\",\"d3f:attack-id\":\"T1547.011\",\"rdfs:label\":\"Plist Modification\"},{\"@id\":\"d3f:T1547.012\",\"d3f:attack-id\":\"T1547.012\",\"rdfs:label\":\"Print Processors\"},{\"@id\":\"d3f:T1547.013\",\"d3f:attack-id\":\"T1547.013\",\"rdfs:label\":\"XDG Autostart Entries\"},{\"@id\":\"d3f:T1547.014\",\"d3f:attack-id\":\"T1547.014\",\"rdfs:label\":\"Active Setup\"},{\"@id\":\"d3f:T1547.015\",\"d3f:attack-id\":\"T1547.015\",\"rdfs:label\":\"Login Items\"},{\"@id\":\"d3f:T1548\",\"d3f:attack-id\":\"T1548\",\"rdfs:label\":\"Abuse Elevation Control Mechanism\"},{\"@id\":\"d3f:T1548.001\",\"d3f:attack-id\":\"T1548.001\",\"rdfs:label\":\"Setuid and Setgid\"},{\"@id\":\"d3f:T1548.002\",\"d3f:attack-id\":\"T1548.002\",\"rdfs:label\":\"Bypass User Access Control\"},{\"@id\":\"d3f:T1548.003\",\"d3f:attack-id\":\"T1548.003\",\"rdfs:label\":\"Sudo and Sudo Caching\"},{\"@id\":\"d3f:T1548.004\",\"d3f:attack-id\":\"T1548.004\",\"rdfs:label\":\"Elevated Execution with Prompt\"},{\"@id\":\"d3f:T1550\",\"d3f:attack-id\":\"T1550\",\"rdfs:label\":\"Use Alternate Authentication Material\"},{\"@id\":\"d3f:T1550.001\",\"d3f:attack-id\":\"T1550.001\",\"rdfs:label\":\"Application Access Token\"},{\"@id\":\"d3f:T1550.002\",\"d3f:attack-id\":\"T1550.002\",\"rdfs:label\":\"Pass The Hash\"},{\"@id\":\"d3f:T1550.003\",\"d3f:attack-id\":\"T1550.003\",\"rdfs:label\":\"Pass The Ticket\"},{\"@id\":\"d3f:T1550.004\",\"d3f:attack-id\":\"T1550.004\",\"rdfs:label\":\"Web Session Cookie\"},{\"@id\":\"d3f:T1552\",\"d3f:attack-id\":\"T1552\",\"rdfs:label\":\"Unsecured Credentials\"},{\"@id\":\"d3f:T1552.001\",\"d3f:attack-id\":\"T1552.001\",\"rdfs:label\":\"Credentials in Files\"},{\"@id\":\"d3f:T1552.002\",\"d3f:attack-id\":\"T1552.002\",\"rdfs:label\":\"Credentials in Registry\"},{\"@id\":\"d3f:T1552.003\",\"d3f:attack-id\":\"T1552.003\",\"rdfs:label\":\"Bash History\"},{\"@id\":\"d3f:T1552.004\",\"d3f:attack-id\":\"T1552.004\",\"rdfs:label\":\"Private Keys\"},{\"@id\":\"d3f:T1552.005\",\"d3f:attack-id\":\"T1552.005\",\"rdfs:label\":\"Cloud Instance Metadata  API\"},{\"@id\":\"d3f:T1552.006\",\"d3f:attack-id\":\"T1552.006\",\"rdfs:label\":\"Group Policy Preferences\"},{\"@id\":\"d3f:T1552.007\",\"d3f:attack-id\":\"T1552.007\",\"rdfs:label\":\"Container API\"},{\"@id\":\"d3f:T1553\",\"d3f:attack-id\":\"T1553\",\"rdfs:label\":\"Subvert Trust Controls\"},{\"@id\":\"d3f:T1553.001\",\"d3f:attack-id\":\"T1553.001\",\"rdfs:label\":\"Gatekeeper Bypass\"},{\"@id\":\"d3f:T1553.002\",\"d3f:attack-id\":\"T1553.002\",\"rdfs:label\":\"Code Signing\"},{\"@id\":\"d3f:T1553.003\",\"d3f:attack-id\":\"T1553.003\",\"rdfs:label\":\"SIP and Trust Provider Hijacking\"},{\"@id\":\"d3f:T1553.004\",\"d3f:attack-id\":\"T1553.004\",\"rdfs:label\":\"Install Root Certificate\"},{\"@id\":\"d3f:T1553.005\",\"d3f:attack-id\":\"T1553.005\",\"rdfs:label\":\"Mark-of-the-Web Bypass\"},{\"@id\":\"d3f:T1553.006\",\"d3f:attack-id\":\"T1553.006\",\"rdfs:label\":\"Code Signing Policy Modification\"},{\"@id\":\"d3f:T1554\",\"d3f:attack-id\":\"T1554\",\"rdfs:label\":\"Compromise Client Software Binary\"},{\"@id\":\"d3f:T1555\",\"d3f:attack-id\":\"T1555\",\"rdfs:label\":\"Credentials from Password Stores\"},{\"@id\":\"d3f:T1555.001\",\"d3f:attack-id\":\"T1555.001\",\"rdfs:label\":\"Keychain\"},{\"@id\":\"d3f:T1555.002\",\"d3f:attack-id\":\"T1555.002\",\"rdfs:label\":\"Securityd Memory\"},{\"@id\":\"d3f:T1555.003\",\"d3f:attack-id\":\"T1555.003\",\"rdfs:label\":\"Credentials from Web Browsers\"},{\"@id\":\"d3f:T1555.004\",\"d3f:attack-id\":\"T1555.004\",\"rdfs:label\":\"Windows Credential Manager\"},{\"@id\":\"d3f:T1555.005\",\"d3f:attack-id\":\"T1555.005\",\"rdfs:label\":\"Password Managers\"},{\"@id\":\"d3f:T1556\",\"d3f:attack-id\":\"T1556\",\"rdfs:label\":\"Modify Authentication Process\"},{\"@id\":\"d3f:T1556.001\",\"d3f:attack-id\":\"T1556.001\",\"rdfs:label\":\"Domain Controller Authentication\"},{\"@id\":\"d3f:T1556.002\",\"d3f:attack-id\":\"T1556.002\",\"rdfs:label\":\"Password Filter DLL\"},{\"@id\":\"d3f:T1556.003\",\"d3f:attack-id\":\"T1556.003\",\"rdfs:label\":\"Pluggable Authentication Modules\"},{\"@id\":\"d3f:T1556.004\",\"d3f:attack-id\":\"T1556.004\",\"rdfs:label\":\"Network Device Authentication\"},{\"@id\":\"d3f:T1556.005\",\"d3f:attack-id\":\"T1556.005\",\"rdfs:label\":\"Reversible Encryption\"},{\"@id\":\"d3f:T1557\",\"d3f:attack-id\":\"T1557\",\"rdfs:label\":\"Man-in-the-Middle\"},{\"@id\":\"d3f:T1557.001\",\"d3f:attack-id\":\"T1557.001\",\"rdfs:label\":\"LLMNR/NBT-NS Poisoning and SMB Relay\"},{\"@id\":\"d3f:T1557.002\",\"d3f:attack-id\":\"T1557.002\",\"rdfs:label\":\"ARP Cache Poisoning\"},{\"@id\":\"d3f:T1557.003\",\"d3f:attack-id\":\"T1557.003\",\"rdfs:label\":\"DHCP Spoofing\"},{\"@id\":\"d3f:T1558\",\"d3f:attack-id\":\"T1558\",\"rdfs:label\":\"Steal or Forge Kerberos Tickets\"},{\"@id\":\"d3f:T1558.001\",\"d3f:attack-id\":\"T1558.001\",\"rdfs:label\":\"Golden Ticket\"},{\"@id\":\"d3f:T1558.002\",\"d3f:attack-id\":\"T1558.002\",\"rdfs:label\":\"Silver Ticket\"},{\"@id\":\"d3f:T1558.003\",\"d3f:attack-id\":\"T1558.003\",\"rdfs:label\":\"Kerberoasting\"},{\"@id\":\"d3f:T1558.004\",\"d3f:attack-id\":\"T1558.004\",\"rdfs:label\":\"AS-REP Roasting\"},{\"@id\":\"d3f:T1559\",\"d3f:attack-id\":\"T1559\",\"rdfs:label\":\"Inter-Process Communication Execution\"},{\"@id\":\"d3f:T1559.001\",\"d3f:attack-id\":\"T1559.001\",\"rdfs:label\":\"Component Object Model Execution\"},{\"@id\":\"d3f:T1559.002\",\"d3f:attack-id\":\"T1559.002\",\"rdfs:label\":\"Dynamic Data Exchange Execution\"},{\"@id\":\"d3f:T1559.003\",\"d3f:attack-id\":\"T1559.003\",\"rdfs:label\":\"XPC Services\"},{\"@id\":\"d3f:T1560\",\"d3f:attack-id\":\"T1560\",\"rdfs:label\":\"Archive Collected Data\"},{\"@id\":\"d3f:T1560.001\",\"d3f:attack-id\":\"T1560.001\",\"rdfs:label\":\"Archive via Utility\"},{\"@id\":\"d3f:T1560.002\",\"d3f:attack-id\":\"T1560.002\",\"rdfs:label\":\"Archive via Library\"},{\"@id\":\"d3f:T1560.003\",\"d3f:attack-id\":\"T1560.003\",\"rdfs:label\":\"Archive via Custom Method\"},{\"@id\":\"d3f:T1561\",\"d3f:attack-id\":\"T1561\",\"rdfs:label\":\"Disk Wipe\"},{\"@id\":\"d3f:T1561.001\",\"d3f:attack-id\":\"T1561.001\",\"rdfs:label\":\"Disk Content Wipe\"},{\"@id\":\"d3f:T1561.002\",\"d3f:attack-id\":\"T1561.002\",\"rdfs:label\":\"Disk Structure Wipe\"},{\"@id\":\"d3f:T1562\",\"d3f:attack-id\":\"T1562\",\"rdfs:label\":\"Impair Defenses\"},{\"@id\":\"d3f:T1562.001\",\"d3f:attack-id\":\"T1562.001\",\"rdfs:label\":\"Disable or Modify Tools\"},{\"@id\":\"d3f:T1562.002\",\"d3f:attack-id\":\"T1562.002\",\"rdfs:label\":\"Disable Windows Event Logging\"},{\"@id\":\"d3f:T1562.003\",\"d3f:attack-id\":\"T1562.003\",\"rdfs:label\":\"Impair Command History Logging\"},{\"@id\":\"d3f:T1562.004\",\"d3f:attack-id\":\"T1562.004\",\"rdfs:label\":\"Disable or Modify System Firewall\"},{\"@id\":\"d3f:T1562.006\",\"d3f:attack-id\":\"T1562.006\",\"rdfs:label\":\"Indicator Blocking\"},{\"@id\":\"d3f:T1562.007\",\"d3f:attack-id\":\"T1562.007\",\"rdfs:label\":\"Disable or Modify Cloud Firewall\"},{\"@id\":\"d3f:T1562.008\",\"d3f:attack-id\":\"T1562.008\",\"rdfs:label\":\"Disable Cloud Logs\"},{\"@id\":\"d3f:T1562.009\",\"d3f:attack-id\":\"T1562.009\",\"rdfs:label\":\"Safe Mode Boot\"},{\"@id\":\"d3f:T1562.010\",\"d3f:attack-id\":\"T1562.010\",\"rdfs:label\":\"Downgrade Attack\"},{\"@id\":\"d3f:T1563\",\"d3f:attack-id\":\"T1563\",\"rdfs:label\":\"Remote Service Session Hijacking\"},{\"@id\":\"d3f:T1563.001\",\"d3f:attack-id\":\"T1563.001\",\"rdfs:label\":\"SSH Hijacking\"},{\"@id\":\"d3f:T1563.002\",\"d3f:attack-id\":\"T1563.002\",\"rdfs:label\":\"RDP Hijacking\"},{\"@id\":\"d3f:T1564\",\"d3f:attack-id\":\"T1564\",\"rdfs:label\":\"Hide Artifacts\"},{\"@id\":\"d3f:T1564.001\",\"d3f:attack-id\":\"T1564.001\",\"rdfs:label\":\"Hidden Files and Directories\"},{\"@id\":\"d3f:T1564.002\",\"d3f:attack-id\":\"T1564.002\",\"rdfs:label\":\"Hidden Users\"},{\"@id\":\"d3f:T1564.003\",\"d3f:attack-id\":\"T1564.003\",\"rdfs:label\":\"Hidden Window\"},{\"@id\":\"d3f:T1564.004\",\"d3f:attack-id\":\"T1564.004\",\"rdfs:label\":\"NTFS File Attributes\"},{\"@id\":\"d3f:T1564.005\",\"d3f:attack-id\":\"T1564.005\",\"rdfs:label\":\"Hidden File System\"},{\"@id\":\"d3f:T1564.006\",\"d3f:attack-id\":\"T1564.006\",\"rdfs:label\":\"Run Virtual Instance\"},{\"@id\":\"d3f:T1564.007\",\"d3f:attack-id\":\"T1564.007\",\"rdfs:label\":\"VBA Stomping\"},{\"@id\":\"d3f:T1564.008\",\"d3f:attack-id\":\"T1564.008\",\"rdfs:label\":\"Email Hiding Rules\"},{\"@id\":\"d3f:T1564.009\",\"d3f:attack-id\":\"T1564.009\",\"rdfs:label\":\"Resource Forking\"},{\"@id\":\"d3f:T1564.010\",\"d3f:attack-id\":\"T1564.010\",\"rdfs:label\":\"Process Argument Spoofing\"},{\"@id\":\"d3f:T1565\",\"d3f:attack-id\":\"T1565\",\"rdfs:label\":\"Data Manipulation\"},{\"@id\":\"d3f:T1565.001\",\"d3f:attack-id\":\"T1565.001\",\"rdfs:label\":\"Stored Data Manipulation\"},{\"@id\":\"d3f:T1565.002\",\"d3f:attack-id\":\"T1565.002\",\"rdfs:label\":\"Transmitted Data Manipulation\"},{\"@id\":\"d3f:T1565.003\",\"d3f:attack-id\":\"T1565.003\",\"rdfs:label\":\"Runtime Data Manipulation\"},{\"@id\":\"d3f:T1566\",\"d3f:attack-id\":\"T1566\",\"rdfs:label\":\"Phishing\"},{\"@id\":\"d3f:T1566.001\",\"d3f:attack-id\":\"T1566.001\",\"rdfs:label\":\"Spearphishing Attachment\"},{\"@id\":\"d3f:T1566.002\",\"d3f:attack-id\":\"T1566.002\",\"rdfs:label\":\"Spearphishing Link\"},{\"@id\":\"d3f:T1566.003\",\"d3f:attack-id\":\"T1566.003\",\"rdfs:label\":\"Spearphishing Via Service\"},{\"@id\":\"d3f:T1567\",\"d3f:attack-id\":\"T1567\",\"rdfs:label\":\"Exfiltration Over Web Service\"},{\"@id\":\"d3f:T1567.001\",\"d3f:attack-id\":\"T1567.001\",\"rdfs:label\":\"Exfiltration to Code Repository\"},{\"@id\":\"d3f:T1567.002\",\"d3f:attack-id\":\"T1567.002\",\"rdfs:label\":\"Exfiltration to Cloud Storage\"},{\"@id\":\"d3f:T1568\",\"d3f:attack-id\":\"T1568\",\"rdfs:label\":\"Dynamic Resolution\"},{\"@id\":\"d3f:T1568.001\",\"d3f:attack-id\":\"T1568.001\",\"rdfs:label\":\"Fast Flux DNS\"},{\"@id\":\"d3f:T1568.002\",\"d3f:attack-id\":\"T1568.002\",\"rdfs:label\":\"Domain Generation Algorithms\"},{\"@id\":\"d3f:T1568.003\",\"d3f:attack-id\":\"T1568.003\",\"rdfs:label\":\"DNS Calculation\"},{\"@id\":\"d3f:T1569\",\"d3f:attack-id\":\"T1569\",\"rdfs:label\":\"System Services\"},{\"@id\":\"d3f:T1569.001\",\"d3f:attack-id\":\"T1569.001\",\"rdfs:label\":\"Launchctl\"},{\"@id\":\"d3f:T1569.002\",\"d3f:attack-id\":\"T1569.002\",\"rdfs:label\":\"Service Execution\"},{\"@id\":\"d3f:T1570\",\"d3f:attack-id\":\"T1570\",\"rdfs:label\":\"Lateral Tool Transfer\"},{\"@id\":\"d3f:T1571\",\"d3f:attack-id\":\"T1571\",\"rdfs:label\":\"Non-Standard Port\"},{\"@id\":\"d3f:T1572\",\"d3f:attack-id\":\"T1572\",\"rdfs:label\":\"Protocol Tunneling\"},{\"@id\":\"d3f:T1573\",\"d3f:attack-id\":\"T1573\",\"rdfs:label\":\"Encrypted Channel\"},{\"@id\":\"d3f:T1573.001\",\"d3f:attack-id\":\"T1573.001\",\"rdfs:label\":\"Symmetric Cryptography\"},{\"@id\":\"d3f:T1573.002\",\"d3f:attack-id\":\"T1573.002\",\"rdfs:label\":\"Asymmetric Cryptography\"},{\"@id\":\"d3f:T1574\",\"d3f:attack-id\":\"T1574\",\"rdfs:label\":\"Hijack Execution Flow\"},{\"@id\":\"d3f:T1574.001\",\"d3f:attack-id\":\"T1574.001\",\"rdfs:label\":\"DLL Search Order Hijacking\"},{\"@id\":\"d3f:T1574.002\",\"d3f:attack-id\":\"T1574.002\",\"rdfs:label\":\"DLL Side-Loading\"},{\"@id\":\"d3f:T1574.004\",\"d3f:attack-id\":\"T1574.004\",\"rdfs:label\":\"Dylib Hijacking\"},{\"@id\":\"d3f:T1574.005\",\"d3f:attack-id\":\"T1574.005\",\"rdfs:label\":\"Executable Installer File Permissions Weakness\"},{\"@id\":\"d3f:T1574.006\",\"d3f:attack-id\":\"T1574.006\",\"rdfs:label\":\"LD_PRELOAD\"},{\"@id\":\"d3f:T1574.007\",\"d3f:attack-id\":\"T1574.007\",\"rdfs:label\":\"Path Interception by PATH Environment Variable\"},{\"@id\":\"d3f:T1574.008\",\"d3f:attack-id\":\"T1574.008\",\"rdfs:label\":\"Path Interception by Search Order Hijacking\"},{\"@id\":\"d3f:T1574.009\",\"d3f:attack-id\":\"T1574.009\",\"rdfs:label\":\"Path Interception by Unquoted Path\"},{\"@id\":\"d3f:T1574.010\",\"d3f:attack-id\":\"T1574.010\",\"rdfs:label\":\"Services File Permissions Weakness\"},{\"@id\":\"d3f:T1574.011\",\"d3f:attack-id\":\"T1574.011\",\"rdfs:label\":\"Services Registry Permissions Weakness\"},{\"@id\":\"d3f:T1574.012\",\"d3f:attack-id\":\"T1574.012\",\"rdfs:label\":\"COR_PROFILER\"},{\"@id\":\"d3f:T1574.013\",\"d3f:attack-id\":\"T1574.013\",\"rdfs:label\":\"KernelCallbackTable\"},{\"@id\":\"d3f:T1578\",\"d3f:attack-id\":\"T1578\",\"rdfs:label\":\"Modify Cloud Compute Infrastructure\"},{\"@id\":\"d3f:T1578.001\",\"d3f:attack-id\":\"T1578.001\",\"rdfs:label\":\"Create Snapshot\"},{\"@id\":\"d3f:T1578.002\",\"d3f:attack-id\":\"T1578.002\",\"rdfs:label\":\"Create Cloud Instance\"},{\"@id\":\"d3f:T1578.003\",\"d3f:attack-id\":\"T1578.003\",\"rdfs:label\":\"Delete Cloud Instance\"},{\"@id\":\"d3f:T1578.004\",\"d3f:attack-id\":\"T1578.004\",\"rdfs:label\":\"Revert Cloud Instance\"},{\"@id\":\"d3f:T1580\",\"d3f:attack-id\":\"T1580\",\"rdfs:label\":\"Cloud Infrastructure Discovery\"},{\"@id\":\"d3f:T1583\",\"d3f:attack-id\":\"T1583\",\"rdfs:label\":\"Acquire Infrastructure\"},{\"@id\":\"d3f:T1583.001\",\"d3f:attack-id\":\"T1583.001\",\"rdfs:label\":\"Domains\"},{\"@id\":\"d3f:T1583.002\",\"d3f:attack-id\":\"T1583.002\",\"rdfs:label\":\"DNS Server\"},{\"@id\":\"d3f:T1583.003\",\"d3f:attack-id\":\"T1583.003\",\"rdfs:label\":\"Virtual Private Server\"},{\"@id\":\"d3f:T1583.004\",\"d3f:attack-id\":\"T1583.004\",\"rdfs:label\":\"Server\"},{\"@id\":\"d3f:T1583.005\",\"d3f:attack-id\":\"T1583.005\",\"rdfs:label\":\"Botnet\"},{\"@id\":\"d3f:T1583.006\",\"d3f:attack-id\":\"T1583.006\",\"rdfs:label\":\"Web Services\"},{\"@id\":\"d3f:T1584\",\"d3f:attack-id\":\"T1584\",\"rdfs:label\":\"Compromise Infrastructure\"},{\"@id\":\"d3f:T1584.001\",\"d3f:attack-id\":\"T1584.001\",\"rdfs:label\":\"Domains\"},{\"@id\":\"d3f:T1584.002\",\"d3f:attack-id\":\"T1584.002\",\"rdfs:label\":\"DNS Server\"},{\"@id\":\"d3f:T1584.003\",\"d3f:attack-id\":\"T1584.003\",\"rdfs:label\":\"Virtual Private Server\"},{\"@id\":\"d3f:T1584.004\",\"d3f:attack-id\":\"T1584.004\",\"rdfs:label\":\"Server\"},{\"@id\":\"d3f:T1584.005\",\"d3f:attack-id\":\"T1584.005\",\"rdfs:label\":\"Botnet\"},{\"@id\":\"d3f:T1584.006\",\"d3f:attack-id\":\"T1584.006\",\"rdfs:label\":\"Web Services\"},{\"@id\":\"d3f:T1585\",\"d3f:attack-id\":\"T1585\",\"rdfs:label\":\"Establish Accounts\"},{\"@id\":\"d3f:T1585.001\",\"d3f:attack-id\":\"T1585.001\",\"rdfs:label\":\"Social Media Accounts\"},{\"@id\":\"d3f:T1585.002\",\"d3f:attack-id\":\"T1585.002\",\"rdfs:label\":\"Email Accounts\"},{\"@id\":\"d3f:T1586\",\"d3f:attack-id\":\"T1586\",\"rdfs:label\":\"Compromise Accounts\"},{\"@id\":\"d3f:T1586.001\",\"d3f:attack-id\":\"T1586.001\",\"rdfs:label\":\"Social Media Accounts\"},{\"@id\":\"d3f:T1586.002\",\"d3f:attack-id\":\"T1586.002\",\"rdfs:label\":\"Email Accounts\"},{\"@id\":\"d3f:T1587\",\"d3f:attack-id\":\"T1587\",\"rdfs:label\":\"Develop Capabilities\"},{\"@id\":\"d3f:T1587.001\",\"d3f:attack-id\":\"T1587.001\",\"rdfs:label\":\"Malware\"},{\"@id\":\"d3f:T1587.002\",\"d3f:attack-id\":\"T1587.002\",\"rdfs:label\":\"Code Signing Certificates\"},{\"@id\":\"d3f:T1587.003\",\"d3f:attack-id\":\"T1587.003\",\"rdfs:label\":\"Digital Certificates\"},{\"@id\":\"d3f:T1587.004\",\"d3f:attack-id\":\"T1587.004\",\"rdfs:label\":\"Exploits\"},{\"@id\":\"d3f:T1588\",\"d3f:attack-id\":\"T1588\",\"rdfs:label\":\"Obtain Capabilities\"},{\"@id\":\"d3f:T1588.001\",\"d3f:attack-id\":\"T1588.001\",\"rdfs:label\":\"Malware\"},{\"@id\":\"d3f:T1588.002\",\"d3f:attack-id\":\"T1588.002\",\"rdfs:label\":\"Tool\"},{\"@id\":\"d3f:T1588.003\",\"d3f:attack-id\":\"T1588.003\",\"rdfs:label\":\"Code Signing Certificates\"},{\"@id\":\"d3f:T1588.004\",\"d3f:attack-id\":\"T1588.004\",\"rdfs:label\":\"Digital Certificates\"},{\"@id\":\"d3f:T1588.005\",\"d3f:attack-id\":\"T1588.005\",\"rdfs:label\":\"Exploits\"},{\"@id\":\"d3f:T1588.006\",\"d3f:attack-id\":\"T1588.006\",\"rdfs:label\":\"Vulnerabilities\"},{\"@id\":\"d3f:T1589\",\"d3f:attack-id\":\"T1589\",\"rdfs:label\":\"Gather Victim Identity Information\"},{\"@id\":\"d3f:T1589.001\",\"d3f:attack-id\":\"T1589.001\",\"rdfs:label\":\"Credentials\"},{\"@id\":\"d3f:T1589.002\",\"d3f:attack-id\":\"T1589.002\",\"rdfs:label\":\"Email Addresses\"},{\"@id\":\"d3f:T1589.003\",\"d3f:attack-id\":\"T1589.003\",\"rdfs:label\":\"Employee Names\"},{\"@id\":\"d3f:T1590\",\"d3f:attack-id\":\"T1590\",\"rdfs:label\":\"Gather Victim Network Information\"},{\"@id\":\"d3f:T1590.001\",\"d3f:attack-id\":\"T1590.001\",\"rdfs:label\":\"Domain Properties\"},{\"@id\":\"d3f:T1590.002\",\"d3f:attack-id\":\"T1590.002\",\"rdfs:label\":\"DNS\"},{\"@id\":\"d3f:T1590.003\",\"d3f:attack-id\":\"T1590.003\",\"rdfs:label\":\"Network Trust Dependencies\"},{\"@id\":\"d3f:T1590.004\",\"d3f:attack-id\":\"T1590.004\",\"rdfs:label\":\"Network Topology\"},{\"@id\":\"d3f:T1590.005\",\"d3f:attack-id\":\"T1590.005\",\"rdfs:label\":\"IP Addresses\"},{\"@id\":\"d3f:T1590.006\",\"d3f:attack-id\":\"T1590.006\",\"rdfs:label\":\"Network Security Appliances\"},{\"@id\":\"d3f:T1591\",\"d3f:attack-id\":\"T1591\",\"rdfs:label\":\"Gather Victim Org Information\"},{\"@id\":\"d3f:T1591.001\",\"d3f:attack-id\":\"T1591.001\",\"rdfs:label\":\"Determine Physical Locations\"},{\"@id\":\"d3f:T1591.002\",\"d3f:attack-id\":\"T1591.002\",\"rdfs:label\":\"Business Relationships\"},{\"@id\":\"d3f:T1591.003\",\"d3f:attack-id\":\"T1591.003\",\"rdfs:label\":\"Identify Business Tempo\"},{\"@id\":\"d3f:T1591.004\",\"d3f:attack-id\":\"T1591.004\",\"rdfs:label\":\"Identify Roles\"},{\"@id\":\"d3f:T1592\",\"d3f:attack-id\":\"T1592\",\"rdfs:label\":\"Gather Victim Host Information\"},{\"@id\":\"d3f:T1592.001\",\"d3f:attack-id\":\"T1592.001\",\"rdfs:label\":\"Hardware\"},{\"@id\":\"d3f:T1592.002\",\"d3f:attack-id\":\"T1592.002\",\"rdfs:label\":\"Software\"},{\"@id\":\"d3f:T1592.003\",\"d3f:attack-id\":\"T1592.003\",\"rdfs:label\":\"Firmware\"},{\"@id\":\"d3f:T1592.004\",\"d3f:attack-id\":\"T1592.004\",\"rdfs:label\":\"Client Configurations\"},{\"@id\":\"d3f:T1593\",\"d3f:attack-id\":\"T1593\",\"rdfs:label\":\"Search Open Websites/Domains\"},{\"@id\":\"d3f:T1593.001\",\"d3f:attack-id\":\"T1593.001\",\"rdfs:label\":\"Social Media\"},{\"@id\":\"d3f:T1593.002\",\"d3f:attack-id\":\"T1593.002\",\"rdfs:label\":\"Search Engines\"},{\"@id\":\"d3f:T1594\",\"d3f:attack-id\":\"T1594\",\"rdfs:label\":\"Search Victim-Owned Websites\"},{\"@id\":\"d3f:T1595\",\"d3f:attack-id\":\"T1595\",\"rdfs:label\":\"Active Scanning\"},{\"@id\":\"d3f:T1595.001\",\"d3f:attack-id\":\"T1595.001\",\"rdfs:label\":\"Scanning IP Blocks\"},{\"@id\":\"d3f:T1595.002\",\"d3f:attack-id\":\"T1595.002\",\"rdfs:label\":\"Vulnerability Scanning\"},{\"@id\":\"d3f:T1595.003\",\"d3f:attack-id\":\"T1595.003\",\"rdfs:label\":\"Wordlist Scanning\"},{\"@id\":\"d3f:T1596\",\"d3f:attack-id\":\"T1596\",\"rdfs:label\":\"Search Open Technical Databases\"},{\"@id\":\"d3f:T1596.001\",\"d3f:attack-id\":\"T1596.001\",\"rdfs:label\":\"DNS/Passive DNS\"},{\"@id\":\"d3f:T1596.002\",\"d3f:attack-id\":\"T1596.002\",\"rdfs:label\":\"WHOIS\"},{\"@id\":\"d3f:T1596.003\",\"d3f:attack-id\":\"T1596.003\",\"rdfs:label\":\"Digital Certificates\"},{\"@id\":\"d3f:T1596.004\",\"d3f:attack-id\":\"T1596.004\",\"rdfs:label\":\"CDNs\"},{\"@id\":\"d3f:T1596.005\",\"d3f:attack-id\":\"T1596.005\",\"rdfs:label\":\"Scan Databases\"},{\"@id\":\"d3f:T1597\",\"d3f:attack-id\":\"T1597\",\"rdfs:label\":\"Search Closed Sources\"},{\"@id\":\"d3f:T1597.001\",\"d3f:attack-id\":\"T1597.001\",\"rdfs:label\":\"Threat Intel Vendors\"},{\"@id\":\"d3f:T1597.002\",\"d3f:attack-id\":\"T1597.002\",\"rdfs:label\":\"Purchase Technical Data\"},{\"@id\":\"d3f:T1598\",\"d3f:attack-id\":\"T1598\",\"rdfs:label\":\"Phishing for Information\"},{\"@id\":\"d3f:T1598.001\",\"d3f:attack-id\":\"T1598.001\",\"rdfs:label\":\"Spearphishing Service\"},{\"@id\":\"d3f:T1598.002\",\"d3f:attack-id\":\"T1598.002\",\"rdfs:label\":\"Spearphishing Attachment\"},{\"@id\":\"d3f:T1598.003\",\"d3f:attack-id\":\"T1598.003\",\"rdfs:label\":\"Spearphishing Link\"},{\"@id\":\"d3f:T1599\",\"d3f:attack-id\":\"T1599\",\"rdfs:label\":\"Network Boundary Bridging\"},{\"@id\":\"d3f:T1599.001\",\"d3f:attack-id\":\"T1599.001\",\"rdfs:label\":\"Network Address Translation Traversal\"},{\"@id\":\"d3f:T1600\",\"d3f:attack-id\":\"T1600\",\"rdfs:label\":\"Weaken Encryption\"},{\"@id\":\"d3f:T1600.001\",\"d3f:attack-id\":\"T1600.001\",\"rdfs:label\":\"Reduce Key Space\"},{\"@id\":\"d3f:T1600.002\",\"d3f:attack-id\":\"T1600.002\",\"rdfs:label\":\"Disable Crypto Hardware\"},{\"@id\":\"d3f:T1601\",\"d3f:attack-id\":\"T1601\",\"rdfs:label\":\"Modify System Image\"},{\"@id\":\"d3f:T1601.001\",\"d3f:attack-id\":\"T1601.001\",\"rdfs:label\":\"Patch System Image\"},{\"@id\":\"d3f:T1601.002\",\"d3f:attack-id\":\"T1601.002\",\"rdfs:label\":\"Downgrade System Image\"},{\"@id\":\"d3f:T1602\",\"d3f:attack-id\":\"T1602\",\"rdfs:label\":\"Data from Configuration Repository\"},{\"@id\":\"d3f:T1602.001\",\"d3f:attack-id\":\"T1602.001\",\"rdfs:label\":\"SNMP (MIB Dump)\"},{\"@id\":\"d3f:T1602.002\",\"d3f:attack-id\":\"T1602.002\",\"rdfs:label\":\"Network Device Configuration Dump\"},{\"@id\":\"d3f:T1606\",\"d3f:attack-id\":\"T1606\",\"rdfs:label\":\"Forge Web Credentials\"},{\"@id\":\"d3f:T1606.001\",\"d3f:attack-id\":\"T1606.001\",\"rdfs:label\":\"Web Cookies\"},{\"@id\":\"d3f:T1606.002\",\"d3f:attack-id\":\"T1606.002\",\"rdfs:label\":\"SAML Tokens\"},{\"@id\":\"d3f:T1608\",\"d3f:attack-id\":\"T1608\",\"rdfs:label\":\"Stage Capabilities\"},{\"@id\":\"d3f:T1608.001\",\"d3f:attack-id\":\"T1608.001\",\"rdfs:label\":\"Upload Malware\"},{\"@id\":\"d3f:T1608.002\",\"d3f:attack-id\":\"T1608.002\",\"rdfs:label\":\"Upload Tool\"},{\"@id\":\"d3f:T1608.003\",\"d3f:attack-id\":\"T1608.003\",\"rdfs:label\":\"Install Digital Certificate\"},{\"@id\":\"d3f:T1608.004\",\"d3f:attack-id\":\"T1608.004\",\"rdfs:label\":\"Drive-by Target\"},{\"@id\":\"d3f:T1608.005\",\"d3f:attack-id\":\"T1608.005\",\"rdfs:label\":\"Link Target\"},{\"@id\":\"d3f:T1609\",\"d3f:attack-id\":\"T1609\",\"rdfs:label\":\"Container Administration Command\"},{\"@id\":\"d3f:T1610\",\"d3f:attack-id\":\"T1610\",\"rdfs:label\":\"Deploy Container\"},{\"@id\":\"d3f:T1611\",\"d3f:attack-id\":\"T1611\",\"rdfs:label\":\"Escape to Host\"},{\"@id\":\"d3f:T1612\",\"d3f:attack-id\":\"T1612\",\"rdfs:label\":\"Build Image on Host\"},{\"@id\":\"d3f:T1613\",\"d3f:attack-id\":\"T1613\",\"rdfs:label\":\"Container and Resource Discovery\"},{\"@id\":\"d3f:T1614\",\"d3f:attack-id\":\"T1614\",\"rdfs:label\":\"System Location Discovery\"},{\"@id\":\"d3f:T1614.001\",\"d3f:attack-id\":\"T1614.001\",\"rdfs:label\":\"System Language Discovery\"},{\"@id\":\"d3f:T1615\",\"d3f:attack-id\":\"T1615\",\"rdfs:label\":\"Group Policy Discovery\"},{\"@id\":\"d3f:T1619\",\"d3f:attack-id\":\"T1619\",\"rdfs:label\":\"Cloud Storage Object Discovery\"},{\"@id\":\"d3f:T1620\",\"d3f:attack-id\":\"T1620\",\"rdfs:label\":\"Reflective Code Loading\"},{\"@id\":\"d3f:T1621\",\"d3f:attack-id\":\"T1621\",\"rdfs:label\":\"Multi-Factor Authentication Request Generation\"},{\"@id\":\"d3f:T1622\",\"d3f:attack-id\":\"T1622\",\"rdfs:label\":\"Debugger Evasion\"},{\"@id\":\"d3f:T1647\",\"d3f:attack-id\":\"T1647\",\"rdfs:label\":\"Plist File Modification\"}]}"}</script></div>
       
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script id="atarget" async      >

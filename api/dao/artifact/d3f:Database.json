@@ -1,1 +1,1671 @@
-{"da_to_off":{"head":{"vars":["off_artifact_label","off_artifact_rel_label","off_tech_label","off_tech_id","off_tactic_rel_label","off_tactic_label","off_artifact","off_artifact_rel","off_tech","off_tactic_rel","off_tactic"]},"results":{"bindings":[{"off_artifact_label":{"type":"literal","value":"Application Configuration Database"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"Outlook Home Page"},"off_tech_id":{"type":"literal","value":"T1137.004"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Persistence"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#ApplicationConfigurationDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1137.004"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"}},{"off_artifact_label":{"type":"literal","value":"Application Configuration Database"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"Outlook Rules"},"off_tech_id":{"type":"literal","value":"T1137.005"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Persistence"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#ApplicationConfigurationDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1137.005"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"}},{"off_artifact_label":{"type":"literal","value":"Code Repository"},"off_artifact_rel_label":{"type":"literal","value":"reads"},"off_tech_label":{"type":"literal","value":"Code Repositories"},"off_tech_id":{"type":"literal","value":"T1213.003"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Collection"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#CodeRepository"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#reads"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1213.003"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Collection"}},{"off_artifact_label":{"type":"literal","value":"Code Repository"},"off_artifact_rel_label":{"type":"literal","value":"reads"},"off_tech_label":{"type":"literal","value":"Code Repositories"},"off_tech_id":{"type":"literal","value":"T1213.003"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Discovery"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#CodeRepository"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#reads"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1213.003"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Discovery"}},{"off_artifact_label":{"type":"literal","value":"In-memory Password Store"},"off_artifact_rel_label":{"type":"literal","value":"accesses"},"off_tech_label":{"type":"literal","value":"Securityd Memory"},"off_tech_id":{"type":"literal","value":"T1555.002"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Credential Access"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#In-memoryPasswordStore"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#accesses"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1555.002"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#CredentialAccess"}},{"off_artifact_label":{"type":"literal","value":"In-memory Password Store"},"off_artifact_rel_label":{"type":"literal","value":"may-access"},"off_tech_label":{"type":"literal","value":"Credentials from Web Browsers"},"off_tech_id":{"type":"literal","value":"T1555.003"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Credential Access"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#In-memoryPasswordStore"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#may-access"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1555.003"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#CredentialAccess"}},{"off_artifact_label":{"type":"literal","value":"MacOS Keychain"},"off_artifact_rel_label":{"type":"literal","value":"accesses"},"off_tech_label":{"type":"literal","value":"Keychain"},"off_tech_id":{"type":"literal","value":"T1555.001"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Credential Access"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#MacOSKeychain"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#accesses"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1555.001"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#CredentialAccess"}},{"off_artifact_label":{"type":"literal","value":"Password File"},"off_artifact_rel_label":{"type":"literal","value":"accesses"},"off_tech_label":{"type":"literal","value":"/etc/passwd and /etc/shadow"},"off_tech_id":{"type":"literal","value":"T1003.008"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Credential Access"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#PasswordFile"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#accesses"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1003.008"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#CredentialAccess"}},{"off_artifact_label":{"type":"literal","value":"Password Store"},"off_artifact_rel_label":{"type":"literal","value":"accesses"},"off_tech_label":{"type":"literal","value":"Credentials from Password Stores"},"off_tech_id":{"type":"literal","value":"T1555"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Credential Access"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#PasswordStore"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#accesses"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1555"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#CredentialAccess"}},{"off_artifact_label":{"type":"literal","value":"Shim Database"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"Application Shimming"},"off_tech_id":{"type":"literal","value":"T1546.011"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Persistence"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#ShimDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1546.011"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"}},{"off_artifact_label":{"type":"literal","value":"Shim Database"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"Application Shimming"},"off_tech_id":{"type":"literal","value":"T1546.011"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Privilege Escalation"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#ShimDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1546.011"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#PrivilegeEscalation"}},{"off_artifact_label":{"type":"literal","value":"System Configuration Database"},"off_artifact_rel_label":{"type":"literal","value":"accesses"},"off_tech_label":{"type":"literal","value":"Credentials in Registry"},"off_tech_id":{"type":"literal","value":"T1552.002"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Credential Access"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#accesses"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1552.002"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#CredentialAccess"}},{"off_artifact_label":{"type":"literal","value":"System Configuration Database"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"Rogue Domain Controller"},"off_tech_id":{"type":"literal","value":"T1207"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Defense Evasion"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1207"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"}},{"off_artifact_label":{"type":"literal","value":"System Configuration Database"},"off_artifact_rel_label":{"type":"literal","value":"may-modify"},"off_tech_label":{"type":"literal","value":"MMC"},"off_tech_id":{"type":"literal","value":"T1218.014"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Defense Evasion"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#may-modify"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1218.014"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"}},{"off_artifact_label":{"type":"literal","value":"System Configuration Database"},"off_artifact_rel_label":{"type":"literal","value":"creates"},"off_tech_label":{"type":"literal","value":"Elevated Execution with Prompt"},"off_tech_id":{"type":"literal","value":"T1548.004"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Defense Evasion"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#creates"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1548.004"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"}},{"off_artifact_label":{"type":"literal","value":"System Configuration Database"},"off_artifact_rel_label":{"type":"literal","value":"may-modify"},"off_tech_label":{"type":"literal","value":"Hidden Window"},"off_tech_id":{"type":"literal","value":"T1564.003"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Defense Evasion"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#may-modify"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1564.003"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"}},{"off_artifact_label":{"type":"literal","value":"System Configuration Database"},"off_artifact_rel_label":{"type":"literal","value":"may-modify"},"off_tech_label":{"type":"literal","value":"Hidden File System"},"off_tech_id":{"type":"literal","value":"T1564.005"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Defense Evasion"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#may-modify"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1564.005"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"}},{"off_artifact_label":{"type":"literal","value":"System Configuration Database"},"off_artifact_rel_label":{"type":"literal","value":"queries"},"off_tech_label":{"type":"literal","value":"System Language Discovery"},"off_tech_id":{"type":"literal","value":"T1614.001"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Discovery"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#queries"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1614.001"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Discovery"}},{"off_artifact_label":{"type":"literal","value":"System Configuration Database"},"off_artifact_rel_label":{"type":"literal","value":"may-modify"},"off_tech_label":{"type":"literal","value":"MMC"},"off_tech_id":{"type":"literal","value":"T1218.014"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Execution"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#may-modify"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1218.014"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Execution"}},{"off_artifact_label":{"type":"literal","value":"System Configuration Database"},"off_artifact_rel_label":{"type":"literal","value":"may-modify"},"off_tech_label":{"type":"literal","value":"Add-ins"},"off_tech_id":{"type":"literal","value":"T1137.006"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Persistence"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#may-modify"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1137.006"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"}},{"off_artifact_label":{"type":"literal","value":"System Configuration Database"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"Windows Service"},"off_tech_id":{"type":"literal","value":"T1543.003"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Persistence"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1543.003"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"}},{"off_artifact_label":{"type":"literal","value":"System Configuration Database"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"Image File Execution Options Injection"},"off_tech_id":{"type":"literal","value":"T1546.012"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Persistence"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1546.012"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"}},{"off_artifact_label":{"type":"literal","value":"System Configuration Database"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"Component Object Model Hijacking"},"off_tech_id":{"type":"literal","value":"T1546.015"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Persistence"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1546.015"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"}},{"off_artifact_label":{"type":"literal","value":"System Configuration Database"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"Windows Service"},"off_tech_id":{"type":"literal","value":"T1543.003"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Privilege Escalation"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1543.003"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#PrivilegeEscalation"}},{"off_artifact_label":{"type":"literal","value":"System Configuration Database"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"Image File Execution Options Injection"},"off_tech_id":{"type":"literal","value":"T1546.012"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Privilege Escalation"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1546.012"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#PrivilegeEscalation"}},{"off_artifact_label":{"type":"literal","value":"System Configuration Database"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"Component Object Model Hijacking"},"off_tech_id":{"type":"literal","value":"T1546.015"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Privilege Escalation"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1546.015"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#PrivilegeEscalation"}},{"off_artifact_label":{"type":"literal","value":"System Configuration Database"},"off_artifact_rel_label":{"type":"literal","value":"creates"},"off_tech_label":{"type":"literal","value":"Elevated Execution with Prompt"},"off_tech_id":{"type":"literal","value":"T1548.004"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Privilege Escalation"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#creates"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1548.004"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#PrivilegeEscalation"}},{"off_artifact_label":{"type":"literal","value":"System Password Database"},"off_artifact_rel_label":{"type":"literal","value":"may-access"},"off_tech_label":{"type":"literal","value":"Security Account Manager"},"off_tech_id":{"type":"literal","value":"T1003.002"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Credential Access"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemPasswordDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#may-access"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1003.002"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#CredentialAccess"}},{"off_artifact_label":{"type":"literal","value":"System Password Database"},"off_artifact_rel_label":{"type":"literal","value":"may-access"},"off_tech_label":{"type":"literal","value":"LSA Secrets"},"off_tech_id":{"type":"literal","value":"T1003.004"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Credential Access"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#SystemPasswordDatabase"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#may-access"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1003.004"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#CredentialAccess"}},{"off_artifact_label":{"type":"literal","value":"Windows Registry"},"off_artifact_rel_label":{"type":"literal","value":"modifies"},"off_tech_label":{"type":"literal","value":"Modify Registry"},"off_tech_id":{"type":"literal","value":"T1112"},"off_tactic_rel_label":{"type":"literal","value":"enables"},"off_tactic_label":{"type":"literal","value":"Defense Evasion"},"off_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#WindowsRegistry"},"off_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"},"off_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#T1112"},"off_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"off_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"}}]}},"da_to_def":{"head":{"vars":["def_tactic_label","def_tactic_rel_label","def_tech_parent_is_toplevel","def_tech_parent_label","def_tech_label","def_artifact_rel_label","def_artifact_label","def_tactic","def_tactic_rel","def_tech","def_artifact_rel","def_artifact"]},"results":{"bindings":[]}},"da_graph":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:ApplicationConfigurationDatabase","rdfs:hasSubClass":{"@id":"d3f:ShimDatabase"},"rdfs:label":"Application Configuration Database"},{"@id":"d3f:CodeRepository","rdfs:label":"Code Repository"},{"@id":"d3f:Database","rdfs:hasSubClass":[{"@id":"d3f:PasswordDatabase"},{"@id":"d3f:ApplicationConfigurationDatabase"},{"@id":"d3f:SystemConfigurationDatabase"},{"@id":"d3f:CodeRepository"}],"rdfs:label":"Database"},{"@id":"d3f:DigitalArtifact","rdfs:hasSubClass":[{"@id":"d3f:Database"},{"@id":"d3f:Resource"}],"rdfs:label":"Digital Artifact"},{"@id":"d3f:File","rdfs:hasSubClass":{"@id":"d3f:PasswordFile"},"rdfs:label":"File"},{"@id":"d3f:In-memoryPasswordStore","rdfs:label":"In-memory Password Store"},{"@id":"d3f:MacOSKeychain","rdfs:label":"MacOS Keychain"},{"@id":"d3f:PasswordDatabase","rdfs:hasSubClass":[{"@id":"d3f:PasswordStore"},{"@id":"d3f:PasswordFile"},{"@id":"d3f:SystemPasswordDatabase"}],"rdfs:label":"Password Database"},{"@id":"d3f:PasswordFile","rdfs:label":"Password File"},{"@id":"d3f:PasswordStore","rdfs:hasSubClass":[{"@id":"d3f:In-memoryPasswordStore"},{"@id":"d3f:MacOSKeychain"}],"rdfs:label":"Password Store"},{"@id":"d3f:Resource","rdfs:hasSubClass":{"@id":"d3f:File"},"rdfs:label":"Resource"},{"@id":"d3f:ShimDatabase","rdfs:label":"Shim Database"},{"@id":"d3f:SystemConfigurationDatabase","rdfs:hasSubClass":{"@id":"d3f:WindowsRegistry"},"rdfs:label":"System Configuration Database"},{"@id":"d3f:SystemPasswordDatabase","rdfs:label":"System Password Database"},{"@id":"d3f:WindowsRegistry","rdfs:label":"Windows Registry"}]},"description":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:Database","@type":["owl:NamedIndividual","owl:Class"],"rdfs:comment":"A database is an organized collection of data, generally stored and accessed electronically from a computer system. Where databases are more complex they are often developed using formal design and modeling techniques.","rdfs:isDefinedBy":{"@id":"http://dbpedia.org/resource/Database"},"rdfs:label":"Database","rdfs:seeAlso":{"@id":"http://dbpedia.org/resource/Database"},"rdfs:subClassOf":{"@id":"d3f:DigitalArtifact"}},{"@id":"d3f:DigitalArtifact"},{"@id":"http://dbpedia.org/resource/Database"}]},"neighbors":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:Database","rdfs:label":["Database"]},{"@id":"d3f:DatabaseServer","d3f:contains":[{"@id":"d3f:Database"}],"d3f:outbound":[{"@id":"d3f:contains"}],"rdfs:label":["Database Server"]}]}}
+{
+  "da_to_off": {
+    "head": {
+      "vars": [
+        "off_artifact_label",
+        "off_artifact_rel_label",
+        "off_tech_label",
+        "off_tech_id",
+        "off_tactic_rel_label",
+        "off_tactic_label",
+        "off_artifact",
+        "off_artifact_rel",
+        "off_tech",
+        "off_tactic_rel",
+        "off_tactic"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Code Repository"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "reads"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Code Repositories"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1213.003"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Collection"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#CodeRepository"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#reads"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1213.003"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Collection"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Code Repository"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "reads"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Code Repositories"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1213.003"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Discovery"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#CodeRepository"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#reads"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1213.003"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Discovery"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "In-memory Password Store"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "accesses"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Securityd Memory"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1555.002"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Credential Access"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#In-memoryPasswordStore"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#accesses"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1555.002"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#CredentialAccess"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "In-memory Password Store"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "may-access"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Credentials from Web Browsers"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1555.003"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Credential Access"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#In-memoryPasswordStore"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#may-access"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1555.003"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#CredentialAccess"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "MacOS Keychain"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "accesses"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Keychain"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1555.001"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Credential Access"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#MacOSKeychain"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#accesses"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1555.001"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#CredentialAccess"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Password File"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "accesses"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "/etc/passwd and /etc/shadow"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1003.008"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Credential Access"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#PasswordFile"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#accesses"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1003.008"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#CredentialAccess"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Password File"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "may-access"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "System Owner/User Discovery"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1033"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Discovery"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#PasswordFile"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#may-access"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1033"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Discovery"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Password Store"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "accesses"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Credentials from Password Stores"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1555"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Credential Access"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#PasswordStore"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#accesses"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1555"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#CredentialAccess"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Configuration Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "accesses"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Credentials in Registry"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1552.002"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Credential Access"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#accesses"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1552.002"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#CredentialAccess"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Configuration Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "modifies"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Rogue Domain Controller"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1207"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Defense Evasion"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1207"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Configuration Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "may-modify"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "MMC"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1218.014"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Defense Evasion"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#may-modify"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1218.014"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Configuration Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "creates"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Elevated Execution with Prompt"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1548.004"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Defense Evasion"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#creates"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1548.004"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Configuration Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "may-modify"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Hidden Window"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1564.003"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Defense Evasion"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#may-modify"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1564.003"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Configuration Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "may-modify"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Hidden File System"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1564.005"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Defense Evasion"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#may-modify"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1564.005"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Configuration Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "accesses"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Query Registry"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1012"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Discovery"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#accesses"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1012"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Discovery"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Configuration Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "queries"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "System Language Discovery"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1614.001"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Discovery"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#queries"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1614.001"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Discovery"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Configuration Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "may-modify"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "MMC"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1218.014"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Execution"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#may-modify"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1218.014"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Execution"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Configuration Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "may-modify"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Add-ins"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1137.006"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Persistence"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#may-modify"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1137.006"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Configuration Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "modifies"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Windows Service"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1543.003"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Persistence"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1543.003"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Configuration Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "modifies"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Image File Execution Options Injection"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1546.012"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Persistence"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1546.012"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Configuration Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "modifies"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Component Object Model Hijacking"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1546.015"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Persistence"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1546.015"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Persistence"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Configuration Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "modifies"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Windows Service"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1543.003"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Privilege Escalation"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1543.003"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#PrivilegeEscalation"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Configuration Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "modifies"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Image File Execution Options Injection"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1546.012"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Privilege Escalation"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1546.012"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#PrivilegeEscalation"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Configuration Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "modifies"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Component Object Model Hijacking"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1546.015"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Privilege Escalation"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1546.015"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#PrivilegeEscalation"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Configuration Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "creates"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Elevated Execution with Prompt"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1548.004"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Privilege Escalation"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#creates"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1548.004"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#PrivilegeEscalation"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Password Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "may-access"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Security Account Manager"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1003.002"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Credential Access"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemPasswordDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#may-access"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1003.002"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#CredentialAccess"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "System Password Database"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "may-access"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "LSA Secrets"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1003.004"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Credential Access"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemPasswordDatabase"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#may-access"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1003.004"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#CredentialAccess"
+          }
+        },
+        {
+          "off_artifact_label": {
+            "type": "literal",
+            "value": "Windows Registry"
+          },
+          "off_artifact_rel_label": {
+            "type": "literal",
+            "value": "modifies"
+          },
+          "off_tech_label": {
+            "type": "literal",
+            "value": "Modify Registry"
+          },
+          "off_tech_id": {
+            "type": "literal",
+            "value": "T1112"
+          },
+          "off_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "off_tactic_label": {
+            "type": "literal",
+            "value": "Defense Evasion"
+          },
+          "off_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#WindowsRegistry"
+          },
+          "off_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#modifies"
+          },
+          "off_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#T1112"
+          },
+          "off_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "off_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DefenseEvasion"
+          }
+        }
+      ]
+    }
+  },
+  "da_to_def": {
+    "head": {
+      "vars": [
+        "def_tactic_label",
+        "def_tactic_rel_label",
+        "def_tech_parent_is_toplevel",
+        "def_tech_parent_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Model"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Asset Inventory"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Data Inventory"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "inventories"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Database"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Model"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DataInventory"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#inventories"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Database"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Model"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Asset Inventory"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Asset Vulnerability Enumeration"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "evaluates"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Digital Artifact"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Model"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#AssetVulnerabilityEnumeration"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#evaluates"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#DigitalArtifact"
+          }
+        },
+        {
+          "def_tactic_label": {
+            "type": "literal",
+            "value": "Harden"
+          },
+          "def_tactic_rel_label": {
+            "type": "literal",
+            "value": "enables"
+          },
+          "def_tech_parent_is_toplevel": {
+            "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+            "type": "literal",
+            "value": "true"
+          },
+          "def_tech_parent_label": {
+            "type": "literal",
+            "value": "Platform Hardening"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "System Configuration Permissions"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "restricts"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "System Configuration Database"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Harden"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationPermissions"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#restricts"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#SystemConfigurationDatabase"
+          }
+        }
+      ]
+    }
+  },
+  "da_graph": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:CodeRepository",
+        "rdfs:label": "Code Repository"
+      },
+      {
+        "@id": "d3f:Database",
+        "rdfs:hasSubClass": [
+          {
+            "@id": "d3f:PasswordDatabase"
+          },
+          {
+            "@id": "d3f:SystemConfigurationDatabase"
+          },
+          {
+            "@id": "d3f:CodeRepository"
+          }
+        ],
+        "rdfs:label": "Database"
+      },
+      {
+        "@id": "d3f:DigitalArtifact",
+        "rdfs:hasSubClass": [
+          {
+            "@id": "d3f:Database"
+          },
+          {
+            "@id": "d3f:Resource"
+          }
+        ],
+        "rdfs:label": "Digital Artifact"
+      },
+      {
+        "@id": "d3f:File",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:PasswordFile"
+        },
+        "rdfs:label": "File"
+      },
+      {
+        "@id": "d3f:In-memoryPasswordStore",
+        "rdfs:label": "In-memory Password Store"
+      },
+      {
+        "@id": "d3f:MacOSKeychain",
+        "rdfs:label": "MacOS Keychain"
+      },
+      {
+        "@id": "d3f:PasswordDatabase",
+        "rdfs:hasSubClass": [
+          {
+            "@id": "d3f:PasswordStore"
+          },
+          {
+            "@id": "d3f:PasswordFile"
+          },
+          {
+            "@id": "d3f:SystemPasswordDatabase"
+          }
+        ],
+        "rdfs:label": "Password Database"
+      },
+      {
+        "@id": "d3f:PasswordFile",
+        "rdfs:label": "Password File"
+      },
+      {
+        "@id": "d3f:PasswordStore",
+        "rdfs:hasSubClass": [
+          {
+            "@id": "d3f:In-memoryPasswordStore"
+          },
+          {
+            "@id": "d3f:MacOSKeychain"
+          }
+        ],
+        "rdfs:label": "Password Store"
+      },
+      {
+        "@id": "d3f:Resource",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:File"
+        },
+        "rdfs:label": "Resource"
+      },
+      {
+        "@id": "d3f:SystemConfigurationDatabase",
+        "rdfs:hasSubClass": {
+          "@id": "d3f:WindowsRegistry"
+        },
+        "rdfs:label": "System Configuration Database"
+      },
+      {
+        "@id": "d3f:SystemPasswordDatabase",
+        "rdfs:label": "System Password Database"
+      },
+      {
+        "@id": "d3f:WindowsRegistry",
+        "rdfs:label": "Windows Registry"
+      }
+    ]
+  },
+  "description": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "children": {
+        "@id": "d3f:child",
+        "@type": "@id",
+        "@container": "@set"
+      }
+    },
+    "@graph": [
+      {
+        "@id": "d3f:Database",
+        "@type": [
+          "owl:NamedIndividual",
+          "owl:Class"
+        ],
+        "rdfs:comment": "A database is an organized collection of data, generally stored and accessed electronically from a computer system. Where databases are more complex they are often developed using formal design and modeling techniques.",
+        "rdfs:isDefinedBy": {
+          "@id": "http://dbpedia.org/resource/Database"
+        },
+        "rdfs:label": "Database",
+        "rdfs:seeAlso": {
+          "@id": "http://dbpedia.org/resource/Database"
+        },
+        "rdfs:subClassOf": {
+          "@id": "d3f:DigitalArtifact"
+        }
+      },
+      {
+        "@id": "d3f:DigitalArtifact"
+      },
+      {
+        "@id": "http://dbpedia.org/resource/Database"
+      }
+    ]
+  },
+  "neighbors": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "children": {
+        "@id": "d3f:child",
+        "@type": "@id",
+        "@container": "@set"
+      }
+    },
+    "@graph": [
+      {
+        "@id": "d3f:Database",
+        "rdfs:label": [
+          "Database"
+        ]
+      },
+      {
+        "@id": "d3f:DatabaseServer",
+        "d3f:contains": [
+          {
+            "@id": "d3f:Database"
+          }
+        ],
+        "d3f:outbound": [
+          {
+            "@id": "d3f:contains"
+          }
+        ],
+        "rdfs:label": [
+          "Database Server"
+        ]
+      }
+    ]
+  }
+}

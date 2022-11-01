@@ -1,1 +1,323 @@
-{"group":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:Isolate","@type":["d3f:DefensiveTactic","owl:NamedIndividual","owl:Class"],"d3f:definition":"The isolate tactic creates logical or physical barriers in a system which reduces opportunities for adversaries to create further accesses.","d3f:display-order":{"@type":"http://www.w3.org/2001/XMLSchema#integer","@value":"2"},"rdfs:label":"Isolate","rdfs:subClassOf":{"@id":"d3f:DefensiveTactic"}}]},"techniques":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:BroadcastDomainIsolation","d3f:d3fend-id":"D3-BDI","d3f:definition":"Broadcast isolation restricts the number of computers a host can contact on their LAN.","d3f:synonym":"Network Segmentation","rdfs:label":"Broadcast Domain Isolation","rdfs:subClassOf":{"@id":"d3f:NetworkIsolation"}},{"@id":"d3f:DNSAllowlisting","d3f:d3fend-id":"D3-DNSAL","d3f:definition":"Permitting only approved domains and their subdomains to be resolved.","d3f:synonym":"DNS Whitelisting","rdfs:label":"DNS Allowlisting","rdfs:subClassOf":{"@id":"d3f:NetworkIsolation"}},{"@id":"d3f:DNSDenylisting","d3f:d3fend-id":"D3-DNSDL","d3f:definition":"Blocking DNS Network Traffic based on criteria such as IP address, domain name, or DNS query type.","d3f:synonym":"DNS Blacklisting","rdfs:label":"DNS Denylisting","rdfs:subClassOf":{"@id":"d3f:NetworkIsolation"}},{"@id":"d3f:EncryptedTunnels","d3f:d3fend-id":"D3-ET","d3f:definition":"Encrypted encapsulation of routable network traffic.","rdfs:label":"Encrypted Tunnels","rdfs:subClassOf":{"@id":"d3f:NetworkIsolation"}},{"@id":"d3f:ExecutableAllowlisting","d3f:d3fend-id":"D3-EAL","d3f:definition":"Using a digital signature to authenticate a file before opening.","d3f:synonym":"File Signature Authentication","rdfs:label":"Executable Allowlisting","rdfs:subClassOf":{"@id":"d3f:ExecutionIsolation"}},{"@id":"d3f:ExecutableDenylisting","d3f:d3fend-id":"D3-EDL","d3f:definition":"Blocking the execution of files on a host in accordance with defined application policy rules.","d3f:synonym":"Executable Blacklisting","rdfs:label":"Executable Denylisting","rdfs:subClassOf":{"@id":"d3f:ExecutionIsolation"}},{"@id":"d3f:ExecutionIsolation","d3f:d3fend-id":"D3-EI","d3f:definition":"Execution Isolation techniques prevent application processes from accessing non-essential system resources, such as memory, devices, or files.","d3f:top-level":"true","rdfs:hasSubClass":[{"@id":"d3f:ExecutableAllowlisting"},{"@id":"d3f:ExecutableDenylisting"},{"@id":"d3f:Hardware-basedProcessIsolation"},{"@id":"d3f:IOPortRestriction"},{"@id":"d3f:Kernel-basedProcessIsolation"},{"@id":"d3f:MandatoryAccessControl"},{"@id":"d3f:SystemCallFiltering"}],"rdfs:label":"Execution Isolation"},{"@id":"d3f:ForwardResolutionDomainDenylisting","d3f:d3fend-id":"D3-FRDDL","d3f:definition":"Blocking a lookup based on the query's domain name value.","d3f:synonym":"Forward Resolution Domain Blacklisting","rdfs:label":"Forward Resolution Domain Denylisting","rdfs:subClassOf":{"@id":"d3f:NetworkIsolation"}},{"@id":"d3f:ForwardResolutionIPDenylisting","d3f:d3fend-id":"D3-FRIDL","d3f:definition":"Blocking a DNS lookup's answer's IP address value.","d3f:synonym":"Forward Resolution IP Blacklisting","rdfs:label":"Forward Resolution IP Denylisting","rdfs:subClassOf":{"@id":"d3f:NetworkIsolation"}},{"@id":"d3f:Hardware-basedProcessIsolation","d3f:d3fend-id":"D3-HBPI","d3f:definition":"Preventing one process from writing to the memory space of another process through hardware based address manager implementations.","d3f:synonym":"Virtualization","rdfs:label":"Hardware-based Process Isolation","rdfs:subClassOf":{"@id":"d3f:ExecutionIsolation"}},{"@id":"d3f:HierarchicalDomainDenylisting","d3f:d3fend-id":"D3-HDDL","d3f:definition":"Blocking the resolution of any subdomain of a specified domain name.","d3f:synonym":"Hierarchical Domain Blacklisting","rdfs:label":"Hierarchical Domain Denylisting","rdfs:subClassOf":{"@id":"d3f:NetworkIsolation"}},{"@id":"d3f:HomoglyphDenylisting","d3f:d3fend-id":"D3-HDL","d3f:definition":"Blocking DNS queries that are deceptively similar to legitimate domain names.","d3f:synonym":"Homoglyph Blacklisting","rdfs:label":"Homoglyph Denylisting","rdfs:subClassOf":{"@id":"d3f:NetworkIsolation"}},{"@id":"d3f:IOPortRestriction","d3f:d3fend-id":"D3-IOPR","d3f:definition":"Limiting access to computer input/output (IO) ports to restrict unauthorized devices.","rdfs:label":"IO Port Restriction","rdfs:subClassOf":{"@id":"d3f:ExecutionIsolation"}},{"@id":"d3f:InboundTrafficFiltering","d3f:d3fend-id":"D3-ITF","d3f:definition":"Restricting network traffic originating from untrusted networks destined towards a private host or enclave.","rdfs:label":"Inbound Traffic Filtering","rdfs:subClassOf":{"@id":"d3f:NetworkIsolation"}},{"@id":"d3f:Kernel-basedProcessIsolation","d3f:d3fend-id":"D3-KBPI","d3f:definition":"Using kernel-level capabilities to isolate processes.","rdfs:label":"Kernel-based Process Isolation","rdfs:subClassOf":{"@id":"d3f:ExecutionIsolation"}},{"@id":"d3f:MandatoryAccessControl","d3f:d3fend-id":"D3-MAC","d3f:definition":"Controlling access to local computer system resources with kernel-level capabilities.","rdfs:label":"Mandatory Access Control","rdfs:subClassOf":{"@id":"d3f:ExecutionIsolation"}},{"@id":"d3f:NetworkIsolation","d3f:d3fend-id":"D3-NI","d3f:definition":"Network Isolation techniques prevent network hosts from accessing non-essential system network resources.","d3f:top-level":"true","rdfs:hasSubClass":[{"@id":"d3f:DNSAllowlisting"},{"@id":"d3f:DNSDenylisting"},{"@id":"d3f:EncryptedTunnels"},{"@id":"d3f:NetworkTrafficFiltering"},{"@id":"d3f:ForwardResolutionDomainDenylisting"},{"@id":"d3f:ForwardResolutionIPDenylisting"},{"@id":"d3f:InboundTrafficFiltering"},{"@id":"d3f:OutboundTrafficFiltering"},{"@id":"d3f:HierarchicalDomainDenylisting"},{"@id":"d3f:HomoglyphDenylisting"},{"@id":"d3f:BroadcastDomainIsolation"},{"@id":"d3f:ReverseResolutionDomainDenylisting"},{"@id":"d3f:ReverseResolutionIPDenylisting"}],"rdfs:label":"Network Isolation"},{"@id":"d3f:NetworkTrafficFiltering","d3f:d3fend-id":"D3-NTF","d3f:definition":"Restricting network traffic originating from any location.","rdfs:label":"Network Traffic Filtering","rdfs:subClassOf":{"@id":"d3f:NetworkIsolation"}},{"@id":"d3f:OutboundTrafficFiltering","d3f:d3fend-id":"D3-OTF","d3f:definition":"Restricting network traffic originating from a private host or enclave destined towards untrusted networks.","rdfs:label":"Outbound Traffic Filtering","rdfs:subClassOf":{"@id":"d3f:NetworkIsolation"}},{"@id":"d3f:ReverseResolutionDomainDenylisting","d3f:d3fend-id":"D3-RRDD","d3f:definition":"Blocking a reverse DNS lookup's answer's domain name value.","d3f:synonym":"Reverse Resolution Domain Blacklisting","rdfs:label":"Reverse Resolution Domain Denylisting","rdfs:subClassOf":{"@id":"d3f:NetworkIsolation"}},{"@id":"d3f:ReverseResolutionIPDenylisting","d3f:d3fend-id":"D3-RRID","d3f:definition":"Blocking a reverse lookup based on the query's IP address value.","d3f:synonym":"Reverse Resolution IP Blacklisting","rdfs:label":"Reverse Resolution IP Denylisting","rdfs:subClassOf":{"@id":"d3f:NetworkIsolation"}},{"@id":"d3f:SystemCallFiltering","d3f:d3fend-id":"D3-SCF","d3f:definition":"Configuring a kernel to use an allow or deny list to filter kernel api calls.","rdfs:label":"System Call Filtering","rdfs:subClassOf":{"@id":"d3f:ExecutionIsolation"}}]}}
+{
+  "group": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "children": {
+        "@id": "d3f:child",
+        "@type": "@id",
+        "@container": "@set"
+      }
+    },
+    "@graph": [
+      {
+        "@id": "d3f:Isolate",
+        "@type": [
+          "d3f:DefensiveTactic",
+          "owl:NamedIndividual",
+          "owl:Class"
+        ],
+        "d3f:definition": "The isolate tactic creates logical or physical barriers in a system which reduces opportunities for adversaries to create further accesses.",
+        "d3f:display-order": {
+          "@type": "http://www.w3.org/2001/XMLSchema#integer",
+          "@value": "2"
+        },
+        "d3f:display-priority": {
+          "@type": "http://www.w3.org/2001/XMLSchema#integer",
+          "@value": "0"
+        },
+        "rdfs:label": "Isolate",
+        "rdfs:subClassOf": {
+          "@id": "d3f:DefensiveTactic"
+        }
+      }
+    ]
+  },
+  "techniques": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "children": {
+        "@id": "d3f:child",
+        "@type": "@id",
+        "@container": "@set"
+      }
+    },
+    "@graph": [
+      {
+        "@id": "d3f:BroadcastDomainIsolation",
+        "d3f:d3fend-id": "D3-BDI",
+        "d3f:definition": "Broadcast isolation restricts the number of computers a host can contact on their LAN.",
+        "d3f:synonym": "Network Segmentation",
+        "rdfs:label": "Broadcast Domain Isolation",
+        "rdfs:subClassOf": {
+          "@id": "d3f:NetworkIsolation"
+        }
+      },
+      {
+        "@id": "d3f:DNSAllowlisting",
+        "d3f:d3fend-id": "D3-DNSAL",
+        "d3f:definition": "Permitting only approved domains and their subdomains to be resolved.",
+        "d3f:synonym": "DNS Whitelisting",
+        "rdfs:label": "DNS Allowlisting",
+        "rdfs:subClassOf": {
+          "@id": "d3f:NetworkIsolation"
+        }
+      },
+      {
+        "@id": "d3f:DNSDenylisting",
+        "d3f:d3fend-id": "D3-DNSDL",
+        "d3f:definition": "Blocking DNS Network Traffic based on criteria such as IP address, domain name, or DNS query type.",
+        "d3f:synonym": "DNS Blacklisting",
+        "rdfs:label": "DNS Denylisting",
+        "rdfs:subClassOf": {
+          "@id": "d3f:NetworkIsolation"
+        }
+      },
+      {
+        "@id": "d3f:EncryptedTunnels",
+        "d3f:d3fend-id": "D3-ET",
+        "d3f:definition": "Encrypted encapsulation of routable network traffic.",
+        "rdfs:label": "Encrypted Tunnels",
+        "rdfs:subClassOf": {
+          "@id": "d3f:NetworkIsolation"
+        }
+      },
+      {
+        "@id": "d3f:ExecutableAllowlisting",
+        "d3f:d3fend-id": "D3-EAL",
+        "d3f:definition": "Using a digital signature to authenticate a file before opening.",
+        "d3f:synonym": "File Signature Authentication",
+        "rdfs:label": "Executable Allowlisting",
+        "rdfs:subClassOf": {
+          "@id": "d3f:ExecutionIsolation"
+        }
+      },
+      {
+        "@id": "d3f:ExecutableDenylisting",
+        "d3f:d3fend-id": "D3-EDL",
+        "d3f:definition": "Blocking the execution of files on a host in accordance with defined application policy rules.",
+        "d3f:synonym": "Executable Blacklisting",
+        "rdfs:label": "Executable Denylisting",
+        "rdfs:subClassOf": {
+          "@id": "d3f:ExecutionIsolation"
+        }
+      },
+      {
+        "@id": "d3f:ExecutionIsolation",
+        "d3f:d3fend-id": "D3-EI",
+        "d3f:definition": "Execution Isolation techniques prevent application processes from accessing non-essential system resources, such as memory, devices, or files.",
+        "d3f:top-level": "true",
+        "rdfs:hasSubClass": [
+          {
+            "@id": "d3f:ExecutableAllowlisting"
+          },
+          {
+            "@id": "d3f:ExecutableDenylisting"
+          },
+          {
+            "@id": "d3f:Hardware-basedProcessIsolation"
+          },
+          {
+            "@id": "d3f:IOPortRestriction"
+          },
+          {
+            "@id": "d3f:Kernel-basedProcessIsolation"
+          },
+          {
+            "@id": "d3f:MandatoryAccessControl"
+          },
+          {
+            "@id": "d3f:SystemCallFiltering"
+          }
+        ],
+        "rdfs:label": "Execution Isolation"
+      },
+      {
+        "@id": "d3f:ForwardResolutionDomainDenylisting",
+        "d3f:d3fend-id": "D3-FRDDL",
+        "d3f:definition": "Blocking a lookup based on the query's domain name value.",
+        "d3f:synonym": "Forward Resolution Domain Blacklisting",
+        "rdfs:label": "Forward Resolution Domain Denylisting",
+        "rdfs:subClassOf": {
+          "@id": "d3f:NetworkIsolation"
+        }
+      },
+      {
+        "@id": "d3f:ForwardResolutionIPDenylisting",
+        "d3f:d3fend-id": "D3-FRIDL",
+        "d3f:definition": "Blocking a DNS lookup's answer's IP address value.",
+        "d3f:synonym": "Forward Resolution IP Blacklisting",
+        "rdfs:label": "Forward Resolution IP Denylisting",
+        "rdfs:subClassOf": {
+          "@id": "d3f:NetworkIsolation"
+        }
+      },
+      {
+        "@id": "d3f:Hardware-basedProcessIsolation",
+        "d3f:d3fend-id": "D3-HBPI",
+        "d3f:definition": "Preventing one process from writing to the memory space of another process through hardware based address manager implementations.",
+        "d3f:synonym": "Virtualization",
+        "rdfs:label": "Hardware-based Process Isolation",
+        "rdfs:subClassOf": {
+          "@id": "d3f:ExecutionIsolation"
+        }
+      },
+      {
+        "@id": "d3f:HierarchicalDomainDenylisting",
+        "d3f:d3fend-id": "D3-HDDL",
+        "d3f:definition": "Blocking the resolution of any subdomain of a specified domain name.",
+        "d3f:synonym": "Hierarchical Domain Blacklisting",
+        "rdfs:label": "Hierarchical Domain Denylisting",
+        "rdfs:subClassOf": {
+          "@id": "d3f:NetworkIsolation"
+        }
+      },
+      {
+        "@id": "d3f:HomoglyphDenylisting",
+        "d3f:d3fend-id": "D3-HDL",
+        "d3f:definition": "Blocking DNS queries that are deceptively similar to legitimate domain names.",
+        "d3f:synonym": "Homoglyph Blacklisting",
+        "rdfs:label": "Homoglyph Denylisting",
+        "rdfs:subClassOf": {
+          "@id": "d3f:NetworkIsolation"
+        }
+      },
+      {
+        "@id": "d3f:IOPortRestriction",
+        "d3f:d3fend-id": "D3-IOPR",
+        "d3f:definition": "Limiting access to computer input/output (IO) ports to restrict unauthorized devices.",
+        "rdfs:label": "IO Port Restriction",
+        "rdfs:subClassOf": {
+          "@id": "d3f:ExecutionIsolation"
+        }
+      },
+      {
+        "@id": "d3f:InboundTrafficFiltering",
+        "d3f:d3fend-id": "D3-ITF",
+        "d3f:definition": "Restricting network traffic originating from untrusted networks destined towards a private host or enclave.",
+        "rdfs:label": "Inbound Traffic Filtering",
+        "rdfs:subClassOf": {
+          "@id": "d3f:NetworkIsolation"
+        }
+      },
+      {
+        "@id": "d3f:Kernel-basedProcessIsolation",
+        "d3f:d3fend-id": "D3-KBPI",
+        "d3f:definition": "Using kernel-level capabilities to isolate processes.",
+        "rdfs:label": "Kernel-based Process Isolation",
+        "rdfs:subClassOf": {
+          "@id": "d3f:ExecutionIsolation"
+        }
+      },
+      {
+        "@id": "d3f:MandatoryAccessControl",
+        "d3f:d3fend-id": "D3-MAC",
+        "d3f:definition": "Controlling access to local computer system resources with kernel-level capabilities.",
+        "rdfs:label": "Mandatory Access Control",
+        "rdfs:subClassOf": {
+          "@id": "d3f:ExecutionIsolation"
+        }
+      },
+      {
+        "@id": "d3f:NetworkIsolation",
+        "d3f:d3fend-id": "D3-NI",
+        "d3f:definition": "Network Isolation techniques prevent network hosts from accessing non-essential system network resources.",
+        "d3f:top-level": "true",
+        "rdfs:hasSubClass": [
+          {
+            "@id": "d3f:BroadcastDomainIsolation"
+          },
+          {
+            "@id": "d3f:DNSAllowlisting"
+          },
+          {
+            "@id": "d3f:DNSDenylisting"
+          },
+          {
+            "@id": "d3f:EncryptedTunnels"
+          },
+          {
+            "@id": "d3f:ForwardResolutionDomainDenylisting"
+          },
+          {
+            "@id": "d3f:ForwardResolutionIPDenylisting"
+          },
+          {
+            "@id": "d3f:InboundTrafficFiltering"
+          },
+          {
+            "@id": "d3f:NetworkTrafficFiltering"
+          },
+          {
+            "@id": "d3f:OutboundTrafficFiltering"
+          },
+          {
+            "@id": "d3f:HierarchicalDomainDenylisting"
+          },
+          {
+            "@id": "d3f:HomoglyphDenylisting"
+          },
+          {
+            "@id": "d3f:ReverseResolutionDomainDenylisting"
+          },
+          {
+            "@id": "d3f:ReverseResolutionIPDenylisting"
+          }
+        ],
+        "rdfs:label": "Network Isolation"
+      },
+      {
+        "@id": "d3f:NetworkTrafficFiltering",
+        "d3f:d3fend-id": "D3-NTF",
+        "d3f:definition": "Restricting network traffic originating from any location.",
+        "rdfs:label": "Network Traffic Filtering",
+        "rdfs:subClassOf": {
+          "@id": "d3f:NetworkIsolation"
+        }
+      },
+      {
+        "@id": "d3f:OutboundTrafficFiltering",
+        "d3f:d3fend-id": "D3-OTF",
+        "d3f:definition": "Restricting network traffic originating from a private host or enclave destined towards untrusted networks.",
+        "rdfs:label": "Outbound Traffic Filtering",
+        "rdfs:subClassOf": {
+          "@id": "d3f:NetworkIsolation"
+        }
+      },
+      {
+        "@id": "d3f:ReverseResolutionDomainDenylisting",
+        "d3f:d3fend-id": "D3-RRDD",
+        "d3f:definition": "Blocking a reverse DNS lookup's answer's domain name value.",
+        "d3f:synonym": "Reverse Resolution Domain Blacklisting",
+        "rdfs:label": "Reverse Resolution Domain Denylisting",
+        "rdfs:subClassOf": {
+          "@id": "d3f:NetworkIsolation"
+        }
+      },
+      {
+        "@id": "d3f:ReverseResolutionIPDenylisting",
+        "d3f:d3fend-id": "D3-RRID",
+        "d3f:definition": "Blocking a reverse lookup based on the query's IP address value.",
+        "d3f:synonym": "Reverse Resolution IP Blacklisting",
+        "rdfs:label": "Reverse Resolution IP Denylisting",
+        "rdfs:subClassOf": {
+          "@id": "d3f:NetworkIsolation"
+        }
+      },
+      {
+        "@id": "d3f:SystemCallFiltering",
+        "d3f:d3fend-id": "D3-SCF",
+        "d3f:definition": "Configuring a kernel to use an allow or deny list to filter kernel api calls.",
+        "rdfs:label": "System Call Filtering",
+        "rdfs:subClassOf": {
+          "@id": "d3f:ExecutionIsolation"
+        }
+      }
+    ]
+  }
+}

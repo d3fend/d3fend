@@ -1,1 +1,199 @@
-{"def_to_off":{"head":{"vars":["query_def_tech_label","top_def_tech_label","def_tactic_label","def_tactic_rel_label","def_tech_label","def_artifact_rel_label","def_artifact_label","off_artifact_label","off_artifact_rel_label","off_tech_label","off_tech_id","off_tech_parent_label","off_tech_parent_is_toplevel","off_tactic_rel_label","off_tactic_label","def_tactic","def_tactic_rel","tactic_def_tech","def_tech","def_artifact_rel","def_artifact","off_artifact","off_artifact_rel","off_tech","off_tech_parent","off_tactic_rel","off_tactic"]},"results":{"bindings":[]}},"description":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[{"@id":"d3f:BroadcastDomainIsolation","@type":["d3f:NetworkIsolation","owl:NamedIndividual","owl:Class"],"d3f:d3fend-id":"D3-BDI","d3f:definition":"Broadcast isolation restricts the number of computers a host can contact on their LAN.","d3f:filters":{"@id":"d3f:LocalAreaNetworkTraffic"},"d3f:kb-article":"## How it works\nSoftware Defined Networking, or other network encapsulation technologies intercept host broadcast traffic then route it to a specified destination per a configured policy.\n\nThis can be implemented within hypervisors, networking hardware (WAPs, switches, routers), or virutal hardware.\n\n## Considerations\nThis technique is highly dependent on network infrastructure and networking requirements.","d3f:kb-reference":[{"@id":"d3f:Reference_BroadcastIsolationAndLevel3NetworkSwitch_HewlettPackardEnterpriseDevelopmentLP"},{"@id":"d3f:Reference_PrivateVirtualLocalAreaNetworkIsolation_CiscoTechnologyInc"}],"d3f:synonym":"Network Segmentation","rdfs:label":"Broadcast Domain Isolation","rdfs:subClassOf":{"@id":"d3f:NetworkIsolation"}}]},"digital_artifacts":{"head":{"vars":["query_def_tech_label","top_def_tech_label","def_tech_label","def_artifact_rel_label","def_artifact_label","def_tactic","def_tactic_rel","def_tech","def_artifact_rel","def_artifact"]},"results":{"bindings":[{"query_def_tech_label":{"type":"literal","value":"Broadcast Domain Isolation"},"top_def_tech_label":{"type":"literal","value":"Network Isolation"},"def_tech_label":{"type":"literal","value":"Broadcast Domain Isolation"},"def_artifact_rel_label":{"type":"literal","value":"filters"},"def_artifact_label":{"type":"literal","value":"Local Area Network Traffic"},"def_tactic":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#Isolate"},"def_tactic_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#enables"},"def_tech":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#BroadcastDomainIsolation"},"def_artifact_rel":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#filters"},"def_artifact":{"type":"uri","value":"http://d3fend.mitre.org/ontologies/d3fend.owl#LocalAreaNetworkTraffic"}}]}},"references":{"@context":{"rdfs":"http://www.w3.org/2000/01/rdf-schema#","d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#"},"@graph":[{"@id":"d3f:Reference_BroadcastIsolationAndLevel3NetworkSwitch_HewlettPackardEnterpriseDevelopmentLP","@type":["d3f:PatentReference","http://www.w3.org/2002/07/owl#NamedIndividual"],"d3f:has-link":{"@type":"http://www.w3.org/2001/XMLSchema#anyURI","@value":"https://patents.google.com/patent/US5920699A"},"d3f:kb-abstract":"A network switch comprising a switching Application Specific Integrated Circuit (ASIC) and a Virtual Switching Engine (VSE) connected to a plurality of ports. The switching ASIC has a high-speed memory table which enables it to look up addresses that it has previously obtained and to forward unicast packets to said addresses. The VSE is a CPU that makes switching decisions outside of the ASIC and keeps track of any unknown addresses, forwarding the packets out the appropriate ports and answers broadcast packets by proxy for all known addresses without forwarding any of the packets down the VLANs, thereby freeing the VLAN bandwidth from excessive traffic. The system requires no user configuration because the switching methodology is self-adaptive to the network in which it is inserted and has the ability to perform router functions such as level 2 and 3 switching, spanning tree protocols and compatibility with Internetwork Packet and Internetwork Packet Exchange networks.","d3f:kb-author":"Ballard C. Bare","d3f:kb-mitre-analysis":"","d3f:kb-organization":"Hewlett Packard Enterprise Development LP","d3f:kb-reference-of":{"@id":"d3f:BroadcastDomainIsolation"},"d3f:kb-reference-title":"Broadcast isolation and level 3 network switch","d3f:reference-type-label":"Patent","rdfs:label":"Reference - Broadcast isolation and level 3 network switch - Hewlett Packard Enterprise Development LP"},{"@id":"d3f:Reference_PrivateVirtualLocalAreaNetworkIsolation_CiscoTechnologyInc","@type":["d3f:PatentReference","http://www.w3.org/2002/07/owl#NamedIndividual"],"d3f:has-link":{"@type":"http://www.w3.org/2001/XMLSchema#anyURI","@value":"https://patents.google.com/patent/US20120331142A1"},"d3f:kb-abstract":"In one embodiment, a method includes obtaining addresses of end hosts at a switch, the switch configured with a primary virtual local area network and a secondary virtual local area network, creating a private virtual local area network access list comprising the addresses of end hosts permitted to communicate on the secondary virtual local area network, and applying the private virtual local area network access list to interfaces connected to the end hosts permitted to communicate on the secondary virtual local area network. An apparatus is also disclosed.","d3f:kb-author":"Anuraag Mittal, Huei-Ping Chen","d3f:kb-organization":"Cisco Technology Inc","d3f:kb-reference-of":{"@id":"d3f:BroadcastDomainIsolation"},"d3f:kb-reference-title":"Private virtual local area network isolation","d3f:reference-type-label":"Patent","rdfs:label":"Reference - Private virtual local area network isolation - Cisco Technology Inc"}]},"references_meta":{"Patent":2},"subtechniques":{"@context":{"d3f":"http://d3fend.mitre.org/ontologies/d3fend.owl#","rdfs":"http://www.w3.org/2000/01/rdf-schema#","skos":"http://www.w3.org/2004/02/skos/core#","owl":"http://www.w3.org/2002/07/owl#"},"@graph":[]},"related_offensive_matrix":{}}
+{
+  "def_to_off": {
+    "head": {
+      "vars": [
+        "query_def_tech_label",
+        "top_def_tech_label",
+        "def_tactic_label",
+        "def_tactic_rel_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "off_artifact_label",
+        "off_artifact_rel_label",
+        "off_tech_label",
+        "off_tech_id",
+        "off_tech_parent_label",
+        "off_tech_parent_is_toplevel",
+        "off_tactic_rel_label",
+        "off_tactic_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "tactic_def_tech",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact",
+        "off_artifact",
+        "off_artifact_rel",
+        "off_tech",
+        "off_tech_parent",
+        "off_tactic_rel",
+        "off_tactic"
+      ]
+    },
+    "results": {
+      "bindings": []
+    }
+  },
+  "description": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:BroadcastDomainIsolation",
+        "@type": [
+          "d3f:NetworkIsolation",
+          "owl:NamedIndividual",
+          "owl:Class"
+        ],
+        "d3f:d3fend-id": "D3-BDI",
+        "d3f:definition": "Broadcast isolation restricts the number of computers a host can contact on their LAN.",
+        "d3f:filters": {
+          "@id": "d3f:LocalAreaNetworkTraffic"
+        },
+        "d3f:kb-article": "## How it works\nSoftware Defined Networking, or other network encapsulation technologies intercept host broadcast traffic then route it to a specified destination per a configured policy.\n\nThis can be implemented within hypervisors, networking hardware (WAPs, switches, routers), or virutal hardware.\n\n## Considerations\nThis technique is highly dependent on network infrastructure and networking requirements.",
+        "d3f:kb-reference": [
+          {
+            "@id": "d3f:Reference-BroadcastIsolationAndLevel3NetworkSwitch_HewlettPackardEnterpriseDevelopmentLP"
+          },
+          {
+            "@id": "d3f:Reference-PrivateVirtualLocalAreaNetworkIsolation_CiscoTechnologyInc"
+          }
+        ],
+        "d3f:synonym": "Network Segmentation",
+        "rdfs:label": "Broadcast Domain Isolation",
+        "rdfs:subClassOf": {
+          "@id": "d3f:NetworkIsolation"
+        }
+      }
+    ]
+  },
+  "digital_artifacts": {
+    "head": {
+      "vars": [
+        "query_def_tech_label",
+        "top_def_tech_label",
+        "def_tech_label",
+        "def_artifact_rel_label",
+        "def_artifact_label",
+        "def_tactic",
+        "def_tactic_rel",
+        "def_tech",
+        "def_artifact_rel",
+        "def_artifact"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "query_def_tech_label": {
+            "type": "literal",
+            "value": "Broadcast Domain Isolation"
+          },
+          "top_def_tech_label": {
+            "type": "literal",
+            "value": "Network Isolation"
+          },
+          "def_tech_label": {
+            "type": "literal",
+            "value": "Broadcast Domain Isolation"
+          },
+          "def_artifact_rel_label": {
+            "type": "literal",
+            "value": "filters"
+          },
+          "def_artifact_label": {
+            "type": "literal",
+            "value": "Local Area Network Traffic"
+          },
+          "def_tactic": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#Isolate"
+          },
+          "def_tactic_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#enables"
+          },
+          "def_tech": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#BroadcastDomainIsolation"
+          },
+          "def_artifact_rel": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#filters"
+          },
+          "def_artifact": {
+            "type": "uri",
+            "value": "http://d3fend.mitre.org/ontologies/d3fend.owl#LocalAreaNetworkTraffic"
+          }
+        }
+      ]
+    }
+  },
+  "references": {
+    "@context": {
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#"
+    },
+    "@graph": [
+      {
+        "@id": "d3f:Reference-BroadcastIsolationAndLevel3NetworkSwitch_HewlettPackardEnterpriseDevelopmentLP",
+        "@type": [
+          "d3f:PatentReference",
+          "http://www.w3.org/2002/07/owl#NamedIndividual"
+        ],
+        "d3f:has-link": {
+          "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "@value": "https://patents.google.com/patent/US5920699A"
+        },
+        "d3f:kb-abstract": "A network switch comprising a switching Application Specific Integrated Circuit (ASIC) and a Virtual Switching Engine (VSE) connected to a plurality of ports. The switching ASIC has a high-speed memory table which enables it to look up addresses that it has previously obtained and to forward unicast packets to said addresses. The VSE is a CPU that makes switching decisions outside of the ASIC and keeps track of any unknown addresses, forwarding the packets out the appropriate ports and answers broadcast packets by proxy for all known addresses without forwarding any of the packets down the VLANs, thereby freeing the VLAN bandwidth from excessive traffic. The system requires no user configuration because the switching methodology is self-adaptive to the network in which it is inserted and has the ability to perform router functions such as level 2 and 3 switching, spanning tree protocols and compatibility with Internetwork Packet and Internetwork Packet Exchange networks.",
+        "d3f:kb-author": "Ballard C. Bare",
+        "d3f:kb-mitre-analysis": "",
+        "d3f:kb-organization": "Hewlett Packard Enterprise Development LP",
+        "d3f:kb-reference-of": {
+          "@id": "d3f:BroadcastDomainIsolation"
+        },
+        "d3f:kb-reference-title": "Broadcast isolation and level 3 network switch",
+        "d3f:reference-type-label": "Patent",
+        "rdfs:label": "Reference - Broadcast isolation and level 3 network switch - Hewlett Packard Enterprise Development LP"
+      },
+      {
+        "@id": "d3f:Reference-PrivateVirtualLocalAreaNetworkIsolation_CiscoTechnologyInc",
+        "@type": [
+          "d3f:PatentReference",
+          "http://www.w3.org/2002/07/owl#NamedIndividual"
+        ],
+        "d3f:has-link": {
+          "@type": "http://www.w3.org/2001/XMLSchema#anyURI",
+          "@value": "https://patents.google.com/patent/US20120331142A1"
+        },
+        "d3f:kb-abstract": "In one embodiment, a method includes obtaining addresses of end hosts at a switch, the switch configured with a primary virtual local area network and a secondary virtual local area network, creating a private virtual local area network access list comprising the addresses of end hosts permitted to communicate on the secondary virtual local area network, and applying the private virtual local area network access list to interfaces connected to the end hosts permitted to communicate on the secondary virtual local area network. An apparatus is also disclosed.",
+        "d3f:kb-author": "Anuraag Mittal, Huei-Ping Chen",
+        "d3f:kb-organization": "Cisco Technology Inc",
+        "d3f:kb-reference-of": {
+          "@id": "d3f:BroadcastDomainIsolation"
+        },
+        "d3f:kb-reference-title": "Private virtual local area network isolation",
+        "d3f:reference-type-label": "Patent",
+        "rdfs:label": "Reference - Private virtual local area network isolation - Cisco Technology Inc"
+      }
+    ]
+  },
+  "references_meta": {
+    "Patent": 2
+  },
+  "subtechniques": {
+    "@context": {
+      "d3f": "http://d3fend.mitre.org/ontologies/d3fend.owl#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "owl": "http://www.w3.org/2002/07/owl#"
+    },
+    "@graph": []
+  },
+  "related_offensive_matrix": {}
+}
