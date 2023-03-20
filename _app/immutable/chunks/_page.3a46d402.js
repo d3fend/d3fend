@@ -1,0 +1,1 @@
+import{e as n}from"./index.2defaa64.js";async function r({params:s,fetch:t}){const a=s.weakness,e=await t(`/api/weakness/cwe/${a}.json`),o=await e.json();if(e.status!==200)throw n(500,e.message);return{weakness_id:a,data:o}}const i=Object.freeze(Object.defineProperty({__proto__:null,load:r},Symbol.toStringTag,{value:"Module"}));export{i as _,r as l};

@@ -132,10 +132,6 @@ input:disabled {
 	color: #ccc;
 }
 
-input[type="range"] {
-	height: 0;
-}
-
 button {
 	color: #333;
 	background-color: #f4f4f4;
@@ -227,6 +223,12 @@ dt {
     margin: 1rem;
 }
 
+.box {
+  /* a card with no border / shadow */
+    transition: 0.3s;
+    padding: 1rem;
+    margin: 1rem;
+}
 .shrink {
     max-width: min-content;
 }
@@ -395,4 +397,8 @@ code {
 
 .glow:hover {
     text-shadow: 2px 2px 10px #4d87fa;
+}
+
+html.scroll-smooth {
+  scroll-behavior: smooth;
 }

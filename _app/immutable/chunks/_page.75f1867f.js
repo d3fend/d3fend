@@ -1,0 +1,1 @@
+async function a({params:t,fetch:o}){return await(await o(`/api/taxonomies/${t.root_id}.json`)).json()}const r=Object.freeze(Object.defineProperty({__proto__:null,load:a},Symbol.toStringTag,{value:"Module"}));export{r as _,a as l};

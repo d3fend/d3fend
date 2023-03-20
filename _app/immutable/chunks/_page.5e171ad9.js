@@ -1,0 +1,1 @@
+import{e as n}from"./index.2defaa64.js";async function r({fetch:a,params:e}){const{version:t}=e,o=await a(`/api/mappings/nist.${t}.json`),s=await o.json();if(o.status!==200)throw n(500,data.message);return{mappings:s,version:t}}const p=Object.freeze(Object.defineProperty({__proto__:null,load:r},Symbol.toStringTag,{value:"Module"}));export{p as _,r as l};
