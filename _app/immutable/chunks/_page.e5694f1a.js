@@ -1,1 +1,0 @@
-import{e as s}from"./index.2defaa64.js";import{c as a}from"./config.ba448d22.js";async function n({fetch:t}){const e=`${a.backend}/progress/`,o=await t(e),r=await o.json();if(o.status!==200)throw s(500,data.message);return{progress:r}}const l=Object.freeze(Object.defineProperty({__proto__:null,load:n},Symbol.toStringTag,{value:"Module"}));export{l as _,n as l};

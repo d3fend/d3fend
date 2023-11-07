@@ -1,1 +1,0 @@
-import{e as n}from"./index.2defaa64.js";async function r({fetch:a,params:e}){const{version:o}=e,t=await a(`/api/mappings/cci.${o}.json`),s=await t.json();if(t.status!==200)throw n(500,data.message);return{mappings:s,version:o}}const c=Object.freeze(Object.defineProperty({__proto__:null,load:r},Symbol.toStringTag,{value:"Module"}));export{c as _,r as l};

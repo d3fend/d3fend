@@ -1,1 +1,0 @@
-import{o}from"./offensive-technique.a85155c6.js";async function t(e){return o(e)}const r=Object.freeze(Object.defineProperty({__proto__:null,load:t},Symbol.toStringTag,{value:"Module"}));export{r as _,t as l};

@@ -1,1 +1,0 @@
-import{e as s}from"./index.2defaa64.js";async function n({params:t,fetch:o}){t.technique;const e=await o("/api/offensive-technique/all.json"),a=await e.json();if(e.status!==200)throw s(500,data.message);return{otechs:a}}const i=Object.freeze(Object.defineProperty({__proto__:null,load:n},Symbol.toStringTag,{value:"Module"}));export{i as _,n as l};

@@ -1,1 +1,0 @@
-import{m as t}from"./matrix.91be0855.js";async function e(o){return t(o)}const a=Object.freeze(Object.defineProperty({__proto__:null,load:e},Symbol.toStringTag,{value:"Module"}));export{a as _,e as l};

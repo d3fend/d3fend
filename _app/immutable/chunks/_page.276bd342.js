@@ -1,1 +1,0 @@
-import{e as a}from"./index.2defaa64.js";async function r({fetch:o}){const e=await o("/api/technique/all.json"),t=await e.json();if(e.status!==200)throw a(500,t.message);return{dtechs:t}}const n=Object.freeze(Object.defineProperty({__proto__:null,load:r},Symbol.toStringTag,{value:"Module"}));export{n as _,r as l};

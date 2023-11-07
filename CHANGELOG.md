@@ -1,5 +1,28 @@
 # D3FEND Change Log
 
+## Version - 0.13.0-BETA-1 - 2023-10-30
+
+### Ontology Updates
+- New "Restore" tactic and taxonomy of restore techniques. (#173)
+- New Analytic Technique Taxonomy and Analytic Characterization Framework.
+- Integrate full CWE taxonomy. (#189)
+- Added Digital Artifacts for MSHTA Execution.
+- Inferred D3FEND countermeasures for CWEs now visualized and with API. (#184)
+- Link D3FEND classes to OCSF objects. (#178)
+- Refactor csv build and fix double definitions. (#180)
+- New defensive technique: Email Filtering. (#172)
+- Major refactor of ATT&CK updater script. (#188)
+
+
+### User Interface Updates
+- New countermeasure inference for CWE integration on CWE pages.
+- Web page for new ACF framework at /acf.
+- Refactored backend into sveltekit frontend middleware.
+- Alpha version D3FEND profile building tool.
+- New D3FEND Blog capability.
+- Added d3f:Process to taxonomies page.
+- New favicon.
+
 ## Version - 0.12.0-BETA-2 - 2023-03-21
 
 ### Ontology Updates
@@ -19,11 +42,11 @@
 - Updated ATT&CK mappings.
 - Added PythonScript subClassOf ExecutableScript. (#101)
 - Added defensive techniques: FileEviction techniques (#92, #93), Identifier Activity Analysis (#95), Data and Data Hardening Techniques. (#75) 
-- Added digital artifacts: URL Reputation Analsyis (#71), Network Traffic Analysis software (#79) Network Traffic Analysis Software. (#80)
+- Added digital artifacts: URL Reputation Analysis (#71), Network Traffic Analysis software (#79) Network Traffic Analysis Software. (#80)
 - Added top #25 Weaknesses from CWE and relationships to digital artifacts, including new subroutine taxonomy. (#66)
 - Fixed errata on version data property (#89) Physical Object subclassing. (#88)
-- Fixed bug in technique mapping queries (elimates some spurious/redundant mappings) in backend.
-- Fix mispecified inverseOf relation on :accessses property which caused reasoning errors. (#88)
+- Fixed bug in technique mapping queries (eliminates some spurious/redundant mappings) in backend.
+- Fix misspecified inverseOf relation on :accesses property which caused reasoning errors. (#88)
 - Fix version data properties, and broken URLs on some has-link values. (#90)
 
 

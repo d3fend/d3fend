@@ -1,1 +1,0 @@
-import{an as c,ao as a}from"./mermaid.core.ffca9792.js";const e=n=>{const{r:o,g:r,b:t}=c.parse(n),s=.2126*a.channel.toLinear(o)+.7152*a.channel.toLinear(r)+.0722*a.channel.toLinear(t);return a.lang.round(s)},i=e,l=n=>i(n)>=.5,u=l,h=n=>!u(n),L=h;export{L as i};

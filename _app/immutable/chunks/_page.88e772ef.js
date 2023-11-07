@@ -1,1 +1,0 @@
-import{e as r}from"./index.2defaa64.js";async function s({fetch:e}){const t=await e("/contribute/contributors.json"),o=await t.json();if(t.status===200)return{contributors:o};throw r(500,o.message)}const n=Object.freeze(Object.defineProperty({__proto__:null,load:s},Symbol.toStringTag,{value:"Module"}));export{n as _,s as l};

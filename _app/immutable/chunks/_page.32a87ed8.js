@@ -1,1 +1,0 @@
-import{e as s}from"./index.2defaa64.js";async function c({params:a,fetch:r}){const e=a.tactic,o=await r(`/api/tactic/${e}.json`),t=await o.json();if(o.status!==200)throw s(500,t.message);return{tactic_id:e,group:t.group,techniques:t.techniques}}const i=Object.freeze(Object.defineProperty({__proto__:null,load:c},Symbol.toStringTag,{value:"Module"}));export{i as _,c as l};

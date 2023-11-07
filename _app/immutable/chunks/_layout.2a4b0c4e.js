@@ -1,1 +1,0 @@
-import{m as a}from"./mermaid.core.ffca9792.js";import{m as o}from"./config.ba448d22.js";import{m as t}from"./matrix.91be0855.js";const e=!0,i="always";a.initialize(o);async function m(r){return t(r)}const c=Object.freeze(Object.defineProperty({__proto__:null,load:m,prerender:e,trailingSlash:i},Symbol.toStringTag,{value:"Module"}));export{c as _,m as l,e as p,i as t};
