@@ -5,7 +5,10 @@
 
 :root {
   --primary-color: #e1e1e1;
+  --primary-selected: #b7b5b5;
   --dark-background-color: #333;
+  --warning: #c37474;
+  --item-hover: rgb(202, 201, 207);
 }
 
 

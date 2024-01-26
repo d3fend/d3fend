@@ -1,5 +1,20 @@
 # D3FEND Change Log
 
+## Version - 0.14.0 - 2024-01-26
+
+### Ontology Updates
+ - New Container Image Analysis technique. (#37)
+ - Updates refereces to Certificate Pinning and addtional minor bugfixes. (#207)
+ - Added digital artifact for T1542. (#211)
+
+
+### User Interface Updates
+- Improvements to D3FEND profile building tool.
+- Ability to import and export D3FEND profiles.
+- Fixed minor rendering issues on blog.
+- Upgraded website build software library.
+
+
 ## Version - 0.13.0-BETA-1 - 2023-10-30
 
 ### Ontology Updates
