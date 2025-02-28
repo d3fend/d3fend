@@ -1,0 +1,1 @@
+import{L as i}from"../chunks/DKkvPnc8.js";const n="always",t=!0;async function o(e){return await(await e.fetch("/cad/examples.json")).json()}async function a(e){return{examples:await o(e)}}const r=Object.freeze(Object.defineProperty({__proto__:null,load:a,prerender:t,trailingSlash:n},Symbol.toStringTag,{value:"Module"}));export{i as component,r as universal};

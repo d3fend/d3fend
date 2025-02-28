@@ -524,7 +524,7 @@
             ],
             "measured": {
                 "width": 176,
-                "height": 123
+                "height": 110
             },
             "selected": false,
             "dragging": false
@@ -846,7 +846,7 @@
                 "y": 465.754978413104
             },
             "data": {
-                "label": "Victum User",
+                "label": "Victim User",
                 "sequence": "0",
                 "user_properties": []
             },
@@ -855,7 +855,7 @@
                 0
             ],
             "measured": {
-                "width": 176,
+                "width": 211,
                 "height": 76
             },
             "selected": false,
@@ -909,7 +909,7 @@
                 0
             ],
             "measured": {
-                "width": 195,
+                "width": 205,
                 "height": 137
             },
             "selected": false,
@@ -950,7 +950,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "contains"
+                "label": "contains",
+                "d3f_property": "d3f:contains"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -997,7 +998,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "implemented-by",
-                "d3f_property": "implemented-by"
+                "d3f_property": "d3f:implemented-by"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1012,7 +1013,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "precedes"
+                "label": "precedes",
+                "d3f_property": "d3f:precedes"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1027,7 +1029,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "contains"
+                "label": "contains",
+                "d3f_property": "d3f:contains"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1042,7 +1045,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "executes"
+                "label": "executes",
+                "d3f_property": "d3f:executes"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1057,7 +1061,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "invokes"
+                "label": "invokes",
+                "d3f_property": "d3f:invokes"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1072,7 +1077,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "creates"
+                "label": "creates",
+                "d3f_property": "d3f:creates"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1087,7 +1093,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "creates"
+                "label": "creates",
+                "d3f_property": "d3f:creates"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1102,7 +1109,7 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "downloads"
+                "label": ":downloads"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1117,7 +1124,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "contains"
+                "label": "contains",
+                "d3f_property": "d3f:contains"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1132,7 +1140,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "contains"
+                "label": "contains",
+                "d3f_property": "d3f:contains"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1147,7 +1156,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "contains"
+                "label": "contains",
+                "d3f_property": "d3f:contains"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1163,7 +1173,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "implemented-by",
-                "d3f_property": "implemented-by"
+                "d3f_property": "d3f:implemented-by"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1179,7 +1189,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "implemented-by",
-                "d3f_property": "implemented-by"
+                "d3f_property": "d3f:implemented-by"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1194,7 +1204,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "invokes"
+                "label": "invokes",
+                "d3f_property": "d3f:invokes"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1209,7 +1220,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "invokes"
+                "label": "invokes",
+                "d3f_property": "d3f:invokes"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1240,7 +1252,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "detects"
+                "label": "analyzes",
+                "d3f_property": "d3f:analyzes"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1271,7 +1284,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "blocks"
+                "label": "blocks",
+                "d3f_property": "d3f:blocks"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1287,7 +1301,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "disables",
-                "d3f_property": "disables"
+                "d3f_property": "d3f:disables"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1303,7 +1317,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "implemented-by",
-                "d3f_property": "implemented-by"
+                "d3f_property": "d3f:implemented-by"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1319,7 +1333,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "implemented-by",
-                "d3f_property": "implemented-by"
+                "d3f_property": "d3f:implemented-by"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1334,7 +1348,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "creates"
+                "label": "creates",
+                "d3f_property": "d3f:creates"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1350,7 +1365,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "implemented-by",
-                "d3f_property": "implemented-by"
+                "d3f_property": "d3f:implemented-by"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1365,7 +1380,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "blocks"
+                "label": "blocks",
+                "d3f_property": "d3f:blocks"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1380,7 +1396,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "blocks"
+                "label": "blocks",
+                "d3f_property": "d3f:blocks"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1395,7 +1412,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "blocks"
+                "label": "blocks",
+                "d3f_property": "d3f:blocks"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1411,7 +1429,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "implemented-by",
-                "d3f_property": "implemented-by"
+                "d3f_property": "d3f:implemented-by"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1426,7 +1444,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "analyzes"
+                "label": "analyzes",
+                "d3f_property": "d3f:analyzes"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1442,7 +1461,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "consider",
-                "d3f_property": "consider"
+                "d3f_property": "d3f:consider"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1457,8 +1476,7 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "consider",
-                "d3f_property": "consider"
+                "label": ":has-note"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1473,8 +1491,7 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": ":deceives",
-                "d3f_property": ":deceives"
+                "label": ":deceives"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1490,7 +1507,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "precedes",
-                "d3f_property": "precedes"
+                "d3f_property": "d3f:precedes"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1506,7 +1523,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "precedes",
-                "d3f_property": "precedes"
+                "d3f_property": "d3f:precedes"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1522,7 +1539,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "precedes",
-                "d3f_property": "precedes"
+                "d3f_property": "d3f:precedes"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1538,7 +1555,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "precedes",
-                "d3f_property": "precedes"
+                "d3f_property": "d3f:precedes"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1554,7 +1571,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "precedes",
-                "d3f_property": "precedes"
+                "d3f_property": "d3f:precedes"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1570,7 +1587,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "precedes",
-                "d3f_property": "precedes"
+                "d3f_property": "d3f:precedes"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1586,7 +1603,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "precedes",
-                "d3f_property": "precedes"
+                "d3f_property": "d3f:precedes"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1601,8 +1618,7 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "implemented-by",
-                "d3f_property": "implemented-by"
+                "label": "implemented-by"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -1617,8 +1633,7 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": ":has-note",
-                "d3f_property": ":has-note"
+                "label": ":has-note"
             },
             "markerEnd": {
                 "type": "arrowclosed"

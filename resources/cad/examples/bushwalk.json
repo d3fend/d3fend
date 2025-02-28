@@ -31,8 +31,7 @@
                 "label": "OS API Write File",
                 "sequence": "0",
                 "d3f_class": "d3f:OSAPIWriteFile",
-                "user_properties": [],
-                "d3f_class_label": "OS API Write File"
+                "user_properties": []
             },
             "origin": [
                 0.5,
@@ -56,8 +55,7 @@
                 "label": "Write File Syscall",
                 "sequence": "0",
                 "d3f_class": "d3f:WriteFile",
-                "user_properties": [],
-                "d3f_class_label": "Write File Syscall"
+                "user_properties": []
             },
             "origin": [
                 0.5,
@@ -86,8 +84,7 @@
                         "comment",
                         "perl logic\n"
                     ]
-                ],
-                "d3f_class_label": "Subroutine"
+                ]
             },
             "origin": [
                 0.5,
@@ -111,8 +108,7 @@
                 "label": "Compromise Host Software Binary",
                 "sequence": "1",
                 "user_properties": [],
-                "d3f_class": "d3f:T1554",
-                "d3f_class_label": "Compromise Host Software Binary"
+                "d3f_class": "d3f:T1554"
             },
             "origin": [
                 0.5,
@@ -166,8 +162,7 @@
                 "label": "OS Executable File",
                 "sequence": "0",
                 "d3f_class": "d3f:OperatingSystemExecutableFile",
-                "user_properties": [],
-                "d3f_class_label": "OS Executable File"
+                "user_properties": []
             },
             "origin": [
                 0.5,
@@ -191,8 +186,7 @@
                 "label": "System Call Analysis",
                 "sequence": "3",
                 "d3f_class": "d3f:SystemCallAnalysis",
-                "user_properties": [],
-                "d3f_class_label": "System Call Analysis"
+                "user_properties": []
             },
             "origin": [
                 0.5,
@@ -216,8 +210,7 @@
                 "label": "File Analysis",
                 "sequence": "4",
                 "d3f_class": "d3f:FileAnalysis",
-                "user_properties": [],
-                "d3f_class_label": "File Analysis"
+                "user_properties": []
             },
             "origin": [
                 0.5,
@@ -241,8 +234,7 @@
                 "label": "File Integrity Monitoring",
                 "sequence": "5",
                 "d3f_class": "d3f:FileIntegrityMonitoring",
-                "user_properties": [],
-                "d3f_class_label": "File Integrity Monitoring"
+                "user_properties": []
             },
             "origin": [
                 0.5,
@@ -266,8 +258,7 @@
                 "label": "System Call Filtering",
                 "sequence": "2",
                 "d3f_class": "d3f:SystemCallFiltering",
-                "user_properties": [],
-                "d3f_class_label": "System Call Filtering"
+                "user_properties": []
             },
             "origin": [
                 0.5,
@@ -319,7 +310,6 @@
                 "label": "Web Server Application Process",
                 "sequence": "0",
                 "user_properties": [],
-                "d3f_class_label": ":WebServerApplicationProcess",
                 "d3f_class": ":WebServerApplicationProcess"
             },
             "measured": {
@@ -347,7 +337,6 @@
                         "querymanifest.cgi"
                     ]
                 ],
-                "d3f_class_label": "Executable Script",
                 "d3f_class": "d3f:ExecutableScript"
             },
             "measured": {
@@ -368,7 +357,6 @@
                 "label": "Exploit Public-Facing Application",
                 "sequence": "0",
                 "user_properties": [],
-                "d3f_class_label": "Exploit Public-Facing Application",
                 "d3f_class": "d3f:T1190"
             },
             "measured": {
@@ -391,7 +379,6 @@
                 "label": "Web Server Application",
                 "sequence": "0",
                 "user_properties": [],
-                "d3f_class_label": "Web Server Application",
                 "d3f_class": "d3f:WebServerApplication"
             },
             "measured": {
@@ -414,7 +401,6 @@
                 "label": "Web Application",
                 "sequence": "0",
                 "user_properties": [],
-                "d3f_class_label": ":WebApplication",
                 "d3f_class": ":WebApplication"
             },
             "measured": {
@@ -435,7 +421,6 @@
                 "label": "Service Application",
                 "sequence": "0",
                 "user_properties": [],
-                "d3f_class_label": "Service Application",
                 "d3f_class": "d3f:ServiceApplication"
             },
             "measured": {
@@ -480,8 +465,7 @@
                 "label": "File Integrity Monitoring",
                 "sequence": "1",
                 "d3f_class": "d3f:FileIntegrityMonitoring",
-                "user_properties": [],
-                "d3f_class_label": "File Integrity Monitoring"
+                "user_properties": []
             },
             "measured": {
                 "width": 176,
@@ -501,8 +485,7 @@
                 "label": "Local File Permissions",
                 "sequence": "0",
                 "d3f_class": "d3f:LocalFilePermissions",
-                "user_properties": [],
-                "d3f_class_label": "Local File Permissions"
+                "user_properties": []
             },
             "measured": {
                 "width": 176,
@@ -533,8 +516,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "uses",
-                "d3f_class": "d3f:uses",
-                "d3f_class_label": "uses"
+                "d3f_property": "d3f:uses"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -550,9 +532,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "participates-in",
-                "d3f_property": "d3f:executes",
-                "d3f_class": "d3f:participates-in",
-                "d3f_class_label": "participates-in"
+                "d3f_property": "d3f:participates-in"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -646,8 +626,7 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": ":has-note",
-                "d3f_property": ":has-note"
+                "label": ":has-note"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -663,8 +642,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "invokes",
-                "d3f_class": "d3f:invokes",
-                "d3f_class_label": "invokes"
+                "d3f_property": "d3f:invokes"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -680,8 +658,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "contains",
-                "d3f_class": "d3f:contains",
-                "d3f_class_label": "contains"
+                "d3f_property": "d3f:contains"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -697,8 +674,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "injects",
-                "d3f_class": "d3f:injects",
-                "d3f_class_label": "injects"
+                "d3f_property": "d3f:injects"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -714,8 +690,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "injects",
-                "d3f_class": "d3f:injects",
-                "d3f_class_label": "injects"
+                "d3f_property": "d3f:injects"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -730,9 +705,7 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": ":has-payload",
-                "d3f_property": ":has-payload",
-                "d3f_class_label": ":has-payload"
+                "label": ":has-payload"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -748,8 +721,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "instructs",
-                "d3f_class": "d3f:instructs",
-                "d3f_class_label": "instructs"
+                "d3f_property": "d3f:instructs"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -765,8 +737,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "contains",
-                "d3f_class": "d3f:contains",
-                "d3f_class_label": "contains"
+                "d3f_property": "d3f:contains"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -782,8 +753,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "instructs",
-                "d3f_class": "d3f:instructs",
-                "d3f_class_label": "instructs"
+                "d3f_property": "d3f:instructs"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -799,8 +769,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "participates-in",
-                "d3f_class": "d3f:participates-in",
-                "d3f_class_label": "participates-in"
+                "d3f_property": "d3f:participates-in"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -815,9 +784,7 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "rdfs:subClassOf",
-                "d3f_property": "rdfs:subClassOf",
-                "d3f_class_label": "rdfs:subClassOf"
+                "label": "rdfs:subClassOf"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -832,9 +799,7 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "note",
-                "d3f_property": "note",
-                "d3f_class_label": "note"
+                "label": "note"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -848,9 +813,12 @@
         },
         {
             "data": {
-                "label": "analyzes"
+                "label": "analyzes",
+                "d3f_property": "d3f:analyzes"
             },
-            "markerStart": "arrowclosed",
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
             "source": "0.16777283558886358",
             "sourceHandle": "source",
             "target": "0.8386658673435847",
@@ -860,9 +828,12 @@
         },
         {
             "data": {
-                "label": "restricts"
+                "label": "restricts",
+                "d3f_property": "d3f:restricts"
             },
-            "markerStart": "arrowclosed",
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
             "source": "0.27672783406130097",
             "sourceHandle": "source",
             "target": "0.8386658673435847",

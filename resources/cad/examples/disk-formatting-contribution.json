@@ -406,8 +406,7 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "rdfs:subClassOf",
-                "d3f_class": "rdfs:subClassOf"
+                "label": "rdfs:subClassOf"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -423,7 +422,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "creates",
-                "d3f_class": "d3f:creates"
+                "d3f_property": "d3f:creates"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -439,7 +438,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "may-contain",
-                "d3f_class": "may-contain"
+                "d3f_property": "d3f:may-contain"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -455,7 +454,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "contains",
-                "d3f_class": "d3f:contains"
+                "d3f_property": "d3f:contains"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -471,7 +470,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "contains",
-                "d3f_class": "d3f:contains"
+                "d3f_property": "d3f:contains"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -486,9 +485,7 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": ":wipes",
-                "d3f_class": ":wipes",
-                "d3f_property": ":wipes"
+                "label": ":wipes"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -503,7 +500,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "contains"
+                "label": "contains",
+                "d3f_property": "d3f:contains"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -518,7 +516,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "contains"
+                "label": "contains",
+                "d3f_property": "d3f:contains"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -533,7 +532,8 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "contains"
+                "label": "contains",
+                "d3f_property": "d3f:contains"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -549,7 +549,7 @@
             "type": "editableEdge",
             "data": {
                 "label": "contains",
-                "d3f_class": "d3f:contains"
+                "d3f_property": "d3f:contains"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -564,8 +564,7 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": ":erases",
-                "d3f_class": ":erases"
+                "label": ":erases"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -580,8 +579,7 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "rdfs:subClassOf",
-                "d3f_class": "rdfs:subClassOf"
+                "label": "rdfs:subClassOf"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -596,8 +594,7 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "rdfs:subClassOf",
-                "d3f_class": "rdfs:subClassOf"
+                "label": "rdfs:subClassOf"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -612,8 +609,7 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "rdfs:subClassOf",
-                "d3f_property": "rdfs:subClassOf"
+                "label": "rdfs:subClassOf"
             },
             "markerEnd": {
                 "type": "arrowclosed"
@@ -628,8 +624,7 @@
         {
             "type": "editableEdge",
             "data": {
-                "label": "has-note",
-                "d3f_property": "has-note"
+                "label": "has-note"
             },
             "markerEnd": {
                 "type": "arrowclosed"
