@@ -1,9 +1,9 @@
 {
-  "version": "1.0.0",
-  "ontology_version": "1.0.0",
-  "release_date": "2024-12-20T00:42:42.042Z",
-  "ontology_hash_sha256": "83d0f12f0ab6df441aa7ece4c917e3349586b8a627090f98ddc937a9766dd509",
-  "frontend_version": "0.19.0",
-  "ui_build_date": "2025-02-28T19:03:20.931Z",
-  "ui_commit": "fbaa7723"
+  "version": "1.1.0",
+  "ontology_version": "1.1.0",
+  "release_date": "2025-04-21T00:12:00.000Z",
+  "ontology_hash_sha256": "37bcc4f8448f67886dcb7dce20ce3d064f3dc9551100d5636d8c1b1df5c64d1a",
+  "frontend_version": "0.20.0",
+  "ui_build_date": "2025-04-21T20:05:26.690Z",
+  "ui_commit": "7da22629"
 }

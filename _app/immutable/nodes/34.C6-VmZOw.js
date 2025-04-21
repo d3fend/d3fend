@@ -1,1 +1,0 @@
-import{s as e}from"../chunks/BJiukuPx.js";import{S as s,i as n}from"../chunks/CNtqImyT.js";import{g as a}from"../chunks/7ypKNalj.js";function r(t){return alert("WARNING REDIRECTING, ROUTE HAS CHANGED to '/cad', THIS REDIRECT WILL BE DELETED IN THE FUTURE."),a("/cad"),[]}class m extends s{constructor(o){super(),n(this,o,r,null,e,{})}}export{m as component};
