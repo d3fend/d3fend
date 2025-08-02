@@ -53,7 +53,7 @@
             "data": {
                 "label": "Initial Access: Spearphishing Attachment",
                 "sequence": "0",
-                "d3f_class": "d3f:T1598.002",
+                "d3f_class": "d3f:T1566.001",
                 "user_properties": []
             },
             "origin": [
@@ -67,7 +67,8 @@
             "selected": false,
             "dragging": false,
             "width": 279,
-            "height": 93
+            "height": 93,
+            "zIndex": 10
         },
         {
             "id": "0.13256944195839404",
@@ -269,8 +270,8 @@
                 0
             ],
             "measured": {
-                "width": 176,
-                "height": 99
+                "width": 150,
+                "height": 114
             },
             "selected": false,
             "dragging": false
@@ -293,8 +294,8 @@
                 0
             ],
             "measured": {
-                "width": 176,
-                "height": 99
+                "width": 160,
+                "height": 114
             },
             "selected": false,
             "dragging": false
@@ -317,8 +318,8 @@
                 0
             ],
             "measured": {
-                "width": 176,
-                "height": 99
+                "width": 189,
+                "height": 114
             },
             "selected": false,
             "dragging": false
@@ -379,11 +380,11 @@
             "id": "0.3294135325329819",
             "type": "attack-node",
             "position": {
-                "x": -271.41748356949086,
-                "y": 478.77381183585794
+                "x": -271.8839720709361,
+                "y": 478.61106149766516
             },
             "data": {
-                "label": "Masquerade File Type",
+                "label": "Defense Evasion: Masquerade File Type",
                 "sequence": "2",
                 "d3f_class": "d3f:T1036.008",
                 "user_properties": []
@@ -393,13 +394,14 @@
                 0
             ],
             "measured": {
-                "width": 209,
-                "height": 93
+                "width": 289,
+                "height": 92
             },
             "selected": false,
             "dragging": false,
-            "width": 209,
-            "height": 93
+            "width": 289,
+            "height": 92,
+            "zIndex": 10
         },
         {
             "id": "0.9674498279207843",
@@ -409,9 +411,9 @@
                 "y": 652.862648368711
             },
             "data": {
-                "label": "File Deletion",
+                "label": "Defense Evasion: File Deletion",
                 "sequence": "3",
-                "d3f_class": "d3f:T1107",
+                "d3f_class": "d3f:T1070.004",
                 "user_properties": []
             },
             "origin": [
@@ -425,7 +427,8 @@
             "selected": false,
             "width": 213,
             "height": 93,
-            "dragging": false
+            "dragging": false,
+            "zIndex": 10
         },
         {
             "id": "0.6835359685533496",
@@ -435,9 +438,9 @@
                 "y": 797.250395136911
             },
             "data": {
-                "label": "PowerShell",
+                "label": "Execution: PowerShell",
                 "sequence": "4",
-                "d3f_class": "d3f:T1086",
+                "d3f_class": "d3f:T1059.001",
                 "user_properties": []
             },
             "origin": [
@@ -461,7 +464,7 @@
                 "y": 969.911380537678
             },
             "data": {
-                "label": "Native API",
+                "label": "Execution: Native API",
                 "sequence": "5",
                 "d3f_class": "d3f:T1106",
                 "user_properties": []
@@ -483,11 +486,11 @@
             "id": "0.921380612603658",
             "type": "attack-node",
             "position": {
-                "x": -270.00385015759196,
-                "y": 1276.9159040584866
+                "x": -269.54210048059747,
+                "y": 1279.952602944146
             },
             "data": {
-                "label": "Asynchronous Procedure Call",
+                "label": "Defense Evasion: Asynchronous Procedure Call",
                 "sequence": "7",
                 "d3f_class": "d3f:T1055.004",
                 "user_properties": []
@@ -497,13 +500,14 @@
                 0
             ],
             "measured": {
-                "width": 222,
-                "height": 100
+                "width": 312,
+                "height": 107
             },
             "selected": false,
-            "width": 222,
-            "height": 100,
-            "dragging": false
+            "width": 312,
+            "height": 107,
+            "dragging": false,
+            "zIndex": 10
         },
         {
             "id": "0.7984230369581443",
@@ -513,7 +517,7 @@
                 "y": 1434.6361771344525
             },
             "data": {
-                "label": "Web Protocols",
+                "label": "C2: Web Protocols",
                 "sequence": "8",
                 "d3f_class": "d3f:T1071.001",
                 "user_properties": []
@@ -523,11 +527,12 @@
                 0
             ],
             "measured": {
-                "width": 176,
-                "height": 110
+                "width": 150,
+                "height": 113
             },
             "selected": false,
-            "dragging": false
+            "dragging": false,
+            "zIndex": 10
         },
         {
             "id": "0.21872006297325297",
@@ -547,8 +552,8 @@
                 0
             ],
             "measured": {
-                "width": 176,
-                "height": 99
+                "width": 159,
+                "height": 114
             },
             "selected": false,
             "dragging": false
@@ -597,8 +602,8 @@
                 0
             ],
             "measured": {
-                "width": 176,
-                "height": 99
+                "width": 159,
+                "height": 114
             },
             "selected": false,
             "dragging": false
@@ -621,8 +626,8 @@
                 0
             ],
             "measured": {
-                "width": 176,
-                "height": 110
+                "width": 157,
+                "height": 125
             },
             "selected": false,
             "dragging": false
@@ -645,8 +650,8 @@
                 0
             ],
             "measured": {
-                "width": 176,
-                "height": 110
+                "width": 182,
+                "height": 125
             },
             "selected": false,
             "dragging": false
@@ -669,8 +674,8 @@
                 0
             ],
             "measured": {
-                "width": 176,
-                "height": 110
+                "width": 180,
+                "height": 125
             },
             "selected": false,
             "dragging": false
@@ -693,8 +698,8 @@
                 0
             ],
             "measured": {
-                "width": 176,
-                "height": 110
+                "width": 164,
+                "height": 125
             },
             "selected": false,
             "dragging": false
@@ -722,7 +727,7 @@
                 0
             ],
             "measured": {
-                "width": 315,
+                "width": 330,
                 "height": 163
             },
             "selected": false,
@@ -855,8 +860,8 @@
                 0
             ],
             "measured": {
-                "width": 211,
-                "height": 76
+                "width": 150,
+                "height": 102
             },
             "selected": false,
             "dragging": false
@@ -869,10 +874,10 @@
                 "y": 1119.8231293204587
             },
             "data": {
-                "label": "PowerShell",
+                "label": "Execution: PowerShell",
                 "sequence": "6",
                 "user_properties": [],
-                "d3f_class": "d3f:T1086"
+                "d3f_class": "d3f:T1059.001"
             },
             "origin": [
                 0.5,
@@ -909,8 +914,8 @@
                 0
             ],
             "measured": {
-                "width": 205,
-                "height": 137
+                "width": 195,
+                "height": 145
             },
             "selected": false,
             "dragging": false

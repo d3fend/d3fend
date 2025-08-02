@@ -1,1 +1,0 @@
-async function c({fetch:t}){const a=await t("/api/offensive-technique/all.json"),o=await t("/api/technique/all.json"),e=await a.json(),s=await o.json(),n=await(await t("/api/dao/artifacts.json")).json();return{a_remote_autocomplete_list:e,d_remote_autocomplete_list:s,dao_remote_autocomplete_list:n}}export{c as t};

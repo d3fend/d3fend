@@ -1,0 +1,1 @@
+import{b as r}from"./Bj-k5Abv.js";async function i({fetch:o}){const s=await(await o(`${r}/api/matrix.json`)).json(),a=await(await o(`${r}/api/version.json`)).json();return{remote_d3fend_tree:s,remote_version_info:a}}export{i as m};
