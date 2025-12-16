@@ -1,1 +1,0 @@
-import{b as a}from"./Bj-k5Abv.js";async function r({fetch:t}){const o=await t(`${a}/api/offensive-technique/all.json`),e=await t(`${a}/api/technique/all.json`),s=await o.json(),n=await e.json(),i=await(await t(`${a}/api/dao/artifacts.json`)).json();return{a_remote_autocomplete_list:s,d_remote_autocomplete_list:n,dao_remote_autocomplete_list:i}}export{r as t};

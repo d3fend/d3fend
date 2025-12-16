@@ -1,1 +1,0 @@
-import{e as s}from"./PD1Wq3xD.js";import{b as t}from"./Bj-k5Abv.js";async function i({fetch:r}){const a=await r(`${t}/api/dao/artifacts.json`),o=await a.json();return a.status!==200&&s(500,(data==null?void 0:data.message)||"Internal Server Error"),{da_graph:o}}export{i as d};

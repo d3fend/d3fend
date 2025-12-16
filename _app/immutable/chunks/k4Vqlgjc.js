@@ -1,0 +1,1 @@
+import{al as c,v as o,am as i,aE as d,aS as m}from"./dMGUy5QM.js";function k(e,n,a){c(()=>{var r=o(()=>n(e,a==null?void 0:a())||{});if(a&&(r!=null&&r.update)){var s=!1,t={};i(()=>{var f=a();d(f),s&&m(t,f)&&(t=f,r.update(f))}),s=!0}if(r!=null&&r.destroy)return()=>r.destroy()})}export{k as a};

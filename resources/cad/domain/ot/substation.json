@@ -1,0 +1,1459 @@
+{
+  "meta": {
+    "title": "Power Substation Model",
+    "authors": [
+      "Emma Holt"
+    ],
+    "orgs": [
+      "MITRE Corporation"
+    ],
+    "description": "High level overview of artifacts commonly found in electric substations.",
+    "article": "",
+    "d3fend_version": "1.0.0",
+    "cad_schema_version": 1,
+    "published_date": "2025-06-28T15:03:14.778Z",
+    "references": [],
+    "settings": {},
+    "cad_data_version": 1
+  },
+  "nodes": [
+    {
+      "id": "0.7118915181366299",
+      "type": "thing-node",
+      "position": {
+        "x": 1229.9547205056967,
+        "y": -2321.1291901811296
+      },
+      "data": {
+        "label": " Power Substation",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class_label": null,
+        "d3f_class": ""
+      },
+      "measured": {
+        "width": 1164,
+        "height": 112
+      },
+      "selected": false,
+      "dragging": false,
+      "width": 1164,
+      "height": 112
+    },
+    {
+      "id": "0.7337635219313066",
+      "type": "thing-node",
+      "position": {
+        "x": 1585.9446168672107,
+        "y": -2513.4290604380108
+      },
+      "data": {
+        "label": "Circuit Breaker",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class_label": null,
+        "d3f_class": "Physical Artifact"
+      },
+      "measured": {
+        "width": 309,
+        "height": 104
+      },
+      "selected": false,
+      "width": 225,
+      "height": 104,
+      "dragging": false
+    },
+    {
+      "id": "0.4316726841776902",
+      "type": "thing-node",
+      "position": {
+        "x": 1958.1803103915845,
+        "y": -2506.048574421892
+      },
+      "data": {
+        "label": "Current Transformer",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class_label": null,
+        "d3f_class": "Physical Artifact"
+      },
+      "measured": {
+        "width": 309,
+        "height": 92
+      },
+      "selected": false,
+      "width": 221,
+      "height": 92,
+      "dragging": false
+    },
+    {
+      "id": "0.7258549713054366",
+      "type": "thing-node",
+      "position": {
+        "x": 2400.0098314583306,
+        "y": -2504.721215657616
+      },
+      "data": {
+        "label": "Main Transformer",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class_label": null,
+        "d3f_class": "Physical Artifact"
+      },
+      "measured": {
+        "width": 309,
+        "height": 92
+      },
+      "selected": false,
+      "width": 291,
+      "height": 92,
+      "dragging": false
+    },
+    {
+      "id": "0.9856919832192849",
+      "type": "artifact-node",
+      "position": {
+        "x": 1609.2594955732288,
+        "y": -3117.7046842049485
+      },
+      "data": {
+        "label": "Remote Terminal Unit",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:OTController"
+      },
+      "measured": {
+        "width": 159,
+        "height": 117
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "0.6992353237074344",
+      "type": "artifact-node",
+      "position": {
+        "x": 1239.874602287688,
+        "y": -2986.5077046602064
+      },
+      "data": {
+        "label": "Intelligent Electronic Device (control)",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:OTController"
+      },
+      "measured": {
+        "width": 240,
+        "height": 116
+      },
+      "selected": false,
+      "dragging": false,
+      "width": 240,
+      "height": 116
+    },
+    {
+      "id": "0.4910600526599429",
+      "type": "artifact-node",
+      "position": {
+        "x": 2097.5919701782477,
+        "y": -2748.560514545751
+      },
+      "data": {
+        "label": "OT Sensor",
+        "sequence": "0",
+        "user_properties": [
+          [
+            "rdfs:comment",
+            "multiple - collect CT, VT, and transducers"
+          ]
+        ],
+        "d3f_class": "d3f:OTSensor"
+      },
+      "measured": {
+        "width": 447,
+        "height": 144
+      },
+      "selected": false,
+      "dragging": false,
+      "width": 424,
+      "height": 144
+    },
+    {
+      "id": "0.6090923785537531",
+      "type": "artifact-node",
+      "position": {
+        "x": 2248.1864069457806,
+        "y": -3469.848788483438
+      },
+      "data": {
+        "label": "SCADA Server",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:Server"
+      },
+      "measured": {
+        "width": 159,
+        "height": 117
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "0.3870643268328996",
+      "type": "artifact-node",
+      "position": {
+        "x": 2131.8506390391913,
+        "y": -3184.3186366033683
+      },
+      "data": {
+        "label": "Real-Time Automation Controller",
+        "sequence": "0",
+        "user_properties": [
+          [
+            "skos:example",
+            "SEL-3505/3505-3"
+          ]
+        ],
+        "d3f_class": "d3f:OTController"
+      },
+      "measured": {
+        "width": 330,
+        "height": 120
+      },
+      "selected": false,
+      "dragging": false,
+      "width": 301,
+      "height": 120
+    },
+    {
+      "id": "0.345620707009187",
+      "type": "artifact-node",
+      "position": {
+        "x": 2004.5918942184512,
+        "y": -3371.0965743042875
+      },
+      "data": {
+        "label": "Operations Center Computer",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:OperationsCenterComputer"
+      },
+      "measured": {
+        "width": 204,
+        "height": 117
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "0.21052726872495142",
+      "type": "artifact-node",
+      "position": {
+        "x": 1189.6681717431052,
+        "y": -2738.3754994304168
+      },
+      "data": {
+        "label": "OT Sensor",
+        "sequence": "0",
+        "user_properties": [
+          [
+            "rdfs:comment",
+            "multiple - collect CT, VT, and transducers"
+          ]
+        ],
+        "d3f_class": "d3f:OTSensor"
+      },
+      "measured": {
+        "width": 447,
+        "height": 144
+      },
+      "selected": false,
+      "dragging": false,
+      "width": 424,
+      "height": 144
+    },
+    {
+      "id": "0.35930836433150437",
+      "type": "artifact-node",
+      "position": {
+        "x": 852.7760110411848,
+        "y": -2867.3878971029835
+      },
+      "data": {
+        "label": "Human Machine Interface",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:InputDevice"
+      },
+      "measured": {
+        "width": 179,
+        "height": 116
+      },
+      "selected": false,
+      "dragging": false,
+      "zIndex": 10,
+      "width": 179,
+      "height": 116
+    },
+    {
+      "id": "0.726443660276066",
+      "type": "artifact-node",
+      "position": {
+        "x": 1225.965177653608,
+        "y": -3636.075197431018
+      },
+      "data": {
+        "label": "Emergency Management System / Distribution Management System",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:Server"
+      },
+      "measured": {
+        "width": 427,
+        "height": 117
+      },
+      "selected": false,
+      "dragging": false,
+      "width": 427,
+      "height": 117
+    },
+    {
+      "id": "0.7398206533936382",
+      "type": "artifact-node",
+      "position": {
+        "x": 2211.0067818285684,
+        "y": -2999.109713720981
+      },
+      "data": {
+        "label": "Intelligent Electronic Device (protection)",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:OTController"
+      },
+      "measured": {
+        "width": 276,
+        "height": 116
+      },
+      "selected": false,
+      "dragging": false,
+      "width": 276,
+      "height": 116,
+      "zIndex": 10
+    },
+    {
+      "id": "0.5735079697674146",
+      "type": "artifact-node",
+      "position": {
+        "x": 1759.7733296541403,
+        "y": -2864.051564550926
+      },
+      "data": {
+        "label": "Process Bus Switch",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:Switch"
+      },
+      "measured": {
+        "width": 159,
+        "height": 117
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "0.4281140693717974",
+      "type": "artifact-node",
+      "position": {
+        "x": 1770.150647833348,
+        "y": -3512.8515760886553
+      },
+      "data": {
+        "label": " Router",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:Router"
+      },
+      "measured": {
+        "width": 159,
+        "height": 117
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "0.588505915343033",
+      "type": "artifact-node",
+      "position": {
+        "x": 1761.2441731946988,
+        "y": -3311.7525795334186
+      },
+      "data": {
+        "label": "Process Bus Switch",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:Switch"
+      },
+      "measured": {
+        "width": 159,
+        "height": 117
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "0.540062118493139",
+      "type": "artifact-node",
+      "position": {
+        "x": 1495.1615655034568,
+        "y": -3451.679874203251
+      },
+      "data": {
+        "label": "Central Control Server",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:Server"
+      },
+      "measured": {
+        "width": 159,
+        "height": 117
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "0.5773984567296112",
+      "type": "artifact-node",
+      "position": {
+        "x": 1762.1501116563336,
+        "y": -3691.1973143273894
+      },
+      "data": {
+        "label": "Substation Network",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:IntranetNetwork"
+      },
+      "measured": {
+        "width": 159,
+        "height": 117
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "0.4526924532650082",
+      "type": "artifact-node",
+      "position": {
+        "x": 1186.0359155800259,
+        "y": -3273.382604356439
+      },
+      "data": {
+        "label": "OT Engineering Workstation",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:OTEngineeringWorkstation"
+      },
+      "measured": {
+        "width": 164,
+        "height": 106
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "0.1559078779921489",
+      "type": "countermeasure-node",
+      "position": {
+        "x": 816.6695707865315,
+        "y": -3055.408621483655
+      },
+      "data": {
+        "label": "Operating Mode Restriction",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:OperatingModeRestriction"
+      },
+      "measured": {
+        "width": 226,
+        "height": 117
+      },
+      "selected": false,
+      "dragging": false,
+      "width": 226,
+      "height": 117
+    },
+    {
+      "id": "0.2975690029900344",
+      "type": "countermeasure-node",
+      "position": {
+        "x": 1011.4314803005594,
+        "y": -3135.108678752818
+      },
+      "data": {
+        "label": "Operating Mode Monitoring",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:OperatingModeMonitoring"
+      },
+      "measured": {
+        "width": 196,
+        "height": 128
+      },
+      "selected": false
+    },
+    {
+      "id": "0.8616433093197757",
+      "type": "countermeasure-node",
+      "position": {
+        "x": 2524.7620279429834,
+        "y": -3248.6267983186854
+      },
+      "data": {
+        "label": "Logical Link Mapping",
+        "sequence": "0",
+        "d3f_class": "d3f:LogicalLinkMapping",
+        "user_properties": []
+      },
+      "measured": {
+        "width": 169,
+        "height": 128
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "0.1049220165302246",
+      "type": "countermeasure-node",
+      "position": {
+        "x": 2592.056423539287,
+        "y": -3388.6953990449447
+      },
+      "data": {
+        "label": "Physical Link Mapping",
+        "sequence": "0",
+        "d3f_class": "d3f:PhysicalLinkMapping",
+        "user_properties": []
+      },
+      "measured": {
+        "width": 175,
+        "height": 128
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "0.419132346481628",
+      "type": "attack-node",
+      "position": {
+        "x": 2508.8986792857363,
+        "y": -3551.6045406297826
+      },
+      "data": {
+        "label": "Exploitation of Remote Services",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:T1210"
+      },
+      "measured": {
+        "width": 218,
+        "height": 121
+      },
+      "selected": false,
+      "dragging": false,
+      "width": 218,
+      "height": 121
+    },
+    {
+      "id": "0.42735089725433306",
+      "type": "attack-node",
+      "position": {
+        "x": 2658.37556333791,
+        "y": -2927.8800658220152
+      },
+      "data": {
+        "label": "Password Guessing",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:T1110.001"
+      },
+      "measured": {
+        "width": 159,
+        "height": 117
+      },
+      "zIndex": 10,
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "0.028442699444303665",
+      "type": "attack-node",
+      "position": {
+        "x": 851.7796710848402,
+        "y": -2660.1126780528057
+      },
+      "data": {
+        "label": "Activate Firmware Update Mode",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "Activate Firmware Update Mode"
+      },
+      "measured": {
+        "width": 230,
+        "height": 112
+      },
+      "selected": false,
+      "dragging": false,
+      "width": 230,
+      "height": 112
+    },
+    {
+      "id": "0.8839122386948919",
+      "type": "countermeasure-node",
+      "position": {
+        "x": 2609.805396510788,
+        "y": -3075.832210871407
+      },
+      "data": {
+        "label": "Change Default Password",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:ChangeDefaultPassword"
+      },
+      "measured": {
+        "width": 191,
+        "height": 128
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "0.6673922588635459",
+      "type": "attack-node",
+      "position": {
+        "x": 1050.0843883840794,
+        "y": -3467.7916377935303
+      },
+      "data": {
+        "label": "File and Directory Discovery",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:T1083"
+      },
+      "measured": {
+        "width": 218,
+        "height": 117
+      },
+      "selected": false,
+      "dragging": false,
+      "width": 218,
+      "height": 117
+    },
+    {
+      "id": "0.9756575434125915",
+      "type": "artifact-node",
+      "position": {
+        "x": 2057.796582842164,
+        "y": -3670.427160279155
+      },
+      "data": {
+        "label": "GPS Clock",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class": "d3f:SystemTimeApplication"
+      },
+      "measured": {
+        "width": 185,
+        "height": 117
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "0.05431992610055314",
+      "type": "thing-node",
+      "position": {
+        "x": 899.0169635359687,
+        "y": -2510.7180519596986
+      },
+      "data": {
+        "label": "Measurment Transformer",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class_label": null,
+        "d3f_class": "Physical Artifact"
+      },
+      "measured": {
+        "width": 309,
+        "height": 104
+      },
+      "selected": false,
+      "width": 225,
+      "height": 104,
+      "dragging": false
+    },
+    {
+      "id": "0.9451928659672413",
+      "type": "thing-node",
+      "position": {
+        "x": 1241.7448052741445,
+        "y": -2511.8490415973174
+      },
+      "data": {
+        "label": "Disconnector",
+        "sequence": "0",
+        "user_properties": [],
+        "d3f_class_label": null,
+        "d3f_class": "Physical Artifact"
+      },
+      "measured": {
+        "width": 309,
+        "height": 104
+      },
+      "selected": false,
+      "width": 225,
+      "height": 104,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "editableEdge",
+      "data": {
+        "label": "contains",
+        "d3f_property": "d3f:contains",
+        "d3f_class_label": "contains"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.7118915181366299",
+      "sourceHandle": "source",
+      "target": "0.7337635219313066",
+      "targetHandle": "target",
+      "id": "xy-edge__0.7118915181366299source-0.7337635219313066target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:contains",
+        "label": "contains"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.7118915181366299",
+      "sourceHandle": "source",
+      "target": "0.4316726841776902",
+      "targetHandle": "target",
+      "id": "xy-edge-0.8970233965378316__0.7118915181366299source-0.4316726841776902target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:contains",
+        "label": "contains"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.7118915181366299",
+      "sourceHandle": "source",
+      "target": "0.7258549713054366",
+      "targetHandle": "target",
+      "id": "xy-edge-0.34032784473445354__0.7118915181366299source-0.7258549713054366target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:communicates-with",
+        "label": "communicates-with"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.6992353237074344",
+      "sourceHandle": "source",
+      "target": "0.9856919832192849",
+      "targetHandle": "target",
+      "id": "xy-edge-0.6268431354318008__0.6992353237074344source-0.9856919832192849target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:monitors",
+        "label": "monitors"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.9856919832192849",
+      "sourceHandle": "source",
+      "target": "0.6992353237074344",
+      "targetHandle": "target",
+      "id": "xy-edge-0.011857585127663328__0.9856919832192849source-0.6992353237074344target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.345620707009187",
+      "sourceHandle": "source",
+      "target": "0.3870643268328996",
+      "targetHandle": "target",
+      "id": "xy-edge-0.6879095361984406__0.345620707009187source-0.3870643268328996target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:communicates-with",
+        "label": "communicates-with"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.3870643268328996",
+      "sourceHandle": "source",
+      "target": "0.6090923785537531",
+      "targetHandle": "target",
+      "id": "xy-edge-0.8846944979829124__0.3870643268328996source-0.6090923785537531target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:communicates-with",
+        "label": "communicates-with"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.3870643268328996",
+      "sourceHandle": "source",
+      "target": "0.9856919832192849",
+      "targetHandle": "target",
+      "id": "xy-edge-0.9348166757504932__0.3870643268328996source-0.9856919832192849target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:communicates-with",
+        "label": "communicates-with"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.35930836433150437",
+      "sourceHandle": "source",
+      "target": "0.6992353237074344",
+      "targetHandle": "target",
+      "id": "xy-edge-0.4420355602857905__0.35930836433150437source-0.6992353237074344target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:communicates-with",
+        "label": "communicates-with"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.7398206533936382",
+      "sourceHandle": "source",
+      "target": "0.9856919832192849",
+      "targetHandle": "target",
+      "id": "xy-edge-0.6268431354318008__0.7398206533936382source-0.9856919832192849target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:monitors",
+        "label": "monitors"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.9856919832192849",
+      "sourceHandle": "source",
+      "target": "0.7398206533936382",
+      "targetHandle": "target",
+      "id": "xy-edge-0.011857585127663328__0.9856919832192849source-0.7398206533936382target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.4910600526599429",
+      "sourceHandle": "source",
+      "target": "0.5735079697674146",
+      "targetHandle": "target",
+      "id": "xy-edge-0.23370973266038864__0.4910600526599429source-0.5735079697674146target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.21052726872495142",
+      "sourceHandle": "source",
+      "target": "0.5735079697674146",
+      "targetHandle": "target",
+      "id": "xy-edge-0.04312978109328136__0.21052726872495142source-0.5735079697674146target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.6992353237074344",
+      "sourceHandle": "source",
+      "target": "0.5735079697674146",
+      "targetHandle": "target",
+      "id": "xy-edge-0.6395737925589742__0.6992353237074344source-0.5735079697674146target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.7398206533936382",
+      "sourceHandle": "source",
+      "target": "0.5735079697674146",
+      "targetHandle": "target",
+      "id": "xy-edge-0.7910270502239147__0.7398206533936382source-0.5735079697674146target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.7337635219313066",
+      "sourceHandle": "source",
+      "target": "0.21052726872495142",
+      "targetHandle": "target",
+      "id": "xy-edge-0.0002864326776708115__0.7337635219313066source-0.21052726872495142target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.4316726841776902",
+      "sourceHandle": "source",
+      "target": "0.4910600526599429",
+      "targetHandle": "target",
+      "id": "xy-edge-0.8910455961110936__0.4316726841776902source-0.4910600526599429target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.7258549713054366",
+      "sourceHandle": "source",
+      "target": "0.4910600526599429",
+      "targetHandle": "target",
+      "id": "xy-edge-0.1028717455753072__0.7258549713054366source-0.4910600526599429target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.6992353237074344",
+      "sourceHandle": "source",
+      "target": "0.588505915343033",
+      "targetHandle": "target",
+      "id": "xy-edge-0.7738095246610742__0.6992353237074344source-0.588505915343033target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.7398206533936382",
+      "sourceHandle": "source",
+      "target": "0.588505915343033",
+      "targetHandle": "target",
+      "id": "xy-edge-0.6319728837208273__0.7398206533936382source-0.588505915343033target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.588505915343033",
+      "sourceHandle": "source",
+      "target": "0.4281140693717974",
+      "targetHandle": "target",
+      "id": "xy-edge-0.6042327419282326__0.588505915343033source-0.4281140693717974target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.4281140693717974",
+      "sourceHandle": "source",
+      "target": "0.540062118493139",
+      "targetHandle": "target",
+      "id": "xy-edge-0.6179783015164083__0.4281140693717974source-0.540062118493139target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.4281140693717974",
+      "sourceHandle": "source",
+      "target": "0.6090923785537531",
+      "targetHandle": "target",
+      "id": "xy-edge-0.4422863316429355__0.4281140693717974source-0.6090923785537531target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:contains",
+        "label": "contains"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.5773984567296112",
+      "sourceHandle": "source",
+      "target": "0.4281140693717974",
+      "targetHandle": "target",
+      "id": "xy-edge-0.7965638309000334__0.5773984567296112source-0.4281140693717974target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.4281140693717974",
+      "sourceHandle": "source",
+      "target": "0.726443660276066",
+      "targetHandle": "target",
+      "id": "xy-edge-0.5788243452669215__0.4281140693717974source-0.726443660276066target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.4526924532650082",
+      "sourceHandle": "source",
+      "target": "0.588505915343033",
+      "targetHandle": "target",
+      "id": "xy-edge-0.4526630905863106__0.4526924532650082source-0.588505915343033target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:communicates-with",
+        "label": "communicates-with"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.4526924532650082",
+      "sourceHandle": "source",
+      "target": "0.6992353237074344",
+      "targetHandle": "target",
+      "id": "xy-edge-0.40725453382312937__0.4526924532650082source-0.6992353237074344target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.35930836433150437",
+      "sourceHandle": "source",
+      "target": "0.5735079697674146",
+      "targetHandle": "target",
+      "id": "xy-edge-0.2929418622707859__0.35930836433150437source-0.5735079697674146target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.3870643268328996",
+      "sourceHandle": "source",
+      "target": "0.5735079697674146",
+      "targetHandle": "target",
+      "id": "xy-edge-0.1014269932304398__0.3870643268328996source-0.5735079697674146target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.5735079697674146",
+      "sourceHandle": "source",
+      "target": "0.588505915343033",
+      "targetHandle": "target",
+      "id": "xy-edge-0.5682317838979607__0.5735079697674146source-0.588505915343033target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.9856919832192849",
+      "sourceHandle": "source",
+      "target": "0.5735079697674146",
+      "targetHandle": "target",
+      "id": "xy-edge-0.3148889240741306__0.9856919832192849source-0.5735079697674146target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:restricts",
+        "label": "restricts"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.1559078779921489",
+      "sourceHandle": "source",
+      "target": "0.6992353237074344",
+      "targetHandle": "target",
+      "id": "xy-edge-0.3076241864918553__0.1559078779921489source-0.6992353237074344target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:monitors",
+        "label": "monitors"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.2975690029900344",
+      "sourceHandle": "source",
+      "target": "0.6992353237074344",
+      "targetHandle": "target",
+      "id": "xy-edge-0.43420511692523334__0.2975690029900344source-0.6992353237074344target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:maps",
+        "label": "maps"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.8616433093197757",
+      "sourceHandle": "source",
+      "target": "0.6090923785537531",
+      "targetHandle": "target",
+      "id": "xy-edge-0.666655904180621__0.8616433093197757source-0.6090923785537531target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:maps",
+        "label": "maps"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.1049220165302246",
+      "sourceHandle": "source",
+      "target": "0.6090923785537531",
+      "targetHandle": "target",
+      "id": "xy-edge-0.45929838292537883__0.1049220165302246source-0.6090923785537531target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:addressed-by",
+        "label": "addressed-by"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.42735089725433306",
+      "sourceHandle": "source",
+      "target": "0.7398206533936382",
+      "targetHandle": "target",
+      "id": "xy-edge-0.6599787888482948__0.42735089725433306source-0.7398206533936382target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:hardens",
+        "label": "hardens"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.8839122386948919",
+      "sourceHandle": "source",
+      "target": "0.7398206533936382",
+      "targetHandle": "target",
+      "id": "xy-edge-0.006099017540741936__0.8839122386948919source-0.7398206533936382target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:disables",
+        "label": "disables"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.028442699444303665",
+      "sourceHandle": "source",
+      "target": "0.6992353237074344",
+      "targetHandle": "target",
+      "id": "xy-edge-0.9985000076557278__0.028442699444303665source-0.6992353237074344target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:accesses",
+        "label": "accesses"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.419132346481628",
+      "sourceHandle": "source",
+      "target": "0.6090923785537531",
+      "targetHandle": "target",
+      "id": "xy-edge-0.15882191297327897__0.419132346481628source-0.6090923785537531target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:identifies",
+        "label": "identifies"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.6673922588635459",
+      "sourceHandle": "source",
+      "target": "0.4526924532650082",
+      "targetHandle": "target",
+      "id": "xy-edge-0.5134342814132039__0.6673922588635459source-0.4526924532650082target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.345620707009187",
+      "sourceHandle": "source",
+      "target": "0.4281140693717974",
+      "targetHandle": "target",
+      "id": "xy-edge-0.7143117151473889__0.345620707009187source-0.4281140693717974target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.9756575434125915",
+      "sourceHandle": "source",
+      "target": "0.4281140693717974",
+      "targetHandle": "target",
+      "id": "xy-edge-0.22954542889007024__0.9756575434125915source-0.4281140693717974target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "label": "contains",
+        "d3f_property": "d3f:contains",
+        "d3f_class_label": "contains"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.7118915181366299",
+      "sourceHandle": "source",
+      "target": "0.05431992610055314",
+      "targetHandle": "target",
+      "id": "xy-edge__0.7118915181366299source-0.05431992610055314target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.05431992610055314",
+      "sourceHandle": "source",
+      "target": "0.21052726872495142",
+      "targetHandle": "target",
+      "id": "xy-edge-0.0002864326776708115__0.05431992610055314source-0.21052726872495142target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "label": "contains",
+        "d3f_property": "d3f:contains",
+        "d3f_class_label": "contains"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.7118915181366299",
+      "sourceHandle": "source",
+      "target": "0.9451928659672413",
+      "targetHandle": "target",
+      "id": "xy-edge__0.7118915181366299source-0.9451928659672413target",
+      "selected": false
+    },
+    {
+      "type": "editableEdge",
+      "data": {
+        "d3f_property": "d3f:connects",
+        "label": "connects"
+      },
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "source": "0.9451928659672413",
+      "sourceHandle": "source",
+      "target": "0.21052726872495142",
+      "targetHandle": "target",
+      "id": "xy-edge-0.0002864326776708115__0.9451928659672413source-0.21052726872495142target",
+      "selected": false
+    }
+  ]
+}

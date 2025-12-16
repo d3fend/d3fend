@@ -1,0 +1,1241 @@
+{
+    "meta": {
+        "title": "Purdue Model illustrated by D3FEND for OT artifacts",
+        "authors": [
+            "Stephanie Saravia, Dr. Michael Smith",
+            ""
+        ],
+        "orgs": [
+            "The MITRE Corporation"
+        ],
+        "description": "This model presents an overview of the Purdue Model, using the D3FEND for OT ontology extensions.  A simplified view of the levels and typical components is on the left.  To the right is an expanded view of this, showing the D3FEND for OT relationships between the artifacts.",
+        "article": "",
+        "d3fend_version": "1.3.0",
+        "cad_schema_version": 0,
+        "published_date": "2025-12-08T20:02:32.133Z",
+        "references": [
+            "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-82r3.pdf",
+            "https://www.paloaltonetworks.com/cyberpedia/what-is-the-purdue-model-for-ics-security",
+            "https://www.isa.org/standards-and-publications/isa-standards/isa-standards-committees/isa95",
+            "https://www.youtube.com/watch?v=KfxPF9xjFrE"
+        ],
+        "settings": {},
+        "cad_data_version": 1
+    },
+    "nodes": [
+        {
+            "id": "0.9425089146386566",
+            "type": "artifact-node",
+            "position": {
+                "x": 146.72695376845104,
+                "y": -2773.7198761470936
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Data Historian",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OTProcessDataHistorian"
+            },
+            "measured": {
+                "width": 203,
+                "height": 106
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 203,
+            "height": 106
+        },
+        {
+            "id": "0.056062900915826774",
+            "type": "artifact-node",
+            "position": {
+                "x": 590.9979601716543,
+                "y": -2585.8250550963
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "OT Human Machine Interface",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OTHumanMachineInterface"
+            },
+            "measured": {
+                "width": 205,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false,
+            "zIndex": 10,
+            "width": 205,
+            "height": 110
+        },
+        {
+            "id": "0.9279855251490443",
+            "type": "artifact-node",
+            "position": {
+                "x": 150.62413291017108,
+                "y": -2425.24792463817
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "OT Controller",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OTController"
+            },
+            "measured": {
+                "width": 177,
+                "height": 93
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 177,
+            "height": 93,
+            "zIndex": 10
+        },
+        {
+            "id": "0.04921347356311678",
+            "type": "artifact-node",
+            "position": {
+                "x": 148.36921251408344,
+                "y": -2586.0117763260773
+            },
+            "data": {
+                "label": "OT Engineering Workstation",
+                "sequence": "0",
+                "d3f_class": "d3f:OTEngineeringWorkstation",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 201,
+                "height": 113
+            }
+        },
+        {
+            "id": "0.9243404905786591",
+            "type": "artifact-node",
+            "position": {
+                "x": 593.8144901135612,
+                "y": -2308.828146665145
+            },
+            "data": {
+                "label": "OT Control Logic Process",
+                "sequence": "0",
+                "d3f_class": "d3f:OTControlLogicProcess",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 187,
+                "height": 94
+            },
+            "width": 176,
+            "height": 94
+        },
+        {
+            "id": "0.17528638105064676",
+            "type": "artifact-node",
+            "position": {
+                "x": 592.5465856145148,
+                "y": -2427.702763951742
+            },
+            "data": {
+                "label": "OT Control Program",
+                "sequence": "0",
+                "d3f_class": "d3f:OTControlProgram",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 189,
+                "height": 98
+            },
+            "width": 189,
+            "height": 98
+        },
+        {
+            "id": "0.03652547372282411",
+            "type": "artifact-node",
+            "position": {
+                "x": 374.45826047570887,
+                "y": -2585.8996364269215
+            },
+            "data": {
+                "label": "OT Engineering Software",
+                "sequence": "0",
+                "d3f_class": "d3f:OTEngineeringSoftware",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 188,
+                "height": 113
+            }
+        },
+        {
+            "id": "0.18811336493888242",
+            "type": "artifact-node",
+            "position": {
+                "x": 152.2773707667113,
+                "y": -2309.119416719287
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "OT Network Traffic",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OTNetworkTraffic"
+            },
+            "measured": {
+                "width": 180,
+                "height": 89
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 180,
+            "height": 89
+        },
+        {
+            "id": "0.7626788743508938",
+            "type": "artifact-node",
+            "position": {
+                "x": 370.4605964551295,
+                "y": -2308.2037641920365
+            },
+            "data": {
+                "label": "OT Protocol Message",
+                "sequence": "0",
+                "d3f_class": "d3f:OTProtocolMessage",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 184,
+                "height": 90
+            },
+            "width": 184,
+            "height": 90
+        },
+        {
+            "id": "0.7815455415154633",
+            "type": "artifact-node",
+            "position": {
+                "x": 147.83588662319482,
+                "y": -2166.0186628275605
+            },
+            "data": {
+                "label": "OT Actuator",
+                "sequence": "0",
+                "d3f_class": "d3f:OTActuator",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 177,
+                "height": 90
+            },
+            "width": 177,
+            "height": 90
+        },
+        {
+            "id": "0.8517497331732594",
+            "type": "artifact-node",
+            "position": {
+                "x": -80.0039661900638,
+                "y": -2165.4061135811694
+            },
+            "data": {
+                "label": "OT I/O Module",
+                "sequence": "0",
+                "d3f_class": "d3f:OTIOModule",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 177,
+                "height": 87
+            },
+            "width": 174,
+            "height": 87
+        },
+        {
+            "id": "0.8826848312833149",
+            "type": "artifact-node",
+            "position": {
+                "x": 377.5216964515585,
+                "y": -2165.204915255046
+            },
+            "data": {
+                "label": "OT Sensor",
+                "sequence": "0",
+                "d3f_class": "d3f:OTSensor",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 177,
+                "height": 91
+            },
+            "width": 172,
+            "height": 91
+        },
+        {
+            "id": "0.14650639767401574",
+            "type": "artifact-node",
+            "position": {
+                "x": 816.0976873017524,
+                "y": -2312.165653438512
+            },
+            "data": {
+                "label": "OT Logic Variable",
+                "sequence": "0",
+                "d3f_class": "d3f:OTLogicVariable",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 177,
+                "height": 101
+            },
+            "width": 177,
+            "height": 101
+        },
+        {
+            "id": "0.3011013657690188",
+            "type": "artifact-node",
+            "position": {
+                "x": 368.9022684662419,
+                "y": -2427.9602221324003
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "System Platform Variable",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:SystemPlatformVariable"
+            },
+            "measured": {
+                "width": 188,
+                "height": 92
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 184,
+            "height": 92
+        },
+        {
+            "id": "0.025398286071286136",
+            "type": "artifact-node",
+            "position": {
+                "x": -88.71284682631759,
+                "y": -2427.480087554424
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "OT Network",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OTNetwork"
+            },
+            "measured": {
+                "width": 177,
+                "height": 93
+            },
+            "selected": false,
+            "width": 177,
+            "height": 93,
+            "dragging": false
+        },
+        {
+            "id": "0.7297415673014146",
+            "type": "artifact-node",
+            "position": {
+                "x": -87.72355579273803,
+                "y": -3742.856049801909
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Internet",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:InternetNetwork"
+            },
+            "measured": {
+                "width": 177,
+                "height": 113
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.946137119530498",
+            "type": "artifact-node",
+            "position": {
+                "x": 803.0856463258717,
+                "y": -3374.9477780820853
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Enterprise DNS Server",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:DNSServer"
+            },
+            "measured": {
+                "width": 187,
+                "height": 97
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 187,
+            "height": 97
+        },
+        {
+            "id": "0.1395063423680214",
+            "type": "artifact-node",
+            "position": {
+                "x": 140.99246314747535,
+                "y": -3183.6925593181086
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Print Server",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:PrintServer"
+            },
+            "measured": {
+                "width": 182,
+                "height": 95
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 182,
+            "height": 95
+        },
+        {
+            "id": "0.6063637574318077",
+            "type": "artifact-node",
+            "position": {
+                "x": 586.9868273308282,
+                "y": -3377.2119504800585
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Web Application Server",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:WebApplicationServer"
+            },
+            "measured": {
+                "width": 180,
+                "height": 101
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 179,
+            "height": 101
+        },
+        {
+            "id": "0.41495921662881574",
+            "type": "artifact-node",
+            "position": {
+                "x": -93.57283282995581,
+                "y": -3380.3156220106043
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Corporate WAN",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:WideAreaNetwork"
+            },
+            "measured": {
+                "width": 177,
+                "height": 98
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 177,
+            "height": 98
+        },
+        {
+            "id": "0.9111104705760165",
+            "type": "artifact-node",
+            "position": {
+                "x": 379.24461137361754,
+                "y": -2775.962296460984
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Patch Server",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:FileServer"
+            },
+            "measured": {
+                "width": 185,
+                "height": 108
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 185,
+            "height": 108
+        },
+        {
+            "id": "0.26951754618859536",
+            "type": "artifact-node",
+            "position": {
+                "x": 589.5803085610046,
+                "y": -2775.8059848863536
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Site Network Time Server",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:NetworkTimeServer"
+            },
+            "measured": {
+                "width": 184,
+                "height": 104
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 184,
+            "height": 104
+        },
+        {
+            "id": "0.4491580850840713",
+            "type": "artifact-node",
+            "position": {
+                "x": 1028.6188934407317,
+                "y": -3376.268969493844
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Mail Server",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:MailServer"
+            },
+            "measured": {
+                "width": 177,
+                "height": 95
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 177,
+            "height": 95
+        },
+        {
+            "id": "0.4596140359379218",
+            "type": "artifact-node",
+            "position": {
+                "x": -89.16656893635262,
+                "y": -2585.7442064857173
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Local HMI LAN",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:LocalAreaNetwork"
+            },
+            "measured": {
+                "width": 177,
+                "height": 113
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8363705212700359",
+            "type": "artifact-node",
+            "position": {
+                "x": -121.41716681769283,
+                "y": -2777.033483946045
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Control Center / Processing LAN",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:LocalAreaNetwork"
+            },
+            "measured": {
+                "width": 234,
+                "height": 109
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 234,
+            "height": 109
+        },
+        {
+            "id": "0.3254418386645255",
+            "type": "artifact-node",
+            "position": {
+                "x": -96.77261181713948,
+                "y": -3184.709999336084
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Site LAN",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:LocalAreaNetwork"
+            },
+            "measured": {
+                "width": 180,
+                "height": 93
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 180,
+            "height": 93
+        },
+        {
+            "id": "0.9319492723407933",
+            "type": "artifact-node",
+            "position": {
+                "x": 363.75737977868414,
+                "y": -3376.9962379705394
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "ERP Server",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Server"
+            },
+            "measured": {
+                "width": 178,
+                "height": 97
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 178,
+            "height": 97
+        },
+        {
+            "id": "0.581320082948837",
+            "type": "artifact-node",
+            "position": {
+                "x": 143.0607270216173,
+                "y": -3376.1278991482995
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "CRM Server",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Server"
+            },
+            "measured": {
+                "width": 177,
+                "height": 95
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 176,
+            "height": 95
+        },
+        {
+            "id": "0.275405024019729",
+            "type": "artifact-node",
+            "position": {
+                "x": -89.82641187223672,
+                "y": -3569.790108005469
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Firewall",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Firewall"
+            },
+            "measured": {
+                "width": 177,
+                "height": 113
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.2600794462691758",
+            "type": "artifact-node",
+            "position": {
+                "x": 367.53844603590005,
+                "y": -3180.849248449173
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Warehouse Management System",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Server"
+            },
+            "measured": {
+                "width": 253,
+                "height": 94
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 253,
+            "height": 94
+        },
+        {
+            "id": "0.6944080271945806",
+            "type": "artifact-node",
+            "position": {
+                "x": -95.77244601245977,
+                "y": -3001.1501258480835
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Firewall",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Firewall"
+            },
+            "measured": {
+                "width": 177,
+                "height": 113
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.9508311211137807",
+            "type": "artifact-node",
+            "position": {
+                "x": 648.658294684805,
+                "y": -3178.896808116171
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Computerized Maintenance Management System",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Server"
+            },
+            "measured": {
+                "width": 317,
+                "height": 89
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 317,
+            "height": 89
+        },
+        {
+            "id": "0.5483393367179966",
+            "type": "artifact-node",
+            "position": {
+                "x": 132.48951480889164,
+                "y": -3566.5099308966373
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Web Server",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:WebServer"
+            },
+            "measured": {
+                "width": 177,
+                "height": 103
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 170,
+            "height": 103
+        },
+        {
+            "id": "0.0352092767724147",
+            "type": "artifact-node",
+            "position": {
+                "x": 144.88140203414696,
+                "y": -3000.2343179364357
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Physical Data Diode",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:PhysicalDataDiode"
+            },
+            "measured": {
+                "width": 177,
+                "height": 101
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.1478985638112147",
+            "type": "thing-node",
+            "position": {
+                "x": -705.376345241571,
+                "y": -3411.630184284697
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Purdue Level 5",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "Description",
+                        "This level is for corporate wide strategic planning and analytics managing OT process. Planning time frame can vary from months to years."
+                    ]
+                ],
+                "d3f_class": "Enterprise",
+                "data": {
+                    "label": "Purdue Level 5",
+                    "sequence": "0",
+                    "user_properties": [
+                        [
+                            "D",
+                            ""
+                        ]
+                    ],
+                    "d3f_class": "Untrusted Network"
+                }
+            },
+            "measured": {
+                "width": 495,
+                "height": 160
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 495,
+            "height": 160
+        },
+        {
+            "id": "0.5377617919949669",
+            "type": "thing-node",
+            "position": {
+                "x": -704.0937491321454,
+                "y": -2808.3153972750397
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Purdue Level 3",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "Description",
+                        "This level includes the outside edge of your control network. At this level, you may be aggregating several control networks together for higher level supervisory actions and trends."
+                    ]
+                ],
+                "d3f_class": "Control Operations and Management ",
+                "data": {
+                    "label": "Purdue Level 5",
+                    "sequence": "0",
+                    "user_properties": [
+                        [
+                            "D",
+                            ""
+                        ]
+                    ],
+                    "d3f_class": "Untrusted Network"
+                }
+            },
+            "measured": {
+                "width": 490,
+                "height": 179
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5078959748688546",
+            "type": "thing-node",
+            "position": {
+                "x": -703.2957506764994,
+                "y": -2613.0498166280213
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Purdue Level 2",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "Description",
+                        "This level includes the devices, interfaces, and supporting equipment that provide local view and control to the processes of a specific area."
+                    ]
+                ],
+                "d3f_class": "Supervisory Area Control ",
+                "data": {
+                    "label": "Purdue Level 5",
+                    "sequence": "0",
+                    "user_properties": [
+                        [
+                            "D",
+                            ""
+                        ]
+                    ],
+                    "d3f_class": "Untrusted Network"
+                }
+            },
+            "measured": {
+                "width": 490,
+                "height": 164
+            },
+            "selected": false,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "0.09830822087163016",
+            "type": "thing-node",
+            "position": {
+                "x": -702.6480962975859,
+                "y": -2433.2221823254763
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Purdue Level 1",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "Description",
+                        "This level includes devices that are closest to the physical process while still providing the ability to make changes or decisions. Devices at this level are able to be programmed and communicate to other parts of the network."
+                    ]
+                ],
+                "d3f_class": "Intelligent Devices [Control]",
+                "data": {
+                    "label": "Purdue Level 5",
+                    "sequence": "0",
+                    "user_properties": [
+                        [
+                            "D",
+                            ""
+                        ]
+                    ],
+                    "d3f_class": "Untrusted Network"
+                }
+            },
+            "measured": {
+                "width": 490,
+                "height": 193
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.30278703451911604",
+            "type": "thing-node",
+            "position": {
+                "x": -702.1333756248457,
+                "y": -2219.255453075271
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Purdue Level 0",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "Description",
+                        "This level includes devices that are directly interacting with the physical environment and process. These include sensors, actuators, and other similar devices. Communication is through physical connection and devices are frequently mechanical in operation. "
+                    ]
+                ],
+                "d3f_class": "Field-Level I/O [Physical Process]",
+                "data": {
+                    "label": "Purdue Level 5",
+                    "sequence": "0",
+                    "user_properties": [
+                        [
+                            "D",
+                            ""
+                        ]
+                    ],
+                    "d3f_class": "Untrusted Network"
+                }
+            },
+            "measured": {
+                "width": 490,
+                "height": 208
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.08819613352163758",
+            "type": "thing-node",
+            "position": {
+                "x": -704.7400537756046,
+                "y": -3018.4717034239384
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "<Extension>",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "Description",
+                        "This additional layer isolates the OT network from the IT network. Sometimes referred to as \"Level 3.5\" in \"extended\" versions of the Purdue Model. May contain intermediate systems and services shared between business and control networks. "
+                    ]
+                ],
+                "d3f_class": "Information Technology / Operational Technology DMZ",
+                "data": {
+                    "label": "DMZ",
+                    "sequence": "0",
+                    "user_properties": [
+                        [
+                            "D",
+                            ""
+                        ]
+                    ],
+                    "d3f_class": "Information Technology / Operational Technology"
+                }
+            },
+            "measured": {
+                "width": 490,
+                "height": 193
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5313974547620377",
+            "type": "thing-node",
+            "position": {
+                "x": -703.995711550032,
+                "y": -3592.1718347288715
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "<Extension>",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "Description",
+                        "This additional layer isolates the IT network from the Internet. May contain proxy servers and public facing applications."
+                    ]
+                ],
+                "d3f_class": "Enterprise DMZ",
+                "data": {
+                    "label": "DMZ",
+                    "sequence": "0",
+                    "user_properties": [
+                        [
+                            "D",
+                            ""
+                        ]
+                    ],
+                    "d3f_class": "Information Technology / Operational Technology"
+                }
+            },
+            "measured": {
+                "width": 496,
+                "height": 154
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 496,
+            "height": 154
+        },
+        {
+            "id": "0.2041655930870836",
+            "type": "thing-node",
+            "position": {
+                "x": -704.3517223489885,
+                "y": -3229.4171164339027
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Purdue Level 4",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "Description",
+                        "Business logistics systems for production scheduling and management at the plant-level. Incorporates production, material use, delivery, shipping, and inventory systems. Planning time frame varies from shifts to months."
+                    ]
+                ],
+                "d3f_class": "Business Planning and Logistics",
+                "data": {
+                    "label": "Purdue Level 5",
+                    "sequence": "0",
+                    "user_properties": [
+                        [
+                            "D",
+                            ""
+                        ]
+                    ],
+                    "d3f_class": "Untrusted Network"
+                }
+            },
+            "measured": {
+                "width": 491,
+                "height": 195
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 491,
+            "height": 195,
+            "zIndex": 10
+        },
+        {
+            "id": "-copy0.22788410168728868",
+            "type": "note-node",
+            "position": {
+                "x": 1.758583189485421,
+                "y": -3964.3075793090075
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Purdue Model (Simple)",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "The Purdue Enterprise Reference Architecture (PERA), or \"Purdue Model\", is a reference architecture for enterprise control.  \nIt was developed by an industry consortium led by Purdue University and outlines several hierarchical levels of control starting\nat the physical process (level 0) and rising up to the enterprise level (level 5).  Levels 0-3 represent the core operational \ntechnology domain (OT) parts of the architecture, whereas levels 4-5 are general purpose information technology (IT). The \nscope of time and space increase as the levels increase, with the nearest and most time-critical functions occurring at lower levels.\n\nSince its initial definition and standardization in ISA-95, it has been interpreted and extended many times, but the basic \nhierarchical model is useful as an organizing principle. Here we include two frequently recommended DMZ layers.\n\nIn some cases, the original level names have been updated and the Purdue Model names are in brackets.\n\n\n\n"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 704,
+                "height": 184
+            },
+            "selected": true,
+            "width": 704,
+            "height": 184,
+            "dragging": false,
+            "zIndex": 10
+        }
+    ],
+    "edges": [
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "undefined",
+                "label": "undefined",
+                "auto_created": true
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.18811336493888242",
+            "sourceHandle": "source",
+            "target": "0.18811336493888242",
+            "targetHandle": "target",
+            "id": "xy-edge-0.0305896538224798__0.18811336493888242source-0.025398286071286136target",
+            "selected": false
+        }
+    ]
+}

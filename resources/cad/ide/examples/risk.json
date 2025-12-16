@@ -1,0 +1,2 @@
+{   "name": "risk analysis",
+    "script": "function getRandomInt(min, max) {\n    min = Math.ceil(min);\n    max = Math.floor(max);\n    return Math.floor(Math.random() * (max - min + 1)) + min;\n}\n\nfor (let node of temp_nodes){\n\n   if (node.type == 'attack-node'){\n      node.data.user_properties = [\n          ['d3f:risk-impact', getRandomInt(1,5)],\n          ['d3f:risk-likelihood', getRandomInt(1,5)],\n      ]\n      console.log(node.data.label)\n   }\n}"}

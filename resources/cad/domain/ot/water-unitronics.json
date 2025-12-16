@@ -1,0 +1,937 @@
+{
+    "meta": {
+        "title": "2023 Malicious Exploitation of Unitronics PLC's ",
+        "authors": [
+            "Emma Holt"
+        ],
+        "orgs": [
+            "The MITRE Corporation"
+        ],
+        "description": "A model of the 2023 exploitation of PLCs used in Water and Wastewater Systems.",
+        "article": "In November & December of 2023, IRGC affiliated threat actors the CyberAv3ngers gained access to Unitronics PLC's in water and wastewater systems across the US. Unitronics Vision Series PLC's at the time came with a default password searchable via the user manual. The malicious actors gained access using these valid credentials to PLC's openly connected using the commonly used TCP port 20256 to the public internet.",
+        "d3fend_version": "1.2.0",
+        "cad_schema_version": 0,
+        "published_date": "2025-01-10T16:14:22.991Z",
+        "references": [
+            "https://www.cisa.gov/news-events/alerts/2023/11/28/exploitation-unitronics-plcs-used-water-and-wastewater-systems"
+        ],
+        "settings": {},
+        "cad_data_version": 1
+    },
+    "nodes": [
+        {
+            "id": "6-copy0.5886764125981018",
+            "type": "artifact-node",
+            "position": {
+                "x": -1026.3574538358246,
+                "y": -570.9303043568253
+            },
+            "data": {
+                "label": "Unitronics Vision Series PLC",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "comment",
+                        "Israeli-made Unitronics Vision Series programmable logic controllers (PLCs)"
+                    ]
+                ],
+                "d3f_class": "d3f:OTController",
+                "d3f_class_label": "OT Controller"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 138
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 448,
+            "height": 138
+        },
+        {
+            "id": "0.9537100995341854",
+            "type": "agent-node",
+            "position": {
+                "x": -2311.8988814436393,
+                "y": -926.3656972850004
+            },
+            "data": {
+                "label": "Internet Based Attacker",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:InternetBasedAttacker"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 221,
+                "height": 82
+            },
+            "selected": false,
+            "width": 221,
+            "height": 82,
+            "dragging": false
+        },
+        {
+            "id": "0.4084614497339575",
+            "type": "artifact-node",
+            "position": {
+                "x": -1385.3876248174222,
+                "y": -763.2341023584651
+            },
+            "data": {
+                "label": "Credential",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Credential",
+                "d3f_class_label": "Credential"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.9855342982545295",
+            "type": "artifact-node",
+            "position": {
+                "x": -1134.4880192860212,
+                "y": -755.0276798721477
+            },
+            "data": {
+                "label": "Default User Account",
+                "sequence": "0",
+                "d3f_class": "d3f:DefaultUserAccount",
+                "user_properties": [],
+                "d3f_class_label": "Default User Account"
+            },
+            "measured": {
+                "width": 170,
+                "height": 117
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.40650362627317105",
+            "type": "attack-node",
+            "position": {
+                "x": -1538.9015729263922,
+                "y": -929.4675552937838
+            },
+            "data": {
+                "label": "Default Credentials - ATTACK ICS",
+                "sequence": "1",
+                "d3f_class": "d3f:T0812",
+                "user_properties": [],
+                "d3f_class_label": "Default Credentials"
+            },
+            "measured": {
+                "width": 226,
+                "height": 114
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "selected": false,
+            "dragging": false,
+            "width": 226,
+            "height": 114
+        },
+        {
+            "id": "0.7825454923347829",
+            "type": "artifact-node",
+            "position": {
+                "x": -904.2551124125482,
+                "y": -749.5385860015084
+            },
+            "data": {
+                "label": "OT Human Machine Interface",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OTHumanMachineInterface",
+                "d3f_class_label": "Graphical User Interface"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 230,
+                "height": 103
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 230,
+            "height": 103
+        },
+        {
+            "id": "0.192845757230931",
+            "type": "attack-node",
+            "position": {
+                "x": -1071.4536912793437,
+                "y": -932.4947501075042
+            },
+            "data": {
+                "label": "Modify Graphical User Interface",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1061",
+                "d3f_class_label": "Modify Graphical User Interface"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 215,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 215,
+            "height": 117
+        },
+        {
+            "id": "0.8749927731144768",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -1535.7472280353836,
+                "y": -235.13899551805105
+            },
+            "data": {
+                "label": "Logical Link Mapping",
+                "sequence": "0",
+                "d3f_class": "d3f:LogicalLinkMapping",
+                "user_properties": [],
+                "d3f_class_label": "Logical Link Mapping"
+            },
+            "measured": {
+                "width": 169,
+                "height": 128
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "selected": false,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "0.6755856246277552",
+            "type": "artifact-node",
+            "position": {
+                "x": -1746.2772817603368,
+                "y": -564.7434421212603
+            },
+            "data": {
+                "label": "Firewall",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Firewall",
+                "d3f_class_label": "Firewall"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.2007297748557304",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -1730.5585223758042,
+                "y": -157.73588732852795
+            },
+            "data": {
+                "label": "Physical Link Mapping",
+                "sequence": "0",
+                "d3f_class": "d3f:PhysicalLinkMapping",
+                "user_properties": [],
+                "d3f_class_label": "Physical Link Mapping"
+            },
+            "measured": {
+                "width": 175,
+                "height": 128
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "selected": false,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "0.6145728682980451",
+            "type": "artifact-node",
+            "position": {
+                "x": -1496.5399134066538,
+                "y": -563.7443483857564
+            },
+            "data": {
+                "label": "Intranet Network",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:IntranetNetwork",
+                "d3f_class_label": "Intranet Network"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.39516866065691836",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -855.2963184492388,
+                "y": -369.1395798837501
+            },
+            "data": {
+                "label": "Update Firmware",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:SoftwareUpdate",
+                "d3f_class_label": "Update Firmware"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 166,
+                "height": 142
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 166,
+            "height": 142,
+            "zIndex": 10
+        },
+        {
+            "id": "0.3171334039703656",
+            "type": "note-node",
+            "position": {
+                "x": -2656.6506742126167,
+                "y": -807.6513555369604
+            },
+            "data": {
+                "label": "Summary",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "In November & December of 2023, IRGC affiliated threat actors the CyberAv3ngers \ngained access to Unitronics PLC's in water and wastewater systems across the US.\n\nThe Unitronics Vision Series PLC's came with a built in HMI screen, once accessed\nthe malicious actors displayed threatening messages on the screens.\n\n\nUnitronics Vision Series PLC's at the time came with the default password \"1111\"\nwhich was also searchable through the user manual.\n\nThe malicious actors gained access using these valid credentials to PLC's openly\nconnected using the commonly used TCP port 20256 to the public internet.\n"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 466,
+                "height": 229
+            },
+            "selected": false,
+            "width": 466,
+            "height": 229,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "0.5780008198656925",
+            "type": "artifact-node",
+            "position": {
+                "x": -2187.211979567712,
+                "y": -554.3011196763597
+            },
+            "data": {
+                "label": "Inbound Internet Network Traffic",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": "Inbound Internet Network Traffic",
+                "d3f_class": "d3f:InboundInternetNetworkTraffic"
+            },
+            "measured": {
+                "width": 264,
+                "height": 90
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 264,
+            "height": 90
+        },
+        {
+            "id": "0.16914122111896013",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -2182.510542112611,
+                "y": -355.4220913790048
+            },
+            "data": {
+                "label": "Inbound Traffic Filtering",
+                "sequence": "0",
+                "d3f_class": "d3f:InboundTrafficFiltering",
+                "user_properties": [],
+                "d3f_class_label": "Inbound Traffic Filtering"
+            },
+            "measured": {
+                "width": 180,
+                "height": 128
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.14513792185353713",
+            "type": "attack-node",
+            "position": {
+                "x": -621.2609439503217,
+                "y": -796.9726353429511
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Denial of Service - ATTACK ICS",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T0814"
+            },
+            "measured": {
+                "width": 219,
+                "height": 119
+            },
+            "zIndex": 10,
+            "selected": false,
+            "dragging": false,
+            "width": 219,
+            "height": 119
+        },
+        {
+            "id": "0.37743039298227",
+            "type": "attack-node",
+            "position": {
+                "x": -2098.052002751141,
+                "y": -828.0080642824939
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Internet Accessible Device - ATTACK ICS",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T0883"
+            },
+            "measured": {
+                "width": 218,
+                "height": 121
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 218,
+            "height": 121
+        },
+        {
+            "id": "0.8538417646860983",
+            "type": "attack-node",
+            "position": {
+                "x": -667.9706666189295,
+                "y": -923.0445662504194
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Loss of Availability - ATTACK ICS",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T0826"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "zIndex": 10,
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6468203354623692",
+            "type": "attack-node",
+            "position": {
+                "x": -928.9148314208092,
+                "y": -1119.8776260727177
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Loss of Productivity and Revenue - ATTACK ICS",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T0828"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "zIndex": 10,
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6147792287957258",
+            "type": "attack-node",
+            "position": {
+                "x": -756.6040701943904,
+                "y": -1046.7831354960545
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Loss of View - ATTACK ICS",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T0829"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "zIndex": 10,
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6780212302939491",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -1969.7080004124512,
+                "y": -303.91576724970076
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Directional Network Link",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:DirectionalNetworkLink"
+            },
+            "measured": {
+                "width": 183,
+                "height": 128
+            },
+            "zIndex": 10,
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.3845912364353623",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -1247.1077042469483,
+                "y": -365.1328419294849
+            },
+            "data": {
+                "label": "Change Default Password",
+                "sequence": "0",
+                "d3f_class": "d3f:ChangeDefaultPassword",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 191,
+                "height": 128
+            },
+            "zIndex": 10
+        }
+    ],
+    "edges": [
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "authenticates",
+                "d3f_property": "d3f:authenticates",
+                "d3f_class_label": "authenticates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.4084614497339575",
+            "sourceHandle": "source",
+            "target": "0.9855342982545295",
+            "targetHandle": "target",
+            "id": "xy-edge__0.4084614497339575source-0.9855342982545295target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "uses",
+                "d3f_property": "d3f:uses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.40650362627317105",
+            "sourceHandle": "source",
+            "target": "0.4084614497339575",
+            "targetHandle": "target",
+            "id": "xy-edge__0.40650362627317105source-0.4084614497339575target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:authenticates",
+                "label": "authenticates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9855342982545295",
+            "sourceHandle": "source",
+            "target": "6-copy0.5886764125981018",
+            "targetHandle": "target",
+            "id": "xy-edge__0.9855342982545295source-6-copy0.5886764125981018target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "contains",
+                "d3f_property": "d3f:contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "6-copy0.5886764125981018",
+            "sourceHandle": "source",
+            "target": "0.7825454923347829",
+            "targetHandle": "target",
+            "id": "xy-edge__6-copy0.5886764125981018source-0.7825454923347829target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:modifies",
+                "label": "modifies"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.192845757230931",
+            "sourceHandle": "source",
+            "target": "0.7825454923347829",
+            "targetHandle": "target",
+            "id": "xy-edge__0.192845757230931source-0.7825454923347829target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "inventories",
+                "d3f_property": "d3f:inventories",
+                "d3f_class_label": "inventories"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.2007297748557304",
+            "sourceHandle": "source",
+            "target": "0.6755856246277552",
+            "targetHandle": "target",
+            "id": "xy-edge__0.2007297748557304source-0.6755856246277552target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "connects",
+                "d3f_property": "d3f:connects"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6145728682980451",
+            "sourceHandle": "source",
+            "target": "0.6755856246277552",
+            "targetHandle": "target",
+            "id": "xy-edge__0.6145728682980451source-0.6755856246277552target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "connects",
+                "d3f_property": "d3f:connects"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "6-copy0.5886764125981018",
+            "sourceHandle": "source",
+            "target": "0.6145728682980451",
+            "targetHandle": "target",
+            "id": "xy-edge__6-copy0.5886764125981018source-0.6145728682980451target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "updates",
+                "d3f_property": "d3f:updates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.39516866065691836",
+            "sourceHandle": "source",
+            "target": "6-copy0.5886764125981018",
+            "targetHandle": "target",
+            "id": "xy-edge__0.39516866065691836source-6-copy0.5886764125981018target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "inventories",
+                "d3f_property": "d3f:inventories",
+                "d3f_class_label": "inventories"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8749927731144768",
+            "sourceHandle": "source",
+            "target": "0.6755856246277552",
+            "targetHandle": "target",
+            "id": "xy-edge__0.8749927731144768source-0.6755856246277552target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "connects",
+                "d3f_property": "d3f:connects",
+                "d3f_class_label": "connects"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5780008198656925",
+            "sourceHandle": "source",
+            "target": "0.6755856246277552",
+            "targetHandle": "target",
+            "id": "xy-edge__0.5780008198656925source-0.6755856246277552target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "filters",
+                "d3f_property": "d3f:filters",
+                "d3f_class_label": "filters"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "markerStart": "arrowclosed",
+            "source": "0.16914122111896013",
+            "sourceHandle": "source",
+            "target": "0.5780008198656925",
+            "targetHandle": "target",
+            "id": "xy-edge__0.16914122111896013source-0.5780008198656925target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:precedes",
+                "label": "precedes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.192845757230931",
+            "sourceHandle": "source",
+            "target": "0.14513792185353713",
+            "targetHandle": "target",
+            "id": "xy-edge-0.2344043854038319__0.192845757230931source-0.14513792185353713target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:precedes",
+                "label": "precedes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.37743039298227",
+            "sourceHandle": "source",
+            "target": "0.40650362627317105",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9460769578138137__0.37743039298227source-0.40650362627317105target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:precedes",
+                "label": "precedes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.40650362627317105",
+            "sourceHandle": "source",
+            "target": "0.192845757230931",
+            "targetHandle": "target",
+            "id": "xy-edge-0.04142837817840117__0.40650362627317105source-0.192845757230931target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:precedes",
+                "label": "precedes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.192845757230931",
+            "sourceHandle": "source",
+            "target": "0.8538417646860983",
+            "targetHandle": "target",
+            "id": "xy-edge-0.32813873742193456__0.192845757230931source-0.8538417646860983target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:precedes",
+                "label": "precedes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.192845757230931",
+            "sourceHandle": "source",
+            "target": "0.6147792287957258",
+            "targetHandle": "target",
+            "id": "xy-edge-0.2661127351700825__0.192845757230931source-0.6147792287957258target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:precedes",
+                "label": "precedes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.192845757230931",
+            "sourceHandle": "source",
+            "target": "0.6468203354623692",
+            "targetHandle": "target",
+            "id": "xy-edge-0.1874894350531564__0.192845757230931source-0.6468203354623692target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:filters",
+                "label": "filters"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6780212302939491",
+            "sourceHandle": "source",
+            "target": "0.6755856246277552",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6675011871993062__0.6780212302939491source-0.6755856246277552target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:accesses",
+                "label": "accesses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.37743039298227",
+            "sourceHandle": "source",
+            "target": "6-copy0.5886764125981018",
+            "targetHandle": "target",
+            "id": "xy-edge-0.051818857030993315__0.37743039298227source-6-copy0.5886764125981018target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "agent-in",
+                "label": "agent-in"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9537100995341854",
+            "sourceHandle": "source",
+            "target": "0.37743039298227",
+            "targetHandle": "target",
+            "id": "xy-edge-0.15521938200145535__0.9537100995341854source-0.37743039298227target",
+            "selected": true
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:hardens",
+                "label": "hardens"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3845912364353623",
+            "sourceHandle": "source",
+            "target": "6-copy0.5886764125981018",
+            "targetHandle": "target",
+            "id": "xy-edge-0.02673087461097945__0.3845912364353623source-6-copy0.5886764125981018target",
+            "selected": false
+        }
+    ]
+}

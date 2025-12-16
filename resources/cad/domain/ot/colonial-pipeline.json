@@ -1,0 +1,1765 @@
+{
+    "meta": {
+        "title": "Colonial Pipeline Attack",
+        "authors": [
+            "Emma Holt"
+        ],
+        "orgs": [
+            "The MITRE Corporation"
+        ],
+        "description": "A model of the 2021 ransomware attack on the Colonial Pipeline Company (CPC)",
+        "article": "Malicious cyber actors acquired gained access to Colonial Pipeline's IT network and once in the system the MCAs deployed DarkSide ransomware and locked down the corporate IT system. On may 7th 2021 the Colonial Pipeline Company (CPC) learned they were victims of a ransomware cyber attack. In response CPC proactively took certain systems offline halting pipeline activity.",
+        "d3fend_version": "1.2.0",
+        "cad_schema_version": 0,
+        "published_date": "2025-01-08T21:15:02.923Z",
+        "references": [
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-131a",
+            "https://www.colpipe.com/news/press-releases/media-statement-colonial-pipeline-system-disruption",
+            "https://www.gao.gov/blog/colonial-pipeline-cyberattack-highlights-need-better-federal-and-private-sector-preparedness-infographic"
+        ],
+        "settings": {},
+        "cad_data_version": 1
+    },
+    "nodes": [
+        {
+            "id": "0.9040423561991142",
+            "type": "attack-node",
+            "position": {
+                "x": -1991.5523882844814,
+                "y": -4613.384384536595
+            },
+            "data": {
+                "label": "External Remote Services",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1133",
+                "d3f_class_label": "External Remote Services"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 210,
+                "height": 107
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 210,
+            "height": 107
+        },
+        {
+            "id": "0.39505519354093166",
+            "type": "attack-node",
+            "position": {
+                "x": -1164.4824887488821,
+                "y": -4612.515962178099
+            },
+            "data": {
+                "label": "Data Encrypted for Impact",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1486",
+                "d3f_class_label": "Data Encrypted for Impact"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 229,
+                "height": 107
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 229,
+            "height": 107
+        },
+        {
+            "id": "0.7988050018338918",
+            "type": "attack-node",
+            "position": {
+                "x": -2254.3929391530346,
+                "y": -4618.153118213449
+            },
+            "data": {
+                "label": "Multi-hop Proxy",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1090",
+                "d3f_class_label": "Multi-hop Proxy"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 176,
+                "height": 108
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.9516510933936051",
+            "type": "artifact-node",
+            "position": {
+                "x": -2629.813652624463,
+                "y": -4103.8592687664695
+            },
+            "data": {
+                "label": "User Account",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:UserAccount",
+                "d3f_class_label": "User Account"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.1948295648634747",
+            "type": "attack-node",
+            "position": {
+                "x": -2523.4534594219717,
+                "y": -4622.124102632713
+            },
+            "data": {
+                "label": "User Password Compromise",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1078",
+                "d3f_class_label": "Valid Accounts",
+                "data": {
+                    "label": "User Password Compromise",
+                    "sequence": "0",
+                    "user_properties": [],
+                    "d3f_class": "d3f:T1078",
+                    "d3f_class_label": "Valid Accounts",
+                    "data": {
+                        "label": "User Password Compromise",
+                        "sequence": "0",
+                        "user_properties": [
+                            [
+                                "d3f:risk-likelihood",
+                                "4"
+                            ]
+                        ],
+                        "d3f_class": "d3f:T1078",
+                        "d3f_class_label": "Valid Accounts"
+                    }
+                }
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 241,
+                "height": 132
+            },
+            "selected": false,
+            "dragging": false,
+            "zIndex": 10,
+            "width": 241,
+            "height": 132
+        },
+        {
+            "id": "0.9876456337150709",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -2751.2116395886615,
+                "y": -3854.783318211277
+            },
+            "data": {
+                "label": "Multi-factor Authentication",
+                "sequence": "0",
+                "d3f_class": "d3f:Multi-factorAuthentication",
+                "user_properties": [],
+                "d3f_class_label": "Multi-factor Authentication"
+            },
+            "measured": {
+                "width": 194,
+                "height": 121
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "selected": false,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "0.209383019093357",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -2558.8243320545203,
+                "y": -3762.859586536196
+            },
+            "data": {
+                "label": "Account Locking",
+                "sequence": "0",
+                "d3f_class": "d3f:AccountLocking",
+                "user_properties": [],
+                "d3f_class_label": "Account Locking"
+            },
+            "measured": {
+                "width": 176,
+                "height": 121
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5094563823244651",
+            "type": "artifact-node",
+            "position": {
+                "x": -1957.598364071864,
+                "y": -4102.720125406763
+            },
+            "data": {
+                "label": "IT Network",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Network",
+                "d3f_class_label": "IT Network"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.14335716839394552",
+            "type": "artifact-node",
+            "position": {
+                "x": -2234.6175154634957,
+                "y": -4100.959929640409
+            },
+            "data": {
+                "label": "VPN",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:VPNServer",
+                "d3f_class_label": "VPN"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7523504021924062",
+            "type": "artifact-node",
+            "position": {
+                "x": -1009.9638557882604,
+                "y": -4104.41423640249
+            },
+            "data": {
+                "label": "OT Network",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OTNetwork",
+                "d3f_class_label": "OT Network"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7710303279513804",
+            "type": "artifact-node",
+            "position": {
+                "x": -2889.715038475314,
+                "y": -4095.2913343917253
+            },
+            "data": {
+                "label": "Credential",
+                "sequence": "0",
+                "d3f_class": "d3f:Credential",
+                "user_properties": [],
+                "d3f_class_label": "Credential"
+            },
+            "measured": {
+                "width": 176,
+                "height": 106
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "selected": false,
+            "dragging": false,
+            "width": 158,
+            "height": 106
+        },
+        {
+            "id": "0.8813009457572031",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -2223.113138545521,
+                "y": -3805.1924454187206
+            },
+            "data": {
+                "label": "Network Node Inventory",
+                "sequence": "0",
+                "d3f_class": "d3f:NetworkNodeInventory",
+                "user_properties": [],
+                "d3f_class_label": "Network Node Inventory"
+            },
+            "measured": {
+                "width": 182,
+                "height": 121
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.2120769573167678",
+            "type": "artifact-node",
+            "position": {
+                "x": -1649.74724751487,
+                "y": -4260.919663745673
+            },
+            "data": {
+                "label": "Client Computer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:ClientComputer",
+                "d3f_class_label": "Client Computer"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7869411718156432",
+            "type": "artifact-node",
+            "position": {
+                "x": -1542.4757309850213,
+                "y": -4445.8742536014715
+            },
+            "data": {
+                "label": "Executable File",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:ExecutableFile",
+                "d3f_class_label": "Executable File"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.236280242006908",
+            "type": "attack-node",
+            "position": {
+                "x": -1457.8506575374054,
+                "y": -4618.26682574857
+            },
+            "data": {
+                "label": "Malicious File",
+                "sequence": "0",
+                "d3f_class": "d3f:T1204.002",
+                "user_properties": [],
+                "d3f_class_label": "Malicious File",
+                "data": {
+                    "label": "Malicious File",
+                    "sequence": "0",
+                    "d3f_class": "d3f:T1204.002",
+                    "user_properties": [],
+                    "d3f_class_label": "Malicious File",
+                    "data": {
+                        "label": "Malicious File",
+                        "sequence": "0",
+                        "d3f_class": "d3f:T1204.002",
+                        "user_properties": [
+                            [
+                                "d3f:risk-likelihood",
+                                "3"
+                            ]
+                        ],
+                        "d3f_class_label": "Malicious File"
+                    }
+                }
+            },
+            "measured": {
+                "width": 180,
+                "height": 105
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "selected": false,
+            "dragging": false,
+            "width": 180,
+            "height": 105
+        },
+        {
+            "id": "0.546179278682514",
+            "type": "agent-node",
+            "position": {
+                "x": -3243.774822435309,
+                "y": -4609.428103059724
+            },
+            "data": {
+                "label": "Malicious Cyber Actor",
+                "sequence": "0",
+                "user_properties": []
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 176,
+                "height": 97
+            },
+            "selected": false,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "0.45095151035943726",
+            "type": "note-node",
+            "position": {
+                "x": -935.6594824764868,
+                "y": -4575.326790812473
+            },
+            "data": {
+                "label": "Pipeline Shutdown ",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "On may 7th 2021 the Colonial Pipeline Company (CPC) \nlearned they were victims of a ransomware cyber attack.\n\nIn response CPC \"proactively took certain systems offline\"\nhalting pipeline activity.\n\n"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 321,
+                "height": 145
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 312,
+            "height": 145
+        },
+        {
+            "id": "0.5856610394212666",
+            "type": "attack-node",
+            "position": {
+                "x": -3068.929924871822,
+                "y": -4616.2071662744365
+            },
+            "data": {
+                "label": "Gather Victim Identity Information:Credentials",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": "Gather Victim Identity Information",
+                "d3f_class": "d3f:T1589"
+            },
+            "measured": {
+                "width": 335,
+                "height": 114
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 335,
+            "height": 114
+        },
+        {
+            "id": "0.055661913098443594",
+            "type": "note-node",
+            "position": {
+                "x": -792.3056336755817,
+                "y": -4457.643918999452
+            },
+            "data": {
+                "label": "Activity During Shutdown",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "While the mainlines remained down CPC operated\nsome lateral lines.\n\nDuring this they learned that there was not enough\nwritten documentation of manual or low tech operating\nprocedures and were reliant on older employees\nwho had operated prior to heavy automation for\nsection operation.\n"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 300,
+                "height": 158
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.1739115285623688",
+            "type": "note-node",
+            "position": {
+                "x": -3377.5861806743633,
+                "y": -4474.0760141846495
+            },
+            "data": {
+                "label": "Initial Access",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Malicious cyber actors acquired employee user credentials \nfor a VPN service externally.The employee had used the\n\ncredentials for an external service from where they are\nsuspected to have gotten.\n\nThe MCAs then gained access to the IT network through\nthe VPN service, which was thought to be out of service\nand not properly monitored.\n\n\n\nOnce in the system the MCAs deployed DarkSide ransomware\nand locked down the corporate IT system.\n"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 345,
+                "height": 210
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 321,
+            "height": 210,
+            "zIndex": 10
+        },
+        {
+            "id": "0.601359170494683",
+            "type": "note-node",
+            "position": {
+                "x": -476.1247514882195,
+                "y": -4649.262738589374
+            },
+            "data": {
+                "label": "Pipeline Restart",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "CPS paid the ransom and eventually were able\n\nto initiate restart on may11th, fully restarting\n\noperations on may 12th.\n\n\n\nDespite paying for the key CPC stated that it\ndid not fully undo what had been done and they\ncontinued to work on their systems and reevaluate\n\nsome policies.\n\n\nCPC cooperated with the authorities during this\n\nincident aside from when they went out of contact\nin advance of paying the ransom against FBI\n\nrecommendation.\n"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 279,
+                "height": 321
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.17531406169946395",
+            "type": "attack-node",
+            "position": {
+                "x": -1815.8830498235568,
+                "y": -4618.373832487326
+            },
+            "data": {
+                "label": "Remote Desktop Protocol",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": "Remote Desktop Protocol",
+                "d3f_class": "d3f:T1076"
+            },
+            "measured": {
+                "width": 188,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 188,
+            "height": 117
+        },
+        {
+            "id": "0.003405035676624868",
+            "type": "artifact-node",
+            "position": {
+                "x": -734.0973112979865,
+                "y": -4108.459966408611
+            },
+            "data": {
+                "label": "OT Controller",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": "OT Controller",
+                "d3f_class": "d3f:OTController"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.39314758805415684",
+            "type": "artifact-node",
+            "position": {
+                "x": -737.4995327970687,
+                "y": -4254.21500974373
+            },
+            "data": {
+                "label": "Operations Center Computer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": "Operations Center Computer",
+                "d3f_class": "d3f:OperationsCenterComputer"
+            },
+            "measured": {
+                "width": 204,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.09336171647148872",
+            "type": "artifact-node",
+            "position": {
+                "x": -414.8977829103268,
+                "y": -4098.385325684127
+            },
+            "data": {
+                "label": "OT Sensor",
+                "sequence": "0",
+                "d3f_class": "d3f:OTSensor",
+                "user_properties": [],
+                "d3f_class_label": "OT Sensor"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.4721990413299503",
+            "type": "artifact-node",
+            "position": {
+                "x": -415.1515362906119,
+                "y": -4262.33955249832
+            },
+            "data": {
+                "label": "OT Actuator",
+                "sequence": "0",
+                "d3f_class": "d3f:OTActuator",
+                "user_properties": [],
+                "d3f_class_label": "OT Actuator"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.29606403815714977",
+            "type": "event-node",
+            "position": {
+                "x": -1080.4301029038734,
+                "y": -4326.449144800672
+            },
+            "data": {
+                "label": "Managment Shuts Down OT Network ",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "Managment Shuts Down OT Network "
+            },
+            "measured": {
+                "width": 252,
+                "height": 104
+            },
+            "selected": false,
+            "width": 252,
+            "height": 104,
+            "dragging": false
+        },
+        {
+            "id": "0.7753711733062997",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -1299.419857670079,
+                "y": -4284.9103356767055
+            },
+            "data": {
+                "label": "Executable Allowlisting",
+                "sequence": "0",
+                "d3f_class": "d3f:ExecutableAllowlisting",
+                "user_properties": []
+            },
+            "measured": {
+                "width": 180,
+                "height": 121
+            },
+            "selected": false,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "0.30010607401447664",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -2509.8798558911776,
+                "y": -3924.2660806668955
+            },
+            "data": {
+                "label": "Network Node Inventory",
+                "sequence": "0",
+                "d3f_class": "d3f:NetworkNodeInventory",
+                "user_properties": []
+            },
+            "measured": {
+                "width": 182,
+                "height": 121
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5017706016798443",
+            "type": "artifact-node",
+            "position": {
+                "x": -1503.3156154332814,
+                "y": -4260.513532129697
+            },
+            "data": {
+                "label": "Process",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Process"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.40027622918795625",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -1594.2771656688674,
+                "y": -4015.9025350297543
+            },
+            "data": {
+                "label": "Kernel-based Process Isolation",
+                "sequence": "0",
+                "d3f_class": "d3f:Kernel-basedProcessIsolation",
+                "user_properties": [
+                    [
+                        "comment",
+                        "Some EDR and EPPs\nrun untrusted execs in a local \nsandbox preventing full filesystem\naccess. "
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 423,
+                "height": 183
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.9973213435648643",
+            "type": "note-node",
+            "position": {
+                "x": -1691.0084679636236,
+                "y": -3778.7260406844243
+            },
+            "data": {
+                "label": "Improvements",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Key additional countermeasures"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 238,
+                "height": 85
+            },
+            "zIndex": 10,
+            "selected": false,
+            "dragging": false,
+            "width": 238,
+            "height": 85
+        },
+        {
+            "id": "0.3146395740655382",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -3249.116723858075,
+                "y": -4029.645155036236
+            },
+            "data": {
+                "label": "Change Default Password",
+                "sequence": "0",
+                "d3f_class": "d3f:ChangeDefaultPassword",
+                "user_properties": []
+            },
+            "measured": {
+                "width": 191,
+                "height": 121
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.43020776454953813",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -3038.733012698264,
+                "y": -3917.5290141991995
+            },
+            "data": {
+                "label": "Password Rotation",
+                "sequence": "0",
+                "d3f_class": "d3f:PasswordRotation",
+                "user_properties": []
+            },
+            "measured": {
+                "width": 176,
+                "height": 121
+            },
+            "selected": false,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "0.8928485744223281",
+            "type": "note-node",
+            "position": {
+                "x": -3410.1073267006705,
+                "y": -3849.2301453325913
+            },
+            "data": {
+                "label": "Improvements",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Additional Countermeasures"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 205,
+                "height": 71
+            },
+            "selected": false,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "0.7929612903544426",
+            "type": "artifact-node",
+            "position": {
+                "x": -1980.5727791943068,
+                "y": -4445.929556582987
+            },
+            "data": {
+                "label": "Administrative Network Traffic",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:AdministrativeNetworkTraffic"
+            },
+            "measured": {
+                "width": 208,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.9288234179400698",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -2051.5872188255653,
+                "y": -4283.858656419786
+            },
+            "data": {
+                "label": "Administrative Network Activity Analysis",
+                "sequence": "0",
+                "d3f_class": "d3f:AdministrativeNetworkActivityAnalysis",
+                "user_properties": []
+            },
+            "measured": {
+                "width": 249,
+                "height": 121
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.2859589026457129",
+            "type": "attack-node",
+            "position": {
+                "x": -834.0772509028341,
+                "y": -4752.761265592319
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Loss of Availability - ATTACK ICS",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T0826"
+            },
+            "measured": {
+                "width": 176,
+                "height": 108
+            },
+            "zIndex": 10,
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7163670666053513",
+            "type": "attack-node",
+            "position": {
+                "x": -645.6794651484311,
+                "y": -4694.812468802595
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Loss of Productivity and Revenue - ATTACK ICS",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T0828"
+            },
+            "measured": {
+                "width": 176,
+                "height": 108
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5178255401698788",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -1095.9569464766355,
+                "y": -3910.377806334812
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "IO Port Restriction",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:IOPortRestriction"
+            },
+            "measured": {
+                "width": 176,
+                "height": 121
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.1516481331298123",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -904.3816423190482,
+                "y": -3941.353077859892
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Directional Network Link",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:DirectionalNetworkLink"
+            },
+            "measured": {
+                "width": 183,
+                "height": 121
+            },
+            "selected": false,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:has-participant",
+                "label": "has-participant"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1948295648634747",
+            "sourceHandle": "source",
+            "target": "0.9516510933936051",
+            "targetHandle": "target",
+            "id": "xy-edge__0.1948295648634747source-0.9516510933936051target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "authenticates",
+                "d3f_property": "d3f:authenticates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9876456337150709",
+            "sourceHandle": "source",
+            "target": "0.9516510933936051",
+            "targetHandle": "target",
+            "id": "xy-edge__0.9876456337150709source-0.9516510933936051target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "disables",
+                "d3f_property": "d3f:disables"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.209383019093357",
+            "sourceHandle": "source",
+            "target": "0.9516510933936051",
+            "targetHandle": "target",
+            "id": "xy-edge__0.209383019093357source-0.9516510933936051target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "authenticates",
+                "d3f_property": "d3f:authenticates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9516510933936051",
+            "sourceHandle": "source",
+            "target": "0.14335716839394552",
+            "targetHandle": "target",
+            "id": "xy-edge__0.9516510933936051source-0.14335716839394552target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:connects",
+                "label": "connects"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7523504021924062",
+            "sourceHandle": "source",
+            "target": "0.5094563823244651",
+            "targetHandle": "target",
+            "id": "xy-edge__0.7523504021924062source-0.5094563823244651target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "accesses",
+                "d3f_property": "d3f:accesses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.14335716839394552",
+            "sourceHandle": "source",
+            "target": "0.5094563823244651",
+            "targetHandle": "target",
+            "id": "xy-edge__0.14335716839394552source-0.5094563823244651target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "authenticates",
+                "d3f_property": "d3f:authenticates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7710303279513804",
+            "sourceHandle": "source",
+            "target": "0.9516510933936051",
+            "targetHandle": "target",
+            "id": "xy-edge__0.7710303279513804source-0.9516510933936051target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "has-participant",
+                "d3f_property": "d3f:has-participant"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9040423561991142",
+            "sourceHandle": "source",
+            "target": "0.14335716839394552",
+            "targetHandle": "target",
+            "id": "xy-edge__0.9040423561991142source-0.14335716839394552target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "inventories",
+                "d3f_property": "d3f:inventories"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8813009457572031",
+            "sourceHandle": "source",
+            "target": "0.14335716839394552",
+            "targetHandle": "target",
+            "id": "xy-edge__0.8813009457572031source-0.14335716839394552target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "installs",
+                "d3f_property": "d3f:installs"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.236280242006908",
+            "sourceHandle": "source",
+            "target": "0.7869411718156432",
+            "targetHandle": "target",
+            "id": "xy-edge__0.236280242006908source-0.7869411718156432target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "connects",
+                "d3f_property": "d3f:connects"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.2120769573167678",
+            "sourceHandle": "source",
+            "target": "0.5094563823244651",
+            "targetHandle": "target",
+            "id": "xy-edge__0.2120769573167678source-0.5094563823244651target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "accesses",
+                "d3f_property": "d3f:accesses",
+                "d3f_class_label": "accesses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5856610394212666",
+            "sourceHandle": "source",
+            "target": "0.7710303279513804",
+            "targetHandle": "target",
+            "id": "xy-edge__0.5856610394212666source-0.7710303279513804target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "monitors",
+                "d3f_property": "d3f:monitors"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "markerStart": "arrowclosed",
+            "source": "0.003405035676624868",
+            "sourceHandle": "source",
+            "target": "0.09336171647148872",
+            "targetHandle": "target",
+            "id": "xy-edge__0.003405035676624868source-0.09336171647148872target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "controls",
+                "d3f_property": "d3f:controls"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "markerStart": "arrowclosed",
+            "source": "0.003405035676624868",
+            "sourceHandle": "source",
+            "target": "0.4721990413299503",
+            "targetHandle": "target",
+            "id": "xy-edge__0.003405035676624868source-0.4721990413299503target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "connects",
+                "d3f_property": "d3f:connects",
+                "d3f_class_label": "connects"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.003405035676624868",
+            "sourceHandle": "source",
+            "target": "0.7523504021924062",
+            "targetHandle": "target",
+            "id": "xy-edge__0.003405035676624868source-0.7523504021924062target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "connects",
+                "d3f_property": "d3f:connects",
+                "d3f_class_label": "connects"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.39314758805415684",
+            "sourceHandle": "source",
+            "target": "0.7523504021924062",
+            "targetHandle": "target",
+            "id": "xy-edge__0.39314758805415684source-0.7523504021924062target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "precedes",
+                "d3f_property": "d3f:precedes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5856610394212666",
+            "sourceHandle": "source",
+            "target": "0.1948295648634747",
+            "targetHandle": "target",
+            "id": "xy-edge__0.5856610394212666source-0.1948295648634747target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "precedes",
+                "d3f_property": "d3f:precedes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9040423561991142",
+            "sourceHandle": "source",
+            "target": "0.17531406169946395",
+            "targetHandle": "target",
+            "id": "xy-edge__0.9040423561991142source-0.17531406169946395target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "precedes",
+                "d3f_property": "d3f:precedes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1948295648634747",
+            "sourceHandle": "source",
+            "target": "0.7988050018338918",
+            "targetHandle": "target",
+            "id": "xy-edge__0.1948295648634747source-0.7988050018338918target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "precedes",
+                "d3f_property": "d3f:precedes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7988050018338918",
+            "sourceHandle": "source",
+            "target": "0.9040423561991142",
+            "targetHandle": "target",
+            "id": "xy-edge__0.7988050018338918source-0.9040423561991142target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "agent-in",
+                "d3f_property": "agent-in"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.546179278682514",
+            "sourceHandle": "source",
+            "target": "0.5856610394212666",
+            "targetHandle": "target",
+            "id": "xy-edge__0.546179278682514source-0.5856610394212666target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "precedes",
+                "d3f_property": "d3f:precedes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.17531406169946395",
+            "sourceHandle": "source",
+            "target": "0.236280242006908",
+            "targetHandle": "target",
+            "id": "xy-edge__0.17531406169946395source-0.236280242006908target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "encrypts",
+                "d3f_property": "d3f:encrypts"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.39505519354093166",
+            "sourceHandle": "source",
+            "target": "0.2120769573167678",
+            "targetHandle": "target",
+            "id": "xy-edge__0.39505519354093166source-0.2120769573167678target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:precedes",
+                "label": "precedes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.39505519354093166",
+            "sourceHandle": "source",
+            "target": "0.29606403815714977",
+            "targetHandle": "target",
+            "id": "xy-edge__0.39505519354093166source-0.29606403815714977target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "has-participant",
+                "d3f_property": "d3f:has-participant"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.29606403815714977",
+            "sourceHandle": "source",
+            "target": "0.7523504021924062",
+            "targetHandle": "target",
+            "id": "xy-edge__0.29606403815714977source-0.7523504021924062target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:blocks",
+                "label": "blocks"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "markerStart": "arrowclosed",
+            "source": "0.7753711733062997",
+            "sourceHandle": "source",
+            "target": "0.7869411718156432",
+            "targetHandle": "target",
+            "id": "xy-edge__0.7753711733062997source-0.7869411718156432target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:inventories",
+                "label": "inventories"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "markerStart": "arrowclosed",
+            "source": "0.30010607401447664",
+            "sourceHandle": "source",
+            "target": "0.14335716839394552",
+            "targetHandle": "target",
+            "id": "xy-edge__0.30010607401447664source-0.14335716839394552target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:process-image-path",
+                "label": "process-image-path"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5017706016798443",
+            "sourceHandle": "source",
+            "target": "0.7869411718156432",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5107598292852991__0.5017706016798443source-0.7869411718156432target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:runs",
+                "label": "runs"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.2120769573167678",
+            "sourceHandle": "source",
+            "target": "0.5017706016798443",
+            "targetHandle": "target",
+            "id": "xy-edge-0.881436543013708__0.2120769573167678source-0.5017706016798443target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:isolates",
+                "label": "isolates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.40027622918795625",
+            "sourceHandle": "source",
+            "target": "0.5017706016798443",
+            "targetHandle": "target",
+            "id": "xy-edge-0.07663030701068718__0.40027622918795625source-0.5017706016798443target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "note",
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9973213435648643",
+            "sourceHandle": "source",
+            "target": "0.40027622918795625",
+            "targetHandle": "target",
+            "id": "xy-edge-0.3111389971142601__0.9973213435648643source-0.40027622918795625target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:strengthens",
+                "label": "strengthens"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3146395740655382",
+            "sourceHandle": "source",
+            "target": "0.7710303279513804",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9461446821906937__0.3146395740655382source-0.7710303279513804target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:regenerates",
+                "label": "regenerates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.43020776454953813",
+            "sourceHandle": "source",
+            "target": "0.7710303279513804",
+            "targetHandle": "target",
+            "id": "xy-edge-0.621799654435375__0.43020776454953813source-0.7710303279513804target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "note",
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8928485744223281",
+            "sourceHandle": "source",
+            "target": "0.3146395740655382",
+            "targetHandle": "target",
+            "id": "xy-edge-0.017846420809600083__0.8928485744223281source-0.3146395740655382target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "note",
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8928485744223281",
+            "sourceHandle": "source",
+            "target": "0.43020776454953813",
+            "targetHandle": "target",
+            "id": "xy-edge-0.43773474827381265__0.8928485744223281source-0.43020776454953813target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:produces",
+                "label": "produces"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.17531406169946395",
+            "sourceHandle": "source",
+            "target": "0.7929612903544426",
+            "targetHandle": "target",
+            "id": "xy-edge-0.056739759022463976__0.17531406169946395source-0.7929612903544426target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:analyzes",
+                "label": "analyzes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9288234179400698",
+            "sourceHandle": "source",
+            "target": "0.7929612903544426",
+            "targetHandle": "target",
+            "id": "xy-edge-0.18971475507500746__0.9288234179400698source-0.7929612903544426target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "note",
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9973213435648643",
+            "sourceHandle": "source",
+            "target": "0.9288234179400698",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5868120129327794__0.9973213435648643source-0.7929612903544426target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:accesses",
+                "label": "accesses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.17531406169946395",
+            "sourceHandle": "source",
+            "target": "0.2120769573167678",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9531856738540837__0.17531406169946395source-0.2120769573167678target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:precedes",
+                "label": "precedes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.236280242006908",
+            "sourceHandle": "source",
+            "target": "0.39505519354093166",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8814007229029274__0.236280242006908source-0.39505519354093166target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "note",
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.45095151035943726",
+            "sourceHandle": "source",
+            "target": "0.29606403815714977",
+            "targetHandle": "target",
+            "id": "xy-edge-0.443905594383719__0.45095151035943726source-0.29606403815714977target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:precedes",
+                "label": "precedes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.39505519354093166",
+            "sourceHandle": "source",
+            "target": "0.2859589026457129",
+            "targetHandle": "target",
+            "id": "xy-edge-0.1073049358256638__0.39505519354093166source-0.2859589026457129target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:precedes",
+                "label": "precedes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.39505519354093166",
+            "sourceHandle": "source",
+            "target": "0.7163670666053513",
+            "targetHandle": "target",
+            "id": "xy-edge-0.1073049358256638__0.39505519354093166source-0.7163670666053513target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:hardens",
+                "label": "hardens"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5178255401698788",
+            "sourceHandle": "source",
+            "target": "0.7523504021924062",
+            "targetHandle": "target",
+            "id": "xy-edge-0.0776171821870606__0.5178255401698788source-0.7523504021924062target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:isolates",
+                "label": "isolates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1516481331298123",
+            "sourceHandle": "source",
+            "target": "0.7523504021924062",
+            "targetHandle": "target",
+            "id": "xy-edge-0.0776171821870606__0.1516481331298123source-0.7523504021924062target",
+            "selected": false
+        }
+    ]
+}

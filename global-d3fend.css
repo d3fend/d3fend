@@ -9,6 +9,7 @@
   --dark-background-color: #333;
   --warning: #c37474;
   --item-hover: rgb(202, 201, 207);
+  --attack-node: #ffc3c7;
 }
 
 
@@ -441,6 +442,9 @@ code {
 
 .glow {
   text-shadow: 2px 2px 10px #3bf730;
+}
+.glow-red {
+  text-shadow: 2px 2px 10px red;
 }
 
 .glow:hover {

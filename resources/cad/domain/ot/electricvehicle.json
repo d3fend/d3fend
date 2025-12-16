@@ -1,0 +1,2430 @@
+{
+    "meta": {
+        "title": "Electric Vehicle Regenerative Breaking System Model",
+        "authors": [
+            "Emma Holt",
+            "Malaya Moon",
+            "Markevious Tolbert"
+        ],
+        "orgs": [
+            "The MITRE Corporation"
+        ],
+        "description": "High level overview of a model Y Tesla regenerative breaking system.",
+        "article": "",
+        "d3fend_version": "0.17.0",
+        "cad_schema_version": 0,
+        "published_date": "2024-10-15T17:08:15.282Z",
+        "references": [
+            "https://medium.com/@chaincom/understanding-can-bus-vulnerabilities-and-how-blockchain-can-amplify-security-a58388bf1fb4",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC7219335",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC10575265/#sec3-sensors-23-08223",
+            "https://vicone.com/files/use_case_protecting-a-telematics-control-unit-from-remote-attacks.pdf ",
+            "https://www.tesla.com/ownersmanual/modely/en_us/GUID-F617DA3E-11C1-4FBA-98A7-A9C3828E3536.html"
+        ],
+        "settings": {},
+        "cad_data_version": 1
+    },
+    "nodes": [
+        {
+            "id": "0.29250936296383634",
+            "type": "artifact-node",
+            "position": {
+                "x": -4285.3016061899925,
+                "y": 1887.7871446751365
+            },
+            "data": {
+                "label": "Electric Vehicle Braking System",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:System",
+                "d3f_class_label": "Electric Vehicle Braking System"
+            },
+            "measured": {
+                "width": 217,
+                "height": 99
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 217,
+            "height": 99
+        },
+        {
+            "id": "0.3911644187862563",
+            "type": "artifact-node",
+            "position": {
+                "x": -3320.0053880743812,
+                "y": 1993.0305306141527
+            },
+            "data": {
+                "label": "Electronic Control Unit",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OTController",
+                "d3f_class_label": "Electronic Control Unit"
+            },
+            "measured": {
+                "width": 161,
+                "height": 120
+            },
+            "selected": false,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "0.3200521320722364",
+            "type": "artifact-node",
+            "position": {
+                "x": -3839.732676355569,
+                "y": 2070.282205511922
+            },
+            "data": {
+                "label": "Regenerative Braking System",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:System",
+                "d3f_class_label": "Regenerative Braking System"
+            },
+            "measured": {
+                "width": 220,
+                "height": 105
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 220,
+            "height": 105
+        },
+        {
+            "id": "0.9033519497763046",
+            "type": "artifact-node",
+            "position": {
+                "x": -2877.8666105654393,
+                "y": 1833.1628798565969
+            },
+            "data": {
+                "label": "Battery Pack",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OTPowerSupply",
+                "d3f_class_label": "Battery Pack"
+            },
+            "measured": {
+                "width": 161,
+                "height": 120
+            },
+            "selected": false,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "0.9530533368170849",
+            "type": "artifact-node",
+            "position": {
+                "x": -3373.647527043131,
+                "y": 2155.580048791117
+            },
+            "data": {
+                "label": "Brake Pedal Sensor",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OTSensor",
+                "d3f_class_label": "Brake Pedal Sensor"
+            },
+            "measured": {
+                "width": 161,
+                "height": 120
+            },
+            "selected": false,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "0.14984051569038104",
+            "type": "artifact-node",
+            "position": {
+                "x": -2673.680224121335,
+                "y": 1986.1214737188068
+            },
+            "data": {
+                "label": "Battery Management System",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":BatteryManagementSystem",
+                "d3f_class": "d3f:System"
+            },
+            "measured": {
+                "width": 192,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 192,
+            "height": 102,
+            "zIndex": 10
+        },
+        {
+            "id": "0.12546238807261156",
+            "type": "artifact-node",
+            "position": {
+                "x": -3116.8007670061193,
+                "y": 1720.3391602562908
+            },
+            "data": {
+                "label": "Motor Control System",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":MotorControl",
+                "d3f_class": "d3f:OTActuator"
+            },
+            "measured": {
+                "width": 161,
+                "height": 120
+            },
+            "selected": false,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "-copy0.45784725017830086",
+            "type": "artifact-node",
+            "position": {
+                "x": -3420.133402452204,
+                "y": 1781.9076708438154
+            },
+            "data": {
+                "label": "Brake Actuators",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OTActuator",
+                "d3f_class_label": "Brake Actuators"
+            },
+            "measured": {
+                "width": 161,
+                "height": 95
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 10,
+            "height": 95,
+            "zIndex": 10
+        },
+        {
+            "id": "0.9031305412328421",
+            "type": "attack-node",
+            "position": {
+                "x": -5556.48782503834,
+                "y": 1434.28984715093
+            },
+            "data": {
+                "label": "Rogue Wi-Fi Access Point",
+                "sequence": "#1",
+                "user_properties": [
+                    [
+                        "Explanation",
+                        "An adversary could set up unauthorized Wi-Fi access points or compromise existing access points and, if the device connects to them, carry out network-based attacks such as eavesdropping on or modifying network communication."
+                    ],
+                    [
+                        "Automotive Threat Matrix ",
+                        "https://atm.automotiveisac.com/technique/ATM-TA0001/ATM-T0009"
+                    ]
+                ],
+                "d3f_class_label": "Exploitation of Remote Services",
+                "d3f_class": "d3f:T1638"
+            },
+            "measured": {
+                "width": 537,
+                "height": 208
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 537,
+            "height": 208,
+            "zIndex": 10
+        },
+        {
+            "id": "-copy0.21326833517519672",
+            "type": "artifact-node",
+            "position": {
+                "x": -3812.7655790963445,
+                "y": 1838.3295237318482
+            },
+            "data": {
+                "label": "Control Area Network Bus",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:BusNetwork",
+                "d3f_class_label": ":ControlAreaNetworkBus"
+            },
+            "measured": {
+                "width": 261,
+                "height": 100
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 261,
+            "height": 100
+        },
+        {
+            "id": "0.7406532076134535",
+            "type": "attack-node",
+            "position": {
+                "x": -2954.0460902023647,
+                "y": 697.3960534873947
+            },
+            "data": {
+                "label": "Unintended Vehicle Network Message",
+                "sequence": "#2",
+                "user_properties": [
+                    [
+                        "Explanation",
+                        "The adversary may try to send unintended messages on the in-vehicle network. "
+                    ],
+                    [
+                        "Automotive Threat Matrix",
+                        "https://atm.automotiveisac.com/technique/ATM-TA0013/ATM-T0071"
+                    ]
+                ],
+                "d3f_class_label": "Message Spoofing",
+                "d3f_class": "d3f:T0849"
+            },
+            "measured": {
+                "width": 530,
+                "height": 167
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 493,
+            "height": 167,
+            "zIndex": 10
+        },
+        {
+            "id": "0.6454775412057336",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -4758.8832737612465,
+                "y": 1450.3822832290148
+            },
+            "data": {
+                "label": "Software Update",
+                "sequence": "#0",
+                "user_properties": [],
+                "d3f_class_label": "Software Update",
+                "d3f_class": "d3f:SoftwareUpdate"
+            },
+            "measured": {
+                "width": 169,
+                "height": 103
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 169,
+            "height": 103
+        },
+        {
+            "id": "0.07391409009586081",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -4048.539343236946,
+                "y": 1418.088496745471
+            },
+            "data": {
+                "label": "Application Configuration Hardening",
+                "sequence": "#0",
+                "user_properties": [],
+                "d3f_class_label": "Application Configuration Hardening",
+                "d3f_class": "d3f:ApplicationConfigurationHardening"
+            },
+            "measured": {
+                "width": 237,
+                "height": 109
+            },
+            "selected": false,
+            "width": 222,
+            "height": 109,
+            "dragging": false
+        },
+        {
+            "id": "0.6513990614871756",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -3478.946288994655,
+                "y": 1614.5235316518
+            },
+            "data": {
+                "label": "Message Authentication",
+                "sequence": "#0",
+                "user_properties": [],
+                "d3f_class_label": "Message Authentication",
+                "d3f_class": "d3f:MessageAuthentication"
+            },
+            "measured": {
+                "width": 187,
+                "height": 129
+            },
+            "selected": false,
+            "width": 186,
+            "height": 129,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "0.6204476854000327",
+            "type": "note-node",
+            "position": {
+                "x": -9883.562597180187,
+                "y": 1149.454871520466
+            },
+            "data": {
+                "label": "Initial Access",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "A Malicious Cyber Actor (MCA) exploits vulnerabilities in the software \nof EV Systems that are not updated. \n\n\nThe MCA could also access the CAN BUS physically by connecting to \nthe OBD-II port or accessing the wiring harness.\n\n\nAfter they get access to the system, they impair the defenses of the EV \nto avoid being noticed by the car user \n\n\nThe MCA then send messages to the ECU from the CAN BUS allowing \nthe attacker to turn on or off critical systems in the EV. \n\n"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 404,
+                "height": 226
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 404,
+            "height": 226
+        },
+        {
+            "id": "0.361911753278084",
+            "type": "condition-node",
+            "position": {
+                "x": -2802.1140459507055,
+                "y": 1551.337951701414
+            },
+            "data": {
+                "label": "Control over various Systems in EV",
+                "sequence": "0",
+                "user_properties": []
+            },
+            "measured": {
+                "width": 258,
+                "height": 77
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 258,
+            "height": 77,
+            "zIndex": 10
+        },
+        {
+            "id": "0.8397910388201522",
+            "type": "attack-node",
+            "position": {
+                "x": -3443.927015281495,
+                "y": 931.776453470357
+            },
+            "data": {
+                "label": "Exploit Aftermarket, Customer, or Dealer Equipment via OBD-II port",
+                "sequence": "#1",
+                "user_properties": [
+                    [
+                        "Explanation",
+                        "Adversaries may take use aftermarket, customer, or dealer equipment as an initial OBD-II accessories, such as insurance dongles and fleet management dongles, may introduce a wireless ingress points to the vehicle through its OBD-II port."
+                    ],
+                    [
+                        "Automotive Threat Matrix ",
+                        "https://atm.automotiveisac.com/technique/ATM-TA0002/ATM-T0010"
+                    ]
+                ],
+                "d3f_class_label": "Physical Attack",
+                "d3f_class": "d3f:T0879"
+            },
+            "measured": {
+                "width": 537,
+                "height": 200
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 491,
+            "height": 200,
+            "zIndex": 10
+        },
+        {
+            "id": "0.6666834988202524",
+            "type": "attack-node",
+            "position": {
+                "x": -4074.93333789122,
+                "y": 2546.0809720357884
+            },
+            "data": {
+                "label": "Physical Modification via Wiring Harness",
+                "sequence": "#1",
+                "user_properties": [
+                    [
+                        "Explanation",
+                        "The adversary can make physical modifications to the vehicle’s ECUs, wiring harnesses, and can replace ECUs."
+                    ],
+                    [
+                        "Automotive Threat Matrix",
+                        "https://atm.automotiveisac.com/technique/ATM-TA0002/ATM-T0016"
+                    ]
+                ],
+                "d3f_class_label": "Physical Attack",
+                "d3f_class": "d3f:T0879"
+            },
+            "measured": {
+                "width": 567,
+                "height": 168
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 567,
+            "height": 168,
+            "zIndex": 10
+        },
+        {
+            "id": "0.7883626680992106",
+            "type": "attack-node",
+            "position": {
+                "x": -5032.01066162865,
+                "y": 949.8907810803623
+            },
+            "data": {
+                "label": "Exploit via Removable Media",
+                "sequence": "#1",
+                "user_properties": [
+                    [
+                        "Explanation",
+                        "Adversaries may gain initial access to an automotive environment by copying malware to removable media and taking advantage of Autorun features or automatic parsing of file (e.g., MP3s) when the device is inserted into a system and executes."
+                    ],
+                    [
+                        "Automotive Threat Matrix",
+                        "https://atm.automotiveisac.com/technique/ATM-TA0002/ATM-T0013"
+                    ]
+                ],
+                "d3f_class_label": "Physical Attack",
+                "d3f_class": "d3f:T1091"
+            },
+            "measured": {
+                "width": 554,
+                "height": 203
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 554,
+            "height": 203
+        },
+        {
+            "id": "0.935467451659802",
+            "type": "agent-node",
+            "position": {
+                "x": -2900.539262101775,
+                "y": 391.80011883953705
+            },
+            "data": {
+                "label": "Malicious Cyber Actor",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "Physical Attack",
+                        "Attacker has physical access to the EV "
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 437,
+                "height": 138
+            },
+            "selected": true,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "0.13172239788972018",
+            "type": "agent-node",
+            "position": {
+                "x": -3650.0288686245835,
+                "y": 548.2690609698159
+            },
+            "data": {
+                "label": "Malicious Cyber Actor",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "Cyber Attack",
+                        "Attacker gets access remotely"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 371,
+                "height": 97
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 366,
+            "height": 97,
+            "zIndex": 10
+        },
+        {
+            "id": "0.7632923934902052",
+            "type": "artifact-node",
+            "position": {
+                "x": -4073.524791084912,
+                "y": 2128.2410402510595
+            },
+            "data": {
+                "label": "Wiring Harness",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:ComputerEnclosure"
+            },
+            "measured": {
+                "width": 171,
+                "height": 120
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7398530475152683",
+            "type": "event-node",
+            "position": {
+                "x": -2961.542194955808,
+                "y": 574.507288834057
+            },
+            "data": {
+                "label": "Physical Attacker chooses to attack via USB port, OBD-II port, or by accessing wiring harness\n\n",
+                "sequence": "0",
+                "user_properties": []
+            },
+            "measured": {
+                "width": 594,
+                "height": 83
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 594,
+            "height": 83,
+            "zIndex": 10
+        },
+        {
+            "id": "0.04967619561394265",
+            "type": "attack-node",
+            "position": {
+                "x": -4713.832102683604,
+                "y": 680.7655185019667
+            },
+            "data": {
+                "label": "Manipulate Communications via V2X Spoofing",
+                "sequence": "#2",
+                "user_properties": [
+                    [
+                        "Explanation",
+                        "If network traffic between the vehicle and a remote server or mobile device is not securely protected, then an attacker positioned on the network may be able to manipulate network communication without being detected."
+                    ],
+                    [
+                        "Automotive Threat Matrix ",
+                        "https://atm.automotiveisac.com/technique/ATM-TA0001/ATM-T0003"
+                    ]
+                ],
+                "d3f_class": "d3f:T1638"
+            },
+            "measured": {
+                "width": 537,
+                "height": 201
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 498,
+            "height": 201
+        },
+        {
+            "id": "0.13417669623233963",
+            "type": "artifact-node",
+            "position": {
+                "x": -5034.955264317403,
+                "y": 1699.659651070444
+            },
+            "data": {
+                "label": "EV Wifi Unit",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:EmbeddedComputer"
+            },
+            "measured": {
+                "width": 175,
+                "height": 120
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "-copy0.41541573516809494",
+            "type": "attack-node",
+            "position": {
+                "x": -4658.15016467766,
+                "y": 2627.701254812561
+            },
+            "data": {
+                "label": "Exploit via Radio Interface",
+                "sequence": "#1",
+                "user_properties": [
+                    [
+                        "Explanation",
+                        "The vehicle may be targeted for exploitation through its interface to cellular networks or other radio interfaces."
+                    ],
+                    [
+                        "Automotive Threat Matrix ",
+                        "https://atm.automotiveisac.com/technique/ATM-TA0002/ATM-T0012"
+                    ]
+                ],
+                "d3f_class_label": "Exploitation of Remote Services",
+                "d3f_class": "d3f:T1477"
+            },
+            "measured": {
+                "width": 537,
+                "height": 165
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 529,
+            "height": 165,
+            "zIndex": 10
+        },
+        {
+            "id": "9-copy0.5123504522259745",
+            "type": "artifact-node",
+            "position": {
+                "x": -4224.4290972487,
+                "y": 1605.8595089773555
+            },
+            "data": {
+                "label": "Media Control Unit",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": "Media Control Unit",
+                "d3f_class": "d3f:EmbeddedComputer"
+            },
+            "measured": {
+                "width": 175,
+                "height": 120
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6716152259710007",
+            "type": "artifact-node",
+            "position": {
+                "x": -3882.7382447590935,
+                "y": 2248.1465805453195
+            },
+            "data": {
+                "label": "Tire Pressure Sensor",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OTSensor"
+            },
+            "measured": {
+                "width": 161,
+                "height": 120
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.1954403613438176",
+            "type": "artifact-node",
+            "position": {
+                "x": -4364.654948706444,
+                "y": 2293.3713413987584
+            },
+            "data": {
+                "label": "Telematic Control Unit",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:EmbeddedComputer"
+            },
+            "measured": {
+                "width": 175,
+                "height": 120
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.33922529179584937",
+            "type": "artifact-node",
+            "position": {
+                "x": -4860.454931048864,
+                "y": 2134.5052651288433
+            },
+            "data": {
+                "label": "Dealer Application",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:ClientApplication"
+            },
+            "measured": {
+                "width": 161,
+                "height": 120
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.23655297472490677",
+            "type": "note-node",
+            "position": {
+                "x": -9898.037278633103,
+                "y": 2032.7819706472874
+            },
+            "data": {
+                "label": "Attack on Telematic Control Unit",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "A MCA establishes connection to EV through cellular network. \n\n\nThe MCA then exploits zero-day vulnerabilities in the TCU by sending \ncrafted telematic messages. \n\nThe MCA then obtains root privileges to the TCU. \n\n\nAfter the TCU has been compromised the Attacker can now take control \nof the EV remotely and send messages to the ECU from the CAN Bus \naffecting the control of Electric Control Unit in the EV. "
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 399,
+                "height": 204
+            },
+            "selected": false,
+            "width": 398,
+            "height": 204,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "1-copy0.8603627012310211",
+            "type": "attack-node",
+            "position": {
+                "x": -3727.3941194559934,
+                "y": 700.4246356139718
+            },
+            "data": {
+                "label": "Exploitation via Remote Services",
+                "sequence": "#1",
+                "user_properties": [
+                    [
+                        "Explanation",
+                        "Adversaries may attempt to log into a service specifically designed to accept remote connections. The adversary may then perform actions as the logged-on user."
+                    ],
+                    [
+                        "Automotive Threat Matrix ",
+                        "https://atm.automotiveisac.com/technique/ATM-TA0009/ATM-T0053"
+                    ]
+                ],
+                "d3f_class_label": "Exploitation of Remote Services",
+                "d3f_class": "d3f:T1021"
+            },
+            "measured": {
+                "width": 537,
+                "height": 179
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 530,
+            "height": 179,
+            "zIndex": 10
+        },
+        {
+            "id": "0.1437038704220922",
+            "type": "attack-node",
+            "position": {
+                "x": -5212.380771449849,
+                "y": 1187.6180822109852
+            },
+            "data": {
+                "label": "Browser Compromise",
+                "sequence": "#1",
+                "user_properties": [
+                    [
+                        "Explanation",
+                        "A browser compromise is when an adversary gains access to a system through a user visiting a website over the normal course of browsing. With this technique, the user's web browser is targeted for exploitation."
+                    ],
+                    [
+                        "Automotive Threat Matrix",
+                        "https://atm.automotiveisac.com/technique/ATM-TA0002/ATM-T0011"
+                    ]
+                ],
+                "d3f_class": "d3f:T1189"
+            },
+            "measured": {
+                "width": 530,
+                "height": 242
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8198620144444049",
+            "type": "attack-node",
+            "position": {
+                "x": -3348.4960548377057,
+                "y": 1388.4018607493117
+            },
+            "data": {
+                "label": "ECU Credential Dumping",
+                "sequence": "#1",
+                "user_properties": [
+                    [
+                        "Explanation",
+                        "Adversaries may attempt to dump credentials to obtain account login and credential material, normally in the form of a hash or a clear text password, from the operating system and software."
+                    ],
+                    [
+                        "Automotive Threat Matrix ",
+                        "https://atm.automotiveisac.com/technique/ATM-TA0007/ATM-T0039"
+                    ]
+                ],
+                "d3f_class": "d3f:T1003"
+            },
+            "measured": {
+                "width": 537,
+                "height": 207
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 506,
+            "height": 207,
+            "zIndex": 10
+        },
+        {
+            "id": "0.8568915646297394",
+            "type": "artifact-node",
+            "position": {
+                "x": -3714.570495951107,
+                "y": 1617.2728195869665
+            },
+            "data": {
+                "label": "OBD-II Port",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:IOModule"
+            },
+            "measured": {
+                "width": 161,
+                "height": 120
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.34037720301591146",
+            "type": "vulnerability-node",
+            "position": {
+                "x": -5568.481521736095,
+                "y": 1880.3998851013928
+            },
+            "data": {
+                "label": "CVE-2024-11666",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "Explanation",
+                        "Affects eCharge cloud infrastructure and allows remote unauthenticated users to execute arbitrary commands. "
+                    ],
+                    [
+                        "Reference",
+                        "https://nvd.nist.gov/vuln/detail/CVE-2024-11666"
+                    ]
+                ],
+                "d3f_class": "d3f:CWE-345"
+            },
+            "measured": {
+                "width": 500,
+                "height": 155
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 490,
+            "height": 155
+        },
+        {
+            "id": "-copy0.08869592290416894",
+            "type": "vulnerability-node",
+            "position": {
+                "x": -3656.6662809726413,
+                "y": 2321.8679114204415
+            },
+            "data": {
+                "label": "CVE-2024-37310",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "Explanation",
+                        "Vulnerability in the EVerest open-source EV charging firmware stack could allow attackers to gain access to the CAN bus and compromise critical vehicle components. "
+                    ],
+                    [
+                        "Reference ",
+                        "https://nvd.nist.gov/vuln/detail/CVE-2024-37310"
+                    ]
+                ],
+                "d3f_class": "d3f:CWE-122"
+            },
+            "measured": {
+                "width": 500,
+                "height": 170
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 492,
+            "height": 170,
+            "zIndex": 10
+        },
+        {
+            "id": "0.1380760912749459",
+            "type": "vulnerability-node",
+            "position": {
+                "x": -5007.489472245069,
+                "y": 2388.584597025679
+            },
+            "data": {
+                "label": "CVE-2018-9311 and CVE-2018-9318",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "Explanation",
+                        "TCUs in BMW vehicles allowed for potential remote attack via cellular network. "
+                    ],
+                    [
+                        "Reference",
+                        "https://www.cve.org/CVERecord?id=CVE-2018-9311"
+                    ],
+                    [
+                        "Reference",
+                        "https://www.cve.org/CVERecord?id=CVE-2018-9318"
+                    ]
+                ],
+                "d3f_class": "d3f:CWE-693"
+            },
+            "measured": {
+                "width": 500,
+                "height": 202
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8474464097778707",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -4669.92516341412,
+                "y": 2226.2617849538265
+            },
+            "data": {
+                "label": "Network Traffic Filtering ",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:NetworkTrafficFiltering"
+            },
+            "measured": {
+                "width": 182,
+                "height": 132
+            },
+            "selected": false,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "0.17207633030061686",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -4933.637886792927,
+                "y": 1511.2364307132618
+            },
+            "data": {
+                "label": "IO Port Restriction",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:IOPortRestriction"
+            },
+            "measured": {
+                "width": 161,
+                "height": 132
+            },
+            "selected": false,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "0.4780250245000993",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -3977.185526379116,
+                "y": 1581.1270060743352
+            },
+            "data": {
+                "label": "Remote Terminal Session Detection",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:RemoteTerminalSessionDetection"
+            },
+            "measured": {
+                "width": 233,
+                "height": 97
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 200,
+            "height": 97,
+            "zIndex": 10
+        },
+        {
+            "id": "0.7211758737270249",
+            "type": "vulnerability-node",
+            "position": {
+                "x": -4330.311115813382,
+                "y": 906.3409879859754
+            },
+            "data": {
+                "label": "CVE-2023-34733",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "Explanation",
+                        "A lack of exception handling in the Volkswagen Discover Media Infotainment System Software Version 0876 allows attackers to cause a Denial of Service (DoS) via supplying crafted media files when connecting a device to the vehicle's USB plug and play feature."
+                    ],
+                    [
+                        "Reference",
+                        "https://nvd.nist.gov/vuln/detail/CVE-2023-34733"
+                    ]
+                ],
+                "d3f_class": "d3f:CWE-754"
+            },
+            "measured": {
+                "width": 500,
+                "height": 207
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 491,
+            "height": 207
+        },
+        {
+            "id": "0.4151059274766771",
+            "type": "vulnerability-node",
+            "position": {
+                "x": -2223.893206333459,
+                "y": 1764.8612047383554
+            },
+            "data": {
+                "label": "CVE-2022-0878",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "Explanation",
+                        "A vulnerability in the Combined Charging System (CCS), a communication protocol used by EVs and EVSE, can allow for unauthorized control of the charging process and compromise the integrity of the charging session. "
+                    ],
+                    [
+                        "Reference",
+                        "https://nvd.nist.gov/vuln/detail/CVE-2022-0878"
+                    ]
+                ],
+                "d3f_class": "d3f:CWE-306"
+            },
+            "measured": {
+                "width": 500,
+                "height": 197
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 466,
+            "height": 197,
+            "zIndex": 10
+        },
+        {
+            "id": "0.8213185857095181",
+            "type": "vulnerability-node",
+            "position": {
+                "x": -2465.537140477959,
+                "y": 1504.3046658941537
+            },
+            "data": {
+                "label": "CVE-2024-25994 and CVE-2024-25995",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "Explanation",
+                        "An unauthenticated remote attacker can modify configurations to perform a remote code execution, gain root rights or perform an DoS due to improper input validation."
+                    ],
+                    [
+                        "Reference",
+                        "https://nvd.nist.gov/vuln/detail/cve-2024-25994"
+                    ],
+                    [
+                        "Reference",
+                        "https://nvd.nist.gov/vuln/detail/cve-2024-25995"
+                    ]
+                ],
+                "d3f_class": "d3f:CWE-20"
+            },
+            "measured": {
+                "width": 500,
+                "height": 234
+            },
+            "selected": false,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "0.4771584435847497",
+            "type": "vulnerability-node",
+            "position": {
+                "x": -4091.765773384763,
+                "y": 1130.654279277111
+            },
+            "data": {
+                "label": "CVE-2023-28899",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "Explanation",
+                        "By sending a specific reset UDS request via OBDII port of Skoda vehicles, it is possible to cause vehicle engine shutdown and denial of service of other vehicle components even when the vehicle is moving at a high speed. No safety critical functions affected. "
+                    ],
+                    [
+                        "Reference ",
+                        "https://nvd.nist.gov/vuln/detail/CVE-2023-28899"
+                    ]
+                ],
+                "d3f_class": "d3f:CWE-770"
+            },
+            "measured": {
+                "width": 500,
+                "height": 238
+            },
+            "selected": false,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
+            "id": "0.36403953547361834",
+            "type": "vulnerability-node",
+            "position": {
+                "x": -2996.4968144395825,
+                "y": 2200.152234712542
+            },
+            "data": {
+                "label": "CVE-2024-6347",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "Explanation",
+                        "Unprotected privileged mode access through UDS session in the Blind Spot Detection Sensor ECU firmware in Nissan Altima (2022) allows attackers to trigger denial-of-service (DoS) by unauthorized access to the ECU's programming session."
+                    ],
+                    [
+                        "Reference",
+                        "https://nvd.nist.gov/vuln/detail/CVE-2024-6347"
+                    ]
+                ],
+                "d3f_class": "d3f:CWE-306"
+            },
+            "measured": {
+                "width": 500,
+                "height": 238
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.9832547772870073",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -5033.7473947621775,
+                "y": 2064.0585515720977
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Physical Locking",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:PhysicalLocking"
+            },
+            "measured": {
+                "width": 161,
+                "height": 132
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.4905204295267137",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -4370.960121314321,
+                "y": 2026.1568821823992
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Physical Enclosure Hardening",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:PhysicalEnclosureHardening"
+            },
+            "measured": {
+                "width": 211,
+                "height": 132
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.3374447194150739",
+            "type": "thing-node",
+            "position": {
+                "x": -4714.741464093201,
+                "y": 1957.800050214136
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Electric Vehical",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": ""
+            },
+            "measured": {
+                "width": 311,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.3005360572090855",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -4644.372059541911,
+                "y": 1744.114796231097
+            },
+            "data": {
+                "label": "Network Traffic Filtering ",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:NetworkTrafficFiltering"
+            },
+            "measured": {
+                "width": 182,
+                "height": 132
+            },
+            "selected": false,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "contains",
+                "d3f_property": "d3f:contains",
+                "d3f_class_label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3200521320722364",
+            "sourceHandle": "source",
+            "target": "0.9530533368170849",
+            "targetHandle": "target",
+            "id": "xy-edge__0.3200521320722364source-0.9530533368170849target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "contains",
+                "d3f_property": "d3f:contains",
+                "d3f_class_label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.29250936296383634",
+            "sourceHandle": "source",
+            "target": "0.3200521320722364",
+            "targetHandle": "target",
+            "id": "xy-edge__0.29250936296383634source-0.3200521320722364target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "controls",
+                "d3f_property": "d3f:controls",
+                "d3f_class_label": "controls"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3911644187862563",
+            "sourceHandle": "source",
+            "target": "0.12546238807261156",
+            "targetHandle": "target",
+            "id": "xy-edge__0.3911644187862563source-0.12546238807261156target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "controls",
+                "d3f_property": "d3f:controls",
+                "d3f_class_label": "controls"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3911644187862563",
+            "sourceHandle": "source",
+            "target": "0.14984051569038104",
+            "targetHandle": "target",
+            "id": "xy-edge__0.3911644187862563source-0.14984051569038104target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "contains",
+                "d3f_property": "d3f:contains",
+                "d3f_class_label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3200521320722364",
+            "sourceHandle": "source",
+            "target": "-copy0.45784725017830086",
+            "targetHandle": "target",
+            "id": "xy-edge__0.3200521320722364source--copy0.45784725017830086target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "contains",
+                "d3f_property": "d3f:contains",
+                "d3f_class_label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3200521320722364",
+            "sourceHandle": "source",
+            "target": "0.3911644187862563",
+            "targetHandle": "target",
+            "id": "xy-edge__0.3200521320722364source-0.3911644187862563target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "controls",
+                "d3f_property": "d3f:controls",
+                "d3f_class_label": "controls"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3911644187862563",
+            "sourceHandle": "source",
+            "target": "-copy0.45784725017830086",
+            "targetHandle": "target",
+            "id": "xy-edge__0.3911644187862563source--copy0.45784725017830086target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "monitors",
+                "d3f_property": "d3f:monitors",
+                "d3f_class_label": "monitors"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3911644187862563",
+            "sourceHandle": "source",
+            "target": "0.9530533368170849",
+            "targetHandle": "target",
+            "id": "xy-edge__0.3911644187862563source-0.9530533368170849target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "contains",
+                "d3f_property": "d3f:contains",
+                "d3f_class_label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.14984051569038104",
+            "sourceHandle": "source",
+            "target": "0.9033519497763046",
+            "targetHandle": "target",
+            "id": "xy-edge__0.14984051569038104source-0.9033519497763046target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "communicates-with",
+                "d3f_property": "d3f:communicates-with",
+                "d3f_class_label": "communicates-with"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "-copy0.21326833517519672",
+            "sourceHandle": "source",
+            "target": "0.3911644187862563",
+            "targetHandle": "target",
+            "id": "xy-edge__0.8445108369468396source-0.3911644187862563target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "powered-by",
+                "d3f_property": "d3f:powered-by",
+                "d3f_class_label": "powered-by"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3911644187862563",
+            "sourceHandle": "source",
+            "target": "0.9033519497763046",
+            "targetHandle": "target",
+            "id": "xy-edge__0.3911644187862563source-0.9033519497763046target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "communicates-with",
+                "d3f_property": "d3f:communicates-with",
+                "d3f_class_label": "communicates-with"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "-copy0.21326833517519672",
+            "sourceHandle": "source",
+            "target": "-copy0.45784725017830086",
+            "targetHandle": "target",
+            "id": "xy-edge__-copy0.21326833517519672source--copy0.45784725017830086target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "controls",
+                "d3f_property": "d3f:controls",
+                "d3f_class_label": "controls"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.361911753278084",
+            "sourceHandle": "source",
+            "target": "0.29250936296383634",
+            "targetHandle": "target",
+            "id": "xy-edge__0.361911753278084source-4-copy0.8080412871033451target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "controls",
+                "d3f_property": "d3f:controls",
+                "d3f_class_label": "controls"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.361911753278084",
+            "sourceHandle": "source",
+            "target": "0.14984051569038104",
+            "targetHandle": "target",
+            "id": "xy-edge__0.361911753278084source-4-copy0.7895240102839012target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "controls",
+                "d3f_property": "d3f:controls",
+                "d3f_class_label": "controls"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.361911753278084",
+            "sourceHandle": "source",
+            "target": "0.12546238807261156",
+            "targetHandle": "target",
+            "id": "xy-edge__0.361911753278084source-6-copy0.6179697865669795target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "charges",
+                "d3f_property": "charges",
+                "d3f_class_label": "charges"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.12546238807261156",
+            "sourceHandle": "source",
+            "target": "0.9033519497763046",
+            "targetHandle": "target",
+            "id": "xy-edge__0.12546238807261156source-0.9033519497763046target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "communicates-with",
+                "d3f_property": "d3f:communicates-with"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "9-copy0.5123504522259745",
+            "sourceHandle": "source",
+            "target": "-copy0.21326833517519672",
+            "targetHandle": "target",
+            "id": "xy-edge__0.4280077807491409source--copy0.21326833517519672target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "contains",
+                "d3f_property": "d3f:contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.29250936296383634",
+            "sourceHandle": "source",
+            "target": "0.7632923934902052",
+            "targetHandle": "target",
+            "id": "xy-edge__0.29250936296383634source-0.7632923934902052target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:communicates-with",
+                "label": "communicates-with"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "9-copy0.5123504522259745",
+            "sourceHandle": "source",
+            "target": "0.13417669623233963",
+            "targetHandle": "target",
+            "id": "xy-edge-0.0375321553760235__0.4280077807491409source-0.13417669623233963target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3200521320722364",
+            "sourceHandle": "source",
+            "target": "0.6716152259710007",
+            "targetHandle": "target",
+            "id": "xy-edge-0.34130126218962564__0.3200521320722364source-0.6716152259710007target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:communicates-with",
+                "label": "communicates-with"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6716152259710007",
+            "sourceHandle": "source",
+            "target": "9-copy0.5123504522259745",
+            "targetHandle": "target",
+            "id": "xy-edge-0.3648452320330495__0.6716152259710007source-9-copy0.5123504522259745target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": [
+                    "contains"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3374447194150739",
+            "sourceHandle": "source",
+            "target": "0.1954403613438176",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8802116103886859__0.8292936938233388source-0.1954403613438176target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:communicates-with",
+                "label": "communicates-with"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1954403613438176",
+            "sourceHandle": "source",
+            "target": "0.3374447194150739",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8987759291569635__0.1954403613438176source-0.8292936938233388target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3374447194150739",
+            "sourceHandle": "source",
+            "target": "0.33922529179584937",
+            "targetHandle": "target",
+            "id": "xy-edge-0.3343710795478123__0.8292936938233388source-0.33922529179584937target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.23655297472490677",
+            "sourceHandle": "source",
+            "target": "0.23655297472490677",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8964589059429613__0.23655297472490677source-0.23655297472490677target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "undefined",
+                "label": "undefined"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.23655297472490677",
+            "sourceHandle": "source",
+            "target": "0.23655297472490677",
+            "targetHandle": "target",
+            "id": "xy-edge-0.0602176813125157__0.23655297472490677source-0.23655297472490677target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:communicates-with",
+                "label": "communicates-with"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "-copy0.21326833517519672",
+            "sourceHandle": "source",
+            "target": "0.9530533368170849",
+            "targetHandle": "target",
+            "id": "xy-edge-0.647914534033874__0.8445108369468396source-0.9530533368170849target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:accesses",
+                "label": "accesses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8568915646297394",
+            "sourceHandle": "source",
+            "target": "-copy0.21326833517519672",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7894356468984205__0.8568915646297394source--copy0.21326833517519672target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:accesses",
+                "label": "accesses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7632923934902052",
+            "sourceHandle": "source",
+            "target": "-copy0.21326833517519672",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4132428659265339__0.7632923934902052source--copy0.21326833517519672target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-have-weakness",
+                "label": "may-have-weakness"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1954403613438176",
+            "sourceHandle": "source",
+            "target": "0.1380760912749459",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6994565964757955__0.1954403613438176source-0.1380760912749459target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:precedes",
+                "label": "precedes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "1-copy0.8603627012310211",
+            "sourceHandle": "source",
+            "target": "0.04967619561394265",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6366052062164804__1-copy0.8603627012310211source-0.04967619561394265target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:precedes",
+                "label": "precedes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "1-copy0.8603627012310211",
+            "sourceHandle": "source",
+            "target": "0.7406532076134535",
+            "targetHandle": "target",
+            "id": "xy-edge-0.520894985169748__1-copy0.8603627012310211source-0.7406532076134535target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:spoofs",
+                "label": "spoofs"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7406532076134535",
+            "sourceHandle": "source",
+            "target": "-copy0.21326833517519672",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7506056910032342__0.7406532076134535source--copy0.21326833517519672target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:accesses",
+                "label": "accesses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.04967619561394265",
+            "sourceHandle": "source",
+            "target": "9-copy0.5123504522259745",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7684439131372882__0.04967619561394265source-0.4280077807491409target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:accesses",
+                "label": "accesses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "1-copy0.8603627012310211",
+            "sourceHandle": "source",
+            "target": "-copy0.21326833517519672",
+            "targetHandle": "target",
+            "id": "xy-edge-0.15962817200629398__1-copy0.8603627012310211source--copy0.21326833517519672target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:accesses",
+                "label": "accesses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8397910388201522",
+            "sourceHandle": "source",
+            "target": "0.8568915646297394",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5867604586824278__0.8397910388201522source-0.8568915646297394target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:accesses",
+                "label": "accesses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7883626680992106",
+            "sourceHandle": "source",
+            "target": "9-copy0.5123504522259745",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5124431690467972__0.7883626680992106source-0.4280077807491409target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:accesses",
+                "label": "accesses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9031305412328421",
+            "sourceHandle": "source",
+            "target": "0.13417669623233963",
+            "targetHandle": "target",
+            "id": "xy-edge-0.2242292693633312__0.9031305412328421source-0.13417669623233963target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:accesses",
+                "label": "accesses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1437038704220922",
+            "sourceHandle": "source",
+            "target": "9-copy0.5123504522259745",
+            "targetHandle": "target",
+            "id": "xy-edge-0.21140283920668002__0.1437038704220922source-9-copy0.5123504522259745target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:accesses",
+                "label": [
+                    "accesses"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8198620144444049",
+            "sourceHandle": "source",
+            "target": "0.3911644187862563",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8039459896791199__0.8198620144444049source-0.3911644187862563target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:accesses",
+                "label": "accesses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "-copy0.41541573516809494",
+            "sourceHandle": "source",
+            "target": "0.6716152259710007",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6942384589510326__-copy0.41541573516809494source-0.6716152259710007target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:accesses",
+                "label": "accesses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "-copy0.41541573516809494",
+            "sourceHandle": "source",
+            "target": "0.1954403613438176",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9299244370654529__-copy0.41541573516809494source-0.1954403613438176target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:accesses",
+                "label": "accesses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6666834988202524",
+            "sourceHandle": "source",
+            "target": "0.7632923934902052",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9169070371651686__0.6666834988202524source-0.7632923934902052target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:updates",
+                "label": "updates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6454775412057336",
+            "sourceHandle": "source",
+            "target": "9-copy0.5123504522259745",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9972490053594061__0.6454775412057336source-9-copy0.5123504522259745target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-harden",
+                "label": "may-harden"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.07391409009586081",
+            "sourceHandle": "source",
+            "target": "9-copy0.5123504522259745",
+            "targetHandle": "target",
+            "id": "xy-edge-0.3029776031583318__0.07391409009586081source-9-copy0.5123504522259745target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:authenticates",
+                "label": "authenticates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6513990614871756",
+            "sourceHandle": "source",
+            "target": "-copy0.21326833517519672",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9645014126682321__0.6513990614871756source-0.8445108369468396target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-have-weakness",
+                "label": "may-have-weakness"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.34037720301591146",
+            "sourceHandle": "source",
+            "target": "0.13417669623233963",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5100828679041438__0.34037720301591146source-0.13417669623233963target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:causes",
+                "label": "causes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7406532076134535",
+            "sourceHandle": "source",
+            "target": "0.361911753278084",
+            "targetHandle": "target",
+            "id": "xy-edge-0.422214779789333__0.7406532076134535source-0.361911753278084target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "agent-in",
+                "label": "agent-in"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.13172239788972018",
+            "sourceHandle": "source",
+            "target": "1-copy0.8603627012310211",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6141094379861092__0.13172239788972018source-1-copy0.8603627012310211target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "agent-in",
+                "label": "agent-in"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.935467451659802",
+            "sourceHandle": "source",
+            "target": "0.7398530475152683",
+            "targetHandle": "target",
+            "id": "xy-edge-0.005320303369113377__0.935467451659802source-0.7398530475152683target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:precedes",
+                "label": "precedes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7398530475152683",
+            "sourceHandle": "source",
+            "target": "0.7406532076134535",
+            "targetHandle": "target",
+            "id": "xy-edge-0.10142737888513698__0.7398530475152683source-0.7406532076134535target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:filters",
+                "label": "filters"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.17207633030061686",
+            "sourceHandle": "source",
+            "target": "9-copy0.5123504522259745",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7968739824976254__0.17207633030061686source-0.4280077807491409target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:analyzes",
+                "label": "analyzes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.4780250245000993",
+            "sourceHandle": "source",
+            "target": "-copy0.21326833517519672",
+            "targetHandle": "target",
+            "id": "xy-edge-0.1717704205346765__0.4780250245000993source--copy0.21326833517519672target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-have-weakness",
+                "label": "may-have-weakness"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "9-copy0.5123504522259745",
+            "sourceHandle": "source",
+            "target": "0.7211758737270249",
+            "targetHandle": "target",
+            "id": "xy-edge-0.2715573335909871__9-copy0.5123504522259745source-0.7211758737270249target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-have-weakness",
+                "label": "may-have-weakness"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "-copy0.21326833517519672",
+            "sourceHandle": "source",
+            "target": "-copy0.08869592290416894",
+            "targetHandle": "target",
+            "id": "xy-edge-0.46361924175192737__0.8445108369468396source--copy0.08869592290416894target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-have-weakness",
+                "label": "may-have-weakness"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.14984051569038104",
+            "sourceHandle": "source",
+            "target": "0.4151059274766771",
+            "targetHandle": "target",
+            "id": "xy-edge-0.3961581339017378__4-copy0.7895240102839012source-0.4151059274766771target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-have-weakness",
+                "label": "may-have-weakness"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.12546238807261156",
+            "sourceHandle": "source",
+            "target": "0.8213185857095181",
+            "targetHandle": "target",
+            "id": "xy-edge-0.31852560491910253__6-copy0.6179697865669795source-0.8213185857095181target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-have-weakness",
+                "label": "may-have-weakness"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8568915646297394",
+            "sourceHandle": "source",
+            "target": "0.4771584435847497",
+            "targetHandle": "target",
+            "id": "xy-edge-0.699514369356225__0.8568915646297394source-0.4771584435847497target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-have-weakness",
+                "label": "may-have-weakness"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3911644187862563",
+            "sourceHandle": "source",
+            "target": "0.36403953547361834",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6978194767439757__0.3911644187862563source-0.36403953547361834target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:restricts",
+                "label": "restricts"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9832547772870073",
+            "sourceHandle": "source",
+            "target": "0.3374447194150739",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5184177715647809__0.9832547772870073source-0.8292936938233388target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:hardens",
+                "label": "hardens"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.4905204295267137",
+            "sourceHandle": "source",
+            "target": "0.7632923934902052",
+            "targetHandle": "target",
+            "id": "xy-edge-0.1783718842832478__0.4905204295267137source-0.7632923934902052target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3374447194150739",
+            "sourceHandle": "source",
+            "target": "0.29250936296383634",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9589786421121054__0.3374447194150739source-0.29250936296383634target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3374447194150739",
+            "sourceHandle": "source",
+            "target": "9-copy0.5123504522259745",
+            "targetHandle": "target",
+            "id": "xy-edge-0.2860094064690507__0.3374447194150739source-9-copy0.5123504522259745target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3374447194150739",
+            "sourceHandle": "source",
+            "target": "0.13417669623233963",
+            "targetHandle": "target",
+            "id": "xy-edge-0.35999853468496845__0.3374447194150739source-0.13417669623233963target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3374447194150739",
+            "sourceHandle": "source",
+            "target": "0.8568915646297394",
+            "targetHandle": "target",
+            "id": "xy-edge-0.06787683357600383__0.3374447194150739source-0.8568915646297394target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:filters",
+                "label": "filters"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8474464097778707",
+            "sourceHandle": "source",
+            "target": "0.1954403613438176",
+            "targetHandle": "target",
+            "id": "xy-edge-0.1203652410938828__0.8474464097778707source-0.1954403613438176target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:filters",
+                "label": "filters"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3005360572090855",
+            "sourceHandle": "source",
+            "target": "0.13417669623233963",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7840711390078363__0.3005360572090855source-0.13417669623233963target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:filters",
+                "label": "filters"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3005360572090855",
+            "sourceHandle": "source",
+            "target": "9-copy0.5123504522259745",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4890498295467832__0.3005360572090855source-0.4280077807491409target",
+            "selected": false
+        }
+    ]
+}
