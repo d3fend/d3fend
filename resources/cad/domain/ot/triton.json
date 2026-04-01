@@ -1,0 +1,2158 @@
+{
+    "meta": {
+        "title": "Triton Safety Instrumented System Attack",
+        "authors": [
+            "Emma Holt",
+            "Stephanie Saravia",
+            "Ryan Xu"
+        ],
+        "orgs": [
+            "The MITRE Corporation"
+        ],
+        "description": "A model of the 2017 Triton Safety Instrumented System Attack which targeted specific Triconex Safety Controllers.",
+        "article": " Triton Safety Instrumented System Attack was a campaign employed by TEMP.Veles which leveraged the Triton malware framework against a petrochemical organization. The malware and techniques used within this campaign targeted specific Triconex Safety Controllers within the environment.",
+        "d3fend_version": "1.2.0",
+        "cad_schema_version": 0,
+        "published_date": "2025-10-29T15:08:14.778Z",
+        "references": [
+            "https://attack.mitre.org/campaigns/C0030/",
+            "https://evals.mitre.org/ics/triton",
+            "https://www.cisa.gov/sites/default/files/documents/MAR-17-352-01%20HatMan%20-%20Safety%20System%20Targeted%20Malware%20%28Update%20B%29.pdf",
+            "https://cloud.google.com/blog/topics/threat-intelligence/triton-attribution-russian-government-owned-lab-most-likely-built-tools/"
+        ],
+        "settings": {}
+    },
+    "nodes": [
+        {
+            "id": "0.024711527482739304",
+            "type": "attack-node",
+            "position": {
+                "x": 220.5119553296355,
+                "y": -35.71928509243298
+            },
+            "data": {
+                "label": "External Remote Services (ICS)",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "Adversaries may leverage external remote services as a point of initial access into your network. These services allow users to connect to internal network resources from external locations. Examples are VPNs, Citrix, and other access mechanisms. Remote service gateways often manage connections and credential authentication for these services."
+                    ]
+                ],
+                "d3f_class": "d3f: T0822"
+            },
+            "measured": {
+                "width": 498,
+                "height": 291
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 495,
+            "height": 291
+        },
+        {
+            "id": "0.39487716268271933",
+            "type": "artifact-node",
+            "position": {
+                "x": 372.30332464445837,
+                "y": 464.3073206075239
+            },
+            "data": {
+                "label": "OT Engineering Workstation",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OTEngineeringWorkstation"
+            },
+            "measured": {
+                "width": 201,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5342803697414016",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -36.97550915567871,
+                "y": 361.7340391790268
+            },
+            "data": {
+                "label": "Remote Terminal Session Detection",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:RemoteTerminalSessionDetection"
+            },
+            "measured": {
+                "width": 231,
+                "height": 128
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.1881410178509455",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 35.17838126673087,
+                "y": 528.7576774297365
+            },
+            "data": {
+                "label": "Network Traffic Signature Analysis",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:NetworkTrafficSignatureAnalysis"
+            },
+            "measured": {
+                "width": 225,
+                "height": 128
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8204820624374922",
+            "type": "note-node",
+            "position": {
+                "x": 222.74544535188812,
+                "y": -30.0186722647878
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "New! Need to add ICS att&cks"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 187,
+                "height": 78
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.643901553685857",
+            "type": "attack-node",
+            "position": {
+                "x": 730.8084344680161,
+                "y": -43.812456362482806
+            },
+            "data": {
+                "label": "Masquerading (ICS)",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "Adversaries may use masquerading to disguise a malicious application or executable as another file, to avoid operator and engineer suspicion. Possible disguises of these masquerading files can include commonly found programs, expected vendor executables and configuration files, and other commonplace application and naming conventions. By impersonating expected and vendor-relevant files and applications, operators and engineers may not notice the presence of the underlying malicious content and possibly end up running those masquerading as legitimate functions."
+                    ]
+                ],
+                "d3f_class": "d3f: T0849"
+            },
+            "measured": {
+                "width": 498,
+                "height": 303
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7310782822574767",
+            "type": "note-node",
+            "position": {
+                "x": 731.4281494374602,
+                "y": -32.394246314324405
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "NEW from ATT&CK for ICS"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 187,
+                "height": 78
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.33707778069957517",
+            "type": "attack-node",
+            "position": {
+                "x": 1237.1155645040517,
+                "y": -60.596073893436895
+            },
+            "data": {
+                "label": "Scripting (ICS)",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "Adversaries may use scripting languages to execute arbitrary code in the form of a pre-written script or in the form of user-supplied code to an interpreter. Scripting languages are programming languages that differ from compiled languages, in that scripting languages use an interpreter, instead of a compiler. These interpreters read and compile part of the source code just before it is executed, as opposed to compilers, which compile each and every line of code to an executable file. Scripting allows software developers to run their code on any system where the interpreter exists. This way, they can distribute one package, instead of precompiling executables for many different systems. Scripting languages, such as Python, have their interpreters shipped as a default with many Linux distributions."
+                    ]
+                ],
+                "d3f_class": "d3f:T0853"
+            },
+            "measured": {
+                "width": 498,
+                "height": 373
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7436880775838094",
+            "type": "note-node",
+            "position": {
+                "x": 1236.289277878126,
+                "y": -110.04455751717175
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "NEW from ATT&CK for ICS)\n\n\nI don't know where it goes."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 187,
+                "height": 123
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5369801767180621",
+            "type": "attack-node",
+            "position": {
+                "x": 1314.0597006656787,
+                "y": 978.8185236211119
+            },
+            "data": {
+                "label": "Program Download (ICS)",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "Adversaries may perform a program download to transfer a user program to a controller."
+                    ]
+                ],
+                "d3f_class": "d3f:T0843"
+            },
+            "measured": {
+                "width": 498,
+                "height": 149
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.029601487803444293",
+            "type": "note-node",
+            "position": {
+                "x": 1783.210460789653,
+                "y": 1099.4238990084102
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "NEW from ATT&CK for ICS"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 187,
+                "height": 78
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8795512952195874",
+            "type": "artifact-node",
+            "position": {
+                "x": 1340.1372461539404,
+                "y": 479.2480245745779
+            },
+            "data": {
+                "label": "SIS",
+                "sequence": "0",
+                "d3f_class": "d3f:OTController",
+                "user_properties": [
+                    [
+                        "definition",
+                        "SIL-certified controller that performs safety functions."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 498,
+                "height": 153
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 351,
+            "height": 153
+        },
+        {
+            "id": "0.9335296594530447",
+            "type": "note-node",
+            "position": {
+                "x": -486.47295799295875,
+                "y": 344.13159436881836
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "D3FEND 'forces' the countermeasure to be applied\nto the network traffic. However, from an asset owner perspective,\n\nyou are looking for RDP because you have an Engineering Workstation.\n\nD3FEND does not currently connect Remote Terminal Session to the EWS\n\n\nRDP should be detected from network-based detections as well as host-based.."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 435,
+                "height": 168
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.551219902981997",
+            "type": "note-node",
+            "position": {
+                "x": -448.7885680526477,
+                "y": 535.3674036577746
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "D3FEND 'forces' the countermeasure to be applied\nto the network traffic. However, from an asset owner perspective,\nyou are looking for viruses because you have an Engineering Workstation.\nD3FEND does not currently connect Network Traffic Signature Analysis to the EWS."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 457,
+                "height": 123
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.27796914666416794",
+            "type": "note-node",
+            "position": {
+                "x": 763.2969482514795,
+                "y": -139.7065621928916
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Masquerading would apply to the OT Engineering Software in D3FEND.\nThe Asset Owner designs based on the presence of an EWS.\nThey aren't going to build-out Engineer Software on an EWS independently."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 413,
+                "height": 108
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.031005821603550476",
+            "type": "note-node",
+            "position": {
+                "x": 1513.2194789364555,
+                "y": -143.02951379112005
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "I don't know where I'd connect Scripting in the D3FEND model."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 346,
+                "height": 78
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5961669008539066",
+            "type": "artifact-node",
+            "position": {
+                "x": -397.9313884364307,
+                "y": -170.34234431244437
+            },
+            "data": {
+                "label": "Firewall",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "",
+                        ""
+                    ]
+                ],
+                "d3f_class": "d3f:Firewall"
+            },
+            "measured": {
+                "width": 338,
+                "height": 111
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 280,
+            "height": 111
+        },
+        {
+            "id": "0.14893364656459562",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -169.91652910950907,
+                "y": -390.7817797573374
+            },
+            "data": {
+                "label": "Inbound Traffic Filtering",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:InboundTrafficFiltering"
+            },
+            "measured": {
+                "width": 180,
+                "height": 128
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.08230518208082183",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -485.85622123861657,
+                "y": -389.7083073874942
+            },
+            "data": {
+                "label": "Disable Remote Access",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "Disable Remote Access"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.014376767352874631",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -23.1724402610334,
+                "y": 40.18101914353352
+            },
+            "data": {
+                "label": "Unidirectional Network Isolation",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "Unidirectional Network Isolation"
+            },
+            "measured": {
+                "width": 226,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 226,
+            "height": 117
+        },
+        {
+            "id": "0.44950453835229565",
+            "type": "vulnerability-node",
+            "position": {
+                "x": -63.11341010055884,
+                "y": -197.47208121196255
+            },
+            "data": {
+                "label": "Misconfigured Firewall",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "Misconfigured Firewall"
+            },
+            "measured": {
+                "width": 159,
+                "height": 106
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.03716902261520394",
+            "type": "note-node",
+            "position": {
+                "x": -659.4477770718016,
+                "y": 152.5879393083089
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "This did not exist during the attack, but should \nhave to prevent the attack"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 284,
+                "height": 82
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 284,
+            "height": 82
+        },
+        {
+            "id": "0.09618390410713129",
+            "type": "artifact-node",
+            "position": {
+                "x": -1384.4744074381201,
+                "y": -160.8932886422538
+            },
+            "data": {
+                "label": "DCS Controller",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "DCS Controller"
+            },
+            "measured": {
+                "width": 159,
+                "height": 106
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.2665263374847948",
+            "type": "artifact-node",
+            "position": {
+                "x": -1054.9839082844487,
+                "y": -153.98779913903314
+            },
+            "data": {
+                "label": "OT Engineering Workstation",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "OT Engineering Workstation"
+            },
+            "measured": {
+                "width": 159,
+                "height": 106
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.838628125520036",
+            "type": "note-node",
+            "position": {
+                "x": -1082.7632448298866,
+                "y": -230.73526183469892
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "This used to be available. Now it's not. Glitch?"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 257,
+                "height": 78
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.05705392839697809",
+            "type": "note-node",
+            "position": {
+                "x": -1400.2583834454817,
+                "y": -238.8266701786013
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "This is a subclass of OT Controller. Want to add it."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 278,
+                "height": 78
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.36014544148358973",
+            "type": "note-node",
+            "position": {
+                "x": 1456.7006421869978,
+                "y": 357.38576135084753
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Want to add SIS as a subclass of OT Controller"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 264,
+                "height": 78
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.34794066092166775",
+            "type": "note-node",
+            "position": {
+                "x": 4.824137503575145,
+                "y": -51.81823001678883
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "New Countermeasure.\nGood enough for now!"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 187,
+                "height": 93
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7997354176013474",
+            "type": "attack-node",
+            "position": {
+                "x": 1041.6022791905953,
+                "y": 985.63783501948
+            },
+            "data": {
+                "label": "Execution through API",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "Execution through API"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.25559116775055957",
+            "type": "note-node",
+            "position": {
+                "x": 1024.7024002959279,
+                "y": 1104.779531737604
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "NEW from ATT&CK for ICS"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 187,
+                "height": 78
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5712047553369496",
+            "type": "artifact-node",
+            "position": {
+                "x": 873.0544109985412,
+                "y": 653.6805784586555
+            },
+            "data": {
+                "label": "Network Sensor",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:NetworkSensor"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.9626414110606717",
+            "type": "artifact-node",
+            "position": {
+                "x": 853.5118112552574,
+                "y": 369.81457343180375
+            },
+            "data": {
+                "label": "OT Network Traffic",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OTNetworkTraffic"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.008234871876515837",
+            "type": "note-node",
+            "position": {
+                "x": 1014.9502823283108,
+                "y": 393.07076029022005
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "These weren't present in the attack, but could help to defend."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 336,
+                "height": 78
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.42821848179349764",
+            "type": "note-node",
+            "position": {
+                "x": 1246.0522349017747,
+                "y": 653.4368859711237
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "This should exist, but not in CAD."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 189,
+                "height": 78
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5703915313578527",
+            "type": "note-node",
+            "position": {
+                "x": 1574.0482766403595,
+                "y": 890.6617277364602
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "OT Modify Device needs to be applied to OT Controller, \nnot the network sensor attached to the network traffic. \nIt's too derived to be useful for the asset owner."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 310,
+                "height": 108
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.726662271780896",
+            "type": "attack-node",
+            "position": {
+                "x": 791.8151986895574,
+                "y": 982.2740661982151
+            },
+            "data": {
+                "label": "System Firmware",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "System Firmware"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.10240514896573805",
+            "type": "attack-node",
+            "position": {
+                "x": 608.9551455840082,
+                "y": 984.074914849103
+            },
+            "data": {
+                "label": "Execution through API",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "Execution through API"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5655399028037439",
+            "type": "attack-node",
+            "position": {
+                "x": 437.37679868576146,
+                "y": 984.6906916527864
+            },
+            "data": {
+                "label": "Indicator Removal on Host",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "Indicator Removal on Host"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.9269564940888144",
+            "type": "attack-node",
+            "position": {
+                "x": 263.3797659566254,
+                "y": 987.1073171073579
+            },
+            "data": {
+                "label": "Exploitation for Evasion",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "Exploitation for Evasion"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.9163222877224884",
+            "type": "attack-node",
+            "position": {
+                "x": 87.63310413634724,
+                "y": 986.9687716525967
+            },
+            "data": {
+                "label": "Commonly Used Port",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "Commonly Used Port"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6704801379104223",
+            "type": "attack-node",
+            "position": {
+                "x": -92.94680859307368,
+                "y": 986.8302261978356
+            },
+            "data": {
+                "label": "Modify Control Logic",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "Modify Control Logic"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.12566241770627673",
+            "type": "artifact-node",
+            "position": {
+                "x": 2466.2503543720454,
+                "y": -42.61418361352716
+            },
+            "data": {
+                "label": "OT Mode Switch",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OTModeSwitch"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.019573190891967185",
+            "type": "artifact-node",
+            "position": {
+                "x": 2457.638738302593,
+                "y": 201.77798403708354
+            },
+            "data": {
+                "label": "Operating Mode",
+                "sequence": "0",
+                "d3f_class": "d3f:OperatingMode",
+                "user_properties": []
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.3109657006977534",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 2359.102163611053,
+                "y": 425.362107026431
+            },
+            "data": {
+                "label": "Operating Mode Restriction",
+                "sequence": "0",
+                "d3f_class": "d3f:OperatingModeRestriction",
+                "user_properties": []
+            },
+            "measured": {
+                "width": 197,
+                "height": 128
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5257733112873312",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 2708.595352945788,
+                "y": 418.17493446226104
+            },
+            "data": {
+                "label": "Operating Mode Monitoring",
+                "sequence": "0",
+                "d3f_class": "d3f:OperatingModeMonitoring",
+                "user_properties": []
+            },
+            "measured": {
+                "width": 196,
+                "height": 128
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5204101381332011",
+            "type": "note-node",
+            "position": {
+                "x": 2605.306104825533,
+                "y": 201.87420426590361
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Operating Mode should be connected to an OT Controller.\nIt's not currently."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 320,
+                "height": 93
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.1908808533158577",
+            "type": "note-node",
+            "position": {
+                "x": -729.7425946763468,
+                "y": -415.30108488237863
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Doesn't exist.\n\nProbably should.\nAdd as a property to Inbound Traffic Filtering."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 252,
+                "height": 123
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.38472572653564374",
+            "type": "artifact-node",
+            "position": {
+                "x": 2055.4311764938866,
+                "y": 442.3176605022749
+            },
+            "data": {
+                "label": "Memory Block",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:MemoryBlock"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8889334759909877",
+            "type": "note-node",
+            "position": {
+                "x": 1887.5599488015644,
+                "y": 544.406051765555
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Connection doesn't exist. Should."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 190,
+                "height": 78
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.16634982808826104",
+            "type": "artifact-node",
+            "position": {
+                "x": 2079.1119327164943,
+                "y": 614.6649914766393
+            },
+            "data": {
+                "label": "Log File",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:LogFile"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.06989484139863167",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 2448.597936821695,
+                "y": 623.6625744371617
+            },
+            "data": {
+                "label": "Platform Log Collection",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "Enabling the log capability"
+                    ]
+                ],
+                "d3f_class": "Platform Log Collection"
+            },
+            "measured": {
+                "width": 356,
+                "height": 115
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 253,
+            "height": 115
+        },
+        {
+            "id": "0.6070017280475495",
+            "type": "note-node",
+            "position": {
+                "x": 2052.164876270484,
+                "y": 722.8370337193609
+            },
+            "data": {
+                "label": "",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Connection doesn't exist.\nShould."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 187,
+                "height": 108
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 187,
+            "height": 108
+        },
+        {
+            "id": "0.37221872813141577",
+            "type": "note-node",
+            "position": {
+                "x": 78.29928449997189,
+                "y": -218.46179695369042
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Consider adding"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 187,
+                "height": 78
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8314390355247377",
+            "type": "note-node",
+            "position": {
+                "x": -1.2632095243799135,
+                "y": -413.5885557206643
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "This is indirect, but would be nice to apply directly."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 278,
+                "height": 78
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5326148638491734",
+            "type": "artifact-node",
+            "position": {
+                "x": 504.96626698146497,
+                "y": 662.4626753448367
+            },
+            "data": {
+                "label": "OT Modify Control Program Command",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OTModifyControlProgramCommand"
+            },
+            "measured": {
+                "width": 275,
+                "height": 104
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 275,
+            "height": 104
+        },
+        {
+            "id": "0.48771295991608943",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 5.766079930978435,
+                "y": 695.0389673720794
+            },
+            "data": {
+                "label": "OT Control Program Modification Detection",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "OT Control Program Modification Detection"
+            },
+            "measured": {
+                "width": 378,
+                "height": 105
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 378,
+            "height": 105
+        },
+        {
+            "id": "0.8914984049920378",
+            "type": "artifact-node",
+            "position": {
+                "x": -1749.250343489425,
+                "y": -171.6757173768427
+            },
+            "data": {
+                "label": "OT Controller",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OTController"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.2668545611138101",
+            "type": "artifact-node",
+            "position": {
+                "x": -1649.3169285177946,
+                "y": -374.6586538836725
+            },
+            "data": {
+                "label": "DCS",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "DCS"
+            },
+            "measured": {
+                "width": 159,
+                "height": 106
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.771533909751885",
+            "type": "artifact-node",
+            "position": {
+                "x": -1647.0721020212197,
+                "y": -594.6516505480179
+            },
+            "data": {
+                "label": "Network",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Network"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.21702657653160573",
+            "type": "artifact-node",
+            "position": {
+                "x": 275.7896750242487,
+                "y": 268.7939773373869
+            },
+            "data": {
+                "label": "Remote Session",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:RemoteSession"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.2772497989427791",
+            "type": "note-node",
+            "position": {
+                "x": -214.81074924295598,
+                "y": 262.1484750679874
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Add me - connection between remote session and remote terminal session detected."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 462,
+                "height": 78
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5018215418762046",
+            "type": "note-node",
+            "position": {
+                "x": 610.1009402848962,
+                "y": 426.351538920185
+            },
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "If this connection doesn't exist, add it."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 211,
+                "height": 78
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.35765617957409157",
+            "type": "artifact-node",
+            "position": {
+                "x": 1881.7006184095917,
+                "y": 52.38998757535853
+            },
+            "data": {
+                "label": "OT Controller",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OTController"
+            },
+            "measured": {
+                "width": 159,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6838822685733229",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 3060.3290612964574,
+                "y": 610.3150613230022
+            },
+            "data": {
+                "label": "Platform Monitoring ",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:PlatformMonitoring"
+            },
+            "measured": {
+                "width": 165,
+                "height": 128
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8603599632094742",
+            "type": "artifact-node",
+            "position": {
+                "x": -319.1344828369538,
+                "y": 48.983882468912526
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Physical Data Diode",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:PhysicalDataDiode"
+            },
+            "measured": {
+                "width": 165,
+                "height": 117
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.4772581145261726",
+            "type": "artifact-node",
+            "position": {
+                "x": 1480.7904241968056,
+                "y": 739.237763180279
+            },
+            "data": {
+                "label": "OT Control Program",
+                "sequence": "0",
+                "d3f_class": "d3f:OTControlProgram",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 165,
+                "height": 117
+            }
+        },
+        {
+            "id": "0.6461444370365803",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 1812.6236464193594,
+                "y": 667.466260078608
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Agent Authentication ",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:AgentAuthentication"
+            },
+            "measured": {
+                "width": 170,
+                "height": 128
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.026199867876300575",
+            "type": "note-node",
+            "position": {
+                "x": 1726.0678445468275,
+                "y": 767.7923031581344
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": null,
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "connection needs to be added\nAuthentication should apply to more than just Users."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 289,
+                "height": 93
+            },
+            "selected": false,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "undefined",
+                "label": "undefined"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.024711527482739304",
+            "sourceHandle": "source",
+            "target": "0.39487716268271933",
+            "targetHandle": "target",
+            "id": "xy-edge-0.1958477703040915__0.024711527482739304source-0.39487716268271933target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "undefined",
+                "label": "undefined"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5342803697414016",
+            "sourceHandle": "source",
+            "target": "0.39487716268271933",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4334341317830558__0.5342803697414016source-0.39487716268271933target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "undefined",
+                "label": "undefined"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1881410178509455",
+            "sourceHandle": "source",
+            "target": "0.39487716268271933",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7300258701666371__0.1881410178509455source-0.39487716268271933target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "undefined",
+                "label": "undefined"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.643901553685857",
+            "sourceHandle": "source",
+            "target": "0.39487716268271933",
+            "targetHandle": "target",
+            "id": "xy-edge-0.14723318780200745__0.643901553685857source-0.39487716268271933target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "undefined",
+                "label": "undefined"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.33707778069957517",
+            "sourceHandle": "source",
+            "target": "0.39487716268271933",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9313482411350147__0.33707778069957517source-0.39487716268271933target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:implemented-by",
+                "label": "implemented-by"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.14893364656459562",
+            "sourceHandle": "source",
+            "target": "0.5961669008539066",
+            "targetHandle": "target",
+            "id": "xy-edge-0.11463893739325315__0.14893364656459562source-0.5961669008539066target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "undefined",
+                "label": "undefined"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.44950453835229565",
+            "sourceHandle": "source",
+            "target": "0.5961669008539066",
+            "targetHandle": "target",
+            "id": "xy-edge-0.34378500578777305__0.44950453835229565source-0.5961669008539066target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "undefined",
+                "label": "undefined"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.2665263374847948",
+            "sourceHandle": "source",
+            "target": "0.09618390410713129",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5937716300818756__0.2665263374847948source-0.09618390410713129target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "undefined",
+                "label": "undefined"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5961669008539066",
+            "sourceHandle": "source",
+            "target": "0.2665263374847948",
+            "targetHandle": "target",
+            "id": "xy-edge-0.3865802961141047__0.5961669008539066source-0.2665263374847948target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:produces",
+                "label": [
+                    "produces"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.39487716268271933",
+            "sourceHandle": "source",
+            "target": "0.9626414110606717",
+            "targetHandle": "target",
+            "id": "xy-edge-0.2303582452551779__0.39487716268271933source-0.9626414110606717target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "undefined",
+                "label": "undefined"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5712047553369496",
+            "sourceHandle": "source",
+            "target": "0.9626414110606717",
+            "targetHandle": "target",
+            "id": "xy-edge-0.06094588706490345__0.5712047553369496source-0.9626414110606717target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:controls",
+                "label": "controls"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.12566241770627673",
+            "sourceHandle": "source",
+            "target": "0.019573190891967185",
+            "targetHandle": "target",
+            "id": "xy-edge-0.16258785014143806__0.12566241770627673source-0.019573190891967185target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:restricts",
+                "label": "restricts"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3109657006977534",
+            "sourceHandle": "source",
+            "target": "0.019573190891967185",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7081573920715402__0.3109657006977534source-0.019573190891967185target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:monitors",
+                "label": "monitors"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5257733112873312",
+            "sourceHandle": "source",
+            "target": "0.019573190891967185",
+            "targetHandle": "target",
+            "id": "xy-edge-0.554659740086254__0.5257733112873312source-0.019573190891967185target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "undefined",
+                "label": "undefined"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.38472572653564374",
+            "sourceHandle": "source",
+            "target": "0.16634982808826104",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7392279797410628__0.38472572653564374source-0.16634982808826104target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:records",
+                "label": "records"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.06989484139863167",
+            "sourceHandle": "source",
+            "target": "0.16634982808826104",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9320562957063511__0.06989484139863167source-0.16634982808826104target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "undefined",
+                "label": "undefined"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5326148638491734",
+            "sourceHandle": "source",
+            "target": "0.5712047553369496",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5915047392445405__0.5326148638491734source-0.5712047553369496target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:detects",
+                "label": [
+                    "detects"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.48771295991608943",
+            "sourceHandle": "source",
+            "target": "0.5326148638491734",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4765003185112934__0.48771295991608943source-0.5326148638491734target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "undefined",
+                "label": "undefined"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.08230518208082183",
+            "sourceHandle": "source",
+            "target": "0.14893364656459562",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6684564200924402__0.08230518208082183source-0.14893364656459562target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.09618390410713129",
+            "sourceHandle": "source",
+            "target": "0.8914984049920378",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8742615600234526__0.09618390410713129source-0.8914984049920378target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.2668545611138101",
+            "sourceHandle": "source",
+            "target": "0.09618390410713129",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5125234794476151__0.2668545611138101source-0.09618390410713129target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.2668545611138101",
+            "sourceHandle": "source",
+            "target": "0.771533909751885",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5406562692638195__0.2668545611138101source-0.771533909751885target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-create",
+                "label": "may-create"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.39487716268271933",
+            "sourceHandle": "source",
+            "target": "0.21702657653160573",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7257536009610704__0.39487716268271933source-0.21702657653160573target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8795512952195874",
+            "sourceHandle": "source",
+            "target": "0.35765617957409157",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7543868327222846__0.8795512952195874source-0.35765617957409157target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.06989484139863167",
+            "sourceHandle": "source",
+            "target": "0.6838822685733229",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7289361144903711__0.06989484139863167source-0.6838822685733229target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "undefined",
+                "label": "undefined",
+                "auto_created": true
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8603599632094742",
+            "sourceHandle": "source",
+            "target": "0.39487716268271933",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4661184948029682__0.8603599632094742source-0.39487716268271933target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "undefined",
+                "label": "undefined",
+                "auto_created": true
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8603599632094742",
+            "sourceHandle": "source",
+            "target": "0.5961669008539066",
+            "targetHandle": "target",
+            "id": "xy-edge-0.20108472588403903__0.8603599632094742source-0.5961669008539066target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:implemented-by",
+                "label": "implemented-by"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.014376767352874631",
+            "sourceHandle": "source",
+            "target": "0.8603599632094742",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8964443695003631__0.014376767352874631source-0.8603599632094742target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "undefined",
+                "label": "undefined",
+                "auto_created": true
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5342803697414016",
+            "sourceHandle": "source",
+            "target": "0.21702657653160573",
+            "targetHandle": "target",
+            "id": "xy-edge-0.40710797814184674__0.5342803697414016source-0.21702657653160573target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8795512952195874",
+            "sourceHandle": "source",
+            "target": "0.4772581145261726",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8555090374051877__0.8795512952195874source-0.4772581145261726target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:communicates-with",
+                "label": "communicates-with"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.39487716268271933",
+            "sourceHandle": "source",
+            "target": "0.8795512952195874",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8578664963880118__0.39487716268271933source-0.8795512952195874target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:modifies",
+                "label": [
+                    "modifies"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5369801767180621",
+            "sourceHandle": "source",
+            "target": "0.4772581145261726",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6361657439439515__0.5369801767180621source-0.4772581145261726target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "has parameter",
+                "label": "has parameter"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8795512952195874",
+            "sourceHandle": "source",
+            "target": "0.38472572653564374",
+            "targetHandle": "target",
+            "id": "xy-edge-0.36332297217724174__0.8795512952195874source-0.38472572653564374target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "has parameter",
+                "label": "has parameter"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8795512952195874",
+            "sourceHandle": "source",
+            "target": "0.019573190891967185",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4818521367005152__0.8795512952195874source-0.019573190891967185target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "undefined",
+                "label": "undefined",
+                "auto_created": true
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7997354176013474",
+            "sourceHandle": "source",
+            "target": "0.4772581145261726",
+            "targetHandle": "target",
+            "id": "xy-edge-0.1266479971642811__0.7997354176013474source-0.4772581145261726target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:modifies",
+                "label": [
+                    "modifies"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6704801379104223",
+            "sourceHandle": "source",
+            "target": "0.4772581145261726",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4533374354754386__0.6704801379104223source-0.4772581145261726target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "protects",
+                "label": "protects"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6461444370365803",
+            "sourceHandle": "source",
+            "target": "0.4772581145261726",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8536914358154917__0.6461444370365803source-0.4772581145261726target",
+            "selected": false
+        }
+    ]
+}

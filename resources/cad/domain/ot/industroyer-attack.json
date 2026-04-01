@@ -38,8 +38,7 @@
                 "height": 106
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.9111950702664015",
@@ -58,9 +57,8 @@
                 "width": 241,
                 "height": 117
             },
-            "selected": true,
+            "selected": false,
             "dragging": false,
-            "zIndex": 10,
             "width": 241,
             "height": 117
         },
@@ -90,8 +88,7 @@
             "selected": false,
             "dragging": false,
             "width": 171,
-            "height": 118,
-            "zIndex": 10
+            "height": 118
         },
         {
             "id": "0.4668062821330595",
@@ -113,8 +110,7 @@
             "selected": false,
             "dragging": false,
             "width": 206,
-            "height": 106,
-            "zIndex": 10
+            "height": 106
         },
         {
             "id": "0.7037934784226011",
@@ -134,8 +130,7 @@
                 "height": 117
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.6325122575642712",
@@ -155,8 +150,7 @@
                 "height": 117
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.42034145780241916",
@@ -204,7 +198,7 @@
                 "user_properties": [
                     [
                         "comment",
-                        "IEC-104 is fairly similar to IEC-101 payload, \nexcept communications take place over TCP/IP, \nand the method of iterating through IOAs may vary."
+                        "IEC-104 is fairly similar to IEC-101 payload, \nexcept communications take place over TCP/IP, \nand the method of iterating through IOAs may vary."
                     ]
                 ],
                 "d3f_class": "d3f:SharedLibraryFile",
@@ -225,8 +219,7 @@
                 "height": 177
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.8988070649813273",
@@ -268,8 +261,7 @@
             "selected": false,
             "dragging": false,
             "width": 242,
-            "height": 111,
-            "zIndex": 10
+            "height": 111
         },
         {
             "id": "0.9299148987946101",
@@ -380,8 +372,7 @@
                 "height": 117
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.07894569933568141",
@@ -441,8 +432,7 @@
                 "height": 117
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.44491825680514274",
@@ -568,8 +558,7 @@
             "selected": false,
             "dragging": false,
             "width": 251,
-            "height": 107,
-            "zIndex": 10
+            "height": 107
         },
         {
             "id": "0.8105170499191925",
@@ -624,7 +613,7 @@
                 "user_properties": [
                     [
                         "comment",
-                        "OPC DA Payload attempts to change the state of \ndiscovered OPC items. Not modeled for brevity"
+                        "OPC DA Payload attempts to change the state of \ndiscovered OPC items. Not modeled for brevity"
                     ]
                 ],
                 "d3f_class": "d3f:SharedLibraryFile",
@@ -664,7 +653,7 @@
                     ],
                     [
                         "comment",
-                        "IEC-61850 has an alternative version consisting \nof an EXE payload instead of DLL"
+                        "IEC-61850 has an alternative version consisting \nof an EXE payload instead of DLL"
                     ]
                 ],
                 "d3f_class": "Execution Path 1",
@@ -777,8 +766,7 @@
             "selected": false,
             "width": 248,
             "height": 106,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.4518593548171519",
@@ -800,8 +788,7 @@
             "selected": false,
             "dragging": false,
             "width": 162,
-            "height": 102,
-            "zIndex": 10
+            "height": 102
         },
         {
             "id": "0.913489205773763",
@@ -844,8 +831,7 @@
             "selected": false,
             "dragging": false,
             "width": 304,
-            "height": 60,
-            "zIndex": 10
+            "height": 60
         },
         {
             "id": "0.9009293180954207",
@@ -860,7 +846,7 @@
                 "user_properties": [
                     [
                         "rdfs:comment",
-                        "Payload sends a COTP packet, \nthen several MMS packets"
+                        "Payload sends a COTP packet, \nthen several MMS packets"
                     ]
                 ],
                 "d3f_class": "d3f:NetworkConnectionOpenEvent"
@@ -870,8 +856,7 @@
                 "height": 149
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.24979480113369423",
@@ -923,8 +908,7 @@
             "selected": false,
             "dragging": false,
             "width": 320,
-            "height": 74,
-            "zIndex": 10
+            "height": 74
         },
         {
             "id": "0.053700727263669146",
@@ -948,8 +932,7 @@
                 "height": 110
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.2995263893349739",
@@ -1055,8 +1038,7 @@
                 "height": 117
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.9472434662464855",
@@ -1140,8 +1122,7 @@
                 "height": 128
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.23405033386501906",
@@ -1164,7 +1145,6 @@
                 "width": 228,
                 "height": 102
             },
-            "zIndex": 10,
             "selected": false,
             "width": 228,
             "height": 102,
@@ -1256,8 +1236,7 @@
             "selected": false,
             "width": 451,
             "height": 130,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.3617234117866518",
@@ -1301,8 +1280,7 @@
             "selected": false,
             "width": 451,
             "height": 130,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         }
     ],
     "edges": [

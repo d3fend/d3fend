@@ -1,0 +1,21 @@
+# D3FEND
+
+> D3FEND is a MITRE cybersecurity knowledge graph that describes defensive techniques, the artifacts they act on, and their relationships to offensive tactics and techniques.
+
+This document provides concise pointers to the public D3FEND site. Each list item uses the format [Name](URL): notes.
+
+## Primary entry points
+
+- [Home](https://d3fend.mitre.org/): D3FEND matrix, showing D3FEND tactics, techniques, and subtechniques.
+- [Domains](https://d3fend.mitre.org/domain/): browse domains (D3FEND for OT, D3FEND for Space).
+- [D3FEND for OT](https://d3fend.mitre.org/domain/ot): D3FEND OT expansion, techniques and artifacts specific to OT systems.
+- [CAD](https://d3fend.mitre.org/cad/): Cyber Attack Defense (CAD) Tool for building, visualizing, and testing D3FEND graphs using the D3FEND ontology.
+- [Artifacts](https://d3fend.mitre.org/dao/): catalog of digital artifacts (systems, logs, configurations, etc.) that D3FEND defensive techniques operate on or produce.
+- [Taxonomies](https://d3fend.mitre.org/taxonomies/): hierarchical sub-taxonomies of D3FEND concepts and related security knowledge bases.
+- [About](https://d3fend.mitre.org/about/): background on the D3FEND project, sponsors, scope, and methodology.
+- [Resources](https://d3fend.mitre.org/resources/): reference materials, documentation, and external links for learning and integrating D3FEND.
+- [Contribute](https://d3fend.mitre.org/contribute/): information on how to propose changes, contribute mappings, and engage with the D3FEND team.
+- [FAQ](https://d3fend.mitre.org/faq/): frequently asked questions about D3FEND concepts, usage, and licensing.
+- [Blog](https://d3fend.mitre.org/blog/): articles, announcements, and deep dives related to D3FEND and defensive cyber operations.
+- [Search](https://d3fend.mitre.org/search/): site-wide search across D3FEND techniques, artifacts, domains, mappings, and documentation.
+- [API Docs](https://d3fend.mitre.org/api-docs/): D3FEND API documentation of common routes, parameters, and outputs.

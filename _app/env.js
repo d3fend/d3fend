@@ -1,1 +1,1 @@
-export const env={"PUBLIC_MODE":"build","PUBLIC_SPARQL_TARGET":"http://localhost:9899/blazegraph/namespace/d3fend/sparql","PUBLIC_SPARQL_INF_TARGET":"http://localhost:9899/blazegraph/namespace/d3fend_inf/sparql","PUBLIC_D3FEND_FRONTEND_VERSION":"0.22.0"}
+export const env={"PUBLIC_MODE":"build","PUBLIC_SPARQL_TARGET":"http://127.0.0.1:7878/query","PUBLIC_SPARQL_INF_TARGET":"","PUBLIC_D3FEND_FRONTEND_VERSION":"0.23.0"}

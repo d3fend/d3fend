@@ -441,7 +441,7 @@
                 "user_properties": [
                     [
                         "rdfs:comment",
-                        "On may 7th 2021 the Colonial Pipeline Company (CPC) \nlearned they were victims of a ransomware cyber attack.\n\n\nIn response CPC \"proactively took certain systems offline\"\nhalting pipeline activity.\n\n"
+                        "On may 7th 2021 the Colonial Pipeline Company (CPC) \nlearned they were victims of a ransomware cyber attack.\n\n\nIn response CPC \"proactively took certain systems offline\"\nhalting pipeline activity.\n\n"
                     ]
                 ]
             },
@@ -514,7 +514,7 @@
                 "user_properties": [
                     [
                         "rdfs:comment",
-                        "Malicious cyber actors acquired employee user credentials \nfor a VPN service externally.The employee had used the\n\ncredentials for an external service from where they are\n\nsuspected to have gotten.\n\n\nThe MCAs then gained access to the IT network through\n\nthe VPN service, which was thought to be out of service\nand not properly monitored.\n\n\n\nOnce in the system the MCAs deployed DarkSide ransomware\nand locked down the corporate IT system.\n"
+                        "Malicious cyber actors acquired employee user credentials \nfor a VPN service externally.The employee had used the\n\ncredentials for an external service from where they are\n\nsuspected to have gotten.\n\n\nThe MCAs then gained access to the IT network through\n\nthe VPN service, which was thought to be out of service\nand not properly monitored.\n\n\n\nOnce in the system the MCAs deployed DarkSide ransomware\nand locked down the corporate IT system.\n"
                     ]
                 ]
             },

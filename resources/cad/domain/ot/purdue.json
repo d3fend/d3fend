@@ -51,8 +51,7 @@
             "selected": false,
             "width": 709,
             "height": 183,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.7203648236950414",
@@ -456,8 +455,7 @@
                 "height": 89
             },
             "width": 329,
-            "height": 89,
-            "zIndex": 10
+            "height": 89
         },
         {
             "id": "0.15466368683965837",
@@ -501,8 +499,7 @@
                 "height": 89
             },
             "width": 261,
-            "height": 89,
-            "zIndex": 10
+            "height": 89
         },
         {
             "id": "0.7587521315470742",
@@ -550,8 +547,7 @@
                 "height": 83
             },
             "width": 176,
-            "height": 83,
-            "zIndex": 10
+            "height": 83
         },
         {
             "id": "0.974505019559014",
@@ -686,7 +682,6 @@
                 "width": 177,
                 "height": 93
             },
-            "zIndex": 10,
             "selected": false,
             "width": 177,
             "height": 93,
@@ -714,8 +709,7 @@
                 "height": 120
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.9313479280088239",
@@ -1374,7 +1368,6 @@
                 "width": 348,
                 "height": 80
             },
-            "zIndex": 10,
             "selected": false,
             "dragging": false,
             "width": 348,
@@ -1393,15 +1386,14 @@
                 "d3f_class": "d3f:OTDownloadControlProgramCommand",
                 "user_properties": []
             },
-            "selected": true,
+            "selected": false,
             "dragging": false,
             "measured": {
                 "width": 261,
                 "height": 89
             },
             "width": 261,
-            "height": 89,
-            "zIndex": 10
+            "height": 89
         }
     ],
     "edges": [

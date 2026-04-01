@@ -186,7 +186,7 @@
                 "user_properties": [
                     [
                         "rdfs:comment",
-                        "Once the malware was downloaded onto a computer, it attempted to escalate its privileges and determine whether antivirus processes were running.\nThe malware then attempted to identify other computers on the same network. The malware would attempt to extract and execute a credential stealing \nprogram and/or escalate its privileges to achieve lateral movement to other computers on the network. If execution failed, the malware spread itself to \nother victim computers using either the exploit EtemalBlue or EternalRomance for SMBv1 to connect to other network nodes without credentials, then \ncopy itself to those nodes and attempt to execute. After attempting lateral movement within the compromised computer's network, the malware searched\n for files ending with dozens of different file extensions and began encrypting those files on the compromised computer. Once the files were encrypted,\n the malware created a text file containing the ransom note inside every folder that contained encrypted files."
+                        "Once the malware was downloaded onto a computer, it attempted to escalate its privileges and determine whether antivirus processes were running.\nThe malware then attempted to identify other computers on the same network. The malware would attempt to extract and execute a credential stealing \nprogram and/or escalate its privileges to achieve lateral movement to other computers on the network. If execution failed, the malware spread itself to \nother victim computers using either the exploit EtemalBlue or EternalRomance for SMBv1 to connect to other network nodes without credentials, then \ncopy itself to those nodes and attempt to execute. After attempting lateral movement within the compromised computer's network, the malware searched\n for files ending with dozens of different file extensions and began encrypting those files on the compromised computer. Once the files were encrypted,\n the malware created a text file containing the ransom note inside every folder that contained encrypted files."
                     ]
                 ]
             },
@@ -844,8 +844,7 @@
             "selected": false,
             "width": 204,
             "height": 116,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.8347060952766463",
@@ -900,7 +899,7 @@
                 "user_properties": [
                     [
                         "rdfs:comment",
-                        "The NotPetya malware was disseminated initially using a popular Ukrainian accounting \nsoftware called M.E.Doc. The software was periodically updated through an update \nserver (the \"Update Server\"). The attackers rerouted internet traffic from the Update Server \nto their France-based server which delivered the malware to the victim computers. The \nattackers surreptitiously add malicious functionality to the files containing the software \nupdates (the \"Update Files”) and computers receiving M.E.Doc software updates downloaded \nthese Update Files, which at some point included the NotPetya malware."
+                        "The NotPetya malware was disseminated initially using a popular Ukrainian accounting \nsoftware called M.E.Doc. The software was periodically updated through an update \nserver (the \"Update Server\"). The attackers rerouted internet traffic from the Update Server \nto their France-based server which delivered the malware to the victim computers. The \nattackers surreptitiously add malicious functionality to the files containing the software \nupdates (the \"Update Files\") and computers receiving M.E.Doc software updates downloaded \nthese Update Files, which at some point included the NotPetya malware."
                     ]
                 ]
             },
@@ -909,7 +908,7 @@
                 "height": 150
             },
             "selected": false,
-            "dragging": true
+            "dragging": false
         },
         {
             "id": "0.04831461225758582",
@@ -924,7 +923,7 @@
                 "user_properties": [
                     [
                         "rdfs:comment",
-                        "On June 27, 2017 the malicious actors executed a\nseries of malware attacks to render the computer \nsystems used by Ukrainian organizations inoperable, \nincluding banks, newspapers, and electricity companies. \nThe \"NotPetya\" malware was used to target the electric \nsector. The NotPetya malware spread to connected \nnetworks belonging to other victim computer systems \nbelonging to victims in other countries, including in \nthe United States."
+                        "On June 27, 2017 the malicious actors executed a\nseries of malware attacks to render the computer \nsystems used by Ukrainian organizations inoperable, \nincluding banks, newspapers, and electricity companies. \nThe \"NotPetya\" malware was used to target the electric \nsector. The NotPetya malware spread to connected \nnetworks belonging to other victim computer systems \nbelonging to victims in other countries, including in \nthe United States."
                     ]
                 ]
             },
@@ -1074,7 +1073,6 @@
             },
             "selected": false,
             "dragging": false,
-            "zIndex": 10,
             "width": 201,
             "height": 122
         },
@@ -1116,8 +1114,7 @@
                 "height": 122
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.8270553388032771",

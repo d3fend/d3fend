@@ -442,7 +442,7 @@
                 "user_properties": [
                     [
                         "rdfs:comment",
-                        "This CAD diagram shows you how to propose and submit new classes\nand properties to the upstream D3FEND ontology, accessible here:\n\n    https://github.com/d3fend/d3fend-ontology\n\n\nThis syntax:\n\n    :WebApplication\n\nindicates that we are adding a new class to the ontology. Note the colon\ncharacter and lack of spaces. Also, this proposal fits :WebApplication\ninto the existing ontology as a subclass of d3f:ServiceApplication.\n\n\nThus, the Node will be interpreted as a class instead of an instance.\n\nThe same works for properties as well, note the\n:has-payload property.\n\n\n\nYou can click \"Save As\" > \"D3FEND Extension\" and submit the file to the\nD3FEND team for consideration.\n\n\n"
+                        "This CAD diagram shows you how to propose and submit new classes\nand properties to the upstream D3FEND ontology, accessible here:\n\n    https://github.com/d3fend/d3fend-ontology\n\n\nThis syntax:\n\n    :WebApplication\n\nindicates that we are adding a new class to the ontology. Note the colon\ncharacter and lack of spaces. Also, this proposal fits :WebApplication\ninto the existing ontology as a subclass of d3f:ServiceApplication.\n\n\nThus, the Node will be interpreted as a class instead of an instance.\n\nThe same works for properties as well, note the\n:has-payload property.\n\n\n\nYou can click \"Save As\" > \"D3FEND Extension\" and submit the file to the\nD3FEND team for consideration.\n\n\n"
                     ]
                 ]
             },

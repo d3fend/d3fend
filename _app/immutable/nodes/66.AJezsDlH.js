@@ -1,0 +1,1 @@
+import{r as t}from"../chunks/Cxx9n8vM.js";const o=!1;function n({locals:c,url:l,params:e}){const{technique:r}=e;t(307,`/techs/?technique_id=${r}`)}const i=Object.freeze(Object.defineProperty({__proto__:null,load:n,prerender:o},Symbol.toStringTag,{value:"Module"}));export{i as universal};

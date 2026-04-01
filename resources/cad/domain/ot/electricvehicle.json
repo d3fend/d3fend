@@ -67,8 +67,7 @@
                 "height": 120
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.3200521320722364",
@@ -112,8 +111,7 @@
                 "height": 120
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.9530533368170849",
@@ -134,8 +132,7 @@
                 "height": 120
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.14984051569038104",
@@ -158,8 +155,7 @@
             "selected": false,
             "dragging": false,
             "width": 192,
-            "height": 102,
-            "zIndex": 10
+            "height": 102
         },
         {
             "id": "0.12546238807261156",
@@ -180,8 +176,7 @@
                 "height": 120
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "-copy0.45784725017830086",
@@ -204,8 +199,7 @@
             "selected": false,
             "dragging": false,
             "width": 10,
-            "height": 95,
-            "zIndex": 10
+            "height": 95
         },
         {
             "id": "0.9031305412328421",
@@ -237,8 +231,7 @@
             "selected": false,
             "dragging": false,
             "width": 537,
-            "height": 208,
-            "zIndex": 10
+            "height": 208
         },
         {
             "id": "-copy0.21326833517519672",
@@ -293,8 +286,7 @@
             "selected": false,
             "dragging": false,
             "width": 493,
-            "height": 167,
-            "zIndex": 10
+            "height": 167
         },
         {
             "id": "0.6454775412057336",
@@ -363,8 +355,7 @@
             "selected": false,
             "width": 186,
             "height": 129,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.6204476854000327",
@@ -411,8 +402,7 @@
             "selected": false,
             "dragging": false,
             "width": 258,
-            "height": 77,
-            "zIndex": 10
+            "height": 77
         },
         {
             "id": "0.8397910388201522",
@@ -444,8 +434,7 @@
             "selected": false,
             "dragging": false,
             "width": 491,
-            "height": 200,
-            "zIndex": 10
+            "height": 200
         },
         {
             "id": "0.6666834988202524",
@@ -477,8 +466,7 @@
             "selected": false,
             "dragging": false,
             "width": 567,
-            "height": 168,
-            "zIndex": 10
+            "height": 168
         },
         {
             "id": "0.7883626680992106",
@@ -533,9 +521,8 @@
                 "width": 437,
                 "height": 138
             },
-            "selected": true,
-            "dragging": false,
-            "zIndex": 10
+            "selected": false,
+            "dragging": false
         },
         {
             "id": "0.13172239788972018",
@@ -561,8 +548,7 @@
             "selected": false,
             "dragging": false,
             "width": 366,
-            "height": 97,
-            "zIndex": 10
+            "height": 97
         },
         {
             "id": "0.7632923934902052",
@@ -603,8 +589,7 @@
             "selected": false,
             "dragging": false,
             "width": 594,
-            "height": 83,
-            "zIndex": 10
+            "height": 83
         },
         {
             "id": "0.04967619561394265",
@@ -687,8 +672,7 @@
             "selected": false,
             "dragging": false,
             "width": 529,
-            "height": 165,
-            "zIndex": 10
+            "height": 165
         },
         {
             "id": "9-copy0.5123504522259745",
@@ -795,8 +779,7 @@
             "selected": false,
             "width": 398,
             "height": 204,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "1-copy0.8603627012310211",
@@ -828,8 +811,7 @@
             "selected": false,
             "dragging": false,
             "width": 530,
-            "height": 179,
-            "zIndex": 10
+            "height": 179
         },
         {
             "id": "0.1437038704220922",
@@ -889,8 +871,7 @@
             "selected": false,
             "dragging": false,
             "width": 506,
-            "height": 207,
-            "zIndex": 10
+            "height": 207
         },
         {
             "id": "0.8568915646297394",
@@ -972,8 +953,7 @@
             "selected": false,
             "dragging": false,
             "width": 492,
-            "height": 170,
-            "zIndex": 10
+            "height": 170
         },
         {
             "id": "0.1380760912749459",
@@ -1026,8 +1006,7 @@
                 "height": 132
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.17207633030061686",
@@ -1047,8 +1026,7 @@
                 "height": 132
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.4780250245000993",
@@ -1070,8 +1048,7 @@
             "selected": false,
             "dragging": false,
             "width": 200,
-            "height": 97,
-            "zIndex": 10
+            "height": 97
         },
         {
             "id": "0.7211758737270249",
@@ -1133,8 +1110,7 @@
             "selected": false,
             "dragging": false,
             "width": 466,
-            "height": 197,
-            "zIndex": 10
+            "height": 197
         },
         {
             "id": "0.8213185857095181",
@@ -1167,8 +1143,7 @@
                 "height": 234
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.4771584435847497",
@@ -1197,8 +1172,7 @@
                 "height": 238
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.36403953547361834",

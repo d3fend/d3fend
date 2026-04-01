@@ -231,8 +231,7 @@
                 0
             ],
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.6755856246277552",
@@ -282,8 +281,7 @@
                 0
             ],
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.6145728682980451",
@@ -335,8 +333,7 @@
             "selected": false,
             "dragging": false,
             "width": 166,
-            "height": 142,
-            "zIndex": 10
+            "height": 142
         },
         {
             "id": "0.3171334039703656",
@@ -351,7 +348,7 @@
                 "user_properties": [
                     [
                         "rdfs:comment",
-                        "In November & December of 2023, IRGC affiliated threat actors the CyberAv3ngers \ngained access to Unitronics PLC's in water and wastewater systems across the US.\n\nThe Unitronics Vision Series PLC's came with a built in HMI screen, once accessed\nthe malicious actors displayed threatening messages on the screens.\n\n\nUnitronics Vision Series PLC's at the time came with the default password \"1111\"\nwhich was also searchable through the user manual.\n\nThe malicious actors gained access using these valid credentials to PLC's openly\nconnected using the commonly used TCP port 20256 to the public internet.\n"
+                        "In November & December of 2023, IRGC affiliated threat actors the CyberAv3ngers \ngained access to Unitronics PLC's in water and wastewater systems across the US.\n\nThe Unitronics Vision Series PLC's came with a built in HMI screen, once accessed\nthe malicious actors displayed threatening messages on the screens.\n\n\nUnitronics Vision Series PLC's at the time came with the default password \"1111\"\nwhich was also searchable through the user manual.\n\nThe malicious actors gained access using these valid credentials to PLC's openly\nconnected using the commonly used TCP port 20256 to the public internet.\n"
                     ]
                 ]
             },
@@ -362,8 +359,7 @@
             "selected": false,
             "width": 466,
             "height": 229,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.5780008198656925",
@@ -430,7 +426,6 @@
                 "width": 219,
                 "height": 119
             },
-            "zIndex": 10,
             "selected": false,
             "dragging": false,
             "width": 219,
@@ -483,7 +478,6 @@
                 "width": 159,
                 "height": 117
             },
-            "zIndex": 10,
             "selected": false,
             "dragging": false
         },
@@ -508,7 +502,6 @@
                 "width": 159,
                 "height": 117
             },
-            "zIndex": 10,
             "selected": false,
             "dragging": false
         },
@@ -533,7 +526,6 @@
                 "width": 159,
                 "height": 117
             },
-            "zIndex": 10,
             "selected": false,
             "dragging": false
         },
@@ -558,7 +550,6 @@
                 "width": 183,
                 "height": 128
             },
-            "zIndex": 10,
             "selected": false,
             "dragging": false
         },
@@ -580,8 +571,7 @@
             "measured": {
                 "width": 191,
                 "height": 128
-            },
-            "zIndex": 10
+            }
         }
     ],
     "edges": [
@@ -916,7 +906,7 @@
             "target": "0.37743039298227",
             "targetHandle": "target",
             "id": "xy-edge-0.15521938200145535__0.9537100995341854source-0.37743039298227target",
-            "selected": true
+            "selected": false
         },
         {
             "data": {

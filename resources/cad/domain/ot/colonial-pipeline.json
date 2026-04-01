@@ -168,7 +168,6 @@
             },
             "selected": false,
             "dragging": false,
-            "zIndex": 10,
             "width": 241,
             "height": 132
         },
@@ -195,8 +194,7 @@
                 0
             ],
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.209383019093357",
@@ -467,8 +465,7 @@
                 "height": 97
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.45095151035943726",
@@ -483,7 +480,7 @@
                 "user_properties": [
                     [
                         "rdfs:comment",
-                        "On may 7th 2021 the Colonial Pipeline Company (CPC) \nlearned they were victims of a ransomware cyber attack.\n\nIn response CPC \"proactively took certain systems offline\"\nhalting pipeline activity.\n\n"
+                        "On may 7th 2021 the Colonial Pipeline Company (CPC) \nlearned they were victims of a ransomware cyber attack.\n\nIn response CPC \"proactively took certain systems offline\"\nhalting pipeline activity.\n\n"
                     ]
                 ]
             },
@@ -556,7 +553,7 @@
                 "user_properties": [
                     [
                         "rdfs:comment",
-                        "Malicious cyber actors acquired employee user credentials \nfor a VPN service externally.The employee had used the\n\ncredentials for an external service from where they are\nsuspected to have gotten.\n\nThe MCAs then gained access to the IT network through\nthe VPN service, which was thought to be out of service\nand not properly monitored.\n\n\n\nOnce in the system the MCAs deployed DarkSide ransomware\nand locked down the corporate IT system.\n"
+                        "Malicious cyber actors acquired employee user credentials \nfor a VPN service externally.The employee had used the\n\ncredentials for an external service from where they are\nsuspected to have gotten.\n\nThe MCAs then gained access to the IT network through\nthe VPN service, which was thought to be out of service\nand not properly monitored.\n\n\n\nOnce in the system the MCAs deployed DarkSide ransomware\nand locked down the corporate IT system.\n"
                     ]
                 ]
             },
@@ -567,8 +564,7 @@
             "selected": false,
             "dragging": false,
             "width": 321,
-            "height": 210,
-            "zIndex": 10
+            "height": 210
         },
         {
             "id": "0.601359170494683",
@@ -741,8 +737,7 @@
                 "height": 121
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.30010607401447664",
@@ -798,7 +793,7 @@
                 "user_properties": [
                     [
                         "comment",
-                        "Some EDR and EPPs\nrun untrusted execs in a local \nsandbox preventing full filesystem\naccess. "
+                        "Some EDR and EPPs\nrun untrusted execs in a local \nsandbox preventing full filesystem\naccess. "
                     ]
                 ]
             },
@@ -830,7 +825,6 @@
                 "width": 238,
                 "height": 85
             },
-            "zIndex": 10,
             "selected": false,
             "dragging": false,
             "width": 238,
@@ -874,8 +868,7 @@
                 "height": 121
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.8928485744223281",
@@ -899,8 +892,7 @@
                 "height": 71
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.7929612903544426",
@@ -963,7 +955,6 @@
                 "width": 176,
                 "height": 108
             },
-            "zIndex": 10,
             "selected": false,
             "dragging": false
         },

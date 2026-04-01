@@ -41,8 +41,7 @@
                 "height": 103
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.7681260130997116",
@@ -79,8 +78,7 @@
                 "height": 114
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.6103103020386329",
@@ -103,7 +101,7 @@
                     ],
                     [
                         "note",
-                        "Masquerades as legit Triconex\napplication "
+                        "Masquerades as legit Triconex\napplication "
                     ],
                     [
                         "Parameter",
@@ -137,8 +135,7 @@
                 "height": 114
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.3672949271105257",
@@ -341,7 +338,7 @@
                 "user_properties": [
                     [
                         "rdfs:comment",
-                        "Upon connection, checks if \nthe controller is a running \nstate"
+                        "Upon connection, checks if \nthe controller is a running \nstate"
                     ]
                 ]
             },
@@ -352,8 +349,7 @@
             "selected": false,
             "width": 334,
             "height": 98,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.27578894513923147",
@@ -373,8 +369,7 @@
                 "height": 114
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.9241933539741692",
@@ -394,8 +389,7 @@
                 "height": 114
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.6866635098216262",
@@ -417,8 +411,7 @@
             "selected": false,
             "dragging": false,
             "width": 239,
-            "height": 109,
-            "zIndex": 10
+            "height": 109
         },
         {
             "id": "0.49734702163661537",
@@ -457,8 +450,7 @@
                 "width": 158,
                 "height": 114
             },
-            "zIndex": 10,
-            "selected": true,
+            "selected": false,
             "dragging": false
         },
         {
@@ -508,8 +500,7 @@
             "selected": false,
             "dragging": false,
             "width": 519,
-            "height": 110,
-            "zIndex": 10
+            "height": 110
         },
         {
             "id": "0.14847618240977256",
@@ -731,8 +722,7 @@
                 "height": 114
             },
             "selected": false,
-            "dragging": false,
-            "zIndex": 10
+            "dragging": false
         },
         {
             "id": "0.2665263374847948",
@@ -773,7 +763,6 @@
             },
             "selected": false,
             "dragging": false,
-            "zIndex": 10,
             "width": 231,
             "height": 120
         },
@@ -832,7 +821,6 @@
                 "width": 498,
                 "height": 126
             },
-            "zIndex": 10,
             "selected": false,
             "dragging": false
         },
@@ -909,7 +897,7 @@
                 "user_properties": [
                     [
                         "rdfs:comment",
-                        "Triton Safety Instrumented System Attack was a campaign employed by TEMP.Veles \nwhich leveraged the Triton malware framework against a petrochemical organization.\nThe malware and techniques used within this campaign targeted specific \nTriconex Safety Controllers within the environment. The incident was eventually \ndiscovered due to a safety trip that occurred as a result of an issue in the malware."
+                        "Triton Safety Instrumented System Attack was a campaign employed by TEMP.Veles \nwhich leveraged the Triton malware framework against a petrochemical organization.\nThe malware and techniques used within this campaign targeted specific \nTriconex Safety Controllers within the environment. The incident was eventually \ndiscovered due to a safety trip that occurred as a result of an issue in the malware."
                     ]
                 ]
             },
@@ -917,7 +905,6 @@
                 "width": 465,
                 "height": 133
             },
-            "zIndex": 10,
             "selected": false,
             "dragging": false
         },
