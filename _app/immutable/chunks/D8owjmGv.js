@@ -1,1 +1,0 @@
-import{r as o}from"./D0UoW5A5.js";async function i({fetch:r}){const e=await(await r(o("/api/matrix.json"))).json(),s=await(await r(o("/api/version.json"))).json();return{remote_d3fend_tree:e,remote_version_info:s}}export{i as m};
