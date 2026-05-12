@@ -10,7 +10,7 @@ As an example, Python3 includes a web server module by default. Therefore, to us
 
 `python3 -m http.server --directory /path/to/d3fend`
 
-Where "/path/to/d3fend" is the local path to the static copy of the D3FEND website. This will serve the website at port 8000 on your local machine (http://localhost:8000). To use a different port (e.g., 8080), simply include the port number after `http.server` in the command-line:
+Where `/path/to/d3fend` is the local path to the static copy of the D3FEND website. This will serve the website at port 8000 on your local machine (http://localhost:8000). To use a different port (e.g., 8080), simply include the port number after `http.server` in the command-line:
 
 `python3 -m http.server 8080 --directory /path/to/d3fend`
 
