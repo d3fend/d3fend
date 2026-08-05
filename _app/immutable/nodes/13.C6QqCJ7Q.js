@@ -1,1 +1,0 @@
-import{m as e}from"../chunks/COpRC3mt.js";import{L as i}from"../chunks/DhSx8Fyd.js";const r="always",t=!0;async function a(o){return e(o)}const l=Object.freeze(Object.defineProperty({__proto__:null,load:a,prerender:t,trailingSlash:r},Symbol.toStringTag,{value:"Module"}));export{i as component,l as universal};

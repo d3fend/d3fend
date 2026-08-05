@@ -1,0 +1,2223 @@
+{
+    "meta": {
+        "title": "CDR All",
+        "authors": [
+            "Ryan Xu"
+        ],
+        "orgs": [
+            "The MITRE Corporation"
+        ],
+        "description": "",
+        "article": "",
+        "d3fend_version": "1.2.0",
+        "cad_schema_version": 0,
+        "published_date": "2026-02-24T14:40:00.000Z",
+        "references": [],
+        "settings": {},
+        "cad_data_version": 1
+    },
+    "nodes": [
+        {
+            "id": "0.7032304012631014",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -896.8878979181063,
+                "y": 749.0987447558388
+            },
+            "data": {
+                "label": " Content Filtering",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": " Content Filtering",
+                "d3f_class_label": " Content Filtering"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 297,
+                "height": 129
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 297,
+            "height": 129
+        },
+        {
+            "id": "0.47249815289283914",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -195.23741329825498,
+                "y": 351.2461274778274
+            },
+            "data": {
+                "label": "Content Validation",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Verify and validate contents complies with policy"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
+                    ]
+                ],
+                "d3f_class": "d3f:ContentValidation",
+                "d3f_class_label": "Content Validation"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 188
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "9-copy0.9142249922179582",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -254.8523545121394,
+                "y": 760.0263714812751
+            },
+            "data": {
+                "label": "Content Modification",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Modify content that does not comply with policy"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
+                ],
+                "d3f_class": "d3f:ContentModification",
+                "d3f_class_label": ":ContentModification"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 443,
+                "height": 165
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 443,
+            "height": 165
+        },
+        {
+            "id": "0.48426736445356067",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -228.96818472082884,
+                "y": 1151.7744727473364
+            },
+            "data": {
+                "label": "Content Quarantine",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Transfer content that does not comply with policy to quanrantine zone"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
+                ],
+                "d3f_class": "d3f:ContentQuarantine",
+                "d3f_class_label": "Content Quarantine"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 474,
+                "height": 177
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 474,
+            "height": 177
+        },
+        {
+            "id": "0.5762349378605824",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 397.8581120342072,
+                "y": 960.0629696433737
+            },
+            "data": {
+                "label": "Content Format Conversion",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Converting a file from one form to another, usually a simpler and safer format"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
+                ],
+                "d3f_class": "d3f:ContentFormatConversion",
+                "d3f_class_label": "Content Format Conversion"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 188
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7617608511325669",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 382.70965090754805,
+                "y": 474.2719651295861
+            },
+            "data": {
+                "label": "Content Excision",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Removing specific, potentially malicious, parts of content"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
+                ],
+                "d3f_class": "d3f:ContentExcision",
+                "d3f_class_label": "Content Excision"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 188
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.0744514779826817",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 382.41510731779715,
+                "y": 721.2859376922084
+            },
+            "data": {
+                "label": "Content Substitution",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Replace specific parts of content with something else"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
+                ],
+                "d3f_class": "d3f:ContentSubstitution",
+                "d3f_class_label": "Content Substitution"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 188
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5507247954821324",
+            "type": "artifact-node",
+            "position": {
+                "x": 2738.2911589668497,
+                "y": 158.66995602974254
+            },
+            "data": {
+                "label": "File Section",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:FileSection",
+                "d3f_class_label": "File Section"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 356,
+                "height": 148
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 356,
+            "height": 148
+        },
+        {
+            "id": "0.28963955228702054",
+            "type": "artifact-node",
+            "position": {
+                "x": 4544.245144047833,
+                "y": -115.74552611463173
+            },
+            "data": {
+                "label": [
+                    "File Magic Bytes"
+                ],
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "A specific type of header signature located at the beginning of a file, used to identify the file format."
+                    ]
+                ],
+                "d3f_class": "d3f:FileMagicBytes",
+                "d3f_class_label": "File Magic Bytes"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 373,
+                "height": 150
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 373,
+            "height": 150
+        },
+        {
+            "id": "0.0490499135274598",
+            "type": "artifact-node",
+            "position": {
+                "x": 3290.2769166974895,
+                "y": -204.53885835992986
+            },
+            "data": {
+                "label": [
+                    "File Header Block"
+                ],
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "Headers are sections of a file that organize and provide information about specific sections or components of the file. Typically found at the beginning of a file, they often contain file type identification, version information, and metadata such as size, format, and encoding."
+                    ]
+                ],
+                "d3f_class": "d3f:FileHeaderBlock",
+                "d3f_class_label": "File Header Block"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 489,
+                "height": 208
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 489,
+            "height": 208
+        },
+        {
+            "id": "0.1230247439051928",
+            "type": "artifact-node",
+            "position": {
+                "x": 3297.6336863032166,
+                "y": 161.6435723258549
+            },
+            "data": {
+                "label": [
+                    "File Content Block"
+                ],
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "A section within a file that contains the main content or data payload."
+                    ]
+                ],
+                "d3f_class": "d3f:FileContentBlock",
+                "d3f_class_label": "File Content Block"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 144
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "-copy0.23195137482463135",
+            "type": "artifact-node",
+            "position": {
+                "x": 1796.338245642954,
+                "y": 1261.7692614436212
+            },
+            "data": {
+                "label": [
+                    "File Metadata"
+                ],
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "Information that describes and provides context about a file's content, structure, and attributes."
+                    ]
+                ],
+                "d3f_class": "d3f:FileMetadata",
+                "d3f_class_label": "File Metadata"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 159
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.34302096991368103",
+            "type": "artifact-node",
+            "position": {
+                "x": 3907.8163768423506,
+                "y": -294.5020661272177
+            },
+            "data": {
+                "label": [
+                    "File Header Block Content"
+                ],
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "The content of a header block not including the signature."
+                    ]
+                ],
+                "d3f_class": "d3f:FileHeaderBlockContent",
+                "d3f_class_label": "File Header Block Content"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 144
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.09325736548375141",
+            "type": "artifact-node",
+            "position": {
+                "x": 3920.9900103242235,
+                "y": 255.08403653645013
+            },
+            "data": {
+                "label": [
+                    "File Content Block Metadata"
+                ],
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "Content Blocks may contain metadata specific to the block's content at the beginning"
+                    ]
+                ],
+                "d3f_class": "d3f:FileContentBlockMetadata",
+                "d3f_class_label": "File Content Block Metadata"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 144
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.30470669924201865",
+            "type": "artifact-node",
+            "position": {
+                "x": 3934.441806684016,
+                "y": 50.562972089450184
+            },
+            "data": {
+                "label": [
+                    "File Content Block Data"
+                ],
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "The actual content or main data within a file or data block."
+                    ]
+                ],
+                "d3f_class": "d3f:FileContentBlockData",
+                "d3f_class_label": "File Content Block Data"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 144
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.40552351868555836",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 398.11610429998393,
+                "y": 207.31064133509162
+            },
+            "data": {
+                "label": "File Format Verification",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "verifying that a file conforms to its expected format specifications"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
+                    ]
+                ],
+                "d3f_class": "d3f:FileFormatVerification",
+                "d3f_class_label": "File Format Verification"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 188
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6146071780317519",
+            "type": "artifact-node",
+            "position": {
+                "x": 2248.310678345612,
+                "y": 481.97133405554365
+            },
+            "data": {
+                "label": "File",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:File",
+                "d3f_class_label": "File"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 241,
+                "height": 113
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 241,
+            "height": 113
+        },
+        {
+            "id": "0.7314564313202583",
+            "type": "artifact-node",
+            "position": {
+                "x": 1796.273377670382,
+                "y": 801.3286046642634
+            },
+            "data": {
+                "label": [
+                    "Content Policy"
+                ],
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "A set of rules and guidelines that dictate the acceptable use, distribution, and management of digital content within a system or platform. It defines what content is allowed, restricted, or prohibited, ensuring compliance with legal, ethical, and organizational standards."
+                    ]
+                ],
+                "d3f_class": "d3f:ContentPolicy",
+                "d3f_class_label": "Content Policy"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 202
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.34945809922391347",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 1344.7047643906185,
+                "y": -1554.1031561869686
+            },
+            "data": {
+                "label": "File Metadata Value Verification",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "The process of checking specific static values within a file, such as file signatures or magic numbers, to ensure they match the expected values defined by the file format specification."
+                    ],
+                    [
+                        "reference",
+                        "https://core.ac.uk/download/pdf/326762883.pdf"
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ],
+                    [
+                        "description",
+                        "File format specifications often define expected values for specific fields. A common example are file signatures, or magic numbers, which are used to quickly identify files. Another example is within the Compound Document Header of Microsoft Office files, the 29th and 30th byte identifies the byte order, specifically 0xFFFE for little-endian. This technique verifies that the file's static values match the values of the declared file format's specification."
+                    ]
+                ],
+                "d3f_class": "d3f:FileMetadataValueVerification",
+                "d3f_class_label": ":FileMetadataValueVerification"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 393
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.3258831965382004",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 2150.6024960121717,
+                "y": -1329.7768792538236
+            },
+            "data": {
+                "label": "File Magic Byte Verification",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Utilizing the magic number to verify the file"
+                    ],
+                    [
+                        "reference",
+                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ]
+                ],
+                "d3f_class": "d3f:FileMagicByteVerification",
+                "d3f_class_label": "File Magic Byte Verification"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 216
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.9774559813293479",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 1350.964382416417,
+                "y": -1143.7634028638533
+            },
+            "data": {
+                "label": "File Internal Structure Verification",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "The process of checking specific static values within a file, such as file signatures or magic numbers, to ensure they match the expected values defined by the file format specification."
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ],
+                    [
+                        "reference",
+                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
+                    ],
+                    [
+                        "description",
+                        "File format specifications often define expected values for specific fields. A common example are file signatures, or magic numbers, which are used to quickly identify files. Another example is within the Compound Document Header of Microsoft Office files, the 29th and 30th byte identifies the byte order, specifically 0xFFFE for little-endian. This technique verifies that the file's static values match the values of the declared file format's specification."
+                    ]
+                ],
+                "d3f_class": "d3f:FileInternalStructureVerification",
+                "d3f_class_label": ":FileInternalStructureVerification"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 398
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.2756682259786878",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 1338.9555365511835,
+                "y": -326.73032939559806
+            },
+            "data": {
+                "label": "File Content Decompression Checking",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Checking if compressed or encoded data sections can be successfully decompressed or decoded. Can follow with further analysis with semantic knowledge"
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ],
+                    [
+                        "reference",
+                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
+                    ]
+                ],
+                "d3f_class": "d3f:FileContentDecompressionChecking",
+                "d3f_class_label": "File Content Decompression Checking"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 250
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.16229972296000217",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 1350.3754290479505,
+                "y": -711.417088012538
+            },
+            "data": {
+                "label": "File Metadata Consistency Validation",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "The process of validating the consistency between a file's metadata and its actual content, ensuring that elements like declared lengths, pointers, and checksums accurately describe the file's content."
+                    ],
+                    [
+                        "reference",
+                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
+                    ],
+                    [
+                        "description",
+                        "This technique involves validating the consistency between a file's metadata and its actual content. It checks elements like declared lengths, pointers, and checksums to ensure they accurately describe the file's content. For instance, if a header specifies a content block of 50 bytes, this should be verified, and CRC values should be recalculated and compared."
+                    ]
+                ],
+                "d3f_class": "d3f:FileMetadataConsistencyValidation",
+                "d3f_class_label": ":FileMetadataConsistencyValidation"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 350
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.20366737316992256",
+            "type": "artifact-node",
+            "position": {
+                "x": 1787.19308955642,
+                "y": 1500.8255290918723
+            },
+            "data": {
+                "label": "Metadata",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Metadata",
+                "d3f_class_label": "Metadata"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.9672516677158717",
+            "type": "artifact-node",
+            "position": {
+                "x": 3912.541234948633,
+                "y": -111.2971259445954
+            },
+            "data": {
+                "label": [
+                    "File Header Block Signature"
+                ],
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "A sequence of bytes used to identify and validate specific header sections within a file."
+                    ]
+                ],
+                "d3f_class": "d3f:FileHeaderBlockSignature",
+                "d3f_class_label": ":FileHeaderBlockSignature"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 144
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.14499280157174388",
+            "type": "artifact-node",
+            "position": {
+                "x": 3294.0413515291857,
+                "y": 541.1733411878436
+            },
+            "data": {
+                "label": [
+                    "File Footer Block"
+                ],
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "A section at the end of a file that contains metadata or control information."
+                    ]
+                ],
+                "d3f_class": "d3f:FileFooterBlock",
+                "d3f_class_label": "File Footer Block"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 144
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.270595913540307",
+            "type": "artifact-node",
+            "position": {
+                "x": 3927.964780077413,
+                "y": 691.7941501613599
+            },
+            "data": {
+                "label": [
+                    "File Footer Block Content"
+                ],
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "The content of a footer block not including the signature."
+                    ]
+                ],
+                "d3f_class": "d3f:FileFooterBlockContent",
+                "d3f_class_label": "File Footer Block Content"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 144
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8253744550116549",
+            "type": "note-node",
+            "position": {
+                "x": 4592.607395726958,
+                "y": 1251.2552701335933
+            },
+            "data": {
+                "label": "ZIP FILE",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Example zip file\n\n1. Local File Header A.txt\n2. Data for A.txt\n3. Local File Header B.txt\n4. Data for B.txt\n5. Central Directory Header A.txt\n6. Central Directory Header B.txt\n7. End of central directory record\n\n\n\n\n1. Header Block\n        header signature: 0x504b0304\n2. Content Block\n3. Header Block\n        header signature: 0x504b0304\n4. Content Block\n5. Header Block\n        header signature: 0x504b0102\n6. Header Block\n        header signature: 0x504b0102\n\n7. Footer Block\n       footer signature: 0x504b0506\n"
+                    ]
+                ]
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 242,
+                "height": 541
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 242,
+            "height": 541
+        },
+        {
+            "id": "0.6136178162729569",
+            "type": "artifact-node",
+            "position": {
+                "x": 3926.186348841816,
+                "y": 479.10084112301087
+            },
+            "data": {
+                "label": [
+                    "File Footer Block Signature"
+                ],
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "A sequence of bytes used to identify and validate the footer section within a file."
+                    ]
+                ],
+                "d3f_class": "d3f:FileFooterBlockSignature",
+                "d3f_class_label": ":FileFooterBlockSignature"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 144
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8199907918822567",
+            "type": "note-node",
+            "position": {
+                "x": 4891.871454331573,
+                "y": 1254.1370835834248
+            },
+            "data": {
+                "label": "PDF FILE",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Example PDF file\n\n\n1. Header\n2. Body\n3. Cross Reference Table\n4. Trailer\n\n\n\n\n1. Header Block\n         header signature: %PDF-1.7\n2. Content Block\n3. Header Block\n          header signature: xref\n4. Footer Block\n          footer signature: trailer\n"
+                    ]
+                ]
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 194,
+                "height": 304
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.15630497336477822",
+            "type": "note-node",
+            "position": {
+                "x": 5162.339067020135,
+                "y": 1255.4976247141924
+            },
+            "data": {
+                "label": "PE32",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Example PE file\n\n\n1. DOS Header\n2. DOS stub\n3. NTHeaders\n4. Section Table\n5. Sections (.text, .rdata, etc)\n\n\n1. Header Block\n2. Content Block\n3. Header Block\n4. Header Block\n5. Content Block\n\n\n"
+                    ]
+                ]
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 219,
+                "height": 273
+            },
+            "selected": false,
+            "width": 219,
+            "height": 273,
+            "dragging": false
+        },
+        {
+            "id": "0.5764862604479757",
+            "type": "note-node",
+            "position": {
+                "x": 4097.568046120161,
+                "y": 1252.709566784229
+            },
+            "data": {
+                "label": "libmagic",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Libmagic has a custom domain specific language (DSL) for specifying file patterns\n\n- Located in /usr/local/share/misc/magic\n\n\nExample:\n\n10        lelong    0x00000100    this is a test\n>20       ubyte 0xFF       test two\n!:mime    application/x-foo\n\n\n1. Start at byte offset 10, read singed little-endian long, if equal to 0x100, print \"this is a test\"\n2. If test 1 is true, test if byte offset 20 equals 0xFF, print \"test two\", and associate file with MIME type application/x-foo\n\n\n\n"
+                    ]
+                ]
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 640,
+                "height": 253
+            },
+            "selected": false,
+            "width": 640,
+            "height": 253,
+            "dragging": false
+        },
+        {
+            "id": "0.1608709589078562",
+            "type": "note-node",
+            "position": {
+                "x": 3971.397819321481,
+                "y": 1541.0281689718718
+            },
+            "data": {
+                "label": "TrID",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "TrID has a database of XML files containing rules/patterns to match...\n\n\nUnable to see what the XML files themselves\n"
+                    ]
+                ]
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 379,
+                "height": 114
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6808450084424931",
+            "type": "attack-node",
+            "position": {
+                "x": 2484.3916335517706,
+                "y": -9.424779730313182
+            },
+            "data": {
+                "label": "Office Template Macros",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1137.001"
+            },
+            "measured": {
+                "width": 149,
+                "height": 122
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.09910986957621404",
+            "type": "attack-node",
+            "position": {
+                "x": 4955.487689370096,
+                "y": -82.23175635099864
+            },
+            "data": {
+                "label": "Masquerade File Type",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1036.008"
+            },
+            "measured": {
+                "width": 149,
+                "height": 122
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.9869569819632811",
+            "type": "attack-node",
+            "position": {
+                "x": 4316.045605088414,
+                "y": 73.79977020276513
+            },
+            "data": {
+                "label": "Malicious Image",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1204.003"
+            },
+            "measured": {
+                "width": 149,
+                "height": 122
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.4556303405855364",
+            "type": "attack-node",
+            "position": {
+                "x": 4385.9247550174005,
+                "y": 160.90939545670685
+            },
+            "data": {
+                "label": "Malicious Link",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1204.001"
+            },
+            "measured": {
+                "width": 149,
+                "height": 122
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.11473781863281762",
+            "type": "attack-node",
+            "position": {
+                "x": 4464.419142608863,
+                "y": 243.23277756482761
+            },
+            "data": {
+                "label": "Embedded Payloads",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1027.009"
+            },
+            "measured": {
+                "width": 149,
+                "height": 122
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.035945587722548966",
+            "type": "vulnerability-node",
+            "position": {
+                "x": 1920.6209453598458,
+                "y": -71.04358773059873
+            },
+            "data": {
+                "label": "Cleartext Storage of Sensitive Information",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CWE-312"
+            },
+            "measured": {
+                "width": 364,
+                "height": 100
+            },
+            "selected": false,
+            "width": 364,
+            "height": 100,
+            "dragging": false
+        },
+        {
+            "id": "0.6373118746457436",
+            "type": "vulnerability-node",
+            "position": {
+                "x": 1839.6922351398846,
+                "y": 91.00768651685651
+            },
+            "data": {
+                "label": "Improper Removal of Sensitive Information Before Storage or Transfer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CWE-212"
+            },
+            "measured": {
+                "width": 427,
+                "height": 82
+            },
+            "selected": false,
+            "width": 427,
+            "height": 82,
+            "dragging": false
+        },
+        {
+            "id": "0.0176150859463724",
+            "type": "vulnerability-node",
+            "position": {
+                "x": 1807.3140980397973,
+                "y": 226.37014212926928
+            },
+            "data": {
+                "label": "Insertion of Sensitive Information Into Sent Data",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CWE-201"
+            },
+            "measured": {
+                "width": 389,
+                "height": 109
+            },
+            "selected": false,
+            "width": 389,
+            "height": 109,
+            "dragging": false
+        },
+        {
+            "id": "0.18989037913866968",
+            "type": "vulnerability-node",
+            "position": {
+                "x": 1083.9669679373612,
+                "y": 1533.718016193416
+            },
+            "data": {
+                "label": "Exposure of Sensitive Information Through Metadata",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CWE-1230"
+            },
+            "measured": {
+                "width": 351,
+                "height": 98
+            },
+            "selected": false,
+            "width": 351,
+            "height": 98,
+            "dragging": false
+        },
+        {
+            "id": "0.3233797771654314",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 170.13278674828052,
+                "y": 1207.4361003630295
+            },
+            "data": {
+                "label": "Content Rebuild",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Rebuild the file according to the spec so any unreferenced components or objects are removed."
+                    ]
+                ],
+                "d3f_class": "d3f:ContentRebuild"
+            },
+            "measured": {
+                "width": 498,
+                "height": 155
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.3184595035224653",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -1518.2887828827008,
+                "y": 762.797282005339
+            },
+            "data": {
+                "label": "Isolate",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Isolate"
+            },
+            "measured": {
+                "width": 149,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.0490499135274598",
+            "sourceHandle": "source",
+            "target": "0.34302096991368103",
+            "targetHandle": "target",
+            "id": "xy-edge__0.0490499135274598source-0.34302096991368103target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1230247439051928",
+            "sourceHandle": "source",
+            "target": "0.09325736548375141",
+            "targetHandle": "target",
+            "id": "xy-edge__0.1230247439051928source-0.09325736548375141target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": [
+                    "contains"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1230247439051928",
+            "sourceHandle": "source",
+            "target": "0.30470669924201865",
+            "targetHandle": "target",
+            "id": "xy-edge__0.1230247439051928source-0.30470669924201865target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6146071780317519",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge__0.6146071780317519source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.0490499135274598",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge__0.0490499135274598source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1230247439051928",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge__0.1230247439051928source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.34302096991368103",
+            "sourceHandle": "source",
+            "target": "-copy0.23195137482463135",
+            "targetHandle": "target",
+            "id": "xy-edge__0.34302096991368103source--copy0.23195137482463135target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.09325736548375141",
+            "sourceHandle": "source",
+            "target": "-copy0.23195137482463135",
+            "targetHandle": "target",
+            "id": "xy-edge__0.09325736548375141source--copy0.23195137482463135target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.47249815289283914",
+            "sourceHandle": "source",
+            "target": "0.7032304012631014",
+            "targetHandle": "target",
+            "id": "xy-edge__0.47249815289283914source-0.7032304012631014target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "9-copy0.9142249922179582",
+            "sourceHandle": "source",
+            "target": "0.7032304012631014",
+            "targetHandle": "target",
+            "id": "xy-edge__9-copy0.9142249922179582source-0.7032304012631014target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.48426736445356067",
+            "sourceHandle": "source",
+            "target": "0.7032304012631014",
+            "targetHandle": "target",
+            "id": "xy-edge__0.48426736445356067source-0.7032304012631014target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.40552351868555836",
+            "sourceHandle": "source",
+            "target": "0.47249815289283914",
+            "targetHandle": "target",
+            "id": "xy-edge__0.40552351868555836source-0.47249815289283914target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5762349378605824",
+            "sourceHandle": "source",
+            "target": "9-copy0.9142249922179582",
+            "targetHandle": "target",
+            "id": "xy-edge__0.5762349378605824source-9-copy0.9142249922179582target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7617608511325669",
+            "sourceHandle": "source",
+            "target": "9-copy0.9142249922179582",
+            "targetHandle": "target",
+            "id": "xy-edge__0.7617608511325669source-9-copy0.9142249922179582target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.0744514779826817",
+            "sourceHandle": "source",
+            "target": "9-copy0.9142249922179582",
+            "targetHandle": "target",
+            "id": "xy-edge__0.0744514779826817source-9-copy0.9142249922179582target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.34945809922391347",
+            "sourceHandle": "source",
+            "target": "0.40552351868555836",
+            "targetHandle": "target",
+            "id": "xy-edge__0.34945809922391347source-0.40552351868555836target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3258831965382004",
+            "sourceHandle": "source",
+            "target": "0.34945809922391347",
+            "targetHandle": "target",
+            "id": "xy-edge__0.3258831965382004source-0.34945809922391347target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:analyzes",
+                "label": "analyzes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.34945809922391347",
+            "sourceHandle": "source",
+            "target": "0.0490499135274598",
+            "targetHandle": "target",
+            "id": "xy-edge__0.34945809922391347source-0.0490499135274598target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:analyzes",
+                "label": "analyzes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3258831965382004",
+            "sourceHandle": "source",
+            "target": "0.28963955228702054",
+            "targetHandle": "target",
+            "id": "xy-edge__0.3258831965382004source-0.28963955228702054target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9774559813293479",
+            "sourceHandle": "source",
+            "target": "0.40552351868555836",
+            "targetHandle": "target",
+            "id": "xy-edge__0.9774559813293479source-0.40552351868555836target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:analyzes",
+                "label": "analyzes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9774559813293479",
+            "sourceHandle": "source",
+            "target": "0.1230247439051928",
+            "targetHandle": "target",
+            "id": "xy-edge__0.9774559813293479source-0.1230247439051928target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.2756682259786878",
+            "sourceHandle": "source",
+            "target": "0.40552351868555836",
+            "targetHandle": "target",
+            "id": "xy-edge__0.2756682259786878source-0.40552351868555836target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:analyzes",
+                "label": "analyzes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.2756682259786878",
+            "sourceHandle": "source",
+            "target": "0.30470669924201865",
+            "targetHandle": "target",
+            "id": "xy-edge__0.2756682259786878source-0.30470669924201865target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.16229972296000217",
+            "sourceHandle": "source",
+            "target": "0.40552351868555836",
+            "targetHandle": "target",
+            "id": "xy-edge__0.16229972296000217source-0.40552351868555836target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:analyzes",
+                "label": "analyzes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.16229972296000217",
+            "sourceHandle": "source",
+            "target": "0.30470669924201865",
+            "targetHandle": "target",
+            "id": "xy-edge__0.16229972296000217source-0.30470669924201865target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:quarantines",
+                "label": "quarantines"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.48426736445356067",
+            "sourceHandle": "source",
+            "target": "0.6146071780317519",
+            "targetHandle": "target",
+            "id": "xy-edge__0.48426736445356067source-0.6146071780317519target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "-copy0.23195137482463135",
+            "sourceHandle": "source",
+            "target": "0.20366737316992256",
+            "targetHandle": "target",
+            "id": "xy-edge__-copy0.23195137482463135source-0.20366737316992256target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:analyzes",
+                "label": "analyzes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.40552351868555836",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge__0.40552351868555836source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:modifies",
+                "label": [
+                    "modifies"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5762349378605824",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge__0.5762349378605824source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:excises",
+                "label": [
+                    "excises"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7617608511325669",
+            "sourceHandle": "source",
+            "target": "0.30470669924201865",
+            "targetHandle": "target",
+            "id": "xy-edge__0.7617608511325669source-0.30470669924201865target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:excises",
+                "label": "excises"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7617608511325669",
+            "sourceHandle": "source",
+            "target": "-copy0.23195137482463135",
+            "targetHandle": "target",
+            "id": "xy-edge__0.7617608511325669source--copy0.23195137482463135target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:enforces",
+                "label": [
+                    "enforces"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.0744514779826817",
+            "sourceHandle": "source",
+            "target": "0.7314564313202583",
+            "targetHandle": "target",
+            "id": "xy-edge__0.0744514779826817source-0.7314564313202583target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.0490499135274598",
+            "sourceHandle": "source",
+            "target": "0.9672516677158717",
+            "targetHandle": "target",
+            "id": "xy-edge__0.0490499135274598source-0.9672516677158717target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9672516677158717",
+            "sourceHandle": "source",
+            "target": "-copy0.23195137482463135",
+            "targetHandle": "target",
+            "id": "xy-edge__0.9672516677158717source--copy0.23195137482463135target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.28963955228702054",
+            "sourceHandle": "source",
+            "target": "0.9672516677158717",
+            "targetHandle": "target",
+            "id": "xy-edge__0.28963955228702054source-0.9672516677158717target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.14499280157174388",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge__0.14499280157174388source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.14499280157174388",
+            "sourceHandle": "source",
+            "target": "0.270595913540307",
+            "targetHandle": "target",
+            "id": "xy-edge__0.14499280157174388source-0.270595913540307target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.270595913540307",
+            "sourceHandle": "source",
+            "target": "-copy0.23195137482463135",
+            "targetHandle": "target",
+            "id": "xy-edge__0.270595913540307source--copy0.23195137482463135target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.14499280157174388",
+            "sourceHandle": "source",
+            "target": "0.6136178162729569",
+            "targetHandle": "target",
+            "id": "xy-edge__0.14499280157174388source-0.6136178162729569target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6136178162729569",
+            "sourceHandle": "source",
+            "target": "-copy0.23195137482463135",
+            "targetHandle": "target",
+            "id": "xy-edge__0.6136178162729569source--copy0.23195137482463135target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:analyzes",
+                "label": "analyzes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.34945809922391347",
+            "sourceHandle": "source",
+            "target": "0.14499280157174388",
+            "targetHandle": "target",
+            "id": "xy-edge__0.34945809922391347source-0.14499280157174388target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5507247954821324",
+            "sourceHandle": "source",
+            "target": "0.6808450084424931",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4348418949914672__0.5507247954821324source-0.6808450084424931target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-modify",
+                "label": [
+                    "may-modify"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.09910986957621404",
+            "sourceHandle": "source",
+            "target": "0.28963955228702054",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8515281304481415__0.09910986957621404source-0.28963955228702054target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.30470669924201865",
+            "sourceHandle": "source",
+            "target": "0.9869569819632811",
+            "targetHandle": "target",
+            "id": "xy-edge-0.539449678679707__0.30470669924201865source-0.9869569819632811target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.30470669924201865",
+            "sourceHandle": "source",
+            "target": "0.4556303405855364",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9094396231656217__0.30470669924201865source-0.4556303405855364target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.30470669924201865",
+            "sourceHandle": "source",
+            "target": "0.11473781863281762",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5633636652219103__0.30470669924201865source-0.11473781863281762target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:weakness-of",
+                "label": "weakness-of"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.035945587722548966",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8415422804614472__0.035945587722548966source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:weakness-of",
+                "label": "weakness-of"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6373118746457436",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6665583694887531__0.6373118746457436source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:weakness-of",
+                "label": "weakness-of"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.0176150859463724",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7500348604005638__0.0176150859463724source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:weakness-of",
+                "label": "weakness-of"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.18989037913866968",
+            "sourceHandle": "source",
+            "target": "0.20366737316992256",
+            "targetHandle": "target",
+            "id": "xy-edge-0.30412468187121555__0.18989037913866968source-0.20366737316992256target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3233797771654314",
+            "sourceHandle": "source",
+            "target": "9-copy0.9142249922179582",
+            "targetHandle": "target",
+            "id": "xy-edge-0.23175157805602664__0.3233797771654314source-9-copy0.9142249922179582target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:creates",
+                "label": "creates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3233797771654314",
+            "sourceHandle": "source",
+            "target": "0.6146071780317519",
+            "targetHandle": "target",
+            "id": "xy-edge-0.603753203094493__0.3233797771654314source-0.6146071780317519target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7032304012631014",
+            "sourceHandle": "source",
+            "target": "0.3184595035224653",
+            "targetHandle": "target",
+            "id": "xy-edge-0.92189218431369__0.7032304012631014source-0.3184595035224653target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": ":enforces",
+                "label": ":enforces"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7032304012631014",
+            "sourceHandle": "source",
+            "target": "0.7314564313202583",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6637189590729639__0.7032304012631014source-0.7314564313202583target",
+            "selected": false
+        }
+    ]
+}

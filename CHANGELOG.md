@@ -1,5 +1,22 @@
 # D3FEND UI Change Log
 
+## Version - 0.24.0 - 2026-07-31
+ - D3FEND CAD Improvements:
+    - New D3FEND CAD App Framework supports modular tabs, views, menus, context actions, ontology extensions, documentation, and feature-specific tools.
+    - Added CAD templates, a File Browser backed by the browser File System API, images in Note nodes, Mission Activity nodes, node alignment, and offensive-versus-defensive graph views.
+    - Improved property editing with autocomplete and inherited data properties, and added in-app rendering for CAD graph JSON files.
+    - Expanded library workflows with colored folders, graph duplication, selected-library persistence for new tabs, clearer import/export controls, and better handling when no library exists.
+ - CAD Bugfixes:
+    - Fixed updates leaking into inactive tabs, image-node group selection, node content overflow, image label scaling, file-load validation, library text and button layout, view-menu stacking, and fit-to-view behavior.
+    - Improved embedded CAD minimap behavior, cold-start performance, and CAD canvas stability through a consolidated graph state and history API.
+ - Ontology, Matrix, and Search:
+    - New interactive ontology explorer provides graphical and tree navigation across defensive techniques, offensive techniques, artifacts, events, weaknesses, and agents.
+    - Redesigned artifact, taxonomy, offensive-technique, and CWE weakness pages with reusable entity detail modals and centralized navigation.
+    - Added search, inference, matrices, detail views, and Navigator exports across ATT&CK Enterprise, Mobile, and ICS, MITRE ATLAS, and SPARTA offensive frameworks.
+ - Site, Documentation, and Build:
+    - Centralized sidebars and a shared color palette improve visual consistency and accessibility throughout the site.
+    - Added Content Disarm and Reconstruction blog post, expanded CAD documentation navigation, and direct API documentation links.
+
 ## Version - 0.23.1 - 2026-04-01
  - Minor website updates
  - Correct downloadable ontology files.

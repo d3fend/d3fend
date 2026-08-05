@@ -1,3 +1,0 @@
-{   "name": "show edge inference",
-    "script": "for (let edge of temp_edges) {\n edge.data.show_inference_color = true;\n}"
-}

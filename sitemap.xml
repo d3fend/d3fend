@@ -248,6 +248,7 @@
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:Actuator</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:AddressSpace</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:AdministrativeNetworkTraffic</loc></url>
+  <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:AircraftComputer</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:Alias</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:AllocateMemory</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:AnonymousPipe</loc></url>
@@ -282,6 +283,7 @@
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:AuthenticationServiceApplication</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:AuthorizationLog</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:AuthorizationService</loc></url>
+  <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:AutomotiveElectronicControlUnit</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:BarcodeScannerInputDevice</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:BinaryLargeObject</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:BinarySegment</loc></url>
@@ -355,6 +357,7 @@
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:ContentPolicy</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:ControlFlowGraph</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:ControlFlowPolicy</loc></url>
+  <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:ControlServer</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:CopyMemoryFunction</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:CopyToken</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:CreateFile</loc></url>
@@ -478,6 +481,7 @@
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:FirmwareSensor</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:First-stageBootLoader</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:FlashMemory</loc></url>
+  <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:FlightSoftware</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:ForwardProxyServer</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:FreeMemory</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:FullVolumeSnapshot</loc></url>
@@ -696,7 +700,7 @@
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:NetworkResourceAccess</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:NetworkScanner</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:NetworkSensor</loc></url>
-  <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:NetworkService</loc></url>
+  <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:NetworkServiceApplicationProcess</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:NetworkSession</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:NetworkTimeServer</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:NetworkTraffic</loc></url>
@@ -806,7 +810,6 @@
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:ObjectFile</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:OfficeApplication</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:OfficeApplicationFile</loc></url>
-  <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:OnboardComputer</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:OpenFile</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:OperatingMode</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:OperatingSystem</loc></url>
@@ -975,6 +978,7 @@
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:SoftwareWatchdogTimer</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:SourceCodeAnalyzerTool</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:Spacecraft</loc></url>
+  <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:SpacecraftComputer</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:SpacecraftSafeMode</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:StackComponent</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:StackFrame</loc></url>
@@ -1065,7 +1069,10 @@
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:VectorImage</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:VectorImageFile</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:Vehicle</loc></url>
+  <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:VehicleComputer</loc></url>
+  <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:VehicleControlSoftware</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:VehicleOperatingMode</loc></url>
+  <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:VehicleSoftware</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:VersionControlTool</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:VideoInputDevice</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:VirtualAddress</loc></url>
@@ -1538,7 +1545,499 @@
   <url><loc>https://d3fend.mitre.org/offensive-tactic/d3f:TA0109</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-tactic/d3f:TA0110</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-tactic/d3f:TA0111</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-tactic/d3f:TA0112</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0000.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0000.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0000.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0002.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0002.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0002.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0004</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0005</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0005.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0005.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0005.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0006</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0007</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0008</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0008.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0008.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0008.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0008.003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0008.004</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0008.005</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0010</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0010.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0010.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0010.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0010.003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0010.004</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0010.005</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0011</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0011.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0011.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0011.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0011.003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0012</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0013</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0014</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0015</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0016</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0016.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0016.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0016.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0017</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0017.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0018</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0018.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0018.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0018.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0019</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0020</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0021</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0024</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0024.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0024.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0024.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0025</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0029</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0031</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0034</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0034.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0034.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0034.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0035</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0036</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0037</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0040</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0041</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0042</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0043</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0043.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0043.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0043.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0043.003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0043.004</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0044</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0046</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0047</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0048</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0048.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0048.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0048.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0048.003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0048.004</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0049</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0050</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0051</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0051.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0051.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0051.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0052</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0052.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0052.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0053</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0054</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0055</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0056</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0057</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0058</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0059</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0060</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0061</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0062</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0063</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0064</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0065</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0066</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0067</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0067.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0068</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0069</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0069.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0069.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0069.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0070</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0071</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0072</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0073</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0074</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0075</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0076</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0077</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0078</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0079</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0080</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0080.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0080.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0081</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0082</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0083</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0084</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0084.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0084.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0084.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0084.003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0085</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0085.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0085.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0086</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0087</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0088</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0089</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0090</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0091</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0091.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0091.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0092</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0093</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0094</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0095</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0095.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0096</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0097</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0098</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0099</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0100</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0101</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0102</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0103</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0104</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0105</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0106</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0107</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0108</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0109</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0110</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0111</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0112</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0112.000</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0112.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0113</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/AML.T0114</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0002.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0002.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0002.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0003.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0003.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0003.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0003.04</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0003.05</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0003.06</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0003.07</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0003.08</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0003.09</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0003.10</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0003.11</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0003.12</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0004</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0005</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0006</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0007</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0008</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0009</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0009.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0009.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0009.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0009.04</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0009.05</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0010</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0011</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0012</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0001.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0001.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0004</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0005</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0005.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0005.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0006</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0007</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0008</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0008.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0008.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0009</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0009.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0009.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0009.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0010</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0010.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0010.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0010.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0010.04</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0011</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0012</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0012.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0012.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0012.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0012.04</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0012.05</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0012.06</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0012.07</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0012.08</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0012.09</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0012.10</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0012.11</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0012.12</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0012.13</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0013</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0013.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0013.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0014</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0014.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0014.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0014.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0014.04</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0014.05</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0015</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0016</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0016.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0016.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0016.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0017</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0017.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0017.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0018</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0018.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0018.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0018.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0002.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0002.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0002.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0002.04</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0002.05</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0003.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0003.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0004</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0005</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0006</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0006.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0006.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0007</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0008</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0009</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EXF-0010</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0001.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0001.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0001.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0004</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0004.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0004.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0005</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0005.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0005.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0005.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0006</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0007</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0007.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0007.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0008</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0008.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0008.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0008.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0009</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0009.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0009.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0009.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0010</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0011</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0012</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IA-0013</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IMP-0001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IMP-0002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IMP-0003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IMP-0004</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IMP-0005</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IMP-0006</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/LM-0001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/LM-0002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/LM-0003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/LM-0004</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/LM-0005</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/LM-0006</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/LM-0006.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/LM-0007</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/PER-0001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/PER-0002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/PER-0002.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/PER-0002.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/PER-0003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/PER-0004</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/PER-0005</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0001.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0001.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0001.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0001.04</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0002.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0002.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0002.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0003.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0003.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0004</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0004.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0004.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0005</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0005.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0005.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0005.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/RD-0005.04</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0001.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0001.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0001.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0001.04</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0001.05</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0001.06</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0001.07</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0001.08</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0001.09</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0002.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0002.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0002.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0003.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0003.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0003.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0003.04</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0004</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0004.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0005</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0005.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0005.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0005.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0005.04</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0006</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0006.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0006.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0007</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0008</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0008.01</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0008.02</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0008.03</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0008.04</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/REC-0009</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0800</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0801</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0802</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0803</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0804</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0805</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0806</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0807</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0808</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0809</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0810</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0811</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0812</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0813</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0814</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0815</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0816</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0817</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0818</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0819</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0820</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0821</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0822</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0823</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0824</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0825</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0826</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0827</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0828</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0829</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0830</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0831</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0832</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0833</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0834</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0835</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0836</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0837</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0838</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0839</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0840</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0841</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0842</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0843</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0843.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0843.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0843.003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0844</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0845</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0846</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0846.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0846.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0846.003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0847</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0848</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0849</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0850</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0851</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0852</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0853</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0854</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0855</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0856</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0857</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0858</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0859</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0860</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0861</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0862</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0863</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0864</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0865</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0866</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0867</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0868</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0869</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0870</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0871</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0872</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0873</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0873.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0874</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0875</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0877</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0878</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0879</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0880</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0881</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0882</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0883</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0884</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0885</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0886</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0887</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0888</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0889</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0890</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0891</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0892</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0893</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0894</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T0895</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1001</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1001.001</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1001.002</loc></url>
@@ -1606,6 +2105,7 @@
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1027.015</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1027.016</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1027.017</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1027.018</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1028</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1029</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1030</loc></url>
@@ -1966,9 +2466,83 @@
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1222.001</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1222.002</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1223</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1398</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1399</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1400</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1401</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1402</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1403</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1404</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1405</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1406</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1406.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1406.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1407</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1408</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1409</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1410</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1411</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1412</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1413</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1414</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1415</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1416</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1417</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1417.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1417.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1418</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1418.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1419</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1420</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1421</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1422</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1422.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1422.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1423</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1424</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1426</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1427</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1428</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1429</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1430</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1430.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1430.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1432</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1433</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1435</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1436</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1437</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1437.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1438</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1444</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1446</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1447</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1448</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1451</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1452</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1453</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1454</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1456</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1458</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1461</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1464</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1471</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1472</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1474</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1474.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1474.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1474.003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1475</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1476</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1477</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1478</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1480</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1480.001</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1480.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1481</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1481.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1481.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1481.003</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1482</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1483</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1484</loc></url>
@@ -2018,12 +2592,26 @@
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1505.005</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1505.006</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1506</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1507</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1508</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1509</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1510</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1512</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1513</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1514</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1516</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1517</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1518</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1518.001</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1518.002</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1519</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1520</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1521</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1521.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1521.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1521.003</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1522</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1523</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1525</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1526</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1527</loc></url>
@@ -2031,12 +2619,16 @@
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1529</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1530</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1531</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1532</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1533</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1534</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1535</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1536</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1537</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1538</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1539</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1540</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1541</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1542</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1542.001</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1542.002</loc></url>
@@ -2049,6 +2641,7 @@
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1543.003</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1543.004</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1543.005</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1544</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1546</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1546.001</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1546.002</loc></url>
@@ -2225,13 +2818,19 @@
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1574.012</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1574.013</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1574.014</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1575</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1576</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1577</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1578</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1578.001</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1578.002</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1578.003</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1578.004</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1578.005</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1579</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1580</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1581</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1582</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1583</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1583.001</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1583.002</loc></url>
@@ -2326,6 +2925,9 @@
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1602</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1602.001</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1602.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1603</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1604</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1605</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1606</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1606.001</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1606.002</loc></url>
@@ -2344,10 +2946,64 @@
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1614</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1614.001</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1615</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1616</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1617</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1618</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1619</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1620</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1621</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1622</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1623</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1623.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1624</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1624.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1625</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1625.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1626</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1626.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1627</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1627.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1628</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1628.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1628.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1628.003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1629</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1629.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1629.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1629.003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1630</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1630.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1630.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1630.003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1631</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1631.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1632</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1632.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1633</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1633.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1634</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1634.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1635</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1635.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1636</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1636.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1636.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1636.003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1636.004</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1636.005</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1637</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1637.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1638</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1639</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1639.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1640</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1641</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1641.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1642</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1643</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1644</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1645</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1646</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1647</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1648</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1649</loc></url>
@@ -2356,24 +3012,72 @@
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1652</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1653</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1654</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1655</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1655.001</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1656</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1657</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1658</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1659</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1660</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1661</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1662</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1663</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1664</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1665</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1666</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1667</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1668</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1669</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1670</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1671</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1672</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1673</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1674</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1675</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1676</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1677</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1678</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1679</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1680</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1681</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1682</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1683</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1683.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1683.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1684</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1684.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1684.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1685</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1685.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1685.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1685.003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1685.004</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1685.005</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1685.006</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1686</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1686.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1686.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1686.003</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1687</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1688</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1689</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1690</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1691</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1691.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1691.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1692</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1692.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1692.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1693</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1693.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1693.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1694</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1694.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1694.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1695</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1695.001</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1695.002</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/T1695.003</loc></url>
   <url><loc>https://d3fend.mitre.org/poster</loc></url>
   <url><loc>https://d3fend.mitre.org/privacy</loc></url>
   <url><loc>https://d3fend.mitre.org/profile</loc></url>

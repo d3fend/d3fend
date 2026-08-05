@@ -1,0 +1,447 @@
+{
+    "meta": {
+        "title": "CDR Filtering Techniques",
+        "authors": [
+            "Ryan Xu"
+        ],
+        "orgs": [
+            "The MITRE Corporation"
+        ],
+        "description": "",
+        "article": "",
+        "d3fend_version": "1.2.0",
+        "cad_schema_version": 0,
+        "published_date": "2026-02-24T14:40:00.000Z",
+        "references": [],
+        "settings": {},
+        "cad_data_version": 1
+    },
+    "nodes": [
+        {
+            "id": "0.7032304012631014",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -740.121974244225,
+                "y": 750.1556201571825
+            },
+            "data": {
+                "label": "Content Filtering ",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:ContentFiltering",
+                "d3f_class_label": " Content Filtering"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 248,
+                "height": 137
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 248,
+            "height": 137
+        },
+        {
+            "id": "0.47249815289283914",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -89.02670471453109,
+                "y": 243.71435208789921
+            },
+            "data": {
+                "label": "Content Validation ",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Verify and validate contents complies with policy"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
+                    ]
+                ],
+                "d3f_class": "d3f:ContentValidation",
+                "d3f_class_label": "Content Validation"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 188
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "9-copy0.9142249922179582",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -99.35210835142152,
+                "y": 728.9288812993858
+            },
+            "data": {
+                "label": "Content Modification ",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Modify content that does not comply with policy"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
+                ],
+                "d3f_class": "d3f:ContentModification",
+                "d3f_class_label": ":ContentModification"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 452,
+                "height": 181
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 452,
+            "height": 181
+        },
+        {
+            "id": "0.48426736445356067",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -77.344369119107,
+                "y": 1228.447339211184
+            },
+            "data": {
+                "label": "Content Quarantine",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Transfer content that does not comply with policy to quanrantine zone"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
+                ],
+                "d3f_class": "d3f:ContentQuarantine",
+                "d3f_class_label": "Content Quarantine"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 474,
+                "height": 177
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 474,
+            "height": 177
+        },
+        {
+            "id": "0.5762349378605824",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 531.439161437834,
+                "y": 947.9997253710847
+            },
+            "data": {
+                "label": "Content Format Conversion",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Converting a file from one form to another, usually a simpler and safer format"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
+                ],
+                "d3f_class": "d3f:ContentFormatConversion",
+                "d3f_class_label": "Content Format Conversion"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 188
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7617608511325669",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 527.4399860621706,
+                "y": 498.71277053174447
+            },
+            "data": {
+                "label": "Content Excision",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Removing specific, potentially malicious, parts of content"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
+                ],
+                "d3f_class": "d3f:ContentExcision",
+                "d3f_class_label": "Content Excision"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 188
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.0744514779826817",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 530.0536850716577,
+                "y": 726.2521822641864
+            },
+            "data": {
+                "label": "Content Substitution",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Replace specific parts of content with something else"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
+                ],
+                "d3f_class": "d3f:ContentSubstitution",
+                "d3f_class_label": "Content Substitution"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 188
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.40552351868555836",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 511.3630579050854,
+                "y": 234.42329761895974
+            },
+            "data": {
+                "label": "File Format Verification ",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "verifying that a file conforms to its expected format specifications"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
+                    ]
+                ],
+                "d3f_class": "d3f:FileFormatVerification",
+                "d3f_class_label": "File Format Verification"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 188
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.9177074049964316",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 280.87186377773986,
+                "y": 1177.5775816205235
+            },
+            "data": {
+                "label": "Content Rebuild",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Rebuild the file according to the spec so any unreferenced components or objects are removed."
+                    ]
+                ],
+                "d3f_class": "d3f:ContentRebuild"
+            },
+            "measured": {
+                "width": 498,
+                "height": 155
+            },
+            "selected": false,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.47249815289283914",
+            "sourceHandle": "source",
+            "target": "0.7032304012631014",
+            "targetHandle": "target",
+            "id": "xy-edge__0.47249815289283914source-0.7032304012631014target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "9-copy0.9142249922179582",
+            "sourceHandle": "source",
+            "target": "0.7032304012631014",
+            "targetHandle": "target",
+            "id": "xy-edge__9-copy0.9142249922179582source-0.7032304012631014target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.48426736445356067",
+            "sourceHandle": "source",
+            "target": "0.7032304012631014",
+            "targetHandle": "target",
+            "id": "xy-edge__0.48426736445356067source-0.7032304012631014target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.40552351868555836",
+            "sourceHandle": "source",
+            "target": "0.47249815289283914",
+            "targetHandle": "target",
+            "id": "xy-edge__0.40552351868555836source-0.47249815289283914target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5762349378605824",
+            "sourceHandle": "source",
+            "target": "9-copy0.9142249922179582",
+            "targetHandle": "target",
+            "id": "xy-edge__0.5762349378605824source-9-copy0.9142249922179582target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7617608511325669",
+            "sourceHandle": "source",
+            "target": "9-copy0.9142249922179582",
+            "targetHandle": "target",
+            "id": "xy-edge__0.7617608511325669source-9-copy0.9142249922179582target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.0744514779826817",
+            "sourceHandle": "source",
+            "target": "9-copy0.9142249922179582",
+            "targetHandle": "target",
+            "id": "xy-edge__0.0744514779826817source-9-copy0.9142249922179582target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9177074049964316",
+            "sourceHandle": "source",
+            "target": "9-copy0.9142249922179582",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6873659164802763__0.9177074049964316source-9-copy0.9142249922179582target",
+            "selected": false
+        }
+    ]
+}

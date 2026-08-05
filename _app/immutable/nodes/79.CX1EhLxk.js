@@ -1,0 +1,1 @@
+import{r as e}from"../chunks/BMX1ug8m.js";const r=!1;function o({locals:a,url:t,params:l}){e(308,"/weakness")}const s=Object.freeze(Object.defineProperty({__proto__:null,load:o,prerender:r},Symbol.toStringTag,{value:"Module"}));export{s as universal};

@@ -1,0 +1,834 @@
+{
+    "meta": {
+        "title": "CDR Artifacts",
+        "authors": [
+            "Ryan Xu"
+        ],
+        "orgs": [
+            "The MITRE Corporation"
+        ],
+        "description": "",
+        "article": "",
+        "d3fend_version": "1.2.0",
+        "cad_schema_version": 0,
+        "published_date": "2026-02-24T14:40:00.000Z",
+        "references": [],
+        "settings": {},
+        "cad_data_version": 1
+    },
+    "nodes": [
+        {
+            "id": "0.5507247954821324",
+            "type": "artifact-node",
+            "position": {
+                "x": 2605.3034611975286,
+                "y": 159.3354516410002
+            },
+            "data": {
+                "label": "File Section",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:FileSection",
+                "d3f_class_label": "File Section"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 356,
+                "height": 148
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 356,
+            "height": 148
+        },
+        {
+            "id": "0.28963955228702054",
+            "type": "artifact-node",
+            "position": {
+                "x": 4554.488885787471,
+                "y": -176.92030259952372
+            },
+            "data": {
+                "label": "File Magic Bytes",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "A specific type of header signature located at the beginning of a file, used to identify the file format."
+                    ]
+                ],
+                "d3f_class": "d3f:FileMagicBytes",
+                "d3f_class_label": "File Magic Bytes"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 490,
+                "height": 135
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 490,
+            "height": 135
+        },
+        {
+            "id": "0.0490499135274598",
+            "type": "artifact-node",
+            "position": {
+                "x": 3242.5027367573507,
+                "y": -191.77376192722156
+            },
+            "data": {
+                "label": "File Header Block",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "Headers are sections of a file that organize and provide information about specific sections or components of the file. Typically found at the beginning of a file, they often contain file type identification, version information, and metadata such as size, format, and encoding."
+                    ]
+                ],
+                "d3f_class": "d3f:FileHeaderBlock",
+                "d3f_class_label": "File Header Block"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 451,
+                "height": 233
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 451,
+            "height": 233
+        },
+        {
+            "id": "0.1230247439051928",
+            "type": "artifact-node",
+            "position": {
+                "x": 3297.6336863032166,
+                "y": 161.6435723258549
+            },
+            "data": {
+                "label": "File Content Block",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "A section within a file that contains the main content or data payload."
+                    ]
+                ],
+                "d3f_class": "d3f:FileContentBlock",
+                "d3f_class_label": "File Content Block"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 144
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "-copy0.23195137482463135",
+            "type": "artifact-node",
+            "position": {
+                "x": 5160.0227854032855,
+                "y": 235.65300401879256
+            },
+            "data": {
+                "label": "File Metadata",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "Information that describes and provides context about a file's content, structure, and attributes."
+                    ]
+                ],
+                "d3f_class": "d3f:FileMetadata",
+                "d3f_class_label": "File Metadata"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 159
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.34302096991368103",
+            "type": "artifact-node",
+            "position": {
+                "x": 3907.8163768423506,
+                "y": -294.5020661272177
+            },
+            "data": {
+                "label": "File Header Block Content",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "The content of a header block not including the signature."
+                    ]
+                ],
+                "d3f_class": "d3f:FileHeaderBlockContent",
+                "d3f_class_label": "File Header Block Content"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 144
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.09325736548375141",
+            "type": "artifact-node",
+            "position": {
+                "x": 3916.7930091707153,
+                "y": 261.400659281812
+            },
+            "data": {
+                "label": "File Content Block Metadata",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "Content Blocks may contain metadata specific to the block's content at the beginning"
+                    ]
+                ],
+                "d3f_class": "d3f:FileContentBlockMetadata",
+                "d3f_class_label": "File Content Block Metadata"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 144
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.30470669924201865",
+            "type": "artifact-node",
+            "position": {
+                "x": 3914.8448576806754,
+                "y": 83.53552615617423
+            },
+            "data": {
+                "label": "File Content Block Data",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "The actual content or main data within a file or data block."
+                    ]
+                ],
+                "d3f_class": "d3f:FileContentBlockData",
+                "d3f_class_label": "File Content Block Data"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 144
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6146071780317519",
+            "type": "artifact-node",
+            "position": {
+                "x": 2049.583086053262,
+                "y": 172.70595677960375
+            },
+            "data": {
+                "label": "File",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:File",
+                "d3f_class_label": "File"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 241,
+                "height": 113
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 241,
+            "height": 113
+        },
+        {
+            "id": "0.20366737316992256",
+            "type": "artifact-node",
+            "position": {
+                "x": 5643.362978675086,
+                "y": 255.9919029946875
+            },
+            "data": {
+                "label": "Metadata",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Metadata",
+                "d3f_class_label": "Metadata"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.9672516677158717",
+            "type": "artifact-node",
+            "position": {
+                "x": 3912.541234948633,
+                "y": -111.2971259445954
+            },
+            "data": {
+                "label": "File Header Block Signature",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "A sequence of bytes used to identify and validate specific header sections within a file."
+                    ]
+                ],
+                "d3f_class": "d3f:FileHeaderBlockSignature",
+                "d3f_class_label": ":FileHeaderBlockSignature"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 144
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.14499280157174388",
+            "type": "artifact-node",
+            "position": {
+                "x": 3289.0413515291857,
+                "y": 576.1733411878434
+            },
+            "data": {
+                "label": "File Footer Block",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "A section at the end of a file that contains metadata or control information."
+                    ]
+                ],
+                "d3f_class": "d3f:FileFooterBlock",
+                "d3f_class_label": "File Footer Block"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 144
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.16090754731449974",
+            "type": "artifact-node",
+            "position": {
+                "x": 2603.7847361049385,
+                "y": -262.17519179902985
+            },
+            "data": {
+                "label": "Digital Information",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:DigitalInformation",
+                "d3f_class_label": "Digital Information"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 167,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.270595913540307",
+            "type": "artifact-node",
+            "position": {
+                "x": 3908.2968219279173,
+                "y": 667.3988271028556
+            },
+            "data": {
+                "label": "File Footer Block Content",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "The content of a footer block not including the signature."
+                    ]
+                ],
+                "d3f_class": "d3f:FileFooterBlockContent",
+                "d3f_class_label": "File Footer Block Content"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 144
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6136178162729569",
+            "type": "artifact-node",
+            "position": {
+                "x": 3907.1174509129846,
+                "y": 493.76922414518896
+            },
+            "data": {
+                "label": "File Footer Block Signature",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "A sequence of bytes used to identify and validate the footer section within a file."
+                    ]
+                ],
+                "d3f_class": "d3f:FileFooterBlockSignature",
+                "d3f_class_label": ":FileFooterBlockSignature"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 144
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.13706318952564134",
+            "type": "note-node",
+            "position": {
+                "x": 4697.6608904271225,
+                "y": 791.0084850643283
+            },
+            "data": {
+                "label": "ZIP FILE",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Example zip file\n\n1. Local File Header A.txt\n2. Data for A.txt\n3. Local File Header B.txt\n4. Data for B.txt\n5. Central Directory Header A.txt\n6. Central Directory Header B.txt\n7. End of central directory record\n\n\n\n\n1. Header Block\n        header signature: 0x504b0304\n2. Content Block\n3. Header Block\n        header signature: 0x504b0304\n4. Content Block\n5. Header Block\n        header signature: 0x504b0102\n6. Header Block\n        header signature: 0x504b0102\n\n7. Footer Block\n       footer signature: 0x504b0506"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 201,
+                "height": 413
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.11323374588288848",
+            "type": "note-node",
+            "position": {
+                "x": 4997.856724205265,
+                "y": 792.2092683994409
+            },
+            "data": {
+                "label": "PDF FILE",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Example PDF file\n\n\n1. Header\n2. Body\n3. Cross Reference Table\n4. Trailer\n\n\n\n\n1. Header Block\n         header signature: %PDF-1.7\n2. Content Block\n3. Header Block\n          header signature: xref\n4. Footer Block\n          footer signature: trailer"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 194,
+                "height": 304
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6245660335005214",
+            "type": "note-node",
+            "position": {
+                "x": 5320.867441350547,
+                "y": 794.610835069666
+            },
+            "data": {
+                "label": "PE32",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Example PE file\n\n\n1. DOS Header\n2. DOS stub\n3. NTHeaders\n4. Section Table\n5. Sections (.text, .rdata, etc)\n\n\n1. Header Block\n2. Content Block\n3. Header Block\n4. Header Block\n5. Content Block\n\n"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 165,
+                "height": 277
+            },
+            "selected": false,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.0490499135274598",
+            "sourceHandle": "source",
+            "target": "0.34302096991368103",
+            "targetHandle": "target",
+            "id": "xy-edge__0.0490499135274598source-0.34302096991368103target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1230247439051928",
+            "sourceHandle": "source",
+            "target": "0.09325736548375141",
+            "targetHandle": "target",
+            "id": "xy-edge__0.1230247439051928source-0.09325736548375141target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6146071780317519",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge__0.6146071780317519source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.0490499135274598",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge__0.0490499135274598source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1230247439051928",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge__0.1230247439051928source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.34302096991368103",
+            "sourceHandle": "source",
+            "target": "-copy0.23195137482463135",
+            "targetHandle": "target",
+            "id": "xy-edge__0.34302096991368103source--copy0.23195137482463135target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.09325736548375141",
+            "sourceHandle": "source",
+            "target": "-copy0.23195137482463135",
+            "targetHandle": "target",
+            "id": "xy-edge__0.09325736548375141source--copy0.23195137482463135target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "-copy0.23195137482463135",
+            "sourceHandle": "source",
+            "target": "0.20366737316992256",
+            "targetHandle": "target",
+            "id": "xy-edge__-copy0.23195137482463135source-0.20366737316992256target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.0490499135274598",
+            "sourceHandle": "source",
+            "target": "0.9672516677158717",
+            "targetHandle": "target",
+            "id": "xy-edge__0.0490499135274598source-0.9672516677158717target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9672516677158717",
+            "sourceHandle": "source",
+            "target": "-copy0.23195137482463135",
+            "targetHandle": "target",
+            "id": "xy-edge__0.9672516677158717source--copy0.23195137482463135target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.28963955228702054",
+            "sourceHandle": "source",
+            "target": "0.9672516677158717",
+            "targetHandle": "target",
+            "id": "xy-edge__0.28963955228702054source-0.9672516677158717target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.14499280157174388",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge__0.14499280157174388source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.14499280157174388",
+            "sourceHandle": "source",
+            "target": "0.270595913540307",
+            "targetHandle": "target",
+            "id": "xy-edge__0.14499280157174388source-0.270595913540307target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.270595913540307",
+            "sourceHandle": "source",
+            "target": "-copy0.23195137482463135",
+            "targetHandle": "target",
+            "id": "xy-edge__0.270595913540307source--copy0.23195137482463135target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.14499280157174388",
+            "sourceHandle": "source",
+            "target": "0.6136178162729569",
+            "targetHandle": "target",
+            "id": "xy-edge__0.14499280157174388source-0.6136178162729569target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6136178162729569",
+            "sourceHandle": "source",
+            "target": "-copy0.23195137482463135",
+            "targetHandle": "target",
+            "id": "xy-edge__0.6136178162729569source--copy0.23195137482463135target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5507247954821324",
+            "sourceHandle": "source",
+            "target": "0.16090754731449974",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9009283139400021__0.5507247954821324source-0.16090754731449974target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1230247439051928",
+            "sourceHandle": "source",
+            "target": "0.30470669924201865",
+            "targetHandle": "target",
+            "id": "xy-edge-0.28576952371344255__0.1230247439051928source-0.30470669924201865target",
+            "selected": false
+        }
+    ]
+}

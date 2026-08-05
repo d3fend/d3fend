@@ -1,0 +1,1 @@
+const _="/api/cad/apps/ide/examples.json",a="/api/cad/apps/ide/examples";function p(i){const e=String(i??"").trim();if(!e)throw new Error("CAD IDE example file is required.");return`${a}/${encodeURIComponent(e)}`}export{_ as C,p as c};

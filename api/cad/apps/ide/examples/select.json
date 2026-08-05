@@ -1,0 +1,1 @@
+{"name":"select simple","script":"console.log('Number of nodes in the canvas:', temp_nodes.length);\nconsole.log('Number of edges in the canvas:', temp_edges.length);\nfor (let node of temp_nodes) {\n  console.log(JSON.stringify(node));\n}\nfor (let edge of temp_edges) {\n  console.log(JSON.stringify(edge));\n}"}

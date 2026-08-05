@@ -1,0 +1,1 @@
+import{U as c,k as o,V as i,aQ as d,b2 as k}from"./C5fqCc9O.js";function u(e,n,f){c(()=>{var r=o(()=>n(e,f==null?void 0:f())||{});if(f&&(r!=null&&r.update)){var a=!1,t={};i(()=>{var s=f();d(s),a&&k(t,s)&&(t=s,r.update(s))}),a=!0}if(r!=null&&r.destroy)return()=>r.destroy()})}export{u as a};

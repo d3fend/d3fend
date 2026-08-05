@@ -1,0 +1,336 @@
+{
+    "meta": {
+        "title": "CDR File Format Techniques",
+        "authors": [
+            "Ryan Xu"
+        ],
+        "orgs": [
+            "The MITRE Corporation"
+        ],
+        "description": "",
+        "article": "",
+        "d3fend_version": "1.2.0",
+        "cad_schema_version": 0,
+        "published_date": "2026-02-24T14:40:00.000Z",
+        "references": [],
+        "settings": {},
+        "cad_data_version": 1
+    },
+    "nodes": [
+        {
+            "id": "0.40552351868555836",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 272.00961679830516,
+                "y": -114.8583859403023
+            },
+            "data": {
+                "label": "File Format Verification ",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "verifying that a file conforms to its expected format specifications"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
+                    ]
+                ],
+                "d3f_class": "d3f:FileFormatVerification",
+                "d3f_class_label": "File Format Verification"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 188
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.34945809922391347",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 1401.1007713425292,
+                "y": -1018.6338250323118
+            },
+            "data": {
+                "label": "File Metadata Value Verification ",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "The process of checking specific static values within a file, such as file signatures or magic numbers, to ensure they match the expected values defined by the file format specification."
+                    ],
+                    [
+                        "reference",
+                        "https://core.ac.uk/download/pdf/326762883.pdf"
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ],
+                    [
+                        "description",
+                        "File format specifications often define expected values for specific fields. A common example are file signatures, or magic numbers, which are used to quickly identify files. Another example is within the Compound Document Header of Microsoft Office files, the 29th and 30th byte identifies the byte order, specifically 0xFFFE for little-endian. This technique verifies that the file's static values match the values of the declared file format's specification."
+                    ]
+                ],
+                "d3f_class": "d3f:FileMetadataValueVerification",
+                "d3f_class_label": ":FileMetadataValueVerification"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 393
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.3258831965382004",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 2150.761246438602,
+                "y": -962.5334479088913
+            },
+            "data": {
+                "label": "File Magic Byte Verification",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Utilizing the magic number to verify the file"
+                    ],
+                    [
+                        "reference",
+                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ]
+                ],
+                "d3f_class": "d3f:FileMagicByteVerification",
+                "d3f_class_label": "File Magic Byte Verification"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 216
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.9774559813293479",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 1394.649700971011,
+                "y": -286.2132315442788
+            },
+            "data": {
+                "label": "File Metadata Consistency Validation",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "The process of validating the consistency between a file's metadata and its actual content, ensuring that elements like declared lengths, pointers, and checksums accurately describe the file's content."
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ],
+                    [
+                        "reference",
+                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
+                    ],
+                    [
+                        "description",
+                        "This technique involves validating the consistency between a file's metadata and its actual content. It checks elements like declared lengths, pointers, and checksums to ensure they accurately describe the file's content. For instance, if a header specifies a content block of 50 bytes, this should be verified, and CRC values should be recalculated and compared."
+                    ]
+                ],
+                "d3f_class": "d3f:FileMetadataConsistencyValidation",
+                "d3f_class_label": ":FileMetadataConsistencyValidation"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 383
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.2756682259786878",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 1395.8410836950475,
+                "y": 114.42636438325371
+            },
+            "data": {
+                "label": "File Content Decompression Checking",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Checking if compressed or encoded data sections can be successfully decompressed or decoded. Can follow with further analysis with semantic knowledge"
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ],
+                    [
+                        "reference",
+                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
+                    ]
+                ],
+                "d3f_class": "d3f:FileContentDecompressionChecking",
+                "d3f_class_label": "File Content Decompression Checking"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 250
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.16229972296000217",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 1394.7558653098035,
+                "y": -602.6992411842602
+            },
+            "data": {
+                "label": "File Internal Structure Verification",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "The process of verifying that a file's internal structure adheres to the expected format, ensuring the presence and correct positioning of defined blocks or sections within the file."
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ],
+                    [
+                        "description",
+                        "This technique ensures that a file's internal structure adheres to the expected format. It verifies the presence and correct positioning of defined blocks or sections within the file according to its format specification."
+                    ]
+                ],
+                "d3f_class": "d3f:FileInternalStructureVerification",
+                "d3f_class_label": ":FileInternalStructureVerification"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 498,
+                "height": 293
+            },
+            "selected": false,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.34945809922391347",
+            "sourceHandle": "source",
+            "target": "0.40552351868555836",
+            "targetHandle": "target",
+            "id": "xy-edge__0.34945809922391347source-0.40552351868555836target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3258831965382004",
+            "sourceHandle": "source",
+            "target": "0.34945809922391347",
+            "targetHandle": "target",
+            "id": "xy-edge__0.3258831965382004source-0.34945809922391347target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9774559813293479",
+            "sourceHandle": "source",
+            "target": "0.40552351868555836",
+            "targetHandle": "target",
+            "id": "xy-edge__0.9774559813293479source-0.40552351868555836target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.2756682259786878",
+            "sourceHandle": "source",
+            "target": "0.40552351868555836",
+            "targetHandle": "target",
+            "id": "xy-edge__0.2756682259786878source-0.40552351868555836target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.16229972296000217",
+            "sourceHandle": "source",
+            "target": "0.40552351868555836",
+            "targetHandle": "target",
+            "id": "xy-edge__0.16229972296000217source-0.40552351868555836target",
+            "selected": false
+        }
+    ]
+}

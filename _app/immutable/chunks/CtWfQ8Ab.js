@@ -1,1 +1,0 @@
-import{r as o}from"./DLFHhg9C.js";async function _({fetch:t}){const a=await t(o("/api/offensive-technique/all.json")),e=await t(o("/api/technique/all.json")),s=await a.json(),n=await e.json(),i=await(await t(o("/api/dao/artifacts.json"))).json();return{a_remote_autocomplete_list:s,d_remote_autocomplete_list:n,dao_remote_autocomplete_list:i}}export{_ as t};

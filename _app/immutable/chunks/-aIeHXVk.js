@@ -1,1 +1,0 @@
-import{ah as y,I as u,b4 as _,b5 as o,J as t,ap as p,aD as i,R as l,Q as n,S as g,an as m}from"./M0Oc_jcV.js";function b(d,r){let a=null,E=t;var s;if(t){a=g;for(var e=m(document.head);e!==null&&(e.nodeType!==p||e.data!==d);)e=i(e);if(e===null)l(!1);else{var f=i(e);e.remove(),n(f)}}t||(s=document.head.appendChild(y()));try{u(()=>r(s),_|o)}finally{E&&(l(!0),n(a))}}export{b as h};

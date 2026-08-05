@@ -4,12 +4,12 @@
 }
 
 :root {
-  --primary-color: #e1e1e1;
-  --primary-selected: #b7b5b5;
-  --dark-background-color: #333;
-  --warning: #c37474;
-  --item-hover: rgb(202, 201, 207);
-  --attack-node: #ffc3c7;
+  --primary-color: var(--d3fend-surface-app);
+  --primary-selected: var(--d3fend-surface-selected);
+  --dark-background-color: var(--d3fend-text-default);
+  --warning: var(--d3fend-status-warning-muted);
+  --item-hover: var(--d3fend-surface-hover);
+  --attack-node: var(--d3fend-cad-node-attack);
 }
 
 
@@ -130,11 +130,11 @@ ul {
 }
 
 a {
-  color: #005B94;
+  color: var(--d3fend-link-default);
   text-decoration: none;
 }
 
-button a { color: black;}
+button a { color: var(--d3fend-text-strong);}
 
 a:hover {
   text-decoration: underline;
@@ -151,26 +151,31 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   box-sizing: border-box;
-  border: 1px solid #ccc;
+  border: 1px solid var(--d3fend-border-default);
   border-radius: 2px;
 }
 
 input:disabled {
-  color: #ccc;
+  color: var(--d3fend-border-default);
+}
+
+/* The autocomplete library otherwise moves lists above inputs near the viewport bottom. */
+.autocomplete-list {
+  top: 0 !important;
 }
 
 /* button {
-  color: #333;
-  background-color: #f4f4f4;
+  color: var(--d3fend-text-default);
+  background-color: var(--d3fend-surface-quiet);
   outline: none;
 } */
 
 button:active {
-  background-color: #ddd;
+  background-color: var(--d3fend-border-subtle);
 }
 
 button:focus {
-  border-color: #666;
+  border-color: var(--d3fend-text-subdued);
 }
 
 dd {
@@ -252,7 +257,11 @@ dt {
 
 .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 .2rem .5rem 0 rgba(0, 0, 0, 0.2);
+  background-color: var(--d3fend-surface-slate-soft);
+  border: 1px solid var(--d3fend-border-hairline);
+  box-sizing: border-box;
+  color: var(--d3fend-text-default);
+  box-shadow: 0 .2rem .5rem 0 var(--d3fend-overlay-card-shadow);
   transition: 0.3s;
   border-radius: .4rem;
   /* 5px rounded corners */
@@ -277,7 +286,7 @@ dt {
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-  box-shadow: 0 .5rem 1rem 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 .5rem 1rem 0 var(--d3fend-overlay-card-shadow);
 }
 
 .flex {
@@ -376,19 +385,19 @@ dt {
 }
 
 .bg-light {
-  background-color: white;
+  background-color: var(--d3fend-surface-panel);
 }
 
 .bg-dark {
-  background-color: darkgray;
+  background-color: var(--d3fend-border-strong);
 }
 
 .text-light {
-  color: white;
+  color: var(--d3fend-text-inverse);
 }
 
 .text-dark {
-  color: darkgray;
+  color: var(--d3fend-border-strong);
 }
 
 .text-bold {
@@ -403,13 +412,14 @@ dt {
   table-layout: auto;
   border-collapse: collapse;
   text-indent: 0;
-  border: 1px solid black;
+  border: 1px solid var(--d3fend-border-black);
+  background-color: var(--d3fend-surface-recessed);
 }
 
 .table-fixed {
   table-layout: fixed;
   border-collapse: collapse;
-  border: 1px solid black;
+  border: 1px solid var(--d3fend-border-black);
 }
 
 .table-auto th,
@@ -417,7 +427,7 @@ dt {
 .table-auto td,
 .table-fixed td {
   text-align: left;
-  border: 1px solid gray;
+  border: 1px solid var(--d3fend-border-strong);
   vertical-align: top;
   display: table-cell;
   padding: .5rem;
@@ -430,29 +440,29 @@ dt {
 code {
   font-family: menlo, inconsolata, monospace;
   font-size: calc(1em - 2px);
-  color: #555;
-  background-color: #f0f0f0;
+  color: var(--d3fend-text-muted);
+  background-color: var(--d3fend-surface-subtle);
   padding: 0.2em 0.4em;
   border-radius: 2px;
 }
 
 .black {
-  color: black;
+  color: var(--d3fend-text-strong);
 }
 
 .glow {
-  text-shadow: 2px 2px 10px #3bf730;
+  text-shadow: 2px 2px 10px var(--d3fend-glow-success);
 }
 .glow-red {
-  text-shadow: 2px 2px 10px red;
+  text-shadow: 2px 2px 10px var(--d3fend-status-danger);
 }
 
 .glow:hover {
-  text-shadow: 2px 2px 10px #4d87fa;
+  text-shadow: 2px 2px 10px var(--d3fend-glow-focus);
 }
 
 .glow-blue {
-  text-shadow: 2px 2px 10px #4d87fa;
+  text-shadow: 2px 2px 10px var(--d3fend-glow-focus);
 }
 
 html.scroll-smooth {
@@ -474,5 +484,5 @@ body.scroll--none {
 }
 
 .poster_border {
-  border: 1px solid black;
+  border: 1px solid var(--d3fend-border-black);
 }
