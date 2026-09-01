@@ -1,0 +1,600 @@
+{
+    "meta": {
+        "title": "SPARTA IA-0002: Compromise Software Defined Radio",
+        "authors": [
+            "Ivan Kirillov"
+        ],
+        "orgs": [
+            "MITRE"
+        ],
+        "description": "A diagram depicting how IA-0002 is mapped and represented in D3FEND for Space.",
+        "article": "",
+        "d3fend_version": "",
+        "cad_schema_version": 0,
+        "published_date": "",
+        "references": [
+            ""
+        ],
+        "settings": {}
+    },
+    "nodes": [
+        {
+            "id": "0.45923852079034744",
+            "type": "artifact-node",
+            "position": {
+                "x": -112.05312472767544,
+                "y": -148.32329148783447
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Spacecraft",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Spacecraft"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.941019734713825",
+            "type": "artifact-node",
+            "position": {
+                "x": -136.81863368541954,
+                "y": 49.81093084365805
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Software-Defined Radio Computer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Software-definedRadioComputer"
+            },
+            "measured": {
+                "width": 231,
+                "height": 92
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 231,
+            "height": 92
+        },
+        {
+            "id": "0.2082241789867717",
+            "type": "attack-node",
+            "position": {
+                "x": -825.132118533632,
+                "y": 243.15077546263677
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Compromise Software Defined Radio - SPARTA",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:IA-0002"
+            },
+            "measured": {
+                "width": 310,
+                "height": 94
+            },
+            "selected": false,
+            "width": 310,
+            "height": 94,
+            "dragging": false
+        },
+        {
+            "id": "0.3971500362750826",
+            "type": "artifact-node",
+            "position": {
+                "x": -166.45258552327982,
+                "y": 239.11680456646585
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Software-defined Radio Waveform Application",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Software-definedRadioWaveformApplication"
+            },
+            "measured": {
+                "width": 293,
+                "height": 103
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 293,
+            "height": 103
+        },
+        {
+            "id": "0.7782311049576138",
+            "type": "artifact-node",
+            "position": {
+                "x": -506.7163211510684,
+                "y": 35.79138750829699
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Software-defined Radio Configuration",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Software-definedRadioConfiguration"
+            },
+            "measured": {
+                "width": 254,
+                "height": 108
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 254,
+            "height": 108
+        },
+        {
+            "id": "0.1326045476774772",
+            "type": "note-node",
+            "position": {
+                "x": -761.3184405378292,
+                "y": -177.48059238903755
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Configuration vs. Waveform",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Many SDR SoCs/platforms have well-defined register interfaces\nfor the RF front-end and separate logic/processing for the waveform, \nmaking independent modification straightforward. \n\n\nExamples: Xilinx RFSoC, AD9361"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 379,
+                "height": 142
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.3300477061931668",
+            "type": "note-node",
+            "position": {
+                "x": 210.69196337342333,
+                "y": -21.456620208490804
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "SDR Types",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "We define two types of SDRs: devices and computers.\n\n\nSDR computers are considered to be self-contained radio\nsystems that have onboard compute capability (e.g., DSP, FPGA).\nExample: Flexradio Flex-8400M\n\n\nSDR devices are those without onboard computer and \ntherfeore require a host computer for running the actual waveform. \nExample: RTL-SDR\n\n\nOn a spacecraft/satellite, you'd expect to see an SDR computer."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 368,
+                "height": 251
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.689478184714446",
+            "type": "note-node",
+            "position": {
+                "x": -157.27559278914674,
+                "y": 604.4807442026532
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "SDR Waveforms",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "We define SDR waveforms as software implementations of the set of transformations\napplied to information to be transmitted and the corresponding set of transformations\nto convert received signals back to their information content.\n\n\nExample: a Software Communications Architecture (SCA) waveform application."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 463,
+                "height": 142
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.01931088573830242",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 304.01471727183616,
+                "y": 232.50053180730885
+            },
+            "data": {
+                "label": "Restore Software",
+                "sequence": "0",
+                "d3f_class": "d3f:RestoreSoftware",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 162,
+                "height": 112
+            }
+        },
+        {
+            "id": "0.41002001777478003",
+            "type": "event-node",
+            "position": {
+                "x": -997.8183304676562,
+                "y": 37.65259908218697
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Software-defined Radio RF State Change Event",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Software-definedRadioRFStateChangeEvent"
+            },
+            "measured": {
+                "width": 332,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 332,
+            "height": 102
+        },
+        {
+            "id": "0.3050487419645138",
+            "type": "artifact-node",
+            "position": {
+                "x": -536.5743471399248,
+                "y": 377.6019053161702
+            },
+            "data": {
+                "label": "FPGA Bitstream",
+                "sequence": "0",
+                "d3f_class": "d3f:FPGABitstream",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 156,
+                "height": 112
+            }
+        },
+        {
+            "id": "0.7826231973533",
+            "type": "artifact-node",
+            "position": {
+                "x": -410.41269595874155,
+                "y": 542.4756210634126
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Executable Binary",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:ExecutableBinary"
+            },
+            "measured": {
+                "width": 166,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6404189728631975",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -847.1563746663825,
+                "y": 539.1856498490425
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Software Artifact Allowlisting",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:ExecutableAllowlisting"
+            },
+            "measured": {
+                "width": 191,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6724194140970813",
+            "type": "event-node",
+            "position": {
+                "x": 169.44473057400234,
+                "y": 428.14912136404877
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "SDR Waveform Application Load Event",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Software-definedRadioWaveformLoadEvent"
+            },
+            "measured": {
+                "width": 290,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.45923852079034744",
+            "sourceHandle": "source",
+            "target": "0.941019734713825",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5674904283344213__0.45923852079034744source-0.941019734713825target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:executes",
+                "label": "executes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.941019734713825",
+            "sourceHandle": "source",
+            "target": "0.3971500362750826",
+            "targetHandle": "target",
+            "id": "xy-edge-0.1996461168148126__0.941019734713825source-0.3971500362750826target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": [
+                    "contains"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.941019734713825",
+            "sourceHandle": "source",
+            "target": "0.7782311049576138",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7820358657460126__0.941019734713825source-0.7782311049576138target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-modify",
+                "label": [
+                    "may-modify"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.2082241789867717",
+            "sourceHandle": "source",
+            "target": "0.7782311049576138",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7960964328890965__0.2082241789867717source-0.7782311049576138target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-modify",
+                "label": "may-modify"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.2082241789867717",
+            "sourceHandle": "source",
+            "target": "0.3971500362750826",
+            "targetHandle": "target",
+            "id": "xy-edge-0.47425735365291155__0.2082241789867717source-0.3971500362750826target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1326045476774772",
+            "sourceHandle": "source",
+            "target": "0.7782311049576138",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8297121585105676__0.1326045476774772source-0.7782311049576138target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3300477061931668",
+            "sourceHandle": "source",
+            "target": "0.941019734713825",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4829934435190295__0.3300477061931668source-0.941019734713825target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.689478184714446",
+            "sourceHandle": "source",
+            "target": "0.3971500362750826",
+            "targetHandle": "target",
+            "id": "xy-edge-0.637169454618776__0.689478184714446source-0.3971500362750826target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:restores",
+                "label": "restores"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.01931088573830242",
+            "sourceHandle": "source",
+            "target": "0.3971500362750826",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7534655848246995__0.01931088573830242source-0.3971500362750826target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:has-participant",
+                "label": "has-participant"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.41002001777478003",
+            "sourceHandle": "source",
+            "target": "0.7782311049576138",
+            "targetHandle": "target",
+            "id": "xy-edge-0.34576300248154535__0.41002001777478003source-0.7782311049576138target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3971500362750826",
+            "sourceHandle": "source",
+            "target": "0.3050487419645138",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9037661830718521__0.3971500362750826source-0.3050487419645138target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3971500362750826",
+            "sourceHandle": "source",
+            "target": "0.7826231973533",
+            "targetHandle": "target",
+            "id": "xy-edge-0.14107781650655382__0.3971500362750826source-0.7826231973533target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-block",
+                "label": "may-block"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6404189728631975",
+            "sourceHandle": "source",
+            "target": "0.3050487419645138",
+            "targetHandle": "target",
+            "id": "xy-edge-0.003530385647269818__0.6404189728631975source-0.3050487419645138target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-block",
+                "label": "may-block"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6404189728631975",
+            "sourceHandle": "source",
+            "target": "0.7826231973533",
+            "targetHandle": "target",
+            "id": "xy-edge-0.641351822195775__0.6404189728631975source-0.7826231973533target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:has-participant",
+                "label": "has-participant"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6724194140970813",
+            "sourceHandle": "source",
+            "target": "0.3971500362750826",
+            "targetHandle": "target",
+            "id": "xy-edge-0.0014513306100407686__0.6724194140970813source-0.3971500362750826target",
+            "selected": false
+        }
+    ]
+}

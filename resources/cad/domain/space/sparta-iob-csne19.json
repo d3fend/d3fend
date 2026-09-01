@@ -1,0 +1,452 @@
+{
+    "meta": {
+        "title": "SPARTA IOB CSNE-19: Unexpected High-Priority Messages on the CAN Bus",
+        "authors": [
+            "Ivan Kirillov"
+        ],
+        "orgs": [
+            "MITRE"
+        ],
+        "description": "Depicts how CSNE-19 is and bus traffic is represented in D3FEND for Space.",
+        "article": "",
+        "d3fend_version": "",
+        "cad_schema_version": 0,
+        "published_date": "",
+        "references": [
+            ""
+        ],
+        "settings": {}
+    },
+    "nodes": [
+        {
+            "id": "0.22889589665332932",
+            "type": "condition-node",
+            "position": {
+                "x": 393.26105677128135,
+                "y": 20.0932346747729
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "[x-opencti-bus-traffic:can_message_id < 'expected_lowest_priority' AND x-opencti-bus-traffic:src_ref.subsystem != 'authorized_subsystem']",
+                "sequence": "0",
+                "user_properties": []
+            },
+            "measured": {
+                "width": 1074,
+                "height": 43
+            },
+            "selected": false,
+            "width": 1074,
+            "height": 43,
+            "dragging": false
+        },
+        {
+            "id": "0.8636887728831844",
+            "type": "note-node",
+            "position": {
+                "x": 545.7891090339219,
+                "y": -107.61991105598023
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "SPARTA IOB CSNE-19",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Detection of unexpected high-priority CAN messages (lower message IDs) originating from unauthorized subsystems. \nThis may indicate that a threat actor is injecting high-priority messages to dominate the CAN bus and manipulate subsystem communications."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 763,
+                "height": 71
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5916643653414664",
+            "type": "agent-node",
+            "position": {
+                "x": 869.7109880554311,
+                "y": 446.6723749695951
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Local Attacker",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:LocalAttacker"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.013504614656568381",
+            "type": "attack-node",
+            "position": {
+                "x": 792.8425118070998,
+                "y": 270.1484612124437
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Bus Traffic Replay - SPARTA",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:EX-0001.02"
+            },
+            "measured": {
+                "width": 331,
+                "height": 84
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 331,
+            "height": 84
+        },
+        {
+            "id": "0.23778327762818086",
+            "type": "artifact-node",
+            "position": {
+                "x": 671.9369253039232,
+                "y": 104.16665085250705
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Bus Network Node",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:BusNetworkNode"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6315742369675177",
+            "type": "artifact-node",
+            "position": {
+                "x": 1002.2602614213683,
+                "y": 104.16665085250702
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Bus Network Traffic",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:BusNetworkTraffic"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7224077589000268",
+            "type": "artifact-node",
+            "position": {
+                "x": 58.9657861169114,
+                "y": 99.6261238955662
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Spacecraft",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Spacecraft"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.0014982956422135985",
+            "type": "artifact-node",
+            "position": {
+                "x": 392.69451745206203,
+                "y": 103.0315191132718
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Bus Network",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:BusNetwork"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.74792958017754",
+            "type": "artifact-node",
+            "position": {
+                "x": 1292.8539866655813,
+                "y": 105.30178259174218
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Bus Network Frame",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:BusNetworkFrame"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.600681985915365",
+            "type": "artifact-node",
+            "position": {
+                "x": 1580.0423166920887,
+                "y": 107.73465649116528
+            },
+            "data": {
+                "label": "Bus Message",
+                "sequence": "0",
+                "d3f_class": "d3f:BusMessage",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 176,
+                "height": 110
+            }
+        },
+        {
+            "id": "0.034149464185237455",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 1567.11100790357,
+                "y": 339.69305764086903
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Bus Message Authentication",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "Bus Message Authentication"
+            },
+            "measured": {
+                "width": 199,
+                "height": 106
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 199,
+            "height": 106
+        }
+    ],
+    "edges": [
+        {
+            "data": {
+                "label": "has-condition"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8636887728831844",
+            "sourceHandle": "source",
+            "target": "0.22889589665332932",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8569146172421667__0.8636887728831844source-0.22889589665332932target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:initiates",
+                "label": [
+                    "initiates"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5916643653414664",
+            "sourceHandle": "source",
+            "target": "0.013504614656568381",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9964231630562131__0.5916643653414664source-0.013504614656568381target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:uses",
+                "label": [
+                    "uses"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.013504614656568381",
+            "sourceHandle": "source",
+            "target": "0.23778327762818086",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4176083722786176__0.013504614656568381source-0.23778327762818086target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:produces",
+                "label": "produces"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.013504614656568381",
+            "sourceHandle": "source",
+            "target": "0.6315742369675177",
+            "targetHandle": "target",
+            "id": "xy-edge-0.027610101786221808__0.013504614656568381source-0.6315742369675177target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7224077589000268",
+            "sourceHandle": "source",
+            "target": "0.0014982956422135985",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7767059180147142__0.7224077589000268source-0.0014982956422135985target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": [
+                    "contains"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.0014982956422135985",
+            "sourceHandle": "source",
+            "target": "0.23778327762818086",
+            "targetHandle": "target",
+            "id": "xy-edge-0.1484975764176043__0.0014982956422135985source-0.23778327762818086target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": [
+                    "contains"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6315742369675177",
+            "sourceHandle": "source",
+            "target": "0.74792958017754",
+            "targetHandle": "target",
+            "id": "xy-edge-0.40388415677117184__0.6315742369675177source-0.74792958017754target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:transmits",
+                "label": "transmits"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.23778327762818086",
+            "sourceHandle": "source",
+            "target": "0.6315742369675177",
+            "targetHandle": "target",
+            "id": "xy-edge-0.0840071075316503__0.23778327762818086source-0.6315742369675177target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.74792958017754",
+            "sourceHandle": "source",
+            "target": "0.600681985915365",
+            "targetHandle": "target",
+            "id": "xy-edge-0.741371742852674__0.74792958017754source-0.600681985915365target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:authenticates",
+                "label": [
+                    "authenticates"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.034149464185237455",
+            "sourceHandle": "source",
+            "target": "0.600681985915365",
+            "targetHandle": "target",
+            "id": "xy-edge-0.1578506991276194__0.034149464185237455source-0.600681985915365target",
+            "selected": false
+        }
+    ]
+}

@@ -901,8 +901,8 @@
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:RawMemoryAccessFunction</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:ReadFile</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:ReadMemory</loc></url>
+  <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:Real-timeClock</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:Real-timeOperatingSystem</loc></url>
-  <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:RealtimeClock</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:Receiver</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:Record</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:RemoteAuthenticationService</loc></url>
@@ -1023,7 +1023,6 @@
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:TFTPNetworkTraffic</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:TFTPServer</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:TabletComputer</loc></url>
-  <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:Telecommand</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:TerminateProcess</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:TertiaryStorage</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:TestExecutionTool</loc></url>
@@ -1154,6 +1153,7 @@
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:WindowsWriteProcessMemory</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:WiredLink</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:WirelessAccessPoint</loc></url>
+  <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:WirelessCommand</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:WirelessLink</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:WirelessRouter</loc></url>
   <url><loc>https://d3fend.mitre.org/dao/artifact/d3f:WriteFile</loc></url>
@@ -1424,8 +1424,8 @@
   <url><loc>https://d3fend.mitre.org/event/d3f:ServiceUpdateEvent</loc></url>
   <url><loc>https://d3fend.mitre.org/event/d3f:Software-definedRadioEvent</loc></url>
   <url><loc>https://d3fend.mitre.org/event/d3f:Software-definedRadioRFStateChangeEvent</loc></url>
-  <url><loc>https://d3fend.mitre.org/event/d3f:Software-definedRadioWaveformConfigurationEvent</loc></url>
-  <url><loc>https://d3fend.mitre.org/event/d3f:Software-definedRadioWaveformLoadEvent</loc></url>
+  <url><loc>https://d3fend.mitre.org/event/d3f:Software-definedRadioWaveformApplicationConfigurationEvent</loc></url>
+  <url><loc>https://d3fend.mitre.org/event/d3f:Software-definedRadioWaveformApplicationLoadEvent</loc></url>
   <url><loc>https://d3fend.mitre.org/event/d3f:SoftwareClockEvent</loc></url>
   <url><loc>https://d3fend.mitre.org/event/d3f:SoftwareTimerEvent</loc></url>
   <url><loc>https://d3fend.mitre.org/event/d3f:StorageDeviceEvent</loc></url>
@@ -1738,6 +1738,7 @@
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0003.10</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0003.11</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0003.12</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0003.13</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0004</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0005</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/DE-0006</loc></url>
@@ -1775,6 +1776,7 @@
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0010.02</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0010.03</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0010.04</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0010.05</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0011</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0012</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/EX-0012.01</loc></url>
@@ -1865,6 +1867,14 @@
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IMP-0004</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IMP-0005</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IMP-0006</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IMP-0007</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IMP-0008</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IMP-0009</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IMP-0010</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IMP-0011</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IMP-0012</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IMP-0013</loc></url>
+  <url><loc>https://d3fend.mitre.org/offensive-technique/attack/IMP-0014</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/LM-0001</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/LM-0002</loc></url>
   <url><loc>https://d3fend.mitre.org/offensive-technique/attack/LM-0003</loc></url>

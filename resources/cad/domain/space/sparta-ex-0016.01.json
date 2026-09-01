@@ -1,0 +1,569 @@
+{
+    "meta": {
+        "title": "SPARTA EX-0016.01: Uplink Jamming",
+        "authors": [
+            "Ivan Kirillov"
+        ],
+        "orgs": [
+            "MITRE"
+        ],
+        "description": "A model of SPARTA EX-0016.01 along with related events and artifacts.",
+        "article": "",
+        "d3fend_version": "",
+        "cad_schema_version": 0,
+        "published_date": "",
+        "references": [
+            "https://sparta.aerospace.org/technique/EX-0016/01/"
+        ],
+        "settings": {}
+    },
+    "nodes": [
+        {
+            "id": "0.36818430763332133",
+            "type": "attack-node",
+            "position": {
+                "x": -48.91545717267445,
+                "y": -17.690029611111086
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Uplink Jamming - SPARTA",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:EX-0016.01"
+            },
+            "measured": {
+                "width": 374,
+                "height": 103
+            },
+            "selected": false,
+            "width": 374,
+            "height": 103,
+            "dragging": false
+        },
+        {
+            "id": "0.4358117986626119",
+            "type": "agent-node",
+            "position": {
+                "x": -542.4783643388474,
+                "y": -16.973738731645806
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Wireless Attacker",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:WirelessAttacker"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "13i6pnu0flrrxn1q",
+            "type": "artifact-node",
+            "position": {
+                "x": 577.1224235275763,
+                "y": -20.377911987211903
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Satellite",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Satellite"
+            },
+            "measured": {
+                "width": 175,
+                "height": 107
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "1yopm2m1g9lk6e0h",
+            "type": "artifact-node",
+            "position": {
+                "x": 575.5907707512133,
+                "y": -415.3199153086514
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Satellite Receiver",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Receiver"
+            },
+            "measured": {
+                "width": 175,
+                "height": 107
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "1eenok90gcby1c1l",
+            "type": "artifact-node",
+            "position": {
+                "x": -185.53234925877558,
+                "y": -396.96664802889
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Ground Transmitter",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Transmitter"
+            },
+            "measured": {
+                "width": 175,
+                "height": 107
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0s1hg8h00ondeo0b",
+            "type": "artifact-node",
+            "position": {
+                "x": 55.49284858778799,
+                "y": -617.1509245152463
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Satellite Uplink",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:WirelessLink"
+            },
+            "measured": {
+                "width": 175,
+                "height": 107
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0unz8gq0y902de1f",
+            "type": "note-node",
+            "position": {
+                "x": -631.7416785717276,
+                "y": -383.517057368833
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Transmitter",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "This represents the ground transmitter end of the uplink."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 312,
+                "height": 80
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 312,
+            "height": 80
+        },
+        {
+            "id": "11ypwze1xmlpbn1y",
+            "type": "note-node",
+            "position": {
+                "x": 891.0687343890787,
+                "y": -397.2244192790681
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Receiver",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "This represents the satellite receiver end of the uplink."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 298,
+                "height": 70
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "15qjbxc0odeda501",
+            "type": "event-node",
+            "position": {
+                "x": 428.71310536403615,
+                "y": -618.6319139110481
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Physical Link Down Event",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:PhysicalLinkDownEvent"
+            },
+            "measured": {
+                "width": 197,
+                "height": 107
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0xcjlg019425i41d",
+            "type": "event-node",
+            "position": {
+                "x": 661.355197720776,
+                "y": -1145.070437524286
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Physical Link Error Disable Event",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:PhysicalLinkErrorDisableEvent"
+            },
+            "measured": {
+                "width": 230,
+                "height": 107
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "1oucvp01m0b0ho11",
+            "type": "note-node",
+            "position": {
+                "x": 396.6182301860248,
+                "y": -776.5614693208366
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Link Events",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "These represent possible events that may be\nproduced and recorded by the Satellite's receiver\nas a result of jamming."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 271,
+                "height": 95
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0ffgslk1j24b6516",
+            "type": "note-node",
+            "position": {
+                "x": -122.77756674693487,
+                "y": -810.7874330686941
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Wireless Links",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "In D3FEND's ontology, WirelessLink is\na sub-class of PhysicalLink."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 215,
+                "height": 82
+            },
+            "selected": false,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "data": {
+                "d3f_property": "d3f:initiates",
+                "label": "initiates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.4358117986626119",
+            "sourceHandle": "source",
+            "target": "0.36818430763332133",
+            "targetHandle": "target",
+            "id": "xy-edge-0.22674004336458886__0.4358117986626119source-0.36818430763332133target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "13i6pnu0flrrxn1q",
+            "sourceHandle": "source",
+            "target": "1yopm2m1g9lk6e0h",
+            "targetHandle": "target",
+            "id": "xy-edge-084jhza1dhrcmz15__13i6pnu0flrrxn1qsource-1yopm2m1g9lk6e0htarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:impairs",
+                "label": "impairs"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.36818430763332133",
+            "sourceHandle": "source",
+            "target": "1yopm2m1g9lk6e0h",
+            "targetHandle": "target",
+            "id": "xy-edge-069xed308vk5zi12__0.36818430763332133source-1yopm2m1g9lk6e0htarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:uses",
+                "label": [
+                    "uses"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.4358117986626119",
+            "sourceHandle": "source",
+            "target": "1eenok90gcby1c1l",
+            "targetHandle": "target",
+            "id": "xy-edge-03bsrv51dejo8u03__0.4358117986626119source-1eenok90gcby1c1ltarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:uses",
+                "label": "uses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0s1hg8h00ondeo0b",
+            "sourceHandle": "source",
+            "target": "1eenok90gcby1c1l",
+            "targetHandle": "target",
+            "id": "xy-edge-1kdiopb1hqtqvd1g__0s1hg8h00ondeo0bsource-1eenok90gcby1c1ltarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:uses",
+                "label": "uses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0s1hg8h00ondeo0b",
+            "sourceHandle": "source",
+            "target": "1yopm2m1g9lk6e0h",
+            "targetHandle": "target",
+            "id": "xy-edge-0nods1v0eipc8v1p__0s1hg8h00ondeo0bsource-1yopm2m1g9lk6e0htarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:jams",
+                "label": "jams"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.36818430763332133",
+            "sourceHandle": "source",
+            "target": "0s1hg8h00ondeo0b",
+            "targetHandle": "target",
+            "id": "xy-edge-0cwp3du0waarsc14__0.36818430763332133source-0s1hg8h00ondeo0btarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0unz8gq0y902de1f",
+            "sourceHandle": "source",
+            "target": "1eenok90gcby1c1l",
+            "targetHandle": "target",
+            "id": "xy-edge-1q19w4g1umidb80v__0unz8gq0y902de1fsource-1eenok90gcby1c1ltarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "11ypwze1xmlpbn1y",
+            "sourceHandle": "source",
+            "target": "1yopm2m1g9lk6e0h",
+            "targetHandle": "target",
+            "id": "xy-edge-0rsvzjr1yuqghv0f__11ypwze1xmlpbn1ysource-1yopm2m1g9lk6e0htarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:has-participant",
+                "label": "has-participant"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "15qjbxc0odeda501",
+            "sourceHandle": "source",
+            "target": "0s1hg8h00ondeo0b",
+            "targetHandle": "target",
+            "id": "xy-edge-0jp6qe203cmvop0b__15qjbxc0odeda501source-0s1hg8h00ondeo0btarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:has-participant",
+                "label": "has-participant"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0xcjlg019425i41d",
+            "sourceHandle": "source",
+            "target": "0s1hg8h00ondeo0b",
+            "targetHandle": "target",
+            "id": "xy-edge-0mwj5p01ie1lx21a__0xcjlg019425i41dsource-0s1hg8h00ondeo0btarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-produce",
+                "label": "may-produce"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "1yopm2m1g9lk6e0h",
+            "sourceHandle": "source",
+            "target": "15qjbxc0odeda501",
+            "targetHandle": "target",
+            "id": "xy-edge-0ruxq7e0hcisbj1e__1yopm2m1g9lk6e0hsource-15qjbxc0odeda501target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-produce",
+                "label": "may-produce"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "1yopm2m1g9lk6e0h",
+            "sourceHandle": "source",
+            "target": "0xcjlg019425i41d",
+            "targetHandle": "target",
+            "id": "xy-edge-1skdm291mfbsz80o__1yopm2m1g9lk6e0hsource-0xcjlg019425i41dtarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "1oucvp01m0b0ho11",
+            "sourceHandle": "source",
+            "target": "0xcjlg019425i41d",
+            "targetHandle": "target",
+            "id": "xy-edge-13t6pkx1arclox0m__1oucvp01m0b0ho11source-0xcjlg019425i41dtarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "1oucvp01m0b0ho11",
+            "sourceHandle": "source",
+            "target": "15qjbxc0odeda501",
+            "targetHandle": "target",
+            "id": "xy-edge-0u1bnjm0xgmb7i1n__1oucvp01m0b0ho11source-15qjbxc0odeda501target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0ffgslk1j24b6516",
+            "sourceHandle": "source",
+            "target": "0s1hg8h00ondeo0b",
+            "targetHandle": "target",
+            "id": "xy-edge-0h8yd5d17hpy131u__0ffgslk1j24b6516source-0s1hg8h00ondeo0btarget",
+            "selected": false
+        }
+    ]
+}

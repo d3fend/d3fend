@@ -1,0 +1,407 @@
+{
+    "meta": {
+        "title": "SPARTA IOB UCEB-4: Unexpected Changes to Encryption Configuration Settings",
+        "authors": [
+            "Ivan Kirillov"
+        ],
+        "orgs": [
+            "MITRE"
+        ],
+        "description": "A model of IOB UCEB-4, with related artifacts, events, and countermeasures.",
+        "article": "",
+        "d3fend_version": "",
+        "cad_schema_version": 0,
+        "published_date": "",
+        "references": [
+            "https://sparta.aerospace.org/related-work/iob/UCEB-4"
+        ],
+        "settings": {}
+    },
+    "nodes": [
+        {
+            "id": "0.768116937443986",
+            "type": "attack-node",
+            "position": {
+                "x": -1020.1525923578042,
+                "y": -61.26417416360553
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Cryptographic Modes - SPARTA",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:DE-0003.07"
+            },
+            "measured": {
+                "width": 226,
+                "height": 101
+            },
+            "selected": false,
+            "width": 226,
+            "height": 101,
+            "dragging": false
+        },
+        {
+            "id": "0.8379047010353471",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -228.53230041847368,
+                "y": -65.42475274100121
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Cryptographic Module Operating Mode Restriction",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CryptographicModuleOperatingModeRestriction"
+            },
+            "measured": {
+                "width": 356,
+                "height": 118
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 356,
+            "height": 118
+        },
+        {
+            "id": "0.9523186954122781",
+            "type": "artifact-node",
+            "position": {
+                "x": -971.4590588160228,
+                "y": -267.96837376594533
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Spacecraft",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Spacecraft"
+            },
+            "measured": {
+                "width": 175,
+                "height": 107
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.03888432487628657",
+            "type": "artifact-node",
+            "position": {
+                "x": -636.4816858709896,
+                "y": -268.02303906397947
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Hardware Cryptographic Module",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:HardwareCryptographicModule"
+            },
+            "measured": {
+                "width": 182,
+                "height": 94
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.20975074049145082",
+            "type": "note-node",
+            "position": {
+                "x": -813.5687383240187,
+                "y": -535.5292813291226
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "SPARTA IOB UCEB-4",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Detection of unexpected changes to encryption settings, potentially indicating that\nthe encryption mechanism on the spacecraft has been disabled or bypassed without authorization."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 532,
+                "height": 82
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.47720047072306704",
+            "type": "condition-node",
+            "position": {
+                "x": -933.6946847411169,
+                "y": -373.5565296967354
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "[x-opencti-encryption-config:status = 'disabled' AND x-opencti-encryption-config:change_time != 'authorized_change_time']",
+                "sequence": "0",
+                "user_properties": []
+            },
+            "measured": {
+                "width": 782,
+                "height": 54
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 782,
+            "height": 54
+        },
+        {
+            "id": "0.3053845817187988",
+            "type": "agent-node",
+            "position": {
+                "x": -1293.5833643915157,
+                "y": -65.9675843221784
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Wireless Attacker",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:WirelessAttacker"
+            },
+            "measured": {
+                "width": 175,
+                "height": 107
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7619921177627254",
+            "type": "note-node",
+            "position": {
+                "x": -311.8366037969488,
+                "y": -260.9137551275379
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Crypto Module",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "This example assumes that the spacecraft is using a hardware\ncryptographic module for its crypto, but this could also be done in\nsoftware."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 356,
+                "height": 95
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.31506040686651526",
+            "type": "artifact-node",
+            "position": {
+                "x": -677.0659711421778,
+                "y": -61.34178102971279
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Cryptographic Module Operating Mode",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CryptographicModuleOperatingMode"
+            },
+            "measured": {
+                "width": 304,
+                "height": 106
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 304,
+            "height": 106
+        },
+        {
+            "id": "0.18533868261906616",
+            "type": "event-node",
+            "position": {
+                "x": -706.4613029077959,
+                "y": 134.14871839499534
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Cryptographic Module Operating Mode Change Event",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CryptographicModuleOperatingModeChangeEvent"
+            },
+            "measured": {
+                "width": 368,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 368,
+            "height": 110
+        }
+    ],
+    "edges": [
+        {
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9523186954122781",
+            "sourceHandle": "source",
+            "target": "0.03888432487628657",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8576059797777876__0.9523186954122781source-0.03888432487628657target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "has-condition"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.20975074049145082",
+            "sourceHandle": "source",
+            "target": "0.47720047072306704",
+            "targetHandle": "target",
+            "id": "xy-edge-0.46730089751446613__0.20975074049145082source-0.47720047072306704target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:initiates",
+                "label": [
+                    "initiates"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3053845817187988",
+            "sourceHandle": "source",
+            "target": "0.768116937443986",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9117522654371631__0.3053845817187988source-0.768116937443986target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7619921177627254",
+            "sourceHandle": "source",
+            "target": "0.03888432487628657",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6758308139253737__0.7619921177627254source-0.03888432487628657target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:restricts",
+                "label": "restricts"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8379047010353471",
+            "sourceHandle": "source",
+            "target": "0.31506040686651526",
+            "targetHandle": "target",
+            "id": "xy-edge-0.399240392512604__0.8379047010353471source-0.022957048347176934target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.03888432487628657",
+            "sourceHandle": "source",
+            "target": "0.31506040686651526",
+            "targetHandle": "target",
+            "id": "xy-edge-0.25437260464209765__0.03888432487628657source-0.31506040686651526target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:has-participant",
+                "label": "has-participant"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.18533868261906616",
+            "sourceHandle": "source",
+            "target": "0.31506040686651526",
+            "targetHandle": "target",
+            "id": "xy-edge-0.0014228056474437922__0.18533868261906616source-0.31506040686651526target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-modify",
+                "label": [
+                    "may-modify"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.768116937443986",
+            "sourceHandle": "source",
+            "target": "0.31506040686651526",
+            "targetHandle": "target",
+            "id": "xy-edge-0.2460377351114108__0.768116937443986source-0.31506040686651526target",
+            "selected": false
+        }
+    ]
+}

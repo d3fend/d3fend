@@ -1,0 +1,576 @@
+{
+    "meta": {
+        "title": "Satellite User Terminal Example",
+        "authors": [
+            "Ivan Kirillov"
+        ],
+        "orgs": [
+            "MITRE"
+        ],
+        "description": "A generalized example of a satellite user terminal modeled with D3FEND for Space artifacts.",
+        "article": "",
+        "d3fend_version": "1.5.0",
+        "cad_schema_version": 0,
+        "published_date": "",
+        "references": [
+            ""
+        ],
+        "settings": {}
+    },
+    "nodes": [
+        {
+            "id": "0.47824329829468604",
+            "type": "artifact-node",
+            "position": {
+                "x": 553.704652702902,
+                "y": -1942.2925644045863
+            },
+            "data": {
+                "label": "User Terminal",
+                "d3f_class": "d3f:DigitalSystem",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "The complete ground-based system that allows a user or local network to communicate through a satellite. It includes RF equipment, modem/baseband processing, networking, power, control, and user interfaces."
+                    ]
+                ],
+                "sequence": "0"
+            },
+            "measured": {
+                "width": 497,
+                "height": 200
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5390633483592046",
+            "type": "artifact-node",
+            "position": {
+                "x": -53.011652141791274,
+                "y": -1384.276953766206
+            },
+            "data": {
+                "label": "Outdoor Unit (ODU)",
+                "d3f_class": "d3f:HardwareDevice",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "The externally mounted portion of the terminal that interfaces directly with the satellite RF link. It typically includes the antenna, transmit and receive RF electronics, filtering, amplification, and pointing hardware."
+                    ]
+                ],
+                "sequence": "0"
+            },
+            "measured": {
+                "width": 497,
+                "height": 200
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6081220747334317",
+            "type": "artifact-node",
+            "position": {
+                "x": 1321.7614986746937,
+                "y": -1391.6476724560748
+            },
+            "data": {
+                "label": "Indoor Unit (IDU)",
+                "d3f_class": "d3f:Router",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "The indoor or user-accessible portion of the terminal that performs modem, networking, management, and power functions. In some modern systems, IDU functions may be integrated into the ODU or a single terminal enclosure."
+                    ]
+                ],
+                "sequence": "0"
+            },
+            "measured": {
+                "width": 497,
+                "height": 200
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.2878783613298531",
+            "type": "artifact-node",
+            "position": {
+                "x": 2135.265108690583,
+                "y": -1185.5560083819105
+            },
+            "data": {
+                "label": "Local User Device",
+                "d3f_class": "d3f:HardwareDevice",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "A representative client device such as a laptop or phone connected behind the router. It is included to complete the user-facing end of the end-to-end path and to show where decoded and routed traffic ultimately lands."
+                    ]
+                ],
+                "sequence": "0",
+                "data": {
+                    "label": "Local User Device",
+                    "d3f_class": "d3f:HardwareDevice",
+                    "user_properties": [
+                        [
+                            "rdfs:comment",
+                            "A representative client device such as a laptop or phone connected behind the Starlink router. It is included to complete the user-facing end of the end-to-end path and to show where decoded and routed traffic ultimately lands. T."
+                        ]
+                    ],
+                    "sequence": "0"
+                }
+            },
+            "measured": {
+                "width": 497,
+                "height": 186
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.386980192856191",
+            "type": "artifact-node",
+            "position": {
+                "x": 1119.796256793299,
+                "y": -1002.1414509918553
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Satellite Modem",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "The baseband device that converts user data into a satellite waveform for transmission and converts received satellite waveforms back into user data. It handles modulation, demodulation, coding, framing, synchronization, and link control."
+                    ]
+                ],
+                "d3f_class": "d3f:RadioModem",
+                "data": {
+                    "label": "Satellite Modem",
+                    "sequence": "0",
+                    "user_properties": [
+                        [
+                            "d",
+                            ""
+                        ]
+                    ],
+                    "d3f_class": "d3f:RadioModem"
+                }
+            },
+            "measured": {
+                "width": 497,
+                "height": 200
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8477845884590699",
+            "type": "artifact-node",
+            "position": {
+                "x": -409.84998196413005,
+                "y": -969.9232662894705
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "RF Transceiver",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "The RF transceiver (including front-end) used by the terminal for bidirectional communication."
+                    ]
+                ],
+                "d3f_class": "d3f:Transceiver",
+                "data": {
+                    "label": "Transceiver",
+                    "sequence": "0",
+                    "user_properties": [
+                        [
+                            "r",
+                            ""
+                        ]
+                    ],
+                    "d3f_class": "d3f:Transceiver"
+                }
+            },
+            "measured": {
+                "width": 497,
+                "height": 156
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.3560259620957841",
+            "type": "artifact-node",
+            "position": {
+                "x": 146.9400641595991,
+                "y": -1098.7466215659301
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "GNSS Receiver",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "User terminals may incorporate a GNSS receiver for position and timing information."
+                    ]
+                ],
+                "d3f_class": "d3f:GNSSReceiver",
+                "data": {
+                    "label": "GNSS Receiver",
+                    "sequence": "0",
+                    "user_properties": [
+                        [
+                            "r",
+                            ""
+                        ]
+                    ],
+                    "d3f_class": "d3f:GNSSReceiver"
+                }
+            },
+            "measured": {
+                "width": 497,
+                "height": 156
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.18838182721467123",
+            "type": "artifact-node",
+            "position": {
+                "x": 2011.3177204604626,
+                "y": -1703.4831027820528
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Power Supply",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "The component that converts external power into the voltages required by the terminal. It may power only the IDU or also provide power to the ODU over coax, Ethernet, or a dedicated cable."
+                    ]
+                ],
+                "d3f_class": "d3f:PowerSupply",
+                "data": {
+                    "label": "Power Supply",
+                    "sequence": "0",
+                    "user_properties": [
+                        [
+                            "r",
+                            ""
+                        ]
+                    ],
+                    "d3f_class": "d3f:PowerSupply"
+                }
+            },
+            "measured": {
+                "width": 497,
+                "height": 186
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6712804228717988",
+            "type": "note-node",
+            "position": {
+                "x": 1410.7954010677552,
+                "y": -1605.05909533413
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "IDU Modeling",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "IDUs typically contain router/wireless router functionality,\nwhich is why we use d3f:Router here for their base class.\nOtherwise, it would likely be d3f:EmbeddedComputer."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 314,
+                "height": 95
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "1fjjp5l0oonw4v1s",
+            "type": "artifact-node",
+            "position": {
+                "x": 1652.2719220031768,
+                "y": -1087.662588233177
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Firmware",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "The firmware image running on the IDU,\nusually capable of being updated by the\nSatCom provider."
+                    ]
+                ],
+                "d3f_class": "d3f:Firmware"
+            },
+            "measured": {
+                "width": 459,
+                "height": 156
+            },
+            "selected": false,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "style": "stroke-width: 2px;",
+            "id": "xy-edge-0.40751960031130097__0.47824329829468604source-0.5390633483592046target",
+            "source": "0.47824329829468604",
+            "target": "0.5390633483592046",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "style": "stroke-width: 2px;",
+            "id": "xy-edge-0.2562079360773992__0.47824329829468604source-0.6081220747334317target",
+            "source": "0.47824329829468604",
+            "target": "0.6081220747334317",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:connected-to",
+                "label": "connected-to"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.2878783613298531",
+            "sourceHandle": "source",
+            "target": "0.6081220747334317",
+            "targetHandle": "target",
+            "id": "xy-edge-0.2531416630061031__0.2878783613298531source-0.6081220747334317target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:communicates-with",
+                "label": "communicates-with"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.2878783613298531",
+            "sourceHandle": "source",
+            "target": "0.6081220747334317",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6084853277937817__0.2878783613298531source-0.6081220747334317target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6081220747334317",
+            "sourceHandle": "source",
+            "target": "0.386980192856191",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4221919151631671__0.6081220747334317source-0.386980192856191target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:connected-to",
+                "label": "connected-to"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5390633483592046",
+            "sourceHandle": "source",
+            "target": "0.6081220747334317",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6051161281969256__0.5390633483592046source-0.6081220747334317target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:connected-to",
+                "label": "connected-to"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6081220747334317",
+            "sourceHandle": "source",
+            "target": "0.5390633483592046",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4521787073870702__0.6081220747334317source-0.5390633483592046target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5390633483592046",
+            "sourceHandle": "source",
+            "target": "0.8477845884590699",
+            "targetHandle": "target",
+            "id": "xy-edge-0.779835065357072__0.5390633483592046source-0.8477845884590699target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5390633483592046",
+            "sourceHandle": "source",
+            "target": "0.3560259620957841",
+            "targetHandle": "target",
+            "id": "xy-edge-0.19482461026505238__0.5390633483592046source-0.3560259620957841target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6081220747334317",
+            "sourceHandle": "source",
+            "target": "0.18838182721467123",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6047800560183223__0.6081220747334317source-0.18838182721467123target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:powered-by",
+                "label": "powered-by"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6081220747334317",
+            "sourceHandle": "source",
+            "target": "0.18838182721467123",
+            "targetHandle": "target",
+            "id": "xy-edge-0.09054928825535569__0.6081220747334317source-0.18838182721467123target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6712804228717988",
+            "sourceHandle": "source",
+            "target": "0.6081220747334317",
+            "targetHandle": "target",
+            "id": "xy-edge-0.2602285817907888__0.6712804228717988source-0.6081220747334317target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:communicates-with",
+                "label": "communicates-with"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5390633483592046",
+            "sourceHandle": "source",
+            "target": "0.6081220747334317",
+            "targetHandle": "target",
+            "id": "xy-edge-0.760451762467746__0.5390633483592046source-0.6081220747334317target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:communicates-with",
+                "label": "communicates-with"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.386980192856191",
+            "sourceHandle": "source",
+            "target": "0.8477845884590699",
+            "targetHandle": "target",
+            "id": "xy-edge-0.456345759674067__0.386980192856191source-0.8477845884590699target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6081220747334317",
+            "sourceHandle": "source",
+            "target": "1fjjp5l0oonw4v1s",
+            "targetHandle": "target",
+            "id": "xy-edge-0dc662x03s5xtb19__0.6081220747334317source-1fjjp5l0oonw4v1starget",
+            "selected": false
+        }
+    ]
+}

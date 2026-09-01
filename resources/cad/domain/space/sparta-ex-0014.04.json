@@ -1,0 +1,682 @@
+{
+    "meta": {
+        "title": "SPARTA EX-0014.04: Position, Navigation, and Timing (PNT) Spoofing",
+        "authors": [
+            "Ivan Kirillov"
+        ],
+        "orgs": [
+            "MITRE"
+        ],
+        "description": "A model of SPARTA EX-0014.04 along with related events and artifacts.",
+        "article": "",
+        "d3fend_version": "",
+        "cad_schema_version": 0,
+        "published_date": "",
+        "references": [
+            "https://sparta.aerospace.org/technique/EX-0014/04/"
+        ],
+        "settings": {}
+    },
+    "nodes": [
+        {
+            "id": "0.9030440058343858",
+            "type": "artifact-node",
+            "position": {
+                "x": 972.9882946162726,
+                "y": 283.24809873235193
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Satellite",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Satellite"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.42546234982450515",
+            "type": "artifact-node",
+            "position": {
+                "x": 970.116590687278,
+                "y": -26.384424086128895
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "GPS Receiver",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:GNSSReceiver"
+            },
+            "measured": {
+                "width": 152,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.13684106482575886",
+            "type": "artifact-node",
+            "position": {
+                "x": 300.6772773856461,
+                "y": -38.45284707129128
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "GPS Signal",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "type",
+                        "L1"
+                    ],
+                    [
+                        "carrier frequency",
+                        "1575.42 MHz"
+                    ]
+                ],
+                "d3f_class": "d3f:GNSSSignal",
+                "data": {
+                    "label": "Malicious GPS Signal",
+                    "sequence": "0",
+                    "user_properties": [
+                        [
+                            "type",
+                            "L1"
+                        ],
+                        [
+                            "c",
+                            ""
+                        ]
+                    ],
+                    "d3f_class": "d3f:ElectromagneticSignal",
+                    "data": {
+                        "label": "Malicious GPS Signal",
+                        "sequence": "0",
+                        "user_properties": [
+                            [
+                                "t",
+                                ""
+                            ]
+                        ],
+                        "d3f_class": "d3f:ElectromagneticSignal",
+                        "data": {
+                            "label": "RF GPS Signal",
+                            "sequence": "0",
+                            "user_properties": [
+                                [
+                                    "carrier frequency",
+                                    "1575.42 MHz"
+                                ],
+                                [
+                                    "t",
+                                    ""
+                                ]
+                            ],
+                            "d3f_class": "d3f:ElectromagneticSignal",
+                            "data": {
+                                "label": "RF GPS Signal",
+                                "sequence": "0",
+                                "user_properties": [
+                                    [
+                                        "c",
+                                        ""
+                                    ]
+                                ],
+                                "d3f_class": "d3f:ElectromagneticSignal",
+                                "data": {
+                                    "label": "RF GPS Signal",
+                                    "sequence": "0",
+                                    "user_properties": [
+                                        [
+                                            "c",
+                                            ""
+                                        ]
+                                    ],
+                                    "d3f_class": "d3f:ElectromagneticSignal",
+                                    "data": {
+                                        "label": "RF GPS Signal",
+                                        "sequence": "0",
+                                        "user_properties": [
+                                            [
+                                                "c",
+                                                ""
+                                            ]
+                                        ],
+                                        "d3f_class": "d3f:ElectromagneticSignal"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "measured": {
+                "width": 359,
+                "height": 137
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 359,
+            "height": 137
+        },
+        {
+            "id": "0.9747772278774811",
+            "type": "condition-node",
+            "position": {
+                "x": 781.6936401879955,
+                "y": -196.75892358697357
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Signal strength (malicious GPS signal) > Signal strength (legit GPS Signal)",
+                "sequence": "0",
+                "user_properties": []
+            },
+            "measured": {
+                "width": 555,
+                "height": 91
+            },
+            "selected": false,
+            "width": 555,
+            "height": 91,
+            "dragging": false
+        },
+        {
+            "id": "0.6986334010450396",
+            "type": "artifact-node",
+            "position": {
+                "x": 707.342902718811,
+                "y": 286.60565421586915
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Operating System Clock",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OperatingSystemClock"
+            },
+            "measured": {
+                "width": 192,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.014641054618104943",
+            "type": "artifact-node",
+            "position": {
+                "x": 394.0318799645535,
+                "y": 280.78808462698004
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Time Record",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:TimeRecord"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.34599609003379805",
+            "type": "artifact-node",
+            "position": {
+                "x": 920.631935380929,
+                "y": 531.3084005119379
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Real-time Operating System",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:RealTimeOperatingSystem"
+            },
+            "measured": {
+                "width": 161,
+                "height": 100
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.42881149444522826",
+            "type": "artifact-node",
+            "position": {
+                "x": 550.7483589463944,
+                "y": 534.985693968568
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "OS Kernel",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Kernel"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8768099670687846",
+            "type": "event-node",
+            "position": {
+                "x": 698.6503619028172,
+                "y": 68.86356845152436
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "System Clock Update Event",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:SystemClockUpdateEvent"
+            },
+            "measured": {
+                "width": 206,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.36818430763332133",
+            "type": "attack-node",
+            "position": {
+                "x": -213.5851927910012,
+                "y": -21.43252360243669
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Position, Navigation, and Timing (PNT) Spoofing - SPARTA",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:EX-0014.04"
+            },
+            "measured": {
+                "width": 374,
+                "height": 103
+            },
+            "selected": false,
+            "width": 374,
+            "height": 103,
+            "dragging": false
+        },
+        {
+            "id": "0.29227531521390726",
+            "type": "note-node",
+            "position": {
+                "x": -101.89463662641106,
+                "y": 135.9161770782517
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "GNSS Spoofing",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "This diagram shows how we currently model GNSS spoofing and GNSS-related\nartifacts. Future releases will incorporate countermeasures and model refinements."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 452,
+                "height": 87
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.4358117986626119",
+            "type": "agent-node",
+            "position": {
+                "x": -523.1679917376915,
+                "y": -24.69788777210816
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Wireless Attacker",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:WirelessAttacker"
+            },
+            "measured": {
+                "width": 163,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.016781310559838336",
+            "type": "artifact-node",
+            "position": {
+                "x": 80.21964148342681,
+                "y": -244.42134260118567
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "GPS Satellite",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:GNSSSatellite"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7266911355442321",
+            "type": "note-node",
+            "position": {
+                "x": 586.8289131839146,
+                "y": -338.6517834551243
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Condition",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "This condition captures the fact that the signal strength\nof the malicious signal must be higher than the signal\nstrength of the legitimate GPS signal at the receiver."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 303,
+                "height": 101
+            },
+            "selected": false,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9030440058343858",
+            "sourceHandle": "source",
+            "target": "0.42546234982450515",
+            "targetHandle": "target",
+            "id": "xy-edge-0.23605863393117976__0.9030440058343858source-0.42546234982450515target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:has-participant",
+                "label": "has-participant"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9747772278774811",
+            "sourceHandle": "source",
+            "target": "0.42546234982450515",
+            "targetHandle": "target",
+            "id": "xy-edge-0.038135107876460794__0.9747772278774811source-0.42546234982450515target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:receives",
+                "label": "receives"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.42546234982450515",
+            "sourceHandle": "source",
+            "target": "0.13684106482575886",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5956774667107319__0.42546234982450515source-0.13684106482575886target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:carries",
+                "label": "carries"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.13684106482575886",
+            "sourceHandle": "source",
+            "target": "0.014641054618104943",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6777305976336571__0.13684106482575886source-0.014641054618104943target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": [
+                    "contains"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.34599609003379805",
+            "sourceHandle": "source",
+            "target": "0.6986334010450396",
+            "targetHandle": "target",
+            "id": "xy-edge-0.44131933482477814__0.34599609003379805source-0.6986334010450396target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:derived-from",
+                "label": "derived-from"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6986334010450396",
+            "sourceHandle": "source",
+            "target": "0.014641054618104943",
+            "targetHandle": "target",
+            "id": "xy-edge-0.42005582317554924__0.6986334010450396source-0.014641054618104943target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:runs",
+                "label": "runs"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9030440058343858",
+            "sourceHandle": "source",
+            "target": "0.34599609003379805",
+            "targetHandle": "target",
+            "id": "xy-edge-0.12320521710850674__0.9030440058343858source-0.6986334010450396target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:has-participant",
+                "label": "has-participant"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9747772278774811",
+            "sourceHandle": "source",
+            "target": "0.13684106482575886",
+            "targetHandle": "target",
+            "id": "xy-edge-0.30635634367447406__0.9747772278774811source-0.13684106482575886target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.34599609003379805",
+            "sourceHandle": "source",
+            "target": "0.42881149444522826",
+            "targetHandle": "target",
+            "id": "xy-edge-0.39589502310990266__0.34599609003379805source-0.42881149444522826target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:implemented-by",
+                "label": "implemented-by"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6986334010450396",
+            "sourceHandle": "source",
+            "target": "0.42881149444522826",
+            "targetHandle": "target",
+            "id": "xy-edge-0.42965477089917437__0.6986334010450396source-0.42881149444522826target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:associated-with",
+                "label": "associated-with"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8768099670687846",
+            "sourceHandle": "source",
+            "target": "0.6986334010450396",
+            "targetHandle": "target",
+            "id": "xy-edge-0.3502010844379345__0.8768099670687846source-0.6986334010450396target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:spoofs",
+                "label": "spoofs"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.36818430763332133",
+            "sourceHandle": "source",
+            "target": "0.13684106482575886",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5901999087567287__0.36818430763332133source-0.13684106482575886target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:initiates",
+                "label": "initiates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.4358117986626119",
+            "sourceHandle": "source",
+            "target": "0.36818430763332133",
+            "targetHandle": "target",
+            "id": "xy-edge-0.22674004336458886__0.4358117986626119source-0.36818430763332133target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:produces",
+                "label": "produces"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.016781310559838336",
+            "sourceHandle": "source",
+            "target": "0.13684106482575886",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4406311058721335__0.016781310559838336source-0.13684106482575886target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7266911355442321",
+            "sourceHandle": "source",
+            "target": "0.9747772278774811",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6650347468314121__0.7266911355442321source-0.9747772278774811target",
+            "selected": false
+        }
+    ]
+}

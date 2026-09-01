@@ -1,0 +1,781 @@
+{
+    "meta": {
+        "title": "SPARTA IOB UACE-10: Logs of Processed Commands Flooding",
+        "authors": [
+            "Ivan Kirillov"
+        ],
+        "orgs": [
+            "MITRE"
+        ],
+        "description": "A model of SPARTA IOB UACE-10, with related artifacts, events, and countermeasures.",
+        "article": "",
+        "d3fend_version": "",
+        "cad_schema_version": 0,
+        "published_date": "",
+        "references": [
+            "https://sparta.aerospace.org/related-work/iob/UACE-10"
+        ],
+        "settings": {}
+    },
+    "nodes": [
+        {
+            "id": "0.5859106149830474",
+            "type": "note-node",
+            "position": {
+                "x": 714.4977628765467,
+                "y": -125.6590337745833
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "SPARTA IOB UACE-10",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Detection of an unusually high number of processed commands recorded in spacecraft logs, \nwhich may indicate a flooding attack using valid commands. Such a surge can overwhelm \nspacecraft processing capabilities, leading to resource exhaustion like CPU spikes, \nmemory depletion, and increased battery usage. Monitoring log entries can reveal if \nthe spacecraft is being flooded with valid but excessive commands, which could create \ndenial of service conditions by saturating system processing resources."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 507,
+                "height": 133
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 507,
+            "height": 133
+        },
+        {
+            "id": "0.5605479051985163",
+            "type": "condition-node",
+            "position": {
+                "x": 491.0110080455685,
+                "y": 85.57267338141455
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "[x-opencti-log-entry:log_type = 'command' AND x-opencti-log-entry:entry_count > 'expected_threshold' AND x-opencti-log-entry:entry_rate > 'normal_rate']",
+                "sequence": "0",
+                "user_properties": []
+            },
+            "measured": {
+                "width": 956,
+                "height": 72
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 956,
+            "height": 72
+        },
+        {
+            "id": "0.4322646069826872",
+            "type": "artifact-node",
+            "position": {
+                "x": -308.41048055833414,
+                "y": 178.19563516944055
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Spacecraft",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Spacecraft"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8344819159004639",
+            "type": "artifact-node",
+            "position": {
+                "x": -9.067036496418154,
+                "y": 178.13275990716852
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Spacecraft Computer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:SpacecraftComputer"
+            },
+            "measured": {
+                "width": 181,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5321086758020648",
+            "type": "artifact-node",
+            "position": {
+                "x": 258.15431945288447,
+                "y": 181.4117485802068
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Real-time operating system",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Real-timeOperatingSystem"
+            },
+            "measured": {
+                "width": 210,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.07677719875686706",
+            "type": "artifact-node",
+            "position": {
+                "x": 598.3757435629129,
+                "y": 182.95772904114392
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Flight Software",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:FlightSoftware"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.19382490042021605",
+            "type": "attack-node",
+            "position": {
+                "x": 583.1380169625993,
+                "y": 920.0478913039617
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Overflow Audit Log - SPARTA",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:DE-0010"
+            },
+            "measured": {
+                "width": 205,
+                "height": 89
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 205,
+            "height": 89
+        },
+        {
+            "id": "0.868005075174986",
+            "type": "artifact-node",
+            "position": {
+                "x": 598.1565545418274,
+                "y": 722.8395469573375
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Audit Log",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:EventLog"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.47156637034558024",
+            "type": "event-node",
+            "position": {
+                "x": 260.00752107986534,
+                "y": 729.9654205020062
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Event Log Full Event",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:EventLogEvent"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8773216033466126",
+            "type": "note-node",
+            "position": {
+                "x": -124.57862130984051,
+                "y": 743.3806509052342
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Log Full",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "A log full event could be an indicator that the\nevent log has been flooded with valid commands."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 274,
+                "height": 83
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6107430617270108",
+            "type": "artifact-node",
+            "position": {
+                "x": 1317.9805941112204,
+                "y": 195.4697787637395
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Telecommand",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:WirelessCommand"
+            },
+            "measured": {
+                "width": 205,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 205,
+            "height": 110
+        },
+        {
+            "id": "0.8318982811674562",
+            "type": "attack-node",
+            "position": {
+                "x": 1328.185204900903,
+                "y": 917.8247818305467
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Valid Commands - SPARTA",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:EX-0013.01"
+            },
+            "measured": {
+                "width": 176,
+                "height": 89
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 176,
+            "height": 89
+        },
+        {
+            "id": "0.027484709131364804",
+            "type": "note-node",
+            "position": {
+                "x": 1619.00862015697,
+                "y": 207.745154771164
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "TC",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "This is the valid command produced by the attacker."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 289,
+                "height": 71
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6263093291039754",
+            "type": "agent-node",
+            "position": {
+                "x": 1330.6235130527502,
+                "y": 1088.3826358048573
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Wireless Attacker",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:WirelessAttacker"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.4797939445026701",
+            "type": "agent-node",
+            "position": {
+                "x": 597.6188146128999,
+                "y": 1093.1898242192824
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Local Attacker",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:LocalAttacker"
+            },
+            "measured": {
+                "width": 178,
+                "height": 97
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 178,
+            "height": 97
+        },
+        {
+            "id": "0qbij2l0eixnk417",
+            "type": "event-node",
+            "position": {
+                "x": 1168.8871351730456,
+                "y": 720.9929884907838
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Event Log Write Event",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:EventLogEvent"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "142ojif0x26oi90m",
+            "type": "artifact-node",
+            "position": {
+                "x": 1076.9827727923598,
+                "y": 518.2985566432441
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Event Log File",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:LogFile"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "15soksa1nhcxld0d",
+            "type": "artifact-node",
+            "position": {
+                "x": 1076.505321479524,
+                "y": 330.08060515688004
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Flight Software Process",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:ApplicationProcess"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0fououm1gesua41s",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 760.8998547055012,
+                "y": 429.6048330681421
+            },
+            "data": {
+                "label": "File Integrity Monitoring",
+                "sequence": "0",
+                "d3f_class": "d3f:FileIntegrityMonitoring",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 191,
+                "height": 110
+            }
+        }
+    ],
+    "edges": [
+        {
+            "data": {
+                "label": "has-condition"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5859106149830474",
+            "sourceHandle": "source",
+            "target": "0.5605479051985163",
+            "targetHandle": "target",
+            "id": "xy-edge-0.3584584305880102__0.5859106149830474source-0.5605479051985163target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.4322646069826872",
+            "sourceHandle": "source",
+            "target": "0.8344819159004639",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6756266902176361__0.4322646069826872source-0.8344819159004639target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:runs",
+                "label": "runs"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8344819159004639",
+            "sourceHandle": "source",
+            "target": "0.5321086758020648",
+            "targetHandle": "target",
+            "id": "xy-edge-0.33259063147878365__0.8344819159004639source-0.5321086758020648target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:runs",
+                "label": "runs"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5321086758020648",
+            "sourceHandle": "source",
+            "target": "0.07677719875686706",
+            "targetHandle": "target",
+            "id": "xy-edge-0.22859067767807673__0.5321086758020648source-0.07677719875686706target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:abuses",
+                "label": "abuses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.19382490042021605",
+            "sourceHandle": "source",
+            "target": "0.868005075174986",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5104998078383738__0.19382490042021605source-0.868005075174986target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:has-participant",
+                "label": "has-participant"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.47156637034558024",
+            "sourceHandle": "source",
+            "target": "0.868005075174986",
+            "targetHandle": "target",
+            "id": "xy-edge-0.21670946574278172__0.47156637034558024source-0.868005075174986target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8773216033466126",
+            "sourceHandle": "source",
+            "target": "0.47156637034558024",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9192656371657054__0.8773216033466126source-0.47156637034558024target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-produce",
+                "label": "may-produce"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8318982811674562",
+            "sourceHandle": "source",
+            "target": "0.6107430617270108",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8693609669412042__0.8318982811674562source-0.6107430617270108target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:parses",
+                "label": "parses"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.07677719875686706",
+            "sourceHandle": "source",
+            "target": "0.6107430617270108",
+            "targetHandle": "target",
+            "id": "xy-edge-0.17347271415739585__0.07677719875686706source-0.6107430617270108target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.027484709131364804",
+            "sourceHandle": "source",
+            "target": "0.6107430617270108",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7267173936649489__0.027484709131364804source-0.6107430617270108target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:initiates",
+                "label": "initiates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6263093291039754",
+            "sourceHandle": "source",
+            "target": "0.8318982811674562",
+            "targetHandle": "target",
+            "id": "xy-edge-0.16655880755339703__0.6263093291039754source-0.8318982811674562target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:initiates",
+                "label": "initiates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.4797939445026701",
+            "sourceHandle": "source",
+            "target": "0.19382490042021605",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6754368932734246__0.4797939445026701source-0.19382490042021605target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:has-participant",
+                "label": "has-participant"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0qbij2l0eixnk417",
+            "sourceHandle": "source",
+            "target": "0.868005075174986",
+            "targetHandle": "target",
+            "id": "xy-edge-1hixecp04dueru0u__0qbij2l0eixnk417source-0.868005075174986target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:has-participant",
+                "label": "has-participant"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0qbij2l0eixnk417",
+            "sourceHandle": "source",
+            "target": "0.6107430617270108",
+            "targetHandle": "target",
+            "id": "xy-edge-12637r316w77ae1q__0qbij2l0eixnk417source-0.6107430617270108target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:instructs",
+                "label": "instructs"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.07677719875686706",
+            "sourceHandle": "source",
+            "target": "15soksa1nhcxld0d",
+            "targetHandle": "target",
+            "id": "xy-edge-1eakj921dpt34s1f__0.07677719875686706source-15soksa1nhcxld0dtarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:manages",
+                "label": "manages"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.07677719875686706",
+            "sourceHandle": "source",
+            "target": "0.868005075174986",
+            "targetHandle": "target",
+            "id": "xy-edge-1m72mix081obvn0u__0.07677719875686706source-0.868005075174986target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:writes",
+                "label": "writes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "15soksa1nhcxld0d",
+            "sourceHandle": "source",
+            "target": "142ojif0x26oi90m",
+            "targetHandle": "target",
+            "id": "xy-edge-0xyuty01sp2apy0l__15soksa1nhcxld0dsource-142ojif0x26oi90mtarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:associated-with",
+                "label": "associated-with"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "142ojif0x26oi90m",
+            "sourceHandle": "source",
+            "target": "0.868005075174986",
+            "targetHandle": "target",
+            "id": "xy-edge-1rnz2nx1rvepuu0w__142ojif0x26oi90msource-0qbij2l0eixnk417target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:analyzes",
+                "label": "analyzes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0fououm1gesua41s",
+            "sourceHandle": "source",
+            "target": "142ojif0x26oi90m",
+            "targetHandle": "target",
+            "id": "xy-edge-1neq7b51mjxjbp1v__0fououm1gesua41ssource-142ojif0x26oi90mtarget",
+            "selected": false
+        }
+    ]
+}

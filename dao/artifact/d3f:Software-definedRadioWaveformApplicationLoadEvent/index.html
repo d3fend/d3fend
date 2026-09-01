@@ -1,0 +1,1997 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="theme-color" content="#e1e1e1" />
+
+  <link rel="stylesheet" href="../../../global-d3fend.css" />
+  <link rel="icon" type="image/png" href="../../../favicon.ico" />
+
+  <!-- This contains the contents of the <svelte:head> component, if
+    the current page has one -->
+  <link href="../../../_app/immutable/entry/start.Bvz6_gDo.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/CS5eGvzq.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/o0JyXpVK.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/C5fqCc9O.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/B0SftDD_.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/DZKNGu60.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/-UyI9lYi.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/dADtSGqr.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/B0XwC4Ot.js" rel="modulepreload">
+		<link href="../../../_app/immutable/entry/app.oXmKdsXO.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/Dp1pzeXC.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/DgQYKI2J.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/Bzak7iHL.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/B7bOfw0f.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/B8SAfadu.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/S7wTprgC.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/BLNxmo6t.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/BAIJt-Fa.js" rel="modulepreload">
+		<link href="../../../_app/immutable/nodes/0.QbhveEck.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/DzcpJ-1p.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/BhUBJ9bE.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/XfDlbx51.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/Dz-3Hgv5.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/BYdHoday.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/DDYLM6Yj.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/Dmxyk2Zh.js" rel="modulepreload">
+		<link href="../../../_app/immutable/nodes/2.Dgyn74al.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/ws0oSco3.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/Cpj98o6Y.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/BqqRT-Iy.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/B_6nsKKd.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/BEYhbqhb.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/z-zb-vOA.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/C-xjQbAt.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/DXkj-8BY.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/0Jr8V0UN.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/C-WLliuZ.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/BVwtEyzW.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/DCd0_mMG.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/Lq8toa_j.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/K5CjhWwp.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/BJDwjcLS.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/CXNgXjTx.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/B7SPOuml.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/B15HVkN1.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/B5jvqWpf.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/DHufvBxo.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/bXSJFQuL.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/DRA1XB14.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/Cs2bsnZo.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/CesSW9Du.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/C1A-5PAt.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/Dc30vJWW.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/MLmmRjdT.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/DVx7VlhT.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/BMJYV3nV.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/DzMLhoNT.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/ClXRhXX8.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/DJZIoaCu.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/MFOBLaM2.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/CHzgDdPA.js" rel="modulepreload">
+		<link href="../../../_app/immutable/nodes/34.BxMYWHvA.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/BMX1ug8m.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/Dsms5Sco.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/DOUCxaEr.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/DTnLv5eS.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/pzL3PpCQ.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/Dv9kDuwq.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/BDD76Zze.js" rel="modulepreload">
+		<link href="../../../_app/immutable/chunks/wA__N-I4.js" rel="modulepreload">
+		<!--12qhfyh--><!----><script data-d3fend-theme-bootstrap>
+(function () {
+  var storageKey = "d3fend.ui.theme";
+  var themeAttribute = "data-d3fend-theme";
+  var defaultTheme = "light";
+  var systemTheme = "system";
+  var themes = ["light","dark","contrast","system"];
+  var themeColors = {"light":"#e1e1e1","dark":"#111827","contrast":"#050505"};
+  var themeColorSchemes = {"light":"light","dark":"dark","contrast":"dark"};
+
+  function normalizeTheme(themeName) {
+    return themes.indexOf(themeName) === -1 ? defaultTheme : themeName;
+  }
+
+  function activeTheme(themeName) {
+    if (themeName !== systemTheme) return themeName;
+    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
+      ? "dark"
+      : "light";
+  }
+
+  function setThemeColor(themeName) {
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (!meta) return;
+    meta.setAttribute("content", themeColors[themeName] || themeColors[defaultTheme]);
+  }
+
+  function colorScheme(themeName) {
+    var resolvedThemeName = activeTheme(themeName);
+    return themeColorSchemes[resolvedThemeName] || themeColorSchemes[defaultTheme] || defaultTheme;
+  }
+
+  try {
+    var storedTheme = window.localStorage && window.localStorage.getItem(storageKey);
+    var themeName = normalizeTheme(storedTheme);
+    var resolvedThemeName = activeTheme(themeName);
+    document.documentElement.setAttribute(themeAttribute, themeName);
+    document.documentElement.style.colorScheme = colorScheme(themeName);
+    setThemeColor(resolvedThemeName);
+  } catch (error) {
+    document.documentElement.setAttribute(themeAttribute, defaultTheme);
+    document.documentElement.style.colorScheme = defaultTheme;
+    setThemeColor(defaultTheme);
+  }
+}());
+</script><!----> <!----><style data-d3fend-color-palette>:root {
+  --primary-color: #e1e1e1;
+  --primary-selected: #b7b5b5;
+  --dark-background-color: #333;
+  --warning: #c37474;
+  --item-hover: rgb(202, 201, 207);
+  --attack-node: #ffc3c7;
+  --d3fend-color-white: #fff;
+  --d3fend-color-black: black;
+  --d3fend-color-transparent: transparent;
+  --d3fend-surface-app: #e1e1e1;
+  --d3fend-surface-panel: #fff;
+  --d3fend-surface-quiet: #f4f4f4;
+  --d3fend-surface-quiet-alt: #f3f3f3;
+  --d3fend-surface-recessed: #f2f2f2;
+  --d3fend-surface-subtle: #f0f0f0;
+  --d3fend-surface-wash: #fafafa;
+  --d3fend-surface-wash-alt: #f9f9f9;
+  --d3fend-surface-slate-wash: #f9fafb;
+  --d3fend-surface-slate-soft: #f8fafc;
+  --d3fend-surface-panel-cool: #f6f7fb;
+  --d3fend-surface-selected: #b7b5b5;
+  --d3fend-surface-hover: rgb(202, 201, 207);
+  --d3fend-border-default: #ccc;
+  --d3fend-border-subtle: #ddd;
+  --d3fend-border-faint: #eee;
+  --d3fend-border-strong: #888;
+  --d3fend-border-dark: #555;
+  --d3fend-border-black: black;
+  --d3fend-border-inverse: #fff;
+  --d3fend-border-offensive: #c63e1fa3;
+  --d3fend-border-slate-subtle: #e5e7eb;
+  --d3fend-border-slate: #d1d5db;
+  --d3fend-border-slate-strong: #cbd5e1;
+  --d3fend-border-hairline: rgba(0, 0, 0, 0.12);
+  --d3fend-text-default: #333;
+  --d3fend-text-strong: #111;
+  --d3fend-text-body: #222;
+  --d3fend-text-secondary: #444;
+  --d3fend-text-muted: #555;
+  --d3fend-text-subdued: #666;
+  --d3fend-text-disabled: #777;
+  --d3fend-text-inverse: #fff;
+  --d3fend-text-black: black;
+  --d3fend-link-default: #005B94;
+  --d3fend-focus-control: #1976d2;
+  --d3fend-focus-control-hover: #1565c0;
+  --d3fend-focus-dense-control: #2563eb;
+  --d3fend-focus-ontology-edge: #0e7490;
+  --d3fend-env-link: #8fd3ff;
+  --d3fend-slate-50: #f8fafc;
+  --d3fend-slate-100: #f1f5f9;
+  --d3fend-slate-200: #e2e8f0;
+  --d3fend-slate-300: #cbd5e1;
+  --d3fend-slate-400: #94a3b8;
+  --d3fend-slate-500: #64748b;
+  --d3fend-slate-600: #475569;
+  --d3fend-slate-700: #334155;
+  --d3fend-slate-800: #1e293b;
+  --d3fend-slate-900: #0f172a;
+  --d3fend-neutral-25: #0a0909;
+  --d3fend-neutral-50: #171717;
+  --d3fend-neutral-75: #282828;
+  --d3fend-neutral-100: #2e2e2e;
+  --d3fend-neutral-125: #303030;
+  --d3fend-neutral-150: #3a3a3a;
+  --d3fend-neutral-200: #717171;
+  --d3fend-neutral-250: #999;
+  --d3fend-neutral-300: #9c9c9c;
+  --d3fend-neutral-350: #a3a3a3;
+  --d3fend-neutral-375: #aaa;
+  --d3fend-neutral-400: #b4b4b4;
+  --d3fend-neutral-425: #bcb8b8;
+  --d3fend-neutral-450: #c9c9c9;
+  --d3fend-neutral-475: #cfcfcf;
+  --d3fend-neutral-500: #dfdfdf;
+  --d3fend-neutral-525: #e2e2e2;
+  --d3fend-neutral-550: #e5e5e5;
+  --d3fend-neutral-575: #e6e6e6;
+  --d3fend-neutral-600: #ededed;
+  --d3fend-neutral-625: #f1f1f1;
+  --d3fend-neutral-650: #f7f7f7;
+  --d3fend-neutral-675: #f8f8f8;
+  --d3fend-blue-50: #eff6ff;
+  --d3fend-blue-100: #dbeafe;
+  --d3fend-blue-200: #bfdbfe;
+  --d3fend-blue-500: #0075FF;
+  --d3fend-blue-700: #1d4ed8;
+  --d3fend-blue-800: #1e40af;
+  --d3fend-blue-900: #0d47a1;
+  --d3fend-blue-ink: #12263c;
+  --d3fend-blue-ink-soft: #35506a;
+  --d3fend-blue-ink-muted: #4f6d87;
+  --d3fend-graph-highlight-fill: #0993ff2e;
+  --d3fend-graph-highlight-stroke: #062f4f;
+  --d3fend-graph-danger-stroke: #f64040;
+  --d3fend-graph-warning-stroke: #ad7400;
+  --d3fend-graph-muted-fill: rgb(255, 255, 217);
+  --d3fend-mermaid-node-fill: #fff;
+  --d3fend-mermaid-node-border: #888;
+  --d3fend-mermaid-node-text: #111;
+  --d3fend-mermaid-edge: #333;
+  --d3fend-mermaid-edge-label-background: #fff;
+  --d3fend-mermaid-edge-label-text: #111;
+  --d3fend-mermaid-class-node-text: #111;
+  --d3fend-mermaid-cluster-fill: #fafafa;
+  --d3fend-mermaid-cluster-border: #ccc;
+  --d3fend-mermaid-cluster-text: #111;
+  --d3fend-mermaid-defensive-fill: #e8f4ff;
+  --d3fend-mermaid-defensive-border: #062f4f;
+  --d3fend-mermaid-offensive-fill: #ffc3c7;
+  --d3fend-mermaid-offensive-border: #f64040;
+  --d3fend-mermaid-artifact-fill: #fff4dd;
+  --d3fend-mermaid-artifact-border: hsl(40.5882352941,60%,83.3333333333%);
+  --d3fend-mermaid-root-fill: #fff4dd;
+  --d3fend-mermaid-root-border: #555;
+  --d3fend-mermaid-inbound-fill: #e8f4ff;
+  --d3fend-mermaid-vulnerability-fill: #f9d999;
+  --d3fend-mermaid-vulnerability-border: #ad7400;
+  --d3fend-extractor-result: #9ecae1;
+  --d3fend-graph-category-tactic: #dc050c;
+  --d3fend-graph-category-technique: #f1932d;
+  --d3fend-graph-category-subtechnique: #f7f056;
+  --d3fend-graph-category-objective: #90c987;
+  --d3fend-graph-category-operation: #7bafde;
+  --d3fend-graph-category-osapi: #1965b0;
+  --d3fend-graph-category-native: #ae76a3;
+  --d3fend-svelte-flow-background: #fff;
+  --d3fend-svelte-flow-background-pattern: #bcb8b8;
+  --d3fend-svelte-flow-edge: #888;
+  --d3fend-svelte-flow-edge-selected: #111;
+  --d3fend-svelte-flow-node-background: #fff;
+  --d3fend-svelte-flow-node-text: #111;
+  --d3fend-svelte-flow-node-border: 1px solid #555;
+  --d3fend-svelte-flow-handle-background: #111;
+  --d3fend-svelte-flow-handle-border: #fff;
+  --d3fend-svelte-flow-controls-background: #fff;
+  --d3fend-svelte-flow-controls-background-hover: #f4f4f4;
+  --d3fend-svelte-flow-controls-text: #111;
+  --d3fend-svelte-flow-controls-text-hover: #111;
+  --d3fend-svelte-flow-controls-border: #eee;
+  --d3fend-svelte-flow-controls-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.08);
+  --d3fend-svelte-flow-selection-background: rgba(0, 89, 220, 0.08);
+  --d3fend-svelte-flow-selection-border: 1px dotted rgba(0, 89, 220, 0.8);
+  --d3fend-svelte-flow-resize-background: #1976d2;
+  --background-color: var(--d3fend-svelte-flow-background);
+  --background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-background-color: var(--d3fend-svelte-flow-background);
+  --xy-background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --xy-edge-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-edge-stroke-selected: var(--d3fend-svelte-flow-edge-selected);
+  --xy-connectionline-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-node-background-color: var(--d3fend-svelte-flow-node-background);
+  --xy-node-color: var(--d3fend-svelte-flow-node-text);
+  --xy-node-border: var(--d3fend-svelte-flow-node-border);
+  --xy-handle-background-color: var(--d3fend-svelte-flow-handle-background);
+  --xy-handle-border-color: var(--d3fend-svelte-flow-handle-border);
+  --xy-controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --xy-controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --xy-controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --xy-controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --xy-controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-controls-box-shadow: var(--d3fend-svelte-flow-controls-shadow);
+  --xy-minimap-background-color: var(--d3fend-graph-minimap-background);
+  --xy-minimap-mask-background-color: var(--d3fend-graph-minimap-mask);
+  --xy-minimap-mask-stroke-color: var(--d3fend-graph-minimap-mask-stroke);
+  --xy-minimap-node-background-color: var(--d3fend-surface-subtle);
+  --xy-selection-background-color: var(--d3fend-svelte-flow-selection-background);
+  --xy-selection-border: var(--d3fend-svelte-flow-selection-border);
+  --xy-edge-label-background-color: var(--d3fend-surface-panel);
+  --xy-edge-label-color: var(--d3fend-text-strong);
+  --xy-resize-background-color: var(--d3fend-svelte-flow-resize-background);
+  --d3fend-alert-info-background: lightblue;
+  --d3fend-alert-danger-background: #fee2e2;
+  --d3fend-alert-warning-background: #ffc107;
+  --d3fend-alert-success-background: lightgreen;
+  --d3fend-toggle-on-background: rgb(137, 168, 225);
+  --d3fend-control-selected-background: #2563eb;
+  --d3fend-control-selected-text: #fff;
+  --d3fend-lookup-border-offensive: #c63e1fa3;
+  --d3fend-lookup-border-artifact: hsl(40.5882352941,60%,63%);
+  --d3fend-lookup-border-defensive: #6b87ad;
+  --d3fend-cad-node-text: #111;
+  --d3fend-cad-sidebar-toggle-background: #333;
+  --d3fend-cad-sidebar-toggle-icon: #fff;
+  --d3fend-filter-item-background: #f3f3f3;
+  --d3fend-filter-item-text: #333;
+  --d3fend-filter-item-border: #888;
+  --d3fend-filter-item-active-background: #2563eb;
+  --d3fend-filter-item-active-text: #fff;
+  --d3fend-table-header-background: #3a3a3a;
+  --d3fend-table-row-even-background: #f9f9f9;
+  --d3fend-table-row-hover-background: #f1f1f1;
+  --d3fend-matrix-branch-background: #fff;
+  --d3fend-matrix-cell-background: #fff;
+  --d3fend-matrix-nested-cell-background: #f3f3f3;
+  --d3fend-matrix-cell-text: #111;
+  --d3fend-matrix-cell-border: transparent;
+  --d3fend-matrix-selected-outline: #c62828;
+  --d3fend-matrix-highlight-outline: #1976d2;
+  --d3fend-brand-cad-c: #e62929;
+  --d3fend-brand-cad-c-soft: rgb(255, 108, 108);
+  --d3fend-brand-cad-d-soft: rgb(152, 196, 255);
+  --d3fend-brand-cad-a-outline: #475569;
+  --d3fend-status-success: #2e7d32;
+  --d3fend-status-success-alt: #15803d;
+  --d3fend-status-danger: #c62828;
+  --d3fend-status-danger-alt: #b71c1c;
+  --d3fend-status-danger-deep: #b91c1c;
+  --d3fend-status-warning: #f57c00;
+  --d3fend-status-warning-text: #b35a00;
+  --d3fend-status-warning-muted: #c37474;
+  --d3fend-status-danger-icon: #D32F2F;
+  --d3fend-status-success-background: #dcfce7;
+  --d3fend-status-danger-background: #fee2e2;
+  --d3fend-status-warning-highlight: #ff0;
+  --d3fend-recommendation-highlight: rgb(236, 233, 62);
+  --d3fend-glow-success: #3bf730;
+  --d3fend-glow-focus: #4d87fa;
+  --d3fend-overlay-clear: rgba(0, 0, 0, 0);
+  --d3fend-overlay-hairline: rgba(0, 0, 0, 0.06);
+  --d3fend-overlay-raised: rgba(0, 0, 0, 0.08);
+  --d3fend-overlay-low: rgba(0, 0, 0, 0.1);
+  --d3fend-overlay-border: rgba(0, 0, 0, 0.12);
+  --d3fend-overlay-medium: rgba(0, 0, 0, 0.18);
+  --d3fend-overlay-card-shadow: rgba(0, 0, 0, 0.2);
+  --d3fend-overlay-modal-border: rgba(0, 0, 0, 0.28);
+  --d3fend-overlay-scrim: rgba(0, 0, 0, 0.3);
+  --d3fend-overlay-backdrop: rgba(0, 0, 0, 0.35);
+  --d3fend-overlay-modal-backdrop: rgba(0, 0, 0, 0.5);
+  --d3fend-overlay-heavy-backdrop: rgba(0, 0, 0, 0.7);
+  --d3fend-scroll-indicator-clear: rgba(225, 225, 225, 0);
+  --d3fend-overlay-banner-start: rgba(0, 0, 0, 0.85);
+  --d3fend-overlay-panel-light: rgba(255, 255, 255, 0.92);
+  --d3fend-overlay-panel-lighter: rgba(255, 255, 255, 0.96);
+  --d3fend-overlay-panel-near-opaque: rgba(255, 255, 255, 0.98);
+  --d3fend-overlay-panel-translucent: rgba(255, 255, 255, 0.6);
+  --d3fend-shadow-color-hsl: 220 3% 15%;
+  --d3fend-shadow-strength: 3%;
+  --d3fend-cad-node-artifact: #fff4dd;
+  --d3fend-cad-node-agent: #f0e6e6;
+  --d3fend-cad-node-attack: #ffc3c7;
+  --d3fend-cad-node-condition: #ece6ff;
+  --d3fend-cad-node-countermeasure: #d6eaff;
+  --d3fend-cad-node-event: #fff;
+  --d3fend-cad-node-note: #fafad2;
+  --d3fend-cad-node-thing: #f4f4f4;
+  --d3fend-cad-node-vulnerability: #f9d999;
+  --d3fend-cad-node-artifact-border: hsl(40.5882352941,60%,83.3333333333%);
+  --d3fend-cad-edge-subclass: #d07909;
+  --d3fend-graph-edge-implied: #157f1f;
+  --d3fend-graph-edge-not-implied: #a61b1b;
+  --d3fend-graph-minimap-background: #e1e1e1;
+  --d3fend-graph-minimap-mask: #ffffff90;
+  --d3fend-graph-minimap-mask-stroke: #808080;
+  --d3fend-graph-minimap-selected-stroke: #00008b;
+  --d3fend-graph-note-editor-hover: #ffffd9;
+  --d3fend-graph-streamed-node-flash: #8ecdf61f;
+  --d3fend-graph-surface: #fff;
+  --d3fend-graph-transparent: #ffffff00;
+  --d3fend-mission-activity-node: #C0F4D5;
+  color-scheme: light;
+}
+
+:root[data-d3fend-theme="light"] {
+  --primary-color: #e1e1e1;
+  --primary-selected: #b7b5b5;
+  --dark-background-color: #333;
+  --warning: #c37474;
+  --item-hover: rgb(202, 201, 207);
+  --attack-node: #ffc3c7;
+  --d3fend-color-white: #fff;
+  --d3fend-color-black: black;
+  --d3fend-color-transparent: transparent;
+  --d3fend-surface-app: #e1e1e1;
+  --d3fend-surface-panel: #fff;
+  --d3fend-surface-quiet: #f4f4f4;
+  --d3fend-surface-quiet-alt: #f3f3f3;
+  --d3fend-surface-recessed: #f2f2f2;
+  --d3fend-surface-subtle: #f0f0f0;
+  --d3fend-surface-wash: #fafafa;
+  --d3fend-surface-wash-alt: #f9f9f9;
+  --d3fend-surface-slate-wash: #f9fafb;
+  --d3fend-surface-slate-soft: #f8fafc;
+  --d3fend-surface-panel-cool: #f6f7fb;
+  --d3fend-surface-selected: #b7b5b5;
+  --d3fend-surface-hover: rgb(202, 201, 207);
+  --d3fend-border-default: #ccc;
+  --d3fend-border-subtle: #ddd;
+  --d3fend-border-faint: #eee;
+  --d3fend-border-strong: #888;
+  --d3fend-border-dark: #555;
+  --d3fend-border-black: black;
+  --d3fend-border-inverse: #fff;
+  --d3fend-border-offensive: #c63e1fa3;
+  --d3fend-border-slate-subtle: #e5e7eb;
+  --d3fend-border-slate: #d1d5db;
+  --d3fend-border-slate-strong: #cbd5e1;
+  --d3fend-border-hairline: rgba(0, 0, 0, 0.12);
+  --d3fend-text-default: #333;
+  --d3fend-text-strong: #111;
+  --d3fend-text-body: #222;
+  --d3fend-text-secondary: #444;
+  --d3fend-text-muted: #555;
+  --d3fend-text-subdued: #666;
+  --d3fend-text-disabled: #777;
+  --d3fend-text-inverse: #fff;
+  --d3fend-text-black: black;
+  --d3fend-link-default: #005B94;
+  --d3fend-focus-control: #1976d2;
+  --d3fend-focus-control-hover: #1565c0;
+  --d3fend-focus-dense-control: #2563eb;
+  --d3fend-focus-ontology-edge: #0e7490;
+  --d3fend-env-link: #8fd3ff;
+  --d3fend-slate-50: #f8fafc;
+  --d3fend-slate-100: #f1f5f9;
+  --d3fend-slate-200: #e2e8f0;
+  --d3fend-slate-300: #cbd5e1;
+  --d3fend-slate-400: #94a3b8;
+  --d3fend-slate-500: #64748b;
+  --d3fend-slate-600: #475569;
+  --d3fend-slate-700: #334155;
+  --d3fend-slate-800: #1e293b;
+  --d3fend-slate-900: #0f172a;
+  --d3fend-neutral-25: #0a0909;
+  --d3fend-neutral-50: #171717;
+  --d3fend-neutral-75: #282828;
+  --d3fend-neutral-100: #2e2e2e;
+  --d3fend-neutral-125: #303030;
+  --d3fend-neutral-150: #3a3a3a;
+  --d3fend-neutral-200: #717171;
+  --d3fend-neutral-250: #999;
+  --d3fend-neutral-300: #9c9c9c;
+  --d3fend-neutral-350: #a3a3a3;
+  --d3fend-neutral-375: #aaa;
+  --d3fend-neutral-400: #b4b4b4;
+  --d3fend-neutral-425: #bcb8b8;
+  --d3fend-neutral-450: #c9c9c9;
+  --d3fend-neutral-475: #cfcfcf;
+  --d3fend-neutral-500: #dfdfdf;
+  --d3fend-neutral-525: #e2e2e2;
+  --d3fend-neutral-550: #e5e5e5;
+  --d3fend-neutral-575: #e6e6e6;
+  --d3fend-neutral-600: #ededed;
+  --d3fend-neutral-625: #f1f1f1;
+  --d3fend-neutral-650: #f7f7f7;
+  --d3fend-neutral-675: #f8f8f8;
+  --d3fend-blue-50: #eff6ff;
+  --d3fend-blue-100: #dbeafe;
+  --d3fend-blue-200: #bfdbfe;
+  --d3fend-blue-500: #0075FF;
+  --d3fend-blue-700: #1d4ed8;
+  --d3fend-blue-800: #1e40af;
+  --d3fend-blue-900: #0d47a1;
+  --d3fend-blue-ink: #12263c;
+  --d3fend-blue-ink-soft: #35506a;
+  --d3fend-blue-ink-muted: #4f6d87;
+  --d3fend-graph-highlight-fill: #0993ff2e;
+  --d3fend-graph-highlight-stroke: #062f4f;
+  --d3fend-graph-danger-stroke: #f64040;
+  --d3fend-graph-warning-stroke: #ad7400;
+  --d3fend-graph-muted-fill: rgb(255, 255, 217);
+  --d3fend-mermaid-node-fill: #fff;
+  --d3fend-mermaid-node-border: #888;
+  --d3fend-mermaid-node-text: #111;
+  --d3fend-mermaid-edge: #333;
+  --d3fend-mermaid-edge-label-background: #fff;
+  --d3fend-mermaid-edge-label-text: #111;
+  --d3fend-mermaid-class-node-text: #111;
+  --d3fend-mermaid-cluster-fill: #fafafa;
+  --d3fend-mermaid-cluster-border: #ccc;
+  --d3fend-mermaid-cluster-text: #111;
+  --d3fend-mermaid-defensive-fill: #e8f4ff;
+  --d3fend-mermaid-defensive-border: #062f4f;
+  --d3fend-mermaid-offensive-fill: #ffc3c7;
+  --d3fend-mermaid-offensive-border: #f64040;
+  --d3fend-mermaid-artifact-fill: #fff4dd;
+  --d3fend-mermaid-artifact-border: hsl(40.5882352941,60%,83.3333333333%);
+  --d3fend-mermaid-root-fill: #fff4dd;
+  --d3fend-mermaid-root-border: #555;
+  --d3fend-mermaid-inbound-fill: #e8f4ff;
+  --d3fend-mermaid-vulnerability-fill: #f9d999;
+  --d3fend-mermaid-vulnerability-border: #ad7400;
+  --d3fend-extractor-result: #9ecae1;
+  --d3fend-graph-category-tactic: #dc050c;
+  --d3fend-graph-category-technique: #f1932d;
+  --d3fend-graph-category-subtechnique: #f7f056;
+  --d3fend-graph-category-objective: #90c987;
+  --d3fend-graph-category-operation: #7bafde;
+  --d3fend-graph-category-osapi: #1965b0;
+  --d3fend-graph-category-native: #ae76a3;
+  --d3fend-svelte-flow-background: #fff;
+  --d3fend-svelte-flow-background-pattern: #bcb8b8;
+  --d3fend-svelte-flow-edge: #888;
+  --d3fend-svelte-flow-edge-selected: #111;
+  --d3fend-svelte-flow-node-background: #fff;
+  --d3fend-svelte-flow-node-text: #111;
+  --d3fend-svelte-flow-node-border: 1px solid #555;
+  --d3fend-svelte-flow-handle-background: #111;
+  --d3fend-svelte-flow-handle-border: #fff;
+  --d3fend-svelte-flow-controls-background: #fff;
+  --d3fend-svelte-flow-controls-background-hover: #f4f4f4;
+  --d3fend-svelte-flow-controls-text: #111;
+  --d3fend-svelte-flow-controls-text-hover: #111;
+  --d3fend-svelte-flow-controls-border: #eee;
+  --d3fend-svelte-flow-controls-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.08);
+  --d3fend-svelte-flow-selection-background: rgba(0, 89, 220, 0.08);
+  --d3fend-svelte-flow-selection-border: 1px dotted rgba(0, 89, 220, 0.8);
+  --d3fend-svelte-flow-resize-background: #1976d2;
+  --background-color: var(--d3fend-svelte-flow-background);
+  --background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-background-color: var(--d3fend-svelte-flow-background);
+  --xy-background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --xy-edge-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-edge-stroke-selected: var(--d3fend-svelte-flow-edge-selected);
+  --xy-connectionline-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-node-background-color: var(--d3fend-svelte-flow-node-background);
+  --xy-node-color: var(--d3fend-svelte-flow-node-text);
+  --xy-node-border: var(--d3fend-svelte-flow-node-border);
+  --xy-handle-background-color: var(--d3fend-svelte-flow-handle-background);
+  --xy-handle-border-color: var(--d3fend-svelte-flow-handle-border);
+  --xy-controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --xy-controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --xy-controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --xy-controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --xy-controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-controls-box-shadow: var(--d3fend-svelte-flow-controls-shadow);
+  --xy-minimap-background-color: var(--d3fend-graph-minimap-background);
+  --xy-minimap-mask-background-color: var(--d3fend-graph-minimap-mask);
+  --xy-minimap-mask-stroke-color: var(--d3fend-graph-minimap-mask-stroke);
+  --xy-minimap-node-background-color: var(--d3fend-surface-subtle);
+  --xy-selection-background-color: var(--d3fend-svelte-flow-selection-background);
+  --xy-selection-border: var(--d3fend-svelte-flow-selection-border);
+  --xy-edge-label-background-color: var(--d3fend-surface-panel);
+  --xy-edge-label-color: var(--d3fend-text-strong);
+  --xy-resize-background-color: var(--d3fend-svelte-flow-resize-background);
+  --d3fend-alert-info-background: lightblue;
+  --d3fend-alert-danger-background: #fee2e2;
+  --d3fend-alert-warning-background: #ffc107;
+  --d3fend-alert-success-background: lightgreen;
+  --d3fend-toggle-on-background: rgb(137, 168, 225);
+  --d3fend-control-selected-background: #2563eb;
+  --d3fend-control-selected-text: #fff;
+  --d3fend-lookup-border-offensive: #c63e1fa3;
+  --d3fend-lookup-border-artifact: hsl(40.5882352941,60%,63%);
+  --d3fend-lookup-border-defensive: #6b87ad;
+  --d3fend-cad-node-text: #111;
+  --d3fend-cad-sidebar-toggle-background: #333;
+  --d3fend-cad-sidebar-toggle-icon: #fff;
+  --d3fend-filter-item-background: #f3f3f3;
+  --d3fend-filter-item-text: #333;
+  --d3fend-filter-item-border: #888;
+  --d3fend-filter-item-active-background: #2563eb;
+  --d3fend-filter-item-active-text: #fff;
+  --d3fend-table-header-background: #3a3a3a;
+  --d3fend-table-row-even-background: #f9f9f9;
+  --d3fend-table-row-hover-background: #f1f1f1;
+  --d3fend-matrix-branch-background: #fff;
+  --d3fend-matrix-cell-background: #fff;
+  --d3fend-matrix-nested-cell-background: #f3f3f3;
+  --d3fend-matrix-cell-text: #111;
+  --d3fend-matrix-cell-border: transparent;
+  --d3fend-matrix-selected-outline: #c62828;
+  --d3fend-matrix-highlight-outline: #1976d2;
+  --d3fend-brand-cad-c: #e62929;
+  --d3fend-brand-cad-c-soft: rgb(255, 108, 108);
+  --d3fend-brand-cad-d-soft: rgb(152, 196, 255);
+  --d3fend-brand-cad-a-outline: #475569;
+  --d3fend-status-success: #2e7d32;
+  --d3fend-status-success-alt: #15803d;
+  --d3fend-status-danger: #c62828;
+  --d3fend-status-danger-alt: #b71c1c;
+  --d3fend-status-danger-deep: #b91c1c;
+  --d3fend-status-warning: #f57c00;
+  --d3fend-status-warning-text: #b35a00;
+  --d3fend-status-warning-muted: #c37474;
+  --d3fend-status-danger-icon: #D32F2F;
+  --d3fend-status-success-background: #dcfce7;
+  --d3fend-status-danger-background: #fee2e2;
+  --d3fend-status-warning-highlight: #ff0;
+  --d3fend-recommendation-highlight: rgb(236, 233, 62);
+  --d3fend-glow-success: #3bf730;
+  --d3fend-glow-focus: #4d87fa;
+  --d3fend-overlay-clear: rgba(0, 0, 0, 0);
+  --d3fend-overlay-hairline: rgba(0, 0, 0, 0.06);
+  --d3fend-overlay-raised: rgba(0, 0, 0, 0.08);
+  --d3fend-overlay-low: rgba(0, 0, 0, 0.1);
+  --d3fend-overlay-border: rgba(0, 0, 0, 0.12);
+  --d3fend-overlay-medium: rgba(0, 0, 0, 0.18);
+  --d3fend-overlay-card-shadow: rgba(0, 0, 0, 0.2);
+  --d3fend-overlay-modal-border: rgba(0, 0, 0, 0.28);
+  --d3fend-overlay-scrim: rgba(0, 0, 0, 0.3);
+  --d3fend-overlay-backdrop: rgba(0, 0, 0, 0.35);
+  --d3fend-overlay-modal-backdrop: rgba(0, 0, 0, 0.5);
+  --d3fend-overlay-heavy-backdrop: rgba(0, 0, 0, 0.7);
+  --d3fend-scroll-indicator-clear: rgba(225, 225, 225, 0);
+  --d3fend-overlay-banner-start: rgba(0, 0, 0, 0.85);
+  --d3fend-overlay-panel-light: rgba(255, 255, 255, 0.92);
+  --d3fend-overlay-panel-lighter: rgba(255, 255, 255, 0.96);
+  --d3fend-overlay-panel-near-opaque: rgba(255, 255, 255, 0.98);
+  --d3fend-overlay-panel-translucent: rgba(255, 255, 255, 0.6);
+  --d3fend-shadow-color-hsl: 220 3% 15%;
+  --d3fend-shadow-strength: 3%;
+  --d3fend-cad-node-artifact: #fff4dd;
+  --d3fend-cad-node-agent: #f0e6e6;
+  --d3fend-cad-node-attack: #ffc3c7;
+  --d3fend-cad-node-condition: #ece6ff;
+  --d3fend-cad-node-countermeasure: #d6eaff;
+  --d3fend-cad-node-event: #fff;
+  --d3fend-cad-node-note: #fafad2;
+  --d3fend-cad-node-thing: #f4f4f4;
+  --d3fend-cad-node-vulnerability: #f9d999;
+  --d3fend-cad-node-artifact-border: hsl(40.5882352941,60%,83.3333333333%);
+  --d3fend-cad-edge-subclass: #d07909;
+  --d3fend-graph-edge-implied: #157f1f;
+  --d3fend-graph-edge-not-implied: #a61b1b;
+  --d3fend-graph-minimap-background: #e1e1e1;
+  --d3fend-graph-minimap-mask: #ffffff90;
+  --d3fend-graph-minimap-mask-stroke: #808080;
+  --d3fend-graph-minimap-selected-stroke: #00008b;
+  --d3fend-graph-note-editor-hover: #ffffd9;
+  --d3fend-graph-streamed-node-flash: #8ecdf61f;
+  --d3fend-graph-surface: #fff;
+  --d3fend-graph-transparent: #ffffff00;
+  --d3fend-mission-activity-node: #C0F4D5;
+  color-scheme: light;
+}
+
+:root[data-d3fend-theme="dark"] {
+  --primary-color: #111827;
+  --primary-selected: #334155;
+  --dark-background-color: #e5e7eb;
+  --warning: #fca5a5;
+  --item-hover: #243244;
+  --attack-node: #ffc3c7;
+  --d3fend-color-white: #fff;
+  --d3fend-color-black: black;
+  --d3fend-color-transparent: transparent;
+  --d3fend-surface-app: #111827;
+  --d3fend-surface-panel: #1f2937;
+  --d3fend-surface-quiet: #172033;
+  --d3fend-surface-quiet-alt: #202b3b;
+  --d3fend-surface-recessed: #172033;
+  --d3fend-surface-subtle: #273449;
+  --d3fend-surface-wash: #0f172a;
+  --d3fend-surface-wash-alt: #111827;
+  --d3fend-surface-slate-wash: #111827;
+  --d3fend-surface-slate-soft: #162033;
+  --d3fend-surface-panel-cool: #1e293b;
+  --d3fend-surface-selected: #334155;
+  --d3fend-surface-hover: #243244;
+  --d3fend-border-default: #475569;
+  --d3fend-border-subtle: #334155;
+  --d3fend-border-faint: #243244;
+  --d3fend-border-strong: #64748b;
+  --d3fend-border-dark: #94a3b8;
+  --d3fend-border-black: #94a3b8;
+  --d3fend-border-inverse: #0f172a;
+  --d3fend-border-offensive: #c63e1fa3;
+  --d3fend-border-slate-subtle: #334155;
+  --d3fend-border-slate: #475569;
+  --d3fend-border-slate-strong: #64748b;
+  --d3fend-border-hairline: rgba(255, 255, 255, 0.14);
+  --d3fend-text-default: #e5e7eb;
+  --d3fend-text-strong: #f8fafc;
+  --d3fend-text-body: #e2e8f0;
+  --d3fend-text-secondary: #cbd5e1;
+  --d3fend-text-muted: #94a3b8;
+  --d3fend-text-subdued: #94a3b8;
+  --d3fend-text-disabled: #64748b;
+  --d3fend-text-inverse: #ffffff;
+  --d3fend-text-black: #f8fafc;
+  --d3fend-link-default: #7dd3fc;
+  --d3fend-focus-control: #60a5fa;
+  --d3fend-focus-control-hover: #93c5fd;
+  --d3fend-focus-dense-control: #60a5fa;
+  --d3fend-focus-ontology-edge: #22d3ee;
+  --d3fend-env-link: #bae6fd;
+  --d3fend-slate-50: #0f172a;
+  --d3fend-slate-100: #1e293b;
+  --d3fend-slate-200: #334155;
+  --d3fend-slate-300: #475569;
+  --d3fend-slate-400: #64748b;
+  --d3fend-slate-500: #94a3b8;
+  --d3fend-slate-600: #cbd5e1;
+  --d3fend-slate-700: #e2e8f0;
+  --d3fend-slate-800: #f1f5f9;
+  --d3fend-slate-900: #f8fafc;
+  --d3fend-neutral-25: #f8fafc;
+  --d3fend-neutral-50: #f1f5f9;
+  --d3fend-neutral-75: #e5e7eb;
+  --d3fend-neutral-100: #d1d5db;
+  --d3fend-neutral-125: #cbd5e1;
+  --d3fend-neutral-150: #94a3b8;
+  --d3fend-neutral-200: #64748b;
+  --d3fend-neutral-250: #475569;
+  --d3fend-neutral-300: #334155;
+  --d3fend-neutral-350: #2f3b4f;
+  --d3fend-neutral-375: #293548;
+  --d3fend-neutral-400: #243244;
+  --d3fend-neutral-425: #1f2937;
+  --d3fend-neutral-450: #1e293b;
+  --d3fend-neutral-475: #182235;
+  --d3fend-neutral-500: #172033;
+  --d3fend-neutral-525: #162033;
+  --d3fend-neutral-550: #111827;
+  --d3fend-neutral-575: #0f172a;
+  --d3fend-neutral-600: #0b1220;
+  --d3fend-neutral-625: #08111f;
+  --d3fend-neutral-650: #111827;
+  --d3fend-neutral-675: #1f2937;
+  --d3fend-blue-50: #0b2440;
+  --d3fend-blue-100: #123a63;
+  --d3fend-blue-200: #1d5f99;
+  --d3fend-blue-500: #60a5fa;
+  --d3fend-blue-700: #93c5fd;
+  --d3fend-blue-800: #bfdbfe;
+  --d3fend-blue-900: #dbeafe;
+  --d3fend-blue-ink: #dbeafe;
+  --d3fend-blue-ink-soft: #bfdbfe;
+  --d3fend-blue-ink-muted: #93c5fd;
+  --d3fend-graph-highlight-fill: #0993ff2e;
+  --d3fend-graph-highlight-stroke: #062f4f;
+  --d3fend-graph-danger-stroke: #f64040;
+  --d3fend-graph-warning-stroke: #ad7400;
+  --d3fend-graph-muted-fill: rgb(255, 255, 217);
+  --d3fend-mermaid-node-fill: #1f2937;
+  --d3fend-mermaid-node-border: #64748b;
+  --d3fend-mermaid-node-text: #f8fafc;
+  --d3fend-mermaid-edge: #f8fafc;
+  --d3fend-mermaid-edge-label-background: #172033;
+  --d3fend-mermaid-edge-label-text: #f8fafc;
+  --d3fend-mermaid-class-node-text: #111111;
+  --d3fend-mermaid-cluster-fill: #0f172a;
+  --d3fend-mermaid-cluster-border: #475569;
+  --d3fend-mermaid-cluster-text: #f8fafc;
+  --d3fend-mermaid-defensive-fill: #d6eaff;
+  --d3fend-mermaid-defensive-border: #7dd3fc;
+  --d3fend-mermaid-offensive-fill: #ffc3c7;
+  --d3fend-mermaid-offensive-border: #fca5a5;
+  --d3fend-mermaid-artifact-fill: #fff4dd;
+  --d3fend-mermaid-artifact-border: #fbbf24;
+  --d3fend-mermaid-root-fill: #fff4dd;
+  --d3fend-mermaid-root-border: #cbd5e1;
+  --d3fend-mermaid-inbound-fill: #fff4dd;
+  --d3fend-mermaid-vulnerability-fill: #f9d999;
+  --d3fend-mermaid-vulnerability-border: #fbbf24;
+  --d3fend-extractor-result: #9ecae1;
+  --d3fend-graph-category-tactic: #dc050c;
+  --d3fend-graph-category-technique: #f1932d;
+  --d3fend-graph-category-subtechnique: #f7f056;
+  --d3fend-graph-category-objective: #90c987;
+  --d3fend-graph-category-operation: #7bafde;
+  --d3fend-graph-category-osapi: #1965b0;
+  --d3fend-graph-category-native: #ae76a3;
+  --d3fend-svelte-flow-background: #0f172a;
+  --d3fend-svelte-flow-background-pattern: #334155;
+  --d3fend-svelte-flow-edge: #94a3b8;
+  --d3fend-svelte-flow-edge-selected: #e2e8f0;
+  --d3fend-svelte-flow-node-background: #1f2937;
+  --d3fend-svelte-flow-node-text: #f8fafc;
+  --d3fend-svelte-flow-node-border: 1px solid #64748b;
+  --d3fend-svelte-flow-handle-background: #e2e8f0;
+  --d3fend-svelte-flow-handle-border: #0f172a;
+  --d3fend-svelte-flow-controls-background: #1e293b;
+  --d3fend-svelte-flow-controls-background-hover: #334155;
+  --d3fend-svelte-flow-controls-text: #f8fafc;
+  --d3fend-svelte-flow-controls-text-hover: #ffffff;
+  --d3fend-svelte-flow-controls-border: #475569;
+  --d3fend-svelte-flow-controls-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.38);
+  --d3fend-svelte-flow-selection-background: rgba(96, 165, 250, 0.16);
+  --d3fend-svelte-flow-selection-border: 1px dotted rgba(147, 197, 253, 0.92);
+  --d3fend-svelte-flow-resize-background: #60a5fa;
+  --background-color: var(--d3fend-svelte-flow-background);
+  --background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-background-color: var(--d3fend-svelte-flow-background);
+  --xy-background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --xy-edge-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-edge-stroke-selected: var(--d3fend-svelte-flow-edge-selected);
+  --xy-connectionline-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-node-background-color: var(--d3fend-svelte-flow-node-background);
+  --xy-node-color: var(--d3fend-svelte-flow-node-text);
+  --xy-node-border: var(--d3fend-svelte-flow-node-border);
+  --xy-handle-background-color: var(--d3fend-svelte-flow-handle-background);
+  --xy-handle-border-color: var(--d3fend-svelte-flow-handle-border);
+  --xy-controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --xy-controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --xy-controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --xy-controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --xy-controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-controls-box-shadow: var(--d3fend-svelte-flow-controls-shadow);
+  --xy-minimap-background-color: var(--d3fend-graph-minimap-background);
+  --xy-minimap-mask-background-color: var(--d3fend-graph-minimap-mask);
+  --xy-minimap-mask-stroke-color: var(--d3fend-graph-minimap-mask-stroke);
+  --xy-minimap-node-background-color: var(--d3fend-surface-subtle);
+  --xy-selection-background-color: var(--d3fend-svelte-flow-selection-background);
+  --xy-selection-border: var(--d3fend-svelte-flow-selection-border);
+  --xy-edge-label-background-color: var(--d3fend-surface-panel);
+  --xy-edge-label-color: var(--d3fend-text-strong);
+  --xy-resize-background-color: var(--d3fend-svelte-flow-resize-background);
+  --d3fend-alert-info-background: #123a63;
+  --d3fend-alert-danger-background: #450a0a;
+  --d3fend-alert-warning-background: #854d0e;
+  --d3fend-alert-success-background: #052e16;
+  --d3fend-toggle-on-background: #60a5fa;
+  --d3fend-control-selected-background: #2563eb;
+  --d3fend-control-selected-text: #ffffff;
+  --d3fend-lookup-border-offensive: #fca5a5;
+  --d3fend-lookup-border-artifact: #fbbf24;
+  --d3fend-lookup-border-defensive: #93c5fd;
+  --d3fend-cad-node-text: #111111;
+  --d3fend-cad-sidebar-toggle-background: #111827;
+  --d3fend-cad-sidebar-toggle-icon: #f8fafc;
+  --d3fend-filter-item-background: #243244;
+  --d3fend-filter-item-text: #f8fafc;
+  --d3fend-filter-item-border: #64748b;
+  --d3fend-filter-item-active-background: #60a5fa;
+  --d3fend-filter-item-active-text: #0f172a;
+  --d3fend-table-header-background: #334155;
+  --d3fend-table-row-even-background: #172033;
+  --d3fend-table-row-hover-background: #243244;
+  --d3fend-matrix-branch-background: #243244;
+  --d3fend-matrix-cell-background: #1f2937;
+  --d3fend-matrix-nested-cell-background: #172033;
+  --d3fend-matrix-cell-text: #f8fafc;
+  --d3fend-matrix-cell-border: transparent;
+  --d3fend-matrix-selected-outline: #fca5a5;
+  --d3fend-matrix-highlight-outline: #60a5fa;
+  --d3fend-brand-cad-c: #e62929;
+  --d3fend-brand-cad-c-soft: rgb(255, 108, 108);
+  --d3fend-brand-cad-d-soft: rgb(152, 196, 255);
+  --d3fend-brand-cad-a-outline: #475569;
+  --d3fend-status-success: #86efac;
+  --d3fend-status-success-alt: #4ade80;
+  --d3fend-status-danger: #fca5a5;
+  --d3fend-status-danger-alt: #f87171;
+  --d3fend-status-danger-deep: #fecaca;
+  --d3fend-status-warning: #fbbf24;
+  --d3fend-status-warning-text: #fde68a;
+  --d3fend-status-warning-muted: #fca5a5;
+  --d3fend-status-danger-icon: #fca5a5;
+  --d3fend-status-success-background: #052e16;
+  --d3fend-status-danger-background: #450a0a;
+  --d3fend-status-warning-highlight: #ff0;
+  --d3fend-recommendation-highlight: #854d0e;
+  --d3fend-glow-success: #86efac;
+  --d3fend-glow-focus: #93c5fd;
+  --d3fend-overlay-clear: rgba(0, 0, 0, 0);
+  --d3fend-overlay-hairline: rgba(255, 255, 255, 0.08);
+  --d3fend-overlay-raised: rgba(255, 255, 255, 0.1);
+  --d3fend-overlay-low: rgba(255, 255, 255, 0.12);
+  --d3fend-overlay-border: rgba(255, 255, 255, 0.14);
+  --d3fend-overlay-medium: rgba(255, 255, 255, 0.22);
+  --d3fend-overlay-card-shadow: rgba(0, 0, 0, 0.42);
+  --d3fend-overlay-modal-border: rgba(255, 255, 255, 0.28);
+  --d3fend-overlay-scrim: rgba(0, 0, 0, 0.55);
+  --d3fend-overlay-backdrop: rgba(0, 0, 0, 0.62);
+  --d3fend-overlay-modal-backdrop: rgba(0, 0, 0, 0.72);
+  --d3fend-overlay-heavy-backdrop: rgba(0, 0, 0, 0.85);
+  --d3fend-scroll-indicator-clear: rgba(17, 24, 39, 0);
+  --d3fend-overlay-banner-start: rgba(0, 0, 0, 0.92);
+  --d3fend-overlay-panel-light: rgba(30, 41, 59, 0.92);
+  --d3fend-overlay-panel-lighter: rgba(30, 41, 59, 0.96);
+  --d3fend-overlay-panel-near-opaque: rgba(30, 41, 59, 0.98);
+  --d3fend-overlay-panel-translucent: rgba(30, 41, 59, 0.72);
+  --d3fend-shadow-color-hsl: 220 40% 2%;
+  --d3fend-shadow-strength: 18%;
+  --d3fend-cad-node-artifact: #fff4dd;
+  --d3fend-cad-node-agent: #f0e6e6;
+  --d3fend-cad-node-attack: #ffc3c7;
+  --d3fend-cad-node-condition: #ece6ff;
+  --d3fend-cad-node-countermeasure: #d6eaff;
+  --d3fend-cad-node-event: #fff;
+  --d3fend-cad-node-note: #fafad2;
+  --d3fend-cad-node-thing: #f4f4f4;
+  --d3fend-cad-node-vulnerability: #f9d999;
+  --d3fend-cad-node-artifact-border: #fbbf24;
+  --d3fend-cad-edge-subclass: #d07909;
+  --d3fend-graph-edge-implied: #157f1f;
+  --d3fend-graph-edge-not-implied: #a61b1b;
+  --d3fend-graph-minimap-background: #111827;
+  --d3fend-graph-minimap-mask: rgba(148, 163, 184, 0.28);
+  --d3fend-graph-minimap-mask-stroke: #475569;
+  --d3fend-graph-minimap-selected-stroke: #93c5fd;
+  --d3fend-graph-note-editor-hover: #ffffd9;
+  --d3fend-graph-streamed-node-flash: #8ecdf61f;
+  --d3fend-graph-surface: #1f2937;
+  --d3fend-graph-transparent: #ffffff00;
+  --d3fend-mission-activity-node: #C0F4D5;
+  color-scheme: dark;
+}
+
+:root[data-d3fend-theme="contrast"] {
+  --primary-color: #050505;
+  --primary-selected: #ffdd00;
+  --dark-background-color: #f7f7f2;
+  --warning: #ffdd00;
+  --item-hover: #262626;
+  --attack-node: #ffc3c7;
+  --d3fend-color-white: #fff;
+  --d3fend-color-black: black;
+  --d3fend-color-transparent: transparent;
+  --d3fend-surface-app: #050505;
+  --d3fend-surface-panel: #111111;
+  --d3fend-surface-quiet: #181818;
+  --d3fend-surface-quiet-alt: #202020;
+  --d3fend-surface-recessed: #181818;
+  --d3fend-surface-subtle: #1f1f1f;
+  --d3fend-surface-wash: #0a0a0a;
+  --d3fend-surface-wash-alt: #111111;
+  --d3fend-surface-slate-wash: #111111;
+  --d3fend-surface-slate-soft: #181818;
+  --d3fend-surface-panel-cool: #141414;
+  --d3fend-surface-selected: #ffdd00;
+  --d3fend-surface-hover: #262626;
+  --d3fend-border-default: #f7f7f2;
+  --d3fend-border-subtle: #c9c9c9;
+  --d3fend-border-faint: #767676;
+  --d3fend-border-strong: #ffffff;
+  --d3fend-border-dark: #ffffff;
+  --d3fend-border-black: #ffffff;
+  --d3fend-border-inverse: #050505;
+  --d3fend-border-offensive: #c63e1fa3;
+  --d3fend-border-slate-subtle: #767676;
+  --d3fend-border-slate: #c9c9c9;
+  --d3fend-border-slate-strong: #ffffff;
+  --d3fend-border-hairline: rgba(255, 255, 255, 0.34);
+  --d3fend-text-default: #f7f7f2;
+  --d3fend-text-strong: #ffffff;
+  --d3fend-text-body: #f7f7f2;
+  --d3fend-text-secondary: #e5e5dc;
+  --d3fend-text-muted: #c9c9c9;
+  --d3fend-text-subdued: #c9c9c9;
+  --d3fend-text-disabled: #8f8f8f;
+  --d3fend-text-inverse: #050505;
+  --d3fend-text-black: #ffffff;
+  --d3fend-link-default: #8fd3ff;
+  --d3fend-focus-control: #ffdd00;
+  --d3fend-focus-control-hover: #fff299;
+  --d3fend-focus-dense-control: #ffdd00;
+  --d3fend-focus-ontology-edge: #7dd3fc;
+  --d3fend-env-link: #8fd3ff;
+  --d3fend-slate-50: #f8fafc;
+  --d3fend-slate-100: #f1f5f9;
+  --d3fend-slate-200: #e2e8f0;
+  --d3fend-slate-300: #cbd5e1;
+  --d3fend-slate-400: #94a3b8;
+  --d3fend-slate-500: #64748b;
+  --d3fend-slate-600: #475569;
+  --d3fend-slate-700: #334155;
+  --d3fend-slate-800: #1e293b;
+  --d3fend-slate-900: #0f172a;
+  --d3fend-neutral-25: #0a0909;
+  --d3fend-neutral-50: #171717;
+  --d3fend-neutral-75: #282828;
+  --d3fend-neutral-100: #2e2e2e;
+  --d3fend-neutral-125: #303030;
+  --d3fend-neutral-150: #3a3a3a;
+  --d3fend-neutral-200: #717171;
+  --d3fend-neutral-250: #999;
+  --d3fend-neutral-300: #9c9c9c;
+  --d3fend-neutral-350: #a3a3a3;
+  --d3fend-neutral-375: #aaa;
+  --d3fend-neutral-400: #b4b4b4;
+  --d3fend-neutral-425: #bcb8b8;
+  --d3fend-neutral-450: #c9c9c9;
+  --d3fend-neutral-475: #cfcfcf;
+  --d3fend-neutral-500: #dfdfdf;
+  --d3fend-neutral-525: #e2e2e2;
+  --d3fend-neutral-550: #e5e5e5;
+  --d3fend-neutral-575: #e6e6e6;
+  --d3fend-neutral-600: #ededed;
+  --d3fend-neutral-625: #f1f1f1;
+  --d3fend-neutral-650: #f7f7f7;
+  --d3fend-neutral-675: #f8f8f8;
+  --d3fend-blue-50: #082f49;
+  --d3fend-blue-100: #075985;
+  --d3fend-blue-200: #0ea5e9;
+  --d3fend-blue-500: #8fd3ff;
+  --d3fend-blue-700: #bae6fd;
+  --d3fend-blue-800: #e0f2fe;
+  --d3fend-blue-900: #f0f9ff;
+  --d3fend-blue-ink: #f0f9ff;
+  --d3fend-blue-ink-soft: #e0f2fe;
+  --d3fend-blue-ink-muted: #bae6fd;
+  --d3fend-graph-highlight-fill: #0993ff2e;
+  --d3fend-graph-highlight-stroke: #062f4f;
+  --d3fend-graph-danger-stroke: #f64040;
+  --d3fend-graph-warning-stroke: #ad7400;
+  --d3fend-graph-muted-fill: rgb(255, 255, 217);
+  --d3fend-mermaid-node-fill: #050505;
+  --d3fend-mermaid-node-border: #ffffff;
+  --d3fend-mermaid-node-text: #ffffff;
+  --d3fend-mermaid-edge: #ffffff;
+  --d3fend-mermaid-edge-label-background: #111111;
+  --d3fend-mermaid-edge-label-text: #ffffff;
+  --d3fend-mermaid-class-node-text: #ffffff;
+  --d3fend-mermaid-cluster-fill: #0a0a0a;
+  --d3fend-mermaid-cluster-border: #ffdd00;
+  --d3fend-mermaid-cluster-text: #ffffff;
+  --d3fend-mermaid-defensive-fill: #082f49;
+  --d3fend-mermaid-defensive-border: #8fd3ff;
+  --d3fend-mermaid-offensive-fill: #4a1111;
+  --d3fend-mermaid-offensive-border: #ff8a8a;
+  --d3fend-mermaid-artifact-fill: #261f00;
+  --d3fend-mermaid-artifact-border: #ffdd00;
+  --d3fend-mermaid-root-fill: #050505;
+  --d3fend-mermaid-root-border: #ffdd00;
+  --d3fend-mermaid-inbound-fill: #082f49;
+  --d3fend-mermaid-vulnerability-fill: #3f2600;
+  --d3fend-mermaid-vulnerability-border: #ffdd00;
+  --d3fend-extractor-result: #9ecae1;
+  --d3fend-graph-category-tactic: #dc050c;
+  --d3fend-graph-category-technique: #f1932d;
+  --d3fend-graph-category-subtechnique: #f7f056;
+  --d3fend-graph-category-objective: #90c987;
+  --d3fend-graph-category-operation: #7bafde;
+  --d3fend-graph-category-osapi: #1965b0;
+  --d3fend-graph-category-native: #ae76a3;
+  --d3fend-svelte-flow-background: #050505;
+  --d3fend-svelte-flow-background-pattern: #767676;
+  --d3fend-svelte-flow-edge: #ffffff;
+  --d3fend-svelte-flow-edge-selected: #ffdd00;
+  --d3fend-svelte-flow-node-background: #111111;
+  --d3fend-svelte-flow-node-text: #ffffff;
+  --d3fend-svelte-flow-node-border: 1px solid #ffffff;
+  --d3fend-svelte-flow-handle-background: #ffdd00;
+  --d3fend-svelte-flow-handle-border: #050505;
+  --d3fend-svelte-flow-controls-background: #111111;
+  --d3fend-svelte-flow-controls-background-hover: #262626;
+  --d3fend-svelte-flow-controls-text: #ffffff;
+  --d3fend-svelte-flow-controls-text-hover: #ffdd00;
+  --d3fend-svelte-flow-controls-border: #ffffff;
+  --d3fend-svelte-flow-controls-shadow: 0 0 0 1px #ffffff;
+  --d3fend-svelte-flow-selection-background: rgba(255, 221, 0, 0.22);
+  --d3fend-svelte-flow-selection-border: 1px dotted rgba(255, 221, 0, 0.98);
+  --d3fend-svelte-flow-resize-background: #ffdd00;
+  --background-color: var(--d3fend-svelte-flow-background);
+  --background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-background-color: var(--d3fend-svelte-flow-background);
+  --xy-background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --xy-edge-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-edge-stroke-selected: var(--d3fend-svelte-flow-edge-selected);
+  --xy-connectionline-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-node-background-color: var(--d3fend-svelte-flow-node-background);
+  --xy-node-color: var(--d3fend-svelte-flow-node-text);
+  --xy-node-border: var(--d3fend-svelte-flow-node-border);
+  --xy-handle-background-color: var(--d3fend-svelte-flow-handle-background);
+  --xy-handle-border-color: var(--d3fend-svelte-flow-handle-border);
+  --xy-controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --xy-controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --xy-controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --xy-controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --xy-controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-controls-box-shadow: var(--d3fend-svelte-flow-controls-shadow);
+  --xy-minimap-background-color: var(--d3fend-graph-minimap-background);
+  --xy-minimap-mask-background-color: var(--d3fend-graph-minimap-mask);
+  --xy-minimap-mask-stroke-color: var(--d3fend-graph-minimap-mask-stroke);
+  --xy-minimap-node-background-color: var(--d3fend-surface-subtle);
+  --xy-selection-background-color: var(--d3fend-svelte-flow-selection-background);
+  --xy-selection-border: var(--d3fend-svelte-flow-selection-border);
+  --xy-edge-label-background-color: var(--d3fend-surface-panel);
+  --xy-edge-label-color: var(--d3fend-text-strong);
+  --xy-resize-background-color: var(--d3fend-svelte-flow-resize-background);
+  --d3fend-alert-info-background: #082f49;
+  --d3fend-alert-danger-background: #7f1d1d;
+  --d3fend-alert-warning-background: #713f12;
+  --d3fend-alert-success-background: #064e3b;
+  --d3fend-toggle-on-background: #ffdd00;
+  --d3fend-control-selected-background: #ffdd00;
+  --d3fend-control-selected-text: #050505;
+  --d3fend-lookup-border-offensive: #ff8a8a;
+  --d3fend-lookup-border-artifact: #ffdd00;
+  --d3fend-lookup-border-defensive: #8fd3ff;
+  --d3fend-cad-node-text: #ffffff;
+  --d3fend-cad-sidebar-toggle-background: #050505;
+  --d3fend-cad-sidebar-toggle-icon: #ffffff;
+  --d3fend-filter-item-background: #181818;
+  --d3fend-filter-item-text: #ffffff;
+  --d3fend-filter-item-border: #ffffff;
+  --d3fend-filter-item-active-background: #ffdd00;
+  --d3fend-filter-item-active-text: #050505;
+  --d3fend-table-header-background: #1f2937;
+  --d3fend-table-row-even-background: #151515;
+  --d3fend-table-row-hover-background: #262626;
+  --d3fend-matrix-branch-background: #111111;
+  --d3fend-matrix-cell-background: #050505;
+  --d3fend-matrix-nested-cell-background: #181818;
+  --d3fend-matrix-cell-text: #ffffff;
+  --d3fend-matrix-cell-border: #ffffff;
+  --d3fend-matrix-selected-outline: #ffdd00;
+  --d3fend-matrix-highlight-outline: #8fd3ff;
+  --d3fend-brand-cad-c: #e62929;
+  --d3fend-brand-cad-c-soft: rgb(255, 108, 108);
+  --d3fend-brand-cad-d-soft: rgb(152, 196, 255);
+  --d3fend-brand-cad-a-outline: #475569;
+  --d3fend-status-success: #3ff27f;
+  --d3fend-status-success-alt: #3ff27f;
+  --d3fend-status-danger: #ff6b6b;
+  --d3fend-status-danger-alt: #ff8a8a;
+  --d3fend-status-danger-deep: #ffb4b4;
+  --d3fend-status-warning: #ffdd00;
+  --d3fend-status-warning-text: #ffdd00;
+  --d3fend-status-warning-muted: #ff8a8a;
+  --d3fend-status-danger-icon: #ff6b6b;
+  --d3fend-status-success-background: #064e3b;
+  --d3fend-status-danger-background: #7f1d1d;
+  --d3fend-status-warning-highlight: #ff0;
+  --d3fend-recommendation-highlight: #713f12;
+  --d3fend-glow-success: #3ff27f;
+  --d3fend-glow-focus: #ffdd00;
+  --d3fend-overlay-clear: rgba(0, 0, 0, 0);
+  --d3fend-overlay-hairline: rgba(255, 255, 255, 0.16);
+  --d3fend-overlay-raised: rgba(255, 255, 255, 0.22);
+  --d3fend-overlay-low: rgba(255, 255, 255, 0.24);
+  --d3fend-overlay-border: rgba(255, 255, 255, 0.34);
+  --d3fend-overlay-medium: rgba(255, 255, 255, 0.42);
+  --d3fend-overlay-card-shadow: rgba(0, 0, 0, 0.6);
+  --d3fend-overlay-modal-border: rgba(255, 255, 255, 0.5);
+  --d3fend-overlay-scrim: rgba(0, 0, 0, 0.72);
+  --d3fend-overlay-backdrop: rgba(0, 0, 0, 0.72);
+  --d3fend-overlay-modal-backdrop: rgba(0, 0, 0, 0.82);
+  --d3fend-overlay-heavy-backdrop: rgba(0, 0, 0, 0.9);
+  --d3fend-scroll-indicator-clear: rgba(5, 5, 5, 0);
+  --d3fend-overlay-banner-start: rgba(0, 0, 0, 0.96);
+  --d3fend-overlay-panel-light: rgba(17, 17, 17, 0.92);
+  --d3fend-overlay-panel-lighter: rgba(17, 17, 17, 0.96);
+  --d3fend-overlay-panel-near-opaque: rgba(17, 17, 17, 0.98);
+  --d3fend-overlay-panel-translucent: rgba(17, 17, 17, 0.78);
+  --d3fend-shadow-color-hsl: 0 0% 0%;
+  --d3fend-shadow-strength: 22%;
+  --d3fend-cad-node-artifact: #261f00;
+  --d3fend-cad-node-agent: #2a1419;
+  --d3fend-cad-node-attack: #4a1111;
+  --d3fend-cad-node-condition: #1f1640;
+  --d3fend-cad-node-countermeasure: #082f49;
+  --d3fend-cad-node-event: #050505;
+  --d3fend-cad-node-note: #302800;
+  --d3fend-cad-node-thing: #111111;
+  --d3fend-cad-node-vulnerability: #3f2600;
+  --d3fend-cad-node-artifact-border: #ffdd00;
+  --d3fend-cad-edge-subclass: #d07909;
+  --d3fend-graph-edge-implied: #157f1f;
+  --d3fend-graph-edge-not-implied: #a61b1b;
+  --d3fend-graph-minimap-background: #050505;
+  --d3fend-graph-minimap-mask: rgba(255, 221, 0, 0.22);
+  --d3fend-graph-minimap-mask-stroke: #ffdd00;
+  --d3fend-graph-minimap-selected-stroke: #8fd3ff;
+  --d3fend-graph-note-editor-hover: #ffffd9;
+  --d3fend-graph-streamed-node-flash: #8ecdf61f;
+  --d3fend-graph-surface: #111111;
+  --d3fend-graph-transparent: #ffffff00;
+  --d3fend-mission-activity-node: #064e3b;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: light) {
+:root[data-d3fend-theme="system"] {
+  --primary-color: #e1e1e1;
+  --primary-selected: #b7b5b5;
+  --dark-background-color: #333;
+  --warning: #c37474;
+  --item-hover: rgb(202, 201, 207);
+  --attack-node: #ffc3c7;
+  --d3fend-color-white: #fff;
+  --d3fend-color-black: black;
+  --d3fend-color-transparent: transparent;
+  --d3fend-surface-app: #e1e1e1;
+  --d3fend-surface-panel: #fff;
+  --d3fend-surface-quiet: #f4f4f4;
+  --d3fend-surface-quiet-alt: #f3f3f3;
+  --d3fend-surface-recessed: #f2f2f2;
+  --d3fend-surface-subtle: #f0f0f0;
+  --d3fend-surface-wash: #fafafa;
+  --d3fend-surface-wash-alt: #f9f9f9;
+  --d3fend-surface-slate-wash: #f9fafb;
+  --d3fend-surface-slate-soft: #f8fafc;
+  --d3fend-surface-panel-cool: #f6f7fb;
+  --d3fend-surface-selected: #b7b5b5;
+  --d3fend-surface-hover: rgb(202, 201, 207);
+  --d3fend-border-default: #ccc;
+  --d3fend-border-subtle: #ddd;
+  --d3fend-border-faint: #eee;
+  --d3fend-border-strong: #888;
+  --d3fend-border-dark: #555;
+  --d3fend-border-black: black;
+  --d3fend-border-inverse: #fff;
+  --d3fend-border-offensive: #c63e1fa3;
+  --d3fend-border-slate-subtle: #e5e7eb;
+  --d3fend-border-slate: #d1d5db;
+  --d3fend-border-slate-strong: #cbd5e1;
+  --d3fend-border-hairline: rgba(0, 0, 0, 0.12);
+  --d3fend-text-default: #333;
+  --d3fend-text-strong: #111;
+  --d3fend-text-body: #222;
+  --d3fend-text-secondary: #444;
+  --d3fend-text-muted: #555;
+  --d3fend-text-subdued: #666;
+  --d3fend-text-disabled: #777;
+  --d3fend-text-inverse: #fff;
+  --d3fend-text-black: black;
+  --d3fend-link-default: #005B94;
+  --d3fend-focus-control: #1976d2;
+  --d3fend-focus-control-hover: #1565c0;
+  --d3fend-focus-dense-control: #2563eb;
+  --d3fend-focus-ontology-edge: #0e7490;
+  --d3fend-env-link: #8fd3ff;
+  --d3fend-slate-50: #f8fafc;
+  --d3fend-slate-100: #f1f5f9;
+  --d3fend-slate-200: #e2e8f0;
+  --d3fend-slate-300: #cbd5e1;
+  --d3fend-slate-400: #94a3b8;
+  --d3fend-slate-500: #64748b;
+  --d3fend-slate-600: #475569;
+  --d3fend-slate-700: #334155;
+  --d3fend-slate-800: #1e293b;
+  --d3fend-slate-900: #0f172a;
+  --d3fend-neutral-25: #0a0909;
+  --d3fend-neutral-50: #171717;
+  --d3fend-neutral-75: #282828;
+  --d3fend-neutral-100: #2e2e2e;
+  --d3fend-neutral-125: #303030;
+  --d3fend-neutral-150: #3a3a3a;
+  --d3fend-neutral-200: #717171;
+  --d3fend-neutral-250: #999;
+  --d3fend-neutral-300: #9c9c9c;
+  --d3fend-neutral-350: #a3a3a3;
+  --d3fend-neutral-375: #aaa;
+  --d3fend-neutral-400: #b4b4b4;
+  --d3fend-neutral-425: #bcb8b8;
+  --d3fend-neutral-450: #c9c9c9;
+  --d3fend-neutral-475: #cfcfcf;
+  --d3fend-neutral-500: #dfdfdf;
+  --d3fend-neutral-525: #e2e2e2;
+  --d3fend-neutral-550: #e5e5e5;
+  --d3fend-neutral-575: #e6e6e6;
+  --d3fend-neutral-600: #ededed;
+  --d3fend-neutral-625: #f1f1f1;
+  --d3fend-neutral-650: #f7f7f7;
+  --d3fend-neutral-675: #f8f8f8;
+  --d3fend-blue-50: #eff6ff;
+  --d3fend-blue-100: #dbeafe;
+  --d3fend-blue-200: #bfdbfe;
+  --d3fend-blue-500: #0075FF;
+  --d3fend-blue-700: #1d4ed8;
+  --d3fend-blue-800: #1e40af;
+  --d3fend-blue-900: #0d47a1;
+  --d3fend-blue-ink: #12263c;
+  --d3fend-blue-ink-soft: #35506a;
+  --d3fend-blue-ink-muted: #4f6d87;
+  --d3fend-graph-highlight-fill: #0993ff2e;
+  --d3fend-graph-highlight-stroke: #062f4f;
+  --d3fend-graph-danger-stroke: #f64040;
+  --d3fend-graph-warning-stroke: #ad7400;
+  --d3fend-graph-muted-fill: rgb(255, 255, 217);
+  --d3fend-mermaid-node-fill: #fff;
+  --d3fend-mermaid-node-border: #888;
+  --d3fend-mermaid-node-text: #111;
+  --d3fend-mermaid-edge: #333;
+  --d3fend-mermaid-edge-label-background: #fff;
+  --d3fend-mermaid-edge-label-text: #111;
+  --d3fend-mermaid-class-node-text: #111;
+  --d3fend-mermaid-cluster-fill: #fafafa;
+  --d3fend-mermaid-cluster-border: #ccc;
+  --d3fend-mermaid-cluster-text: #111;
+  --d3fend-mermaid-defensive-fill: #e8f4ff;
+  --d3fend-mermaid-defensive-border: #062f4f;
+  --d3fend-mermaid-offensive-fill: #ffc3c7;
+  --d3fend-mermaid-offensive-border: #f64040;
+  --d3fend-mermaid-artifact-fill: #fff4dd;
+  --d3fend-mermaid-artifact-border: hsl(40.5882352941,60%,83.3333333333%);
+  --d3fend-mermaid-root-fill: #fff4dd;
+  --d3fend-mermaid-root-border: #555;
+  --d3fend-mermaid-inbound-fill: #e8f4ff;
+  --d3fend-mermaid-vulnerability-fill: #f9d999;
+  --d3fend-mermaid-vulnerability-border: #ad7400;
+  --d3fend-extractor-result: #9ecae1;
+  --d3fend-graph-category-tactic: #dc050c;
+  --d3fend-graph-category-technique: #f1932d;
+  --d3fend-graph-category-subtechnique: #f7f056;
+  --d3fend-graph-category-objective: #90c987;
+  --d3fend-graph-category-operation: #7bafde;
+  --d3fend-graph-category-osapi: #1965b0;
+  --d3fend-graph-category-native: #ae76a3;
+  --d3fend-svelte-flow-background: #fff;
+  --d3fend-svelte-flow-background-pattern: #bcb8b8;
+  --d3fend-svelte-flow-edge: #888;
+  --d3fend-svelte-flow-edge-selected: #111;
+  --d3fend-svelte-flow-node-background: #fff;
+  --d3fend-svelte-flow-node-text: #111;
+  --d3fend-svelte-flow-node-border: 1px solid #555;
+  --d3fend-svelte-flow-handle-background: #111;
+  --d3fend-svelte-flow-handle-border: #fff;
+  --d3fend-svelte-flow-controls-background: #fff;
+  --d3fend-svelte-flow-controls-background-hover: #f4f4f4;
+  --d3fend-svelte-flow-controls-text: #111;
+  --d3fend-svelte-flow-controls-text-hover: #111;
+  --d3fend-svelte-flow-controls-border: #eee;
+  --d3fend-svelte-flow-controls-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.08);
+  --d3fend-svelte-flow-selection-background: rgba(0, 89, 220, 0.08);
+  --d3fend-svelte-flow-selection-border: 1px dotted rgba(0, 89, 220, 0.8);
+  --d3fend-svelte-flow-resize-background: #1976d2;
+  --background-color: var(--d3fend-svelte-flow-background);
+  --background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-background-color: var(--d3fend-svelte-flow-background);
+  --xy-background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --xy-edge-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-edge-stroke-selected: var(--d3fend-svelte-flow-edge-selected);
+  --xy-connectionline-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-node-background-color: var(--d3fend-svelte-flow-node-background);
+  --xy-node-color: var(--d3fend-svelte-flow-node-text);
+  --xy-node-border: var(--d3fend-svelte-flow-node-border);
+  --xy-handle-background-color: var(--d3fend-svelte-flow-handle-background);
+  --xy-handle-border-color: var(--d3fend-svelte-flow-handle-border);
+  --xy-controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --xy-controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --xy-controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --xy-controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --xy-controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-controls-box-shadow: var(--d3fend-svelte-flow-controls-shadow);
+  --xy-minimap-background-color: var(--d3fend-graph-minimap-background);
+  --xy-minimap-mask-background-color: var(--d3fend-graph-minimap-mask);
+  --xy-minimap-mask-stroke-color: var(--d3fend-graph-minimap-mask-stroke);
+  --xy-minimap-node-background-color: var(--d3fend-surface-subtle);
+  --xy-selection-background-color: var(--d3fend-svelte-flow-selection-background);
+  --xy-selection-border: var(--d3fend-svelte-flow-selection-border);
+  --xy-edge-label-background-color: var(--d3fend-surface-panel);
+  --xy-edge-label-color: var(--d3fend-text-strong);
+  --xy-resize-background-color: var(--d3fend-svelte-flow-resize-background);
+  --d3fend-alert-info-background: lightblue;
+  --d3fend-alert-danger-background: #fee2e2;
+  --d3fend-alert-warning-background: #ffc107;
+  --d3fend-alert-success-background: lightgreen;
+  --d3fend-toggle-on-background: rgb(137, 168, 225);
+  --d3fend-control-selected-background: #2563eb;
+  --d3fend-control-selected-text: #fff;
+  --d3fend-lookup-border-offensive: #c63e1fa3;
+  --d3fend-lookup-border-artifact: hsl(40.5882352941,60%,63%);
+  --d3fend-lookup-border-defensive: #6b87ad;
+  --d3fend-cad-node-text: #111;
+  --d3fend-cad-sidebar-toggle-background: #333;
+  --d3fend-cad-sidebar-toggle-icon: #fff;
+  --d3fend-filter-item-background: #f3f3f3;
+  --d3fend-filter-item-text: #333;
+  --d3fend-filter-item-border: #888;
+  --d3fend-filter-item-active-background: #2563eb;
+  --d3fend-filter-item-active-text: #fff;
+  --d3fend-table-header-background: #3a3a3a;
+  --d3fend-table-row-even-background: #f9f9f9;
+  --d3fend-table-row-hover-background: #f1f1f1;
+  --d3fend-matrix-branch-background: #fff;
+  --d3fend-matrix-cell-background: #fff;
+  --d3fend-matrix-nested-cell-background: #f3f3f3;
+  --d3fend-matrix-cell-text: #111;
+  --d3fend-matrix-cell-border: transparent;
+  --d3fend-matrix-selected-outline: #c62828;
+  --d3fend-matrix-highlight-outline: #1976d2;
+  --d3fend-brand-cad-c: #e62929;
+  --d3fend-brand-cad-c-soft: rgb(255, 108, 108);
+  --d3fend-brand-cad-d-soft: rgb(152, 196, 255);
+  --d3fend-brand-cad-a-outline: #475569;
+  --d3fend-status-success: #2e7d32;
+  --d3fend-status-success-alt: #15803d;
+  --d3fend-status-danger: #c62828;
+  --d3fend-status-danger-alt: #b71c1c;
+  --d3fend-status-danger-deep: #b91c1c;
+  --d3fend-status-warning: #f57c00;
+  --d3fend-status-warning-text: #b35a00;
+  --d3fend-status-warning-muted: #c37474;
+  --d3fend-status-danger-icon: #D32F2F;
+  --d3fend-status-success-background: #dcfce7;
+  --d3fend-status-danger-background: #fee2e2;
+  --d3fend-status-warning-highlight: #ff0;
+  --d3fend-recommendation-highlight: rgb(236, 233, 62);
+  --d3fend-glow-success: #3bf730;
+  --d3fend-glow-focus: #4d87fa;
+  --d3fend-overlay-clear: rgba(0, 0, 0, 0);
+  --d3fend-overlay-hairline: rgba(0, 0, 0, 0.06);
+  --d3fend-overlay-raised: rgba(0, 0, 0, 0.08);
+  --d3fend-overlay-low: rgba(0, 0, 0, 0.1);
+  --d3fend-overlay-border: rgba(0, 0, 0, 0.12);
+  --d3fend-overlay-medium: rgba(0, 0, 0, 0.18);
+  --d3fend-overlay-card-shadow: rgba(0, 0, 0, 0.2);
+  --d3fend-overlay-modal-border: rgba(0, 0, 0, 0.28);
+  --d3fend-overlay-scrim: rgba(0, 0, 0, 0.3);
+  --d3fend-overlay-backdrop: rgba(0, 0, 0, 0.35);
+  --d3fend-overlay-modal-backdrop: rgba(0, 0, 0, 0.5);
+  --d3fend-overlay-heavy-backdrop: rgba(0, 0, 0, 0.7);
+  --d3fend-scroll-indicator-clear: rgba(225, 225, 225, 0);
+  --d3fend-overlay-banner-start: rgba(0, 0, 0, 0.85);
+  --d3fend-overlay-panel-light: rgba(255, 255, 255, 0.92);
+  --d3fend-overlay-panel-lighter: rgba(255, 255, 255, 0.96);
+  --d3fend-overlay-panel-near-opaque: rgba(255, 255, 255, 0.98);
+  --d3fend-overlay-panel-translucent: rgba(255, 255, 255, 0.6);
+  --d3fend-shadow-color-hsl: 220 3% 15%;
+  --d3fend-shadow-strength: 3%;
+  --d3fend-cad-node-artifact: #fff4dd;
+  --d3fend-cad-node-agent: #f0e6e6;
+  --d3fend-cad-node-attack: #ffc3c7;
+  --d3fend-cad-node-condition: #ece6ff;
+  --d3fend-cad-node-countermeasure: #d6eaff;
+  --d3fend-cad-node-event: #fff;
+  --d3fend-cad-node-note: #fafad2;
+  --d3fend-cad-node-thing: #f4f4f4;
+  --d3fend-cad-node-vulnerability: #f9d999;
+  --d3fend-cad-node-artifact-border: hsl(40.5882352941,60%,83.3333333333%);
+  --d3fend-cad-edge-subclass: #d07909;
+  --d3fend-graph-edge-implied: #157f1f;
+  --d3fend-graph-edge-not-implied: #a61b1b;
+  --d3fend-graph-minimap-background: #e1e1e1;
+  --d3fend-graph-minimap-mask: #ffffff90;
+  --d3fend-graph-minimap-mask-stroke: #808080;
+  --d3fend-graph-minimap-selected-stroke: #00008b;
+  --d3fend-graph-note-editor-hover: #ffffd9;
+  --d3fend-graph-streamed-node-flash: #8ecdf61f;
+  --d3fend-graph-surface: #fff;
+  --d3fend-graph-transparent: #ffffff00;
+  --d3fend-mission-activity-node: #C0F4D5;
+  color-scheme: light;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+:root[data-d3fend-theme="system"] {
+  --primary-color: #111827;
+  --primary-selected: #334155;
+  --dark-background-color: #e5e7eb;
+  --warning: #fca5a5;
+  --item-hover: #243244;
+  --attack-node: #ffc3c7;
+  --d3fend-color-white: #fff;
+  --d3fend-color-black: black;
+  --d3fend-color-transparent: transparent;
+  --d3fend-surface-app: #111827;
+  --d3fend-surface-panel: #1f2937;
+  --d3fend-surface-quiet: #172033;
+  --d3fend-surface-quiet-alt: #202b3b;
+  --d3fend-surface-recessed: #172033;
+  --d3fend-surface-subtle: #273449;
+  --d3fend-surface-wash: #0f172a;
+  --d3fend-surface-wash-alt: #111827;
+  --d3fend-surface-slate-wash: #111827;
+  --d3fend-surface-slate-soft: #162033;
+  --d3fend-surface-panel-cool: #1e293b;
+  --d3fend-surface-selected: #334155;
+  --d3fend-surface-hover: #243244;
+  --d3fend-border-default: #475569;
+  --d3fend-border-subtle: #334155;
+  --d3fend-border-faint: #243244;
+  --d3fend-border-strong: #64748b;
+  --d3fend-border-dark: #94a3b8;
+  --d3fend-border-black: #94a3b8;
+  --d3fend-border-inverse: #0f172a;
+  --d3fend-border-offensive: #c63e1fa3;
+  --d3fend-border-slate-subtle: #334155;
+  --d3fend-border-slate: #475569;
+  --d3fend-border-slate-strong: #64748b;
+  --d3fend-border-hairline: rgba(255, 255, 255, 0.14);
+  --d3fend-text-default: #e5e7eb;
+  --d3fend-text-strong: #f8fafc;
+  --d3fend-text-body: #e2e8f0;
+  --d3fend-text-secondary: #cbd5e1;
+  --d3fend-text-muted: #94a3b8;
+  --d3fend-text-subdued: #94a3b8;
+  --d3fend-text-disabled: #64748b;
+  --d3fend-text-inverse: #ffffff;
+  --d3fend-text-black: #f8fafc;
+  --d3fend-link-default: #7dd3fc;
+  --d3fend-focus-control: #60a5fa;
+  --d3fend-focus-control-hover: #93c5fd;
+  --d3fend-focus-dense-control: #60a5fa;
+  --d3fend-focus-ontology-edge: #22d3ee;
+  --d3fend-env-link: #bae6fd;
+  --d3fend-slate-50: #0f172a;
+  --d3fend-slate-100: #1e293b;
+  --d3fend-slate-200: #334155;
+  --d3fend-slate-300: #475569;
+  --d3fend-slate-400: #64748b;
+  --d3fend-slate-500: #94a3b8;
+  --d3fend-slate-600: #cbd5e1;
+  --d3fend-slate-700: #e2e8f0;
+  --d3fend-slate-800: #f1f5f9;
+  --d3fend-slate-900: #f8fafc;
+  --d3fend-neutral-25: #f8fafc;
+  --d3fend-neutral-50: #f1f5f9;
+  --d3fend-neutral-75: #e5e7eb;
+  --d3fend-neutral-100: #d1d5db;
+  --d3fend-neutral-125: #cbd5e1;
+  --d3fend-neutral-150: #94a3b8;
+  --d3fend-neutral-200: #64748b;
+  --d3fend-neutral-250: #475569;
+  --d3fend-neutral-300: #334155;
+  --d3fend-neutral-350: #2f3b4f;
+  --d3fend-neutral-375: #293548;
+  --d3fend-neutral-400: #243244;
+  --d3fend-neutral-425: #1f2937;
+  --d3fend-neutral-450: #1e293b;
+  --d3fend-neutral-475: #182235;
+  --d3fend-neutral-500: #172033;
+  --d3fend-neutral-525: #162033;
+  --d3fend-neutral-550: #111827;
+  --d3fend-neutral-575: #0f172a;
+  --d3fend-neutral-600: #0b1220;
+  --d3fend-neutral-625: #08111f;
+  --d3fend-neutral-650: #111827;
+  --d3fend-neutral-675: #1f2937;
+  --d3fend-blue-50: #0b2440;
+  --d3fend-blue-100: #123a63;
+  --d3fend-blue-200: #1d5f99;
+  --d3fend-blue-500: #60a5fa;
+  --d3fend-blue-700: #93c5fd;
+  --d3fend-blue-800: #bfdbfe;
+  --d3fend-blue-900: #dbeafe;
+  --d3fend-blue-ink: #dbeafe;
+  --d3fend-blue-ink-soft: #bfdbfe;
+  --d3fend-blue-ink-muted: #93c5fd;
+  --d3fend-graph-highlight-fill: #0993ff2e;
+  --d3fend-graph-highlight-stroke: #062f4f;
+  --d3fend-graph-danger-stroke: #f64040;
+  --d3fend-graph-warning-stroke: #ad7400;
+  --d3fend-graph-muted-fill: rgb(255, 255, 217);
+  --d3fend-mermaid-node-fill: #1f2937;
+  --d3fend-mermaid-node-border: #64748b;
+  --d3fend-mermaid-node-text: #f8fafc;
+  --d3fend-mermaid-edge: #f8fafc;
+  --d3fend-mermaid-edge-label-background: #172033;
+  --d3fend-mermaid-edge-label-text: #f8fafc;
+  --d3fend-mermaid-class-node-text: #111111;
+  --d3fend-mermaid-cluster-fill: #0f172a;
+  --d3fend-mermaid-cluster-border: #475569;
+  --d3fend-mermaid-cluster-text: #f8fafc;
+  --d3fend-mermaid-defensive-fill: #d6eaff;
+  --d3fend-mermaid-defensive-border: #7dd3fc;
+  --d3fend-mermaid-offensive-fill: #ffc3c7;
+  --d3fend-mermaid-offensive-border: #fca5a5;
+  --d3fend-mermaid-artifact-fill: #fff4dd;
+  --d3fend-mermaid-artifact-border: #fbbf24;
+  --d3fend-mermaid-root-fill: #fff4dd;
+  --d3fend-mermaid-root-border: #cbd5e1;
+  --d3fend-mermaid-inbound-fill: #fff4dd;
+  --d3fend-mermaid-vulnerability-fill: #f9d999;
+  --d3fend-mermaid-vulnerability-border: #fbbf24;
+  --d3fend-extractor-result: #9ecae1;
+  --d3fend-graph-category-tactic: #dc050c;
+  --d3fend-graph-category-technique: #f1932d;
+  --d3fend-graph-category-subtechnique: #f7f056;
+  --d3fend-graph-category-objective: #90c987;
+  --d3fend-graph-category-operation: #7bafde;
+  --d3fend-graph-category-osapi: #1965b0;
+  --d3fend-graph-category-native: #ae76a3;
+  --d3fend-svelte-flow-background: #0f172a;
+  --d3fend-svelte-flow-background-pattern: #334155;
+  --d3fend-svelte-flow-edge: #94a3b8;
+  --d3fend-svelte-flow-edge-selected: #e2e8f0;
+  --d3fend-svelte-flow-node-background: #1f2937;
+  --d3fend-svelte-flow-node-text: #f8fafc;
+  --d3fend-svelte-flow-node-border: 1px solid #64748b;
+  --d3fend-svelte-flow-handle-background: #e2e8f0;
+  --d3fend-svelte-flow-handle-border: #0f172a;
+  --d3fend-svelte-flow-controls-background: #1e293b;
+  --d3fend-svelte-flow-controls-background-hover: #334155;
+  --d3fend-svelte-flow-controls-text: #f8fafc;
+  --d3fend-svelte-flow-controls-text-hover: #ffffff;
+  --d3fend-svelte-flow-controls-border: #475569;
+  --d3fend-svelte-flow-controls-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.38);
+  --d3fend-svelte-flow-selection-background: rgba(96, 165, 250, 0.16);
+  --d3fend-svelte-flow-selection-border: 1px dotted rgba(147, 197, 253, 0.92);
+  --d3fend-svelte-flow-resize-background: #60a5fa;
+  --background-color: var(--d3fend-svelte-flow-background);
+  --background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-background-color: var(--d3fend-svelte-flow-background);
+  --xy-background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --xy-edge-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-edge-stroke-selected: var(--d3fend-svelte-flow-edge-selected);
+  --xy-connectionline-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-node-background-color: var(--d3fend-svelte-flow-node-background);
+  --xy-node-color: var(--d3fend-svelte-flow-node-text);
+  --xy-node-border: var(--d3fend-svelte-flow-node-border);
+  --xy-handle-background-color: var(--d3fend-svelte-flow-handle-background);
+  --xy-handle-border-color: var(--d3fend-svelte-flow-handle-border);
+  --xy-controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --xy-controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --xy-controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --xy-controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --xy-controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-controls-box-shadow: var(--d3fend-svelte-flow-controls-shadow);
+  --xy-minimap-background-color: var(--d3fend-graph-minimap-background);
+  --xy-minimap-mask-background-color: var(--d3fend-graph-minimap-mask);
+  --xy-minimap-mask-stroke-color: var(--d3fend-graph-minimap-mask-stroke);
+  --xy-minimap-node-background-color: var(--d3fend-surface-subtle);
+  --xy-selection-background-color: var(--d3fend-svelte-flow-selection-background);
+  --xy-selection-border: var(--d3fend-svelte-flow-selection-border);
+  --xy-edge-label-background-color: var(--d3fend-surface-panel);
+  --xy-edge-label-color: var(--d3fend-text-strong);
+  --xy-resize-background-color: var(--d3fend-svelte-flow-resize-background);
+  --d3fend-alert-info-background: #123a63;
+  --d3fend-alert-danger-background: #450a0a;
+  --d3fend-alert-warning-background: #854d0e;
+  --d3fend-alert-success-background: #052e16;
+  --d3fend-toggle-on-background: #60a5fa;
+  --d3fend-control-selected-background: #2563eb;
+  --d3fend-control-selected-text: #ffffff;
+  --d3fend-lookup-border-offensive: #fca5a5;
+  --d3fend-lookup-border-artifact: #fbbf24;
+  --d3fend-lookup-border-defensive: #93c5fd;
+  --d3fend-cad-node-text: #111111;
+  --d3fend-cad-sidebar-toggle-background: #111827;
+  --d3fend-cad-sidebar-toggle-icon: #f8fafc;
+  --d3fend-filter-item-background: #243244;
+  --d3fend-filter-item-text: #f8fafc;
+  --d3fend-filter-item-border: #64748b;
+  --d3fend-filter-item-active-background: #60a5fa;
+  --d3fend-filter-item-active-text: #0f172a;
+  --d3fend-table-header-background: #334155;
+  --d3fend-table-row-even-background: #172033;
+  --d3fend-table-row-hover-background: #243244;
+  --d3fend-matrix-branch-background: #243244;
+  --d3fend-matrix-cell-background: #1f2937;
+  --d3fend-matrix-nested-cell-background: #172033;
+  --d3fend-matrix-cell-text: #f8fafc;
+  --d3fend-matrix-cell-border: transparent;
+  --d3fend-matrix-selected-outline: #fca5a5;
+  --d3fend-matrix-highlight-outline: #60a5fa;
+  --d3fend-brand-cad-c: #e62929;
+  --d3fend-brand-cad-c-soft: rgb(255, 108, 108);
+  --d3fend-brand-cad-d-soft: rgb(152, 196, 255);
+  --d3fend-brand-cad-a-outline: #475569;
+  --d3fend-status-success: #86efac;
+  --d3fend-status-success-alt: #4ade80;
+  --d3fend-status-danger: #fca5a5;
+  --d3fend-status-danger-alt: #f87171;
+  --d3fend-status-danger-deep: #fecaca;
+  --d3fend-status-warning: #fbbf24;
+  --d3fend-status-warning-text: #fde68a;
+  --d3fend-status-warning-muted: #fca5a5;
+  --d3fend-status-danger-icon: #fca5a5;
+  --d3fend-status-success-background: #052e16;
+  --d3fend-status-danger-background: #450a0a;
+  --d3fend-status-warning-highlight: #ff0;
+  --d3fend-recommendation-highlight: #854d0e;
+  --d3fend-glow-success: #86efac;
+  --d3fend-glow-focus: #93c5fd;
+  --d3fend-overlay-clear: rgba(0, 0, 0, 0);
+  --d3fend-overlay-hairline: rgba(255, 255, 255, 0.08);
+  --d3fend-overlay-raised: rgba(255, 255, 255, 0.1);
+  --d3fend-overlay-low: rgba(255, 255, 255, 0.12);
+  --d3fend-overlay-border: rgba(255, 255, 255, 0.14);
+  --d3fend-overlay-medium: rgba(255, 255, 255, 0.22);
+  --d3fend-overlay-card-shadow: rgba(0, 0, 0, 0.42);
+  --d3fend-overlay-modal-border: rgba(255, 255, 255, 0.28);
+  --d3fend-overlay-scrim: rgba(0, 0, 0, 0.55);
+  --d3fend-overlay-backdrop: rgba(0, 0, 0, 0.62);
+  --d3fend-overlay-modal-backdrop: rgba(0, 0, 0, 0.72);
+  --d3fend-overlay-heavy-backdrop: rgba(0, 0, 0, 0.85);
+  --d3fend-scroll-indicator-clear: rgba(17, 24, 39, 0);
+  --d3fend-overlay-banner-start: rgba(0, 0, 0, 0.92);
+  --d3fend-overlay-panel-light: rgba(30, 41, 59, 0.92);
+  --d3fend-overlay-panel-lighter: rgba(30, 41, 59, 0.96);
+  --d3fend-overlay-panel-near-opaque: rgba(30, 41, 59, 0.98);
+  --d3fend-overlay-panel-translucent: rgba(30, 41, 59, 0.72);
+  --d3fend-shadow-color-hsl: 220 40% 2%;
+  --d3fend-shadow-strength: 18%;
+  --d3fend-cad-node-artifact: #fff4dd;
+  --d3fend-cad-node-agent: #f0e6e6;
+  --d3fend-cad-node-attack: #ffc3c7;
+  --d3fend-cad-node-condition: #ece6ff;
+  --d3fend-cad-node-countermeasure: #d6eaff;
+  --d3fend-cad-node-event: #fff;
+  --d3fend-cad-node-note: #fafad2;
+  --d3fend-cad-node-thing: #f4f4f4;
+  --d3fend-cad-node-vulnerability: #f9d999;
+  --d3fend-cad-node-artifact-border: #fbbf24;
+  --d3fend-cad-edge-subclass: #d07909;
+  --d3fend-graph-edge-implied: #157f1f;
+  --d3fend-graph-edge-not-implied: #a61b1b;
+  --d3fend-graph-minimap-background: #111827;
+  --d3fend-graph-minimap-mask: rgba(148, 163, 184, 0.28);
+  --d3fend-graph-minimap-mask-stroke: #475569;
+  --d3fend-graph-minimap-selected-stroke: #93c5fd;
+  --d3fend-graph-note-editor-hover: #ffffd9;
+  --d3fend-graph-streamed-node-flash: #8ecdf61f;
+  --d3fend-graph-surface: #1f2937;
+  --d3fend-graph-transparent: #ffffff00;
+  --d3fend-mission-activity-node: #C0F4D5;
+  color-scheme: dark;
+}
+}
+
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg {
+  color: var(--d3fend-mermaid-node-text);
+  background: transparent;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.node rect, .node polygon, .node circle, .node ellipse) {
+  fill: var(--d3fend-mermaid-node-fill) !important;
+  stroke: var(--d3fend-mermaid-node-border) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(
+  .label,
+  .nodeLabel,
+  .label span,
+  .label p,
+  .nodeLabel p,
+  .nodeLabel span,
+  foreignObject,
+  foreignObject div
+) {
+  color: var(--d3fend-mermaid-node-text) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.node text, .label text, .cluster-label text, text) {
+  fill: var(--d3fend-mermaid-node-text) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(
+  .DefensiveTechniqueNode,
+  .OffensiveTechniqueNode,
+  .ArtifactNode,
+  .AgentNode,
+  .EventNode,
+  .artifact-node,
+  .agent-node,
+  .attack-node,
+  .condition-node,
+  .countermeasure-node,
+  .event-node,
+  .note-node,
+  .thing-node,
+  .RootArtifactNode,
+  .WeaknessNode,
+  .vulnerability-node,
+  .inbound_node
+) :where(.label, .nodeLabel, .label span, .label p, .nodeLabel p, .nodeLabel span, foreignObject, foreignObject div) {
+  color: var(--d3fend-mermaid-class-node-text) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(
+  .DefensiveTechniqueNode,
+  .OffensiveTechniqueNode,
+  .ArtifactNode,
+  .AgentNode,
+  .EventNode,
+  .artifact-node,
+  .agent-node,
+  .attack-node,
+  .condition-node,
+  .countermeasure-node,
+  .event-node,
+  .note-node,
+  .thing-node,
+  .RootArtifactNode,
+  .WeaknessNode,
+  .vulnerability-node,
+  .inbound_node
+) :where(text, .label text, .nodeLabel text) {
+  fill: var(--d3fend-mermaid-class-node-text) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.edgePath path, .flowchart-link, .path, .relation) {
+  stroke: var(--d3fend-mermaid-edge) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(marker path, .arrowheadPath) {
+  fill: var(--d3fend-mermaid-edge) !important;
+  stroke: var(--d3fend-mermaid-edge) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.edgeLabel, .edgeLabel span, .edgeLabel p, .edgeLabel foreignObject) {
+  color: var(--d3fend-mermaid-edge-label-text) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg .edgeLabel .labelBkg,
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg .edgeLabel span,
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg .edgeLabel p {
+  background-color: var(--d3fend-mermaid-edge-label-background) !important;
+  color: var(--d3fend-mermaid-edge-label-text) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.edgeLabel text) {
+  fill: var(--d3fend-mermaid-edge-label-text) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.edgeLabel rect, .edgeLabel .labelBkg) {
+  fill: var(--d3fend-mermaid-edge-label-background) !important;
+  background-color: var(--d3fend-mermaid-edge-label-background) !important;
+  opacity: 1 !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.cluster rect) {
+  fill: var(--d3fend-mermaid-cluster-fill) !important;
+  stroke: var(--d3fend-mermaid-cluster-border) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.cluster-label, .cluster-label span, .cluster-label p) {
+  color: var(--d3fend-mermaid-cluster-text) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.cluster-label text) {
+  fill: var(--d3fend-mermaid-cluster-text) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.DefensiveTechniqueNode > rect) {
+  fill: var(--d3fend-mermaid-defensive-fill) !important;
+  stroke: var(--d3fend-mermaid-defensive-border) !important;
+  stroke-width: 1px !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.OffensiveTechniqueNode > rect) {
+  fill: var(--d3fend-mermaid-offensive-fill) !important;
+  stroke: var(--d3fend-mermaid-offensive-border) !important;
+  stroke-width: 1px !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.ArtifactNode > rect, .artifact-node > rect) {
+  fill: var(--d3fend-mermaid-artifact-fill) !important;
+  stroke: var(--d3fend-mermaid-artifact-border) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.AgentNode > rect, .agent-node > rect) {
+  fill: var(--d3fend-cad-node-agent) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.attack-node > rect) {
+  fill: var(--d3fend-cad-node-attack) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.condition-node > rect) {
+  fill: var(--d3fend-cad-node-condition) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.countermeasure-node > rect) {
+  fill: var(--d3fend-cad-node-countermeasure) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.EventNode > rect, .event-node > rect) {
+  fill: var(--d3fend-cad-node-event) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.note-node > rect) {
+  fill: var(--d3fend-cad-node-note) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.thing-node > rect) {
+  fill: var(--d3fend-cad-node-thing) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.RootArtifactNode > rect) {
+  fill: var(--d3fend-mermaid-root-fill) !important;
+  stroke: var(--d3fend-mermaid-root-border) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.WeaknessNode > rect, .vulnerability-node > rect) {
+  fill: var(--d3fend-mermaid-vulnerability-fill) !important;
+  stroke: var(--d3fend-mermaid-vulnerability-border) !important;
+  stroke-width: 1px !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.inbound_node > rect) {
+  fill: var(--d3fend-mermaid-inbound-fill) !important;
+  stroke: var(--d3fend-mermaid-defensive-border) !important;
+}
+</style><!----><!----><!--j17nky--><!--[0--><meta name="description" content="An SDR event where a waveform application (software/firmware/FPGA image and associated descriptors) has been installed or selected on the SDR and is available to be configured."/><!--]--> <!--[0--><meta property="og:type" content="article"/><!--]--> <!--[0--><meta property="og:title" content="Software-defined Radio Waveform Application Load Event - Artifact Details"/><!--]--> <!--[-1--><!--]--> <!--[-1--><!--]--> <!--[-1--><!--]--> <!--[0--><meta property="og:description" content="An SDR event where a waveform application (software/firmware/FPGA image and associated descriptors) has been installed or selected on the SDR and is available to be configured."/><!--]--><!----><title>Software-defined Radio Waveform Application Load Event - Artifact Details | MITRE D3FEND™</title>
+		<link href="../../../_app/immutable/assets/0.BJr1g2Lc.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/Footer.BhXJU_LE.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/Notification.sFUI4vTk.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/Hamburger.fj1125CU.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/search_documents.D2vjlWlh.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/Alert.dSEtv5f6.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/_Graph.Be_6ecwI.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/defaults.CLoPs7Bi.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/Modal.BxqN448u.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/SiteSettingsModal.DXHkQUdi.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/Nav-mobile.BkFz4uRM.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/2.ChBKYUq0.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/blog-layout.PkynT-oK.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/building-d3fend-graphs-with-d3fend-cad.Ba0HpvZr.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/CADEmbeddable.OnmNiYiy.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/getting-started-with-d3fend-for-ot.gY8fZ25K.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/threat-modeling-with-d3fend-ontology-and-cad.C7Z4VGS4.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/modeling-content-disarm-and-reconstruction.pKHN3p0s.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/BlockTree.DWtUpUX7.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/SimpleAutocomplete.Bpbp_UKj.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/Lookup-DAO.mpOciiWp.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/CollapsibleSection.e7HczovU.css" rel="stylesheet">
+		<link href="../../../_app/immutable/assets/34.D0guqA0X.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- The application will be rendered inside this element,
+      because `src/client.js` references it -->
+  <div><!--[--><!--[0--><!--[--><!--[-1--><!--]--> <div class="banner svelte-12qhfyh" hidden="" style="background-color: ; color:  "><!----><!----></div> <!--[0--><!--[--><nav class="svelte-t1cweu"><!--[-1--><!--]--><!----> <nav id="desktop" class="svelte-1h32yp1"><ul class="text-1 svelte-1h32yp1"><li class="logo svelte-1h32yp1"><a current_path="dao/artifact/d3f:Software-definedRadioWaveformApplicationLoadEvent" href="../../../" class="svelte-1h32yp1"><img alt="MITRE logo" src="../../../img/mitre.png" class="svelte-1h32yp1"/></a></li> <!--[-1--><li class="svelte-1h32yp1"><a href="../../../domain" class="svelte-1h32yp1">domains</a></li> <li class="svelte-1h32yp1"><a current_path="dao/artifact/d3f:Software-definedRadioWaveformApplicationLoadEvent" class="glow svelte-1h32yp1" href="../../../cad">CAD</a></li> <li class="svelte-1h32yp1"><a class="svelte-1h32yp1" href="../../../ontology">ontology</a></li> <li class="svelte-1h32yp1"><a aria-current="page" class="svelte-1h32yp1" href="../../../dao">artifacts</a></li> <li class="svelte-1h32yp1"><a href="../../../about" class="svelte-1h32yp1">about</a></li> <li class="svelte-1h32yp1"><a href="../../../resources" class="svelte-1h32yp1">resources</a></li> <li class="svelte-1h32yp1"><a href="../../../contribute" class="svelte-1h32yp1">contribute</a></li> <li class="svelte-1h32yp1"><a href="../../../faq" class="svelte-1h32yp1">faq</a></li> <li class="svelte-1h32yp1"><a href="../../../blog" class="svelte-1h32yp1">blog</a></li> <li class="svelte-1h32yp1"><a href="../../../search" class="svelte-1h32yp1">search</a></li> <li class="settings-nav-item svelte-1h32yp1"><button type="button" class="settings-button svelte-1h32yp1" aria-label="Settings" title="Settings"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="svelte-1h32yp1"><path fill-rule="evenodd" d="M19.43 12.98c.04-.32.07-.66.07-1s-.03-.68-.07-1l2.11-1.65a.5.5 0 0 0 .12-.64l-2-3.46a.5.5 0 0 0-.61-.22l-2.49 1a7.028 7.028 0 0 0-1.7-.99l-.38-2.65A.5.5 0 0 0 14 2h-4a.5.5 0 0 0-.5.42l-.38 2.65c-.63.26-1.2.6-1.7.99l-2.49-1a.5.5 0 0 0-.61.22l-2 3.46a.5.5 0 0 0 .12.64L4.57 11c-.04.32-.07.66-.07 1s.03.68.07 1l-2.11 1.65a.5.5 0 0 0-.12.64l2 3.46a.5.5 0 0 0 .61.22l2.49-1c.5.39 1.07.73 1.7.99l.38 2.65A.5.5 0 0 0 10 22h4a.5.5 0 0 0 .5-.42l.38-2.65c.63-.26 1.2-.6 1.7-.99l2.49 1a.5.5 0 0 0 .61-.22l2-3.46a.5.5 0 0 0-.12-.64l-2.11-1.65zM12 15.5A3.5 3.5 0 1 1 12 8.5a3.5 3.5 0 0 1 0 7z"></path></svg></button></li> <li class="logo logo-right svelte-1h32yp1"><a href="https://www.nsa.gov" class="svelte-1h32yp1"><img id="sponsor_logo" alt="NSA logo" src="../../../img/nsa.png" class="svelte-1h32yp1"/></a></li><!--]--></ul></nav> <!--[-1--><!--]--> <!--[-1--><!--]--> <nav id="mobile"><div><button aria-label="Close Mobile Menu" style="z-index: 3;" class="svelte-1ltwp5z"><!--[-1--><svg width="32" height="28" class="svelte-1ltwp5z"><line id="top" x1="0" y1="4" x2="32" y2="4" class="svelte-1ltwp5z"></line><line id="middle" x1="0" y1="14" x2="24" y2="14" class="svelte-1ltwp5z"></line><line id="bottom" x1="0" y1="24" x2="32" y2="24" class="svelte-1ltwp5z"></line></svg><!--]--></button><!----></div></nav><!----></nav> <main class="svelte-t1cweu"><!--[-1--><!--[--><!----> <h1 class="text-center svelte-z7ujn6">Software-defined Radio Waveform Application Load Event</h1> <section><div class="lookup-row flex flex-start content svelte-z7ujn6"><span id="lookup_container" class="flex-column flex-column-max-content text-right svelte-z7ujn6"><div class="dao-lookup-wrapper"><!--[-1--><!--]--></div><!----></span></div></section> <div class="artifact-card-grid flex flex-start content wrap svelte-z7ujn6"><span class="properties-card flex-column flex-column-max-content card svelte-z7ujn6"><h2 class="svelte-z7ujn6">Properties</h2> <div class="artifact-id text-center svelte-z7ujn6"><b>id:</b> <a href="../../../dao/artifact/d3f:Software-definedRadioWaveformApplicationLoadEvent" class="svelte-z7ujn6">d3f:Software-definedRadioWaveformApplicationLoadEvent</a></div> <br/> <dl class="svelte-z7ujn6"><!--[--><!--[0--><!--[--><!--[0--><dt class="svelte-z7ujn6">name</dt> <dd class="svelte-z7ujn6">Software-defined Radio Waveform Application Load Event</dd><!--]--><!--]--><!--]--><!--[0--><!--[--><!--[0--><dt class="svelte-z7ujn6">definition</dt> <dd class="svelte-z7ujn6">An SDR event where a waveform application (software/firmware/FPGA image and associated descriptors) has been installed or selected on the SDR and is available to be configured.</dd><!--]--><!--]--><!--]--><!--[-1--><!--]--><!--[-1--><!--]--><!--[-1--><!--]--><!--]--> <!--[--><!--[-1--><!--]--><!--[-1--><!--]--><!--]--></dl> <div class="text-right"><a href="../../../api/dao/artifact/d3f:Software-definedRadioWaveformApplicationLoadEvent.json" class="svelte-z7ujn6">json</a></div></span> <!--[0--><span class="flex-column flex-column-max-content card svelte-z7ujn6"><h2 class="svelte-z7ujn6">Neighbors</h2> <!--[0--><div class="neighbors-container mermaid-themed svelte-15awrit"><div><pre class="svelte-15awrit">
+      <!----></pre></div> <div class="mermaid-output svelte-15awrit"></div></div><!--]--><!----></span><!--]--></div> <div><br/> <h2 class="text-center svelte-z7ujn6">Inferred Relationships</h2> <div class="content"><div class="text-small center svelte-1frq9vu" style="background-color:;text-align:center;"><small>This page is experimental and may change significantly in future releases.</small><!----></div><!----></div> <div class="artifact-card-grid flex flex-start content wrap svelte-z7ujn6"><!----><!--[-1--><!--]--><!----> <!----><span class="flex-column flex-column-max-content flex-column card svelte-z7ujn6"><h2 class="svelte-z7ujn6">Related Countermeasure Techniques</h2> <!----><div class="toggles svelte-t0yjdx"><!--[0--><button class="svelte-t0yjdx"><!--[0-->+<!--]--></button><!--]--> <!--[--><!--]--></div><!----><!----> <!--[-1-->No related defensive techniques in this release.<!--]--><!----></span><!----> <span class="flex-column flex-column-max-content flex-column svelte-z7ujn6"><!----><div class="card svelte-z7ujn6"><h2 class="svelte-z7ujn6">Related Weaknesses</h2> <div class="collapsible"><div><button aria-expanded="false" class="svelte-172ef25">(0) found <svg viewBox="0 0 20 20" fill="none" class="svelte-172ef25"><path class="vert svelte-172ef25" d="M10 1V19" stroke="var(--d3fend-text-strong)" stroke-width="2"></path><path d="M1 10L19 10" stroke="var(--d3fend-text-strong)" stroke-width="2"></path></svg></button></div> <div class="contents" hidden=""><br/> <!--[-1--><code>Software-definedRadioWaveformApplicationLoadEvent</code> has no related weaknesses in this release.<!--]--><!----> <br/></div></div><!----></div><!----> <!----><div class="card svelte-z7ujn6"><h2 class="svelte-z7ujn6">Related Offensive Techniques</h2> <!--[-1-->No related offensive techniques in this release.<!--]--><!----></div><!----></span></div></div><!--]--><!--]--><!----></main> <!--[-1--><!--]--><!----> <footer class="svelte-t1cweu"><div class="footer-shell svelte-jz8lnl"><p class="text-small">Use of the MITRE D3FEND™ Knowledge Graph and website is subject to the <a href="../../../tou">Terms of Use</a>. Use of the MITRE D3FEND website is subject to the <a href="../../../privacy">MITRE D3FEND Privacy Policy</a>. MITRE D3FEND is funded
+    by the <a target="_blank" rel="noopener noreferrer" href="https://www.nsa.gov/">National Security Agency</a> (NSA) <a target="_blank" rel="noopener noreferrer" href="https://www.nsa.gov/Cybersecurity/">Cybersecurity Directorate</a> and managed by the <a href="https://www.mitre.org/centers/national-security-and-engineering-center/who-we-are" target="_blank" rel="noopener noreferrer">National Security Engineering Center</a> (NSEC) which is operated by <a target="_blank" rel="noopener noreferrer" href="https://www.mitre.org/">The MITRE Corporation</a>. MITRE D3FEND; and the MITRE D3FEND logo are trademarks of The MITRE
+    Corporation.
+    This software was produced for the U. S. Government under Basic Contract No.
+    W56KGU-18-D-0004, and is subject to the Rights in Noncommercial Computer
+    Software and Noncommercial Computer Software Documentation Clause
+    252.227-7014 (FEB 2012) <br/>© 2025 The MITRE Corporation. <br/>Approved for Public Release; Distribution Unlimited #20-2338 and #23-1207.</p></div><!----> <p class="center text-center font-small">UI: <a href="../../../version">0.26.0</a></p></footer> <div class="navigation-loader svelte-t1cweu" style=" transform: scaleX(0); opacity: 0; "></div><!--]--><!--]--><!----> <div class="banner svelte-12qhfyh" hidden="" style="background-color: ; color:  "><!----><!----></div><!--]--><!--]--> <!--[-1--><!--]--><!--]-->
+			<script type="application/json" data-sveltekit-fetched data-url="/api/version.json">{"status":200,"statusText":"","headers":{},"body":"{\n  \"version\": \"1.6.0\",\n  \"ontology_version\": \"1.6.0\",\n  \"release_date\": \"2026-08-31T00:12:00Z\",\n  \"ontology_hash_sha256\": \"4909a5bb66b75d2c359624398848936fb56a6b246bcd5cfcd277977a1277753a\",\n  \"frontend_version\": \"0.26.0\",\n  \"ui_build_date\": \"2026-09-01T04:59:05.634Z\",\n  \"ui_commit\": \"02c59e2d8\"\n}"}</script>
+			<script type="application/json" data-sveltekit-fetched data-url="/api/dao/artifact/d3f:Software-definedRadioWaveformApplicationLoadEvent.json">{"status":200,"statusText":"","headers":{},"body":"{\"da_to_off\":{\"head\":{\"vars\":[\"off_artifact_label\",\"off_artifact_rel_label\",\"off_tech_label\",\"off_tech_id\",\"framework_root_iri\",\"off_tactic_rel_label\",\"off_tactic_label\",\"off_artifact\",\"off_artifact_rel\",\"off_tech\",\"off_tactic_rel\",\"off_tactic\"]},\"results\":{\"bindings\":[]}},\"da_to_def\":{\"head\":{\"vars\":[\"def_tactic_label\",\"def_tactic_rel_label\",\"def_tech_parent_is_toplevel\",\"def_tech_parent_label\",\"def_tech_label\",\"def_artifact_rel_label\",\"def_artifact_label\",\"def_tactic\",\"def_tactic_rel\",\"def_tech\",\"def_artifact_rel\",\"def_artifact\"]},\"results\":{\"bindings\":[]}},\"neighbors\":{\"@context\":{\"rdfs\":\"http://www.w3.org/2000/01/rdf-schema#\",\"owl\":\"http://www.w3.org/2002/07/owl#\",\"d3f\":\"http://d3fend.mitre.org/ontologies/d3fend.owl#\",\"skos\":\"http://www.w3.org/2004/02/skos/core#\"},\"@graph\":[{\"@id\":\"d3f:Software-definedRadioComputer\",\"rdfs:label\":[\"Software-defined Radio Computer\"]},{\"@id\":\"d3f:Software-definedRadioWaveformApplication\",\"rdfs:label\":[\"Software-defined Radio Waveform Application\"]},{\"@id\":\"d3f:Software-definedRadioWaveformApplicationLoadEvent\",\"d3f:has-participant\":[{\"@id\":\"d3f:Software-definedRadioWaveformApplication\"},{\"@id\":\"d3f:Software-definedRadioComputer\"}],\"d3f:outbound\":[{\"@id\":\"d3f:has-participant\"}],\"rdfs:label\":[\"Software-defined Radio Waveform Application Load Event\"]}]},\"da_to_weak\":{\"@context\":{\"rdfs\":\"http://www.w3.org/2000/01/rdf-schema#\",\"owl\":\"http://www.w3.org/2002/07/owl#\",\"d3f\":\"http://d3fend.mitre.org/ontologies/d3fend.owl#\",\"skos\":\"http://www.w3.org/2004/02/skos/core#\"},\"@graph\":[]},\"sensors\":{\"@context\":{\"rdfs\":\"http://www.w3.org/2000/01/rdf-schema#\",\"owl\":\"http://www.w3.org/2002/07/owl#\",\"d3f\":\"http://d3fend.mitre.org/ontologies/d3fend.owl#\",\"skos\":\"http://www.w3.org/2004/02/skos/core#\"},\"@graph\":[]},\"da_to_events\":{\"head\":{\"vars\":[\"event\",\"event_parent\",\"event_rel\",\"event_rel_inverse\",\"artifact\",\"artifact_parent\",\"event_label\",\"event_parent_label\",\"event_rel_label\",\"event_rel_inverse_label\",\"artifact_label\",\"artifact_parent_label\"]},\"results\":{\"bindings\":[]}},\"artifactld\":{\"@context\":{\"rdfs\":\"http://www.w3.org/2000/01/rdf-schema#\",\"owl\":\"http://www.w3.org/2002/07/owl#\",\"d3f\":\"http://d3fend.mitre.org/ontologies/d3fend.owl#\",\"skos\":\"http://www.w3.org/2004/02/skos/core#\"},\"@graph\":[{\"@id\":\"d3f:Software-definedRadioComputer\"},{\"@id\":\"d3f:Software-definedRadioEvent\"},{\"@id\":\"d3f:Software-definedRadioWaveformApplication\"},{\"@id\":\"d3f:Software-definedRadioWaveformApplicationLoadEvent\",\"@type\":[\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:definition\":\"An SDR event where a waveform application (software/firmware/FPGA image and associated descriptors) has been installed or selected on the SDR and is available to be configured.\",\"d3f:has-participant\":[{\"@id\":\"d3f:Software-definedRadioWaveformApplication\"},{\"@id\":\"d3f:Software-definedRadioComputer\"}],\"rdfs:label\":\"Software-defined Radio Waveform Application Load Event\",\"rdfs:subClassOf\":{\"@id\":\"d3f:Software-definedRadioEvent\"}}]},\"da_graph\":{\"@context\":{\"rdfs\":\"http://www.w3.org/2000/01/rdf-schema#\",\"owl\":\"http://www.w3.org/2002/07/owl#\",\"d3f\":\"http://d3fend.mitre.org/ontologies/d3fend.owl#\",\"skos\":\"http://www.w3.org/2004/02/skos/core#\"},\"@graph\":[]},\"description\":{\"@context\":{\"rdfs\":\"http://www.w3.org/2000/01/rdf-schema#\",\"owl\":\"http://www.w3.org/2002/07/owl#\",\"d3f\":\"http://d3fend.mitre.org/ontologies/d3fend.owl#\",\"skos\":\"http://www.w3.org/2004/02/skos/core#\"},\"@graph\":[{\"@id\":\"d3f:Software-definedRadioComputer\"},{\"@id\":\"d3f:Software-definedRadioEvent\"},{\"@id\":\"d3f:Software-definedRadioWaveformApplication\"},{\"@id\":\"d3f:Software-definedRadioWaveformApplicationLoadEvent\",\"@type\":[\"owl:NamedIndividual\",\"owl:Class\"],\"d3f:definition\":\"An SDR event where a waveform application (software/firmware/FPGA image and associated descriptors) has been installed or selected on the SDR and is available to be configured.\",\"d3f:has-participant\":[{\"@id\":\"d3f:Software-definedRadioWaveformApplication\"},{\"@id\":\"d3f:Software-definedRadioComputer\"}],\"rdfs:label\":\"Software-defined Radio Waveform Application Load Event\",\"rdfs:subClassOf\":{\"@id\":\"d3f:Software-definedRadioEvent\"}}]}}"}</script>
+			<script>
+				{
+					__sveltekit_nmc8k = {
+						base: new URL("../../..", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("../../../_app/immutable/entry/start.Bvz6_gDo.js"),
+						import("../../../_app/immutable/entry/app.oXmKdsXO.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2, 34],
+							data: [{type:"data",data:{},uses:{}},null,null],
+							form: null,
+							error: null
+						});
+					});
+
+					if ('serviceWorker' in navigator) {
+						const script_url = '../../../service-worker.js';
+						const policy = globalThis?.window?.trustedTypes?.createPolicy(
+							'sveltekit-trusted-url',
+							{ createScriptURL(url) { return url; } }
+						);
+						const sanitised = policy?.createScriptURL(script_url) ?? script_url;
+						addEventListener('load', function () {
+							navigator.serviceWorker.register(sanitised);
+						});
+					}
+				}
+			</script>
+		</div>
+</body>
+
+</html>

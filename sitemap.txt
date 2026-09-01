@@ -899,8 +899,8 @@
 ./dao/artifact/d3f:RawMemoryAccessFunction
 ./dao/artifact/d3f:ReadFile
 ./dao/artifact/d3f:ReadMemory
+./dao/artifact/d3f:Real-timeClock
 ./dao/artifact/d3f:Real-timeOperatingSystem
-./dao/artifact/d3f:RealtimeClock
 ./dao/artifact/d3f:Receiver
 ./dao/artifact/d3f:Record
 ./dao/artifact/d3f:RemoteAuthenticationService
@@ -1021,7 +1021,6 @@
 ./dao/artifact/d3f:TFTPNetworkTraffic
 ./dao/artifact/d3f:TFTPServer
 ./dao/artifact/d3f:TabletComputer
-./dao/artifact/d3f:Telecommand
 ./dao/artifact/d3f:TerminateProcess
 ./dao/artifact/d3f:TertiaryStorage
 ./dao/artifact/d3f:TestExecutionTool
@@ -1152,6 +1151,7 @@
 ./dao/artifact/d3f:WindowsWriteProcessMemory
 ./dao/artifact/d3f:WiredLink
 ./dao/artifact/d3f:WirelessAccessPoint
+./dao/artifact/d3f:WirelessCommand
 ./dao/artifact/d3f:WirelessLink
 ./dao/artifact/d3f:WirelessRouter
 ./dao/artifact/d3f:WriteFile
@@ -1422,8 +1422,8 @@
 ./event/d3f:ServiceUpdateEvent
 ./event/d3f:Software-definedRadioEvent
 ./event/d3f:Software-definedRadioRFStateChangeEvent
-./event/d3f:Software-definedRadioWaveformConfigurationEvent
-./event/d3f:Software-definedRadioWaveformLoadEvent
+./event/d3f:Software-definedRadioWaveformApplicationConfigurationEvent
+./event/d3f:Software-definedRadioWaveformApplicationLoadEvent
 ./event/d3f:SoftwareClockEvent
 ./event/d3f:SoftwareTimerEvent
 ./event/d3f:StorageDeviceEvent
@@ -1736,6 +1736,7 @@
 ./offensive-technique/attack/DE-0003.10
 ./offensive-technique/attack/DE-0003.11
 ./offensive-technique/attack/DE-0003.12
+./offensive-technique/attack/DE-0003.13
 ./offensive-technique/attack/DE-0004
 ./offensive-technique/attack/DE-0005
 ./offensive-technique/attack/DE-0006
@@ -1773,6 +1774,7 @@
 ./offensive-technique/attack/EX-0010.02
 ./offensive-technique/attack/EX-0010.03
 ./offensive-technique/attack/EX-0010.04
+./offensive-technique/attack/EX-0010.05
 ./offensive-technique/attack/EX-0011
 ./offensive-technique/attack/EX-0012
 ./offensive-technique/attack/EX-0012.01
@@ -1863,6 +1865,14 @@
 ./offensive-technique/attack/IMP-0004
 ./offensive-technique/attack/IMP-0005
 ./offensive-technique/attack/IMP-0006
+./offensive-technique/attack/IMP-0007
+./offensive-technique/attack/IMP-0008
+./offensive-technique/attack/IMP-0009
+./offensive-technique/attack/IMP-0010
+./offensive-technique/attack/IMP-0011
+./offensive-technique/attack/IMP-0012
+./offensive-technique/attack/IMP-0013
+./offensive-technique/attack/IMP-0014
 ./offensive-technique/attack/LM-0001
 ./offensive-technique/attack/LM-0002
 ./offensive-technique/attack/LM-0003

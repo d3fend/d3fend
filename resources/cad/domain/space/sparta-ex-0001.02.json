@@ -1,0 +1,550 @@
+{
+    "meta": {
+        "title": "SPARTA EX-0014.04: Bus Traffic Replay",
+        "authors": [
+            "Ivan Kirillov"
+        ],
+        "orgs": [
+            "MITRE"
+        ],
+        "description": "A model of SPARTA EX-0001.02 along with related events and artifacts.",
+        "article": "",
+        "d3fend_version": "",
+        "cad_schema_version": 0,
+        "published_date": "",
+        "references": [
+            "https://sparta.aerospace.org/technique/EX-0001/02/"
+        ],
+        "settings": {}
+    },
+    "nodes": [
+        {
+            "id": "0.9030440058343858",
+            "type": "artifact-node",
+            "position": {
+                "x": 971.9398096657777,
+                "y": 275.9087040788882
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Satellite",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Satellite"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.34599609003379805",
+            "type": "artifact-node",
+            "position": {
+                "x": 951.8587394819085,
+                "y": -104.09939666823988
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Real-time operating system",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Real-timeOperatingSystem"
+            },
+            "measured": {
+                "width": 210,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.36818430763332133",
+            "type": "attack-node",
+            "position": {
+                "x": -181.08215932566173,
+                "y": -108.45677449350673
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Bus Traffic Replay - SPARTA",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:EX-0001.02"
+            },
+            "measured": {
+                "width": 374,
+                "height": 103
+            },
+            "selected": false,
+            "width": 374,
+            "height": 103,
+            "dragging": false
+        },
+        {
+            "id": "0.4358117986626119",
+            "type": "agent-node",
+            "position": {
+                "x": -514.7801121337329,
+                "y": -110.67365371268339
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Local Area Network Attacker",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:LocalAreaNetworkAttacker"
+            },
+            "measured": {
+                "width": 210,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8825839073525191",
+            "type": "artifact-node",
+            "position": {
+                "x": 966.9243762667907,
+                "y": 89.17433387556127
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Spacecraft Computer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:SpacecraftComputer"
+            },
+            "measured": {
+                "width": 181,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8760482849900181",
+            "type": "artifact-node",
+            "position": {
+                "x": 336.3315873584056,
+                "y": -112.9944176511015
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Bus Network Traffic",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:BusNetworkTraffic"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.3051045059032941",
+            "type": "artifact-node",
+            "position": {
+                "x": 561.0730300172366,
+                "y": 276.1256928840685
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Bus Network",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:BusNetwork"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.10138616724792548",
+            "type": "artifact-node",
+            "position": {
+                "x": 561.7809142298948,
+                "y": 95.48036191290393
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Bus Network Node",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:BusNetworkNode"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8289119145849866",
+            "type": "artifact-node",
+            "position": {
+                "x": 646.708195219975,
+                "y": -112.58869012455337
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Bus Network Frame",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:BusNetworkFrame"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.1997857530913546",
+            "type": "artifact-node",
+            "position": {
+                "x": 646.708195219975,
+                "y": -333.41663491871816
+            },
+            "data": {
+                "label": "Bus Message",
+                "sequence": "0",
+                "d3f_class": "d3f:BusMessage",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 176,
+                "height": 110
+            }
+        },
+        {
+            "id": "0.199404635708611",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 304.90210135866374,
+                "y": -339.77419670092786
+            },
+            "data": {
+                "label": "Bus Message Authentication",
+                "sequence": "0",
+                "d3f_class": "d3f:BusMessageAuthentication",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 214,
+                "height": 121
+            }
+        },
+        {
+            "id": "0.45803212396079873",
+            "type": "note-node",
+            "position": {
+                "x": -143.1763324357829,
+                "y": -340.1552943231533
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Bus Message Auth",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Bus Message Authentication involves hashing the\nbus message contents, the ID of the sender, and a\n\"freshness\" value such as a monotonically increasing\ncounter. The freshness value is what prevents replay\nattacks, as the bus controller/monitor should reject any\nframes with an invalid freshness."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 302,
+                "height": 133
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.321460650622843",
+            "type": "note-node",
+            "position": {
+                "x": 1239.2033409981418,
+                "y": 292.16567433638824
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Spacecraft Model",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "This is a very basic model of a spacecraft (satellite)\nthat is used to help illustrate this technique."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 284,
+                "height": 83
+            },
+            "selected": false,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "data": {
+                "d3f_property": "d3f:runs",
+                "label": "runs"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8825839073525191",
+            "sourceHandle": "source",
+            "target": "0.34599609003379805",
+            "targetHandle": "target",
+            "id": "xy-edge-0.12320521710850674__0.9030440058343858source-0.6986334010450396target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:initiates",
+                "label": "initiates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.4358117986626119",
+            "sourceHandle": "source",
+            "target": "0.36818430763332133",
+            "targetHandle": "target",
+            "id": "xy-edge-0.22674004336458886__0.4358117986626119source-0.36818430763332133target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9030440058343858",
+            "sourceHandle": "source",
+            "target": "0.8825839073525191",
+            "targetHandle": "target",
+            "id": "xy-edge-0.31690604647710907__0.9030440058343858source-0.8825839073525191target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:produces",
+                "label": "produces"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.36818430763332133",
+            "sourceHandle": "source",
+            "target": "0.8760482849900181",
+            "targetHandle": "target",
+            "id": "xy-edge-0.2119743275506284__0.36818430763332133source-0.8760482849900181target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": [
+                    "contains"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9030440058343858",
+            "sourceHandle": "source",
+            "target": "0.3051045059032941",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4982421018291471__0.9030440058343858source-0.3051045059032941target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:transmits",
+                "label": "transmits"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.10138616724792548",
+            "sourceHandle": "source",
+            "target": "0.8760482849900181",
+            "targetHandle": "target",
+            "id": "xy-edge-0.12591922180037562__0.10138616724792548source-0.8760482849900181target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": [
+                    "contains"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3051045059032941",
+            "sourceHandle": "source",
+            "target": "0.10138616724792548",
+            "targetHandle": "target",
+            "id": "xy-edge-0.05829261221985549__0.3051045059032941source-0.10138616724792548target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8760482849900181",
+            "sourceHandle": "source",
+            "target": "0.8289119145849866",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6433885054436354__0.8760482849900181source-0.8289119145849866target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8289119145849866",
+            "sourceHandle": "source",
+            "target": "0.1997857530913546",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4293802053811836__0.8289119145849866source-0.1997857530913546target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:authenticates",
+                "label": "authenticates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.199404635708611",
+            "sourceHandle": "source",
+            "target": "0.1997857530913546",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8968889843854642__0.199404635708611source-0.1997857530913546target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9030440058343858",
+            "sourceHandle": "source",
+            "target": "0.10138616724792548",
+            "targetHandle": "target",
+            "id": "xy-edge-0.37966996930388774__0.9030440058343858source-0.10138616724792548target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.45803212396079873",
+            "sourceHandle": "source",
+            "target": "0.36818430763332133",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8956889258723921__0.45803212396079873source-0.36818430763332133target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.45803212396079873",
+            "sourceHandle": "source",
+            "target": "0.199404635708611",
+            "targetHandle": "target",
+            "id": "xy-edge-0.49821902542153473__0.45803212396079873source-0.199404635708611target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.321460650622843",
+            "sourceHandle": "source",
+            "target": "0.9030440058343858",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8165019981568418__0.321460650622843source-0.9030440058343858target",
+            "selected": false
+        }
+    ],
+    "layers": []
+}

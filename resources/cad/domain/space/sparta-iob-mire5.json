@@ -1,0 +1,626 @@
+{
+    "meta": {
+        "title": "SPARTA IOB MIRE-5: Legitimate Command with Malicious Parameters Targeting Subsystems",
+        "authors": [
+            "Ivan Kirillov"
+        ],
+        "orgs": [
+            "MITRE"
+        ],
+        "description": "Depicts how IOB MIRE-5 is mapped to D3FEND for Space.",
+        "article": "",
+        "d3fend_version": "",
+        "cad_schema_version": 0,
+        "published_date": "",
+        "references": [
+            ""
+        ],
+        "settings": {}
+    },
+    "nodes": [
+        {
+            "id": "0.22889589665332932",
+            "type": "condition-node",
+            "position": {
+                "x": 332.1065008705998,
+                "y": -6.67732675855803
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "[x-opencti-memory:status = 'corrupted' AND x-opencti-software:component = 'flight_software']",
+                "sequence": "0",
+                "user_properties": []
+            },
+            "measured": {
+                "width": 1074,
+                "height": 43
+            },
+            "selected": false,
+            "width": 1074,
+            "height": 43,
+            "dragging": false
+        },
+        {
+            "id": "0.8636887728831844",
+            "type": "note-node",
+            "position": {
+                "x": 362.12797999309703,
+                "y": -133.39047248931118
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "SPARTA IOB MIRE-5",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Detection of memory corruption in spacecraft flight software components, potentially caused by buffer overflow or other memory management vulnerabilities being exploited by threat actors.."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 1014,
+                "height": 57
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 1014,
+            "height": 57
+        },
+        {
+            "id": "0.5916643653414664",
+            "type": "agent-node",
+            "position": {
+                "x": 698.0099253943848,
+                "y": 822.8970842745812
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Wireless Attacker",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:WirelessAttacker"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.013504614656568381",
+            "type": "attack-node",
+            "position": {
+                "x": 619.7539371002528,
+                "y": 663.719968267
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Trigger Single Event Upset - SPARTA",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:EX-0007"
+            },
+            "measured": {
+                "width": 331,
+                "height": 84
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 331,
+            "height": 84
+        },
+        {
+            "id": "0.4464677321153194",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 599.8262385860646,
+                "y": 413.8137442977972
+            },
+            "data": {
+                "label": "Radiation Hardening",
+                "sequence": "0",
+                "d3f_class": "d3f:RadiationHardening",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 176,
+                "height": 121
+            }
+        },
+        {
+            "id": "0.15843220148077708",
+            "type": "artifact-node",
+            "position": {
+                "x": 285.5882371625181,
+                "y": 85.01749861896775
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Spacecraft",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Spacecraft"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.060373364119959194",
+            "type": "artifact-node",
+            "position": {
+                "x": 640.4241306910759,
+                "y": 85.01749861896776
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Onboard Computer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OnboardComputer"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.2701423276889252",
+            "type": "artifact-node",
+            "position": {
+                "x": 1213.7534401716357,
+                "y": 86.05707805414302
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Flight Software",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:FlightSoftware"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.9785669186130893",
+            "type": "artifact-node",
+            "position": {
+                "x": 465.7885951501331,
+                "y": 247.09756223277196
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Central Processing Unit",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CentralProcessingUnit"
+            },
+            "measured": {
+                "width": 180,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.2550118041394339",
+            "type": "artifact-node",
+            "position": {
+                "x": 795.3040033613805,
+                "y": 248.04986972005543
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "RAM",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:RAM"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.13955167926989398",
+            "type": "artifact-node",
+            "position": {
+                "x": 1214.457513660586,
+                "y": 261.3819642822675
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Flight Software Process",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Process"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "zIndex": 10,
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.09674683839433884",
+            "type": "artifact-node",
+            "position": {
+                "x": 913.1463798048362,
+                "y": 87.0900920072936
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Real-time operating system",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:RealTimeOperatingSystem"
+            },
+            "measured": {
+                "width": 200,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.46953107843330943",
+            "type": "artifact-node",
+            "position": {
+                "x": 85.57725708937119,
+                "y": 250.27704610249333
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Processor Cache Memory",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CacheMemory"
+            },
+            "measured": {
+                "width": 176,
+                "height": 110
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5204294253663819",
+            "type": "note-node",
+            "position": {
+                "x": 934.9179708387758,
+                "y": 411.26897360397845
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "SEE Threat Modeling",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "This simplified model shows the component-level\ndecomposition of a spacecraft, oriented around flight\nsoftware execution. It depicts the relationships between \nsoftware and hardware components, highlighting the\npotential down-stream effects on flight software when RAM\nor CPU cache is corrupted by an SEE. "
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 324,
+                "height": 133
+            },
+            "selected": false,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "data": {
+                "label": "has-condition"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8636887728831844",
+            "sourceHandle": "source",
+            "target": "0.22889589665332932",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8569146172421667__0.8636887728831844source-0.22889589665332932target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:initiates",
+                "label": "initiates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5916643653414664",
+            "sourceHandle": "source",
+            "target": "0.013504614656568381",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9964231630562131__0.5916643653414664source-0.013504614656568381target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:runs",
+                "label": "runs"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.09674683839433884",
+            "sourceHandle": "source",
+            "target": "0.2701423276889252",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6944163408347765__0.060373364119959194source-0.2701423276889252target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.15843220148077708",
+            "sourceHandle": "source",
+            "target": "0.060373364119959194",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8552525825109935__0.15843220148077708source-0.060373364119959194target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": [
+                    "contains"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.060373364119959194",
+            "sourceHandle": "source",
+            "target": "0.9785669186130893",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5180557119384298__0.060373364119959194source-0.9785669186130893target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.060373364119959194",
+            "sourceHandle": "source",
+            "target": "0.2550118041394339",
+            "targetHandle": "target",
+            "id": "xy-edge-0.44899440455332273__0.060373364119959194source-0.2550118041394339target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:instructs",
+                "label": "instructs"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.2701423276889252",
+            "sourceHandle": "source",
+            "target": "0.13955167926989398",
+            "targetHandle": "target",
+            "id": "xy-edge-0.44580844916170037__0.2701423276889252source-0.13955167926989398target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.060373364119959194",
+            "sourceHandle": "source",
+            "target": "0.09674683839433884",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8922904972248916__0.060373364119959194source-0.09674683839433884target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:writes",
+                "label": "writes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.13955167926989398",
+            "sourceHandle": "source",
+            "target": "0.2550118041394339",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4901376172328614__0.13955167926989398source-0.2550118041394339target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-corrupt",
+                "label": "may-corrupt"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.013504614656568381",
+            "sourceHandle": "source",
+            "target": "0.2550118041394339",
+            "targetHandle": "target",
+            "id": "xy-edge-0.009197775938256325__0.013504614656568381source-0.2550118041394339target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9785669186130893",
+            "sourceHandle": "source",
+            "target": "0.46953107843330943",
+            "targetHandle": "target",
+            "id": "xy-edge-0.281605068904764__0.9785669186130893source-0.46953107843330943target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-corrupt",
+                "label": "may-corrupt"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.013504614656568381",
+            "sourceHandle": "source",
+            "target": "0.46953107843330943",
+            "targetHandle": "target",
+            "id": "xy-edge-0.477232584765493__0.013504614656568381source-0.46953107843330943target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:reads",
+                "label": "reads"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9785669186130893",
+            "sourceHandle": "source",
+            "target": "0.2550118041394339",
+            "targetHandle": "target",
+            "id": "xy-edge-0.954777732923769__0.9785669186130893source-0.2550118041394339target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:writes",
+                "label": "writes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9785669186130893",
+            "sourceHandle": "source",
+            "target": "0.2550118041394339",
+            "targetHandle": "target",
+            "id": "xy-edge-0.3738735832286051__0.9785669186130893source-0.2550118041394339target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-harden",
+                "label": "may-harden"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.4464677321153194",
+            "sourceHandle": "source",
+            "target": "0.2550118041394339",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5567568342748374__0.4464677321153194source-0.2550118041394339target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:reads",
+                "label": "reads"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.13955167926989398",
+            "sourceHandle": "source",
+            "target": "0.2550118041394339",
+            "targetHandle": "target",
+            "id": "xy-edge-0.11655829710578258__0.13955167926989398source-0.2550118041394339target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-harden",
+                "label": "may-harden"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.4464677321153194",
+            "sourceHandle": "source",
+            "target": "0.9785669186130893",
+            "targetHandle": "target",
+            "id": "xy-edge-0.48632267283900454__0.4464677321153194source-0.9785669186130893target",
+            "selected": false
+        }
+    ]
+}

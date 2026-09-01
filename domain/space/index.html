@@ -1,0 +1,2402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="theme-color" content="#e1e1e1" />
+
+  <link rel="stylesheet" href="../../global-d3fend.css" />
+  <link rel="icon" type="image/png" href="../../favicon.ico" />
+
+  <!-- This contains the contents of the <svelte:head> component, if
+    the current page has one -->
+  <link href="../../_app/immutable/entry/start.Bvz6_gDo.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/CS5eGvzq.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/o0JyXpVK.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/C5fqCc9O.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/B0SftDD_.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/DZKNGu60.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/-UyI9lYi.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/dADtSGqr.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/B0XwC4Ot.js" rel="modulepreload">
+		<link href="../../_app/immutable/entry/app.oXmKdsXO.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/Dp1pzeXC.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/DgQYKI2J.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/Bzak7iHL.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/B7bOfw0f.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/B8SAfadu.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/S7wTprgC.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/BLNxmo6t.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/BAIJt-Fa.js" rel="modulepreload">
+		<link href="../../_app/immutable/nodes/0.QbhveEck.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/DzcpJ-1p.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/BhUBJ9bE.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/XfDlbx51.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/Dz-3Hgv5.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/BYdHoday.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/DDYLM6Yj.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/Dmxyk2Zh.js" rel="modulepreload">
+		<link href="../../_app/immutable/nodes/2.Dgyn74al.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/ws0oSco3.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/Cpj98o6Y.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/BqqRT-Iy.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/B_6nsKKd.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/BEYhbqhb.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/z-zb-vOA.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/C-xjQbAt.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/DXkj-8BY.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/0Jr8V0UN.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/C-WLliuZ.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/BVwtEyzW.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/DCd0_mMG.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/Lq8toa_j.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/K5CjhWwp.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/BJDwjcLS.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/CXNgXjTx.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/B7SPOuml.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/B15HVkN1.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/B5jvqWpf.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/DHufvBxo.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/bXSJFQuL.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/DRA1XB14.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/Cs2bsnZo.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/CesSW9Du.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/C1A-5PAt.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/Dc30vJWW.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/MLmmRjdT.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/DVx7VlhT.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/BMJYV3nV.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/DzMLhoNT.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/ClXRhXX8.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/DJZIoaCu.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/MFOBLaM2.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/CHzgDdPA.js" rel="modulepreload">
+		<link href="../../_app/immutable/nodes/37.wCCMROGs.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/DTnLv5eS.js" rel="modulepreload">
+		<!--12qhfyh--><!----><script data-d3fend-theme-bootstrap>
+(function () {
+  var storageKey = "d3fend.ui.theme";
+  var themeAttribute = "data-d3fend-theme";
+  var defaultTheme = "light";
+  var systemTheme = "system";
+  var themes = ["light","dark","contrast","system"];
+  var themeColors = {"light":"#e1e1e1","dark":"#111827","contrast":"#050505"};
+  var themeColorSchemes = {"light":"light","dark":"dark","contrast":"dark"};
+
+  function normalizeTheme(themeName) {
+    return themes.indexOf(themeName) === -1 ? defaultTheme : themeName;
+  }
+
+  function activeTheme(themeName) {
+    if (themeName !== systemTheme) return themeName;
+    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
+      ? "dark"
+      : "light";
+  }
+
+  function setThemeColor(themeName) {
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (!meta) return;
+    meta.setAttribute("content", themeColors[themeName] || themeColors[defaultTheme]);
+  }
+
+  function colorScheme(themeName) {
+    var resolvedThemeName = activeTheme(themeName);
+    return themeColorSchemes[resolvedThemeName] || themeColorSchemes[defaultTheme] || defaultTheme;
+  }
+
+  try {
+    var storedTheme = window.localStorage && window.localStorage.getItem(storageKey);
+    var themeName = normalizeTheme(storedTheme);
+    var resolvedThemeName = activeTheme(themeName);
+    document.documentElement.setAttribute(themeAttribute, themeName);
+    document.documentElement.style.colorScheme = colorScheme(themeName);
+    setThemeColor(resolvedThemeName);
+  } catch (error) {
+    document.documentElement.setAttribute(themeAttribute, defaultTheme);
+    document.documentElement.style.colorScheme = defaultTheme;
+    setThemeColor(defaultTheme);
+  }
+}());
+</script><!----> <!----><style data-d3fend-color-palette>:root {
+  --primary-color: #e1e1e1;
+  --primary-selected: #b7b5b5;
+  --dark-background-color: #333;
+  --warning: #c37474;
+  --item-hover: rgb(202, 201, 207);
+  --attack-node: #ffc3c7;
+  --d3fend-color-white: #fff;
+  --d3fend-color-black: black;
+  --d3fend-color-transparent: transparent;
+  --d3fend-surface-app: #e1e1e1;
+  --d3fend-surface-panel: #fff;
+  --d3fend-surface-quiet: #f4f4f4;
+  --d3fend-surface-quiet-alt: #f3f3f3;
+  --d3fend-surface-recessed: #f2f2f2;
+  --d3fend-surface-subtle: #f0f0f0;
+  --d3fend-surface-wash: #fafafa;
+  --d3fend-surface-wash-alt: #f9f9f9;
+  --d3fend-surface-slate-wash: #f9fafb;
+  --d3fend-surface-slate-soft: #f8fafc;
+  --d3fend-surface-panel-cool: #f6f7fb;
+  --d3fend-surface-selected: #b7b5b5;
+  --d3fend-surface-hover: rgb(202, 201, 207);
+  --d3fend-border-default: #ccc;
+  --d3fend-border-subtle: #ddd;
+  --d3fend-border-faint: #eee;
+  --d3fend-border-strong: #888;
+  --d3fend-border-dark: #555;
+  --d3fend-border-black: black;
+  --d3fend-border-inverse: #fff;
+  --d3fend-border-offensive: #c63e1fa3;
+  --d3fend-border-slate-subtle: #e5e7eb;
+  --d3fend-border-slate: #d1d5db;
+  --d3fend-border-slate-strong: #cbd5e1;
+  --d3fend-border-hairline: rgba(0, 0, 0, 0.12);
+  --d3fend-text-default: #333;
+  --d3fend-text-strong: #111;
+  --d3fend-text-body: #222;
+  --d3fend-text-secondary: #444;
+  --d3fend-text-muted: #555;
+  --d3fend-text-subdued: #666;
+  --d3fend-text-disabled: #777;
+  --d3fend-text-inverse: #fff;
+  --d3fend-text-black: black;
+  --d3fend-link-default: #005B94;
+  --d3fend-focus-control: #1976d2;
+  --d3fend-focus-control-hover: #1565c0;
+  --d3fend-focus-dense-control: #2563eb;
+  --d3fend-focus-ontology-edge: #0e7490;
+  --d3fend-env-link: #8fd3ff;
+  --d3fend-slate-50: #f8fafc;
+  --d3fend-slate-100: #f1f5f9;
+  --d3fend-slate-200: #e2e8f0;
+  --d3fend-slate-300: #cbd5e1;
+  --d3fend-slate-400: #94a3b8;
+  --d3fend-slate-500: #64748b;
+  --d3fend-slate-600: #475569;
+  --d3fend-slate-700: #334155;
+  --d3fend-slate-800: #1e293b;
+  --d3fend-slate-900: #0f172a;
+  --d3fend-neutral-25: #0a0909;
+  --d3fend-neutral-50: #171717;
+  --d3fend-neutral-75: #282828;
+  --d3fend-neutral-100: #2e2e2e;
+  --d3fend-neutral-125: #303030;
+  --d3fend-neutral-150: #3a3a3a;
+  --d3fend-neutral-200: #717171;
+  --d3fend-neutral-250: #999;
+  --d3fend-neutral-300: #9c9c9c;
+  --d3fend-neutral-350: #a3a3a3;
+  --d3fend-neutral-375: #aaa;
+  --d3fend-neutral-400: #b4b4b4;
+  --d3fend-neutral-425: #bcb8b8;
+  --d3fend-neutral-450: #c9c9c9;
+  --d3fend-neutral-475: #cfcfcf;
+  --d3fend-neutral-500: #dfdfdf;
+  --d3fend-neutral-525: #e2e2e2;
+  --d3fend-neutral-550: #e5e5e5;
+  --d3fend-neutral-575: #e6e6e6;
+  --d3fend-neutral-600: #ededed;
+  --d3fend-neutral-625: #f1f1f1;
+  --d3fend-neutral-650: #f7f7f7;
+  --d3fend-neutral-675: #f8f8f8;
+  --d3fend-blue-50: #eff6ff;
+  --d3fend-blue-100: #dbeafe;
+  --d3fend-blue-200: #bfdbfe;
+  --d3fend-blue-500: #0075FF;
+  --d3fend-blue-700: #1d4ed8;
+  --d3fend-blue-800: #1e40af;
+  --d3fend-blue-900: #0d47a1;
+  --d3fend-blue-ink: #12263c;
+  --d3fend-blue-ink-soft: #35506a;
+  --d3fend-blue-ink-muted: #4f6d87;
+  --d3fend-graph-highlight-fill: #0993ff2e;
+  --d3fend-graph-highlight-stroke: #062f4f;
+  --d3fend-graph-danger-stroke: #f64040;
+  --d3fend-graph-warning-stroke: #ad7400;
+  --d3fend-graph-muted-fill: rgb(255, 255, 217);
+  --d3fend-mermaid-node-fill: #fff;
+  --d3fend-mermaid-node-border: #888;
+  --d3fend-mermaid-node-text: #111;
+  --d3fend-mermaid-edge: #333;
+  --d3fend-mermaid-edge-label-background: #fff;
+  --d3fend-mermaid-edge-label-text: #111;
+  --d3fend-mermaid-class-node-text: #111;
+  --d3fend-mermaid-cluster-fill: #fafafa;
+  --d3fend-mermaid-cluster-border: #ccc;
+  --d3fend-mermaid-cluster-text: #111;
+  --d3fend-mermaid-defensive-fill: #e8f4ff;
+  --d3fend-mermaid-defensive-border: #062f4f;
+  --d3fend-mermaid-offensive-fill: #ffc3c7;
+  --d3fend-mermaid-offensive-border: #f64040;
+  --d3fend-mermaid-artifact-fill: #fff4dd;
+  --d3fend-mermaid-artifact-border: hsl(40.5882352941,60%,83.3333333333%);
+  --d3fend-mermaid-root-fill: #fff4dd;
+  --d3fend-mermaid-root-border: #555;
+  --d3fend-mermaid-inbound-fill: #e8f4ff;
+  --d3fend-mermaid-vulnerability-fill: #f9d999;
+  --d3fend-mermaid-vulnerability-border: #ad7400;
+  --d3fend-extractor-result: #9ecae1;
+  --d3fend-graph-category-tactic: #dc050c;
+  --d3fend-graph-category-technique: #f1932d;
+  --d3fend-graph-category-subtechnique: #f7f056;
+  --d3fend-graph-category-objective: #90c987;
+  --d3fend-graph-category-operation: #7bafde;
+  --d3fend-graph-category-osapi: #1965b0;
+  --d3fend-graph-category-native: #ae76a3;
+  --d3fend-svelte-flow-background: #fff;
+  --d3fend-svelte-flow-background-pattern: #bcb8b8;
+  --d3fend-svelte-flow-edge: #888;
+  --d3fend-svelte-flow-edge-selected: #111;
+  --d3fend-svelte-flow-node-background: #fff;
+  --d3fend-svelte-flow-node-text: #111;
+  --d3fend-svelte-flow-node-border: 1px solid #555;
+  --d3fend-svelte-flow-handle-background: #111;
+  --d3fend-svelte-flow-handle-border: #fff;
+  --d3fend-svelte-flow-controls-background: #fff;
+  --d3fend-svelte-flow-controls-background-hover: #f4f4f4;
+  --d3fend-svelte-flow-controls-text: #111;
+  --d3fend-svelte-flow-controls-text-hover: #111;
+  --d3fend-svelte-flow-controls-border: #eee;
+  --d3fend-svelte-flow-controls-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.08);
+  --d3fend-svelte-flow-selection-background: rgba(0, 89, 220, 0.08);
+  --d3fend-svelte-flow-selection-border: 1px dotted rgba(0, 89, 220, 0.8);
+  --d3fend-svelte-flow-resize-background: #1976d2;
+  --background-color: var(--d3fend-svelte-flow-background);
+  --background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-background-color: var(--d3fend-svelte-flow-background);
+  --xy-background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --xy-edge-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-edge-stroke-selected: var(--d3fend-svelte-flow-edge-selected);
+  --xy-connectionline-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-node-background-color: var(--d3fend-svelte-flow-node-background);
+  --xy-node-color: var(--d3fend-svelte-flow-node-text);
+  --xy-node-border: var(--d3fend-svelte-flow-node-border);
+  --xy-handle-background-color: var(--d3fend-svelte-flow-handle-background);
+  --xy-handle-border-color: var(--d3fend-svelte-flow-handle-border);
+  --xy-controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --xy-controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --xy-controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --xy-controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --xy-controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-controls-box-shadow: var(--d3fend-svelte-flow-controls-shadow);
+  --xy-minimap-background-color: var(--d3fend-graph-minimap-background);
+  --xy-minimap-mask-background-color: var(--d3fend-graph-minimap-mask);
+  --xy-minimap-mask-stroke-color: var(--d3fend-graph-minimap-mask-stroke);
+  --xy-minimap-node-background-color: var(--d3fend-surface-subtle);
+  --xy-selection-background-color: var(--d3fend-svelte-flow-selection-background);
+  --xy-selection-border: var(--d3fend-svelte-flow-selection-border);
+  --xy-edge-label-background-color: var(--d3fend-surface-panel);
+  --xy-edge-label-color: var(--d3fend-text-strong);
+  --xy-resize-background-color: var(--d3fend-svelte-flow-resize-background);
+  --d3fend-alert-info-background: lightblue;
+  --d3fend-alert-danger-background: #fee2e2;
+  --d3fend-alert-warning-background: #ffc107;
+  --d3fend-alert-success-background: lightgreen;
+  --d3fend-toggle-on-background: rgb(137, 168, 225);
+  --d3fend-control-selected-background: #2563eb;
+  --d3fend-control-selected-text: #fff;
+  --d3fend-lookup-border-offensive: #c63e1fa3;
+  --d3fend-lookup-border-artifact: hsl(40.5882352941,60%,63%);
+  --d3fend-lookup-border-defensive: #6b87ad;
+  --d3fend-cad-node-text: #111;
+  --d3fend-cad-sidebar-toggle-background: #333;
+  --d3fend-cad-sidebar-toggle-icon: #fff;
+  --d3fend-filter-item-background: #f3f3f3;
+  --d3fend-filter-item-text: #333;
+  --d3fend-filter-item-border: #888;
+  --d3fend-filter-item-active-background: #2563eb;
+  --d3fend-filter-item-active-text: #fff;
+  --d3fend-table-header-background: #3a3a3a;
+  --d3fend-table-row-even-background: #f9f9f9;
+  --d3fend-table-row-hover-background: #f1f1f1;
+  --d3fend-matrix-branch-background: #fff;
+  --d3fend-matrix-cell-background: #fff;
+  --d3fend-matrix-nested-cell-background: #f3f3f3;
+  --d3fend-matrix-cell-text: #111;
+  --d3fend-matrix-cell-border: transparent;
+  --d3fend-matrix-selected-outline: #c62828;
+  --d3fend-matrix-highlight-outline: #1976d2;
+  --d3fend-brand-cad-c: #e62929;
+  --d3fend-brand-cad-c-soft: rgb(255, 108, 108);
+  --d3fend-brand-cad-d-soft: rgb(152, 196, 255);
+  --d3fend-brand-cad-a-outline: #475569;
+  --d3fend-status-success: #2e7d32;
+  --d3fend-status-success-alt: #15803d;
+  --d3fend-status-danger: #c62828;
+  --d3fend-status-danger-alt: #b71c1c;
+  --d3fend-status-danger-deep: #b91c1c;
+  --d3fend-status-warning: #f57c00;
+  --d3fend-status-warning-text: #b35a00;
+  --d3fend-status-warning-muted: #c37474;
+  --d3fend-status-danger-icon: #D32F2F;
+  --d3fend-status-success-background: #dcfce7;
+  --d3fend-status-danger-background: #fee2e2;
+  --d3fend-status-warning-highlight: #ff0;
+  --d3fend-recommendation-highlight: rgb(236, 233, 62);
+  --d3fend-glow-success: #3bf730;
+  --d3fend-glow-focus: #4d87fa;
+  --d3fend-overlay-clear: rgba(0, 0, 0, 0);
+  --d3fend-overlay-hairline: rgba(0, 0, 0, 0.06);
+  --d3fend-overlay-raised: rgba(0, 0, 0, 0.08);
+  --d3fend-overlay-low: rgba(0, 0, 0, 0.1);
+  --d3fend-overlay-border: rgba(0, 0, 0, 0.12);
+  --d3fend-overlay-medium: rgba(0, 0, 0, 0.18);
+  --d3fend-overlay-card-shadow: rgba(0, 0, 0, 0.2);
+  --d3fend-overlay-modal-border: rgba(0, 0, 0, 0.28);
+  --d3fend-overlay-scrim: rgba(0, 0, 0, 0.3);
+  --d3fend-overlay-backdrop: rgba(0, 0, 0, 0.35);
+  --d3fend-overlay-modal-backdrop: rgba(0, 0, 0, 0.5);
+  --d3fend-overlay-heavy-backdrop: rgba(0, 0, 0, 0.7);
+  --d3fend-scroll-indicator-clear: rgba(225, 225, 225, 0);
+  --d3fend-overlay-banner-start: rgba(0, 0, 0, 0.85);
+  --d3fend-overlay-panel-light: rgba(255, 255, 255, 0.92);
+  --d3fend-overlay-panel-lighter: rgba(255, 255, 255, 0.96);
+  --d3fend-overlay-panel-near-opaque: rgba(255, 255, 255, 0.98);
+  --d3fend-overlay-panel-translucent: rgba(255, 255, 255, 0.6);
+  --d3fend-shadow-color-hsl: 220 3% 15%;
+  --d3fend-shadow-strength: 3%;
+  --d3fend-cad-node-artifact: #fff4dd;
+  --d3fend-cad-node-agent: #f0e6e6;
+  --d3fend-cad-node-attack: #ffc3c7;
+  --d3fend-cad-node-condition: #ece6ff;
+  --d3fend-cad-node-countermeasure: #d6eaff;
+  --d3fend-cad-node-event: #fff;
+  --d3fend-cad-node-note: #fafad2;
+  --d3fend-cad-node-thing: #f4f4f4;
+  --d3fend-cad-node-vulnerability: #f9d999;
+  --d3fend-cad-node-artifact-border: hsl(40.5882352941,60%,83.3333333333%);
+  --d3fend-cad-edge-subclass: #d07909;
+  --d3fend-graph-edge-implied: #157f1f;
+  --d3fend-graph-edge-not-implied: #a61b1b;
+  --d3fend-graph-minimap-background: #e1e1e1;
+  --d3fend-graph-minimap-mask: #ffffff90;
+  --d3fend-graph-minimap-mask-stroke: #808080;
+  --d3fend-graph-minimap-selected-stroke: #00008b;
+  --d3fend-graph-note-editor-hover: #ffffd9;
+  --d3fend-graph-streamed-node-flash: #8ecdf61f;
+  --d3fend-graph-surface: #fff;
+  --d3fend-graph-transparent: #ffffff00;
+  --d3fend-mission-activity-node: #C0F4D5;
+  color-scheme: light;
+}
+
+:root[data-d3fend-theme="light"] {
+  --primary-color: #e1e1e1;
+  --primary-selected: #b7b5b5;
+  --dark-background-color: #333;
+  --warning: #c37474;
+  --item-hover: rgb(202, 201, 207);
+  --attack-node: #ffc3c7;
+  --d3fend-color-white: #fff;
+  --d3fend-color-black: black;
+  --d3fend-color-transparent: transparent;
+  --d3fend-surface-app: #e1e1e1;
+  --d3fend-surface-panel: #fff;
+  --d3fend-surface-quiet: #f4f4f4;
+  --d3fend-surface-quiet-alt: #f3f3f3;
+  --d3fend-surface-recessed: #f2f2f2;
+  --d3fend-surface-subtle: #f0f0f0;
+  --d3fend-surface-wash: #fafafa;
+  --d3fend-surface-wash-alt: #f9f9f9;
+  --d3fend-surface-slate-wash: #f9fafb;
+  --d3fend-surface-slate-soft: #f8fafc;
+  --d3fend-surface-panel-cool: #f6f7fb;
+  --d3fend-surface-selected: #b7b5b5;
+  --d3fend-surface-hover: rgb(202, 201, 207);
+  --d3fend-border-default: #ccc;
+  --d3fend-border-subtle: #ddd;
+  --d3fend-border-faint: #eee;
+  --d3fend-border-strong: #888;
+  --d3fend-border-dark: #555;
+  --d3fend-border-black: black;
+  --d3fend-border-inverse: #fff;
+  --d3fend-border-offensive: #c63e1fa3;
+  --d3fend-border-slate-subtle: #e5e7eb;
+  --d3fend-border-slate: #d1d5db;
+  --d3fend-border-slate-strong: #cbd5e1;
+  --d3fend-border-hairline: rgba(0, 0, 0, 0.12);
+  --d3fend-text-default: #333;
+  --d3fend-text-strong: #111;
+  --d3fend-text-body: #222;
+  --d3fend-text-secondary: #444;
+  --d3fend-text-muted: #555;
+  --d3fend-text-subdued: #666;
+  --d3fend-text-disabled: #777;
+  --d3fend-text-inverse: #fff;
+  --d3fend-text-black: black;
+  --d3fend-link-default: #005B94;
+  --d3fend-focus-control: #1976d2;
+  --d3fend-focus-control-hover: #1565c0;
+  --d3fend-focus-dense-control: #2563eb;
+  --d3fend-focus-ontology-edge: #0e7490;
+  --d3fend-env-link: #8fd3ff;
+  --d3fend-slate-50: #f8fafc;
+  --d3fend-slate-100: #f1f5f9;
+  --d3fend-slate-200: #e2e8f0;
+  --d3fend-slate-300: #cbd5e1;
+  --d3fend-slate-400: #94a3b8;
+  --d3fend-slate-500: #64748b;
+  --d3fend-slate-600: #475569;
+  --d3fend-slate-700: #334155;
+  --d3fend-slate-800: #1e293b;
+  --d3fend-slate-900: #0f172a;
+  --d3fend-neutral-25: #0a0909;
+  --d3fend-neutral-50: #171717;
+  --d3fend-neutral-75: #282828;
+  --d3fend-neutral-100: #2e2e2e;
+  --d3fend-neutral-125: #303030;
+  --d3fend-neutral-150: #3a3a3a;
+  --d3fend-neutral-200: #717171;
+  --d3fend-neutral-250: #999;
+  --d3fend-neutral-300: #9c9c9c;
+  --d3fend-neutral-350: #a3a3a3;
+  --d3fend-neutral-375: #aaa;
+  --d3fend-neutral-400: #b4b4b4;
+  --d3fend-neutral-425: #bcb8b8;
+  --d3fend-neutral-450: #c9c9c9;
+  --d3fend-neutral-475: #cfcfcf;
+  --d3fend-neutral-500: #dfdfdf;
+  --d3fend-neutral-525: #e2e2e2;
+  --d3fend-neutral-550: #e5e5e5;
+  --d3fend-neutral-575: #e6e6e6;
+  --d3fend-neutral-600: #ededed;
+  --d3fend-neutral-625: #f1f1f1;
+  --d3fend-neutral-650: #f7f7f7;
+  --d3fend-neutral-675: #f8f8f8;
+  --d3fend-blue-50: #eff6ff;
+  --d3fend-blue-100: #dbeafe;
+  --d3fend-blue-200: #bfdbfe;
+  --d3fend-blue-500: #0075FF;
+  --d3fend-blue-700: #1d4ed8;
+  --d3fend-blue-800: #1e40af;
+  --d3fend-blue-900: #0d47a1;
+  --d3fend-blue-ink: #12263c;
+  --d3fend-blue-ink-soft: #35506a;
+  --d3fend-blue-ink-muted: #4f6d87;
+  --d3fend-graph-highlight-fill: #0993ff2e;
+  --d3fend-graph-highlight-stroke: #062f4f;
+  --d3fend-graph-danger-stroke: #f64040;
+  --d3fend-graph-warning-stroke: #ad7400;
+  --d3fend-graph-muted-fill: rgb(255, 255, 217);
+  --d3fend-mermaid-node-fill: #fff;
+  --d3fend-mermaid-node-border: #888;
+  --d3fend-mermaid-node-text: #111;
+  --d3fend-mermaid-edge: #333;
+  --d3fend-mermaid-edge-label-background: #fff;
+  --d3fend-mermaid-edge-label-text: #111;
+  --d3fend-mermaid-class-node-text: #111;
+  --d3fend-mermaid-cluster-fill: #fafafa;
+  --d3fend-mermaid-cluster-border: #ccc;
+  --d3fend-mermaid-cluster-text: #111;
+  --d3fend-mermaid-defensive-fill: #e8f4ff;
+  --d3fend-mermaid-defensive-border: #062f4f;
+  --d3fend-mermaid-offensive-fill: #ffc3c7;
+  --d3fend-mermaid-offensive-border: #f64040;
+  --d3fend-mermaid-artifact-fill: #fff4dd;
+  --d3fend-mermaid-artifact-border: hsl(40.5882352941,60%,83.3333333333%);
+  --d3fend-mermaid-root-fill: #fff4dd;
+  --d3fend-mermaid-root-border: #555;
+  --d3fend-mermaid-inbound-fill: #e8f4ff;
+  --d3fend-mermaid-vulnerability-fill: #f9d999;
+  --d3fend-mermaid-vulnerability-border: #ad7400;
+  --d3fend-extractor-result: #9ecae1;
+  --d3fend-graph-category-tactic: #dc050c;
+  --d3fend-graph-category-technique: #f1932d;
+  --d3fend-graph-category-subtechnique: #f7f056;
+  --d3fend-graph-category-objective: #90c987;
+  --d3fend-graph-category-operation: #7bafde;
+  --d3fend-graph-category-osapi: #1965b0;
+  --d3fend-graph-category-native: #ae76a3;
+  --d3fend-svelte-flow-background: #fff;
+  --d3fend-svelte-flow-background-pattern: #bcb8b8;
+  --d3fend-svelte-flow-edge: #888;
+  --d3fend-svelte-flow-edge-selected: #111;
+  --d3fend-svelte-flow-node-background: #fff;
+  --d3fend-svelte-flow-node-text: #111;
+  --d3fend-svelte-flow-node-border: 1px solid #555;
+  --d3fend-svelte-flow-handle-background: #111;
+  --d3fend-svelte-flow-handle-border: #fff;
+  --d3fend-svelte-flow-controls-background: #fff;
+  --d3fend-svelte-flow-controls-background-hover: #f4f4f4;
+  --d3fend-svelte-flow-controls-text: #111;
+  --d3fend-svelte-flow-controls-text-hover: #111;
+  --d3fend-svelte-flow-controls-border: #eee;
+  --d3fend-svelte-flow-controls-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.08);
+  --d3fend-svelte-flow-selection-background: rgba(0, 89, 220, 0.08);
+  --d3fend-svelte-flow-selection-border: 1px dotted rgba(0, 89, 220, 0.8);
+  --d3fend-svelte-flow-resize-background: #1976d2;
+  --background-color: var(--d3fend-svelte-flow-background);
+  --background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-background-color: var(--d3fend-svelte-flow-background);
+  --xy-background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --xy-edge-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-edge-stroke-selected: var(--d3fend-svelte-flow-edge-selected);
+  --xy-connectionline-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-node-background-color: var(--d3fend-svelte-flow-node-background);
+  --xy-node-color: var(--d3fend-svelte-flow-node-text);
+  --xy-node-border: var(--d3fend-svelte-flow-node-border);
+  --xy-handle-background-color: var(--d3fend-svelte-flow-handle-background);
+  --xy-handle-border-color: var(--d3fend-svelte-flow-handle-border);
+  --xy-controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --xy-controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --xy-controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --xy-controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --xy-controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-controls-box-shadow: var(--d3fend-svelte-flow-controls-shadow);
+  --xy-minimap-background-color: var(--d3fend-graph-minimap-background);
+  --xy-minimap-mask-background-color: var(--d3fend-graph-minimap-mask);
+  --xy-minimap-mask-stroke-color: var(--d3fend-graph-minimap-mask-stroke);
+  --xy-minimap-node-background-color: var(--d3fend-surface-subtle);
+  --xy-selection-background-color: var(--d3fend-svelte-flow-selection-background);
+  --xy-selection-border: var(--d3fend-svelte-flow-selection-border);
+  --xy-edge-label-background-color: var(--d3fend-surface-panel);
+  --xy-edge-label-color: var(--d3fend-text-strong);
+  --xy-resize-background-color: var(--d3fend-svelte-flow-resize-background);
+  --d3fend-alert-info-background: lightblue;
+  --d3fend-alert-danger-background: #fee2e2;
+  --d3fend-alert-warning-background: #ffc107;
+  --d3fend-alert-success-background: lightgreen;
+  --d3fend-toggle-on-background: rgb(137, 168, 225);
+  --d3fend-control-selected-background: #2563eb;
+  --d3fend-control-selected-text: #fff;
+  --d3fend-lookup-border-offensive: #c63e1fa3;
+  --d3fend-lookup-border-artifact: hsl(40.5882352941,60%,63%);
+  --d3fend-lookup-border-defensive: #6b87ad;
+  --d3fend-cad-node-text: #111;
+  --d3fend-cad-sidebar-toggle-background: #333;
+  --d3fend-cad-sidebar-toggle-icon: #fff;
+  --d3fend-filter-item-background: #f3f3f3;
+  --d3fend-filter-item-text: #333;
+  --d3fend-filter-item-border: #888;
+  --d3fend-filter-item-active-background: #2563eb;
+  --d3fend-filter-item-active-text: #fff;
+  --d3fend-table-header-background: #3a3a3a;
+  --d3fend-table-row-even-background: #f9f9f9;
+  --d3fend-table-row-hover-background: #f1f1f1;
+  --d3fend-matrix-branch-background: #fff;
+  --d3fend-matrix-cell-background: #fff;
+  --d3fend-matrix-nested-cell-background: #f3f3f3;
+  --d3fend-matrix-cell-text: #111;
+  --d3fend-matrix-cell-border: transparent;
+  --d3fend-matrix-selected-outline: #c62828;
+  --d3fend-matrix-highlight-outline: #1976d2;
+  --d3fend-brand-cad-c: #e62929;
+  --d3fend-brand-cad-c-soft: rgb(255, 108, 108);
+  --d3fend-brand-cad-d-soft: rgb(152, 196, 255);
+  --d3fend-brand-cad-a-outline: #475569;
+  --d3fend-status-success: #2e7d32;
+  --d3fend-status-success-alt: #15803d;
+  --d3fend-status-danger: #c62828;
+  --d3fend-status-danger-alt: #b71c1c;
+  --d3fend-status-danger-deep: #b91c1c;
+  --d3fend-status-warning: #f57c00;
+  --d3fend-status-warning-text: #b35a00;
+  --d3fend-status-warning-muted: #c37474;
+  --d3fend-status-danger-icon: #D32F2F;
+  --d3fend-status-success-background: #dcfce7;
+  --d3fend-status-danger-background: #fee2e2;
+  --d3fend-status-warning-highlight: #ff0;
+  --d3fend-recommendation-highlight: rgb(236, 233, 62);
+  --d3fend-glow-success: #3bf730;
+  --d3fend-glow-focus: #4d87fa;
+  --d3fend-overlay-clear: rgba(0, 0, 0, 0);
+  --d3fend-overlay-hairline: rgba(0, 0, 0, 0.06);
+  --d3fend-overlay-raised: rgba(0, 0, 0, 0.08);
+  --d3fend-overlay-low: rgba(0, 0, 0, 0.1);
+  --d3fend-overlay-border: rgba(0, 0, 0, 0.12);
+  --d3fend-overlay-medium: rgba(0, 0, 0, 0.18);
+  --d3fend-overlay-card-shadow: rgba(0, 0, 0, 0.2);
+  --d3fend-overlay-modal-border: rgba(0, 0, 0, 0.28);
+  --d3fend-overlay-scrim: rgba(0, 0, 0, 0.3);
+  --d3fend-overlay-backdrop: rgba(0, 0, 0, 0.35);
+  --d3fend-overlay-modal-backdrop: rgba(0, 0, 0, 0.5);
+  --d3fend-overlay-heavy-backdrop: rgba(0, 0, 0, 0.7);
+  --d3fend-scroll-indicator-clear: rgba(225, 225, 225, 0);
+  --d3fend-overlay-banner-start: rgba(0, 0, 0, 0.85);
+  --d3fend-overlay-panel-light: rgba(255, 255, 255, 0.92);
+  --d3fend-overlay-panel-lighter: rgba(255, 255, 255, 0.96);
+  --d3fend-overlay-panel-near-opaque: rgba(255, 255, 255, 0.98);
+  --d3fend-overlay-panel-translucent: rgba(255, 255, 255, 0.6);
+  --d3fend-shadow-color-hsl: 220 3% 15%;
+  --d3fend-shadow-strength: 3%;
+  --d3fend-cad-node-artifact: #fff4dd;
+  --d3fend-cad-node-agent: #f0e6e6;
+  --d3fend-cad-node-attack: #ffc3c7;
+  --d3fend-cad-node-condition: #ece6ff;
+  --d3fend-cad-node-countermeasure: #d6eaff;
+  --d3fend-cad-node-event: #fff;
+  --d3fend-cad-node-note: #fafad2;
+  --d3fend-cad-node-thing: #f4f4f4;
+  --d3fend-cad-node-vulnerability: #f9d999;
+  --d3fend-cad-node-artifact-border: hsl(40.5882352941,60%,83.3333333333%);
+  --d3fend-cad-edge-subclass: #d07909;
+  --d3fend-graph-edge-implied: #157f1f;
+  --d3fend-graph-edge-not-implied: #a61b1b;
+  --d3fend-graph-minimap-background: #e1e1e1;
+  --d3fend-graph-minimap-mask: #ffffff90;
+  --d3fend-graph-minimap-mask-stroke: #808080;
+  --d3fend-graph-minimap-selected-stroke: #00008b;
+  --d3fend-graph-note-editor-hover: #ffffd9;
+  --d3fend-graph-streamed-node-flash: #8ecdf61f;
+  --d3fend-graph-surface: #fff;
+  --d3fend-graph-transparent: #ffffff00;
+  --d3fend-mission-activity-node: #C0F4D5;
+  color-scheme: light;
+}
+
+:root[data-d3fend-theme="dark"] {
+  --primary-color: #111827;
+  --primary-selected: #334155;
+  --dark-background-color: #e5e7eb;
+  --warning: #fca5a5;
+  --item-hover: #243244;
+  --attack-node: #ffc3c7;
+  --d3fend-color-white: #fff;
+  --d3fend-color-black: black;
+  --d3fend-color-transparent: transparent;
+  --d3fend-surface-app: #111827;
+  --d3fend-surface-panel: #1f2937;
+  --d3fend-surface-quiet: #172033;
+  --d3fend-surface-quiet-alt: #202b3b;
+  --d3fend-surface-recessed: #172033;
+  --d3fend-surface-subtle: #273449;
+  --d3fend-surface-wash: #0f172a;
+  --d3fend-surface-wash-alt: #111827;
+  --d3fend-surface-slate-wash: #111827;
+  --d3fend-surface-slate-soft: #162033;
+  --d3fend-surface-panel-cool: #1e293b;
+  --d3fend-surface-selected: #334155;
+  --d3fend-surface-hover: #243244;
+  --d3fend-border-default: #475569;
+  --d3fend-border-subtle: #334155;
+  --d3fend-border-faint: #243244;
+  --d3fend-border-strong: #64748b;
+  --d3fend-border-dark: #94a3b8;
+  --d3fend-border-black: #94a3b8;
+  --d3fend-border-inverse: #0f172a;
+  --d3fend-border-offensive: #c63e1fa3;
+  --d3fend-border-slate-subtle: #334155;
+  --d3fend-border-slate: #475569;
+  --d3fend-border-slate-strong: #64748b;
+  --d3fend-border-hairline: rgba(255, 255, 255, 0.14);
+  --d3fend-text-default: #e5e7eb;
+  --d3fend-text-strong: #f8fafc;
+  --d3fend-text-body: #e2e8f0;
+  --d3fend-text-secondary: #cbd5e1;
+  --d3fend-text-muted: #94a3b8;
+  --d3fend-text-subdued: #94a3b8;
+  --d3fend-text-disabled: #64748b;
+  --d3fend-text-inverse: #ffffff;
+  --d3fend-text-black: #f8fafc;
+  --d3fend-link-default: #7dd3fc;
+  --d3fend-focus-control: #60a5fa;
+  --d3fend-focus-control-hover: #93c5fd;
+  --d3fend-focus-dense-control: #60a5fa;
+  --d3fend-focus-ontology-edge: #22d3ee;
+  --d3fend-env-link: #bae6fd;
+  --d3fend-slate-50: #0f172a;
+  --d3fend-slate-100: #1e293b;
+  --d3fend-slate-200: #334155;
+  --d3fend-slate-300: #475569;
+  --d3fend-slate-400: #64748b;
+  --d3fend-slate-500: #94a3b8;
+  --d3fend-slate-600: #cbd5e1;
+  --d3fend-slate-700: #e2e8f0;
+  --d3fend-slate-800: #f1f5f9;
+  --d3fend-slate-900: #f8fafc;
+  --d3fend-neutral-25: #f8fafc;
+  --d3fend-neutral-50: #f1f5f9;
+  --d3fend-neutral-75: #e5e7eb;
+  --d3fend-neutral-100: #d1d5db;
+  --d3fend-neutral-125: #cbd5e1;
+  --d3fend-neutral-150: #94a3b8;
+  --d3fend-neutral-200: #64748b;
+  --d3fend-neutral-250: #475569;
+  --d3fend-neutral-300: #334155;
+  --d3fend-neutral-350: #2f3b4f;
+  --d3fend-neutral-375: #293548;
+  --d3fend-neutral-400: #243244;
+  --d3fend-neutral-425: #1f2937;
+  --d3fend-neutral-450: #1e293b;
+  --d3fend-neutral-475: #182235;
+  --d3fend-neutral-500: #172033;
+  --d3fend-neutral-525: #162033;
+  --d3fend-neutral-550: #111827;
+  --d3fend-neutral-575: #0f172a;
+  --d3fend-neutral-600: #0b1220;
+  --d3fend-neutral-625: #08111f;
+  --d3fend-neutral-650: #111827;
+  --d3fend-neutral-675: #1f2937;
+  --d3fend-blue-50: #0b2440;
+  --d3fend-blue-100: #123a63;
+  --d3fend-blue-200: #1d5f99;
+  --d3fend-blue-500: #60a5fa;
+  --d3fend-blue-700: #93c5fd;
+  --d3fend-blue-800: #bfdbfe;
+  --d3fend-blue-900: #dbeafe;
+  --d3fend-blue-ink: #dbeafe;
+  --d3fend-blue-ink-soft: #bfdbfe;
+  --d3fend-blue-ink-muted: #93c5fd;
+  --d3fend-graph-highlight-fill: #0993ff2e;
+  --d3fend-graph-highlight-stroke: #062f4f;
+  --d3fend-graph-danger-stroke: #f64040;
+  --d3fend-graph-warning-stroke: #ad7400;
+  --d3fend-graph-muted-fill: rgb(255, 255, 217);
+  --d3fend-mermaid-node-fill: #1f2937;
+  --d3fend-mermaid-node-border: #64748b;
+  --d3fend-mermaid-node-text: #f8fafc;
+  --d3fend-mermaid-edge: #f8fafc;
+  --d3fend-mermaid-edge-label-background: #172033;
+  --d3fend-mermaid-edge-label-text: #f8fafc;
+  --d3fend-mermaid-class-node-text: #111111;
+  --d3fend-mermaid-cluster-fill: #0f172a;
+  --d3fend-mermaid-cluster-border: #475569;
+  --d3fend-mermaid-cluster-text: #f8fafc;
+  --d3fend-mermaid-defensive-fill: #d6eaff;
+  --d3fend-mermaid-defensive-border: #7dd3fc;
+  --d3fend-mermaid-offensive-fill: #ffc3c7;
+  --d3fend-mermaid-offensive-border: #fca5a5;
+  --d3fend-mermaid-artifact-fill: #fff4dd;
+  --d3fend-mermaid-artifact-border: #fbbf24;
+  --d3fend-mermaid-root-fill: #fff4dd;
+  --d3fend-mermaid-root-border: #cbd5e1;
+  --d3fend-mermaid-inbound-fill: #fff4dd;
+  --d3fend-mermaid-vulnerability-fill: #f9d999;
+  --d3fend-mermaid-vulnerability-border: #fbbf24;
+  --d3fend-extractor-result: #9ecae1;
+  --d3fend-graph-category-tactic: #dc050c;
+  --d3fend-graph-category-technique: #f1932d;
+  --d3fend-graph-category-subtechnique: #f7f056;
+  --d3fend-graph-category-objective: #90c987;
+  --d3fend-graph-category-operation: #7bafde;
+  --d3fend-graph-category-osapi: #1965b0;
+  --d3fend-graph-category-native: #ae76a3;
+  --d3fend-svelte-flow-background: #0f172a;
+  --d3fend-svelte-flow-background-pattern: #334155;
+  --d3fend-svelte-flow-edge: #94a3b8;
+  --d3fend-svelte-flow-edge-selected: #e2e8f0;
+  --d3fend-svelte-flow-node-background: #1f2937;
+  --d3fend-svelte-flow-node-text: #f8fafc;
+  --d3fend-svelte-flow-node-border: 1px solid #64748b;
+  --d3fend-svelte-flow-handle-background: #e2e8f0;
+  --d3fend-svelte-flow-handle-border: #0f172a;
+  --d3fend-svelte-flow-controls-background: #1e293b;
+  --d3fend-svelte-flow-controls-background-hover: #334155;
+  --d3fend-svelte-flow-controls-text: #f8fafc;
+  --d3fend-svelte-flow-controls-text-hover: #ffffff;
+  --d3fend-svelte-flow-controls-border: #475569;
+  --d3fend-svelte-flow-controls-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.38);
+  --d3fend-svelte-flow-selection-background: rgba(96, 165, 250, 0.16);
+  --d3fend-svelte-flow-selection-border: 1px dotted rgba(147, 197, 253, 0.92);
+  --d3fend-svelte-flow-resize-background: #60a5fa;
+  --background-color: var(--d3fend-svelte-flow-background);
+  --background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-background-color: var(--d3fend-svelte-flow-background);
+  --xy-background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --xy-edge-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-edge-stroke-selected: var(--d3fend-svelte-flow-edge-selected);
+  --xy-connectionline-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-node-background-color: var(--d3fend-svelte-flow-node-background);
+  --xy-node-color: var(--d3fend-svelte-flow-node-text);
+  --xy-node-border: var(--d3fend-svelte-flow-node-border);
+  --xy-handle-background-color: var(--d3fend-svelte-flow-handle-background);
+  --xy-handle-border-color: var(--d3fend-svelte-flow-handle-border);
+  --xy-controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --xy-controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --xy-controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --xy-controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --xy-controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-controls-box-shadow: var(--d3fend-svelte-flow-controls-shadow);
+  --xy-minimap-background-color: var(--d3fend-graph-minimap-background);
+  --xy-minimap-mask-background-color: var(--d3fend-graph-minimap-mask);
+  --xy-minimap-mask-stroke-color: var(--d3fend-graph-minimap-mask-stroke);
+  --xy-minimap-node-background-color: var(--d3fend-surface-subtle);
+  --xy-selection-background-color: var(--d3fend-svelte-flow-selection-background);
+  --xy-selection-border: var(--d3fend-svelte-flow-selection-border);
+  --xy-edge-label-background-color: var(--d3fend-surface-panel);
+  --xy-edge-label-color: var(--d3fend-text-strong);
+  --xy-resize-background-color: var(--d3fend-svelte-flow-resize-background);
+  --d3fend-alert-info-background: #123a63;
+  --d3fend-alert-danger-background: #450a0a;
+  --d3fend-alert-warning-background: #854d0e;
+  --d3fend-alert-success-background: #052e16;
+  --d3fend-toggle-on-background: #60a5fa;
+  --d3fend-control-selected-background: #2563eb;
+  --d3fend-control-selected-text: #ffffff;
+  --d3fend-lookup-border-offensive: #fca5a5;
+  --d3fend-lookup-border-artifact: #fbbf24;
+  --d3fend-lookup-border-defensive: #93c5fd;
+  --d3fend-cad-node-text: #111111;
+  --d3fend-cad-sidebar-toggle-background: #111827;
+  --d3fend-cad-sidebar-toggle-icon: #f8fafc;
+  --d3fend-filter-item-background: #243244;
+  --d3fend-filter-item-text: #f8fafc;
+  --d3fend-filter-item-border: #64748b;
+  --d3fend-filter-item-active-background: #60a5fa;
+  --d3fend-filter-item-active-text: #0f172a;
+  --d3fend-table-header-background: #334155;
+  --d3fend-table-row-even-background: #172033;
+  --d3fend-table-row-hover-background: #243244;
+  --d3fend-matrix-branch-background: #243244;
+  --d3fend-matrix-cell-background: #1f2937;
+  --d3fend-matrix-nested-cell-background: #172033;
+  --d3fend-matrix-cell-text: #f8fafc;
+  --d3fend-matrix-cell-border: transparent;
+  --d3fend-matrix-selected-outline: #fca5a5;
+  --d3fend-matrix-highlight-outline: #60a5fa;
+  --d3fend-brand-cad-c: #e62929;
+  --d3fend-brand-cad-c-soft: rgb(255, 108, 108);
+  --d3fend-brand-cad-d-soft: rgb(152, 196, 255);
+  --d3fend-brand-cad-a-outline: #475569;
+  --d3fend-status-success: #86efac;
+  --d3fend-status-success-alt: #4ade80;
+  --d3fend-status-danger: #fca5a5;
+  --d3fend-status-danger-alt: #f87171;
+  --d3fend-status-danger-deep: #fecaca;
+  --d3fend-status-warning: #fbbf24;
+  --d3fend-status-warning-text: #fde68a;
+  --d3fend-status-warning-muted: #fca5a5;
+  --d3fend-status-danger-icon: #fca5a5;
+  --d3fend-status-success-background: #052e16;
+  --d3fend-status-danger-background: #450a0a;
+  --d3fend-status-warning-highlight: #ff0;
+  --d3fend-recommendation-highlight: #854d0e;
+  --d3fend-glow-success: #86efac;
+  --d3fend-glow-focus: #93c5fd;
+  --d3fend-overlay-clear: rgba(0, 0, 0, 0);
+  --d3fend-overlay-hairline: rgba(255, 255, 255, 0.08);
+  --d3fend-overlay-raised: rgba(255, 255, 255, 0.1);
+  --d3fend-overlay-low: rgba(255, 255, 255, 0.12);
+  --d3fend-overlay-border: rgba(255, 255, 255, 0.14);
+  --d3fend-overlay-medium: rgba(255, 255, 255, 0.22);
+  --d3fend-overlay-card-shadow: rgba(0, 0, 0, 0.42);
+  --d3fend-overlay-modal-border: rgba(255, 255, 255, 0.28);
+  --d3fend-overlay-scrim: rgba(0, 0, 0, 0.55);
+  --d3fend-overlay-backdrop: rgba(0, 0, 0, 0.62);
+  --d3fend-overlay-modal-backdrop: rgba(0, 0, 0, 0.72);
+  --d3fend-overlay-heavy-backdrop: rgba(0, 0, 0, 0.85);
+  --d3fend-scroll-indicator-clear: rgba(17, 24, 39, 0);
+  --d3fend-overlay-banner-start: rgba(0, 0, 0, 0.92);
+  --d3fend-overlay-panel-light: rgba(30, 41, 59, 0.92);
+  --d3fend-overlay-panel-lighter: rgba(30, 41, 59, 0.96);
+  --d3fend-overlay-panel-near-opaque: rgba(30, 41, 59, 0.98);
+  --d3fend-overlay-panel-translucent: rgba(30, 41, 59, 0.72);
+  --d3fend-shadow-color-hsl: 220 40% 2%;
+  --d3fend-shadow-strength: 18%;
+  --d3fend-cad-node-artifact: #fff4dd;
+  --d3fend-cad-node-agent: #f0e6e6;
+  --d3fend-cad-node-attack: #ffc3c7;
+  --d3fend-cad-node-condition: #ece6ff;
+  --d3fend-cad-node-countermeasure: #d6eaff;
+  --d3fend-cad-node-event: #fff;
+  --d3fend-cad-node-note: #fafad2;
+  --d3fend-cad-node-thing: #f4f4f4;
+  --d3fend-cad-node-vulnerability: #f9d999;
+  --d3fend-cad-node-artifact-border: #fbbf24;
+  --d3fend-cad-edge-subclass: #d07909;
+  --d3fend-graph-edge-implied: #157f1f;
+  --d3fend-graph-edge-not-implied: #a61b1b;
+  --d3fend-graph-minimap-background: #111827;
+  --d3fend-graph-minimap-mask: rgba(148, 163, 184, 0.28);
+  --d3fend-graph-minimap-mask-stroke: #475569;
+  --d3fend-graph-minimap-selected-stroke: #93c5fd;
+  --d3fend-graph-note-editor-hover: #ffffd9;
+  --d3fend-graph-streamed-node-flash: #8ecdf61f;
+  --d3fend-graph-surface: #1f2937;
+  --d3fend-graph-transparent: #ffffff00;
+  --d3fend-mission-activity-node: #C0F4D5;
+  color-scheme: dark;
+}
+
+:root[data-d3fend-theme="contrast"] {
+  --primary-color: #050505;
+  --primary-selected: #ffdd00;
+  --dark-background-color: #f7f7f2;
+  --warning: #ffdd00;
+  --item-hover: #262626;
+  --attack-node: #ffc3c7;
+  --d3fend-color-white: #fff;
+  --d3fend-color-black: black;
+  --d3fend-color-transparent: transparent;
+  --d3fend-surface-app: #050505;
+  --d3fend-surface-panel: #111111;
+  --d3fend-surface-quiet: #181818;
+  --d3fend-surface-quiet-alt: #202020;
+  --d3fend-surface-recessed: #181818;
+  --d3fend-surface-subtle: #1f1f1f;
+  --d3fend-surface-wash: #0a0a0a;
+  --d3fend-surface-wash-alt: #111111;
+  --d3fend-surface-slate-wash: #111111;
+  --d3fend-surface-slate-soft: #181818;
+  --d3fend-surface-panel-cool: #141414;
+  --d3fend-surface-selected: #ffdd00;
+  --d3fend-surface-hover: #262626;
+  --d3fend-border-default: #f7f7f2;
+  --d3fend-border-subtle: #c9c9c9;
+  --d3fend-border-faint: #767676;
+  --d3fend-border-strong: #ffffff;
+  --d3fend-border-dark: #ffffff;
+  --d3fend-border-black: #ffffff;
+  --d3fend-border-inverse: #050505;
+  --d3fend-border-offensive: #c63e1fa3;
+  --d3fend-border-slate-subtle: #767676;
+  --d3fend-border-slate: #c9c9c9;
+  --d3fend-border-slate-strong: #ffffff;
+  --d3fend-border-hairline: rgba(255, 255, 255, 0.34);
+  --d3fend-text-default: #f7f7f2;
+  --d3fend-text-strong: #ffffff;
+  --d3fend-text-body: #f7f7f2;
+  --d3fend-text-secondary: #e5e5dc;
+  --d3fend-text-muted: #c9c9c9;
+  --d3fend-text-subdued: #c9c9c9;
+  --d3fend-text-disabled: #8f8f8f;
+  --d3fend-text-inverse: #050505;
+  --d3fend-text-black: #ffffff;
+  --d3fend-link-default: #8fd3ff;
+  --d3fend-focus-control: #ffdd00;
+  --d3fend-focus-control-hover: #fff299;
+  --d3fend-focus-dense-control: #ffdd00;
+  --d3fend-focus-ontology-edge: #7dd3fc;
+  --d3fend-env-link: #8fd3ff;
+  --d3fend-slate-50: #f8fafc;
+  --d3fend-slate-100: #f1f5f9;
+  --d3fend-slate-200: #e2e8f0;
+  --d3fend-slate-300: #cbd5e1;
+  --d3fend-slate-400: #94a3b8;
+  --d3fend-slate-500: #64748b;
+  --d3fend-slate-600: #475569;
+  --d3fend-slate-700: #334155;
+  --d3fend-slate-800: #1e293b;
+  --d3fend-slate-900: #0f172a;
+  --d3fend-neutral-25: #0a0909;
+  --d3fend-neutral-50: #171717;
+  --d3fend-neutral-75: #282828;
+  --d3fend-neutral-100: #2e2e2e;
+  --d3fend-neutral-125: #303030;
+  --d3fend-neutral-150: #3a3a3a;
+  --d3fend-neutral-200: #717171;
+  --d3fend-neutral-250: #999;
+  --d3fend-neutral-300: #9c9c9c;
+  --d3fend-neutral-350: #a3a3a3;
+  --d3fend-neutral-375: #aaa;
+  --d3fend-neutral-400: #b4b4b4;
+  --d3fend-neutral-425: #bcb8b8;
+  --d3fend-neutral-450: #c9c9c9;
+  --d3fend-neutral-475: #cfcfcf;
+  --d3fend-neutral-500: #dfdfdf;
+  --d3fend-neutral-525: #e2e2e2;
+  --d3fend-neutral-550: #e5e5e5;
+  --d3fend-neutral-575: #e6e6e6;
+  --d3fend-neutral-600: #ededed;
+  --d3fend-neutral-625: #f1f1f1;
+  --d3fend-neutral-650: #f7f7f7;
+  --d3fend-neutral-675: #f8f8f8;
+  --d3fend-blue-50: #082f49;
+  --d3fend-blue-100: #075985;
+  --d3fend-blue-200: #0ea5e9;
+  --d3fend-blue-500: #8fd3ff;
+  --d3fend-blue-700: #bae6fd;
+  --d3fend-blue-800: #e0f2fe;
+  --d3fend-blue-900: #f0f9ff;
+  --d3fend-blue-ink: #f0f9ff;
+  --d3fend-blue-ink-soft: #e0f2fe;
+  --d3fend-blue-ink-muted: #bae6fd;
+  --d3fend-graph-highlight-fill: #0993ff2e;
+  --d3fend-graph-highlight-stroke: #062f4f;
+  --d3fend-graph-danger-stroke: #f64040;
+  --d3fend-graph-warning-stroke: #ad7400;
+  --d3fend-graph-muted-fill: rgb(255, 255, 217);
+  --d3fend-mermaid-node-fill: #050505;
+  --d3fend-mermaid-node-border: #ffffff;
+  --d3fend-mermaid-node-text: #ffffff;
+  --d3fend-mermaid-edge: #ffffff;
+  --d3fend-mermaid-edge-label-background: #111111;
+  --d3fend-mermaid-edge-label-text: #ffffff;
+  --d3fend-mermaid-class-node-text: #ffffff;
+  --d3fend-mermaid-cluster-fill: #0a0a0a;
+  --d3fend-mermaid-cluster-border: #ffdd00;
+  --d3fend-mermaid-cluster-text: #ffffff;
+  --d3fend-mermaid-defensive-fill: #082f49;
+  --d3fend-mermaid-defensive-border: #8fd3ff;
+  --d3fend-mermaid-offensive-fill: #4a1111;
+  --d3fend-mermaid-offensive-border: #ff8a8a;
+  --d3fend-mermaid-artifact-fill: #261f00;
+  --d3fend-mermaid-artifact-border: #ffdd00;
+  --d3fend-mermaid-root-fill: #050505;
+  --d3fend-mermaid-root-border: #ffdd00;
+  --d3fend-mermaid-inbound-fill: #082f49;
+  --d3fend-mermaid-vulnerability-fill: #3f2600;
+  --d3fend-mermaid-vulnerability-border: #ffdd00;
+  --d3fend-extractor-result: #9ecae1;
+  --d3fend-graph-category-tactic: #dc050c;
+  --d3fend-graph-category-technique: #f1932d;
+  --d3fend-graph-category-subtechnique: #f7f056;
+  --d3fend-graph-category-objective: #90c987;
+  --d3fend-graph-category-operation: #7bafde;
+  --d3fend-graph-category-osapi: #1965b0;
+  --d3fend-graph-category-native: #ae76a3;
+  --d3fend-svelte-flow-background: #050505;
+  --d3fend-svelte-flow-background-pattern: #767676;
+  --d3fend-svelte-flow-edge: #ffffff;
+  --d3fend-svelte-flow-edge-selected: #ffdd00;
+  --d3fend-svelte-flow-node-background: #111111;
+  --d3fend-svelte-flow-node-text: #ffffff;
+  --d3fend-svelte-flow-node-border: 1px solid #ffffff;
+  --d3fend-svelte-flow-handle-background: #ffdd00;
+  --d3fend-svelte-flow-handle-border: #050505;
+  --d3fend-svelte-flow-controls-background: #111111;
+  --d3fend-svelte-flow-controls-background-hover: #262626;
+  --d3fend-svelte-flow-controls-text: #ffffff;
+  --d3fend-svelte-flow-controls-text-hover: #ffdd00;
+  --d3fend-svelte-flow-controls-border: #ffffff;
+  --d3fend-svelte-flow-controls-shadow: 0 0 0 1px #ffffff;
+  --d3fend-svelte-flow-selection-background: rgba(255, 221, 0, 0.22);
+  --d3fend-svelte-flow-selection-border: 1px dotted rgba(255, 221, 0, 0.98);
+  --d3fend-svelte-flow-resize-background: #ffdd00;
+  --background-color: var(--d3fend-svelte-flow-background);
+  --background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-background-color: var(--d3fend-svelte-flow-background);
+  --xy-background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --xy-edge-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-edge-stroke-selected: var(--d3fend-svelte-flow-edge-selected);
+  --xy-connectionline-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-node-background-color: var(--d3fend-svelte-flow-node-background);
+  --xy-node-color: var(--d3fend-svelte-flow-node-text);
+  --xy-node-border: var(--d3fend-svelte-flow-node-border);
+  --xy-handle-background-color: var(--d3fend-svelte-flow-handle-background);
+  --xy-handle-border-color: var(--d3fend-svelte-flow-handle-border);
+  --xy-controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --xy-controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --xy-controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --xy-controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --xy-controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-controls-box-shadow: var(--d3fend-svelte-flow-controls-shadow);
+  --xy-minimap-background-color: var(--d3fend-graph-minimap-background);
+  --xy-minimap-mask-background-color: var(--d3fend-graph-minimap-mask);
+  --xy-minimap-mask-stroke-color: var(--d3fend-graph-minimap-mask-stroke);
+  --xy-minimap-node-background-color: var(--d3fend-surface-subtle);
+  --xy-selection-background-color: var(--d3fend-svelte-flow-selection-background);
+  --xy-selection-border: var(--d3fend-svelte-flow-selection-border);
+  --xy-edge-label-background-color: var(--d3fend-surface-panel);
+  --xy-edge-label-color: var(--d3fend-text-strong);
+  --xy-resize-background-color: var(--d3fend-svelte-flow-resize-background);
+  --d3fend-alert-info-background: #082f49;
+  --d3fend-alert-danger-background: #7f1d1d;
+  --d3fend-alert-warning-background: #713f12;
+  --d3fend-alert-success-background: #064e3b;
+  --d3fend-toggle-on-background: #ffdd00;
+  --d3fend-control-selected-background: #ffdd00;
+  --d3fend-control-selected-text: #050505;
+  --d3fend-lookup-border-offensive: #ff8a8a;
+  --d3fend-lookup-border-artifact: #ffdd00;
+  --d3fend-lookup-border-defensive: #8fd3ff;
+  --d3fend-cad-node-text: #ffffff;
+  --d3fend-cad-sidebar-toggle-background: #050505;
+  --d3fend-cad-sidebar-toggle-icon: #ffffff;
+  --d3fend-filter-item-background: #181818;
+  --d3fend-filter-item-text: #ffffff;
+  --d3fend-filter-item-border: #ffffff;
+  --d3fend-filter-item-active-background: #ffdd00;
+  --d3fend-filter-item-active-text: #050505;
+  --d3fend-table-header-background: #1f2937;
+  --d3fend-table-row-even-background: #151515;
+  --d3fend-table-row-hover-background: #262626;
+  --d3fend-matrix-branch-background: #111111;
+  --d3fend-matrix-cell-background: #050505;
+  --d3fend-matrix-nested-cell-background: #181818;
+  --d3fend-matrix-cell-text: #ffffff;
+  --d3fend-matrix-cell-border: #ffffff;
+  --d3fend-matrix-selected-outline: #ffdd00;
+  --d3fend-matrix-highlight-outline: #8fd3ff;
+  --d3fend-brand-cad-c: #e62929;
+  --d3fend-brand-cad-c-soft: rgb(255, 108, 108);
+  --d3fend-brand-cad-d-soft: rgb(152, 196, 255);
+  --d3fend-brand-cad-a-outline: #475569;
+  --d3fend-status-success: #3ff27f;
+  --d3fend-status-success-alt: #3ff27f;
+  --d3fend-status-danger: #ff6b6b;
+  --d3fend-status-danger-alt: #ff8a8a;
+  --d3fend-status-danger-deep: #ffb4b4;
+  --d3fend-status-warning: #ffdd00;
+  --d3fend-status-warning-text: #ffdd00;
+  --d3fend-status-warning-muted: #ff8a8a;
+  --d3fend-status-danger-icon: #ff6b6b;
+  --d3fend-status-success-background: #064e3b;
+  --d3fend-status-danger-background: #7f1d1d;
+  --d3fend-status-warning-highlight: #ff0;
+  --d3fend-recommendation-highlight: #713f12;
+  --d3fend-glow-success: #3ff27f;
+  --d3fend-glow-focus: #ffdd00;
+  --d3fend-overlay-clear: rgba(0, 0, 0, 0);
+  --d3fend-overlay-hairline: rgba(255, 255, 255, 0.16);
+  --d3fend-overlay-raised: rgba(255, 255, 255, 0.22);
+  --d3fend-overlay-low: rgba(255, 255, 255, 0.24);
+  --d3fend-overlay-border: rgba(255, 255, 255, 0.34);
+  --d3fend-overlay-medium: rgba(255, 255, 255, 0.42);
+  --d3fend-overlay-card-shadow: rgba(0, 0, 0, 0.6);
+  --d3fend-overlay-modal-border: rgba(255, 255, 255, 0.5);
+  --d3fend-overlay-scrim: rgba(0, 0, 0, 0.72);
+  --d3fend-overlay-backdrop: rgba(0, 0, 0, 0.72);
+  --d3fend-overlay-modal-backdrop: rgba(0, 0, 0, 0.82);
+  --d3fend-overlay-heavy-backdrop: rgba(0, 0, 0, 0.9);
+  --d3fend-scroll-indicator-clear: rgba(5, 5, 5, 0);
+  --d3fend-overlay-banner-start: rgba(0, 0, 0, 0.96);
+  --d3fend-overlay-panel-light: rgba(17, 17, 17, 0.92);
+  --d3fend-overlay-panel-lighter: rgba(17, 17, 17, 0.96);
+  --d3fend-overlay-panel-near-opaque: rgba(17, 17, 17, 0.98);
+  --d3fend-overlay-panel-translucent: rgba(17, 17, 17, 0.78);
+  --d3fend-shadow-color-hsl: 0 0% 0%;
+  --d3fend-shadow-strength: 22%;
+  --d3fend-cad-node-artifact: #261f00;
+  --d3fend-cad-node-agent: #2a1419;
+  --d3fend-cad-node-attack: #4a1111;
+  --d3fend-cad-node-condition: #1f1640;
+  --d3fend-cad-node-countermeasure: #082f49;
+  --d3fend-cad-node-event: #050505;
+  --d3fend-cad-node-note: #302800;
+  --d3fend-cad-node-thing: #111111;
+  --d3fend-cad-node-vulnerability: #3f2600;
+  --d3fend-cad-node-artifact-border: #ffdd00;
+  --d3fend-cad-edge-subclass: #d07909;
+  --d3fend-graph-edge-implied: #157f1f;
+  --d3fend-graph-edge-not-implied: #a61b1b;
+  --d3fend-graph-minimap-background: #050505;
+  --d3fend-graph-minimap-mask: rgba(255, 221, 0, 0.22);
+  --d3fend-graph-minimap-mask-stroke: #ffdd00;
+  --d3fend-graph-minimap-selected-stroke: #8fd3ff;
+  --d3fend-graph-note-editor-hover: #ffffd9;
+  --d3fend-graph-streamed-node-flash: #8ecdf61f;
+  --d3fend-graph-surface: #111111;
+  --d3fend-graph-transparent: #ffffff00;
+  --d3fend-mission-activity-node: #064e3b;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: light) {
+:root[data-d3fend-theme="system"] {
+  --primary-color: #e1e1e1;
+  --primary-selected: #b7b5b5;
+  --dark-background-color: #333;
+  --warning: #c37474;
+  --item-hover: rgb(202, 201, 207);
+  --attack-node: #ffc3c7;
+  --d3fend-color-white: #fff;
+  --d3fend-color-black: black;
+  --d3fend-color-transparent: transparent;
+  --d3fend-surface-app: #e1e1e1;
+  --d3fend-surface-panel: #fff;
+  --d3fend-surface-quiet: #f4f4f4;
+  --d3fend-surface-quiet-alt: #f3f3f3;
+  --d3fend-surface-recessed: #f2f2f2;
+  --d3fend-surface-subtle: #f0f0f0;
+  --d3fend-surface-wash: #fafafa;
+  --d3fend-surface-wash-alt: #f9f9f9;
+  --d3fend-surface-slate-wash: #f9fafb;
+  --d3fend-surface-slate-soft: #f8fafc;
+  --d3fend-surface-panel-cool: #f6f7fb;
+  --d3fend-surface-selected: #b7b5b5;
+  --d3fend-surface-hover: rgb(202, 201, 207);
+  --d3fend-border-default: #ccc;
+  --d3fend-border-subtle: #ddd;
+  --d3fend-border-faint: #eee;
+  --d3fend-border-strong: #888;
+  --d3fend-border-dark: #555;
+  --d3fend-border-black: black;
+  --d3fend-border-inverse: #fff;
+  --d3fend-border-offensive: #c63e1fa3;
+  --d3fend-border-slate-subtle: #e5e7eb;
+  --d3fend-border-slate: #d1d5db;
+  --d3fend-border-slate-strong: #cbd5e1;
+  --d3fend-border-hairline: rgba(0, 0, 0, 0.12);
+  --d3fend-text-default: #333;
+  --d3fend-text-strong: #111;
+  --d3fend-text-body: #222;
+  --d3fend-text-secondary: #444;
+  --d3fend-text-muted: #555;
+  --d3fend-text-subdued: #666;
+  --d3fend-text-disabled: #777;
+  --d3fend-text-inverse: #fff;
+  --d3fend-text-black: black;
+  --d3fend-link-default: #005B94;
+  --d3fend-focus-control: #1976d2;
+  --d3fend-focus-control-hover: #1565c0;
+  --d3fend-focus-dense-control: #2563eb;
+  --d3fend-focus-ontology-edge: #0e7490;
+  --d3fend-env-link: #8fd3ff;
+  --d3fend-slate-50: #f8fafc;
+  --d3fend-slate-100: #f1f5f9;
+  --d3fend-slate-200: #e2e8f0;
+  --d3fend-slate-300: #cbd5e1;
+  --d3fend-slate-400: #94a3b8;
+  --d3fend-slate-500: #64748b;
+  --d3fend-slate-600: #475569;
+  --d3fend-slate-700: #334155;
+  --d3fend-slate-800: #1e293b;
+  --d3fend-slate-900: #0f172a;
+  --d3fend-neutral-25: #0a0909;
+  --d3fend-neutral-50: #171717;
+  --d3fend-neutral-75: #282828;
+  --d3fend-neutral-100: #2e2e2e;
+  --d3fend-neutral-125: #303030;
+  --d3fend-neutral-150: #3a3a3a;
+  --d3fend-neutral-200: #717171;
+  --d3fend-neutral-250: #999;
+  --d3fend-neutral-300: #9c9c9c;
+  --d3fend-neutral-350: #a3a3a3;
+  --d3fend-neutral-375: #aaa;
+  --d3fend-neutral-400: #b4b4b4;
+  --d3fend-neutral-425: #bcb8b8;
+  --d3fend-neutral-450: #c9c9c9;
+  --d3fend-neutral-475: #cfcfcf;
+  --d3fend-neutral-500: #dfdfdf;
+  --d3fend-neutral-525: #e2e2e2;
+  --d3fend-neutral-550: #e5e5e5;
+  --d3fend-neutral-575: #e6e6e6;
+  --d3fend-neutral-600: #ededed;
+  --d3fend-neutral-625: #f1f1f1;
+  --d3fend-neutral-650: #f7f7f7;
+  --d3fend-neutral-675: #f8f8f8;
+  --d3fend-blue-50: #eff6ff;
+  --d3fend-blue-100: #dbeafe;
+  --d3fend-blue-200: #bfdbfe;
+  --d3fend-blue-500: #0075FF;
+  --d3fend-blue-700: #1d4ed8;
+  --d3fend-blue-800: #1e40af;
+  --d3fend-blue-900: #0d47a1;
+  --d3fend-blue-ink: #12263c;
+  --d3fend-blue-ink-soft: #35506a;
+  --d3fend-blue-ink-muted: #4f6d87;
+  --d3fend-graph-highlight-fill: #0993ff2e;
+  --d3fend-graph-highlight-stroke: #062f4f;
+  --d3fend-graph-danger-stroke: #f64040;
+  --d3fend-graph-warning-stroke: #ad7400;
+  --d3fend-graph-muted-fill: rgb(255, 255, 217);
+  --d3fend-mermaid-node-fill: #fff;
+  --d3fend-mermaid-node-border: #888;
+  --d3fend-mermaid-node-text: #111;
+  --d3fend-mermaid-edge: #333;
+  --d3fend-mermaid-edge-label-background: #fff;
+  --d3fend-mermaid-edge-label-text: #111;
+  --d3fend-mermaid-class-node-text: #111;
+  --d3fend-mermaid-cluster-fill: #fafafa;
+  --d3fend-mermaid-cluster-border: #ccc;
+  --d3fend-mermaid-cluster-text: #111;
+  --d3fend-mermaid-defensive-fill: #e8f4ff;
+  --d3fend-mermaid-defensive-border: #062f4f;
+  --d3fend-mermaid-offensive-fill: #ffc3c7;
+  --d3fend-mermaid-offensive-border: #f64040;
+  --d3fend-mermaid-artifact-fill: #fff4dd;
+  --d3fend-mermaid-artifact-border: hsl(40.5882352941,60%,83.3333333333%);
+  --d3fend-mermaid-root-fill: #fff4dd;
+  --d3fend-mermaid-root-border: #555;
+  --d3fend-mermaid-inbound-fill: #e8f4ff;
+  --d3fend-mermaid-vulnerability-fill: #f9d999;
+  --d3fend-mermaid-vulnerability-border: #ad7400;
+  --d3fend-extractor-result: #9ecae1;
+  --d3fend-graph-category-tactic: #dc050c;
+  --d3fend-graph-category-technique: #f1932d;
+  --d3fend-graph-category-subtechnique: #f7f056;
+  --d3fend-graph-category-objective: #90c987;
+  --d3fend-graph-category-operation: #7bafde;
+  --d3fend-graph-category-osapi: #1965b0;
+  --d3fend-graph-category-native: #ae76a3;
+  --d3fend-svelte-flow-background: #fff;
+  --d3fend-svelte-flow-background-pattern: #bcb8b8;
+  --d3fend-svelte-flow-edge: #888;
+  --d3fend-svelte-flow-edge-selected: #111;
+  --d3fend-svelte-flow-node-background: #fff;
+  --d3fend-svelte-flow-node-text: #111;
+  --d3fend-svelte-flow-node-border: 1px solid #555;
+  --d3fend-svelte-flow-handle-background: #111;
+  --d3fend-svelte-flow-handle-border: #fff;
+  --d3fend-svelte-flow-controls-background: #fff;
+  --d3fend-svelte-flow-controls-background-hover: #f4f4f4;
+  --d3fend-svelte-flow-controls-text: #111;
+  --d3fend-svelte-flow-controls-text-hover: #111;
+  --d3fend-svelte-flow-controls-border: #eee;
+  --d3fend-svelte-flow-controls-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.08);
+  --d3fend-svelte-flow-selection-background: rgba(0, 89, 220, 0.08);
+  --d3fend-svelte-flow-selection-border: 1px dotted rgba(0, 89, 220, 0.8);
+  --d3fend-svelte-flow-resize-background: #1976d2;
+  --background-color: var(--d3fend-svelte-flow-background);
+  --background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-background-color: var(--d3fend-svelte-flow-background);
+  --xy-background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --xy-edge-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-edge-stroke-selected: var(--d3fend-svelte-flow-edge-selected);
+  --xy-connectionline-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-node-background-color: var(--d3fend-svelte-flow-node-background);
+  --xy-node-color: var(--d3fend-svelte-flow-node-text);
+  --xy-node-border: var(--d3fend-svelte-flow-node-border);
+  --xy-handle-background-color: var(--d3fend-svelte-flow-handle-background);
+  --xy-handle-border-color: var(--d3fend-svelte-flow-handle-border);
+  --xy-controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --xy-controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --xy-controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --xy-controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --xy-controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-controls-box-shadow: var(--d3fend-svelte-flow-controls-shadow);
+  --xy-minimap-background-color: var(--d3fend-graph-minimap-background);
+  --xy-minimap-mask-background-color: var(--d3fend-graph-minimap-mask);
+  --xy-minimap-mask-stroke-color: var(--d3fend-graph-minimap-mask-stroke);
+  --xy-minimap-node-background-color: var(--d3fend-surface-subtle);
+  --xy-selection-background-color: var(--d3fend-svelte-flow-selection-background);
+  --xy-selection-border: var(--d3fend-svelte-flow-selection-border);
+  --xy-edge-label-background-color: var(--d3fend-surface-panel);
+  --xy-edge-label-color: var(--d3fend-text-strong);
+  --xy-resize-background-color: var(--d3fend-svelte-flow-resize-background);
+  --d3fend-alert-info-background: lightblue;
+  --d3fend-alert-danger-background: #fee2e2;
+  --d3fend-alert-warning-background: #ffc107;
+  --d3fend-alert-success-background: lightgreen;
+  --d3fend-toggle-on-background: rgb(137, 168, 225);
+  --d3fend-control-selected-background: #2563eb;
+  --d3fend-control-selected-text: #fff;
+  --d3fend-lookup-border-offensive: #c63e1fa3;
+  --d3fend-lookup-border-artifact: hsl(40.5882352941,60%,63%);
+  --d3fend-lookup-border-defensive: #6b87ad;
+  --d3fend-cad-node-text: #111;
+  --d3fend-cad-sidebar-toggle-background: #333;
+  --d3fend-cad-sidebar-toggle-icon: #fff;
+  --d3fend-filter-item-background: #f3f3f3;
+  --d3fend-filter-item-text: #333;
+  --d3fend-filter-item-border: #888;
+  --d3fend-filter-item-active-background: #2563eb;
+  --d3fend-filter-item-active-text: #fff;
+  --d3fend-table-header-background: #3a3a3a;
+  --d3fend-table-row-even-background: #f9f9f9;
+  --d3fend-table-row-hover-background: #f1f1f1;
+  --d3fend-matrix-branch-background: #fff;
+  --d3fend-matrix-cell-background: #fff;
+  --d3fend-matrix-nested-cell-background: #f3f3f3;
+  --d3fend-matrix-cell-text: #111;
+  --d3fend-matrix-cell-border: transparent;
+  --d3fend-matrix-selected-outline: #c62828;
+  --d3fend-matrix-highlight-outline: #1976d2;
+  --d3fend-brand-cad-c: #e62929;
+  --d3fend-brand-cad-c-soft: rgb(255, 108, 108);
+  --d3fend-brand-cad-d-soft: rgb(152, 196, 255);
+  --d3fend-brand-cad-a-outline: #475569;
+  --d3fend-status-success: #2e7d32;
+  --d3fend-status-success-alt: #15803d;
+  --d3fend-status-danger: #c62828;
+  --d3fend-status-danger-alt: #b71c1c;
+  --d3fend-status-danger-deep: #b91c1c;
+  --d3fend-status-warning: #f57c00;
+  --d3fend-status-warning-text: #b35a00;
+  --d3fend-status-warning-muted: #c37474;
+  --d3fend-status-danger-icon: #D32F2F;
+  --d3fend-status-success-background: #dcfce7;
+  --d3fend-status-danger-background: #fee2e2;
+  --d3fend-status-warning-highlight: #ff0;
+  --d3fend-recommendation-highlight: rgb(236, 233, 62);
+  --d3fend-glow-success: #3bf730;
+  --d3fend-glow-focus: #4d87fa;
+  --d3fend-overlay-clear: rgba(0, 0, 0, 0);
+  --d3fend-overlay-hairline: rgba(0, 0, 0, 0.06);
+  --d3fend-overlay-raised: rgba(0, 0, 0, 0.08);
+  --d3fend-overlay-low: rgba(0, 0, 0, 0.1);
+  --d3fend-overlay-border: rgba(0, 0, 0, 0.12);
+  --d3fend-overlay-medium: rgba(0, 0, 0, 0.18);
+  --d3fend-overlay-card-shadow: rgba(0, 0, 0, 0.2);
+  --d3fend-overlay-modal-border: rgba(0, 0, 0, 0.28);
+  --d3fend-overlay-scrim: rgba(0, 0, 0, 0.3);
+  --d3fend-overlay-backdrop: rgba(0, 0, 0, 0.35);
+  --d3fend-overlay-modal-backdrop: rgba(0, 0, 0, 0.5);
+  --d3fend-overlay-heavy-backdrop: rgba(0, 0, 0, 0.7);
+  --d3fend-scroll-indicator-clear: rgba(225, 225, 225, 0);
+  --d3fend-overlay-banner-start: rgba(0, 0, 0, 0.85);
+  --d3fend-overlay-panel-light: rgba(255, 255, 255, 0.92);
+  --d3fend-overlay-panel-lighter: rgba(255, 255, 255, 0.96);
+  --d3fend-overlay-panel-near-opaque: rgba(255, 255, 255, 0.98);
+  --d3fend-overlay-panel-translucent: rgba(255, 255, 255, 0.6);
+  --d3fend-shadow-color-hsl: 220 3% 15%;
+  --d3fend-shadow-strength: 3%;
+  --d3fend-cad-node-artifact: #fff4dd;
+  --d3fend-cad-node-agent: #f0e6e6;
+  --d3fend-cad-node-attack: #ffc3c7;
+  --d3fend-cad-node-condition: #ece6ff;
+  --d3fend-cad-node-countermeasure: #d6eaff;
+  --d3fend-cad-node-event: #fff;
+  --d3fend-cad-node-note: #fafad2;
+  --d3fend-cad-node-thing: #f4f4f4;
+  --d3fend-cad-node-vulnerability: #f9d999;
+  --d3fend-cad-node-artifact-border: hsl(40.5882352941,60%,83.3333333333%);
+  --d3fend-cad-edge-subclass: #d07909;
+  --d3fend-graph-edge-implied: #157f1f;
+  --d3fend-graph-edge-not-implied: #a61b1b;
+  --d3fend-graph-minimap-background: #e1e1e1;
+  --d3fend-graph-minimap-mask: #ffffff90;
+  --d3fend-graph-minimap-mask-stroke: #808080;
+  --d3fend-graph-minimap-selected-stroke: #00008b;
+  --d3fend-graph-note-editor-hover: #ffffd9;
+  --d3fend-graph-streamed-node-flash: #8ecdf61f;
+  --d3fend-graph-surface: #fff;
+  --d3fend-graph-transparent: #ffffff00;
+  --d3fend-mission-activity-node: #C0F4D5;
+  color-scheme: light;
+}
+}
+
+@media (prefers-color-scheme: dark) {
+:root[data-d3fend-theme="system"] {
+  --primary-color: #111827;
+  --primary-selected: #334155;
+  --dark-background-color: #e5e7eb;
+  --warning: #fca5a5;
+  --item-hover: #243244;
+  --attack-node: #ffc3c7;
+  --d3fend-color-white: #fff;
+  --d3fend-color-black: black;
+  --d3fend-color-transparent: transparent;
+  --d3fend-surface-app: #111827;
+  --d3fend-surface-panel: #1f2937;
+  --d3fend-surface-quiet: #172033;
+  --d3fend-surface-quiet-alt: #202b3b;
+  --d3fend-surface-recessed: #172033;
+  --d3fend-surface-subtle: #273449;
+  --d3fend-surface-wash: #0f172a;
+  --d3fend-surface-wash-alt: #111827;
+  --d3fend-surface-slate-wash: #111827;
+  --d3fend-surface-slate-soft: #162033;
+  --d3fend-surface-panel-cool: #1e293b;
+  --d3fend-surface-selected: #334155;
+  --d3fend-surface-hover: #243244;
+  --d3fend-border-default: #475569;
+  --d3fend-border-subtle: #334155;
+  --d3fend-border-faint: #243244;
+  --d3fend-border-strong: #64748b;
+  --d3fend-border-dark: #94a3b8;
+  --d3fend-border-black: #94a3b8;
+  --d3fend-border-inverse: #0f172a;
+  --d3fend-border-offensive: #c63e1fa3;
+  --d3fend-border-slate-subtle: #334155;
+  --d3fend-border-slate: #475569;
+  --d3fend-border-slate-strong: #64748b;
+  --d3fend-border-hairline: rgba(255, 255, 255, 0.14);
+  --d3fend-text-default: #e5e7eb;
+  --d3fend-text-strong: #f8fafc;
+  --d3fend-text-body: #e2e8f0;
+  --d3fend-text-secondary: #cbd5e1;
+  --d3fend-text-muted: #94a3b8;
+  --d3fend-text-subdued: #94a3b8;
+  --d3fend-text-disabled: #64748b;
+  --d3fend-text-inverse: #ffffff;
+  --d3fend-text-black: #f8fafc;
+  --d3fend-link-default: #7dd3fc;
+  --d3fend-focus-control: #60a5fa;
+  --d3fend-focus-control-hover: #93c5fd;
+  --d3fend-focus-dense-control: #60a5fa;
+  --d3fend-focus-ontology-edge: #22d3ee;
+  --d3fend-env-link: #bae6fd;
+  --d3fend-slate-50: #0f172a;
+  --d3fend-slate-100: #1e293b;
+  --d3fend-slate-200: #334155;
+  --d3fend-slate-300: #475569;
+  --d3fend-slate-400: #64748b;
+  --d3fend-slate-500: #94a3b8;
+  --d3fend-slate-600: #cbd5e1;
+  --d3fend-slate-700: #e2e8f0;
+  --d3fend-slate-800: #f1f5f9;
+  --d3fend-slate-900: #f8fafc;
+  --d3fend-neutral-25: #f8fafc;
+  --d3fend-neutral-50: #f1f5f9;
+  --d3fend-neutral-75: #e5e7eb;
+  --d3fend-neutral-100: #d1d5db;
+  --d3fend-neutral-125: #cbd5e1;
+  --d3fend-neutral-150: #94a3b8;
+  --d3fend-neutral-200: #64748b;
+  --d3fend-neutral-250: #475569;
+  --d3fend-neutral-300: #334155;
+  --d3fend-neutral-350: #2f3b4f;
+  --d3fend-neutral-375: #293548;
+  --d3fend-neutral-400: #243244;
+  --d3fend-neutral-425: #1f2937;
+  --d3fend-neutral-450: #1e293b;
+  --d3fend-neutral-475: #182235;
+  --d3fend-neutral-500: #172033;
+  --d3fend-neutral-525: #162033;
+  --d3fend-neutral-550: #111827;
+  --d3fend-neutral-575: #0f172a;
+  --d3fend-neutral-600: #0b1220;
+  --d3fend-neutral-625: #08111f;
+  --d3fend-neutral-650: #111827;
+  --d3fend-neutral-675: #1f2937;
+  --d3fend-blue-50: #0b2440;
+  --d3fend-blue-100: #123a63;
+  --d3fend-blue-200: #1d5f99;
+  --d3fend-blue-500: #60a5fa;
+  --d3fend-blue-700: #93c5fd;
+  --d3fend-blue-800: #bfdbfe;
+  --d3fend-blue-900: #dbeafe;
+  --d3fend-blue-ink: #dbeafe;
+  --d3fend-blue-ink-soft: #bfdbfe;
+  --d3fend-blue-ink-muted: #93c5fd;
+  --d3fend-graph-highlight-fill: #0993ff2e;
+  --d3fend-graph-highlight-stroke: #062f4f;
+  --d3fend-graph-danger-stroke: #f64040;
+  --d3fend-graph-warning-stroke: #ad7400;
+  --d3fend-graph-muted-fill: rgb(255, 255, 217);
+  --d3fend-mermaid-node-fill: #1f2937;
+  --d3fend-mermaid-node-border: #64748b;
+  --d3fend-mermaid-node-text: #f8fafc;
+  --d3fend-mermaid-edge: #f8fafc;
+  --d3fend-mermaid-edge-label-background: #172033;
+  --d3fend-mermaid-edge-label-text: #f8fafc;
+  --d3fend-mermaid-class-node-text: #111111;
+  --d3fend-mermaid-cluster-fill: #0f172a;
+  --d3fend-mermaid-cluster-border: #475569;
+  --d3fend-mermaid-cluster-text: #f8fafc;
+  --d3fend-mermaid-defensive-fill: #d6eaff;
+  --d3fend-mermaid-defensive-border: #7dd3fc;
+  --d3fend-mermaid-offensive-fill: #ffc3c7;
+  --d3fend-mermaid-offensive-border: #fca5a5;
+  --d3fend-mermaid-artifact-fill: #fff4dd;
+  --d3fend-mermaid-artifact-border: #fbbf24;
+  --d3fend-mermaid-root-fill: #fff4dd;
+  --d3fend-mermaid-root-border: #cbd5e1;
+  --d3fend-mermaid-inbound-fill: #fff4dd;
+  --d3fend-mermaid-vulnerability-fill: #f9d999;
+  --d3fend-mermaid-vulnerability-border: #fbbf24;
+  --d3fend-extractor-result: #9ecae1;
+  --d3fend-graph-category-tactic: #dc050c;
+  --d3fend-graph-category-technique: #f1932d;
+  --d3fend-graph-category-subtechnique: #f7f056;
+  --d3fend-graph-category-objective: #90c987;
+  --d3fend-graph-category-operation: #7bafde;
+  --d3fend-graph-category-osapi: #1965b0;
+  --d3fend-graph-category-native: #ae76a3;
+  --d3fend-svelte-flow-background: #0f172a;
+  --d3fend-svelte-flow-background-pattern: #334155;
+  --d3fend-svelte-flow-edge: #94a3b8;
+  --d3fend-svelte-flow-edge-selected: #e2e8f0;
+  --d3fend-svelte-flow-node-background: #1f2937;
+  --d3fend-svelte-flow-node-text: #f8fafc;
+  --d3fend-svelte-flow-node-border: 1px solid #64748b;
+  --d3fend-svelte-flow-handle-background: #e2e8f0;
+  --d3fend-svelte-flow-handle-border: #0f172a;
+  --d3fend-svelte-flow-controls-background: #1e293b;
+  --d3fend-svelte-flow-controls-background-hover: #334155;
+  --d3fend-svelte-flow-controls-text: #f8fafc;
+  --d3fend-svelte-flow-controls-text-hover: #ffffff;
+  --d3fend-svelte-flow-controls-border: #475569;
+  --d3fend-svelte-flow-controls-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.38);
+  --d3fend-svelte-flow-selection-background: rgba(96, 165, 250, 0.16);
+  --d3fend-svelte-flow-selection-border: 1px dotted rgba(147, 197, 253, 0.92);
+  --d3fend-svelte-flow-resize-background: #60a5fa;
+  --background-color: var(--d3fend-svelte-flow-background);
+  --background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-background-color: var(--d3fend-svelte-flow-background);
+  --xy-background-pattern-color: var(--d3fend-svelte-flow-background-pattern);
+  --xy-edge-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-edge-stroke-selected: var(--d3fend-svelte-flow-edge-selected);
+  --xy-connectionline-stroke: var(--d3fend-svelte-flow-edge);
+  --xy-node-background-color: var(--d3fend-svelte-flow-node-background);
+  --xy-node-color: var(--d3fend-svelte-flow-node-text);
+  --xy-node-border: var(--d3fend-svelte-flow-node-border);
+  --xy-handle-background-color: var(--d3fend-svelte-flow-handle-background);
+  --xy-handle-border-color: var(--d3fend-svelte-flow-handle-border);
+  --xy-controls-button-background-color: var(--d3fend-svelte-flow-controls-background);
+  --xy-controls-button-background-color-hover: var(--d3fend-svelte-flow-controls-background-hover);
+  --xy-controls-button-color: var(--d3fend-svelte-flow-controls-text);
+  --xy-controls-button-color-hover: var(--d3fend-svelte-flow-controls-text-hover);
+  --xy-controls-button-border-color: var(--d3fend-svelte-flow-controls-border);
+  --xy-controls-box-shadow: var(--d3fend-svelte-flow-controls-shadow);
+  --xy-minimap-background-color: var(--d3fend-graph-minimap-background);
+  --xy-minimap-mask-background-color: var(--d3fend-graph-minimap-mask);
+  --xy-minimap-mask-stroke-color: var(--d3fend-graph-minimap-mask-stroke);
+  --xy-minimap-node-background-color: var(--d3fend-surface-subtle);
+  --xy-selection-background-color: var(--d3fend-svelte-flow-selection-background);
+  --xy-selection-border: var(--d3fend-svelte-flow-selection-border);
+  --xy-edge-label-background-color: var(--d3fend-surface-panel);
+  --xy-edge-label-color: var(--d3fend-text-strong);
+  --xy-resize-background-color: var(--d3fend-svelte-flow-resize-background);
+  --d3fend-alert-info-background: #123a63;
+  --d3fend-alert-danger-background: #450a0a;
+  --d3fend-alert-warning-background: #854d0e;
+  --d3fend-alert-success-background: #052e16;
+  --d3fend-toggle-on-background: #60a5fa;
+  --d3fend-control-selected-background: #2563eb;
+  --d3fend-control-selected-text: #ffffff;
+  --d3fend-lookup-border-offensive: #fca5a5;
+  --d3fend-lookup-border-artifact: #fbbf24;
+  --d3fend-lookup-border-defensive: #93c5fd;
+  --d3fend-cad-node-text: #111111;
+  --d3fend-cad-sidebar-toggle-background: #111827;
+  --d3fend-cad-sidebar-toggle-icon: #f8fafc;
+  --d3fend-filter-item-background: #243244;
+  --d3fend-filter-item-text: #f8fafc;
+  --d3fend-filter-item-border: #64748b;
+  --d3fend-filter-item-active-background: #60a5fa;
+  --d3fend-filter-item-active-text: #0f172a;
+  --d3fend-table-header-background: #334155;
+  --d3fend-table-row-even-background: #172033;
+  --d3fend-table-row-hover-background: #243244;
+  --d3fend-matrix-branch-background: #243244;
+  --d3fend-matrix-cell-background: #1f2937;
+  --d3fend-matrix-nested-cell-background: #172033;
+  --d3fend-matrix-cell-text: #f8fafc;
+  --d3fend-matrix-cell-border: transparent;
+  --d3fend-matrix-selected-outline: #fca5a5;
+  --d3fend-matrix-highlight-outline: #60a5fa;
+  --d3fend-brand-cad-c: #e62929;
+  --d3fend-brand-cad-c-soft: rgb(255, 108, 108);
+  --d3fend-brand-cad-d-soft: rgb(152, 196, 255);
+  --d3fend-brand-cad-a-outline: #475569;
+  --d3fend-status-success: #86efac;
+  --d3fend-status-success-alt: #4ade80;
+  --d3fend-status-danger: #fca5a5;
+  --d3fend-status-danger-alt: #f87171;
+  --d3fend-status-danger-deep: #fecaca;
+  --d3fend-status-warning: #fbbf24;
+  --d3fend-status-warning-text: #fde68a;
+  --d3fend-status-warning-muted: #fca5a5;
+  --d3fend-status-danger-icon: #fca5a5;
+  --d3fend-status-success-background: #052e16;
+  --d3fend-status-danger-background: #450a0a;
+  --d3fend-status-warning-highlight: #ff0;
+  --d3fend-recommendation-highlight: #854d0e;
+  --d3fend-glow-success: #86efac;
+  --d3fend-glow-focus: #93c5fd;
+  --d3fend-overlay-clear: rgba(0, 0, 0, 0);
+  --d3fend-overlay-hairline: rgba(255, 255, 255, 0.08);
+  --d3fend-overlay-raised: rgba(255, 255, 255, 0.1);
+  --d3fend-overlay-low: rgba(255, 255, 255, 0.12);
+  --d3fend-overlay-border: rgba(255, 255, 255, 0.14);
+  --d3fend-overlay-medium: rgba(255, 255, 255, 0.22);
+  --d3fend-overlay-card-shadow: rgba(0, 0, 0, 0.42);
+  --d3fend-overlay-modal-border: rgba(255, 255, 255, 0.28);
+  --d3fend-overlay-scrim: rgba(0, 0, 0, 0.55);
+  --d3fend-overlay-backdrop: rgba(0, 0, 0, 0.62);
+  --d3fend-overlay-modal-backdrop: rgba(0, 0, 0, 0.72);
+  --d3fend-overlay-heavy-backdrop: rgba(0, 0, 0, 0.85);
+  --d3fend-scroll-indicator-clear: rgba(17, 24, 39, 0);
+  --d3fend-overlay-banner-start: rgba(0, 0, 0, 0.92);
+  --d3fend-overlay-panel-light: rgba(30, 41, 59, 0.92);
+  --d3fend-overlay-panel-lighter: rgba(30, 41, 59, 0.96);
+  --d3fend-overlay-panel-near-opaque: rgba(30, 41, 59, 0.98);
+  --d3fend-overlay-panel-translucent: rgba(30, 41, 59, 0.72);
+  --d3fend-shadow-color-hsl: 220 40% 2%;
+  --d3fend-shadow-strength: 18%;
+  --d3fend-cad-node-artifact: #fff4dd;
+  --d3fend-cad-node-agent: #f0e6e6;
+  --d3fend-cad-node-attack: #ffc3c7;
+  --d3fend-cad-node-condition: #ece6ff;
+  --d3fend-cad-node-countermeasure: #d6eaff;
+  --d3fend-cad-node-event: #fff;
+  --d3fend-cad-node-note: #fafad2;
+  --d3fend-cad-node-thing: #f4f4f4;
+  --d3fend-cad-node-vulnerability: #f9d999;
+  --d3fend-cad-node-artifact-border: #fbbf24;
+  --d3fend-cad-edge-subclass: #d07909;
+  --d3fend-graph-edge-implied: #157f1f;
+  --d3fend-graph-edge-not-implied: #a61b1b;
+  --d3fend-graph-minimap-background: #111827;
+  --d3fend-graph-minimap-mask: rgba(148, 163, 184, 0.28);
+  --d3fend-graph-minimap-mask-stroke: #475569;
+  --d3fend-graph-minimap-selected-stroke: #93c5fd;
+  --d3fend-graph-note-editor-hover: #ffffd9;
+  --d3fend-graph-streamed-node-flash: #8ecdf61f;
+  --d3fend-graph-surface: #1f2937;
+  --d3fend-graph-transparent: #ffffff00;
+  --d3fend-mission-activity-node: #C0F4D5;
+  color-scheme: dark;
+}
+}
+
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg {
+  color: var(--d3fend-mermaid-node-text);
+  background: transparent;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.node rect, .node polygon, .node circle, .node ellipse) {
+  fill: var(--d3fend-mermaid-node-fill) !important;
+  stroke: var(--d3fend-mermaid-node-border) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(
+  .label,
+  .nodeLabel,
+  .label span,
+  .label p,
+  .nodeLabel p,
+  .nodeLabel span,
+  foreignObject,
+  foreignObject div
+) {
+  color: var(--d3fend-mermaid-node-text) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.node text, .label text, .cluster-label text, text) {
+  fill: var(--d3fend-mermaid-node-text) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(
+  .DefensiveTechniqueNode,
+  .OffensiveTechniqueNode,
+  .ArtifactNode,
+  .AgentNode,
+  .EventNode,
+  .artifact-node,
+  .agent-node,
+  .attack-node,
+  .condition-node,
+  .countermeasure-node,
+  .event-node,
+  .note-node,
+  .thing-node,
+  .RootArtifactNode,
+  .WeaknessNode,
+  .vulnerability-node,
+  .inbound_node
+) :where(.label, .nodeLabel, .label span, .label p, .nodeLabel p, .nodeLabel span, foreignObject, foreignObject div) {
+  color: var(--d3fend-mermaid-class-node-text) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(
+  .DefensiveTechniqueNode,
+  .OffensiveTechniqueNode,
+  .ArtifactNode,
+  .AgentNode,
+  .EventNode,
+  .artifact-node,
+  .agent-node,
+  .attack-node,
+  .condition-node,
+  .countermeasure-node,
+  .event-node,
+  .note-node,
+  .thing-node,
+  .RootArtifactNode,
+  .WeaknessNode,
+  .vulnerability-node,
+  .inbound_node
+) :where(text, .label text, .nodeLabel text) {
+  fill: var(--d3fend-mermaid-class-node-text) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.edgePath path, .flowchart-link, .path, .relation) {
+  stroke: var(--d3fend-mermaid-edge) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(marker path, .arrowheadPath) {
+  fill: var(--d3fend-mermaid-edge) !important;
+  stroke: var(--d3fend-mermaid-edge) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.edgeLabel, .edgeLabel span, .edgeLabel p, .edgeLabel foreignObject) {
+  color: var(--d3fend-mermaid-edge-label-text) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg .edgeLabel .labelBkg,
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg .edgeLabel span,
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg .edgeLabel p {
+  background-color: var(--d3fend-mermaid-edge-label-background) !important;
+  color: var(--d3fend-mermaid-edge-label-text) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.edgeLabel text) {
+  fill: var(--d3fend-mermaid-edge-label-text) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.edgeLabel rect, .edgeLabel .labelBkg) {
+  fill: var(--d3fend-mermaid-edge-label-background) !important;
+  background-color: var(--d3fend-mermaid-edge-label-background) !important;
+  opacity: 1 !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.cluster rect) {
+  fill: var(--d3fend-mermaid-cluster-fill) !important;
+  stroke: var(--d3fend-mermaid-cluster-border) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.cluster-label, .cluster-label span, .cluster-label p) {
+  color: var(--d3fend-mermaid-cluster-text) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.cluster-label text) {
+  fill: var(--d3fend-mermaid-cluster-text) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.DefensiveTechniqueNode > rect) {
+  fill: var(--d3fend-mermaid-defensive-fill) !important;
+  stroke: var(--d3fend-mermaid-defensive-border) !important;
+  stroke-width: 1px !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.OffensiveTechniqueNode > rect) {
+  fill: var(--d3fend-mermaid-offensive-fill) !important;
+  stroke: var(--d3fend-mermaid-offensive-border) !important;
+  stroke-width: 1px !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.ArtifactNode > rect, .artifact-node > rect) {
+  fill: var(--d3fend-mermaid-artifact-fill) !important;
+  stroke: var(--d3fend-mermaid-artifact-border) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.AgentNode > rect, .agent-node > rect) {
+  fill: var(--d3fend-cad-node-agent) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.attack-node > rect) {
+  fill: var(--d3fend-cad-node-attack) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.condition-node > rect) {
+  fill: var(--d3fend-cad-node-condition) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.countermeasure-node > rect) {
+  fill: var(--d3fend-cad-node-countermeasure) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.EventNode > rect, .event-node > rect) {
+  fill: var(--d3fend-cad-node-event) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.note-node > rect) {
+  fill: var(--d3fend-cad-node-note) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.thing-node > rect) {
+  fill: var(--d3fend-cad-node-thing) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.RootArtifactNode > rect) {
+  fill: var(--d3fend-mermaid-root-fill) !important;
+  stroke: var(--d3fend-mermaid-root-border) !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.WeaknessNode > rect, .vulnerability-node > rect) {
+  fill: var(--d3fend-mermaid-vulnerability-fill) !important;
+  stroke: var(--d3fend-mermaid-vulnerability-border) !important;
+  stroke-width: 1px !important;
+}
+
+:where(.mermaid-themed, .neighbors-container, [id="mermaid"], .mermaid-process) svg :where(.inbound_node > rect) {
+  fill: var(--d3fend-mermaid-inbound-fill) !important;
+  stroke: var(--d3fend-mermaid-defensive-border) !important;
+}
+</style><!----><!----><!--j17nky--><!--[0--><meta name="description" content="D3FEND for Space extends the MITRE D3FEND ontology with space-specific artifacts, events, and countermeasures to model spacecraft, ground stations, and related systems."/><!--]--> <!--[0--><meta property="og:type" content="website"/><!--]--> <!--[0--><meta property="og:title" content="MITRE D3FEND for Space"/><!--]--> <!--[0--><meta property="og:url" content="https://d3fend.mitre.org/domain/space/"/><!--]--> <!--[0--><meta property="og:image" content="https://d3fend.mitre.org/img/domain/space/d4s_background.jpeg"/><!--]--> <!--[-1--><!--]--> <!--[0--><meta property="og:description" content="D3FEND for Space extends the MITRE D3FEND ontology with space-specific artifacts, events, and countermeasures to model spacecraft, ground stations, and related systems."/><!--]--><!----><title>D3FEND for Space | MITRE D3FEND™</title>
+		<link href="../../_app/immutable/assets/0.BJr1g2Lc.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/Footer.BhXJU_LE.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/Notification.sFUI4vTk.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/Hamburger.fj1125CU.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/search_documents.D2vjlWlh.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/Alert.dSEtv5f6.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/_Graph.Be_6ecwI.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/defaults.CLoPs7Bi.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/Modal.BxqN448u.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/SiteSettingsModal.DXHkQUdi.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/Nav-mobile.BkFz4uRM.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/2.ChBKYUq0.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/blog-layout.PkynT-oK.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/building-d3fend-graphs-with-d3fend-cad.Ba0HpvZr.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/CADEmbeddable.OnmNiYiy.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/getting-started-with-d3fend-for-ot.gY8fZ25K.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/threat-modeling-with-d3fend-ontology-and-cad.C7Z4VGS4.css" rel="stylesheet">
+		<link href="../../_app/immutable/assets/modeling-content-disarm-and-reconstruction.pKHN3p0s.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- The application will be rendered inside this element,
+      because `src/client.js` references it -->
+  <div><!--[--><!--[0--><!--[--><!--[-1--><!--]--> <div class="banner svelte-12qhfyh" hidden="" style="background-color: ; color:  "><!----><!----></div> <!--[0--><!--[--><nav class="svelte-t1cweu"><!--[-1--><!--]--><!----> <nav id="desktop" class="svelte-1h32yp1"><ul class="text-1 svelte-1h32yp1"><li class="logo svelte-1h32yp1"><a current_path="domain/space" href="../../" class="svelte-1h32yp1"><img alt="MITRE logo" src="../../img/mitre.png" class="svelte-1h32yp1"/></a></li> <!--[-1--><li class="svelte-1h32yp1"><a aria-current="page" href="../../domain" class="svelte-1h32yp1">domains</a></li> <li class="svelte-1h32yp1"><a current_path="domain/space" class="glow svelte-1h32yp1" href="../../cad">CAD</a></li> <li class="svelte-1h32yp1"><a class="svelte-1h32yp1" href="../../ontology">ontology</a></li> <li class="svelte-1h32yp1"><a class="svelte-1h32yp1" href="../../dao">artifacts</a></li> <li class="svelte-1h32yp1"><a href="../../about" class="svelte-1h32yp1">about</a></li> <li class="svelte-1h32yp1"><a href="../../resources" class="svelte-1h32yp1">resources</a></li> <li class="svelte-1h32yp1"><a href="../../contribute" class="svelte-1h32yp1">contribute</a></li> <li class="svelte-1h32yp1"><a href="../../faq" class="svelte-1h32yp1">faq</a></li> <li class="svelte-1h32yp1"><a href="../../blog" class="svelte-1h32yp1">blog</a></li> <li class="svelte-1h32yp1"><a href="../../search" class="svelte-1h32yp1">search</a></li> <li class="settings-nav-item svelte-1h32yp1"><button type="button" class="settings-button svelte-1h32yp1" aria-label="Settings" title="Settings"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="svelte-1h32yp1"><path fill-rule="evenodd" d="M19.43 12.98c.04-.32.07-.66.07-1s-.03-.68-.07-1l2.11-1.65a.5.5 0 0 0 .12-.64l-2-3.46a.5.5 0 0 0-.61-.22l-2.49 1a7.028 7.028 0 0 0-1.7-.99l-.38-2.65A.5.5 0 0 0 14 2h-4a.5.5 0 0 0-.5.42l-.38 2.65c-.63.26-1.2.6-1.7.99l-2.49-1a.5.5 0 0 0-.61.22l-2 3.46a.5.5 0 0 0 .12.64L4.57 11c-.04.32-.07.66-.07 1s.03.68.07 1l-2.11 1.65a.5.5 0 0 0-.12.64l2 3.46a.5.5 0 0 0 .61.22l2.49-1c.5.39 1.07.73 1.7.99l.38 2.65A.5.5 0 0 0 10 22h4a.5.5 0 0 0 .5-.42l.38-2.65c.63-.26 1.2-.6 1.7-.99l2.49 1a.5.5 0 0 0 .61-.22l2-3.46a.5.5 0 0 0-.12-.64l-2.11-1.65zM12 15.5A3.5 3.5 0 1 1 12 8.5a3.5 3.5 0 0 1 0 7z"></path></svg></button></li> <li class="logo logo-right svelte-1h32yp1"><a href="https://www.nsa.gov" class="svelte-1h32yp1"><img id="sponsor_logo" alt="NSA logo" src="../../img/nsa.png" class="svelte-1h32yp1"/></a></li><!--]--></ul></nav> <!--[-1--><!--]--> <!--[-1--><!--]--> <nav id="mobile"><div><button aria-label="Close Mobile Menu" style="z-index: 3;" class="svelte-1ltwp5z"><!--[-1--><svg width="32" height="28" class="svelte-1ltwp5z"><line id="top" x1="0" y1="4" x2="32" y2="4" class="svelte-1ltwp5z"></line><line id="middle" x1="0" y1="14" x2="24" y2="14" class="svelte-1ltwp5z"></line><line id="bottom" x1="0" y1="24" x2="32" y2="24" class="svelte-1ltwp5z"></line></svg><!--]--></button><!----></div></nav><!----></nav> <main class="svelte-t1cweu"><!--[-1--><!--[--><!----> <section class="content"><style>
+    h1 {
+      background-image: url("../../img/domain/space/d4s_background.jpeg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 500px;
+      color: var(--d3fend-text-inverse);
+      margin: 0;
+      margin-top: 0;
+      position: relative;
+      font-size: 2.5rem;
+      border-radius: 6px;
+    }
+
+    h1 span {
+      position: absolute;
+      top: -30px;
+      left: -70px;
+      padding: 100px;
+      text-align: left;
+    }
+
+    .content table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 1rem;
+      border: 1px solid var(--d3fend-border-default);
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 0 10px var(--d3fend-overlay-low);
+    }
+
+    .content th,
+    .content td {
+      padding: 12px;
+      border: 1px solid var(--d3fend-border-subtle);
+      text-align: left;
+    }
+
+    .content th {
+      background-color: var(--d3fend-table-header-background);
+      color: var(--d3fend-text-inverse);
+      font-weight: bold;
+    }
+
+    .content tr:nth-child(even) {
+      background-color: var(--d3fend-table-row-even-background);
+    }
+
+    .content tr:hover {
+      background-color: var(--d3fend-table-row-hover-background);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .responsive-card-table td:first-child,
+    .responsive-card-table th:first-child {
+      width: 200px;
+    }
+
+    .ot-examples {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      gap: 1rem;
+    }
+
+    .card {
+      width: 190px;
+      background-color: var(--d3fend-surface-wash-alt);
+    }
+
+    .media img {
+      width: 100%;
+      aspect-ratio: 3 / 2;
+      object-fit: cover;
+      border-radius: 0.4rem;
+      border: 2px solid var(--d3fend-border-subtle);
+    }
+
+    .title {
+      margin: 0.6rem 1rem 0.25rem;
+      font-weight: 600;
+      font-size: medium;
+      line-height: 1.2;
+      text-align: center;
+    }
+
+    .font-smallp {
+      font-size: 0.95rem;
+    }
+
+    .sparta-integration-table td:first-child,
+    .sparta-integration-table th:first-child {
+      width: 280px;
+    }
+
+    .responsive-card-table ul {
+      margin-block: 0;
+      padding-left: 1.25rem;
+    }
+
+    .space-jump-list {
+      margin: 1.5rem 0;
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--d3fend-border-default);
+      border-radius: 6px;
+      background-color: var(--d3fend-surface-panel);
+    }
+
+    .space-jump-list-title {
+      margin: 0 0 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    .space-jump-list ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(14rem, 100%), 1fr));
+      gap: 0.35rem 1.5rem;
+      margin: 0;
+      padding-left: 1.25rem;
+    }
+
+    .space-section-heading {
+      scroll-margin-top: 5rem;
+    }
+
+    .data-table-scroll-region {
+      max-width: 100%;
+      overflow-x: auto;
+      overscroll-behavior-inline: contain;
+      border: 1px solid var(--d3fend-border-default);
+      border-radius: 5px;
+      box-shadow: 0 0 10px var(--d3fend-overlay-low);
+      scrollbar-gutter: stable;
+    }
+
+    .data-table-scroll-region:focus-visible {
+      outline: 2px solid var(--d3fend-focus-control);
+      outline-offset: 2px;
+    }
+
+    .content .data-table-scroll-region > table {
+      margin-bottom: 0;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    .data-table-scroll-region > table > thead > tr > th {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+    }
+
+    .data-table-scroll-region > table > tbody > tr > td:first-child {
+      position: sticky;
+      left: 0;
+      z-index: 1;
+      background-color: var(--d3fend-surface-panel);
+    }
+
+    .data-table-scroll-region > table > thead > tr > th:first-child {
+      left: 0;
+      z-index: 3;
+    }
+
+    .data-table-scroll-region > table > tbody > tr:nth-child(even) > td:first-child {
+      background-color: var(--d3fend-table-row-even-background);
+    }
+
+    .data-table-scroll-region > table > tbody > tr:hover > td:first-child {
+      background-color: var(--d3fend-table-row-hover-background);
+    }
+
+    .data-table-scroll-affordance {
+      display: none;
+      margin: 0 0 0.35rem;
+      color: var(--d3fend-text-muted);
+      font-size: 0.875rem;
+      font-weight: 600;
+    }
+
+    .ontology-additions {
+      display: grid;
+      min-width: 0;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .ontology-addition-group {
+      min-width: 0;
+      border: 1px solid var(--d3fend-border-default);
+      border-radius: 6px;
+      background-color: var(--d3fend-surface-panel);
+    }
+
+    .ontology-addition-group summary {
+      cursor: pointer;
+      padding: 0.75rem 1rem;
+      font-weight: 600;
+    }
+
+    .content .ontology-addition-table {
+      width: calc(100% - 2rem);
+      table-layout: fixed;
+      margin: 0 1rem 1rem;
+      box-shadow: none;
+    }
+
+    .ontology-addition-table td:first-child,
+    .ontology-addition-table th:first-child {
+      width: min(260px, 38%);
+    }
+
+    .ontology-entity-name {
+      font-weight: 600;
+      overflow-wrap: anywhere;
+    }
+
+    .ontology-entity-description {
+      font-size: 0.95rem;
+      line-height: 1.4;
+      overflow-wrap: anywhere;
+    }
+
+    .sparta-table-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .sparta-table-copy-button.copied {
+      border-color: var(--d3fend-status-success);
+      color: var(--d3fend-status-success);
+    }
+
+    .sparta-table-copy-button.error {
+      border-color: var(--d3fend-status-danger);
+      color: var(--d3fend-status-danger);
+    }
+
+    .sparta-restrictions-table {
+      width: 100%;
+      margin-bottom: 0;
+      box-shadow: none;
+    }
+
+    .sparta-mappings-link {
+      display: block;
+      width: 100%;
+      max-width: 960px;
+      margin: 1rem auto;
+      cursor: zoom-in;
+    }
+
+    .sparta-mappings-image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .sparta-restrictions-table td:first-child,
+    .sparta-restrictions-table th:first-child {
+      width: 140px;
+    }
+
+    .sparta-restrictions-table td {
+      overflow-wrap: anywhere;
+    }
+
+    .space-sponsor {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: minmax(120px, 180px) minmax(0, 38rem) minmax(120px, 180px);
+      column-gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .space-sponsor-logo {
+      justify-self: center;
+      max-width: 100%;
+      max-height: 80px;
+      height: auto;
+    }
+
+    .space-sponsor-text {
+      margin: 0;
+      text-align: center;
+    }
+
+    @media (max-width: 720px) {
+      h1 span {
+        right: 0;
+        left: 0;
+        padding-inline: 1rem;
+        text-align: center;
+      }
+
+      .data-table-scroll-affordance {
+        display: block;
+      }
+
+      .sparta-table-scroll-affordance {
+        display: none;
+      }
+
+      .sparta-table-scroll-region {
+        border: 0;
+        overflow-x: auto;
+        box-shadow: none;
+        scrollbar-gutter: auto;
+      }
+
+      .content .responsive-card-table {
+        display: block;
+        border: 0;
+        overflow: visible;
+        box-shadow: none;
+      }
+
+      .responsive-card-table > thead {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      .content .responsive-card-table > tbody {
+        display: grid;
+        gap: 1rem;
+      }
+
+      .content .responsive-card-table > tbody > tr,
+      .content .responsive-card-table > tbody > tr > td {
+        display: block;
+        width: auto;
+      }
+
+      .content .responsive-card-table > tbody > tr {
+        overflow: hidden;
+        border: 1px solid var(--d3fend-border-default);
+        border-radius: 5px;
+        background-color: var(--d3fend-surface-panel);
+        box-shadow: 0 0 10px var(--d3fend-overlay-low);
+      }
+
+      .content .responsive-card-table > tbody > tr > td {
+        position: static;
+        padding: 0.75rem;
+        border: 0;
+        overflow-wrap: anywhere;
+      }
+
+      .content .responsive-card-table > tbody > tr > td:not(:last-child) {
+        border-bottom: 1px solid var(--d3fend-border-subtle);
+      }
+
+      .content .responsive-card-table > tbody > tr > td::before {
+        display: block;
+        margin-bottom: 0.35rem;
+        content: attr(data-label);
+        font-size: 0.875rem;
+        font-weight: 700;
+      }
+
+      .content .responsive-card-table > tbody > tr:nth-child(even) {
+        background-color: var(--d3fend-table-row-even-background);
+      }
+
+      .content .responsive-card-table > tbody > tr:hover {
+        background-color: var(--d3fend-table-row-hover-background);
+      }
+
+      .sparta-restrictions-table td:first-child {
+        width: 40%;
+      }
+
+      .space-sponsor {
+        grid-template-columns: 1fr;
+        row-gap: 0.75rem;
+      }
+    }
+  </style> <h1><span><div class="text-center logo fancy-font">D3FEND<sup style="font-size:1.5rem">Space</sup></div></span></h1> <div class="space-sponsor"><img class="space-sponsor-logo" src="../../img/domain/space/ussf_logo.png" alt="United States Space Force logo"/> <i class="space-sponsor-text">This work was proudly sponsored by the United States Space Force’s cyberspace warfare
+      acquisition unit, the 6th Sustainment Squadron.</i> <img class="space-sponsor-logo" src="../../img/domain/space/md6_logo.png" alt="Mission Delta 6 logo"/></div> <h2>Background</h2> <p>D3FEND was designed to model computers, devices, networks, and the information flows between
+    them. As users applied it to cyber-physical systems, space emerged as a domain that needed a
+    more explicit security model.</p> <p>D3FEND for Space extends the core ontology with a security-oriented view of spacecraft, ground
+    systems, and related components. It builds on <a href="../../blog/getting-started-with-d3fend-for-ot/">D3FEND for OT</a> while incorporating space-specific
+    concepts and mappings to Aerospace's <a href="https://sparta.aerospace.org/">SPARTA</a> framework.</p> <h2>Purpose and Scope</h2> <p>D3FEND for Space enables space engineers, security engineers, and cyber threat intelligence
+    analysts to model space security scenarios using the <a href="../../ontology">D3FEND ontology</a>.</p> <p>The extension adds space-relevant artifacts, events, and countermeasures; models supporting
+    concepts such as software-defined radios and watchdog timers; and maps SPARTA techniques to the
+    D3FEND artifacts they target.</p> <b><i>What it is:</i></b> <ul class="font-smallp"><li>An extension of the D3FEND ontology tailored to space domains, adding space-specific
+      artifacts, events, and countermeasures.</li> <li>A high-fidelity modeling framework for space engineers, defenders, and cyber threat
+      intelligence analysts to represent systems, threats, and detections in CAD or SysML (please <a href="mailto:d3fend@mitre.org">contact</a> us to use D3FEND in SysML).</li> <li>A bridge to existing space security resources, including mappings to Aerospace's SPARTA
+      framework.</li></ul> <b><i>What it is not:</i></b> <ul class="font-smallp"><li>A separate or standalone ontology or framework that replaces core D3FEND.</li> <li>A comprehensive or complete model of the space domain.</li> <li>A compliance checklist, product catalog, or prescriptive configuration guide.</li></ul> <nav class="space-jump-list" aria-labelledby="space-jump-list-title"><h2 id="space-jump-list-title" class="space-jump-list-title">On this page</h2> <ul><li><a href="#design-philosophy">Design Philosophy</a></li> <li><a href="#intended-audience">Intended Audience &amp; Use Cases</a></li> <li><a href="#quick-start">Quick Start</a></li> <li><a href="#ontology-additions">Ontology Additions</a></li> <li><a href="#common-space-threats">Common Space System Threats</a></li> <li><a href="#example-space-graphs">Example Space-focused Graphs</a></li> <li><a href="#sparta-integration">Aerospace SPARTA Integration</a></li></ul></nav> <h2 id="design-philosophy" class="space-section-heading">Design Philosophy</h2> <p>D3FEND for Space follows the core D3FEND approach: model attacks and defenses through precise
+    artifacts, not broad subsystem labels.</p> <ul class="font-smallp"><li><b>Threat-model driven:</b> SPARTA techniques are mapped to the D3FEND artifacts they target.</li> <li><b>Artifact-first:</b> Spacecraft components such as computers, flight software, radios, and sensors
+      are modeled directly so users can represent their own systems.</li> <li><b>Built on OT:</b> Space concepts reuse and extend D3FEND's cyber-physical / OT model where
+      appropriate, such as with <a href="../../dao/artifact/d3f:SpacecraftComputer">d3f:SpacecraftComputer</a>.</li></ul> <h2 id="intended-audience" class="space-section-heading">Intended Audience &amp; Use Cases</h2> <p>D3FEND for Space supports several roles across engineering, analysis, and acquisition.</p> <table class="table-auto content responsive-card-table"><thead><tr><th>Role</th><th>Use Case</th></tr></thead><tbody><tr><td data-label="Role">Space Defensive Cyber Engineer</td><td data-label="Use Case"><ul><li>Map ground and space system artifacts to weaknesses, attack paths, and defenses.</li> <li>Connect sensor-reported events to artifacts and likely attack types.</li></ul></td></tr><tr><td data-label="Role">Space Cyber Threat Intelligence Analyst</td><td data-label="Use Case"><ul><li>Represent observed threats and incidents with concrete technical targets.</li> <li>Create space security analytical products grounded in the D3FEND ontology.</li></ul></td></tr><tr><td data-label="Role">Space Systems Developer or Architect</td><td data-label="Use Case"><ul><li>Model software, hardware, bus, and data-flow relationships to identify attack
+              surfaces.</li> <li>Use those models to guide more secure flight and ground software design.</li></ul></td></tr><tr><td data-label="Role">Space Systems Acquisition Specialist</td><td data-label="Use Case"><ul><li>Compare cybersecurity properties of candidate space and ground products.</li> <li>Request <a href="../../cad">D3FEND CAD</a> models from vendors to support structured technical review.</li></ul></td></tr></tbody></table> <h2 id="quick-start" class="space-section-heading">Quick Start</h2> <p>Applying D3FEND for Space to your scenario requires foundational knowledge that is outside the
+    scope of this page, which focuses on added space content and examples. Since D3FEND for Space
+    was built on the foundation of D3FEND for OT, we recommend its <a href="../../blog/getting-started-with-d3fend-for-ot/">quick start blog post</a> as a
+    useful primer.</p> <p>Reviewing the CAD diagrams that the the D3FEND team has modeled, such as one of the <a href="../../cad/?load=../resources/cad/domain/space/ops-sat-firmware-mod.json&amp;render_meta=true">satellite firmware modification attacks</a> from J.Willbold's <a href="https://jwillbold.com/paper/willbold2023spaceodyssey.pdf">Space Odyssey</a> paper, is another good way to understand what we've built.</p> <h2 id="ontology-additions" class="space-section-heading">Ontology Additions</h2> <p>The D3FEND team has added the following items to the D3FEND ontology to support D3FEND for
+    Space.</p> <div class="ontology-additions"><!--[--><details class="ontology-addition-group"><summary><b>51</b> Artifacts</summary> <table class="table-auto content ontology-addition-table"><thead><tr><th>D3FEND Entity Name</th><th>D3FEND Entity Description</th></tr></thead><tbody><!--[--><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:AtomicClock" title="d3f:AtomicClock">Atomic Clock</a></td><td class="ontology-entity-description">An atomic clock is a clock that measures time by monitoring the resonant frequency of atoms.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:BootROM" title="d3f:BootROM">Boot ROM</a></td><td class="ontology-entity-description">Boot ROM is a piece of read-only memory (ROM) that is used for booting a computer system.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:Clock" title="d3f:Clock">Clock</a></td><td class="ontology-entity-description">A mechanism that generates periodic, accurately spaced signals for timekeeping applications.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:DigitalSignalProcessingApplication" title="d3f:DigitalSignalProcessingApplication">Digital Signal Processing Application</a></td><td class="ontology-entity-description">A Digital Signal Processing (DSP) application is a software system that ingests discrete-time or discrete-space signals (from sensors, ADCs, or files) and applies digital signal processing algorithms to analyze, transform, synthesize, or make decisions about those signals, often under real-time throughput and latency constraints.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:ElectricalSignal" title="d3f:ElectricalSignal">Electrical Signal</a></td><td class="ontology-entity-description">A guided signal in the form of a time-varying voltage or current propagating along an electrical conductor such as a wire, circuit-board trace, twisted pair, or coaxial cable.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:FlightSoftware" title="d3f:FlightSoftware">Flight Software</a></td><td class="ontology-entity-description">Flight Software (FSW) is software that runs on a processor embedded in a spacecraft's avionics.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:FPGABitstream" title="d3f:FPGABitstream">FPGA Bitstream</a></td><td class="ontology-entity-description">A binary configuration file generated by synthesizing and placing-and-routing an HDL design, which is loaded into a Field-Programmable Gate Array (FPGA) to physically define its internal logic, interconnects, and I/O behavior.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:GNSSReceiver" title="d3f:GNSSReceiver">GNSS Receiver</a></td><td class="ontology-entity-description">A GNSS (Global Navigation Satellite System) receiver is an electronic device that picks up signals from one or more satellite constellations (like GPS, GLONASS, Galileo, BeiDou) to calculate precise location, velocity, and time.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:GNSSSatellite" title="d3f:GNSSSatellite">GNSS Satellite</a></td><td class="ontology-entity-description">A GNSS satellite is part of a space-based constellation that transmits signals, allowing receivers on Earth to determine their position, navigation, and timing (PNT) through trilateration.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:GNSSSignal" title="d3f:GNSSSignal">GNSS Signal</a></td><td class="ontology-entity-description">A GNSS (Global Navigation Satellite System) signal is a low-power radio signal broadcast from satellites that contains a carrier wave, a ranging code, and a navigation message.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:GNSSTimeRecord" title="d3f:GNSSTimeRecord">GNSS Time Record</a></td><td class="ontology-entity-description">A GNSS Time Record is an information content entity encoded in a GNSS signal that represents the transmission time of that signal as determined by the transmitting satellite, expressed relative to a constellation-specific time standard and epoch.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:HardwareClock" title="d3f:HardwareClock">Hardware Clock</a></td><td class="ontology-entity-description">A clock implemented using physical electronic components, typically providing timekeeping independent of system power or software state.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:HardwareClockDeviceDriver" title="d3f:HardwareClockDeviceDriver">Hardware Clock Device Driver</a></td><td class="ontology-entity-description">A device driver for a hardware clock.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:HardwareDeviceConfiguration" title="d3f:HardwareDeviceConfiguration">Hardware Device Configuration</a></td><td class="ontology-entity-description">Information used to configure the parameters and settings for hardware devices.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:HardwareTimer" title="d3f:HardwareTimer">Hardware Timer</a></td><td class="ontology-entity-description">A hardware timer is defined as an electronic component that serves as an 8-bit or 16-bit counter, capable of measuring time intervals, generating timed outputs, and driving loads through mechanisms such as pulse width modulation (PWM).</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:HardwareTimerDeviceDriver" title="d3f:HardwareTimerDeviceDriver">Hardware Timer Device Driver</a></td><td class="ontology-entity-description">A device driver for a hardware timer.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:HardwareWatchdogTimer" title="d3f:HardwareWatchdogTimer">Hardware Watchdog Timer</a></td><td class="ontology-entity-description">A hardware watchdog timer is a watchdog timer implemented using electronic components.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:OperatingSystemClock" title="d3f:OperatingSystemClock">Operating System Clock</a></td><td class="ontology-entity-description">An operating system clock is the primary software clock maintained by the operating system, representing the system's current time.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:Real-timeClock" title="d3f:Real-timeClock">Real-time Clock</a></td><td class="ontology-entity-description">A real-time clock (RTC) is an electronic device (most often in the form of an integrated circuit) that measures the passage of time.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:Real-timeOperatingSystem" title="d3f:Real-timeOperatingSystem">Real-time operating system</a></td><td class="ontology-entity-description">A real-time operating system (RTOS) is an operating system (OS) for real-time computing applications that processes data and events that have critically defined time constraints.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:Receiver" title="d3f:Receiver">Receiver</a></td><td class="ontology-entity-description">A receiver is a device or system that acquires signals and converts them into usable information.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:SafeMode" title="d3f:SafeMode">Safe Mode</a></td><td class="ontology-entity-description">An intentionally constrained operating mode of a system in which nonessential functions are disabled or limited and control is shifted to a minimal, well-tested configuration that prioritizes preventing harm (to the system, its environment, or data), maintaining basic stability and monitoring, and enabling diagnosis and recovery back to normal operation.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:Satellite" title="d3f:Satellite">Satellite</a></td><td class="ontology-entity-description">A satellite or an artificial satellite is an object, typically a spacecraft, placed into orbit around a celestial body.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:SatelliteTransponder" title="d3f:SatelliteTransponder">Satellite Transponder</a></td><td class="ontology-entity-description">A communications satellite's transponder is the series of interconnected units that form a communications channel between the receiving and the transmitting antennas.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:Signal" title="d3f:Signal">Signal</a></td><td class="ontology-entity-description">In electronics and telecommunications, signal refers to any time-varying voltage, current, or electromagnetic wave that carries information.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:SoftwareClock" title="d3f:SoftwareClock">Software Clock</a></td><td class="ontology-entity-description">A clock implemented in software which may synchronize with hardware clocks or external time sources.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:SoftwareTimer" title="d3f:SoftwareTimer">Software Timer</a></td><td class="ontology-entity-description">A timer implemented in software, typically managed by the operating system or application code.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:SoftwareWatchdogTimer" title="d3f:SoftwareWatchdogTimer">Software Watchdog Timer</a></td><td class="ontology-entity-description">A software watchdog timer is a watchdog timer implemented in software.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:Software-definedRadio" title="d3f:Software-definedRadio">Software-defined Radio</a></td><td class="ontology-entity-description">Software-defined radio (SDR) is a radio communication system where components that conventionally have been implemented in analog hardware (e.g. mixers, filters, amplifiers, modulators/demodulators, detectors, etc.) are instead implemented by means of software on a computer or embedded system.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:Software-definedRadioComputer" title="d3f:Software-definedRadioComputer">Software-Defined Radio Computer</a></td><td class="ontology-entity-description">An embedded computer that includes a self-contained radio system, onboard compute (e.g., SoC/CPU/DSP/FPGA), and software/firmware sufficient to run waveforms and manage RF functions without requiring a continuously attached host PC.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:Software-definedRadioConfiguration" title="d3f:Software-definedRadioConfiguration">Software-defined Radio Configuration</a></td><td class="ontology-entity-description">The physical radio hardware parameters used by a software-defined radio (SDR), including center frequency, bandwidth, gain settings, antenna selection, ADC/DAC sample rates, filter characteristics, power output, and others.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:Software-definedRadioDevice" title="d3f:Software-definedRadioDevice">Software-Defined Radio Device</a></td><td class="ontology-entity-description">A hardware device that functions primarily as an RF front end plus data conversion and transport, relying on an external host computer to run most waveform/DSP processing and to control operation.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:Software-definedRadioWaveformApplication" title="d3f:Software-definedRadioWaveformApplication">Software-defined Radio Waveform Application</a></td><td class="ontology-entity-description">A software implementation of a radio waveform that executes on the programmable processing elements of a software-defined radio and realizes the signal processing functions necessary to transmit and receive a specific radio signal.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:Spacecraft" title="d3f:Spacecraft">Spacecraft</a></td><td class="ontology-entity-description">A spacecraft is a vehicle that is designed to fly and operate in outer space.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:SpacecraftComputer" title="d3f:SpacecraftComputer">Spacecraft Computer</a></td><td class="ontology-entity-description">A vehicle computer installed on a spacecraft, executing real-time control or data-handling logic under spaceflight conditions (vacuum, radiation, extended communication latency) and communicating over buses such as MIL-STD-1553, SpaceWire, or CAN.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:SpacecraftSafeMode" title="d3f:SpacecraftSafeMode">Spacecraft Safe Mode</a></td><td class="ontology-entity-description">Safe mode is an operating mode of a modern uncrewed spacecraft during which all non-essential systems are shut down and only essential functions such as thermal management, radio reception and attitude control are active.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:SystemTime" title="d3f:SystemTime">System Time</a></td><td class="ontology-entity-description">In computing, system time represents a computer system's notion of a point in time.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:TimeRecord" title="d3f:TimeRecord">Time Record</a></td><td class="ontology-entity-description">A time record either records, describes, represents, or is generally about Time.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:Timer" title="d3f:Timer">Timer</a></td><td class="ontology-entity-description">A timer or countdown timer is a type of clock that starts from a specified time duration and stops upon reaching 00:00.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:Transceiver" title="d3f:Transceiver">Transceiver</a></td><td class="ontology-entity-description">A transceiver is a device that contains both a transmitter and receiver.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:Transmitter" title="d3f:Transmitter">Transmitter</a></td><td class="ontology-entity-description">A device or system that takes information and generates a signal suitable for propagation.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:Transponder" title="d3f:Transponder">Transponder</a></td><td class="ontology-entity-description">In telecommunications, a transponder is a device that, upon receiving a signal, emits a different signal in response.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:Vehicle" title="d3f:Vehicle">Vehicle</a></td><td class="ontology-entity-description">A vehicle is an electronically controlled machine designed for self-propulsion, usually to transport people, cargo, or both.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:VehicleComputer" title="d3f:VehicleComputer">Vehicle Computer</a></td><td class="ontology-entity-description">An embedded computing system within a vehicle that monitors, controls, or supports vehicle functions by processing data, communicating with other components, and interacting with sensors, actuators, and external interfaces.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:VehicleControlSoftware" title="d3f:VehicleControlSoftware">Vehicle Control Software</a></td><td class="ontology-entity-description">A specialized subset of vehicle software strictly responsible for the direct management of the vehicle's physical state, orientation, and safety-critical dynamics.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:VehicleOperatingMode" title="d3f:VehicleOperatingMode">Vehicle Operating Mode</a></td><td class="ontology-entity-description">The current functional state or control regime of a vehicle that determines how it is configured, how its systems behave, and what kind of operation it is performing at a given time.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:VehicleSoftware" title="d3f:VehicleSoftware">Vehicle Software</a></td><td class="ontology-entity-description">Any software residing on a vehicle's onboard compute platforms.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:WatchdogTimer" title="d3f:WatchdogTimer">Watchdog Timer</a></td><td class="ontology-entity-description">A watchdog timer (WDT, or simply a watchdog) is an electronic or software timer that is used to detect and recover from computer malfunctions.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:WiredLink" title="d3f:WiredLink">Wired Link</a></td><td class="ontology-entity-description">A physical link that uses a physical conductor or waveguide to constrain and direct signal propagation between endpoints.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:WirelessCommand" title="d3f:WirelessCommand">Wireless Command</a></td><td class="ontology-entity-description">A wireless command is a remote command transmitted to a system over a non-wired medium.</td></tr><tr><td><a class="ontology-entity-name" href="../../dao/artifact/d3f:WirelessLink" title="d3f:WirelessLink">Wireless Link</a></td><td class="ontology-entity-description">A physical link that transmits signals through free space or an unguided medium without physical connectors between endpoints.</td></tr><!--]--></tbody></table></details><details class="ontology-addition-group"><summary><b>3</b> Countermeasures</summary> <table class="table-auto content ontology-addition-table"><thead><tr><th>D3FEND Entity Name</th><th>D3FEND Entity Description</th></tr></thead><tbody><!--[--><tr><td><a class="ontology-entity-name" href="../../technique/d3f:BusMessageAuthentication" title="d3f:BusMessageAuthentication">Bus Message Authentication</a></td><td class="ontology-entity-description">Applies cryptographic primitives to individual bus frames to verify the sender's identity and ensure the integrity of the data payload.</td></tr><tr><td><a class="ontology-entity-name" href="../../technique/d3f:ElectromagneticRadiationHardening" title="d3f:ElectromagneticRadiationHardening">Electromagnetic Radiation Hardening</a></td><td class="ontology-entity-description">The application of physical and material-level design measures to electronic systems, components, or facilities to reduce their susceptibility to damage or disruption from electromagnetic threats.</td></tr><tr><td><a class="ontology-entity-name" href="../../technique/d3f:RadiationHardening" title="d3f:RadiationHardening">Radiation Hardening</a></td><td class="ontology-entity-description">Radiation hardening is the process of making electronic components and circuits resistant to damage or malfunction caused by high levels of ionizing radiation.</td></tr><!--]--></tbody></table></details><details class="ontology-addition-group"><summary><b>24</b> Events</summary> <table class="table-auto content ontology-addition-table"><thead><tr><th>D3FEND Entity Name</th><th>D3FEND Entity Description</th></tr></thead><tbody><!--[--><tr><td><a class="ontology-entity-name" href="../../event/d3f:ClockEvent" title="d3f:ClockEvent">Clock Event</a></td><td class="ontology-entity-description">An event involving a clock artifact, characterized by changes to or readings from a timekeeping mechanism that maintains a representation of temporal progression.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:ClockSynchronizationEvent" title="d3f:ClockSynchronizationEvent">Clock Synchronization Event</a></td><td class="ontology-entity-description">An event in which a software clock adjusts its value based on an external time reference (e.g., NTP server, GPS time signal).</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:HardwareClockEvent" title="d3f:HardwareClockEvent">Hardware Clock Event</a></td><td class="ontology-entity-description">A clock event involving a physical timekeeping mechanism implemented in hardware components.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:HardwareTimerConfigurationEvent" title="d3f:HardwareTimerConfigurationEvent">Hardware Timer Configuration Event</a></td><td class="ontology-entity-description">An event in which a hardware timer's registers or operational parameters are programmed or modified.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:HardwareTimerEvent" title="d3f:HardwareTimerEvent">Hardware Timer Event</a></td><td class="ontology-entity-description">A timer event involving a physical timer mechanism implemented in hardware components.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:HardwareTimerInterruptEvent" title="d3f:HardwareTimerInterruptEvent">Hardware Timer Interrupt Event</a></td><td class="ontology-entity-description">An event in which a hardware timer generates an interrupt signal upon expiration or interval completion.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:PowerAndThermalDeviceEvent" title="d3f:PowerAndThermalDeviceEvent">Power and Thermal Device Event</a></td><td class="ontology-entity-description">An event involving power supplies, batteries, or thermal management devices.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:RTCUpdateEvent" title="d3f:RTCUpdateEvent">RTC Update Event</a></td><td class="ontology-entity-description">An event in which a Real-Time Clock's stored time value is read from or written to its battery-backed storage.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:SoftwareClockEvent" title="d3f:SoftwareClockEvent">Software Clock Event</a></td><td class="ontology-entity-description">A clock event involving a software-based timekeeping mechanism maintained by an operating system or application.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:SoftwareTimerEvent" title="d3f:SoftwareTimerEvent">Software Timer Event</a></td><td class="ontology-entity-description">A clock event involving a software-based timekeeping mechanism maintained by an operating system or application.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:Software-definedRadioEvent" title="d3f:Software-definedRadioEvent">Software-defined Radio Event</a></td><td class="ontology-entity-description">An event involving a software-defined radio (SDR) device indicating that the SDR's lifecycle state, operational state, configuration, data-streaming status, timing/reference status, or fault condition has changed.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:Software-definedRadioRFStateChangeEvent" title="d3f:Software-definedRadioRFStateChangeEvent">Software-defined Radio RF State Change Event</a></td><td class="ontology-entity-description">A software-defined radio (SDR) event where one or more radio-frequency (RF) parameters have been changed in a way that affects reception or emission (e.g., center frequency retune, gain/attenuation update, bandwidth/filter selection, antenna/port switch, TX enable/disable, etc).</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:Software-definedRadioWaveformApplicationConfigurationEvent" title="d3f:Software-definedRadioWaveformApplicationConfigurationEvent">Software-defined Radio Waveform Application Configuration Event</a></td><td class="ontology-entity-description">An SDR event where the waveform application's operational parameters have been applied and validated (e.g., sample rate, bandwidth, channel selection, framing/modulation options), placing the waveform in a state ready to run.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:Software-definedRadioWaveformApplicationLoadEvent" title="d3f:Software-definedRadioWaveformApplicationLoadEvent">Software-defined Radio Waveform Application Load Event</a></td><td class="ontology-entity-description">An SDR event where a waveform application (software/firmware/FPGA image and associated descriptors) has been installed or selected on the SDR and is available to be configured.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:SystemClockUpdateEvent" title="d3f:SystemClockUpdateEvent">System Clock Update Event</a></td><td class="ontology-entity-description">An event in which the operating system's primary timekeeping value is modified or synchronized.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:TimerEvent" title="d3f:TimerEvent">Timer Event</a></td><td class="ontology-entity-description">An event involving a timer artifact, characterized by the initiation, expiration, modification, or cancellation of a countdown or interval-based temporal mechanism.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:TimerExpirationEvent" title="d3f:TimerExpirationEvent">Timer Expiration Event</a></td><td class="ontology-entity-description">An event in which a software timer reaches its configured duration and triggers associated actions (callbacks, interrupts, or signals).</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:TimerModificationEvent" title="d3f:TimerModificationEvent">Timer Modification Event</a></td><td class="ontology-entity-description">An event in which the duration or expiration time of an active timer is changed.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:TimerSetEvent" title="d3f:TimerSetEvent">Timer Set Event</a></td><td class="ontology-entity-description">An event in which a software timer is initialized with a specific duration or expiration time.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:WatchdogTimerConfigurationEvent" title="d3f:WatchdogTimerConfigurationEvent">Watchdog Timer Configuration Event</a></td><td class="ontology-entity-description">An event in which a watchdog timer's timeout period or recovery action is configured.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:WatchdogTimerEvent" title="d3f:WatchdogTimerEvent">Watchdog Timer Event</a></td><td class="ontology-entity-description">A watchdog timer event is any occurrence in which a watchdog timer is started, updated, reset, expired, or otherwise interacts with the system it monitors, resulting in a state change, status report, or corrective action intended to detect, signal, or recover from abnormal or stalled system behavior.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:WatchdogTimerExpirationEvent" title="d3f:WatchdogTimerExpirationEvent">Watchdog Timer Expiration Event</a></td><td class="ontology-entity-description">An event indicating the watchdog timer was not serviced in time and triggers a reset or escalation action.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:WatchdogTimerResetEvent" title="d3f:WatchdogTimerResetEvent">Watchdog Timer Reset Event</a></td><td class="ontology-entity-description">An event where a watchdog timer is reset as a consequence of watchdog timer expiry or watchdog timer escalation policy.</td></tr><tr><td><a class="ontology-entity-name" href="../../event/d3f:WatchdogTimerServiceEvent" title="d3f:WatchdogTimerServiceEvent">Watchdog Timer Service Event</a></td><td class="ontology-entity-description">An event in which the watchdog timer is serviced (kicked/pet), extending the time until expiry.</td></tr><!--]--></tbody></table></details><!--]--></div> <h2 id="common-space-threats" class="space-section-heading">Common Space System Threats &amp; Related Artifacts</h2> <p>These examples show how common space-system threats can be anchored to concrete D3FEND artifacts
+    in a model.</p> <table class="table-auto content responsive-card-table"><thead><tr><th>Threat Vector</th><th>Examples</th><th>Related Artifacts</th></tr></thead><tbody><tr><td data-label="Threat Vector"><b>Supply Chain</b></td><td class="font-smallp" data-label="Examples"><ul><li>Malicious flight software builds</li> <li>Firmware tampering</li> <li>Compromised COTS components</li></ul></td><td class="font-smallp" data-label="Related Artifacts"><ul><li><a href="../../dao/artifact/d3f:Firmware">d3f:Firmware</a></li> <li><a href="../../dao/artifact/d3f:FlightSoftware">d3f:FlightSoftware</a></li> <li><a href="../../dao/artifact/d3f:SpacecraftComputer">d3f:SpacecraftComputer</a></li></ul></td></tr><tr><td data-label="Threat Vector"><b>RF and Physical Access</b></td><td class="font-smallp" data-label="Examples"><ul><li>RF jamming or denial</li> <li>Signal spoofing</li> <li>Passive eavesdropping</li></ul></td><td class="font-smallp" data-label="Related Artifacts"><ul><li><a href="../../dao/artifact/d3f:WirelessLink">d3f:WirelessLink</a></li> <li><a href="../../dao/artifact/d3f:Software-definedRadio">d3f:Software-definedRadio</a></li></ul></td></tr><tr><td data-label="Threat Vector"><b>Software Modification</b></td><td class="font-smallp" data-label="Examples"><ul><li>Flight software modification</li> <li>Bootloader or firmware replacement</li> <li>Unsafe on-orbit update</li></ul></td><td class="font-smallp" data-label="Related Artifacts"><ul><li><a href="../../dao/artifact/d3f:FlightSoftware">d3f:FlightSoftware</a></li> <li><a href="../../dao/artifact/d3f:BootLoader">d3f:BootLoader</a></li> <li><a href="../../dao/artifact/d3f:BootROM">d3f:BootROM</a></li></ul></td></tr><tr><td data-label="Threat Vector"><b>Unauthorized Commanding</b></td><td class="font-smallp" data-label="Examples"><ul><li>Malicious telecommanding</li> <li>Command path abuse</li></ul></td><td class="font-smallp" data-label="Related Artifacts"><ul><li><a href="../../dao/artifact/d3f:WirelessCommand">d3f:WirelessCommand</a></li> <li><a href="../../dao/artifact/d3f:Transmitter">d3f:Transmitter</a></li> <li><a href="../../dao/artifact/d3f:Transceiver">d3f:Transceiver</a></li> <li><a href="../../dao/artifact/d3f:Receiver">d3f:Receiver</a></li></ul></td></tr></tbody></table> <h2 id="example-space-graphs" class="space-section-heading">Example Space-focused D3FEND Graphs</h2> <section class="ot-examples"><!--[--><article class="card"><a href="../../cad/?load=../resources/cad/domain/space/ops-sat-firmware-mod.json&amp;render_meta=true"><div class="media"><img src="../../domain/space/ops-sat-firmware-mod.webp" alt="Space Odyssey Firmware Attack" loading="lazy"/></div> <h3 class="title">Space Odyssey Firmware Attack</h3></a></article><article class="card"><a href="../../cad/?load=../resources/cad/domain/space/d4s-overview.json&amp;render_meta=true"><div class="media"><img src="../../domain/space/d4s-overview.webp" alt="D3FEND for Space Overview" loading="lazy"/></div> <h3 class="title">D3FEND for Space Overview</h3></a></article><article class="card"><a href="../../cad/?load=../resources/cad/domain/space/d4s-user-terminal-example.json&amp;render_meta=true"><div class="media"><img src="../../domain/space/d4s-user-terminal-example.webp" alt="Satellite User Terminal Example" loading="lazy"/></div> <h3 class="title">Satellite User Terminal Example</h3></a></article><article class="card"><a href="../../cad/?load=../resources/cad/domain/space/sparta-ia-0002.json&amp;render_meta=true"><div class="media"><img src="../../domain/space/sparta-ia-0002.webp" alt="SPARTA IA-0002: Software Defined Radio" loading="lazy"/></div> <h3 class="title">SPARTA IA-0002: Software Defined Radio</h3></a></article><article class="card"><a href="../../cad/?load=../resources/cad/domain/space/sparta-ex-0014.04.json&amp;render_meta=true"><div class="media"><img src="../../domain/space/sparta-ex-0014.04.webp" alt="SPARTA EX-0014.04: Position, Navigation, and Timing (PNT) Spoofing" loading="lazy"/></div> <h3 class="title">SPARTA EX-0014.04: Position, Navigation, and Timing (PNT) Spoofing</h3></a></article><article class="card"><a href="../../cad/?load=../resources/cad/domain/space/sparta-ex-0001.02.json&amp;render_meta=true"><div class="media"><img src="../../domain/space/sparta-ex-0001.02.webp" alt="SPARTA EX-0001.02: Bus Traffic Replay" loading="lazy"/></div> <h3 class="title">SPARTA EX-0001.02: Bus Traffic Replay</h3></a></article><article class="card"><a href="../../cad/?load=../resources/cad/domain/space/sparta-ex-0016.01.json&amp;render_meta=true"><div class="media"><img src="../../domain/space/sparta-ex-0016.01.webp" alt="SPARTA EX-0016.01: Uplink Jamming" loading="lazy"/></div> <h3 class="title">SPARTA EX-0016.01: Uplink Jamming</h3></a></article><article class="card"><a href="../../cad/?load=../resources/cad/domain/space/sparta-iob-mire5.json&amp;render_meta=true"><div class="media"><img src="../../domain/space/sparta-iob-mire5.webp" alt="SPARTA IOB MIRE-5: Flight Software Memory Corruption" loading="lazy"/></div> <h3 class="title">SPARTA IOB MIRE-5: Flight Software Memory Corruption</h3></a></article><article class="card"><a href="../../cad/?load=../resources/cad/domain/space/sparta-iob-uace10.json&amp;render_meta=true"><div class="media"><img src="../../domain/space/sparta-iob-uace10.webp" alt="SPARTA IOB UACE-10: Processed Command Log Flooding" loading="lazy"/></div> <h3 class="title">SPARTA IOB UACE-10: Processed Command Log Flooding</h3></a></article><!--]--></section> <h2 id="sparta-integration" class="space-section-heading">Aerospace SPARTA Integration</h2> <p>D3FEND for Space maps a subset of SPARTA techniques to D3FEND's ontology-defined artifacts, providing
+    a mechanism for understanding the precise targets of these techniques along with potential
+    defensive countermeasures.</p> <a class="sparta-mappings-link" href="../../img/domain/space/sparta_mappings.jpg" title="Open SPARTA mappings image"><img class="sparta-mappings-image" src="../../img/domain/space/sparta_mappings.jpg" alt="Diagram of D3FEND for Space mappings to Aerospace SPARTA techniques and artifacts"/></a> <!--[1--><p class="font-smallp">Loading SPARTA technique artifact restrictions.</p><!--]--> <h2>Acknowledgements</h2> <p>We'd like to thank the following organizations and people who contributed to the development of
+    D3FEND for Space.</p> <ul class="font-smallp"><li><b>Brandon Bailey, <a href="https://aerospace.org/">Aerospace</a>:</b> for developing SPARTA and
+      answering our numerous questions.</li> <li><b><a href="https://spaceisac.org/">Space ISAC</a>:</b> for providing valuable insight on space
+      CTI and giving us the opportunity to present and discuss our work with your community.</li> <li><b>MITRE SMEs:</b> for answering our questions and sanity checking our work.</li></ul></section><!--]--><!--]--><!----></main> <!--[-1--><!--]--><!----> <footer class="svelte-t1cweu"><div class="footer-shell svelte-jz8lnl"><p class="text-small">Use of the MITRE D3FEND™ Knowledge Graph and website is subject to the <a href="../../tou">Terms of Use</a>. Use of the MITRE D3FEND website is subject to the <a href="../../privacy">MITRE D3FEND Privacy Policy</a>. MITRE D3FEND is funded
+    by the <a target="_blank" rel="noopener noreferrer" href="https://www.nsa.gov/">National Security Agency</a> (NSA) <a target="_blank" rel="noopener noreferrer" href="https://www.nsa.gov/Cybersecurity/">Cybersecurity Directorate</a> and managed by the <a href="https://www.mitre.org/centers/national-security-and-engineering-center/who-we-are" target="_blank" rel="noopener noreferrer">National Security Engineering Center</a> (NSEC) which is operated by <a target="_blank" rel="noopener noreferrer" href="https://www.mitre.org/">The MITRE Corporation</a>. MITRE D3FEND; and the MITRE D3FEND logo are trademarks of The MITRE
+    Corporation.
+    This software was produced for the U. S. Government under Basic Contract No.
+    W56KGU-18-D-0004, and is subject to the Rights in Noncommercial Computer
+    Software and Noncommercial Computer Software Documentation Clause
+    252.227-7014 (FEB 2012) <br/>© 2025 The MITRE Corporation. <br/>Approved for Public Release; Distribution Unlimited #20-2338 and #23-1207.</p></div><!----> <p class="center text-center font-small">UI: <a href="../../version">0.26.0</a></p></footer> <div class="navigation-loader svelte-t1cweu" style=" transform: scaleX(0); opacity: 0; "></div><!--]--><!--]--><!----> <div class="banner svelte-12qhfyh" hidden="" style="background-color: ; color:  "><!----><!----></div><!--]--><!--]--> <!--[-1--><!--]--><!--]-->
+			<script type="application/json" data-sveltekit-fetched data-url="/api/version.json">{"status":200,"statusText":"","headers":{},"body":"{\n  \"version\": \"1.6.0\",\n  \"ontology_version\": \"1.6.0\",\n  \"release_date\": \"2026-08-31T00:12:00Z\",\n  \"ontology_hash_sha256\": \"4909a5bb66b75d2c359624398848936fb56a6b246bcd5cfcd277977a1277753a\",\n  \"frontend_version\": \"0.26.0\",\n  \"ui_build_date\": \"2026-09-01T04:59:05.634Z\",\n  \"ui_commit\": \"02c59e2d8\"\n}"}</script>
+			<script>
+				{
+					__sveltekit_nmc8k = {
+						base: new URL("../..", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("../../_app/immutable/entry/start.Bvz6_gDo.js"),
+						import("../../_app/immutable/entry/app.oXmKdsXO.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2, 37],
+							data: [{type:"data",data:{},uses:{}},null,null],
+							form: null,
+							error: null
+						});
+					});
+
+					if ('serviceWorker' in navigator) {
+						const script_url = '../../service-worker.js';
+						const policy = globalThis?.window?.trustedTypes?.createPolicy(
+							'sveltekit-trusted-url',
+							{ createScriptURL(url) { return url; } }
+						);
+						const sanitised = policy?.createScriptURL(script_url) ?? script_url;
+						addEventListener('load', function () {
+							navigator.serviceWorker.register(sanitised);
+						});
+					}
+				}
+			</script>
+		</div>
+</body>
+
+</html>

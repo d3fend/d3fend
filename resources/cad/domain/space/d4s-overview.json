@@ -1,0 +1,2968 @@
+{
+    "meta": {
+        "title": "D3FEND for Space Overview",
+        "authors": [
+            "Ivan Kirillov"
+        ],
+        "orgs": [
+            "MITRE"
+        ],
+        "description": "An overview of the artifacts, relationships, and countermeasures added to the D3FEND ontology for D3FEND for Space. This is not meant to be complete or show all possible relationships and instead highlights some of the core concepts in the initial release of D3FEND for Space.",
+        "article": "",
+        "d3fend_version": "1.5.0",
+        "cad_schema_version": 0,
+        "published_date": "2026-08-21T13:56:05.182Z",
+        "references": [
+            "https://d3fend.mitre.org/domain/space"
+        ],
+        "settings": {}
+    },
+    "nodes": [
+        {
+            "id": "0.029546739391237975",
+            "type": "artifact-node",
+            "position": {
+                "x": 631.4102878526763,
+                "y": 121.84186479633996
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Spacecraft",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Spacecraft"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.39692008147277635",
+            "type": "artifact-node",
+            "position": {
+                "x": 46.501271761870385,
+                "y": 14.54311101693439
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Vehicle",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Vehicle"
+            },
+            "measured": {
+                "width": 176,
+                "height": 105
+            },
+            "selected": false,
+            "width": 176,
+            "height": 105,
+            "dragging": false
+        },
+        {
+            "id": "0.979735047286601",
+            "type": "artifact-node",
+            "position": {
+                "x": 988.9641910741312,
+                "y": 103.3765995221308
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Satellite",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Satellite"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.07450500423260531",
+            "type": "artifact-node",
+            "position": {
+                "x": -449.96874041792864,
+                "y": 488.17108783820964
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Vehicle Computer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:VehicleComputer"
+            },
+            "measured": {
+                "width": 164,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.3538746518630409",
+            "type": "artifact-node",
+            "position": {
+                "x": 1303.7690759496516,
+                "y": 105.3345423909016
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Satellite Transponder",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:SatelliteTransponder"
+            },
+            "measured": {
+                "width": 181,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6341441227820096",
+            "type": "artifact-node",
+            "position": {
+                "x": 821.7838685318284,
+                "y": 396.07342257606877
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Receiver",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Receiver"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.4437234023385853",
+            "type": "artifact-node",
+            "position": {
+                "x": 583.4949454555226,
+                "y": 398.41010857254764
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Transmitter",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Transmitter"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.2832846968944376",
+            "type": "artifact-node",
+            "position": {
+                "x": -54.14784326920483,
+                "y": 810.6763450893906
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Software-Defined Radio Computer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Software-definedRadioComputer",
+                "data": {
+                    "label": "Software-Defined Radio Computer",
+                    "sequence": "0",
+                    "user_properties": [],
+                    "d3f_class": "d3f:Software-definedRadioComputer",
+                    "data": {
+                        "label": "Software-Defined Radio Computer",
+                        "sequence": "0",
+                        "user_properties": [
+                            [
+                                "",
+                                ""
+                            ]
+                        ],
+                        "d3f_class": "d3f:Software-definedRadioComputer"
+                    }
+                }
+            },
+            "measured": {
+                "width": 332,
+                "height": 93
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 332,
+            "height": 93
+        },
+        {
+            "id": "0.5288465250188187",
+            "type": "artifact-node",
+            "position": {
+                "x": 1502.7281625267121,
+                "y": 306.7891513846135
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Flight Software",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:FlightSoftware"
+            },
+            "measured": {
+                "width": 152,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7097641473424027",
+            "type": "artifact-node",
+            "position": {
+                "x": -623.5875698074084,
+                "y": 47.954709778689676
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Vehicle Operating Mode",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:VehicleOperatingMode"
+            },
+            "measured": {
+                "width": 190,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6630797178263916",
+            "type": "artifact-node",
+            "position": {
+                "x": -4.944361255354664,
+                "y": -285.59333266099884
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Bus Network",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:BusNetwork"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8207162050897032",
+            "type": "artifact-node",
+            "position": {
+                "x": 250.2428608391429,
+                "y": -289.7735648510777
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "GNSS Receiver",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:GNSSReceiver"
+            },
+            "measured": {
+                "width": 152,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.47630114992650363",
+            "type": "artifact-node",
+            "position": {
+                "x": -826.1620670739381,
+                "y": -106.49160465581326
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Transducer Sensor",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:TransducerSensor"
+            },
+            "measured": {
+                "width": 170,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.1537197591330831",
+            "type": "artifact-node",
+            "position": {
+                "x": 789.9598564536259,
+                "y": 1558.0956709248862
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Ground Station",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:PhysicalArtifact"
+            },
+            "measured": {
+                "width": 158,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.3338424460574926",
+            "type": "note-node",
+            "position": {
+                "x": 505.13394647831194,
+                "y": 1218.898365316996
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Ground Segment Model",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        ""
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 950,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 950,
+            "height": 102
+        },
+        {
+            "id": "0.13373576790861585",
+            "type": "note-node",
+            "position": {
+                "x": -280.373763256501,
+                "y": -616.7228638872639
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Space Segment Model",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        ""
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 1740,
+                "height": 149
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 1740,
+            "height": 149
+        },
+        {
+            "id": "0.4186494315456134",
+            "type": "note-node",
+            "position": {
+                "x": 1024.1974918851367,
+                "y": 1341.0488209131668
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Ground Station Modeling",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Our model of ground station components is a work in progress and will likely be updated with specific subclasses (e.g., Antenna Controller) in a \nfuture release.\n\n\nTypical enterprise IT assets such as servers, workstations, etc. that may be found at a ground station are already modeled in D3FEND.\n\n"
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 439,
+                "height": 153
+            },
+            "selected": false,
+            "width": 439,
+            "height": 153,
+            "dragging": false
+        },
+        {
+            "id": "0.6771151952414254",
+            "type": "artifact-node",
+            "position": {
+                "x": 788.6627396357555,
+                "y": 1347.5168333437234
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Transceiver",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Transceiver"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.440020060688724",
+            "type": "artifact-node",
+            "position": {
+                "x": 1437.3722931705531,
+                "y": 500.6192045369211
+            },
+            "data": {
+                "label": "Telecommand",
+                "sequence": "0",
+                "d3f_class": "d3f:WirelessCommand",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 149,
+                "height": 100
+            }
+        },
+        {
+            "id": "0.5614394123520511",
+            "type": "artifact-node",
+            "position": {
+                "x": 1663.2553725475643,
+                "y": 497.9946687898058
+            },
+            "data": {
+                "label": "Software Watchdog Timer",
+                "sequence": "0",
+                "d3f_class": "d3f:SoftwareWatchdogTimer",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 199,
+                "height": 112
+            }
+        },
+        {
+            "id": "0.6680445781930335",
+            "type": "artifact-node",
+            "position": {
+                "x": -59.75746063881053,
+                "y": 994.9087702599938
+            },
+            "data": {
+                "label": "Software-defined Radio Waveform Application",
+                "sequence": "0",
+                "d3f_class": "d3f:Software-definedRadioWaveformApplication",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 344,
+                "height": 104
+            },
+            "width": 344,
+            "height": 104
+        },
+        {
+            "id": "0.6320035705317141",
+            "type": "artifact-node",
+            "position": {
+                "x": 823.0488609663724,
+                "y": 1000.3716780480909
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Wireless Link",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:WirelessLink"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.16050898567442862",
+            "type": "artifact-node",
+            "position": {
+                "x": 1109.7920133281566,
+                "y": 1554.3561300177967
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Radio Modem",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:RadioModem"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8681964728040614",
+            "type": "artifact-node",
+            "position": {
+                "x": 991.421464723235,
+                "y": -86.57331445408303
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "GNSS Satellite",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:GNSSSatellite",
+                "data": {
+                    "label": "GNSS Satellite",
+                    "sequence": "0",
+                    "user_properties": [],
+                    "d3f_class": "d3f:GNSSSatellite",
+                    "data": {
+                        "label": "GNSS Satellite",
+                        "sequence": "0",
+                        "user_properties": [
+                            [
+                                "",
+                                ""
+                            ]
+                        ],
+                        "d3f_class": "d3f:GNSSSatellite"
+                    }
+                }
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8406705452164183",
+            "type": "artifact-node",
+            "position": {
+                "x": 988.5506665041758,
+                "y": -289.3583083954303
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "GNSS Signal",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:GNSSSignal"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8847714608625985",
+            "type": "artifact-node",
+            "position": {
+                "x": 1308.2875444488102,
+                "y": -289.6061583668229
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "GNSS Time Record",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:GNSSTimeRecord"
+            },
+            "measured": {
+                "width": 168,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.27148518612856765",
+            "type": "artifact-node",
+            "position": {
+                "x": -980.932945734118,
+                "y": 566.2852087214533
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Real-time operating system",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Real-timeOperatingSystem"
+            },
+            "measured": {
+                "width": 210,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.3236647503660608",
+            "type": "artifact-node",
+            "position": {
+                "x": -1185.3025969917876,
+                "y": 751.2774568830362
+            },
+            "data": {
+                "label": "Operating System Clock",
+                "sequence": "0",
+                "d3f_class": "d3f:OperatingSystemClock",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 192,
+                "height": 112
+            }
+        },
+        {
+            "id": "0.4755507783927301",
+            "type": "artifact-node",
+            "position": {
+                "x": -964.4433956703394,
+                "y": 939.9011657933602
+            },
+            "data": {
+                "label": "Kernel",
+                "sequence": "0",
+                "d3f_class": "d3f:Kernel",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 149,
+                "height": 112
+            }
+        },
+        {
+            "id": "0.8166579797904177",
+            "type": "artifact-node",
+            "position": {
+                "x": -960.0244946125439,
+                "y": 50.780720786859064
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Spacecraft Safe Mode",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:SpacecraftSafeMode"
+            },
+            "measured": {
+                "width": 181,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.08784591097626115",
+            "type": "note-node",
+            "position": {
+                "x": 1155.830120128841,
+                "y": -411.1499963050664
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "GNSS sub-model",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "This is our first pass at a GNSS model, and we expect to flesh it out with additional classes for things like Ephemeris\nand PNT Solutions as well as specific countermeasures in a future release."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 330,
+                "height": 104
+            },
+            "selected": false,
+            "width": 330,
+            "height": 104,
+            "dragging": false
+        },
+        {
+            "id": "0.17234121041635664",
+            "type": "artifact-node",
+            "position": {
+                "x": 1623.7235308959844,
+                "y": -288.28062016617514
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Time Record",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:TimeRecord"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5214310218020155",
+            "type": "artifact-node",
+            "position": {
+                "x": 438.32126435219897,
+                "y": -173.4701456756433
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Electromagnetic Signal",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:ElectromagneticSignal"
+            },
+            "measured": {
+                "width": 190,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.42528421027476015",
+            "type": "artifact-node",
+            "position": {
+                "x": 417.03429605505744,
+                "y": 792.532186688274
+            },
+            "data": {
+                "label": "Software-defined Radio",
+                "sequence": "0",
+                "d3f_class": "d3f:Software-definedRadio",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 191,
+                "height": 112
+            }
+        },
+        {
+            "id": "0.3734650363263521",
+            "type": "artifact-node",
+            "position": {
+                "x": 26.31471078427336,
+                "y": 1179.9675549668543
+            },
+            "data": {
+                "label": "FPGA Bitstream",
+                "sequence": "0",
+                "d3f_class": "d3f:FPGABitstream",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 156,
+                "height": 112
+            }
+        },
+        {
+            "id": "-copy0.16518025302453676",
+            "type": "artifact-node",
+            "position": {
+                "x": 1805.4587747195012,
+                "y": 308.81838456611194
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Vehicle Control Software",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:VehicleControlSoftware",
+                "data": {
+                    "label": "Vehicle Control Software",
+                    "sequence": "0",
+                    "user_properties": [
+                        [
+                            "d",
+                            ""
+                        ]
+                    ],
+                    "d3f_class": ":VehicleControlSoftware"
+                }
+            },
+            "measured": {
+                "width": 194,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.1726847280738103",
+            "type": "artifact-node",
+            "position": {
+                "x": 1612.2895910859834,
+                "y": 106.20680250956873
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Transponder",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Transponder"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8202081741761392",
+            "type": "artifact-node",
+            "position": {
+                "x": 673.7967362544034,
+                "y": -82.51561641578179
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Transmitter",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Transmitter"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7987494066618738",
+            "type": "artifact-node",
+            "position": {
+                "x": 103.30852520807625,
+                "y": 238.22745642322946
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Spacecraft Computer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:SpacecraftComputer"
+            },
+            "measured": {
+                "width": 180,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "19t8kag1gbxnq31u",
+            "type": "artifact-node",
+            "position": {
+                "x": -826.512356509672,
+                "y": -256.6836721823737
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Actuator",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Actuator"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0vyjch8064gqll02",
+            "type": "artifact-node",
+            "position": {
+                "x": -466.46589356513874,
+                "y": 998.1553718541767
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Digital Signal Processing Application",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:DigitalSignalProcessingApplication"
+            },
+            "measured": {
+                "width": 251,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "5-copy0.5010496596219675",
+            "type": "note-node",
+            "position": {
+                "x": -621.669644956209,
+                "y": 838.1439153702582
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Software-defined Radio (SDR) sub-model",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        ""
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 541,
+                "height": 127
+            },
+            "selected": false,
+            "width": 541,
+            "height": 127,
+            "dragging": false
+        },
+        {
+            "id": "0pxgcjw0hnngmx0b",
+            "type": "artifact-node",
+            "position": {
+                "x": -448.5800548979252,
+                "y": 659.7742925115793
+            },
+            "data": {
+                "label": "Vehicle Software",
+                "sequence": "0",
+                "d3f_class": "d3f:VehicleSoftware",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 159,
+                "height": 112
+            }
+        },
+        {
+            "id": "1ujfyt80lxjg8906",
+            "type": "artifact-node",
+            "position": {
+                "x": 1279.30625808633,
+                "y": -87.95435522248604
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Atomic Clock",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:AtomicClock"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "1dn7y2r0mh584m0y",
+            "type": "artifact-node",
+            "position": {
+                "x": -1511.7486382350683,
+                "y": 760.7089336471214
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Software Clock",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:SoftwareClock"
+            },
+            "measured": {
+                "width": 152,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "12ql3km152xstv1b",
+            "type": "artifact-node",
+            "position": {
+                "x": -318.579522243924,
+                "y": -281.80963288956224
+            },
+            "data": {
+                "label": "Bus Network Node",
+                "sequence": "0",
+                "d3f_class": "d3f:BusNetworkNode",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 165,
+                "height": 112
+            }
+        },
+        {
+            "id": "18fc3q50l1gub416",
+            "type": "artifact-node",
+            "position": {
+                "x": -594.3621638028384,
+                "y": -289.5284638464577
+            },
+            "data": {
+                "label": "Bus Network Traffic",
+                "sequence": "0",
+                "d3f_class": "d3f:BusNetworkTraffic",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 170,
+                "height": 112
+            }
+        },
+        {
+            "id": "1163c3q1eamiqr0h",
+            "type": "artifact-node",
+            "position": {
+                "x": -596.16466472806,
+                "y": -479.18348420133435
+            },
+            "data": {
+                "label": "Bus Network Frame",
+                "sequence": "0",
+                "d3f_class": "d3f:BusNetworkFrame",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 170,
+                "height": 112
+            }
+        },
+        {
+            "id": "0r5zr8y09l1ic10c",
+            "type": "artifact-node",
+            "position": {
+                "x": -596.3627423290693,
+                "y": -649.9122448413834
+            },
+            "data": {
+                "label": "Bus Message",
+                "sequence": "0",
+                "d3f_class": "d3f:BusMessage",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 149,
+                "height": 112
+            }
+        },
+        {
+            "id": "0nhtyl803c5dlv1f",
+            "type": "note-node",
+            "position": {
+                "x": -245.57532916389752,
+                "y": -440.00832617867036
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Bus Network (e.g., 1553, CAN, etc.) sub-model",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        ""
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 667,
+                "height": 122
+            },
+            "selected": false,
+            "width": 667,
+            "height": 122,
+            "dragging": false
+        },
+        {
+            "id": "1tce5x600a75o51l",
+            "type": "note-node",
+            "position": {
+                "x": -1347.5291009081166,
+                "y": -211.60868900300284
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Sensors and Actuators",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "We expect to refine these classes with\nspace-specific sub-classes such as Star Trackers\nand Magnetorquers as well as non domain-specific\nsensors such as Thermometers (thermal transducer\nsensors) in a future release."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 287,
+                "height": 128
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "10etzxt186xhbr0s",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -954.2549842862247,
+                "y": -652.8862427400655
+            },
+            "data": {
+                "label": "Bus Message Authentication",
+                "sequence": "0",
+                "d3f_class": "d3f:BusMessageAuthentication",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 213,
+                "height": 112
+            }
+        },
+        {
+            "id": "1a42wz505d8a6b1g",
+            "type": "artifact-node",
+            "position": {
+                "x": 820.8555820038979,
+                "y": 767.8111411213915
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Signal",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Signal"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0534qog1r22iw50x",
+            "type": "artifact-node",
+            "position": {
+                "x": -836.4320287578101,
+                "y": 329.9592663231052
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "RAM",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:RAM"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "05qnbfg0r8y5jy0g",
+            "type": "artifact-node",
+            "position": {
+                "x": -840.1314473073618,
+                "y": 449.83800463033884
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Central Processing Unit",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CentralProcessingUnit"
+            },
+            "measured": {
+                "width": 190,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "1wtznvs1dpqf211n",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -1361.0914246549205,
+                "y": 398.8154149560974
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Electromagnetic Radiation Hardening",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:ElectromagneticRadiationHardening"
+            },
+            "measured": {
+                "width": 255,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "04ljnu21w67n7y14",
+            "type": "note-node",
+            "position": {
+                "x": -1715.7789353181029,
+                "y": 415.8157354778665
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "EMAG Rad Hardening",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "This countermeasure can be applied to any device\nthat is a sub-class of d3f:HardwareDevice."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 280,
+                "height": 87
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "02kphib045vlqo1u",
+            "type": "note-node",
+            "position": {
+                "x": -1325.0727072480122,
+                "y": 50.280206932619635
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Safe Mode",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "This is currently the only spacecraft-specific\noperating mode that we have modeled, but\nmore may be added in a future release."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 244,
+                "height": 101
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0abf9v30zj58181t",
+            "type": "artifact-node",
+            "position": {
+                "x": 2010.5826786546163,
+                "y": 501.92427716990767
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Software Timer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:SoftwareTimer"
+            },
+            "measured": {
+                "width": 151,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "14t8g530xmngzg19",
+            "type": "artifact-node",
+            "position": {
+                "x": 1095.9408712164807,
+                "y": 503.4349970319839
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Remote Command",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:RemoteCommand"
+            },
+            "measured": {
+                "width": 168,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0lpdgr21ud9sz11o",
+            "type": "artifact-node",
+            "position": {
+                "x": 478.20184485021866,
+                "y": 1003.5911127658048
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Physical Link",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:PhysicalLink"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "1hnt3i313ifndb1y",
+            "type": "note-node",
+            "position": {
+                "x": 1144.435801047386,
+                "y": 1010.1349212722225
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Wireless Link",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Instances of d3f:WirelessLink can be used to represent Satellite\nUplinks and Downlinks."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 350,
+                "height": 87
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "18as4gz0lto0im1v",
+            "type": "artifact-node",
+            "position": {
+                "x": -237.1745837837763,
+                "y": 118.24635975149783
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Physical Artifact",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:PhysicalArtifact"
+            },
+            "measured": {
+                "width": 158,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0s4qc230bb0lbw03",
+            "type": "note-node",
+            "position": {
+                "x": 538.3028749977773,
+                "y": 34.33081489486148
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Spacecraft & Satellite sub-model",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        ""
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 405,
+                "height": 79
+            },
+            "selected": false,
+            "width": 405,
+            "height": 79,
+            "dragging": false
+        },
+        {
+            "id": "0lbsj5d1ted3fu10",
+            "type": "artifact-node",
+            "position": {
+                "x": -619.023901598291,
+                "y": 217.59052573502777
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Operating Mode",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:OperatingMode"
+            },
+            "measured": {
+                "width": 155,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0lf9yu20ok67iz06",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -1040.6893520253052,
+                "y": 208.24399023027414
+            },
+            "data": {
+                "label": "Operating Mode Restriction",
+                "sequence": "0",
+                "d3f_class": "d3f:OperatingModeRestriction",
+                "user_properties": []
+            },
+            "selected": false,
+            "dragging": false,
+            "measured": {
+                "width": 208,
+                "height": 112
+            }
+        },
+        {
+            "id": "02somlm04ouopq15",
+            "type": "artifact-node",
+            "position": {
+                "x": 1675.1876407270674,
+                "y": 707.0815667732159
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Watchdog Timer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:WatchdogTimer"
+            },
+            "measured": {
+                "width": 157,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "11qhd6b1vlcoqo1x",
+            "type": "note-node",
+            "position": {
+                "x": 1993.9557026871014,
+                "y": 717.4443616444515
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Watchdog Timers",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Our model of watchdog timers also includes hardware\nwatchdog timers, which may be built into an embedded CPU\ncontained within a physically separate chip."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 333,
+                "height": 101
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "1wd328q1an1qw00t",
+            "type": "artifact-node",
+            "position": {
+                "x": 479.54517965257105,
+                "y": 1425.7430481178415
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Server",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Server"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "1m4vgtc1pjgrnt08",
+            "type": "artifact-node",
+            "position": {
+                "x": 479.2951264557578,
+                "y": 1556.4201984285085
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Client Computer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:ClientComputer"
+            },
+            "measured": {
+                "width": 157,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "1a68z5j0meiotc1p",
+            "type": "note-node",
+            "position": {
+                "x": -187.08829606245422,
+                "y": 656.8804462021609
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Vehicle Software",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "This class is meant to encompass any type of software\nrunning on a vehicle. Currently, we have specific \nsub-classes for Vehicle Control Software but more may be\nadded in a future release."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 321,
+                "height": 115
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0s9u2xk0fu7g3g0b",
+            "type": "artifact-node",
+            "position": {
+                "x": -755.8600586451522,
+                "y": 670.488887491253
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Application",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Application"
+            },
+            "measured": {
+                "width": 149,
+                "height": 112
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "1cswvvg1rsdwhp0g",
+            "type": "note-node",
+            "position": {
+                "x": 1127.0475868409135,
+                "y": 777.8048781089341
+            },
+            "origin": [
+                0,
+                0
+            ],
+            "data": {
+                "label": "Signals",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "rdfs:comment",
+                        "Signals in our model can carry any form of d3f:DigitalInformation,\nincluding things like Telecommands, Software, and Cryptographic Keys."
+                    ]
+                ]
+            },
+            "measured": {
+                "width": 392,
+                "height": 87
+            },
+            "selected": false,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "data": {
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.029546739391237975",
+            "sourceHandle": "source",
+            "target": "0.39692008147277635",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4105542605071013__0.029546739391237975source-0.39692008147277635target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.979735047286601",
+            "sourceHandle": "source",
+            "target": "0.029546739391237975",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8216935772459157__0.979735047286601source-0.029546739391237975target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.39692008147277635",
+            "sourceHandle": "source",
+            "target": "0.07450500423260531",
+            "targetHandle": "target",
+            "id": "xy-edge-0.053210942223334556__0.39692008147277635source-0.07450500423260531target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.979735047286601",
+            "sourceHandle": "source",
+            "target": "0.3538746518630409",
+            "targetHandle": "target",
+            "id": "xy-edge-0.18284428378817397__0.979735047286601source-0.3538746518630409target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.029546739391237975",
+            "sourceHandle": "source",
+            "target": "0.4437234023385853",
+            "targetHandle": "target",
+            "id": "xy-edge-0.48654801616465193__0.029546739391237975source-0.4437234023385853target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.029546739391237975",
+            "sourceHandle": "source",
+            "target": "0.6341441227820096",
+            "targetHandle": "target",
+            "id": "xy-edge-0.3611612466714641__0.029546739391237975source-0.6341441227820096target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.029546739391237975",
+            "sourceHandle": "source",
+            "target": "0.2832846968944376",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5381081962160555__0.029546739391237975source-0.2832846968944376target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.39692008147277635",
+            "sourceHandle": "source",
+            "target": "0.6630797178263916",
+            "targetHandle": "target",
+            "id": "xy-edge-0.21180231422588247__0.07450500423260531source-0.6630797178263916target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:has-operating-mode",
+                "label": "has-operating-mode"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.39692008147277635",
+            "sourceHandle": "source",
+            "target": "0.7097641473424027",
+            "targetHandle": "target",
+            "id": "xy-edge-0.3767395149908096__0.39692008147277635source-0.7097641473424027target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.39692008147277635",
+            "sourceHandle": "source",
+            "target": "0.8207162050897032",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8138061732542862__0.39692008147277635source-0.8207162050897032target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.39692008147277635",
+            "sourceHandle": "source",
+            "target": "0.47630114992650363",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7498035961684991__0.39692008147277635source-0.47630114992650363target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.4186494315456134",
+            "sourceHandle": "source",
+            "target": "0.1537197591330831",
+            "targetHandle": "target",
+            "id": "xy-edge-0.3449544819383159__0.4186494315456134source-0.1537197591330831target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": [
+                    "contains"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1537197591330831",
+            "sourceHandle": "source",
+            "target": "0.6771151952414254",
+            "targetHandle": "target",
+            "id": "xy-edge-0.0895821967191357__0.1537197591330831source-0.6771151952414254target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:runs",
+                "label": [
+                    "runs"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.029546739391237975",
+            "sourceHandle": "source",
+            "target": "0.5288465250188187",
+            "targetHandle": "target",
+            "id": "xy-edge-0.613683502943692__0.029546739391237975source-0.5288465250188187target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:executes",
+                "label": "executes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5288465250188187",
+            "sourceHandle": "source",
+            "target": "0.440020060688724",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7038293129498098__0.5288465250188187source-0.440020060688724target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5288465250188187",
+            "sourceHandle": "source",
+            "target": "0.5614394123520511",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6525750918659186__0.5288465250188187source-0.5614394123520511target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:runs",
+                "label": "runs"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.2832846968944376",
+            "sourceHandle": "source",
+            "target": "0.6680445781930335",
+            "targetHandle": "target",
+            "id": "xy-edge-0.3903681816321849__0.2832846968944376source-0.6680445781930335target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1537197591330831",
+            "sourceHandle": "source",
+            "target": "0.16050898567442862",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5581725255687796__0.1537197591330831source-0.16050898567442862target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8681964728040614",
+            "sourceHandle": "source",
+            "target": "0.979735047286601",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6558041250187929__0.8681964728040614source-0.979735047286601target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:produces",
+                "label": "produces"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8681964728040614",
+            "sourceHandle": "source",
+            "target": "0.8406705452164183",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9104100756754682__0.8681964728040614source-0.8406705452164183target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:receives",
+                "label": "receives"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8207162050897032",
+            "sourceHandle": "source",
+            "target": "0.8406705452164183",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8869519314314784__0.8207162050897032source-0.8406705452164183target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-run",
+                "label": [
+                    "may-run"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.07450500423260531",
+            "sourceHandle": "source",
+            "target": "0.27148518612856765",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4302822630174681__0.07450500423260531source-0.27148518612856765target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.27148518612856765",
+            "sourceHandle": "source",
+            "target": "0.3236647503660608",
+            "targetHandle": "target",
+            "id": "xy-edge-0.24535317051542593__0.27148518612856765source-0.3236647503660608target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:implemented-by",
+                "label": "implemented-by"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3236647503660608",
+            "sourceHandle": "source",
+            "target": "0.4755507783927301",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9372221003157013__0.3236647503660608source-0.4755507783927301target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8166579797904177",
+            "sourceHandle": "source",
+            "target": "0.7097641473424027",
+            "targetHandle": "target",
+            "id": "xy-edge-0.030225567797122488__0.8166579797904177source-0.7097641473424027target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8406705452164183",
+            "sourceHandle": "source",
+            "target": "0.5214310218020155",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4601190459310184__0.8406705452164183source-0.5214310218020155target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8847714608625985",
+            "sourceHandle": "source",
+            "target": "0.17234121041635664",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5048137316969461__0.8847714608625985source-0.17234121041635664target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.2832846968944376",
+            "sourceHandle": "source",
+            "target": "0.42528421027476015",
+            "targetHandle": "target",
+            "id": "xy-edge-0.3572776644649085__0.2832846968944376source-0.42528421027476015target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6680445781930335",
+            "sourceHandle": "source",
+            "target": "0.3734650363263521",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8286664675213286__0.6680445781930335source-0.3734650363263521target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5288465250188187",
+            "sourceHandle": "source",
+            "target": "-copy0.16518025302453676",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9447223289045872__0.5288465250188187source--copy0.16518025302453676target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3538746518630409",
+            "sourceHandle": "source",
+            "target": "0.1726847280738103",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5153396663941597__0.3538746518630409source-0.1726847280738103target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8681964728040614",
+            "sourceHandle": "source",
+            "target": "0.8202081741761392",
+            "targetHandle": "target",
+            "id": "xy-edge-0.11673986924950686__0.8681964728040614source-0.8202081741761392target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:transmits",
+                "label": "transmits"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8202081741761392",
+            "sourceHandle": "source",
+            "target": "0.8406705452164183",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6872013876324821__0.8202081741761392source-0.8406705452164183target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:carries",
+                "label": "carries"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8406705452164183",
+            "sourceHandle": "source",
+            "target": "0.8847714608625985",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8922527768389822__0.8406705452164183source-0.1226741492054072target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.029546739391237975",
+            "sourceHandle": "source",
+            "target": "0.7987494066618738",
+            "targetHandle": "target",
+            "id": "xy-edge-0.21562788923891163__0.029546739391237975source-0.7987494066618738target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7987494066618738",
+            "sourceHandle": "source",
+            "target": "0.07450500423260531",
+            "targetHandle": "target",
+            "id": "xy-edge-0.13353067262791674__0.7987494066618738source-0.07450500423260531target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.39692008147277635",
+            "sourceHandle": "source",
+            "target": "19t8kag1gbxnq31u",
+            "targetHandle": "target",
+            "id": "xy-edge-0q3p3q409ejrn30j__0.39692008147277635source-19t8kag1gbxnq31utarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.42528421027476015",
+            "sourceHandle": "source",
+            "target": "0.4437234023385853",
+            "targetHandle": "target",
+            "id": "xy-edge-0b7kssw11llmev10__0.42528421027476015source-0.4437234023385853target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.42528421027476015",
+            "sourceHandle": "source",
+            "target": "0.6341441227820096",
+            "targetHandle": "target",
+            "id": "xy-edge-1a2q0vi1r0kg9a13__0.42528421027476015source-0.6341441227820096target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6680445781930335",
+            "sourceHandle": "source",
+            "target": "0vyjch8064gqll02",
+            "targetHandle": "target",
+            "id": "xy-edge-1o3m8fa0wvdmah1l__0.6680445781930335source-0vyjch8064gqll02target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:runs",
+                "label": "runs"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.07450500423260531",
+            "sourceHandle": "source",
+            "target": "0pxgcjw0hnngmx0b",
+            "targetHandle": "target",
+            "id": "xy-edge-14q5rpq1de876x14__0.07450500423260531source-0pxgcjw0hnngmx0btarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8681964728040614",
+            "sourceHandle": "source",
+            "target": "1ujfyt80lxjg8906",
+            "targetHandle": "target",
+            "id": "xy-edge-0rmgea00bhmc7d19__0.8681964728040614source-1ujfyt80lxjg8906target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3236647503660608",
+            "sourceHandle": "source",
+            "target": "1dn7y2r0mh584m0y",
+            "targetHandle": "target",
+            "id": "xy-edge-07oy63e0hf3txa1u__0.3236647503660608source-1dn7y2r0mh584m0ytarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:connected-to",
+                "label": "connected-to"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "12ql3km152xstv1b",
+            "sourceHandle": "source",
+            "target": "0.6630797178263916",
+            "targetHandle": "target",
+            "id": "xy-edge-1okj6xq1yndv710x__12ql3km152xstv1bsource-0.6630797178263916target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:produces",
+                "label": "produces"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "12ql3km152xstv1b",
+            "sourceHandle": "source",
+            "target": "18fc3q50l1gub416",
+            "targetHandle": "target",
+            "id": "xy-edge-1cvj7mv0t148jh1t__12ql3km152xstv1bsource-18fc3q50l1gub416target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "18fc3q50l1gub416",
+            "sourceHandle": "source",
+            "target": "1163c3q1eamiqr0h",
+            "targetHandle": "target",
+            "id": "xy-edge-0mxotmz1ndpxk618__18fc3q50l1gub416source-1163c3q1eamiqr0htarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "1163c3q1eamiqr0h",
+            "sourceHandle": "source",
+            "target": "0r5zr8y09l1ic10c",
+            "targetHandle": "target",
+            "id": "xy-edge-0hdywdu131xjgg09__1163c3q1eamiqr0hsource-0r5zr8y09l1ic10ctarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "1tce5x600a75o51l",
+            "sourceHandle": "source",
+            "target": "19t8kag1gbxnq31u",
+            "targetHandle": "target",
+            "id": "xy-edge-0lmmm8g02b9ze11f__1tce5x600a75o51lsource-19t8kag1gbxnq31utarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "1tce5x600a75o51l",
+            "sourceHandle": "source",
+            "target": "0.47630114992650363",
+            "targetHandle": "target",
+            "id": "xy-edge-10pyovf10rbnib1m__1tce5x600a75o51lsource-0.47630114992650363target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:authenticates",
+                "label": "authenticates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "10etzxt186xhbr0s",
+            "sourceHandle": "source",
+            "target": "0r5zr8y09l1ic10c",
+            "targetHandle": "target",
+            "id": "xy-edge-0b62opd0lv9qeg0n__10etzxt186xhbr0ssource-0r5zr8y09l1ic10ctarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:receives",
+                "label": "receives"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6341441227820096",
+            "sourceHandle": "source",
+            "target": "1a42wz505d8a6b1g",
+            "targetHandle": "target",
+            "id": "xy-edge-1jl1bdm1tnre8o04__0.6341441227820096source-1a42wz505d8a6b1gtarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:transmits",
+                "label": "transmits"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.4437234023385853",
+            "sourceHandle": "source",
+            "target": "1a42wz505d8a6b1g",
+            "targetHandle": "target",
+            "id": "xy-edge-1ckmtg30f1eu0105__0.4437234023385853source-1a42wz505d8a6b1gtarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.07450500423260531",
+            "sourceHandle": "source",
+            "target": "0534qog1r22iw50x",
+            "targetHandle": "target",
+            "id": "xy-edge-1akdf9k0s3tox81q__0.07450500423260531source-0534qog1r22iw50xtarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.07450500423260531",
+            "sourceHandle": "source",
+            "target": "05qnbfg0r8y5jy0g",
+            "targetHandle": "target",
+            "id": "xy-edge-0zhqrc50lftxag0h__0.07450500423260531source-05qnbfg0r8y5jy0gtarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:hardens",
+                "label": "hardens"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "1wtznvs1dpqf211n",
+            "sourceHandle": "source",
+            "target": "0534qog1r22iw50x",
+            "targetHandle": "target",
+            "id": "xy-edge-0x76z8u06h1ihc00__1wtznvs1dpqf211nsource-0534qog1r22iw50xtarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:hardens",
+                "label": "hardens"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "1wtznvs1dpqf211n",
+            "sourceHandle": "source",
+            "target": "05qnbfg0r8y5jy0g",
+            "targetHandle": "target",
+            "id": "xy-edge-098jbtz0hhruck1i__1wtznvs1dpqf211nsource-05qnbfg0r8y5jy0gtarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "04ljnu21w67n7y14",
+            "sourceHandle": "source",
+            "target": "1wtznvs1dpqf211n",
+            "targetHandle": "target",
+            "id": "xy-edge-160x31v150p5b111__04ljnu21w67n7y14source-1wtznvs1dpqf211ntarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "02kphib045vlqo1u",
+            "sourceHandle": "source",
+            "target": "0.8166579797904177",
+            "targetHandle": "target",
+            "id": "xy-edge-0pnfvr106p51tg1p__02kphib045vlqo1usource-0.8166579797904177target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.440020060688724",
+            "sourceHandle": "source",
+            "target": "14t8g530xmngzg19",
+            "targetHandle": "target",
+            "id": "xy-edge-0q0yck11h2ande04__0.440020060688724source-14t8g530xmngzg19target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6320035705317141",
+            "sourceHandle": "source",
+            "target": "0lpdgr21ud9sz11o",
+            "targetHandle": "target",
+            "id": "xy-edge-0ansz5f1eoeo8f02__0.6320035705317141source-0lpdgr21ud9sz11otarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:carries",
+                "label": "carries"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6320035705317141",
+            "sourceHandle": "source",
+            "target": "1a42wz505d8a6b1g",
+            "targetHandle": "target",
+            "id": "xy-edge-1sts0i904fkrm602__0.6320035705317141source-1a42wz505d8a6b1gtarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "1hnt3i313ifndb1y",
+            "sourceHandle": "source",
+            "target": "0.6320035705317141",
+            "targetHandle": "target",
+            "id": "xy-edge-04121od1kngopm0a__1hnt3i313ifndb1ysource-0.6320035705317141target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.39692008147277635",
+            "sourceHandle": "source",
+            "target": "18as4gz0lto0im1v",
+            "targetHandle": "target",
+            "id": "xy-edge-0k80b9z1kamgb41x__0.39692008147277635source-18as4gz0lto0im1vtarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7097641473424027",
+            "sourceHandle": "source",
+            "target": "0lbsj5d1ted3fu10",
+            "targetHandle": "target",
+            "id": "xy-edge-0pb6vmw05c1oen0v__0.7097641473424027source-0lbsj5d1ted3fu10target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:restricts",
+                "label": "restricts"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0lf9yu20ok67iz06",
+            "sourceHandle": "source",
+            "target": "0lbsj5d1ted3fu10",
+            "targetHandle": "target",
+            "id": "xy-edge-01diwaq1apzru30l__0lf9yu20ok67iz06source-0lbsj5d1ted3fu10target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5614394123520511",
+            "sourceHandle": "source",
+            "target": "02somlm04ouopq15",
+            "targetHandle": "target",
+            "id": "xy-edge-0dtfo061eghyjy0r__0.5614394123520511source-02somlm04ouopq15target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5614394123520511",
+            "sourceHandle": "source",
+            "target": "0abf9v30zj58181t",
+            "targetHandle": "target",
+            "id": "xy-edge-0gole9i1vdolcz0b__0.5614394123520511source-0abf9v30zj58181ttarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:contains",
+                "label": "contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.27148518612856765",
+            "sourceHandle": "source",
+            "target": "0.4755507783927301",
+            "targetHandle": "target",
+            "id": "xy-edge-1lwkwi00lh81ij16__0.27148518612856765source-0.4755507783927301target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "11qhd6b1vlcoqo1x",
+            "sourceHandle": "source",
+            "target": "02somlm04ouopq15",
+            "targetHandle": "target",
+            "id": "xy-edge-1a3mcpr1cyur3w0p__11qhd6b1vlcoqo1xsource-02somlm04ouopq15target",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": "may-contain"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1537197591330831",
+            "sourceHandle": "source",
+            "target": "1wd328q1an1qw00t",
+            "targetHandle": "target",
+            "id": "xy-edge-01b6czk03pi66015__0.1537197591330831source-1wd328q1an1qw00ttarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1537197591330831",
+            "sourceHandle": "source",
+            "target": "1m4vgtc1pjgrnt08",
+            "targetHandle": "target",
+            "id": "xy-edge-13m31bm1oln0rc0p__0.1537197591330831source-1m4vgtc1pjgrnt08target",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "1a68z5j0meiotc1p",
+            "sourceHandle": "source",
+            "target": "0pxgcjw0hnngmx0b",
+            "targetHandle": "target",
+            "id": "xy-edge-1p0i15h1sk02re01__1a68z5j0meiotc1psource-0pxgcjw0hnngmx0btarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0pxgcjw0hnngmx0b",
+            "sourceHandle": "source",
+            "target": "0s9u2xk0fu7g3g0b",
+            "targetHandle": "target",
+            "id": "xy-edge-0wnfcdi1vor8kb0o__0pxgcjw0hnngmx0bsource-0s9u2xk0fu7g3g0btarget",
+            "selected": false
+        },
+        {
+            "data": {
+                "label": "note"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "1cswvvg1rsdwhp0g",
+            "sourceHandle": "source",
+            "target": "1a42wz505d8a6b1g",
+            "targetHandle": "target",
+            "id": "xy-edge-1pvvmms0c3utiw0h__1cswvvg1rsdwhp0gsource-1a42wz505d8a6b1gtarget",
+            "selected": false
+        }
+    ]
+}
