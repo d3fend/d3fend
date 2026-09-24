@@ -1,0 +1,1 @@
+import{p as t,n as r}from"./CvFWPWPA.js";import"./B0XwC4Ot.js";const e={get data(){return t.data},get error(){return t.error},get form(){return t.form},get params(){return t.params},get route(){return t.route},get state(){return t.state},get status(){return t.status},get url(){return t.url}},a={get to(){return r.current?r.current.to:null}},u=e,o=a;export{o as n,u as p};
